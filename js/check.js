@@ -288,7 +288,7 @@
     if (!('serviceWorker' in navigator)) { set('アプリ本体の保存', 'ng', 'この端末では使えません（Service Workerなし）'); return; }
     var was = !!navigator.serviceWorker.controller;
     navigator.serviceWorker.register('sw.js').then(function () { return navigator.serviceWorker.ready; }).then(function () {
-      return caches.open('check-shell-v2').then(function (c) { return c.keys(); });
+      return caches.open('check-shell-v3').then(function (c) { return c.keys(); });
     }).then(function (keys) {
       var txt = '保存したファイル：' + keys.length + '個\n' + (was ? '今回は保存したアプリ本体から開きました。' : '初回です。もう一度読み込むと、保存したアプリ本体から開きます。') + '\n開き方：' + mode;
       set('アプリ本体の保存', was ? 'ok' : 'mid', txt);
@@ -334,43 +334,64 @@
   };
 
   // ---------- 12. 手書き（マス目） ----------
-  var counts = { pen: 0, touch: 0, mouse: 0, ignored: 0 }, penSeen = false, cells = [];
+  var counts = { pen: 0, touch: 0, mouse: 0, ignored: 0 }, lastPen = 0, cells = [];
+  var PEN_HOLD = 3000; // ペンを使ってから3秒間は、指（手のひら）を無視する
   function padInfo() { return 'ペン ' + counts.pen + '画／指 ' + counts.touch + '画／マウス ' + counts.mouse + '画／ペン使用中に無視した指 ' + counts.ignored + '回'; }
   function makeCell() {
-    var cv = document.createElement('canvas'), g = cv.getContext('2d'), live = {};
+    // 線は「枠に対する位置（0〜1）」で記録する。枠の大きさが変わっても、描き直せばずれない
+    var cv = document.createElement('canvas'), g = cv.getContext('2d'), live = {}, strokes = [];
     $('boxes').appendChild(cv);
+    var W = 0, H = 0;
+    function guide() {
+      g.save(); g.strokeStyle = '#d0d7de'; g.lineWidth = 1; g.setLineDash([4, 4]); // 4線の目安
+      [0.3, 0.55, 0.8].forEach(function (y) { g.beginPath(); g.moveTo(0, H * y); g.lineTo(W, H * y); g.stroke(); });
+      g.restore();
+    }
+    function seg(a, b) { g.beginPath(); g.moveTo(a[0] * W, a[1] * H); g.lineTo(b[0] * W, b[1] * H); g.stroke(); }
+    function redraw() {
+      g.clearRect(0, 0, W, H); guide();
+      g.lineWidth = 5; g.lineCap = 'round'; g.lineJoin = 'round'; g.strokeStyle = '#1f2328';
+      strokes.forEach(function (st) { if (st.length === 1) seg(st[0], st[0]); for (var i = 1; i < st.length; i++) seg(st[i - 1], st[i]); });
+    }
+    // いまの枠の大きさに合わせる（変わっていたら設定し直して描き直す）
     function fit() {
       var r = cv.getBoundingClientRect(), dpr = window.devicePixelRatio || 1;
-      cv.width = r.width * dpr; cv.height = r.height * dpr;
-      g.setTransform(dpr, 0, 0, dpr, 0, 0); g.lineWidth = 5; g.lineCap = 'round'; g.lineJoin = 'round'; g.strokeStyle = '#1f2328';
-      g.clearRect(0, 0, r.width, r.height);
-      g.strokeStyle = '#d0d7de'; g.lineWidth = 1; g.setLineDash([4, 4]); // 4線の目安
-      [0.3, 0.55, 0.8].forEach(function (y) { g.beginPath(); g.moveTo(0, r.height * y); g.lineTo(r.width, r.height * y); g.stroke(); });
-      g.setLineDash([]); g.strokeStyle = '#1f2328'; g.lineWidth = 5;
+      if (!r.width || !r.height) return r;
+      var bw = Math.round(r.width * dpr), bh = Math.round(r.height * dpr);
+      if (cv.width !== bw || cv.height !== bh || W !== r.width || H !== r.height) {
+        cv.width = bw; cv.height = bh; W = r.width; H = r.height;
+        g.setTransform(dpr, 0, 0, dpr, 0, 0);
+        redraw();
+      }
+      return r;
     }
+    function pos(e, r) { return [Math.min(1, Math.max(0, (e.clientX - r.left) / r.width)), Math.min(1, Math.max(0, (e.clientY - r.top) / r.height))]; }
     cv.addEventListener('pointerdown', function (e) {
-      if (e.pointerType === 'pen') penSeen = true;
-      if (e.pointerType === 'touch' && penSeen) { counts.ignored++; note('手書き', padInfo()); return; } // ペンの人は手のひらを無視
+      if (e.pointerType === 'pen') lastPen = Date.now();
+      if (e.pointerType === 'touch' && Date.now() - lastPen < PEN_HOLD) { counts.ignored++; note('手書き', padInfo()); return; }
       counts[e.pointerType] = (counts[e.pointerType] || 0) + 1;
       try { cv.setPointerCapture(e.pointerId); } catch (x) { /* なし */ }
-      var r = cv.getBoundingClientRect();
-      live[e.pointerId] = { x: e.clientX - r.left, y: e.clientY - r.top };
+      var r = fit(), p = pos(e, r), st = [p];
+      strokes.push(st); live[e.pointerId] = st; seg(p, p);
       e.preventDefault(); note('手書き', padInfo());
     });
     cv.addEventListener('pointermove', function (e) {
-      var p = live[e.pointerId]; if (!p) return;
-      var r = cv.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
-      g.beginPath(); g.moveTo(p.x, p.y); g.lineTo(x, y); g.stroke();
-      p.x = x; p.y = y; e.preventDefault();
+      var st = live[e.pointerId]; if (!st) return;
+      if (e.pointerType === 'pen') lastPen = Date.now();
+      var r = fit(), evs = e.getCoalescedEvents ? e.getCoalescedEvents() : [e];
+      (evs.length ? evs : [e]).forEach(function (ev) { var p = pos(ev, r); seg(st[st.length - 1], p); st.push(p); });
+      e.preventDefault();
     });
     var up = function (e) { delete live[e.pointerId]; };
     cv.addEventListener('pointerup', up); cv.addEventListener('pointercancel', up);
+    if (window.ResizeObserver) new ResizeObserver(function () { fit(); }).observe(cv);
     fit();
-    return { fit: fit };
+    return { fit: fit, clear: function () { strokes = []; redraw(); } };
   }
   for (var i = 0; i < 5; i++) cells.push(makeCell());
   window.addEventListener('resize', function () { cells.forEach(function (c) { c.fit(); }); });
-  $('btn-pad-clear').onclick = function () { cells.forEach(function (c) { c.fit(); }); };
+  window.addEventListener('orientationchange', function () { setTimeout(function () { cells.forEach(function (c) { c.fit(); }); }, 300); });
+  $('btn-pad-clear').onclick = function () { cells.forEach(function (c) { c.clear(); }); };
   $('btn-pad-ok').onclick = function () { set('手書き', 'ok', 'きれいに書けた：' + padInfo()); };
   $('btn-pad-ng').onclick = function () { set('手書き', 'ng', 'うまく書けない：' + padInfo()); };
 
