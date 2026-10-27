@@ -1,4 +1,5 @@
-// 英単語アプリ（試作品）：画面とレッスンの流れ
+// 英単語アプリ「単語の冒険」（試作品）：画面とレッスンの流れ
+// 見た目：ことばの王国を救う、ファンタジーRPG風（本番デザイン）
 const App = (() => {
   const CFG = window.APP_CONFIG || {};
   const $ = (s, el = document) => el.querySelector(s);
@@ -9,57 +10,92 @@ const App = (() => {
   const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const pick = (a) => a[Math.floor(Math.random() * a.length)];
 
+  // 地方（6レッスンごと）と、そこに出るモンスター
+  const REGIONS = [
+    { name: 'はじまりの村', ic: '🏘️', mon: 'グリーンスライム', color: '#6cc45a', dark: '#2f6b18' },
+    { name: '迷いの森', ic: '🌲', mon: 'もりスライム', color: '#3e9a6a', dark: '#1d4d33' },
+    { name: '灼熱の砂漠', ic: '🏜️', mon: 'サンドスライム', color: '#d9a441', dark: '#8a5a12' },
+    { name: '氷の山脈', ic: '🏔️', mon: 'アイススライム', color: '#8fd3f4', dark: '#2f6d8f' },
+    { name: '天空の塔', ic: '🌩️', mon: 'サンダースライム', color: '#b58cff', dark: '#4b2a8a' },
+  ];
+  const region = (n) => REGIONS[Math.min(REGIONS.length - 1, Math.floor((n - 1) / 6))];
+  const STEP_NAMES = [['📜', '呪文の書'], ['🎙️', '詠唱'], ['✍️', '刻印'], ['⚔️', '試練']];
   const CHEER = {
-    home: ['今日も一歩ずつ進もう！', 'コツコツ続ける人が、最後に勝つ！', '昨日の自分より、1語多く覚えよう。', 'きみの冒険は、まだ始まったばかり！', '声に出した単語は、忘れにくい！'],
-    right: ['正解！', 'いいね！', 'その調子！', 'ナイス！', 'さすが！'],
-    wrong: ['おしい！', 'ここで覚えれば大丈夫！', '間違えた単語ほど、伸びしろ！'],
-    stepDone: ['ステップクリア！', 'よくがんばった！', 'あと少し！'],
+    right: ['会心の いちげき！', 'ことばの 力が きいた！', 'みごとな 一撃！', 'その調子じゃ！'],
+    wrong: ['おしい！ でも ここで覚えれば 大丈夫！', '間違えた ことばほど、強くなれる！'],
+    stepDone: ['ステップ クリア！', 'みごとじゃ！', 'あと少しじゃ！'],
   };
+
+  // ---------- 背景 ----------
+  function setScene(name) {
+    document.body.dataset.scene = name;
+    let st = $('#stars');
+    if (!st) {
+      st = document.createElement('div'); st.id = 'stars'; st.className = 'stars';
+      let s = 7; const r = () => (s = (s * 9301 + 49297) % 233280) / 233280;
+      for (let i = 0; i < 110; i++) { const d = document.createElement('i'); const z = 1 + r() * 2.2; d.style.cssText = `left:${r() * 100}%;top:${r() * 75}%;width:${z}px;height:${z}px;opacity:${0.4 + r() * 0.6}`; st.appendChild(d); }
+      document.body.prepend(st);
+    }
+    st.style.display = name === 'night' ? '' : 'none';
+    document.querySelectorAll('.moon, .castle-land, .rays').forEach((e) => e.remove());
+    window.scrollTo(0, 0);
+  }
 
   // ---------- 起動 ----------
   async function start() {
     if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
     if (!API.loggedIn()) return showLogin();
-    showLoading('データを読み込んでいます…');
+    showLoading('冒険の記録を 読みこんでいます…');
     try {
       const j = await API.call('init');
       if (!j.ok) { if (!API.loggedIn()) return showLogin(j.error); return showError(j.error); }
       S.email = j.email; S.today = j.today; S.config = j.config; S.progress = j.progress;
       S.list = j.words; S.words = {}; j.words.forEach((w) => { S.words[w.word] = w; });
       API.flush();
-      const st = loadState();
-      if (st && S.progress.lessons[st.n] && !S.progress.lessons[st.n].done) return showHome(true);
       showHome();
     } catch (e) { showError(e.message); }
   }
   function onProgress(p) { if (p) S.progress = p; }
 
   // ---------- 共通の画面 ----------
-  function header(title, back) {
-    return `<header class="top"><div class="top-l">${back ? '<button class="ghost" id="back">← マップ</button>' : '<span class="logo">🗺️ 単語の冒険</span>'}</div><div class="top-c">${esc(title || '')}</div><div class="top-r">${back ? '' : '<button class="ghost" id="gear" aria-label="設定">⚙️</button>'}</div></header>`;
-  }
-  function bindHeader() {
-    const b = $('#back'); if (b) b.onclick = () => { if (confirm('マップに戻りますか？（このステップは最初からになります）')) { stopAll(); showHome(); } };
-    const g = $('#gear'); if (g) g.onclick = showSettings;
-  }
-  function showLoading(msg) { main().innerHTML = `<div class="center"><div class="spinner"></div><p>${esc(msg)}</p></div>`; }
+  function showLoading(msg) { setScene('night'); main().innerHTML = `<div class="loading"><div class="spinner"></div>${esc(msg)}</div>`; }
   function showError(msg) {
-    main().innerHTML = `<div class="center card"><p class="big">😢</p><p>${esc(msg)}</p><button class="btn primary" id="retry">もう一度ためす</button></div>`;
+    setScene('night');
+    main().innerHTML = `<div class="loading"><div class="parch" style="max-width:560px;margin:0 auto;font-family:var(--body)"><p style="font-size:44px;margin:0">😢</p><p>${esc(msg)}</p>
+      <button class="gbtn" id="retry">もう一度ためす</button></div></div>`;
     $('#retry').onclick = start;
   }
-  function showLogin(msg) {
-    main().innerHTML = `<div class="center card login">
-      <p class="big">🗺️</p><h1>単語の冒険</h1>
-      <p>学校のGoogleアカウントでログインしてください。</p>
-      ${msg ? `<p class="notice warn">${esc(msg)}</p>` : ''}
-      <button class="btn primary big-btn" id="login">ログインする</button>
-      <p class="small muted">試作品：先生のアカウントだけが使えます。</p></div>`;
-    $('#login').onclick = API.login;
+  function owl(text, who = 'フクロウ先生') {
+    return `<div class="rpg owl"><span class="who">${esc(who)}</span><span class="face">🦉</span>${text}<span class="tri">▼</span></div>`;
   }
 
-  // ---------- ホーム（冒険マップ） ----------
+  // ---------- ログイン ----------
+  function showLogin(msg) {
+    setScene('night');
+    document.body.insertAdjacentHTML('beforeend', `<div class="moon"></div>
+      <svg class="castle-land" viewBox="0 0 820 300" preserveAspectRatio="xMidYMax slice">
+        <path d="M0 170 L120 110 L230 160 L340 90 L470 150 L600 100 L720 145 L820 115 L820 300 L0 300Z" fill="#1a1550"/>
+        <g fill="#0c0a2c"><rect x="320" y="140" width="180" height="160"/><rect x="300" y="100" width="44" height="200"/><rect x="476" y="100" width="44" height="200"/>
+        <rect x="385" y="60" width="50" height="240"/><polygon points="300,100 322,58 344,100"/><polygon points="476,100 498,58 520,100"/><polygon points="385,60 410,4 435,60"/>
+        <rect x="316" y="124" width="9" height="14" fill="#ffd56b"/><rect x="494" y="124" width="9" height="14" fill="#ffd56b"/><rect x="404" y="92" width="11" height="18" fill="#ffd56b"/></g>
+        <path d="M0 240 Q200 210 410 232 T820 218 L820 300 L0 300Z" fill="#070618"/></svg>`);
+    main().innerHTML = `<div class="login-wrap">
+      <div class="crest">📖</div>
+      <div class="title">単語の冒険</div>
+      <div class="subtitle">〜 忘却の魔王から ことばの王国を救え 〜</div>
+      <div class="rpg"><span class="who">フクロウ先生</span>ようこそ、見習い冒険者よ。<br>うばわれた ことばを 取りもどし、王国を 救うのじゃ。<br>まずは 学校のアカウントで 名を名乗るがよい。<span class="tri">▼</span></div>
+      ${msg ? `<p class="notice">${esc(msg)}</p>` : ''}
+      <button class="gbtn" id="login">⚔️ 冒険をはじめる<small>（学校のGoogleアカウントでログイン）</small></button>
+      <div class="foot">冬休みクエスト ｜ 締切：${esc(fmtJa(CFG.DEADLINE || '2027-01-12'))}<br>試作品：先生のアカウントだけが使えます</div>
+    </div>`;
+    $('#login').onclick = API.login;
+  }
+  function fmtJa(iso) { const [, m, d] = iso.split('-').map(Number); return `${m}月${d}日`; }
+
+  // ---------- 記録から計算する数字 ----------
+  function fmtDay(d) { return new Date(d.getTime() + 9 * 3600000).toISOString().slice(0, 10); }
   function streak() {
-    const days = Object.keys((S.progress && S.progress.days) || {}).sort();
+    const days = Object.keys((S.progress && S.progress.days) || {});
     if (!days.length) return 0;
     const set = new Set(days);
     let d = new Date(S.today + 'T00:00:00+09:00'), n = 0;
@@ -67,92 +103,180 @@ const App = (() => {
     while (set.has(fmtDay(d))) { n++; d = new Date(d.getTime() - 86400000); }
     return n;
   }
-  function fmtDay(d) { return new Date(d.getTime() + 9 * 3600000).toISOString().slice(0, 10); }
   function lessonStatus(n) {
     const L = S.progress.lessons[n];
     if (L && L.done) return 'done';
     for (let i = 1; i < n; i++) { const P = S.progress.lessons[i]; if (!P || !P.done) return 'locked'; }
     return L ? 'doing' : 'next';
   }
-  function showHome() {
-    stopAll();
+  function learnedWords() {
+    const set = new Set();
+    Object.values(S.progress.lessons).forEach((L) => { if (L.done) L.words.concat(L.review || []).forEach((w) => set.add(w)); });
+    return set.size;
+  }
+  function testRate() {
+    let r = 0, w = 0;
+    Object.values(S.progress.stats || {}).forEach((s) => { r += s.tRight || 0; w += s.tWrong || 0; });
+    return r + w ? Math.round(r / (r + w) * 100) : null;
+  }
+  function summary() {
     const P = S.progress, total = P.lessonCount;
     const done = Object.keys(P.lessons).filter((k) => P.lessons[k].done).length;
     let cur = 0; for (let n = 1; n <= total; n++) { const s = lessonStatus(n); if (s === 'next' || s === 'doing') { cur = n; break; } }
-    const pct = Math.round(done / total * 100);
     const left = total - done;
     const deadline = new Date((CFG.DEADLINE || '2027-01-12') + 'T23:59:59+09:00');
     const daysLeft = Math.max(0, Math.ceil((deadline - new Date(S.today + 'T00:00:00+09:00')) / 86400000));
-    const needPerDay = daysLeft ? Math.ceil(left / daysLeft * 10) / 10 : left;
-    const pace = !left ? '全レッスンクリア！ 最終試験に向けて復習しよう。'
-      : needPerDay > P.dailyLimit ? `⚠️ このままだと締切に間に合いません。今日から毎日 ${P.dailyLimit} レッスンやろう！`
-      : `締切まであと ${daysLeft} 日。1日 ${needPerDay} レッスンのペースで間に合います。`;
+    const needPerDay = daysLeft ? left / daysLeft : left;
     const todayLeft = Math.max(0, P.dailyLimit - P.todayCount);
     const curStatus = cur ? lessonStatus(cur) : null;
-    const canStart = cur && (curStatus === 'doing' || todayLeft > 0);
-    main().innerHTML = header('') + `
-      <section class="hero card">
-        <p class="cheer">${esc(pick(CHEER.home))}</p>
-        <div class="chips">
-          <div class="chip"><b>${P.todayCount}/${P.dailyLimit}</b><span>今日のレッスン</span></div>
-          <div class="chip"><b>${done}/${total}</b><span>クリア</span></div>
-          <div class="chip"><b>🔥 ${streak()}</b><span>連続日数</span></div>
-          <div class="chip"><b>${Math.round((P.studySec || 0) / 60)}分</b><span>学習時間</span></div>
+    const canStart = !!cur && (curStatus === 'doing' || todayLeft > 0);
+    // このペースで進んだときに終わる日（1日の上限でやった場合）
+    const finishDays = Math.ceil(Math.max(0, left - Math.min(left, todayLeft)) / P.dailyLimit);
+    const finishDate = fmtJa(fmtDay(new Date(new Date(S.today + 'T00:00:00+09:00').getTime() + finishDays * 86400000))); // 日本時間で計算
+    return { P, total, done, cur, left, daysLeft, needPerDay, todayLeft, curStatus, canStart, finishDate, behind: needPerDay > P.dailyLimit };
+  }
+
+  // ---------- 村（メニュー） ----------
+  function showHome() {
+    stopAll(); setScene('village');
+    const m = summary(), P = m.P;
+    const name = S.email.split('@')[0];
+    // 本日のクエスト：今日始めたレッスン ＋ 今日あとできるレッスン（1日の上限まで）
+    const todays = Object.values(P.lessons).filter((L) => L.startedDay === S.today).map((L) => L.n).sort((a, b) => a - b);
+    const slots = [];
+    todays.forEach((n) => slots.push({ n, st: P.lessons[n].done ? 'done' : 'now' }));
+    let nx = m.cur && !todays.includes(m.cur) ? m.cur : (todays.length ? Math.max(...todays) + 1 : m.cur);
+    while (slots.length < P.dailyLimit && nx && nx <= m.total) { slots.push({ n: nx, st: slots.some((s) => s.st === 'now') || m.todayLeft <= 0 ? 'lock' : 'now' }); nx++; }
+    const first = slots.length ? slots[0].n : 0, lastN = slots.length ? slots[slots.length - 1].n : 0;
+    const allDoneToday = slots.length && slots.every((s) => s.st === 'done');
+    const reg = m.cur ? region(m.cur) : REGIONS[REGIONS.length - 1];
+    let talk;
+    if (!m.cur) talk = 'ホッホー、すべての レッスンを 攻略したな！ 最終試験に そなえて 復習じゃ。';
+    else if (m.curStatus === 'doing') talk = `レッスン${m.cur}の つづきが 待っておるぞ。途中から 再開できるのじゃ。`;
+    else if (!m.canStart) talk = '今日の クエストは 達成じゃ！ よく休んで、明日 また会おう。';
+    else if (m.done === 0) talk = 'まずは レッスン1から 冒険を はじめるのじゃ。読んで・言って・書いて、ことばを 取りもどせ！';
+    else {
+      const lastDone = Object.values(P.lessons).filter((L) => L.done).sort((a, b) => b.n - a.n)[0];
+      talk = lastDone && lastDone.summary && lastDone.summary.test ? `前回の 書きの試練は ${esc(lastDone.summary.test)} じゃったな。今日も その調子じゃ！` : '今日も 一歩ずつ 進むのじゃ！';
+    }
+    if (m.behind && m.cur) talk = `このままでは 締切に 間に合わんぞ！ 今日から 毎日 ${P.dailyLimit}つ 進めるのじゃ。`;
+    const qsHtml = slots.map((s) => `<div class="qs ${s.st}"><span class="ic">${s.st === 'done' ? '✅' : s.st === 'now' ? '⚔️' : '🔒'}</span>レッスン${s.n}<br><small>${s.st === 'done' ? 'クリア！' : s.st === 'now' ? (lessonStatus(s.n) === 'doing' ? 'つづきから' : 'これから') : ''}</small></div>`).join('');
+    main().innerHTML = `
+      <div class="hud">
+        <div class="avatar">🧝</div>
+        <div class="who2"><div class="name">冒険者 ${esc(name)}</div><div class="sub2">${esc(reg.ic + ' ' + reg.name)}を 冒険中</div></div>
+        <div class="res"><span class="pill">🔥 ${streak()}日</span><span class="pill">🗡️ ${learnedWords()}語</span><span class="pill">⏱ ${Math.round((P.studySec || 0) / 60)}分</span></div>
+        <button class="gear" id="gear" aria-label="設定">⚙️</button>
+      </div>
+      <div class="doom${m.behind ? ' warn' : ''}">⏳ 魔王の封印がとけるまで あと <b>${m.daysLeft}</b> 日 ｜ ${m.left ? (m.behind ? '<b>ペースが足りない！</b>' : `このペースなら <b>${m.finishDate}</b> にクリア！`) : '<b>全レッスン攻略！</b>'}</div>
+      <div class="two">
+        <section class="parch quest">
+          <h2>📜 本日のクエスト</h2>
+          <div class="q">${slots.length ? `「${esc(reg.name)}」の レッスン${first}${lastN > first ? `〜${lastN}` : ''}を 攻略せよ！` : '全レッスン 攻略ずみ！'}</div>
+          <div class="qsteps">${qsHtml}</div>
+          ${m.cur ? `<button class="gbtn" id="go" ${m.canStart ? '' : 'disabled'}>${m.canStart ? (m.curStatus === 'doing' ? '▶ つづきから 冒険する' : `▶ レッスン${m.cur}へ 出発！`) : (allDoneToday ? '今日のクエスト 達成！' : 'また明日 冒険しよう')}</button>` : ''}
+        </section>
+        <div>
+          <div class="village"><span>🌳</span><span>🏠</span><span>⛪</span><span>🏡</span><span>🌲</span></div>
+          <div class="tiles">
+            <button class="tile" id="toMap"><span class="ic">🗺️</span><span class="t">冒険マップ</span></button>
+            <button class="tile" id="toSet"><span class="ic">⚙️</span><span class="t">設定</span></button>
+          </div>
+          ${owl(talk)}
+          ${API.pending() ? `<p class="pending">送信待ちの記録：${API.pending()}件（電波のよい場所で自動で送ります）</p>` : ''}
         </div>
-        <div class="progress"><div style="width:${pct}%"></div></div>
-        <p class="small">${esc(pace)}</p>
-        ${cur ? `<button class="btn primary big-btn" id="go" ${canStart ? '' : 'disabled'}>${curStatus === 'doing' ? `レッスン ${cur} のつづきから` : `レッスン ${cur} をはじめる`}</button>
-          ${canStart ? '' : '<p class="small muted center-t">今日のレッスンはここまで。明日また冒険しよう！</p>'}` : ''}
-      </section>
-      <section class="map card"><h2>冒険マップ</h2>${mapSvg(total, cur)}</section>
-      ${API.pending() ? `<p class="small muted center-t">送信待ちの記録：${API.pending()}件（電波のよい場所で自動で送ります）</p>` : ''}`;
-    bindHeader();
-    const go = $('#go'); if (go) go.onclick = () => openLesson(cur);
+      </div>`;
+    $('#gear').onclick = showSettings; $('#toSet').onclick = showSettings; $('#toMap').onclick = showMap;
+    const go = $('#go'); if (go) go.onclick = () => openLesson(m.cur);
+  }
+
+  // ---------- 冒険マップ・進み具合 ----------
+  function showMap() {
+    stopAll(); setScene('map');
+    const m = summary();
+    const learned = learnedWords(), totalWords = S.list.length, rate = testRate();
+    const pct = totalWords ? Math.round(learned / totalWords * 100) : 0;
+    main().innerHTML = `
+      <div class="lhead"><button class="back" id="toVillage">← 村へ</button><span class="ttl">冒険マップ</span><span class="cnt"></span></div>
+      <div class="two map">
+        <div class="mapframe"><h2>ことばの王国 全図</h2>${mapSvg(m.total, m.cur)}</div>
+        <section class="panel statpanel">
+          <div class="ring" style="background:conic-gradient(var(--gold) 0 ${pct}%, rgba(255,255,255,.12) ${pct}% 100%)"><div><b>${learned}</b>/ ${totalWords}語<br><span class="muted">取りもどした ことば</span></div></div>
+          <div class="stats">
+            <div class="st"><div class="k">攻略したレッスン</div><div class="v">${m.done} / ${m.total}</div></div>
+            <div class="st"><div class="k">書きの試練 正答率</div><div class="v">${rate == null ? '―' : rate + '%'}</div></div>
+            <div class="st"><div class="k">連続日数</div><div class="v">🔥 ${streak()}日</div></div>
+            <div class="st"><div class="k">学習時間</div><div class="v">⏱ ${Math.round((m.P.studySec || 0) / 60)}分</div></div>
+            <div class="st" style="grid-column:1/-1"><div class="k">締切まで</div><div class="v">⏳ あと ${m.daysLeft}日（残り ${m.left}レッスン）</div></div>
+          </div>
+        </section>
+      </div>`;
+    $('#toVillage').onclick = showHome;
     main().querySelectorAll('[data-lesson]').forEach((g) => g.addEventListener('click', () => {
       const n = Number(g.dataset.lesson), s = lessonStatus(n);
-      if (s === 'done') U.toast(`レッスン ${n} はクリア済み！（2周目の機能は準備中）`);
-      else if (s === 'locked') U.toast('前のレッスンをクリアすると進めます');
-      else if (canStart) openLesson(n);
+      if (s === 'done') U.toast(`レッスン ${n} は 攻略ずみ！（2周目は準備中）`);
+      else if (s === 'locked') U.toast('前の レッスンを 攻略すると 進めます');
+      else if (m.canStart) openLesson(n);
+      else U.toast('今日の クエストは ここまで。また明日！');
     }));
   }
   function mapSvg(total, cur) {
-    const W = 340, rowH = 84, H = rowH * (total + 1) + 40;
+    const per = Math.min(6, total), rows = Math.ceil(total / per);
+    const W = 772, top = 150, gapY = 150, H = top + (rows - 1) * gapY + 110, left = 90, right = 690;
     const pts = [];
-    for (let i = 0; i <= total; i++) { const x = [70, 170, 270, 170][i % 4]; pts.push([x, H - 50 - i * rowH]); }
-    let path = `M${pts[0][0]},${pts[0][1]}`;
-    for (let i = 1; i < pts.length; i++) { const [x0, y0] = pts[i - 1], [x1, y1] = pts[i]; path += ` C${x0},${y0 - rowH / 2} ${x1},${y1 + rowH / 2} ${x1},${y1}`; }
-    let nodes = '';
-    for (let n = 1; n <= total; n++) {
-      const [x, y] = pts[n - 1], s = lessonStatus(n);
-      const fill = s === 'done' ? 'var(--gold)' : s === 'locked' ? 'var(--locked)' : 'var(--accent)';
-      const label = s === 'done' ? '★' : s === 'locked' ? '🔒' : String(n);
-      nodes += `<g class="node ${s}${n === cur ? ' cur' : ''}" data-lesson="${n}" role="button">
-        ${n === cur ? `<circle cx="${x}" cy="${y}" r="34" class="pulse"/>` : ''}
-        <circle cx="${x}" cy="${y}" r="26" fill="${fill}" stroke="#fff" stroke-width="4"/>
-        <text x="${x}" y="${y + 7}" text-anchor="middle" class="nlabel">${label}</text>
-        <text x="${x}" y="${y + 46}" text-anchor="middle" class="ncap">レッスン${n}</text></g>`;
+    for (let i = 0; i < total; i++) {
+      const r = Math.floor(i / per), c = i % per, cc = r % 2 === 0 ? c : per - 1 - c;
+      const x = per === 1 ? (left + right) / 2 : left + (right - left) * cc / (per - 1);
+      pts.push([x, H - 70 - r * gapY + (cc % 2 ? -12 : 12)]);
     }
-    const [fx, fy] = pts[total];
-    nodes += `<g class="node goal"><text x="${fx}" y="${fy + 12}" text-anchor="middle" class="castle">🏰</text><text x="${fx}" y="${fy + 46}" text-anchor="middle" class="ncap">最終試験（準備中）</text></g>`;
-    return `<svg viewBox="0 0 ${W} ${H}" class="mapsvg"><path d="${path}" class="road"/>${nodes}</svg>`;
+    const last = pts[pts.length - 1];
+    const castle = [last[0] > W / 2 ? last[0] - 10 : last[0] + 10, Math.max(70, last[1] - 95)];
+    let d = `M${pts[0][0]},${pts[0][1]}`;
+    for (let i = 1; i < pts.length; i++) {
+      const [x0, y0] = pts[i - 1], [x1, y1] = pts[i];
+      if (y0 - y1 > 60) d += ` C${x0 + (x0 > W / 2 ? 80 : -80)},${y0} ${x1 + (x1 > W / 2 ? 80 : -80)},${y1} ${x1},${y1}`;
+      else d += ` Q${(x0 + x1) / 2},${(y0 + y1) / 2 + 16} ${x1},${y1}`;
+    }
+    d += ` Q${last[0]},${(last[1] + castle[1]) / 2} ${castle[0]},${castle[1] + 20}`;
+    let g = `<path d="${d}" fill="none" stroke="#8a6234" stroke-width="12" stroke-dasharray="2 18" stroke-linecap="round" opacity=".8"/>`;
+    for (let r = 0; r < rows; r++) {
+      const reg = region(r * per + 1), y = H - 70 - r * gapY - 66;
+      const lo = r * per + 1, hi = Math.min(total, (r + 1) * per);
+      const label = `${reg.ic} ${reg.name}　${lo}〜${hi}`;
+      g += `<g><rect x="${W / 2 - 150}" y="${y - 22}" width="300" height="36" rx="8" fill="rgba(255,248,230,.75)" stroke="#6b5232" stroke-width="2"/><text x="${W / 2}" y="${y + 4}" text-anchor="middle" font-size="20" fill="#3b2a14" class="region">${label}</text></g>`;
+    }
+    pts.forEach(([x, y], i) => {
+      const n = i + 1, s = lessonStatus(n);
+      g += `<g class="node" data-lesson="${n}" role="button">`;
+      if (s === 'done') g += `<circle cx="${x}" cy="${y}" r="24" fill="#f7c948" stroke="#fff" stroke-width="4"/><text x="${x}" y="${y + 8}" text-anchor="middle" font-size="22" fill="#8a5a12">★</text>`;
+      else if (n === cur) g += `<circle cx="${x}" cy="${y}" r="40" fill="#4aa3ff" class="pulse"/><circle cx="${x}" cy="${y}" r="28" fill="#2563eb" stroke="#fff" stroke-width="5"/><text x="${x}" y="${y + 9}" text-anchor="middle" font-size="24" fill="#fff">${n}</text><text x="${x}" y="${y - 40}" text-anchor="middle" font-size="44" class="hero-bob">🧝</text>`;
+      else g += `<circle cx="${x}" cy="${y}" r="22" fill="#b8a58a" stroke="#fff8e6" stroke-width="3"/><text x="${x}" y="${y + 7}" text-anchor="middle" font-size="18" fill="#fff">${n}</text>`;
+      g += '</g>';
+    });
+    g += `<text x="${castle[0]}" y="${castle[1]}" text-anchor="middle" font-size="64">🏰</text><text x="${castle[0]}" y="${castle[1] + 30}" text-anchor="middle" font-size="15" fill="#3a0a4a" class="region">魔王城（最終試験・準備中）</text>`;
+    return `<svg viewBox="0 0 ${W} ${H}" class="mapsvg">${g}</svg>`;
   }
 
   // ---------- 設定 ----------
   async function showSettings() {
+    stopAll(); setScene('night');
     const cached = await Voice.modelReady();
-    main().innerHTML = header('設定', false).replace('<span class="logo">🗺️ 単語の冒険</span>', '<button class="ghost" id="home">← マップ</button>') + `
-      <section class="card"><h2>アカウント</h2><p>${esc(S.email)}</p><button class="btn" id="logout">ログアウト</button></section>
-      <section class="card"><h2>発音判定のAI</h2><p>${cached ? '✅ この端末に保存済み' : '未保存（発音ステップの前にダウンロードします）'}</p></section>
-      <section class="card"><h2>手書きの学習データ</h2><p>この端末で覚えた、あなたの字の手本：${HW.personalCount()}文字分</p>
-        <button class="btn" id="forget">手書きの学習データを消す</button></section>
-      <section class="card"><h2>試作品用</h2><p class="small">進み具合をすべて消して、レッスン1からやり直します。</p>
-        <button class="btn danger" id="reset">進み具合をリセット</button></section>
-      <section class="card small muted"><h2>このアプリについて</h2>
-        <p>発音判定：HuBERT 音素認識モデル（ron-jo/hubert-base-phoneme-en-onnx・Apache-2.0）、ONNX Runtime Web（MIT）、CMU Pronouncing Dictionary（BSD）、Moby Hyphenator II（パブリックドメイン）。</p>
-        <p>AIの判定は目安です。先生のお手本や辞書の音声も聞きましょう。手書きの読み取りも、丁寧に書かないと正しく読めないことがあります。</p>
-        <p>録音した声は、この端末の中だけで処理し、どこにも送りません。</p></section>`;
+    main().innerHTML = `
+      <div class="lhead"><button class="back" id="home">← 村へ</button><span class="ttl">設定</span><span class="cnt"></span></div>
+      <div class="two">
+        <div>
+          <section class="parch setting"><h2>アカウント</h2><p>${esc(S.email)}</p><button class="btn" id="logout">ログアウト</button></section>
+          <section class="parch setting"><h2>発音判定のAI</h2><p>${cached ? '✅ この端末に保存ずみ' : '未保存（詠唱のステップの前にダウンロードします）'}</p></section>
+          <section class="parch setting"><h2>手書きの学習データ</h2><p>この端末で覚えた、あなたの字の手本：${HW.personalCount()}文字分</p><button class="btn" id="forget">手書きの学習データを消す</button></section>
+          <section class="parch setting"><h2>試作品用</h2><p class="small">進み具合をすべて消して、レッスン1からやり直します。</p><button class="btn danger" id="reset">進み具合をリセット</button></section>
+        </div>
+        <section class="parch setting small"><h2>このアプリについて</h2>
+          <p>発音判定：HuBERT 音素認識モデル（ron-jo/hubert-base-phoneme-en-onnx・Apache-2.0）、ONNX Runtime Web（MIT）、CMU Pronouncing Dictionary（BSD）、Moby Hyphenator II（パブリックドメイン）。</p>
+          <p>文字：DotGothic16、Mochiy Pop One、Zen Maru Gothic、Kaisei Decol（いずれも SIL Open Font License）。</p>
+          <p>AIの判定は目安です。先生のお手本や辞書の音声も聞きましょう。手書きの読み取りも、丁寧に書かないと正しく読めないことがあります。</p>
+          <p>録音した声は、この端末の中だけで処理し、どこにも送りません。</p></section>
+      </div>`;
     $('#home').onclick = showHome;
-    $('#gear') && ($('#gear').style.display = 'none');
     $('#logout').onclick = () => { API.logout(); showLogin(); };
     $('#forget').onclick = () => { if (confirm('手書きの学習データを消しますか？')) { HW.forget(); showSettings(); } };
     $('#reset').onclick = async () => {
@@ -191,7 +315,7 @@ const App = (() => {
 
   // ---------- レッスン ----------
   async function openLesson(n) {
-    showLoading('レッスンを準備しています…');
+    showLoading('レッスンを 準備しています…');
     let j;
     try { j = await API.call('startLesson', { n }); } catch (e) { return showError(e.message); }
     if (!j.ok) { U.toast(j.error); S.progress = j.progress || S.progress; return showHome(); }
@@ -215,22 +339,31 @@ const App = (() => {
       runStep(L, words, st);
     });
   }
-  function stepBar(cur) {
-    const names = ['穴うめ', '発音', '書く練習', '書きテスト'];
-    return `<ol class="steps">${names.map((nm, i) => `<li class="${i + 1 < cur ? 'done' : i + 1 === cur ? 'cur' : ''}">${i + 1}. ${nm}</li>`).join('')}</ol>`;
+  // レッスン中の上の帯（戻る・タイトル・4つのステップ・進み具合）
+  function lessonHeader(L, step, i, n) {
+    const reg = region(L.n);
+    return `<div class="lhead"><button class="back" id="back">← 村へ</button><span class="ttl">レッスン${L.n}　${esc(reg.name)}</span><span class="cnt">${n ? `${i} / ${n}` : ''}</span></div>
+      <div class="gems">${STEP_NAMES.map(([ic, nm], k) => `<div class="gem ${k + 1 < step ? 'done' : k + 1 === step ? 'now' : ''}"><span class="g">${ic}</span>${k + 1}. ${nm}</div>`).join('')}</div>
+      ${n ? `<div class="bar lprog"><div style="width:${Math.round(i / n * 100)}%"></div></div>` : ''}`;
+  }
+  function bindHeader() {
+    const b = $('#back'); if (b) b.onclick = () => { if (confirm('村に戻りますか？（このステップは最初からになります）')) { stopAll(); showHome(); } };
   }
   function stepBreak(done) {
     return new Promise((res) => {
-      main().innerHTML = `<div class="center card celebrate"><p class="big">🎉</p><h2>${esc(pick(CHEER.stepDone))}</h2><p>ステップ${done}が終わりました。</p><button class="btn primary big-btn" id="nx">つぎのステップへ</button></div>`;
+      setScene('night');
+      const [ic, nm] = STEP_NAMES[done - 1], [ic2, nm2] = STEP_NAMES[done];
+      main().innerHTML = `<div class="celebrate step-clear"><p class="big">${ic}</p><h1>${esc(pick(CHEER.stepDone))}</h1>
+        <p style="font-family:var(--pop);font-size:20px">「${nm}」を 修めた！ つぎは「${nm2}」${ic2}</p>
+        <button class="gbtn" id="nx">つぎの ステップへ</button></div>`;
       $('#nx').onclick = res;
     });
   }
-  function lessonHeader(L, step, extra = '') {
-    return header(`レッスン ${L.n}`, true) + stepBar(step) + extra;
+  function slimeSvg(reg) {
+    return `<svg viewBox="0 0 190 150"><ellipse cx="95" cy="140" rx="80" ry="10" fill="rgba(0,0,0,.35)"/><path d="M15 135 C10 90 40 40 95 20 C150 40 180 90 175 135 Z" fill="${reg.color}" stroke="${reg.dark}" stroke-width="5"/><path d="M40 70 C55 45 75 35 90 32" stroke="#fff" stroke-width="10" fill="none" stroke-linecap="round" opacity=".55"/><ellipse cx="70" cy="90" rx="12" ry="16" fill="#2b1a08"/><ellipse cx="120" cy="90" rx="12" ry="16" fill="#2b1a08"/><circle cx="74" cy="84" r="4" fill="#fff"/><circle cx="124" cy="84" r="4" fill="#fff"/><path d="M78 115 Q95 128 112 115" stroke="#2b1a08" stroke-width="5" fill="none" stroke-linecap="round"/></svg>`;
   }
-  function bar(i, n) { return `<div class="progress thin"><div style="width:${Math.round(i / n * 100)}%"></div></div><p class="small muted right-t">${i}/${n}</p>`; }
 
-  // ===== ステップ1：穴うめ =====
+  // ===== ステップ1：呪文の書（穴うめ） =====
   function blankHtml(ex) {
     const re = new RegExp(`\\b${ex.blank}\\b`);
     return esc(ex.en).replace(re, '<span class="blank">　　　　</span>');
@@ -245,27 +378,41 @@ const App = (() => {
     return exs[seen % exs.length];
   }
   function stepQuiz(L, words, st, next) {
+    setScene('night');
+    const reg = region(L.n);
     let queue = shuffle(words).map((w) => ({ w, ex: chooseEx(w), tries: 0 }));
-    const total = queue.length; let doneN = 0;
+    const total = queue.length; let doneN = 0, combo = 0;
     const show = () => {
       if (!queue.length) return next();
       const q = queue[0];
       const others = shuffle(words.filter((x) => x !== q.w)).slice(0, 3);
       const choices = shuffle([q.w].concat(others));
       const t0 = Date.now(); let hintUsed = false, answered = false;
-      main().innerHTML = lessonHeader(L, 1, bar(doneN, total)) + `
-        <section class="card q">
-          <p class="small muted">空らんに入る、いちばん合う単語を選ぼう</p>
-          <p class="sentence">${blankHtml(q.ex)}</p>
-          <div class="hint" id="hint"><button class="btn small" id="hintBtn" disabled>💡 ヒント（<span id="hs">15</span>秒後）</button></div>
-          <div class="choices">${choices.map((c) => `<button class="choice" data-c="${esc(c)}">${esc(c)}</button>`).join('')}</div>
-          <div id="fb"></div>
-        </section>`;
+      main().innerHTML = lessonHeader(L, 1, doneN, total) + `
+        <div class="quiz">
+          <div class="arena">
+            <div class="enemy" id="enemy"><div class="nm">${esc(reg.mon)}</div>${slimeSvg(reg)}<div class="bar hp"><div style="width:${Math.round((total - doneN) / total * 100)}%"></div></div></div>
+            <div class="dmg" id="dmg">-1</div>
+            ${combo >= 2 ? `<div class="combo">${combo} コンボ！<small>正解で こうげき</small></div>` : ''}
+            <div class="hero">🧝</div>
+          </div>
+          <div>
+            <section class="parch scroll">
+              <p class="lead">空らんに入る ことばを えらべ！</p>
+              <p class="sentence">${blankHtml(q.ex)}</p>
+              <div id="hint"><button class="hintbtn" id="hintBtn" disabled><span class="hring" id="hr"></span>💡 ヒントの巻物まで あと <span id="hs">15</span> 秒</button></div>
+            </section>
+            <div class="runes">${choices.map((c) => `<button class="choice" data-c="${esc(c)}">${esc(c)}</button>`).join('')}</div>
+          </div>
+        </div>
+        <div class="rpg" id="fb">▶ 正しい ことばを えらんで、${esc(reg.mon)}に こうげきだ！<span class="tri">▼</span></div>`;
       bindHeader();
       let left = 15;
+      const ring = () => { const hr = $('#hr'); if (hr) hr.style.background = `conic-gradient(var(--gold2) 0 ${(15 - left) / 15 * 100}%, rgba(0,0,0,.15) 0)`; };
+      ring();
       const timer = setInterval(() => {
-        left--; const hs = $('#hs'); if (hs) hs.textContent = left;
-        if (left <= 0) { clearInterval(timer); const hb = $('#hintBtn'); if (hb) { hb.disabled = false; hb.textContent = '💡 ヒントを見る（和訳）'; } }
+        left--; const hs = $('#hs'); if (hs) hs.textContent = left; ring();
+        if (left <= 0) { clearInterval(timer); const hb = $('#hintBtn'); if (hb) { hb.disabled = false; hb.innerHTML = '📜 ヒントの巻物を ひらく（和訳）'; } }
       }, 1000);
       cleanups.push(() => clearInterval(timer));
       $('#hintBtn').onclick = () => { hintUsed = true; $('#hint').innerHTML = `<p class="ja">💡 ${esc(q.ex.ja)}</p>`; };
@@ -274,18 +421,22 @@ const App = (() => {
         const ok = b.dataset.c === q.w;
         API.record({ type: 'quiz', lesson: L.n, word: q.w, correct: ok, hint: hintUsed, ms: Date.now() - t0, try: q.tries + 1 });
         main().querySelectorAll('.choice').forEach((x) => { x.disabled = true; if (x.dataset.c === q.w) x.classList.add('right'); });
+        const ja = esc(q.ex.ja.replace('（　　）', `（${S.words[q.w].meaning}）`));
         if (ok) {
-          b.classList.add('right');
-          $('#fb').innerHTML = `<p class="fb ok">⭕ ${esc(pick(CHEER.right))}</p><p class="sentence small">${fullHtml(q.ex)}</p><p class="ja small">${esc(q.ex.ja.replace('（　　）', `（${S.words[q.w].meaning}）`))}</p>`;
-          queue.shift(); doneN++;
-          await sleep(1400);
+          combo++; doneN++;
+          $('#enemy').classList.add('hit'); $('#dmg').classList.add('show');
+          const hp = $('#enemy .hp div'); if (hp) hp.style.width = Math.round((total - doneN) / total * 100) + '%';
+          $('#fb').innerHTML = `<span class="ok">⭕ ${esc(pick(CHEER.right))}</span>${combo >= 2 ? ` ${combo}コンボ！` : ''}<br><span style="font-family:var(--en)">${fullHtml(q.ex)}</span><br><span class="small">${ja}</span><span class="tri">▼</span>`;
+          queue.shift();
+          await sleep(1500);
         } else {
+          combo = 0;
           b.classList.add('wrong');
-          $('#fb').innerHTML = `<p class="fb ng">❌ ${esc(pick(CHEER.wrong))} 正解は <b>${esc(q.w)}</b>（${esc(S.words[q.w].meaning)}）</p><p class="sentence small">${fullHtml(q.ex)}</p><p class="ja small">${esc(q.ex.ja.replace('（　　）', `（${S.words[q.w].meaning}）`))}</p><p class="small muted">この問題は、あとでもう一度出ます。</p><button class="btn primary" id="ok" disabled>3</button>`;
+          $('#fb').innerHTML = `<span class="ng">❌ ${esc(pick(CHEER.wrong))}</span> 正解は <b>${esc(q.w)}</b>（${esc(S.words[q.w].meaning)}）<br><span style="font-family:var(--en)">${fullHtml(q.ex)}</span><br><span class="small">${ja}</span><br><span class="small">この問題は、あとで もう一度 出るぞ。</span><div style="text-align:right"><button class="btn" id="ok" disabled>3</button></div>`;
           q.tries++; queue.push(queue.shift());
           const okb = $('#ok');
           for (let s = 3; s > 0; s--) { okb.textContent = String(s); await sleep(1000); }
-          okb.disabled = false; okb.textContent = 'つぎへ';
+          okb.disabled = false; okb.textContent = 'つぎへ ▶';
           await new Promise((r) => { okb.onclick = r; });
         }
         show();
@@ -298,11 +449,12 @@ const App = (() => {
   async function ensureModel(L, step) {
     if (await Voice.modelReady()) return true;
     return new Promise((resolve) => {
-      main().innerHTML = lessonHeader(L, step) + `<section class="card center">
-        <p class="big">🎙️</p><h2>発音判定のAIを準備します</h2>
-        <p>初回だけ、約116MBをダウンロードします。<b>必ずWi-Fiで</b>行ってください。</p>
-        <button class="btn primary big-btn" id="dl">ダウンロードする</button>
-        <div class="progress" id="dlp" hidden><div></div></div><p class="small" id="dlm"></p></section>`;
+      setScene('night');
+      main().innerHTML = lessonHeader(L, step) + `<section class="parch" style="text-align:center;max-width:640px;margin:20px auto">
+        <p style="font-size:56px;margin:0">🎙️</p><h2 style="font-family:var(--title)">発音判定のAIを 準備します</h2>
+        <p>初回だけ、約116MBを ダウンロードします。<b>必ずWi-Fiで</b> 行ってください。</p>
+        <button class="gbtn" id="dl">ダウンロードする</button>
+        <div class="bar xp" id="dlp" hidden style="margin-top:12px"><div style="width:0"></div></div><p class="small" id="dlm"></p></section>`;
       bindHeader();
       $('#dl').onclick = async () => {
         $('#dl').disabled = true; $('#dlp').hidden = false;
@@ -321,18 +473,20 @@ const App = (() => {
   // マイクが使えないときは先に進めない
   function micBlocked(L, step, msg) {
     return new Promise((resolve) => {
-      main().innerHTML = lessonHeader(L, step) + `<section class="card center"><p class="big">🎤🚫</p>
-        <h2>マイクをオンにしてください</h2><p>${esc(msg || '')}</p>
-        <p class="small">このステップは、声を出さないと先に進めません。iPadの「設定」→ このアプリ（またはChrome）→「マイク」をオンにしてから、下のボタンを押してください。</p>
-        <button class="btn primary" id="again">もう一度ためす</button></section>`;
+      setScene('night');
+      main().innerHTML = lessonHeader(L, step) + `<section class="parch" style="text-align:center;max-width:640px;margin:20px auto"><p style="font-size:56px;margin:0">🎤🚫</p>
+        <h2 style="font-family:var(--title)">マイクを オンにしてください</h2><p>${esc(msg || '')}</p>
+        <p class="small">このステップは、声を出さないと 先に進めません。iPadの「設定」→ このアプリ（またはChrome）→「マイク」をオンにしてから、下のボタンを押してください。</p>
+        <button class="gbtn" id="again">もう一度ためす</button></section>`;
       bindHeader();
       $('#again').onclick = resolve;
     });
   }
 
-  // ===== ステップ2：発音 =====
+  // ===== ステップ2：詠唱（発音） =====
   async function stepPron(L, words, st, next) {
     await ensureModel(L, 2);
+    setScene('night');
     const list = words.slice();
     let i = st.sub || 0;
     const showWord = async () => {
@@ -340,46 +494,50 @@ const App = (() => {
       st.sub = i; saveState(st);
       const w = list[i], info = await Voice.wordInfo(w);
       let passes = 0, tries = 0, busy = false;
-      main().innerHTML = lessonHeader(L, 2, bar(i, list.length)) + `
-        <section class="card center">
-          <p class="small muted">お手本を聞いたあと、続けて言おう（2回合格で次へ）</p>
-          <p class="word">${esc(w)}</p>
-          <p class="meaning">${esc(S.words[w].meaning)}</p>
-          ${info && info.ipa ? `<p class="ipa">${esc(/^\//.test(info.ipa) ? info.ipa : `/${info.ipa}/`)}</p>` : ''}
-          <div class="dots" id="dots"><span></span><span></span></div>
-          <button class="btn primary big-btn" id="say">🔊 聞いて言う</button>
-          <button class="btn small" id="listen">🔊 お手本だけ聞く</button>
-          <div class="meter"><div id="lv"></div></div>
-          <p id="msg" class="small"></p>
-          <div id="res"></div>
-          <div id="skip"></div>
-        </section>`;
+      main().innerHTML = lessonHeader(L, 2, i, list.length) + `
+        <div class="two">
+          <section class="parch wordcard">
+            <p class="small muted" style="font-weight:700">お手本を 聞いたあと、続けて 唱えよ（2回 合格で 次へ）</p>
+            <p class="word">${esc(w)}</p>
+            <p class="meaning">${esc(S.words[w].meaning)}</p>
+            ${info && info.ipa ? `<p class="ipa">${esc(/^\//.test(info.ipa) ? info.ipa : `/${info.ipa}/`)}</p>` : ''}
+            <div class="stars2" id="dots"><span>⭐</span><span>⭐</span></div>
+            <button class="gbtn" id="say">🔊 聞いて 唱える</button>
+            <button class="btn small" id="listen">🔊 お手本だけ 聞く</button>
+            <div class="meter"><div id="lv"></div></div>
+          </section>
+          <div>
+            <div class="rpg" id="msg">▶ 「聞いて 唱える」を 押すと、お手本のあとに 録音が 始まるぞ。<span class="tri">▼</span></div>
+            <div class="parch" id="resWrap" hidden><div id="res"></div></div>
+            <div id="skip" class="center-t"></div>
+          </div>
+        </div>`;
       bindHeader();
-      const dots = () => { $('#dots').innerHTML = [0, 1].map((k) => `<span class="${k < passes ? 'on' : ''}"></span>`).join(''); };
+      const dots = () => { $('#dots').innerHTML = [0, 1].map((k) => `<span class="${k < passes ? 'on' : ''}">⭐</span>`).join(''); };
       $('#listen').onclick = () => { Rec.audioCtx(); Voice.speak(w); };
       $('#say').onclick = async () => {
         if (busy) return; busy = true; Rec.audioCtx();
         const sayBtn = $('#say'); sayBtn.disabled = true;
         try {
-          $('#msg').textContent = '🔊 お手本…';
+          $('#msg').innerHTML = '🔊 お手本を 聞くのじゃ…';
           await Voice.speak(w);
-          $('#msg').textContent = '🎙️ どうぞ！';
+          $('#msg').innerHTML = '🎙️ さあ、唱えよ！';
           const rec = await Voice.listen({ maxMs: 3500, onLevel: (v) => { const el = $('#lv'); if (el) el.style.width = Math.round(v * 100) + '%'; } });
           $('#lv').style.width = '0';
-          $('#msg').textContent = '判定中…';
+          $('#msg').innerHTML = '…判定中…';
           const r = await Voice.judge(rec.blob, w, 'strict');
           tries++;
-          $('#res').innerHTML = r.html;
+          $('#res').innerHTML = r.html; $('#resWrap').hidden = false;
           if (!r.pass && r.decision && r.decision.reasons) API.record({ type: 'pronTry', lesson: L.n, word: w, why: r.decision.reasons.map((x) => x.type === 'pair' ? x.ph + '→' + x.heard : x.type).join(',') });
-          if (r.pass) { passes++; $('#msg').innerHTML = `<span class="fb ok">⭕ 合格！ ちゃんと「${esc(w)}」に聞こえたよ</span>`; }
-          else $('#msg').innerHTML = `<span class="fb ng">おしい！</span><br><span class="small">${r.advice || 'もう一度言ってみよう。'}</span>`;
+          if (r.pass) { passes++; $('#msg').innerHTML = `<span class="ok">⭕ 合格！</span> ちゃんと「<b>${esc(w)}</b>」に 聞こえたぞ。<span class="tri">▼</span>`; }
+          else $('#msg').innerHTML = `<span class="ng">おしい！</span><br>${r.advice || 'もう一度 言ってみよう。'}<span class="tri">▼</span>`;
           dots();
           if (passes >= 2) {
             API.record({ type: 'pron', lesson: L.n, word: w, tries, pass: true });
             await sleep(1200); i++; return showWord();
           }
           if (tries - passes >= 10 && !$('#skipBtn')) {
-            $('#skip').innerHTML = '<button class="btn" id="skipBtn">この単語は次へ進む（記録されます）</button>';
+            $('#skip').innerHTML = '<button class="btn" id="skipBtn">この単語は 次へ進む（記録されます）</button>';
             $('#skipBtn').onclick = () => { API.record({ type: 'pron', lesson: L.n, word: w, tries, skipped: true }); i++; showWord(); };
           }
         } catch (e) {
@@ -391,9 +549,10 @@ const App = (() => {
     showWord();
   }
 
-  // ===== ステップ3：書く練習（手書き＋発音 × 4回） =====
+  // ===== ステップ3：刻印（書く練習：手書き＋発音 × 4回） =====
   async function stepWrite(L, words, st, next) {
     await ensureModel(L, 3);
+    setScene('night');
     const list = words.slice();
     let i = st.sub || 0;
     const REPS = 4;
@@ -402,29 +561,30 @@ const App = (() => {
       st.sub = i; saveState(st);
       const w = list[i], hidden = rep > 2;
       let recP = null, rec = null, busy = false;
-      main().innerHTML = lessonHeader(L, 3, bar(i, list.length)) + `
-        <section class="card center">
-          <p class="small muted">声に出して言いながら、マスに1文字ずつ書こう（${rep}/${REPS}回目）</p>
-          <p class="meaning">${esc(S.words[w].meaning)}</p>
-          ${hidden ? '<p class="word hiddenw">？？？</p><p class="small muted">お手本は隠れています。思い出して書こう！</p>' : `<p class="word model">${esc(w)}</p>`}
+      main().innerHTML = lessonHeader(L, 3, i, list.length) + `
+        <section class="parch" style="text-align:center">
+          <p class="small muted" style="font-weight:700">声に出して 唱えながら、石版に 1文字ずつ きざめ（${rep} / ${REPS}回目）</p>
           <div class="reps">${Array.from({ length: REPS }, (_, k) => `<span class="${k < rep - 1 ? 'on' : k === rep - 1 ? 'cur' : ''}"></span>`).join('')}</div>
+          <p class="meaning">${esc(S.words[w].meaning)}</p>
+          ${hidden ? '<p class="word hiddenw">？？？</p><p class="small muted">お手本は 隠れている。思い出して きざめ！</p>' : `<p class="word">${esc(w)}</p>`}
           <div id="boxes"></div>
           <div class="row">
             <button class="btn small" id="undo">↩︎ 1画もどす</button>
             <button class="btn small" id="clr">🧽 全部消す</button>
             <button class="btn small" id="hear">🔊 お手本</button>
           </div>
-          <p class="mic" id="mic">🎙️ 書き始めると、マイクがオンになります</p>
-          <button class="btn primary big-btn" id="done" disabled>書けた！</button>
-          <p id="msg" class="small"></p>
+          <p class="mic" id="mic">🎙️ 書き始めると、マイクが オンになります</p>
+          <button class="gbtn" id="done" disabled>✍️ きざめた！</button>
           <div id="res"></div>
-        </section>`;
+        </section>
+        <div class="rpg" id="msg">▶ 赤い線が 基準線じゃ。ていねいに 書かないと、石版が 読み取れないぞ。<span class="tri">▼</span></div>`;
       bindHeader();
+      if (!hidden) main().querySelector('.word').classList.add('model');
       const boxes = new HW.Boxes($('#boxes'), {
         count: w.length,
         onStroke: () => {
           if (!recP) {
-            recP = Rec.start({ maxMs: 20000 }).then((r) => { rec = r; $('#mic').innerHTML = '🔴 録音中… 単語を言いながら書こう'; $('#mic').classList.add('on'); return r; })
+            recP = Rec.start({ maxMs: 20000 }).then((r) => { rec = r; $('#mic').innerHTML = '🔴 録音中… 単語を 唱えながら 書こう'; $('#mic').classList.add('on'); return r; })
               .catch(async (e) => { await micBlocked(L, 3, e.message); showWord(rep); });
           }
           $('#done').disabled = false;
@@ -433,32 +593,32 @@ const App = (() => {
       cleanups.push(() => { boxes.destroy(); if (rec) rec.stop(); });
       $('#undo').onclick = () => boxes.undo();
       $('#clr').onclick = () => boxes.clear();
-      $('#hear').onclick = () => { Rec.audioCtx(); if (rec) { U.toast('録音中はお手本を鳴らせません。書き終わってから聞こう'); return; } Voice.speak(w); };
+      $('#hear').onclick = () => { Rec.audioCtx(); if (rec) { U.toast('録音中は お手本を 鳴らせません。書き終わってから 聞こう'); return; } Voice.speak(w); };
       $('#done').onclick = async () => {
         if (busy || !recP) return; busy = true; $('#done').disabled = true;
         try {
           await recP;
           if (!rec) { busy = false; return; }
           const r = await rec.stop(); rec = null;
-          $('#mic').classList.remove('on'); $('#mic').textContent = '判定中…';
+          $('#mic').classList.remove('on'); $('#mic').textContent = '…判定中…';
           const read = boxes.read();
           const pr = await Voice.judge(r.blob, w, 'loose');
           const letterOk = read.text === w;
           if (!pr.pass) {
-            $('#msg').innerHTML = '<span class="fb ng">声が聞こえなかったか、単語が聞き取れなかったよ。<br>言いながら書くのがルール！ もう一度。</span>';
+            $('#msg').innerHTML = '<span class="ng">声が 聞こえなかったか、単語が 聞き取れなかったぞ。</span><br>唱えながら 書くのが ルールじゃ！ もう一度。';
             API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: false, letterOk });
             await sleep(1800); return showWord(rep);
           }
           if (!hidden) {
             const learned = boxes.learnFrom(w);
-            $('#msg').innerHTML = `<span class="fb ok">⭕ OK！</span> ${letterOk ? '' : `<span class="small muted">（AIには「${esc(read.text)}」と読めました。丁寧に書こう）</span>`}`;
+            $('#msg').innerHTML = `<span class="ok">⭕ OK！</span> ${letterOk ? 'きれいに きざめたぞ。' : `（石版には「${esc(read.text)}」と 読めた。ていねいに 書こう）`}`;
             API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk, learned });
           } else if (!letterOk) {
-            $('#msg').innerHTML = `<span class="fb ng">❌ AIには「${esc(read.text || '（空）')}」と読めました。正しくは <b>${esc(w)}</b>。もう一度！</span>`;
+            $('#msg').innerHTML = `<span class="ng">❌ 石版には「${esc(read.text || '（空）')}」と 読めた。</span><br>正しくは <b>${esc(w)}</b>。もう一度！`;
             API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk: false, read: read.text });
             await sleep(2500); return showWord(rep);
           } else {
-            $('#msg').innerHTML = '<span class="fb ok">⭕ 完ぺき！</span>';
+            $('#msg').innerHTML = '<span class="ok">⭕ 完ぺき！</span> 見ないで きざめたな！';
             API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk: true });
           }
           await sleep(900);
@@ -469,8 +629,9 @@ const App = (() => {
     showWord(1);
   }
 
-  // ===== ステップ4：書きのテスト =====
+  // ===== ステップ4：試練（書きのテスト） =====
   function stepTest(L, words, st, next) {
+    setScene('night');
     // st.test = { round, list, wrong, unlockAt }
     if (!st.test) { st.test = { round: 1, list: shuffle(words) }; saveState(st); }
     const T = st.test;
@@ -483,23 +644,26 @@ const App = (() => {
       if (qi >= T.list.length) return grade();
       const w = T.list[qi], limit = 15 + 3 * w.length;
       let left = limit, done = false, wentAway = false;
-      main().innerHTML = lessonHeader(L, 4, bar(qi, T.list.length)) + `
-        <section class="card center">
-          <p class="small muted">${T.round === 1 ? '日本語の意味に合う単語を書こう。最初の文字は書いてあります。' : `再テスト：全問正解でクリア（${T.round}回目）`}</p>
-          <p class="meaning big-m">${esc(S.words[w].meaning)}</p>
-          <div class="timer"><div id="tb"></div></div>
+      const right = results.filter((r) => r.ok).length;
+      main().innerHTML = lessonHeader(L, 4, qi, T.list.length) + `
+        <section class="parch" style="text-align:center">
+          <p class="small muted" style="font-weight:700">${T.round === 1 ? `試練 ${qi + 1} / ${T.list.length} ｜ 意味に合う ことばを 石版に きざめ（最初の文字は きざんである）` : `再試練（${T.round}回目）：全問 正解で 突破！`}</p>
+          <p class="meaning big">${esc(S.words[w].meaning)}</p>
+          <div class="fuse">⏳<span class="line"><div id="tb"></div></span><span id="sec">のこり ${limit}秒</span></div>
           <div id="boxes"></div>
           <div class="row"><button class="btn small" id="undo">↩︎ 1画もどす</button><button class="btn small" id="clr">🧽 全部消す</button></div>
-          <p class="small muted">使わないマスは空けておこう。丁寧に書かないと、正しく読み取れないことがあります。</p>
-          <button class="btn primary big-btn" id="ans">答える</button>
-          <div id="res"></div>
-        </section>`;
+          <p class="small muted">使わない マスは 空けておこう。</p>
+          <button class="gbtn" id="ans">⚔️ きざむ（答える）</button>
+        </section>
+        <div class="rpg" id="res">▶ ここまで ${right} / ${results.length} 正解。合格は 8割以上じゃ。<br><span class="small">テスト中に 画面を はなれると 不正解に なるぞ。</span><span class="tri">▼</span></div>`;
       bindHeader();
       const boxes = new HW.Boxes($('#boxes'), { count: boxCount, prefilled: w[0] });
       const away = () => { if (document.hidden && !done) wentAway = true; };
       document.addEventListener('visibilitychange', away);
       const timer = setInterval(() => {
-        left -= 0.25; const tb = $('#tb'); if (tb) { tb.style.width = Math.max(0, left / limit * 100) + '%'; tb.className = left < 5 ? 'low' : ''; }
+        left -= 0.25;
+        const tb = $('#tb'); if (tb) { tb.style.width = Math.max(0, left / limit * 100) + '%'; tb.className = left < 5 ? 'low' : ''; }
+        const sc = $('#sec'); if (sc) sc.textContent = `のこり ${Math.max(0, Math.ceil(left))}秒`;
         if (left <= 0) finish(true);
       }, 250);
       cleanups.push(() => { clearInterval(timer); boxes.destroy(); document.removeEventListener('visibilitychange', away); });
@@ -513,8 +677,8 @@ const App = (() => {
         results.push({ w, ok });
         API.record({ type: 'test', lesson: L.n, word: w, correct: ok, read: read.text, timeout: !!timeout, left: wentAway, round: T.round });
         $('#ans').disabled = true;
-        $('#res').innerHTML = ok ? `<p class="fb ok">⭕ 正解！ ${esc(w)}</p>`
-          : `<p class="fb ng">❌ 正解は <b>${esc(w)}</b>${timeout ? '（時間切れ）' : wentAway ? '（テスト中に画面を離れたため不正解）' : `<br><span class="small">AIには「${esc(read.text)}」と読めました</span>`}</p>`;
+        $('#res').innerHTML = ok ? `<span class="fb ok">⭕ 正解！</span> <b style="font-family:var(--en)">${esc(w)}</b>`
+          : `<span class="fb ng">❌ 正解は <b style="font-family:var(--en)">${esc(w)}</b></span>${timeout ? '（時間切れ）' : wentAway ? '（テスト中に 画面を はなれたため 不正解）' : `<br><span class="small">石版には「${esc(read.text)}」と 読めた</span>`}`;
         await sleep(ok ? 1200 : 2600);
         qi++; ask();
       };
@@ -534,22 +698,27 @@ const App = (() => {
     ask();
   }
   function waitRetest(L, words, st, next) {
+    setScene('night');
     const T = st.test;
     const tick = () => {
       const ms = T.unlockAt - Date.now();
       const el = $('#cd');
-      if (ms <= 0) { clearInterval(t); if (el) { el.textContent = '再テストできます！'; $('#rt').disabled = false; } return; }
+      if (ms <= 0) { clearInterval(t); if (el) { el.textContent = '再試練 できるぞ！'; $('#rt').disabled = false; } return; }
       if (el) el.textContent = `${Math.floor(ms / 60000)}:${String(Math.floor(ms / 1000) % 60).padStart(2, '0')}`;
     };
     main().innerHTML = lessonHeader(L, 4) + `
-      <section class="card center">
-        <p class="big">📖</p><h2>おしい！ ${esc(T.last || '')}</h2>
-        <p>合格は8割以上。間違えた単語だけで、<b>5分後</b>に再テストです（全問正解でクリア）。</p>
-        <p class="countdown" id="cd"></p>
-        <div class="review">${T.list.map((w) => `<div class="rv"><b>${esc(w)}</b><span>${esc(S.words[w].meaning)}</span><button class="btn small" data-say="${esc(w)}">🔊</button></div>`).join('')}</div>
-        <p class="small muted">待っている間に、上の単語を声に出して、紙に書いて覚えよう。</p>
-        <button class="btn primary big-btn" id="rt" disabled>再テストをはじめる</button>
-      </section>`;
+      <div class="two">
+        <section class="parch" style="text-align:center">
+          <p style="font-size:48px;margin:0">📖</p><h2 style="font-family:var(--title)">おしい！ ${esc(T.last || '')}</h2>
+          <p>合格は 8割以上。まちがえた ことばだけで、<b>5分後</b>に 再試練じゃ（全問 正解で 突破）。</p>
+          <p class="countdown" id="cd"></p>
+          <button class="gbtn" id="rt" disabled>⚔️ 再試練を はじめる</button>
+        </section>
+        <section class="parch">
+          <p class="small muted" style="font-weight:700;text-align:center">待っている間に、声に出して、紙に書いて 覚えよう</p>
+          <div class="review">${T.list.map((w) => `<div class="rv"><b>${esc(w)}</b><span>${esc(S.words[w].meaning)}</span><button class="btn small" data-say="${esc(w)}">🔊</button></div>`).join('')}</div>
+        </section>
+      </div>`;
     bindHeader();
     main().querySelectorAll('[data-say]').forEach((b) => b.onclick = () => { Rec.audioCtx(); Voice.speak(b.dataset.say); });
     const t = setInterval(tick, 500); tick();
@@ -567,11 +736,18 @@ const App = (() => {
     catch (e) { return showError(e.message); }
     if (j.ok) S.progress = j.progress;
     clearState(); stopAll();
-    main().innerHTML = `<div class="center card celebrate">
-      <p class="big">🏆</p><h2>レッスン ${L.n} クリア！</h2>
-      <p>書きのテスト：${esc(st.testScore || '')}${st.testRounds > 1 ? `（再テスト ${st.testRounds - 1} 回）` : ''}</p>
-      <p>${words.length} 語を、読んで・言って・書いて覚えました。</p>
-      <button class="btn primary big-btn" id="home">マップに戻る</button></div>`;
+    setScene('victory');
+    document.body.insertAdjacentHTML('beforeend', '<div class="rays"></div>');
+    main().innerHTML = `<div class="celebrate">
+      <h1>レッスン${L.n} 攻略！</h1>
+      <p class="big">🎁</p>
+      <section class="parch">
+        <h2 style="font-family:var(--title);text-align:center;margin-bottom:6px">✨ 戦利品 ✨</h2>
+        <div class="rw"><span class="ic">🗡️</span>${words.length}の ことばを 取りもどした（合計 ${learnedWords()}語）</div>
+        <div class="rw"><span class="ic">⚔️</span>書きの試練：${esc(st.testScore || '')}${st.testRounds > 1 ? `（再試練 ${st.testRounds - 1}回で 突破）` : ''}</div>
+        <div class="rw"><span class="ic">🔥</span>連続 ${streak()}日 冒険中</div>
+      </section>
+      <button class="gbtn" id="home">🏘️ 村へ もどる</button></div>`;
     $('#home').onclick = showHome;
   }
 
