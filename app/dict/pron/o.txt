@@ -1,0 +1,2831 @@
+o		OW1
+o'		OW1
+o'banion		OW0 B AE1 N Y AH0 N
+o'bannon		OW0 B AE1 N AH0 N
+o'bara		OW0 B AA1 R AH0
+o'barr		OW0 B AA1 R
+o'beirne		OW0 B ER1 N
+o'berg		OW0 B ER1 G
+o'berle		OW0 B ER1 AH0 L
+o'berry		OW0 B EH1 R IY0
+o'boyle		OW0 B OY1 L
+o'bradovich		OW0 B R AE1 D AH0 V IH0 CH
+o'brecht		OW1 B R EH0 K T
+o'bregon		OW0 B R EH1 G AH0 N
+o'bremski		OW0 B R EH1 M S K IY0
+o'brenovich		OW0 B R EH1 N AH0 V IH0 CH
+o'brian		OW0 B R AY1 AH0 N
+o'briant		OW0 B R AY1 AH0 N T
+o'brien		OW0 B R AY1 IH0 N
+o'brien's		OW0 B R AY1 IH0 N Z
+o'bringer		OW1 B R IH0 NG ER0
+o'brinsky		OW0 B R IH1 N S K IY0
+o'bryan		OW0 B R AY1 AH0 N
+o'bryant		OW0 B R AY1 AH0 N T
+o'byrne		OW0 B ER1 N
+o'callaghan		OW0 K AE1 L AH0 G AH0 N
+o'callahan		OW0 K AE1 L AH0 HH AE2 N
+o'campo		OW0 K AE1 M P OW0
+o'cana		OW0 K AE1 N AH0
+o'canas		OW0 K AE1 N AH0 Z
+o'carroll		OW0 K AE1 R AH0 L;OW0 K EH1 R AH0 L
+o'cilla		OW0 S IH1 L AH0
+o'clair		OW0 K L ER1
+o'clock	o'clock	AH0 K L AA1 K
+o'connell	o'con·nell	OW0 K AA1 N AH0 L
+o'conner		OW0 K AA1 N ER0
+o'conner's		OW0 K AA1 N ER0 Z
+o'connor	o'con·nor	OW0 K AA1 N ER0
+o'connor's		OW0 K AA1 N ER0 Z
+o'day		OW0 D EY1
+o'dea		OW0 D EY1
+o'deli		OW0 D EH1 L IY0
+o'dell		OW0 D EH1 L
+o'dell's		OW0 D EH1 L Z
+o'diorne		OW0 D Y AO1 R N IY0;OW0 D Y AO1 R N
+o'doherty		OW0 D AA1 ER0 T IY0;OW0 D OW1 ER0 T IY0
+o'donald		OW0 D AA1 N AH0 L D
+o'donnel		OW0 D AA1 N AH0 L
+o'donnell		OW0 D AA1 N AH0 L
+o'donnell's		OW0 D AA1 N AH0 L Z
+o'donoghue		OW0 D AA1 N AH0 HH UW0;OW0 D AA1 N AH0 HH Y UW0
+o'donohue		OW0 D AA1 N AH0 HH Y UW0
+o'donovan	o'don·o·van	OW0 D AA1 N AH0 V AH0 N
+o'dougherty		OW0 D AA1 HH ER0 T IY0;OW0 D AA1 ER0 T IY0
+o'dowd		OW0 D AW1 D
+o'driscoll		OW0 D R IH1 S K AA0 L
+o'dwyer		OW0 D W AY1 R
+o'fallon	o'fal·lon	OW0 F AE1 L AH0 N
+o'farrell		OW0 F AE1 R AH0 L
+o'five		OW0 F AY1 V
+o'flaherty	o'fla·her·ty	OW0 F L EY1 HH ER0 T IY0;OW0 F L EY1 ER0 T IY0
+o'flynn		OW0 F L IH1 N
+o'glove		OW0 G L AH1 V
+o'gorman		OW0 G AO1 R M AH0 N
+o'grady		OW0 G R EY1 D IY0
+o'grady's		OW0 G R EY1 D IY0 Z
+o'guin		OW0 G UW1 IY0 N
+o'guinn		OW0 G W IH1 N
+o'hagan		OW0 HH AA1 G AA0 N;OW0 HH EY1 G AH0 N
+o'hair		OW0 HH EH1 R
+o'hallaron		OW0 HH AE1 L ER0 AH0 N
+o'halloran		OW0 HH AE1 L ER0 AH0 N
+o'halloron		OW0 HH AE1 L ER0 AH0 N
+o'hanesian		OW0 HH AH0 N EH1 ZH IH0 N
+o'hanian		OW0 HH EY1 N IY0 AH0 N
+o'hanlon		OW0 HH AE1 N L AH0 N
+o'hara	o'har·a	OW0 HH EH1 R AH0
+o'hara's		OW0 HH EH1 R AH0 Z
+o'hare		OW0 HH EH1 R
+o'harra		OW0 HH ER1 AH0
+o'hashi		OW0 HH AA1 SH IY0
+o'haver		OW0 HH EY1 V ER0
+o'hearn		OW0 HH ER1 N
+o'hern		OW0 HH ER1 N
+o'herron		OW0 HH EH1 R AH0 N
+o'kane		OW0 K EY1 N
+o'keefe		OW0 K IY1 F
+o'keeffe		OW0 K IY1 F
+o'keeffe's		OW0 K IY1 F S
+o'kelley	o'kel·ley	OW0 K EH1 L IY0
+o'kelly		OW0 K EH1 L IY0
+o'keson		OW0 K IY1 S AH0
+o'kicki		OW0 K IH1 K IY0
+o'lague		OW0 L EY1 G
+o'laughlin		OW0 L AO1 K L IH0 N
+o'lear		OW0 L IH1 R
+o'leary		OW0 L IH1 R IY0
+o'leary's		OW0 L IH1 R IY0 Z
+o'loughlin		OW0 L AW1 K L IH0 N
+o'mahoney		OW0 M AH0 HH OW1 N IY0
+o'mahony		OW0 M AH0 HH OW1 N IY0
+o'malley		OW0 M AE1 L IY0
+o'mara		OW0 M AA1 R AH0
+o'marska		OW0 M AA1 R S K AH0
+o'meara		OW0 M IY1 R AH0;OW0 M AA1 R AH0
+o'melveny		OW0 M EH1 L V AH0 N IY0
+o'mori		OW0 M AO1 R IY0
+o'neal		OW0 N IY1 L
+o'neil		OW0 N IY1 L
+o'neill	o'neill	OW0 N IY1 L
+o'neill's		OW0 N IY1 L Z
+o'nuts		OW0 N AH1 T S;AH0 N AH1 T S
+o'quinn		OW0 K W IH1 N
+o'reilly		OW0 R AY1 L IY0
+o'riley		OW0 R AY1 L IY0
+o'roark		OW0 R AO1 R K
+o'rourke		OW0 R AO1 R K
+o's		OW1 Z
+o'shaughnessy		OW2 SH AA1 N IH0 S IY0
+o'shea		OW2 SH EY1
+o'shell		OW0 SH EH1 L
+o'smarty		OW2 S M AA1 R T IY0
+o'steen		OW0 S T IY1 N
+o'sullivan		OW0 S AH1 L AH0 V AH0 N
+o'toole		OW0 T UW1 L
+o.		OW1
+o.'s		OW1 Z
+o.s		OW1 Z
+o.s'		OW1 Z
+oad		OW1 EY1 D IY1
+oahu	o·a·hu	OW2 AA1 HH UW0
+oak	oak	OW1 K
+oak's		OW1 K S
+oakar		OW1 K AA2 R
+oakbrook		OW1 K B R UH2 K
+oakdale	oak·dale	OW1 K D EY2 L
+oakes		OW1 K S
+oakey		OW1 K IY0
+oakite		OW1 K AY2 T
+oakland	oak·land	OW1 K L AH0 N D
+oakland's		OW1 K L AH0 N D Z
+oakleaf		OW1 K L IY2 F
+oakley	oak·ley	OW1 K L IY0
+oakley's		OW1 K L IY0 Z
+oakman		OW1 K M AH0 N
+oakmark		OW1 K M AA2 R K
+oakmont	oak·mont	OW1 K M AA2 N T
+oakridge		OW1 K R IH2 JH
+oaks	oaks	OW1 K S
+oaks'		OW1 K S
+oakville	oak·ville	OW1 K V IH2 L
+oakwood		OW1 K W UH2 D
+oaky		OW1 K IY0
+oana		OW1 N AH0
+oanh		OW1 N
+oar	oar	AO1 R
+oared	oared	AO1 R D
+oarlock	oar·lock	AO1 R L AA2 K
+oars	oars	AO1 R Z
+oarsman	oars·man	AO1 R Z M AH0 N
+oas	oas	OW1 EY1 EH1 S
+oases		OW0 EY1 S IY0 Z
+oasis	o·a·sis	OW0 EY1 S IH0 S
+oat	oat	OW1 T
+oates	oates	OW1 T S
+oath	oath	OW1 TH
+oathout		OW1 TH AW2 T
+oaths		OW1 DH Z;OW1 TH S
+oatis		OW1 T IH0 S
+oatley		OW1 T L IY0
+oatman		OW1 T M AH0 N
+oatmeal	oat·meal	OW1 T M IY2 L
+oats		OW1 T S
+oaxaca	oa·xa·ca	OW1 K S AH0 K AH0
+oba	o·ba	OW1 B AH0
+obadiah	o·ba·di·ah	OW2 B AH0 D AY1 AH0
+obama		OW2 B AA1 M AH0
+obama's		OW2 B AA1 M AH0 Z
+obamacare		OW2 B AA1 M AH0 K EH2 R
+obando		OW0 B AE1 N D OW0
+obanion		OW0 B AE1 N Y AH0 N
+obannon		OW0 B AE1 N AH0 N
+obar		AH0 B AA1 R
+obara		OW0 B AA1 R AH0
+obarr		OW0 B AA1 R
+obdurate	ob·du·rate	AA1 B D ER0 AH0 T
+obedience	o·be·di·ence	OW0 B IY1 D IY0 AH0 N S
+obedient	o·be·di·ent	OW0 B IY1 D IY0 AH0 N T
+obediently	o·be·di·ent·ly	OW0 B IY1 D IY0 AH0 N T L IY0;OW0 B IY1 D Y AH0 N T L IY0
+obeid	o·beid	OW0 B AY1 D
+obeirne		OW0 B ER1 R N
+obeisance	o·bei·sance	OW0 B EY1 S AH0 N S
+obelia	o·bel·ia/o·be·lia	OW0 B EH1 L IY0 AH0
+obenchain		AA1 B IH0 N K AY0 N
+obenshain		AA1 B IH0 N SH AY0 N
+ober		OW1 B ER0
+oberbeck		OW1 B ER0 B EH0 K
+oberdorf		OW1 B ER0 D AO0 R F
+oberg		OW1 B ER0 G
+oberhaus		OW1 B ER0 HH AW0 S
+oberhausen	o·ber·hau·sen	OW1 B ER0 HH AW2 Z AH0 N
+oberhelman		OW1 B ER0 HH AH0 L M AH0 N
+oberholtzer		OW1 B ER0 HH OW0 L T Z ER0
+oberlander		OW1 B ER0 L AH0 N D ER0
+oberle		OW1 B ER0 AH0 L
+oberlin	o·ber·lin	OW1 B ER0 L IH0 N
+oberly		OW1 B ER0 L IY0
+obermaier		OW1 B ER0 M AY2 R
+oberman		OW1 B ER0 M AH0 N
+obermeier		OW1 B ER0 M AY0 ER0
+obermeyer		OW1 B ER0 M AY0 ER0
+obermiller		OW1 B ER0 M IH0 L ER0
+oberon	o·ber·on	OW1 B ER0 AA2 N
+oberry		OW0 B EH1 R IY0
+oberst		OW1 B ER0 S T
+oberstar		OW1 B ER0 S T AA2 R
+obert		AA1 B ER0 T
+oberweis		OW1 B ER0 W AY2 S
+obese	o·bese	OW0 B IY1 S;AH0 B IY1 S
+obesity	o·bes·i·ty	OW0 B IY1 S AH0 T IY0;AH0 B IY1 S AH0 T IY0
+obey	o·bey	OW0 B EY1
+obeyed		OW0 B EY1 D
+obeying		OW0 B EY1 IH0 NG
+obeys		OW0 B EY1 Z
+obfuscate	ob·fus·cate	AA1 B F AH0 S K EY2 T
+obfuscation	ob·fus·ca·tion	AA2 B F AH0 S K EY1 SH AH0 N
+obie		OW1 B IY0
+obispo		OW0 B IH1 S P OW0
+obit	ob·it/o·bit	OW1 B IH0 T;OW0 B IH1 T
+obits		OW1 B IH0 T S;OW0 B IH1 T S
+obituaries	o·bit·u·ar·ies	OW0 B IH1 CH UW0 EH2 R IY0 Z
+obituary	o·bit·u·ar·y/o·bi·tu·ar·y	OW0 B IH1 CH UW0 EH2 R IY0
+object	ob·ject	AA1 B JH EH0 K T;AH0 B JH EH1 K T
+objected		AH0 B JH EH1 K T AH0 D
+objecting		AH0 B JH EH1 K T IH0 NG
+objection	ob·jec·tion	AH0 B JH EH1 K SH AH0 N
+objection's		AH0 B JH EH1 K SH AH0 N Z
+objectionable	ob·jec·tion·a·ble	AH0 B JH EH1 K SH AH0 N AH0 B AH0 L
+objections		AH0 B JH EH1 K SH AH0 N Z
+objective	ob·jec·tive	AH0 B JH EH1 K T IH0 V
+objectively	ob·jec·tive·ly	AA0 B JH EH1 K T IH0 V L IY0
+objectives		AH0 B JH EH1 K T IH0 V Z
+objectivity	ob·jec·tiv·i·ty	AA2 B JH EH0 K T IH1 V IH0 T IY0
+objector	ob·jec·tor	AH0 B JH EH1 K T ER0
+objectors		AH0 B JH EH1 K T ER0 Z
+objects		AA1 B JH EH0 K T S;AH0 B JH EH1 K T S
+oblak		AA1 B L AH0 K;OW0 B L AE1 K
+oblander		AA1 B L AH0 N D ER0
+oblast	ob·last	AA1 B L AE0 S T
+oblate	ob·late	AA0 B L EY1 T;AA1 B L EY0 T
+obligate	ob·li·gate	AA1 B L AH0 G EY2 T
+obligated		AA1 B L AH0 G EY2 T IH0 D
+obligates		AA1 B L AH0 G EY2 T S
+obligating		AA1 B L AH0 G EY2 T IH0 NG
+obligation	ob·li·ga·tion	AA2 B L AH0 G EY1 SH AH0 N
+obligations		AA2 B L AH0 G EY1 SH AH0 N Z
+obligatory	ob·lig·a·to·ry	AH0 B L IH1 G AH0 T AO2 R IY0
+oblige	o·blige	AH0 B L AY1 JH
+obliged	o·bliged	AH0 B L AY1 JH D
+obliges		AH0 B L AY1 JH IH0 Z
+obliging	o·blig·ing	AH0 B L AY1 JH IH0 NG
+obligingly	o·blig·ing·ly	AH0 B L AY1 JH IH0 NG L IY0
+oblinger		OW1 B AH0 L IH0 NG ER0;OW1 B L IH0 NG ER0
+oblique	ob·lique/o·blique	AH0 B L IY1 K
+obliquely	ob·lique·ly	AH0 B L IY1 K L IY0
+obliterate	ob·lit·er·ate/o·blit·e·rate	AH0 B L IH1 T ER0 EY2 T
+obliterated		AH0 B L IH1 T ER0 EY2 T IH0 D
+obliterates		AH0 B L IH1 T ER0 EY2 T S
+obliterating		AH0 B L IH1 T ER0 EY2 T IH0 NG
+obliteration	ob·lit·er·a·tion	AH0 B L IH2 T ER0 EY1 SH AH0 N
+oblivion	ob·liv·i·on/o·bliv·i·on	AH0 B L IH1 V IY0 AH0 N
+oblivious	ob·liv·i·ous/o·bliv·i·ous	AH0 B L IH1 V IY0 AH0 S
+oblong	ob·long	AA1 B L AO0 NG
+obloquy	ob·lo·quy	AO1 B L AH0 K W IY2
+obnoxious	ob·nox·ious	AA0 B N AA1 K SH AH0 S
+oboe	o·boe	OW1 B OW0
+oboist		OW1 B OW0 AH0 S T
+obon		OW1 B AH0 N
+oboyle		OW0 B OY1 L
+obradovich		OW0 B R AE1 D AH0 V IH0 CH
+obrecht	o·brecht	OW1 B R IH0 K T
+obregon		AA1 B R IH0 G AH0 N
+obremski		OW0 B R EH1 M S K IY0
+obremsky		OW0 B R EH1 M S K IY0
+obrenovich	o·bren·o·vich	OW0 B R EH1 N AH0 V IH0 CH
+obrian		OW0 B R AY1 AH0 N
+obriant		OW0 B R AY1 AH0 N T
+obrien		OW0 B R AY1 IH0 N
+obringer		OW1 B R IH0 NG ER0
+obrinsky		OW0 B R IH1 N S K IY0
+obryan		OW0 B R AY1 AH0 N
+obryant		OW0 B R AY1 AH0 N T
+obscene	ob·scene	AA0 B S IY1 N;AH0 B S IY1 N
+obscenely		AA0 B S IY1 N AH0 L IY0;AA0 B S IY1 N L IY0
+obscenities		AA0 B S EH1 N IH0 T IY0 Z
+obscenity	ob·scen·i·ty	AH0 B S EH1 N IH0 T IY0
+obscure	ob·scure	AH0 B S K Y UH1 R
+obscured		AH0 B S K Y UH1 R D
+obscures		AH0 B S K Y UH1 R Z
+obscuring		AH0 B S K Y UH1 R IH0 NG
+obscurity	ob·scu·ri·ty	AH0 B S K Y UH1 R AH0 T IY0
+obsequious	ob·se·qui·ous	AH0 B S IY1 K W IY0 AH0 S
+observable	ob·serv·a·ble	AH0 B Z ER1 V AH0 B AH0 L
+observables		AH0 B Z ER1 V AH0 B AH0 L Z
+observance	ob·serv·ance/ob·ser·vance	AH0 B Z ER1 V AH0 N S
+observances		AH0 B Z ER1 V AH0 N S IH0 Z
+observant	ob·ser·vant	AH0 B Z ER1 V AH0 N T
+observateur		AA0 B Z ER2 V AH0 T UH1 R
+observation	ob·ser·va·tion	AA2 B Z ER0 V EY1 SH AH0 N
+observational		AA2 B Z ER0 V EY1 SH AH0 N AH0 L
+observations		AA2 B Z ER0 V EY1 SH AH0 N Z
+observatories		AH0 B Z ER1 V AH0 T AO2 R IY0 Z
+observatory	ob·serv·a·to·ry/ob·ser·va·to·ry	AH0 B Z ER1 V AH0 T AO2 R IY0
+observatory's		AH0 B Z ER1 V AH0 T AO2 R IY0 Z
+observe	ob·serve	AH0 B Z ER1 V
+observed	ob·served	AH0 B Z ER1 V D
+observer	ob·serv·er	AH0 B Z ER1 V ER0
+observers		AH0 B Z ER1 V ER0 Z
+observes		AH0 B Z ER1 V Z
+observing	ob·serv·ing	AH0 B Z ER1 V IH0 NG
+obsess	ob·sess	AH0 B S EH1 S
+obsessed		AH0 B S EH1 S T
+obsesses		AH0 B S EH1 S IH0 Z
+obsessing		AH0 B S EH1 S IH0 NG
+obsession	ob·ses·sion	AH0 B S EH1 SH AH0 N
+obsessional	ob·ses·sion·al	AH0 B S EH1 SH AH0 N AH0 L
+obsessions		AH0 B S EH1 SH AH0 N Z
+obsessive	ob·ses·sive	AH0 B S EH1 S IH0 V
+obsessively		AA0 B S EH1 S IH0 V L IY0
+obshchestvennom		AA2 B SH AH0 S T V EH1 N AH0 M
+obsidian	ob·sid·i·an	AH0 B S IH1 D IY0 AH0 N
+obsolescence		AA2 B S AH0 L EH1 S AH0 N S
+obsolescent	ob·so·les·cent	AA2 B S AH0 L EH1 S AH0 N T
+obsolete	ob·so·lete	AA1 B S AH0 L IY2 T;AA2 B S AH0 L IY1 T
+obsoletes		AA2 B S AH0 L IY1 T S
+obst		AA1 B S T
+obstacle	ob·sta·cle	AA1 B S T AH0 K AH0 L
+obstacles		AA1 B S T AH0 K AH0 L Z
+obstetric	ob·stet·ric	AH0 B S T EH1 T R IH0 K
+obstetrical	ob·stet·ri·cal	AH0 B S T EH1 T R IH0 K AH0 L
+obstetrician	ob·ste·tri·cian	AA2 B S T AH0 T R IH1 SH AH0 N
+obstetricians		AA2 B S T AH0 T R IH1 SH AH0 N Z
+obstetrics	ob·stet·rics	AH0 B S T EH1 T R IH0 K S
+obstfeld		AA1 B S T F EH2 L D
+obstinacy	ob·sti·na·cy	AA1 B S T AH0 N AH0 S IY0
+obstinate	ob·sti·nate	AA1 B S T AH0 N AH0 T
+obstreperous	ob·strep·er·ous	AH0 B S T R EH1 P ER0 AH0 S
+obstruct	ob·struct	AH0 B S T R AH1 K T
+obstructed		AH0 B S T R AH1 K T IH0 D
+obstructing		AH0 B S T R AH1 K T IH0 NG
+obstruction	ob·struc·tion	AH0 B S T R AH1 K SH AH0 N
+obstructionism	ob·struc·tion·ism	AH0 B S T R AH1 K SH AH0 N IH2 Z AH0 M
+obstructionist	ob·struc·tion·ist	AH0 B S T R AH1 K SH AH0 N AH0 S T;AH0 B S T R AH1 K SH AH0 N IH0 S T
+obstructionists		AH0 B S T R AH1 K SH AH0 N AH0 S T S;AH0 B S T R AH1 K SH AH0 N IH0 S T S
+obstructions		AH0 B S T R AH1 K SH AH0 N Z
+obstructive	ob·struc·tive	AH0 B S T R AH1 K T IH0 V
+obstructs		AH0 B S T R AH1 K T S
+obtain	ob·tain	AH0 B T EY1 N
+obtainable		AH0 B T EY1 N AH0 B AH0 L
+obtained		AH0 B T EY1 N D
+obtaining		AH0 B T EY1 N IH0 NG
+obtains		AH0 B T EY1 N Z
+obtrude	ob·trude	AH0 B T R UW1 D
+obtrudes		AH0 B T R UW1 D Z
+obtrusive	ob·tru·sive	AH0 B T R UW1 S IH0 V
+obtuse	ob·tuse	AA0 B T UW1 S
+obuchowski		OW0 B Y UW0 K AW1 S K IY0;OW0 B UW0 K AW1 S K IY0;OW0 B UW0 CH OW1 S K IY0
+obverse	ob·verse	AH0 B V ER1 S
+obviate	ob·vi·ate	AA1 B V IY0 EY2 T
+obviated	ob·vi·at·ed	AA1 B V IY0 EY2 T AH0 D
+obviates		AA1 B V IY0 EY2 T S
+obviating	ob·vi·at·ing	AA1 B V IY0 EY2 T IH0 NG
+obvious	ob·vi·ous	AA1 B V IY0 AH0 S
+obviously	ob·vi·ous·ly	AA1 B V IY0 AH0 S L IY0
+obyrne		OW0 B ER1 N
+ocain		OW0 K AA0 IY1 N
+ocala	o·cal·a	OW0 K AE1 L AH0
+ocallaghan		OW0 K AE1 L AH0 G AH0 N
+ocallahan		OW0 K AE1 L AH0 HH AE2 N
+ocampo		OW0 K AE1 M P OW0
+ocana		OW0 K AE1 N AH0
+ocanas		OW0 K AE1 N AH0 Z
+ocarroll		OW0 K AE1 R AH0 L;OW0 K EH1 R AH0 L
+ocasio		OW0 K AA1 S IY0 OW0
+ocaw		OW0 K AO1
+ocaw's		OW0 K AO1 Z
+occasion	oc·ca·sion	AH0 K EY1 ZH AH0 N
+occasional	oc·ca·sion·al	AH0 K EY1 ZH AH0 N AH0 L
+occasionally	oc·ca·sion·al·ly	AH0 K EY1 ZH AH0 N AH0 L IY0;AH0 K EY1 ZH N AH0 L IY0;AH0 K EY1 ZH AH0 N L IY0
+occasioned		AH0 K EY1 ZH AH0 N D
+occasions	oc·ca·sions	AH0 K EY1 ZH AH0 N Z
+occhino		OW2 K IY1 N OW2
+occhipinti		OW0 K IY0 P IY1 N T IY0
+occhoa		OW2 CH OW1 AA0
+occhoa's		OW2 CH OW1 AH0 Z
+occident	oc·ci·dent	AA1 K S AH0 D EH2 N T
+occidental	oc·ci·den·tal	AA2 K S AH0 D EH1 N T AH0 L;AA2 K S AH0 D EH1 N AH0 L
+occidental's		AA2 K S AH0 D EH1 N T AH0 L Z;AA2 K S AH0 D EH1 N AH0 L Z
+occidentale		AA2 K S IH0 D EH1 N T AH0 L
+occidentale's		AA2 K S IH0 D EH1 N T AH0 L Z
+occipital	oc·cip·i·tal	AA0 K S IH1 P AH0 T AH0 L
+occlusion	oc·clu·sion	AH0 K L UW1 ZH AH0 N
+occult	oc·cult	AH0 K AH1 L T
+occupancy	oc·cu·pan·cy	AA1 K Y AH0 P AH0 N S IY0
+occupant	oc·cu·pant	AA1 K Y AH0 P AH0 N T
+occupants		AA1 K Y AH0 P AH0 N T S
+occupation	oc·cu·pa·tion	AA2 K Y AH0 P EY1 SH AH0 N
+occupational	oc·cu·pa·tion·al	AA0 K Y AH0 P EY1 SH AH0 N AH0 L
+occupations		AA2 K Y AH0 P EY1 SH AH0 N Z
+occupied		AA1 K Y AH0 P AY2 D
+occupier	oc·cu·pi·er	AA1 K Y AH0 P AY2 ER0
+occupiers		AA1 K Y AH0 P AY2 ER0 Z
+occupies		AA1 K Y AH0 P AY2 Z
+occupy	oc·cu·py	AA1 K Y AH0 P AY2
+occupying		AA1 K Y AH0 P AY2 IH0 NG
+occur	oc·cur	AH0 K ER1
+occuring		AH0 K ER1 IH0 NG
+occurred	oc·curred	AH0 K ER1 D
+occurrence	oc·cur·rence	AH0 K ER1 AH0 N S
+occurrences		AH0 K ER1 AH0 N S IH0 Z
+occurring	oc·cur·ring	AH0 K ER1 IH0 NG
+occurs		AH0 K ER1 Z
+ocean	o·cean	OW1 SH AH0 N
+ocean's		OW1 SH AH0 N Z
+oceana		OW0 SH IY0 AE1 N AH0
+oceaneering		OW2 SH AH0 N IH1 R IH0 NG
+oceanfront	o·cean·front	OW1 SH AH0 N F R AH2 N T
+oceangoing		OW1 SH AH0 N G OW2 IH0 NG
+oceania	o·ce·an·i·a	OW2 SH IY2 AE1 N Y AH0
+oceanic	o·ce·an·ic	OW2 SH IY0 AE1 N IH0 K
+oceanographer	o·ce·a·nog·ra·pher	OW2 SH AH0 N AA1 G R AH0 F ER0
+oceanographic	o·ce·a·no·graph·ic	OW2 SH AH0 N AH0 G R AE1 F IH0 K
+oceanography	o·cean·og·ra·phy/o·ce·a·nog·ra·phy	OW2 SH AH0 N AA1 G R AH0 F IY0
+oceans		OW1 SH AH0 N Z
+oceanside	o·cean·side	OW1 SH AH0 N S AY2 D
+oceanview		OW1 SH AH0 N V Y UW2
+ocelot	oc·e·lot/o·ce·lot	AA1 S AH0 L AA2 T
+ocelot's		AA1 S AH0 L AA2 T S
+och	och	AA1 K
+ocheltree		AA0 CH IH0 L T R IY1
+ochoa	o·cho·a	AA2 CH OW1 AH0;OW2 CH OW1 AH0
+ochra		AA1 K R AH0
+ochre	o·chre	OW1 K ER0
+ochs		AA1 K S;OW1 K S
+ochsenschlager		AA1 K S AH0 N SH L AA2 G ER0
+ochsner		AA1 K S N ER0
+ocilla	o·cil·la	OW0 S IH1 L AH0
+ocker	ock·er	AA1 K ER0
+ockerbloom		AA1 K ER0 B L UW0 M
+ockerman		AA1 K ER0 M AH0 N
+oclair		OW0 K L ER1
+ocon		AH0 K AA1 N
+oconnell		OW0 K AA1 N AH0 L
+oconner		OW0 K AA1 N ER0
+oconner's		OW0 K AA1 N ER0 Z
+oconnor		OW0 K AA1 N ER0
+oconnor's		OW0 K AA1 N ER0 Z
+oct	oct	AO1 K T
+octagon	oc·ta·gon	AA1 K T AH0 G AA2 N
+octagonal	oc·tag·o·nal	AA0 K T AE1 G AH0 N AH0 L
+octahedral	oc·ta·he·dral	AA2 K T AH0 HH IY1 D R AH0 L
+octahedron	oc·ta·he·dron	AA2 K T AH0 HH IY1 D R AH0 N
+octane	oc·tane	AA1 K T EY0 N
+octave	oc·tave	AA1 K T IH0 V
+octaves		AA1 K T IH0 V Z
+octavia	oc·ta·vi·a	AA0 K T EY1 V IY0 AH0
+octavio		AA2 K T EY1 V IY0 OW0
+octavius	oc·ta·vi·us	AA0 K T EY1 V IY0 AH0 S
+octavus		AA1 K T AH0 V UW0 S
+octel		AA2 K T EH1 L
+octet	oc·tet	AA0 K T EH1 T
+octial		AA1 K T Y AH0 L
+octillion	oc·til·lion	AA0 K T IH1 L Y AH0 N
+october	oc·to·ber	AA0 K T OW1 B ER0
+october's		AA0 K T OW1 B ER0 Z
+octogenarian	oc·to·ge·nar·i·an	AA2 K T AH0 JH IH0 N EH1 R IY0 AH0 N
+octopi	oc·to·pi	AA1 K T AH0 P AY0
+octopus	oc·to·pus	AA1 K T AH0 P UH2 S
+octuplet	oc·tup·let	AA0 K T AH1 P L AH0 T
+octuplets		AA0 K T AH1 P L AH0 T S
+ocular	oc·u·lar	AO1 K Y UW0 L ER0
+oculist	oc·u·list	AO1 K Y UW0 L IH2 S T
+oda		OW1 D AH0
+odaiko		OW0 D EY1 K OW0
+odaniel		AA1 D AH0 N IY0 L
+oday		OW0 D EY1
+odd	odd	AA1 D
+oddball	odd·ball	AA1 D B AO2 L
+oddballs		AA1 D B AO2 L Z
+odden		AA1 D AH0 N
+odder		AA1 D ER0
+oddest		AA1 D AH0 S T
+oddi		AA1 D IY0;OW1 D IY0
+oddities		AA1 D AH0 T IY0 Z
+oddity	odd·i·ty	AA1 D AH0 T IY0
+oddler		AA1 D L ER0
+oddler's		AA1 D L ER0 Z
+oddly	odd·ly	AA1 D L IY0
+odds	odds	AA1 D Z
+odds-on	odds-on	AA1 D Z AA1 N
+oddsmaker		AA1 D Z M EY2 K ER0
+oddsmakers		AA1 D Z M EY2 K ER0 Z
+oddy		AA1 D IY0
+ode	ode	OW1 D
+odea	o·de·a	AA1 D IY0 AH0
+oded		OW1 D EH0 D
+odegaard		AA1 D IH0 G AA0 R D
+odegard		AA1 D IH0 G ER0 D
+odekirk		AA1 D IH0 K ER0 K
+odele		OW0 D EH1 L IY0
+odelet		AA1 D IH0 L IH0 T
+odelette		AA1 D IH0 L EH0 T
+odelia		OW0 D EH1 L IY0 AH0
+odelinda		OW0 D EH0 L IY1 N D AH0
+odell	o·dell	OW0 D EH1 L
+odella		OW0 D EH1 L AH0
+odem		OW1 D IH0 M
+oden		OW1 D AH0 N
+odenthal		AA1 D IH0 N TH AH0 L
+odeon		OW1 D IY0 AH0 N
+oder	o·der	OW1 D ER0
+odes		OW1 D Z
+odessa	o·des·sa	OW0 D EH1 S AH0
+odetics		OW0 D EH1 T IH0 K S
+odette	o·dette	OW2 D EH1 T
+odgers		AA1 JH ER0 Z
+odiaum		OW1 D IY0 AH0 M
+odiaun		OW1 D IY0 AH0 N
+odier		OW1 D IY0 ER0
+odilia		OW0 D IY1 L IY0 AH0
+odin	o·din	OW1 D AH0 N
+odiorne		OW0 D IY0 AO1 R N IY0
+odious	o·di·ous	OW1 D IY0 AH0 S
+odland		AA1 D L AH0 N D
+odle		OW1 D AH0 L
+odneal		OW1 D N IY2 L
+odoherty		OW0 D AA1 ER0 T IY0;OW0 D OW1 ER0 T IY0
+odolf		AH0 D OW1 L F
+odom		OW1 D AH0 M
+odometer	o·dom·e·ter	OW2 D AA1 M AH0 T ER0
+odometers		OW2 D AA1 M AH0 T ER0 Z
+odoms		OW1 D AH0 M Z
+odonald		OW0 D AA1 N AH0 L D
+odonnel		OW0 D AA1 N AH0 L
+odonnell		OW0 D AA1 N AH0 L
+odonoghue		OW0 D AA1 N AH0 HH Y UW0;OW0 D AA1 N AH0 HH UW0
+odonohue		OW0 D AA1 N AH0 HH Y UW0
+odonovan		OW0 D AA1 N AH0 V AH0 N
+odor	o·dor	OW1 D ER0
+odorant		OW1 D ER0 AH0 N T
+odorless	o·dor·less	OW1 D ER0 L AH0 S
+odorous	o·dor·ous	OW1 D ER0 AH0 S
+odors		OW1 D ER0 Z
+odour	o·dour	OW1 D ER0
+odours		OW1 D ER0 S
+odowd		OW0 D AW1 D
+odp		OW1 D IY1 P IY1
+odriscoll		OW0 D R IH1 S K AA0 L
+odum		OW1 D AH0 M
+odwalla		AA0 D W AA1 L AH0
+odwyer		OW0 D W AY1 ER0
+odysseus	o·dys·seus/o·dys·se·us	OW0 D IH1 S IY0 AH0 S
+odyssey	od·ys·sey	AA1 D AH0 S IY0
+odyssey's		AA1 D AH0 S IY0 Z
+oecd	oecd	OW2 IY2 S IY2 D IY1
+oedipal	oed·i·pal	EH1 D AH0 P AH0 L
+oedipus	oed·i·pus/oe·di·pus	EH1 D IH0 P AH0 S
+oehler		OW1 L ER0
+oehlert		OW1 L ER0 T
+oehlke		OW1 L K
+oehme		OW1 M
+oehmen		OW1 M AH0 N
+oehmens		OW1 M AH0 N Z
+oehrlein		AO1 R L AY0 N
+oeien		OW1 IY0 AH0 N
+oelke		OW1 L K
+oelkers		OW1 L K ER0 Z
+oelman		OW1 L M AH0 N
+oelrich		OW1 L R IH0 K
+oelschlager		OW1 L SH L EY0 G ER0
+oenophile		IY1 N AH0 F AY2 L
+oerlikon		AO1 R L IH0 K AA2 N
+oertel		AO1 R T AH0 L
+oesch		OW1 SH
+oeser		OW1 Z ER0
+oest		OW1 IH0 S T
+oesterle		OW1 S T ER0 AH0 L
+oesterling		OW1 S T ER0 L IH0 NG
+oesterreich		OW1 S T ER0 AY0 K
+oesterreichische		OW2 S T ER0 AY1 K IH0 SH IY0
+oestreich		OW1 S T R AY2 K
+oestreicher		OW1 S T R AY2 K ER0
+oetken		OW1 T K AH0 N
+oetting		OW1 T IH0 NG
+oettinger		OW1 T IH0 N JH ER0;OW1 T IH0 NG ER0
+oeuvre	oeu·vre	UW1 V R AH0;ER1 V
+of		AH1 V
+ofallon		OW0 F AE1 L AH0 N
+ofarrell		OW0 F EH1 R AH0 L;OW0 F AE1 R AH0 L
+ofc		OW1 EH1 F S IY1
+ofelia		OW0 F EY1 L IY0 AH0
+ofer		OW1 F ER0
+off	off	AO1 F
+off's		AO1 F S
+off-day		AO1 F D EY2
+off-duty		AO2 F D UW1 T IY0
+off-limits	off-lim·its	AO2 F L IH1 M IH0 T S
+off-line		AO1 F L AY2 N
+off-side		AO1 F S AY2 D
+offbeat	off·beat	AO1 F B IY1 T
+offen		AO1 F AH0 N
+offend	of·fend	AH0 F EH1 N D
+offended		AH0 F EH1 N D AH0 D;AH0 F EH1 N D IH0 D
+offender	of·fend·er	AH0 F EH1 N D ER0
+offenders		AH0 F EH1 N D ER0 Z
+offending		AH0 F EH1 N D IH0 NG
+offends		AH0 F EH1 N D Z
+offense	of·fense	AH0 F EH1 N S
+offenses		AH0 F EH1 N S IH0 Z
+offensive	of·fen·sive	AH0 F EH1 N S IH0 V
+offensively	of·fen·sive·ly	AH0 F EH1 N S IH0 V L IY0
+offensives		AH0 F EH1 N S IH0 V Z
+offer	of·fer	AO1 F ER0
+offer's		AO1 F ER0 Z
+offerdahl		AA1 F ER0 D AA0 L
+offered		AO1 F ER0 D
+offerer	of·fer·er	AO1 F ER0 ER0
+offerers		AO1 F ER0 ER0 Z
+offering	of·fer·ing	AO1 F ER0 IH0 NG;AO1 F R IH0 NG
+offering's		AO1 F ER0 IH0 NG Z;AO1 F R IH0 NG Z
+offerings		AO1 F ER0 IH0 NG Z;AO1 F R IH0 NG Z
+offerman		AO1 F ER0 M AH0 N
+offermann		AO1 F ER0 M AH0 N
+offers		AO1 F ER0 Z
+offhand	off·hand	AO1 F HH AE1 N D
+office	of·fice	AO1 F IH0 S
+office's		AO1 F AH0 S IH0 Z
+officeholder	of·fice·hold·er	AO1 F AH0 S HH OW2 L D ER0
+officeholders		AO1 F AH0 S HH OW2 L D ER0 Z
+officemax		AO1 F AH0 S M AE2 K S
+officer	of·fic·er	AO1 F AH0 S ER0;AO1 F IH0 S ER0
+officer's		AO1 F IH0 S ER0 Z
+officers		AO1 F AH0 S ER0 Z;AO1 F IH0 S ER0 Z
+officers'		AO1 F IH0 S ER0 Z
+offices		AO1 F AH0 S AH0 Z;AO1 F AH0 S IH0 Z
+official	of·fi·cial	AH0 F IH1 SH AH0 L
+official's		AH0 F IH1 SH AH0 L Z
+officialdom	of·fi·cial·dom	AH0 F IH1 SH AH0 L D AH0 M
+officially	of·fi·cial·ly	AH0 F IH1 SH AH0 L IY0
+officials		AH0 F IH1 SH AH0 L Z
+officials'		AH0 F IH1 SH AH0 L Z
+officiate	of·fi·ci·ate	AH0 F IH1 SH IY0 EY2 T
+officiated	of·fi·ci·at·ed	AH0 F IH1 SH IY0 EY2 T AH0 D
+officiates		AH0 F IH1 SH IY0 EY2 T S
+officiating	of·fi·ci·at·ing	AH0 F IH1 SH IY0 EY2 T IH0 NG
+officio		AH0 F IH1 S IY0 OW0
+offield		AA1 F IY2 L D
+offill		AO1 F IH2 L
+offing	of·fing	AO1 F IH0 NG
+offlimit		AO2 F L IH1 M IH0 T
+offlimits		AO2 F L IH1 M IH0 T S
+offline		AO1 F L AY2 N
+offner		AA1 F N ER0
+offord		AA1 F ER0 D
+offs		AO1 F S
+offseason		AO1 F S IY1 Z AH0 N
+offset	off·set	AO0 F S EH1 T;AO1 F S EH2 T
+offsets		AO1 F S EH2 T S
+offsetting	off·set·ting	AO0 F S EH1 T IH0 NG;AO1 F S EH2 T IH0 NG
+offshoot	off·shoot	AO1 F SH UW2 T
+offshoots		AO1 F SH UW2 T S
+offshorable		AO1 F SH AO1 R AH2 B AH0 L
+offshore	off·shore	AO1 F SH AO1 R
+offshored		AO1 F SH AO1 R D
+offspring	off·spring	AO1 F S P R IH2 NG
+offstage	off·stage	AO1 F S T EY1 JH
+offutt		AA1 F AH0 T
+ofilia		OW0 F IY1 L IY0 AH0
+oflaherty		OW0 F L EY1 HH ER0 T IY0;OW0 F L EY1 ER0 T IY0
+oflynn		OW0 F L IH1 N
+oft	oft	AO1 F T
+oftedahl		AA1 F T IH0 D AA0 L
+oftel		AA1 F T EH2 L
+often	of·ten	AO1 F AH0 N;AO1 F T AH0 N
+oftener		AO1 F AH0 N ER0;AO1 F T AH0 N ER0
+oftentimes		AO1 F AH0 N T AY2 M Z;AO1 F T AH0 N T AY2 M Z
+og		AA1 G
+ogan		OW1 G AH0 N
+ogara		OW2 G AA1 R AA2
+ogata		OW2 G AA1 T AA2
+ogawa		OW2 G AA1 W AA2
+ogborn		AA1 G B ER0 N
+ogburn	og·burn	AA1 G B ER0 N
+ogden	og·den	AA1 G D AH0 N
+ogden's		AA1 G D AH0 N Z
+ogg		AA1 G
+ogier		OW1 G IY0 ER0
+ogilvie	o·gil·vie	AA1 JH IH0 L V IY0;OW2 G IH1 L V IY0
+ogilvy		OW1 G AH0 L V IY0
+ogilvy's		OW1 G AH0 L V IY0 Z
+oglala		OW0 G L AA1 L AH0
+ogle	o·gle	OW1 G AH0 L
+oglebay		OW1 G AH0 L B EY2
+ogled		OW1 G AH0 L D
+ogles		OW1 G AH0 L Z
+oglesbee		OW1 G AH0 L Z B IY2
+oglesby	o·gles·by	AA1 G AH0 L S B IY0
+oglethorpe	o·gle·thorpe	OW1 G AH0 L TH AO2 R P
+ogletree		OW1 G AH0 L T R IY2
+ognibene		OW0 G N IY0 B EH1 N AH0
+ogoni		OW0 G OW1 N IY0
+ogonyok		OW0 G OW1 N Y AA0 K
+ogorman		OW0 G AO1 R M AH0 N
+ogrady		OW0 G R EY1 D IY0
+ogre	o·gre	OW1 G ER0
+ogren		AA1 G R EH0 N
+ogress		OW1 G R AH0 S
+oguin		OW0 G UW1 IY0 N
+oguinn		OW0 G W IH1 N
+oh		OW1
+oh's		OW1 Z
+ohagan		OW0 HH AA1 G AH0 N;OW0 HH EY1 G AH0 N
+ohair		OW0 HH EH1 R
+ohalloran		OW0 HH AE1 L ER0 AH0 N
+ohanesian		OW0 HH AH0 N EH1 ZH IH0 N
+ohanian		OW0 HH EY1 N IY0 AH0 N
+ohanlon		OW0 HH AE1 N L AH0 N
+ohara		OW0 HH EH1 R AH0
+ohara's		OW0 HH EH1 R AH0 Z
+ohare		OW0 HH EH1 R
+oharra		OW0 HH ER1 AH0
+ohashi		OW2 HH AA1 SH IY2
+ohaver		OW0 HH EY1 V ER0
+ohba		OW1 B AH0
+ohbayashi		OW2 B AA2 Y AA1 SH IY2
+ohearn		OW0 HH ER1 N
+ohern		OW0 HH ER1 N
+oherron		OW0 HH EH1 R AH0 N
+ohh		OW1
+ohio	ohi·o/o·hi·o	OW0 HH AY1 OW0
+ohio's		OW0 HH AY1 OW0 Z
+ohioan		OW2 HH AY1 OW2 AH0 N
+ohioans		OW2 HH AY1 OW2 AH0 N Z
+ohkawara		OW2 K AA2 W AA1 R AA2
+ohl		OW1 L
+ohland		OW1 L AH0 N D
+ohlendorf		OW1 L IH0 N D AO0 R F
+ohler		OW1 L ER0
+ohlin		OW1 L IH0 N
+ohlinger		OW1 L IH0 NG ER0
+ohlman		OW1 L M AH0 N
+ohlmann		OW1 L M AH0 N
+ohlmeyer		OW1 L M AY2 R
+ohlrich		OW1 L R IH0 K
+ohlsen		OW1 L S AH0 N
+ohlson		OW1 L S AH0 N
+ohlsson		OW1 L S AH0 N
+ohm	ohm	OW1 M
+ohm's		OW1 M Z
+ohmae		OW1 M EY2
+ohman		OW1 M AH0 N
+ohmann		OW1 M AH0 N
+ohmer		OW1 M ER0
+ohms		OW1 M Z
+ohmura		OW0 M UW1 R AH0
+ohnemus		OW1 N IH0 M IH0 S
+ohnstad		OW1 N S T AH0 D
+ohr		AO1 R
+ohrt		AO1 R T
+ohs		OW1 Z
+oi		OY1
+oie		OY1
+oien		AA1 IY0 N
+oil	oil	OY1 L
+oil's		OY1 L Z
+oiled		OY1 L D
+oiler	oil·er	OY1 L ER0
+oilers		OY1 L ER0 Z
+oilfield	oil·field	OY1 L F IY2 L D
+oilfields		OY1 L F IY2 L D Z
+oiling		OY1 L IH0 NG
+oilman	oil·man	OY1 L M AE2 N
+oilmen		OY1 L M EH1 N
+oils		OY1 L Z
+oilseed	oil·seed	OY1 L S IY2 D
+oilseeds		OY1 L S IY2 D Z
+oilwell		OY1 L W EH2 L
+oily	oil·y	OY1 L IY0
+ointment	oint·ment	OY1 N T M AH0 N T
+oishi		OW0 IY1 SH IY0
+oj		OW1 JH EY1
+oja		OW1 Y AH0
+ojala		OW0 Y AA1 L AH0
+ojeda		OW0 Y EY1 D AH0
+oji		OW1 JH IY0
+ojibwa	o·jib·wa	OW0 JH IH1 B W AH0
+ok		OW1 K EY1
+oka	o·ka	OW1 K AH0
+okabe		OW0 K AA1 B EY0
+okada		OW0 K AA1 D AH0
+okaloosa		AO2 K AH0 L UW1 S AH0;OW2 K AH0 L UW1 S AH0
+okamoto		OW2 K AH0 M OW1 T OW0
+okamura		OW2 K AH0 M UH1 R AH0
+okane		OW0 K EY1 N
+okano		OW0 K AA1 N OW0
+okasaki		OW2 K AH0 S AA1 K IY0
+okasan		OW0 K EY1 Z AH0 N
+okay	o·kay	OW2 K EY1
+okayed		OW2 K EY1 D
+okays		OW2 K EY1 Z
+okaz		OW0 K AA1 Z
+okazaki	o·ka·za·ki	OW0 K AA0 Z AA1 K IY0
+okdo		AO1 K D OW2
+okeechobee	o·kee·cho·bee	OW0 K IY2 CH OW1 B IY0
+okeefe		OW0 K IY1 F
+okeeffe		OW0 K IY1 F
+okelley		OW0 K EH1 L IY0
+okelly		OW0 K EH1 L IY0
+oken	o·ken	OW0 K EY1 AH0 N
+okerlund		AA1 K ER0 L AH0 N D
+okeson		OW1 K IH0 S AH0 N
+okey		OW1 K IY0
+okey-dokey	o·key-do·key	OW1 K IY0 D OW1 K IY0
+oki		OW1 K IY0
+okie	o·kie	OW1 K IY0
+okimoto		OW0 K IY0 M OW1 T OW0
+okin		OW1 K IH0 N
+okinawa	o·ki·na·wa	OW2 K IH2 N AA1 W AH0;OW2 K IY0 N AA1 W AA2
+okinawans		OW2 K IH2 N AA1 W AH0 N Z;OW2 K IY2 N AA1 W AH0 N Z
+oklahoma	ok·la·ho·ma/o·kla·ho·ma	OW2 K L AH0 HH OW1 M AH0
+oklahoma's		OW2 K L AH0 HH OW1 M AH0 Z
+oklahoman		OW2 K L AH0 HH OW1 M AH0 N
+oklahomans		OW2 K L AH0 HH OW1 M AH0 N Z
+okon		OW1 K OW0 N
+okoniewski		OW0 K AA2 N IY0 EH1 V S K IY0;OW2 K AH0 N UW1 S K IY0
+okonski		AH0 K AA1 N S K IY0
+okpo		AA1 K P OW0
+okra	o·kra	OW1 K R AH0
+okray		AA1 K R EY0
+oksana		AA2 K S AE1 N AH0
+oksana's		AA2 K S AE1 N AH0 Z
+oksenberg		AA1 K S AH0 N B ER0 G
+okubo		OW0 K UW1 B OW0
+okuda		OW0 K UW1 D AH0
+okuma		OW0 K Y UW1 M ER0
+okumura		OW0 K UW0 M UH1 R AH0
+okun		OW1 K UW0 N
+okuno		OW0 K Y UW1 N OW0
+okura		OW0 K UW1 R AH0
+okurowski		OW0 K ER0 OW1 S K IY0
+okwu		AO1 K W UW0
+ol'		OW1 L
+ola		OW1 L AH0
+olack		OW1 L AE0 K
+olaf		OW1 L AA0 F
+olafson		OW1 L AH0 F S AH0 N
+olague		OW1 L AA0 G
+olah		AH0 L AA1;OW1 L AH0
+olajuwon		AH0 L AY1 JH UW0 AA2 N
+olajuwon's		AH0 L AY1 JH UW0 AA2 N Z
+oland	o·land	AA1 L AH0 N D
+olander		AA1 L AH0 N D ER0
+olano		AH0 L AA1 N OW0
+olasky		OW0 L AE1 S K IY0
+olathe		OW0 L AE1 TH IY0
+olaughlin		OW0 L AO1 K L IH0 N
+olay		OW0 L EY1
+olayan		OW0 L AY1 AH0 N
+olberding		OW1 L B ER0 D IH0 NG
+olbrich		OW1 L B R IH0 K
+olcott	ol·cott	OW1 L K AH0 T
+olczak		OW1 L CH AE0 K
+old	old	OW1 L D
+old's		OW1 L D Z
+old-fashioned	old-fash·ioned	OW2 L D F AE1 SH AH0 N D
+old-growth		OW2 L D G R OW1 TH
+old-school		OW2 L D S K UW1 L
+old-timer	old-tim·er	OW2 L D T AY1 M ER0
+old-timers		OW2 L D T AY1 M ER0 Z
+oldaker		OW1 L D AH0 K ER0
+oldani		OW0 L D AA1 N IY0
+olde		OW1 L D
+olden	old·en	OW1 L D AH0 N
+oldenburg	ol·den·burg	OW1 L D AH0 N B ER0 G
+oldenkamp		OW1 L D IH0 N K AE0 M P
+older	old·er	OW1 L D ER0
+oldest	old·est	OW1 L D AH0 S T
+oldfashioned		OW2 L D F AE1 SH AH0 N D
+oldfather		OW1 L D F AA2 DH ER0
+oldfield		OW1 L D F IY2 L D
+oldham	old·ham	OW1 L D AH0 M
+oldham's		OW1 L D AH0 M Z
+oldie	old·ie	OW1 L D IY0
+oldies		OW1 L D IY0 Z
+oldman		OW1 L D M AH0 N
+oldroyd		OW1 L D R OY2 D
+olds		OW1 L D Z
+oldsmar		OW1 L D Z M AA0 R
+oldsmobile		OW1 L D Z M OW0 B IY2 L
+oldsmobile's		OW1 L D Z M OW0 B IY2 L Z;OW1 L Z M OW0 B IY2 L Z
+oldsmobiles		OW1 L D Z M OW0 B IY2 L Z
+oldster	old·ster	OW1 L D S T ER0
+oldsters		OW1 L D S T ER0 Z
+oldt		OW1 L T
+ole		OW1 L;OW2 L EY1
+olea	o·le·a	AA1 L IY0 AH0;OW0 L IY1
+oleaginous	o·le·ag·i·nous	OW2 L IY0 AE1 JH AH0 N AH0 S
+olean		OW0 L IY1 N
+oleander	o·le·an·der	OW1 L IY0 AE2 N D ER0
+oleandrin		OW0 L IY0 AE1 N D R IH0 N
+olear		OW0 L IH1 R
+oleary		OW0 L IH1 R IY0
+oleaster	o·le·as·ter	OW2 L IY0 AE1 S T ER0
+olefin	o·le·fin	OW1 L AH0 F IH0 N
+olefins		OW1 L AH0 F IH0 N Z
+oleg		OW1 L AH0 G
+olejniczak		AH0 L EY1 N IH0 CH AE0 K
+olejnik		AH0 L EY1 N IH0 K
+oleksiak		AH0 L EH1 K S IY0 AE0 K
+oleksy		AH0 L EH1 K S IY0
+olen		AA1 L AH0 N
+olender		AA1 L EH0 N D ER0
+olenick		AA1 L IH0 N IH0 K
+olenik		AA1 L IH0 N IH0 K
+oleo		OW1 L IY0 OW2
+oleoyl	o·le·o·yl	OW2 L IY0 OY1 L
+oleoyls		OW2 L IY0 OY1 L Z
+oler		OW1 L ER0
+oles		OW1 L Z;OW2 L EY1 Z
+olesen		AA1 L IY0 Z AH0 N
+oleske		OW1 L AH0 S K IY0
+olesky		AH0 L EH1 S K IY0
+oleson		AA1 L IH0 S AH0 N
+olestra		OW0 L EH1 S T R AH0
+olexa		AH0 L IY1 K S AH0
+olexson		OW1 L AH0 K S AH0 N
+oley		OW1 L IY0
+olfactory	ol·fac·to·ry	OW0 L F AE1 K T ER0 IY0
+olga	ol·ga	OW1 L G AH0
+olguin		OW1 L G IH0 N
+olick		OW1 L IH0 K
+oliff		AA1 L IH0 F
+oligarch	ol·i·garch	OW1 L IH0 G AA2 R K
+oligarchs		OW1 L IH0 G AA2 R K S
+oligarchy	ol·i·gar·chy	AA1 L AH0 G AA2 R K IY0
+oliger		AA1 L IH0 G ER0
+oligocene	ol·i·go·cene	AA1 L AH0 G OW0 S IY2 N
+oligopolistic	ol·i·gop·o·lis·tic	OW0 L IH2 G AH0 P OW0 L IH1 S T IH0 K
+oligopoly	ol·i·gop·o·ly	AA2 L IH0 G AA1 P AH0 L IY0
+olin	o·lin	OW1 L IH0 N
+olin's		OW1 L IH0 N Z
+olinda		OW0 L IY1 N D AH0
+olinde		AA1 L IH0 N D
+olinger		AA1 L IH0 NG ER0
+oliphant	ol·i·phant	AA1 L IH0 F AH0 N T
+oliva		OW0 L IY1 V AH0
+olivares		OW0 L IY0 V AA1 R EH0 S
+olivarez		OW0 L IY0 V AA1 R EH0 Z
+olivas		OW0 L IY1 V AA0 Z
+olive	ol·ive	AA1 L AH0 V;AA1 L IH0 V
+oliveira		AA2 L IH0 V EY1 R AH0
+oliver	ol·i·ver	AA1 L AH0 V ER0;AA1 L IH0 V ER0
+oliver's		AA1 L IH0 V ER0 Z
+olivera		OW0 L IY0 V EH1 R AH0
+oliveras		OW0 L IY0 V EH1 R AA0 Z
+oliveri		OW0 L IY0 V EH1 R IY0
+oliveria		AA2 L IH0 V IY1 R IY0 AH0
+oliverio		AA2 L IH0 V IY1 R IY0 OW0
+olivero		OW0 L IY0 V EH1 R OW0
+oliveros		OW0 L IY0 V EH1 R OW0 Z
+olives	ol·ives	AA1 L IH0 V Z
+oliveto		OW0 L IY0 V EY1 T OW0
+olivette	ol·i·vette	AA1 L IH0 V EH1 T
+olivetti		AA2 L IH0 V EH1 T IY0
+olivetti's		AA2 L IH0 V EH1 T IY0 Z
+olivia	o·liv·i·a	OW0 L IH1 V IY0 AH0
+olivia's		OW0 L IH1 V IY0 AH0 Z
+olivier	o·liv·i·er	OW2 L IH1 V IY2 EY2
+olivieri		OW0 L IY0 V IH1 R IY0
+olivine	ol·i·vine	AA1 L AH0 V IY2 N
+olivo		AO0 L IY1 V OW0
+oliwa		OW0 L IY1 W AH0
+olk		OW1 K;OW1 L K
+olkowski		OW0 L K AO1 F S K IY0
+olkowski's		OW0 L K AO1 F S K IY0 Z
+ollar		AA1 L ER0
+oller		AA1 L ER0
+olley		AA1 L IY0
+ollie	ol·lie	AA1 L IY0;OW1 L IY0
+ollie's		AA1 L IY0 Z;OW1 L IY0 Z
+olliff		AA1 L IH0 F
+ollila		AA1 L IH0 L AH0
+ollinger		AA1 L IH0 NG ER0
+ollinger's		AA1 L IH0 NG ER0 Z
+ollis		AO1 L IY0 Z
+ollison		AA1 L IH0 S AH0 N
+ollison's		AA1 L IH0 S AH0 N Z
+olly		AA1 L IY0
+olmeda		OW0 L M EY1 D AH0
+olmedo		OW0 L M EY1 D OW0
+olmert		OW0 L M ER0 T
+olmo		OW1 L M OW0
+olmos		OW1 L M OW0 Z
+olmstead		OW1 L M S T EH2 D
+olmstead's		OW1 L M S T EH2 D Z
+olney	ol·ney	OW1 L N IY0
+olof		OW1 L AO0 F
+olof's		OW1 L AO0 F S
+olofson		AA1 L AH0 F S AH0 N
+olofson's		AA1 L AH0 F S AH0 N Z
+olokuei		OW2 L OW0 K UW1 IY0
+olokuei's		OW2 L OW0 K UW1 IY0 Z
+oloughlin		OW0 L AW1 K L IH0 N
+olovo		AH0 L AO1 V OW0
+olsdat		OW1 L Z D AE0 T
+olsen		OW1 L S AH0 N
+olsen's		OW1 L S AH0 N Z
+olshan		OW1 L SH AH0 N
+olshansky		OW1 L SH AH0 N S K IY0
+olshansky's		OW1 L SH AH0 N S K IY0 Z
+olshefski		OW0 L SH EH1 F S K IY0
+olshefski's		OW0 L SH EH1 F S K IY0 Z
+olsher		OW1 L SH ER0
+olson		OW1 L S AH0 N
+olson's		OW1 L S AH0 N Z
+olsson		OW1 L S AH0 N
+olstad		OW1 L S T AH0 D
+olsten		OW1 L S T AH0 N
+olszewski		OW0 L SH EH1 F S K IY0
+olt		OW1 L T
+olthoff		OW1 L T HH AO2 F
+oltman		OW1 L T M AH0 N
+oltmann		OW1 L T M AH0 N
+oltmanns		OW1 L T M AH0 N Z
+olund		AA1 L AH0 N D
+olva		OW1 L V AH0
+olver		OW1 L V ER0
+olvera		OW0 L V EH1 R AH0
+olvey		OW1 L V IY0
+olympia	o·lym·pi·a	OW0 L IH1 M P IY0 AH0
+olympia's		OW0 L IH1 M P IY0 AH0 Z
+olympiad	o·lym·pi·ad	OW0 L IH1 M P IY0 AE2 D
+olympiads		OW0 L IH1 M P IY0 AE2 D
+olympian	o·lym·pi·an	OW0 L IH1 M P IY0 AH0 N
+olympians		OW0 L IH1 M P IY0 AH0 N Z
+olympias		OW0 L IH1 M P IY0 AH0 S
+olympic	o·lym·pic	OW0 L IH1 M P IH0 K
+olympic's		OW0 L IH1 M P IH0 K S
+olympics		OW0 L IH1 M P IH0 K S
+olympics'		OW0 L IH1 M P IH0 K S
+olympus	o·lym·pus	OW0 L IH1 M P AH0 S
+olympus'		OW0 L IH1 M P AH0 S
+om		AO1 M
+oma		OW1 M AH0
+omaar		OW1 M AA0 R
+omaha	o·ma·ha	OW1 M AH0 HH AA2
+omaha's		OW1 M AH0 HH AA2 Z
+omahoney		OW0 M AH0 HH OW1 N IY0
+omahony		OW0 M AH0 HH OW1 N IY0
+omalley		OW0 M AE1 L IY0
+oman	o·man	OW0 M AA1 N
+omani		OW0 M AA1 N IY0
+omans		OW0 M AA1 N Z
+omar	o·mar	OW1 M AA0 R
+omara		OW0 M AA1 R AH0
+omarska		OW0 M AA1 R S K AH0
+omary		AH0 M EH1 R IY0
+ombudsman	om·buds·man	AA1 M B AH0 D Z M AH0 N
+omdahl		AA1 M D AA2 L
+omead		OW0 M IY1 D
+omeara		OW0 M IY1 R AH0;OW2 M AA1 R AH0
+omega	o·me·ga	OW0 M EH1 G AH0;OW0 M EY1 G AH0
+omelet	ome·let/om·e·let	AA1 M L AH0 T
+omelets		AA1 M L AH0 T S
+omelia		OW0 M EH1 L IY0 AH0
+omen	o·men	OW1 M AH0 N
+omens		OW1 M AH0 N Z
+omer	o·mer	OW1 M ER0
+ominous	om·i·nous	AA1 M AH0 N AH0 S
+ominously	om·i·nous·ly	AA1 M AH0 N AH0 S L IY0
+omission	o·mis·sion	OW0 M IH1 SH AH0 N
+omissions		OW0 M IH1 SH AH0 N Z
+omit	o·mit	OW0 M IH1 T
+omits		OW0 M IH1 T S
+omitted	o·mit·ted	OW0 M IH1 T AH0 D;OW0 M IH1 T IH0 D
+omitting	o·mit·ting	OW0 M IH1 T IH0 NG
+omlor		AA1 M L ER0
+ommen		AA1 M AH0 N;OW1 M AH0 N
+omni	om·ni	AA1 M N IY0
+omnibank		AA1 M N IH0 B AE2 NG K
+omnibook		AA1 M N IH0 B UH2 K
+omnibus	om·ni·bus	AA1 M N AH0 B AH0 S
+omnibuses	om·ni·bus·es	AA1 M N AH0 B AH0 S AH0 Z
+omnicare		AA1 M N IH0 K EH2 R
+omnicom		AA1 M N IH0 K AA0 M
+omnicom's		AA1 M N IH0 K AA0 M Z
+omnipotence	om·nip·o·tence	AA0 M N IH1 P AH0 T AH0 N S
+omnipotent	om·nip·o·tent	AA0 M N IH1 P AH0 T AH0 N T
+omnipresence		AA2 M N AH0 P R EH1 Z AH0 N S
+omnipresent	om·ni·pres·ent	AA2 M N IH0 P R EH1 Z AH0 N T
+omniscient	om·nis·cient/om·nis·ci·ent	AA0 M N IH1 SH AH0 N T
+omnivorous	om·niv·or·ous	AA0 M N IH1 V ER0 AH0 S
+omohundro		OW0 M OW0 HH UW1 N D R OW0
+omonia		AH0 M OW1 N IY0 AH0;OW1 M OW0 N Y AH0
+omori		OW0 M AO1 R IY0
+omron		AA1 M R AH0 N
+on		AA1 N;AO1 N
+on-line	on-line	AO1 N L AY2 N
+on-screen		AA1 N S K R IY2 N
+ona	o·na	AH0 N AA1
+onagers		AA1 N AH0 JH ER0 Z
+onan		OW1 N AH0 N
+onassis	o·nas·sis	OW0 N AE1 S IH0 S;OW0 N AA1 S IH0 S
+onassis'		OW0 N AE1 S IH0 S;OW0 N AA1 S IH0 S
+onassis's		OW0 N AE1 S IH0 S IH0 S;OW0 N AA1 S IH0 S IH0 S
+onate		OW1 N EY0 T
+onawa		OW0 N AA1 W AH0
+onboard		AA1 N B AO2 R D
+oncale		OW0 N K AA1 L IY0
+once	once	W AH1 N S
+oncogen		AA1 NG K OW0 JH AH0 N
+oncogene		AA1 NG K OW0 JH IY2 N
+oncogenes		AA0 NG K AA1 JH EH2 N IY0 S
+oncologist		AA0 NG K AA1 L AH0 JH IH0 S T
+oncologists		AA0 NG K AA1 L AH0 JH IH0 S T S
+oncology	on·col·o·gy	AA0 NG K AA1 L AH0 JH IY0
+oncoming	on·com·ing	AO1 N K AH2 M IH0 NG
+oncor		AA1 N K AO2 R
+ondaatje		AA0 N D AA1 T Y AH0
+onder		AA1 N D ER0
+onderdonk		AA1 N D ER0 D AH0 NG K
+ondo	on·do	AO1 N D OW0
+ondracek		AA1 N D R AH0 S EH0 K
+one	one	W AH1 N
+one's		W AH1 N Z
+one-eyed		W AH2 N AY1 D
+one-legged		W AH2 N L EH1 G AH0 D
+one-man	one-man	W AH1 N M AE1 N
+one-night		W AH1 N N AY2 T
+one-off	one-off	W AH2 N AO1 F
+one-on-one		W AH1 N AH0 N AA1 N
+one-sided	one-sid·ed	W AH2 N S AY1 D AH0 D
+one-third		W AH2 N TH ER1 D
+one-time		W AH1 N T AY1 M
+one-up-manship		W AH2 N AH1 P M AE0 N SH IH2 P
+one-upmanship	one-up·man·ship	W AH2 N AH1 P M AH0 N SH IH2 P
+one-way		W AH1 N W EY1
+one-year		W AH1 N Y IH2 R
+oneal		OW0 N IY1 L
+oneall		AA1 N AH0 L
+onecomm		W AH1 N K AA2 M
+oneida	o·nei·da	OW0 N AY1 D AH0
+oneil		OW0 N IY1 L
+oneill		OW0 N IY1 L
+oneness	one·ness	W AH1 N N AH0 S;W AH1 N AH0 S
+oneok		OW1 N IY0 AA0 K
+onerous	on·er·ous	OW1 N ER0 AH0 S
+ones		W AH1 N Z
+ones'		W AH1 N Z
+oneself	one·self	W AH2 N S EH1 L F
+onetime		W AH1 N T AY1 M
+onex		W AH1 N EH1 K S
+onex's		W AH1 N EH1 K S IH0 Z
+oney		OW1 N IY0
+oneyear		W AH1 N Y IH1 R
+ong		AO1 NG
+ongoing	on·go·ing	AA1 N G OW2 IH0 NG;AO1 N G OW2 IH0 NG
+ongpin		AO1 NG P IH0 N
+onion	on·ion	AH1 N Y AH0 N
+onions	on·ions	AH1 N Y AH0 N Z
+onishi		OW0 N IY1 SH IY0
+onken		AA1 NG K AH0 N
+onley		AA1 N L IY0
+online		AO1 N L AY2 N
+online's		AO1 N L AY2 N Z
+onlooker	on·look·er	AO1 N L UH2 K ER0
+onlookers		AO1 N L UH2 K ER0 Z
+only	on·ly	OW1 N L IY0
+onnen		AA1 N AH0 N
+onni		AA1 N IY0
+onno		AA1 N OW0
+ono		OW1 N OW0
+onoda		OW0 N OW1 D AH0
+onofre		OW0 N AO1 F R IY0
+onofrio		OW0 N OW1 F R IY0 OW0
+onomastic	on·o·mas·tic	AA2 N AH0 M AE1 S T IH0 K
+onomastics	on·o·mas·tics	AA2 N AH0 M AE1 S T IH0 K S
+onomatopeia		AA2 N AH0 M AE0 T AH0 P IY1 AH0
+onondaga	on·on·da·ga	AA2 N AH0 N D AO1 G AH0
+onorato		OW0 N AO0 R AA1 T OW0
+onrushing	on·rush·ing	AA1 N R AH2 SH IH0 NG
+ons		AA1 N Z
+onscreen		AA2 N S K R IY1 N
+onset	on·set	AA1 N S EH2 T;AO1 N S EH2 T
+onshore	on·shore	AA1 N SH AO2 R
+onsite		AA1 N S AY1 T
+onslaught	on·slaught	AO1 N S L AO2 T
+onslow	ons·low	AA1 N S L OW0
+onstad		AA1 N S T AH0 D
+onstage	on·stage	AA2 N S T EY1 JH
+onstott		AA1 N S T AH0 T
+ontario	on·tar·i·o	AA0 N T EH1 R IY0 OW0
+ontario's		AA0 N T EH1 R IY0 OW0 Z
+ontiveros		OW0 N T IY0 V EH1 R OW0 Z
+ontko		AA1 N T K OW0
+onto	on·to	AA1 N T UW0;AO1 N T UW0
+ontogeny	on·tog·e·ny	AA0 N T AA1 JH AH0 N IY0
+ontological	on·to·log·i·cal	AA2 N T AH0 L AA1 JH IH0 K AH0 L
+ontology	on·tol·o·gy	AA0 N T AA1 L AH0 JH IY0
+onus	o·nus	OW1 N AH0 S
+onward	on·ward	AO1 N W ER0 D
+onwards	on·wards	AA1 N W ER0 D Z
+onyx	on·yx	AA1 N IH0 K S
+oodle		UW1 D AH0 L
+oodles	oo·dles	UW1 D AH0 L Z
+ooh	ooh	UW1
+oohs		UW1 Z
+ooley		UW1 L IY0
+oolong	oo·long	UW1 L AO0 NG
+oomph	oomph	UW1 M F
+oona	oo·na	UW1 N AH0
+oooh		UW1
+ooohs		UW1 Z;OW1 Z
+oop		UW1 P
+ooph		UW1 F
+oops	oops	UW1 P S
+ooten		UW1 T AH0 N
+ooze	ooze	UW1 Z
+oozed		UW1 Z D
+oozes		UW1 Z IH0 Z
+oozing	ooz·ing	UW1 Z IH0 NG
+op		AA1 P;AO1 P
+op's		AA1 P S
+opacity	o·pac·i·ty	OW0 P AE1 S AH0 T IY0
+opal	o·pal	OW1 P AH0 L
+opal's		OW1 P AH0 L Z
+opalina		OW0 P AA0 L IY1 N AH0
+opaline	o·pal·ine	OW1 P AH0 L IY2 N
+opalines		OW1 P AH0 L IY2 N Z
+opalka		AH0 P AA1 L K AH0
+opaque	o·paque	OW0 P EY1 K
+opax		OW1 P AE2 K S
+opcom		AA1 P K AA0 M
+opdahl		AA1 P D AA2 L
+opdyke		AA1 P D AY2 K
+opec	opec	OW1 P EH2 K
+opec's		OW1 P EH2 K S
+opel		OW1 P AH0 L
+opel's		OW1 P AH0 L Z
+open	o·pen	OW1 P AH0 N
+open-ended	o·pen-end·ed	OW1 P AH0 N EH2 N D AH0 D
+open-source		OW1 P AH0 N S AO2 R S
+opened		OW1 P AH0 N D
+opener	o·pen·er	OW1 P AH0 N ER0
+openers		OW1 P AH0 N ER0 Z
+opening	o·pen·ing	OW1 P AH0 N IH0 NG
+openings		OW1 P AH0 N IH0 NG Z
+openly		OW1 P AH0 N L IY0
+openness		OW1 P AH0 N N AH0 S;OW1 P AH0 N AH0 S
+opens		OW1 P AH0 N Z
+openshaw		OW1 P AH0 N SH AO2
+openwork	o·pen·work	OW1 P AH0 N W ER2 K
+opera	op·er·a/o·per·a/o·pe·ra	AA1 P R AH0
+opera's		AA1 P R AH0 Z
+operable	op·er·a·ble	AA1 P ER0 AH0 B AH0 L
+operan		AA1 P ER0 AH0 N
+operandi		AA2 P ER0 AE1 N D IY0;AA2 P ER0 AE1 N D AY0;AA2 P ER0 EH1 N D AY0
+operant	op·er·ant	AA1 P ER0 AH0 N T
+operas		AA1 P R AH0 Z
+operate	op·er·ate	AA1 P ER0 EY2 T;AO1 P ER0 EY2 T
+operated		AA1 P ER0 EY2 T AH0 D
+operates		AA1 P ER0 EY2 T S
+operatic	op·er·at·ic	AA2 P ER0 AE1 T IH0 K
+operating		AA1 P ER0 EY2 T IH0 NG;AO1 P ER0 EY2 T IH0 NG
+operation	op·er·a·tion	AA2 P ER0 EY1 SH AH0 N
+operation's		AA2 P ER0 EY1 SH AH0 N Z
+operational	op·er·a·tion·al	AA2 P ER0 EY1 SH AH0 N AH0 L
+operationally		AA1 P ER0 EY1 SH AH0 N AH0 L IY0;AA1 P ER0 EY1 SH N AH0 L IY0
+operations		AA2 P ER0 EY1 SH AH0 N Z
+operations'		AA2 P ER0 EY1 SH AH0 N Z
+operative	op·er·a·tive	AA1 P ER0 AH0 T IH0 V
+operatives		AA1 P ER0 AH0 T IH0 V Z
+operator	op·er·a·tor	AA1 P ER0 EY2 T ER0
+operator's		AA1 P ER0 EY2 T ER0 Z
+operators		AA1 P ER0 EY2 T ER0 Z;AO1 P ER0 EY2 T ER0 Z
+operators'		AO1 P ER0 EY2 T ER0 Z
+opere		OW0 P EH1 R
+operetta	op·er·et·ta	AA2 P ER0 EH1 T AH0
+operettas		AA2 P ER0 EH1 T AH0 Z
+opfer		AA1 P F ER0
+opheim		AA1 P HH AY2 M
+ophelia	o·phel·ia	AH0 F IY1 L Y AH0
+ophthalmic	oph·thal·mic	AA0 F TH AE1 L M IH0 K
+ophthalmologist	oph·thal·mol·o·gist	AA2 P TH AH0 M AA1 L AH0 JH IH0 S T;AA2 F TH AH0 M AA1 L AH0 JH IH0 S T
+ophthalmologists		AA2 P TH AH0 M AA1 L AH0 JH IH0 S T S;AA2 P TH AH0 M AA1 L AH0 JH IH0 S;AA2 F TH AH0 M AA1 L AH0 JH IH0 S T S;AA2 F TH AH0 M AA1 L AH0 JH IH0 S
+ophthalmology	oph·thal·mol·o·gy	AA2 P TH AH0 M AA1 L AH0 JH IY0;AA2 F TH AH0 M AA1 L AH0 JH IY0
+ophthalmoscope	oph·thal·mo·scope	AA0 F TH AE1 L M AH0 S K OW2 P
+ophuls		OW1 F AH0 L Z
+opiate	o·pi·ate	OW1 P IY2 AH0 T
+opiates		OW1 P IY2 AH0 T S
+opic		AA1 P IH0 K
+opic's		AA1 P IH0 K S
+opie		OW1 P IY2
+opiela		OW2 P IY1 L AH0
+opine	o·pine	OW0 P AY1 N
+opined		OW0 P AY1 N D
+opines		OW0 P AY1 N Z
+opining		OW0 P AY1 N IH0 NG
+opinion	o·pin·ion	AH0 P IH1 N Y AH0 N
+opinionate		AH0 P IH1 N Y AH0 N EY2 T
+opinionated	o·pin·ion·at·ed	AH0 P IH1 N Y AH0 N EY2 T IH0 D
+opinions		AH0 P IH1 N Y AH0 N Z
+opitz		AA1 P IH0 T S
+opium	o·pi·um	OW1 P IY0 AH0 M
+opland		AA1 P L AH0 N D
+ople		OW1 P AH0 L
+oplinger		OW1 P AH0 L IH0 NG ER0;OW1 P L IH0 NG ER0
+opossum	o·pos·sum	OW0 P AA1 S AH0 M
+opp	opp	AA1 P
+oppedisano		OW0 P EH0 D IY0 S AA1 N OW0
+oppel		AA1 P AH0 L
+oppelt		AA1 P IH0 L T
+oppenheim	op·pen·heim	AA1 P IH0 N HH AY2 M
+oppenheimer	op·pen·heim·er/op·pen·hei·mer	AA1 P AH0 N HH AY2 M ER0
+oppenheimer's		AA1 P AH0 N HH AY2 M ER0 Z
+oppenheimers		AA1 P AH0 N HH AY2 M ER0 Z
+oppens		AA1 P AH0 N Z
+opper		AA1 P ER0
+opperman		AA1 P ER0 M AH0 N
+oppermann		AA1 P ER0 M AH0 N
+oppler		AO1 P L ER0
+oppliger		AA1 P L IH0 G ER0
+opponent	op·po·nent	AH0 P OW1 N AH0 N T
+opponent's		AH0 P OW1 N AH0 N T S
+opponents		AH0 P OW1 N AH0 N T S
+opponents'		AH0 P OW1 N AH0 N T S
+opportune	op·por·tune	AA2 P ER0 T UW1 N
+opportunism	op·por·tun·ism	AA2 P ER0 T UW1 N IH2 Z AH0 M
+opportunist	op·por·tun·ist	AA2 P ER0 T UW1 N IH0 S T
+opportunistic	op·por·tun·is·tic	AA2 P ER0 T UW2 N IH1 S T IH0 K
+opportunists		AA2 P ER0 T UW1 N IH0 S T S
+opportunities		AA2 P ER0 T UW1 N AH0 T IY0 Z
+opportunity	op·por·tu·ni·ty	AA2 P ER0 T UW1 N AH0 T IY0
+oppose	op·pose	AH0 P OW1 Z
+opposed		AH0 P OW1 Z D
+opposes		AH0 P OW1 Z IH0 Z
+opposing		AH0 P OW1 Z IH0 NG
+opposite	op·po·site	AA1 P AH0 Z AH0 T;AA1 P Z AH0 T
+opposites		AA1 P AH0 Z AH0 T S
+opposition	op·po·si·tion	AA2 P AH0 Z IH1 SH AH0 N
+opposition's		AA2 P AH0 Z IH1 SH AH0 N Z
+oppositions		AA2 P AH0 Z IH1 SH AH0 N Z
+oppress	op·press	AH0 P R EH1 S
+oppressed		AH0 P R EH1 S T
+oppresses		AH0 P R EH1 S IH0 Z
+oppressing		AH0 P R EH1 S IH0 NG
+oppression	op·pres·sion	AH0 P R EH1 SH AH0 N
+oppressions		AH0 P R EH1 SH AH0 N Z
+oppressive	op·pres·sive	AH0 P R EH1 S IH0 V
+oppressor	op·pres·sor	AH0 P R EH1 S ER0
+oppressors		AH0 P R EH1 S ER0 Z
+opprobrium	op·pro·bri·um	AH0 P R OW1 B R IY0 AH0 M
+oprah		OW1 P R AH0
+oprah's		OW1 P R AH0 Z
+opry		AA1 P R IY0
+opryland		AA1 P R IY0 L AH0 N D
+ops	ops	AA1 P S
+opsahl		AA1 P S AA0 L
+opsal		AA1 P S AH0 L
+opt	opt	AA1 P T
+optation		AA1 P T EY1 SH AH0 N
+opted		AA1 P T IH0 D
+optek		AA1 P T EH2 K
+opthalmologist		AA2 F TH AH0 L M AA1 L AH0 JH IH0 S T
+opthalmology		AA2 F TH AH0 L M AO1 L AH0 JH IY0
+optic	op·tic	AA1 P T IH0 K
+optica		AA1 P T IH0 K AH0
+optical	op·ti·cal	AA1 P T IH0 K AH0 L
+optical's		AA1 P T IH0 K AH0 L Z
+optically		AA1 P T IH0 K L IY0
+optician	op·ti·cian	AA0 P T IH1 SH AH0 N
+opticians		AA0 P T IH1 SH AH0 N Z
+optics	op·tics	AA1 P T IH0 K S
+optima		AA1 P T AH0 M AH0
+optimal	op·ti·mal	AA1 P T AH0 M AH0 L
+optimism	op·ti·mism	AA1 P T AH0 M IH2 Z AH0 M
+optimist	op·ti·mist	AA1 P T AH0 M IH0 S T
+optimistic	op·ti·mis·tic	AA2 P T AH0 M IH1 S T IH0 K
+optimistically	op·ti·mis·ti·cal·ly	AA2 P T IH0 M IH1 S T IH0 K AH0 L IY0;AA2 P T IH0 M IH1 S T IH0 K L IY0
+optimists		AA1 P T AH0 M IH0 S T S
+optimization	op·ti·mi·za·tion	AA0 P T AH0 M AH0 Z EY1 SH AH0 N
+optimize	op·ti·mize	AA1 P T AH0 M AY2 Z
+optimized	op·ti·mized	AA1 P T AH0 M AY2 Z D
+optimizing	op·ti·miz·ing	AA1 P T AH0 M AY2 Z IH0 NG
+optimum	op·ti·mum	AA1 P T AH0 M AH0 M
+optimus		AA1 P T IH0 M AH0 S
+opting		AA1 P T IH0 NG
+option	op·tion	AA1 P SH AH0 N;AO1 P SH AH0 N
+option's		AA1 P SH AH0 N Z
+optional	op·tion·al	AA1 P SH AH0 N AH0 L;AO1 P SH AH0 N AH0 L
+optioned		AA1 P SH AH0 N D;AO1 P SH AH0 N D
+optioning		AA1 P SH AH0 N IH0 NG;AO1 P SH AH0 N IH0 NG
+options		AA1 P SH AH0 N Z;AO1 P SH AH0 N Z
+options'		AA1 P SH AH0 N Z
+opto		AA1 P T OW0
+optometric		AA2 P T OW0 M EH1 T R IH0 K
+optometrist	op·tom·e·trist	AA0 P T AA1 M AH0 T R IH0 S T
+optometrists		AA0 P T AA1 M AH0 T R IH0 S T S
+optometry	op·tom·e·try	AA0 P T AA1 M AH0 T R IY0
+opts		AA1 P T S
+optus		AA1 P T AH0 S
+opulence	op·u·lence	AA1 P Y AH0 L AH0 N S
+opulent	op·u·lent	AA1 P Y AH0 L AH0 N T
+opus	o·pus	OW1 P AH0 S
+oquendo		OW0 K W EH1 N D OW0
+oquin		OW0 K W IY1 N
+oquinn		OW0 K W IY1 N
+or		AO1 R;ER0
+ora	o·ra	AO1 R AH0
+orabel	or·a·bel	AO0 R AA0 B EH1 L
+orabelle	o·ra·belle	AO1 R AH0 B AH0 L
+oracle	or·a·cle	AO1 R AH0 K AH0 L
+oracle's		AO1 R AH0 K AH0 L Z
+oracles	or·a·cles	AO1 R AH0 K AH0 L Z
+oradour		AO1 R AH0 D AO2 R
+oraflex		AO1 R AH0 F L EH2 K S
+orahood		AO1 R AH0 HH UH2 D
+oral	o·ral	AO1 R AH0 L
+oralia		AO0 R AA1 L IY0 AH0
+oralie		AO1 R AH0 L IY0
+orally	o·ral·ly	AO1 R AH0 L IY0
+oram		AO1 R AH0 M
+oran	o·ran	AO0 R AA1 N
+orand		AO1 R AH0 N D
+orange	or·ange	AO1 R AH0 N JH;AO1 R IH0 N JH
+orange-green		AO1 R AH0 N JH G R IY2 N
+orangeburg	or·ange·burg	AO1 R AH0 N JH B ER0 G
+oranges		AO1 R AH0 N JH AH0 Z;AO1 R IH0 N JH IH0 Z
+orangina		AO0 R AE0 N JH IY1 N ER0;AO0 R AE0 N JH IY1 N AH0
+orangutan	o·rang·u·tan	AO0 R AE1 NG AH0 T AE0 N;AO0 R AE1 NG AH0 T AA0 N
+orangutan's		AO0 R AE1 NG AH0 T AE0 N Z;AO0 R AE1 NG AH0 T AA0 N Z
+orangutans		AO0 R AE1 NG AH0 T AE0 N Z;AO0 R AE1 NG AH0 T AA0 N Z
+orasure		AO1 R AH2 SH UH2 R
+oration	o·ra·tion	AO0 R EY1 SH AH0 N
+orations		AO0 R EY1 SH AH0 N Z
+orator	or·a·tor	AO1 R AH0 T ER0
+oratorical	or·a·tor·i·cal	AO2 R AH0 T AO1 R AH0 K AH0 L
+oratorio	or·a·to·ri·o	AA2 R AH0 T AO1 R IY0 OW0
+orators		AO1 R AH0 T ER0 Z
+oratory	or·a·to·ry	AO1 R AH0 T AO2 R IY0
+oravec		AO0 R AA1 V IH0 K
+oravetz		AO1 R AH0 V IH0 T S
+orb	orb	AO1 R B
+orbach		AO1 R B AA0 K
+orban		AO1 R B AH0 N
+orbanco		AO0 R B AE1 NG K OW0
+orben		AO1 R B AH0 N
+orbin		AO1 R B IH0 N
+orbis		AO1 R B IH0 S
+orbit	or·bit	AO1 R B AH0 T
+orbital	or·bit·al	AO1 R B AH0 T AH0 L
+orbitals		AO1 R B AH0 T AH0 L S
+orbited		AO1 R B AH0 T AH0 D
+orbiter		AO1 R B AH0 T ER0
+orbiters		AO1 R B AH0 T ER0 Z
+orbiting		AO1 R B AH0 T IH0 NG
+orbits		AO1 R B AH0 T S
+orca	or·ca	AO1 R K AH0
+orcas		AO1 R K AH0 S
+orchard	or·chard	AO1 R CH ER0 D
+orchards		AO1 R CH ER0 D Z
+orchestra	or·ches·tra	AO1 R K AH0 S T R AH0
+orchestra's		AO1 R K AH0 S T R AH0 Z
+orchestral	or·ches·tral	AO0 R K EH1 S T R AH0 L
+orchestrally	or·ches·tral·ly	AO0 R K EH1 S T R AH0 L IY0
+orchestras		AO1 R K AH0 S T R AH0 Z
+orchestrate	or·ches·trate	AO1 R K IH0 S T R EY2 T
+orchestrated	or·ches·trat·ed	AO1 R K IH0 S T R EY2 T IH0 D
+orchestrates		AO1 R K AH0 S T R EY2 T S
+orchestrating	or·ches·trat·ing	AO1 R K IH0 S T R EY2 T IH0 NG
+orchestration	or·ches·tra·tion	AO2 R K AH0 S T R EY1 SH AH0 N
+orchestrations		AO2 R K AH0 S T R EY1 SH AH0 N Z
+orchid	or·chid	AO1 R K AH0 D
+orchids		AO1 R K AH0 D Z
+orct		AO1 R K T
+orcutt		AO1 R K AH0 T
+ord	ord	AO1 R D
+ordain	or·dain	AO0 R D EY1 N
+ordained		AO0 R D EY1 N D
+ordaining		AO0 R D EY1 N IH0 NG
+ordaz		AO1 R D AA0 Z
+ordeal	or·deal	AO0 R D IY1 L
+ordeals		AO0 R D IY1 L Z
+ordella		AO2 R D EH1 L AH0
+order	or·der	AO1 R D ER0
+order's		AO1 R D ER0 Z
+ordered		AO1 R D ER0 D
+ordering		AO1 R D ER0 IH0 NG
+orderliness		AO1 R D ER0 L IY0 N AH0 S
+orderly	or·der·ly	AO1 R D ER0 L IY0
+orders		AO1 R D ER0 Z
+ordinance	or·di·nance	AO1 R D AH0 N AH0 N S
+ordinances		AO1 R D AH0 N AH0 N S IH0 Z
+ordinaries		AO1 R D AH0 N EH2 R IY0 Z
+ordinarily	or·di·nar·i·ly	AO2 R D AH0 N EH1 R AH0 L IY0
+ordinary	or·di·nar·y	AO1 R D AH0 N EH2 R IY0
+ordination	or·di·na·tion	AO2 R D AH0 N EY1 SH AH0 N
+ordiway		AO1 R D IY0 W EY0
+ordnance	ord·nance	AO1 R D N AH0 N S
+ordnance's		AO1 R D N AH0 N S IH0 Z
+ordonez		AO0 R D OW1 N EH0 Z
+ordoyne		AO1 R D OY0 N
+ordway		AO1 R D W EY0
+ore	ore/o·re	AO1 R
+orea		ER0 IY1 AH0
+orear		ER0 IH1 R
+orebaugh		AO0 R EH1 B AO0
+oreffice		AO0 R EH1 F IH0 S
+orefice		AO0 R EH1 F AY0 S
+oregan		AO0 R EH1 G AH0 N
+oregano	o·reg·a·no/o·re·ga·no	AO2 R EH1 G AH0 N OW2;ER0 EH1 G AH0 N OW2
+oregon	or·e·gon	AO1 R AH0 G AH0 N;AO1 R AH0 G AA2 N
+oregon's		AO1 R AH0 G AH0 N Z;AO1 R AH0 G AA2 N Z
+oregonian	or·e·go·ni·an	AO2 R AH0 G OW1 N IY0 AH0 N
+oregonians		AO2 R AH0 G OW1 N IY0 AH0 N Z
+oreilly		AO1 R AH0 L IY0
+orel	o·rel	AO1 R AH0 L
+orela		AO0 R EH1 L AH0
+orelia		AO0 R EH1 L IY0 AH0
+orellana		AO0 R EH0 L AE1 N AH0
+orelon		AO1 R AH0 L AA0 N
+orem	o·rem	AO1 R IH0 M
+oren	o·ren	AO1 R AH0 N
+orenda		AO0 R EH1 N D AH0
+orendorff		AO1 R IH0 N D AO0 R F
+orens		AO1 R AH0 N Z
+orenstein		AO1 R AH0 N S T AY0 N;AO1 R AH0 N S T IY0 N
+orenthal		AO1 R AH0 N TH AA2 L
+oreo		AO1 R IY0 OW0
+ores		AO1 R Z
+oreskovich		AO0 R EH1 S K AH0 V IH0 CH
+orestes	o·res·tes	AO0 R EH1 S T IY0 Z
+orf		AO1 R F
+orfield		AO1 R F IY0 L D
+orford		AO1 R F ER0 D
+org	org	AO1 R G
+organ	or·gan	AO1 R G AH0 N
+organelles		AO2 R G AH0 N EH1 L Z
+organic	or·gan·ic	AO0 R G AE1 N IH0 K
+organically	or·gan·i·cal·ly	AO0 R G AE1 N IH0 K L IY0
+organics		AO0 R G AE1 N IH0 K S
+organisation	or·gan·i·sa·tion	AO2 R G AH0 N IH0 Z EY1 SH AH0 N
+organisations		AO2 R G AH0 N IH0 Z EY1 SH AH0 N Z
+organism	or·gan·ism	AO1 R G AH0 N IH2 Z AH0 M
+organism's		AO1 R G AH0 N IH2 Z AH0 M Z
+organismic	or·gan·is·mic	AO2 R G AH0 N IH1 Z M IH0 K
+organisms		AO1 R G AH0 N IH2 Z AH0 M Z
+organist	or·gan·ist	AO1 R G AH0 N AH0 S T
+organization	or·gan·i·za·tion	AO2 R G AH0 N AH0 Z EY1 SH AH0 N
+organization's		AO2 R G AH0 N IH0 Z EY1 SH AH0 N Z
+organizational	or·gan·i·za·tion·al	AO2 R G AH0 N AH0 Z EY1 SH AH0 N AH0 L
+organizations		AO2 R G AH0 N AH0 Z EY1 SH AH0 N Z
+organize	or·gan·ize	AO1 R G AH0 N AY2 Z
+organized	or·gan·ized	AO1 R G AH0 N AY2 Z D
+organizer	or·gan·iz·er	AO1 R G AH0 N AY2 Z ER0
+organizers		AO1 R G AH0 N AY2 Z ER0 Z
+organizes		AO1 R G AH0 N AY2 Z IH0 Z
+organizing	or·gan·iz·ing	AO1 R G AH0 N AY2 Z IH0 NG
+organogenesis	or·gan·o·gen·e·sis/or·ga·no·gen·e·sis	AO2 R G AH0 N OW0 JH EH1 N AH0 S IH0 S
+organs		AO1 R G AH0 N Z
+organum	or·ga·num	AO1 R G AH0 N AH0 M
+orgasm	or·gasm	AO1 R G AE0 Z AH0 M
+orgasms		AO1 R G AE0 Z AH0 M Z
+orgel		AO1 R G AH0 L
+orgeron		AO1 R G ER0 AH0 N
+orgies		AO1 R JH IY0 Z
+orgill		AO1 R JH AH0 L
+orgotein		AO1 R G OW0 T AY2 N
+orgy	or·gy	AO1 R JH IY0
+ori		AO1 R IY0
+oriana		AO0 R IY0 AE1 N AH0
+orick		AO1 R IH0 K
+orielda		AO0 R IY1 L D AH0
+orielle		AO1 R IY0 EH0 L
+orient	o·ri·ent	AO1 R IY0 EH2 N T
+oriental	o·ri·en·tal	AO2 R IY0 EH1 N T AH0 L;AO2 R IY0 EH1 N AH0 L
+orientals		AO2 R IY0 EH1 N T AH0 L Z;AO2 R IY0 EH1 N AH0 L Z
+orientated	o·ri·en·tat·ed	AO1 R IY0 AH0 N T EY2 T IH0 D
+orientation	o·ri·en·ta·tion	AO2 R IY0 EH0 N T EY1 SH AH0 N
+orientations		AO2 R IY0 EH0 N T EY1 SH AH0 N Z
+oriented		AO1 R IY0 EH2 N T AH0 D;AO1 R IY0 EH2 N T IH0 D
+orifice	or·i·fice	AO1 R AH0 F AH0 S
+orifices		AO1 R AH0 F AH0 S AH0 Z
+origami	o·ri·ga·mi	AO2 R IY0 G AA1 M IY2
+origin	or·i·gin	AO1 R AH0 JH AH0 N
+original	o·rig·i·nal	ER0 IH1 JH AH0 N AH0 L
+originality	o·rig·i·nal·i·ty	ER0 IH2 JH AH0 N AE1 L IH0 T IY0
+originally	o·rig·i·nal·ly	ER0 IH1 JH AH0 N AH0 L IY0;ER0 IH1 JH N AH0 L IY0
+originals		ER0 IH1 JH AH0 N AH0 L Z
+originate	o·rig·i·nate	ER0 IH1 JH AH0 N EY2 T
+originated	o·rig·i·nat·ed	ER0 IH1 JH AH0 N EY2 T AH0 D;AO0 R IH1 JH AH0 N EY2 T IH0 D
+originates		ER0 IH1 JH AH0 N EY2 T S
+originating	o·rig·i·nat·ing	ER0 IH1 JH AH0 N EY2 T IH0 NG
+origination	o·rig·i·na·tion	ER0 IH2 JH AH0 N EY1 SH AH0 N
+originations		ER0 IH2 JH AH0 N EY1 SH AH0 N Z
+originator	o·rig·i·na·tor	ER0 IH1 JH AH0 N EY2 T ER0
+originators		ER0 IH1 JH AH0 N EY2 T ER0 Z
+origins		AO1 R AH0 JH IH0 N Z
+oriley		OW0 R AY1 L IY0
+orilla		AO0 R IH1 L AH0
+orin		AO1 R IH0 N
+orinda		ER0 IH1 N D AH0
+orinoco	o·ri·no·co	AO2 R AH0 N OW1 K OW0
+oriola		AO0 R IY0 OW1 L AH0
+oriole	o·ri·ole	AO1 R IY0 OW2 L
+orioles		AO1 R IY0 OW2 L Z
+orioles'		AO1 R IY0 OW2 L Z
+orion	o·ri·on	OW0 R AY1 AH0 N;AO0 R AY1 AH0 N
+orion's		OW0 R AY1 AH0 N Z;AO0 R AY1 AH0 N Z
+oriordan		OW0 R IH1 R D AH0 N;AO0 R IH1 R D AH0 N
+oritz		AO1 R IH0 T S
+orix		AO1 R IH0 K S
+orkem		AO1 R K AH0 M
+orkin		AO1 R K IH0 N
+orkney		AO1 R K N IY0
+orks		AO1 R K S
+orkut		AO1 R K AH0 T
+orky		AO1 R K IY0
+orla		AO1 R L AH0
+orlan		AO1 R L AH0 N
+orland	or·land	AO1 R L AH0 N D
+orlanda		AO0 R L AA1 N D AA2
+orlandi		AO0 R L AA1 N D IY2
+orlando	or·lan·do	AO0 R L AE1 N D OW2
+orlando's		AO0 R L AE1 N D OW2 Z
+orlean		AO1 R L IY2 AH0 N
+orlean's		AO1 R L IY2 AH0 N Z;AO1 R L IY2 N Z
+orleanian		AO2 R L IY0 AH1 N IY0 AH0 N
+orleanians		AO2 R L IY0 AH1 N IY0 AH0 N Z
+orleans		AO1 R L IY0 AH0 N Z;AO2 R L IY1 N Z
+orleans'		AO1 R L IY0 AH0 N Z
+orlena		AO1 R L IH0 N AH0
+orlene		AO1 R L IY2 N
+orlich	or·lich	AO1 R L IH0 K
+orlick		AO1 R L IH0 K
+orloff		AO1 R L AO0 F
+orloff's		AO1 R L AO0 F S
+orloski		AO0 R L AW1 S K IY2
+orloski's		AO0 R L AW1 S K IY0 Z
+orlosky		AO0 R L OW1 S K IY0
+orlosky's		AO0 R L OW1 S K IY0 Z
+orlov		AO1 R L AO0 V
+orlov's		AO1 R L AO0 V S
+orlowski		AO0 R L AO1 F S K IY0
+orlowski's		AO0 R L AO1 F S K IY0 Z
+orly	or·ly	AO1 R L IY0
+orman		AO1 R M AH0 N
+ormand		AO1 R M AH0 N D
+ormand's		AO1 R M AH0 N D Z
+orme		AO1 R M
+ormerod		AO1 R M ER0 AH0 D
+ormes		AO1 R M Z
+ormiston		AO1 R M IH0 S T AA0 N
+ormiston's		AO1 R M IH0 S T AA0 N Z
+ormond	or·mond	AO1 R M AH0 N D
+ormond's		AO1 R M AH0 N D Z
+ormonde		AO1 R M AH0 N D
+ormsbee		AO1 R M Z B IY0
+ormsby		AO1 R M Z B IY0
+ormsby's		AO1 R M Z B IY0 Z
+orn		AO1 R N
+orna		AO1 R N AH0
+ornament	or·na·ment	AO1 R N AH0 M AH0 N T
+ornamental	or·na·men·tal	AO2 R N AH0 M EH1 N T AH0 L
+ornamentally	or·na·men·tal·ly	AO2 R N AH0 M EH1 N T AH0 L IY0
+ornamentation	or·na·men·ta·tion	AO2 R N AH0 M EH0 N T EY1 SH AH0 N
+ornamented	or·na·ment·ed	AO1 R N AH0 M EH2 N T IH0 D
+ornaments		AO1 R N AH0 M AH0 N T S
+ornate	or·nate	AO0 R N EY1 T
+ornately	or·nate·ly	AO0 R N EY1 T L IY0
+ornda		AO1 R N D AH0
+orndoff		AO1 R N D AO0 F
+orndorff		AO1 R N D AO0 R F
+orne	orne	AO1 R N
+ornelas		AO1 R N IH0 L AH0 Z
+ornella		AO0 R N EH1 L AH0
+ornella's		AO0 R N EH1 L AH0 Z
+ornellas		AO0 R N EH1 L AH0 Z
+orner		AO1 R N ER0
+ornery	or·ner·y	AO1 R N ER0 IY0
+ornette		AO2 R N EH1 T
+ornish		AO1 R N IH0 SH
+ornithological	or·ni·tho·log·i·cal	AO2 R N IH0 TH AH0 L AO1 JH IH0 K AH0 L
+ornithology	or·ni·thol·o·gy	AO2 R N IH0 TH AA1 L AH0 JH IY0
+ornoff		AO1 R N AA0 F
+ornstein		AO1 R N S T AY0 N;AO1 R N S T IY0 N
+oro		AO1 R OW0
+oroark		OW0 R AO1 R K
+orogenic	or·o·gen·ic	AO2 R AH0 JH EH1 N IH0 K
+orogil		AO1 R OW0 G IH2 L
+orographic	or·o·graph·ic	AO2 R AH0 G R AE1 F IH0 K
+orona		AO0 R OW1 N AH0
+oropeza		AO0 R OW0 P EH1 Z AH0
+oros		AO1 R OW0 Z
+orosco		AO0 R OW1 S K OW0
+orosz		AO1 R AH0 SH
+orourke		ER0 UH1 R K
+orozco	o·roz·co	AO0 R OW1 Z K OW0
+orpah		AO1 R P AA0
+orphan	or·phan	AO1 R F AH0 N
+orphanage	or·phan·age	AO1 R F AH0 N AH0 JH
+orphanages		AO1 R F AH0 N IH0 JH IH0 Z
+orphaned		AO1 R F AH0 N D
+orphaning		AO1 R F AH0 N IH0 NG
+orphans		AO1 R F AH0 N Z
+orphee		AO1 R F IY0
+orpheum		AO1 R F IY0 UW0 M
+orpheus	or·phe·us	AO1 R F IY0 AH0 S
+orphic	or·phic	AO1 R F IH0 K
+orpiment	or·pi·ment	AO1 R P AH0 M AH0 N T
+orr		AO1 R
+orran		AO0 R AA1 N
+orrell		AO0 R EY1 L
+orren		AO1 R AH0 N
+orrery	or·rer·y/or·re·ry	AO1 R ER0 IY0
+orrick		AO1 R IH0 K
+orrico		AO0 R IY1 K OW0
+orrin	or·rin	AO1 R IH0 N
+orris	or·ris	AO1 R IH0 S
+orrison		AO1 R IH0 S AH0 N
+orsa		AO1 R S AH0
+orsak		AO1 R S AH0 K
+orsay		AO0 R S EY1;AH0 R S EY1
+orsborn		AO1 R S B ER0 N;AO1 R Z B ER0 N
+orsburn		AO1 R S B ER0 N;AO1 R Z B ER0 N
+orser		AO1 R S ER0
+orsi		AO1 R S IY0
+orsini	or·si·ni	AO0 R S IY1 N IY0
+orsino		AO0 R S IY1 N OW0
+orso		AO1 R S OW0
+orsola		AO0 R S OW1 L AH0
+orson		AO1 R S AH0 N
+ort		AO1 R T
+orta		AO1 R T AH0
+ortega		AO0 R T EY1 G AH0
+ortega's		AO0 R T EY1 G AH0 Z
+ortegas		AO0 R T EY1 G AH0 S
+ortego		AO0 R T EY1 G OW0
+ortegon		AO0 R T EY0 G AO1 N
+orten		AO1 R T AH0 N
+ortenzio		AO0 R T EH1 N Z IY0 OW0
+ortez		AO0 R T EH1 Z
+orth	orth	AO1 R TH
+ortho	or·tho	AO1 R TH OW2
+orthoclase	or·tho·clase	AO1 R TH AH0 K L EY2 S
+orthodontia	or·tho·don·tia/or·tho·don·ti·a	AO2 R TH AH0 D AA1 N CH IY0 AH0
+orthodontic	or·tho·don·tic	AO2 R TH AH0 D AA1 N T IH0 K
+orthodontics	or·tho·don·tics	AO2 R TH AH0 D AA1 N T IH0 K S
+orthodontist	or·tho·don·tist	AO2 R TH AH0 D AA1 N T AH0 S T
+orthodontist's		AO2 R TH AH0 D AA1 N T AH0 S T S
+orthodontists		AO2 R TH AH0 D AA1 N T AH0 S T S
+orthodox	or·tho·dox	AO1 R TH AH0 D AA2 K S
+orthodoxy	or·tho·dox·y	AO1 R TH AH0 D AA2 K S IY0
+orthogonal	or·thog·o·nal	AO0 R TH AO1 G AH0 N AH0 L
+orthography	or·thog·ra·phy	AO0 R TH AA1 G R AH0 F IY0
+orthopedic	or·tho·pe·dic	AO2 R TH AH0 P IY1 D IH0 K
+orthopedist	or·tho·pe·dist	AO2 R TH AH0 P IY1 D AH0 S T
+orthopedists		AO2 R TH AH0 P IY1 D AH0 S T S
+ortis		AO1 R T IH0 S
+ortiz		AO2 R T IY1 Z
+ortlieb		AO1 R T L IY2 B
+ortloff		AO1 R T L AO0 F
+ortman		AO1 R T M AH0 N
+ortmann		AO1 R T M AH0 N
+ortner		AO1 R T N ER0
+ortolano		AO0 R T OW0 L AA1 N OW0
+ortomisio		AO2 R T AH0 M IH1 S IY0 OW0
+orton		AO1 R T AH0 N
+ortwein		AO1 R T W AY0 N
+ortwin		AO1 R T W IH0 N
+orum		AO1 R AH0 M
+orva		AO1 R V AH0
+orval		AO1 R V AH0 L
+orville	or·ville	AO1 R V IH0 L
+orvin		AO1 R V IH0 N
+orvis		AO1 R V IH0 S
+orwell	or·well	AO1 R W EH2 L
+orwell's		AO1 R W EH2 L Z
+orwellian		AO2 R W EH1 L IY0 AH0 N
+orwick		AO1 R W IH0 K
+orwig		AO1 R W IH0 G
+ory		AO1 R IY0
+oryx	or·yx/o·ryx	AO1 R IH0 K S
+orzech		AO1 R Z IH0 HH
+orzechowski		AO0 R Z IH0 HH AO1 F S K IY0
+orzel		AO1 R Z AH0 L
+os		AA1 S
+osage	o·sage	OW0 S EY1 JH
+osages	o·sag·es	OW0 S EY1 JH AH0 Z
+osaka	o·sa·ka	OW0 S AA1 K AH0
+osake		OW0 S AA1 K IY0
+osaki		OW0 S AA1 K IY0
+osakowa		OW2 S AH0 K OW1 AH0
+osakowa's		OW2 S AH0 K OW1 AH0 Z
+osama		OW0 S AA1 M AH0
+osamu		OW0 S AA1 M UW0
+osberg		AA1 S B ER0 G
+osbert	os·bert	AA1 S B ER0 T
+osbon		AA1 S B AH0 N
+osborn	os·born	AO1 Z B AO2 R N
+osborne	os·borne	AO1 Z B AO2 R N
+osborne's		AO1 Z B AO2 R N Z
+osbourn		AA1 S B ER0 N
+osbourne		AA1 S B ER0 N
+osbournes		AA1 S B ER0 N Z
+osbun		AA1 S B AH0 N
+osburn		AA1 S B ER2 N
+osby		AA1 S B IY0
+oscalus		AO1 S K AH0 L AH0 S
+oscar	os·car	AO1 S K ER0
+oscar's		AO1 S K ER0 Z
+oscars		AO1 S K ER0 Z
+oscarson		AA1 S K AA0 R S AH0 N
+osceola		AO2 S K IY0 OW1 L AH0;AO2 S IY0 OW1 L AH0
+oscillate	os·cil·late	AA1 S AH0 L EY2 T
+oscillated	os·cil·lat·ed	AA1 S AH0 L EY2 T AH0 D
+oscillates		AA1 S AH0 L EY2 T S
+oscillating	os·cil·lat·ing	AA1 S AH0 L EY2 T IH0 NG
+oscillation	os·cil·la·tion	AA2 S AH0 L EY1 SH AH0 N
+oscillations		AA2 S AH0 L EY1 SH AH0 N Z
+oscillator	os·cil·la·tor	AA1 S AH0 L EY2 T ER0
+oscillators		AA1 S AH0 L EY2 T ER0 Z
+oscillatory	os·cil·la·to·ry	AA1 S AH0 L AH0 T AO2 R IY0
+oscilloscope	os·cil·lo·scope	AO2 S IH1 L AH0 S K OW2 P
+oscilloscopes		AO2 S IH1 L AH0 S K OW2 P S
+osco		AA1 S K OW0
+ose		OW1 Z
+oseguera		OW0 S EY0 G EH1 R AH0
+oser		OW1 S ER0
+osgood	os·good	AA1 S G UH2 D
+osh		AA1 SH
+osha		OW1 SH AH0
+osha's		OW1 SH AH0 Z
+oshaf		OW1 SH AA0 F
+oshatz		OW0 SH AE1 T S
+oshaughnessy		OW0 SH AA1 N IH0 S IY0
+oshawa	osh·a·wa	AO2 SH AA1 W AH0
+oshea		OW0 SH EY1
+oshel		AA1 SH AH0 L
+oshell		OW1 SH AH0 L
+osher		AA1 SH ER0
+oshields		OW0 SH IY1 L D Z
+oshima		OW0 SH IY1 M AH0
+oshiro		OW0 SH IH1 R OW0
+oshita		OW0 SH IY1 T AH0
+oshkosh		AO1 SH K AO2 SH
+oshman		AO1 SH M AH0 N
+oshman's		AO1 SH M AH0 N Z
+osiecki		AH0 S IY1 T S K IY0
+osika		AH0 S AY1 K AH0
+osinski		AH0 S IH1 N S K IY0
+oskar	os·kar	AO1 S K ER0
+osland		AA1 S L AH0 N D
+osler	os·ler	AA1 Z L ER0
+osley		AA1 S L IY0
+oslin		AA1 S L IH0 N
+oslo	os·lo	AA1 Z L OW0
+oslund		AA1 S L AH0 N D
+osman		AA1 S M AH0 N
+osmar		AA1 S M ER0
+osmena		AO2 Z M IY1 N AH0
+osment		AA1 S M AH0 N T
+osmer		AA1 S AH0 M ER0
+osmium	os·mi·um	AA1 Z M IY0 AH0 M
+osmon		AA1 S M AH0 N
+osmond	os·mond	AA1 S M AH0 N D
+osmonds		AO1 Z M AH0 N D Z
+osmosis	os·mo·sis	AO2 Z M OW1 S IH0 S
+osmotic		AA0 Z M AA1 T AH0 K
+osmun		AA1 Z M AH0 N
+osmund	os·mund	AA1 S M AH0 N D
+osmundson		AA1 Z M AH0 N D S AH0 N
+osorio		OW0 S AO1 R IY0 OW0
+osowski		AH0 S AO1 F S K IY0
+ospina		OW0 S P IY1 N AH0
+osprey	os·prey	AO1 S P R IY0
+osred		AA1 S ER0 D
+osric		AA1 Z R IH0 K
+oss		AO1 S
+ossa	os·sa	AA1 S AH0
+ossetia	os·se·tia	AA2 S EH1 SH Y AH0;AA2 S IY1 SH Y AH0
+ossetian	os·se·tian	AA2 S EH1 SH Y IH0 N;AA2 S IY1 SH Y IH0 N
+ossetians		AA2 S EH1 SH Y IH0 N Z;AA2 S IY1 SH Y IH0 N Z
+ossicles		AA1 S AH0 K AH0 L Z
+ossification	os·si·fi·ca·tion	AA2 S AH0 F AH0 K EY1 SH AH0 N
+ossified	os·si·fied	AA1 S AH0 F AY2 D
+ossify	os·si·fy	AA1 S AH0 F AY2
+ossman		AA1 S M AH0 N
+osso		OW1 S OW0
+osswald		AA1 S W AH0 L D
+ost	ost	OW1 S T
+ostankino		AA1 S T AH0 N K IH1 N OW0
+ostberg		AA1 S T B ER0 G
+ostby		AA1 S T B IY0
+osteen	os·teen	AA1 S T IY2 N
+osten		AA1 S AH0 N
+ostendorf		AA1 S T AH0 N D AO0 R F
+ostensible	os·ten·si·ble	AA0 S T EH1 N S AH0 B AH0 L
+ostensibly	os·ten·si·bly	AA0 S T EH1 N S AH0 B L IY0
+ostenson		AA1 S T IH0 N S AH0 N
+ostentation	os·ten·ta·tion	AO2 S T EH0 N T EY1 SH AH0 N
+ostentatious		AA2 S T AH0 N T EY1 SH AH0 S
+ostentatiously	os·ten·ta·tious·ly	AA2 S T AH0 N T EY1 SH AH0 S L IY0
+osteoarthritis	os·te·o·ar·thri·tis	AA2 S T IY0 OW2 AA0 R TH R AY1 T AH0 S
+osteopathic	os·te·o·path·ic	AA2 S T IY0 AH0 P AE1 TH IH0 K
+osteoporosis	os·te·o·por·o·sis	AO2 S T IY0 AA2 P ER0 OW1 S IH0 S
+oster		AA1 S T ER0
+osterberg		AA1 S T ER0 B ER0 G
+ostergaard		AA1 S T ER0 G AA0 R D
+ostergard		AA1 S T ER0 G ER0 D
+ostergren		AA1 S T ER0 G R EH0 N
+osterhaus		AA1 S T ER0 HH AW0 S
+osterhoff		OW1 S T ER0 HH AO2 F
+osterholt		AA1 S T ER0 HH OW0 L T
+osterhoudt		AA1 S T ER0 HH AW0 T
+osterhout		AA1 S T ER0 HH AW0 T
+osterkamp		AA1 S T ER0 K AE0 M P
+osterling		AA1 S T ER0 L IH0 NG
+osterloh		OW0 S T EH1 R L OW0
+osterlund		AA1 S T ER0 L AH0 N D
+osterman		AA1 S T ER0 M AH0 N
+ostermann		AA1 S T ER0 M AH0 N
+ostermeier		AA1 S T ER0 M AY0 ER0
+ostermeyer		AA1 S T ER2 M AY2 ER0
+ostermiller		AA1 S T ER0 M IH0 L ER0
+osterreichische		AO1 S T ER0 R AY2 K IH0 SH IY0
+ostertag		AA1 S T ER0 T AH0 G
+osthoff		AA1 S T HH AO0 F
+ostia	os·ti·a	AA1 S T IY0 AH0
+ostin		AA1 S T AH0 N
+ostinato	os·ti·na·to	AA2 S T AH0 N AA1 T OW2
+osting		AA1 S T IH0 NG
+ostling		AA1 S AH0 L IH0 NG;AA1 S T L IH0 NG;AA1 S L IH0 NG
+ostlund		AA1 S T L AH0 N D
+ostman		AA1 S T M AH0 N
+ostpolitik		OW2 S T P OW2 L IH0 T IH1 K
+ostracism	os·tra·cism	AO1 S T R AH0 S IH2 Z AH0 M
+ostracize	os·tra·cize	AO1 S T R AH0 S AY2 Z
+ostracized		AO1 S T R AH0 S AY2 Z D
+ostrand		AA1 S T R AH0 N D
+ostrander		AA1 S T R AH0 N D ER0
+ostrem		AA1 S T R IH0 M
+ostrich	os·trich	AO1 S T R IH0 CH
+ostriches		AA1 S T R IH0 CH IH0 Z
+ostroff		AO1 S T R AO0 F
+ostrogoth	os·tro·goth	AA1 S T R AH0 G AA2 TH
+ostrogoths		AA1 S T R AH0 G AA2 TH S
+ostrom		AA1 S T R AH0 M
+ostroski		AH0 S T R AW1 S K IY0
+ostrosky		AH0 S T R OW1 S K IY0
+ostrow		AA1 S T R AW0;AA1 S T R OW0
+ostrowski		AH0 S T R AO1 F S K IY0
+ostrowsky		AH0 S T R AW1 S K IY0
+ostrum		AA1 S T R AH0 M
+ostwald	ost·wald	AA1 S T W AH0 L D
+osuch		AA1 S AH0 K
+osullivan		OW0 S AH1 L IH0 V AH0 N
+osuna		OW0 S UW1 N AH0
+oswald	os·wald	AO1 Z W AO0 L D
+oswald's		AO1 Z W AO0 L D Z
+oswalt		AA1 S W AH0 L T
+oswego	os·we·go	AA0 S W IY1 G OW0
+oswell		AA1 S W EH2 L
+ot		AO1 T;OW1 T IY1
+ota		OW1 T AH0
+otaiba		OW0 T EY1 B AH0
+otani		OW0 T AA1 N IY0
+otello	o·tel·lo	OW0 T EH1 L OW0
+oteri		OW0 T EH1 R IY0
+otero		OW0 T EH1 R OW0
+otey		OW1 T IY0
+otha		AH0 DH AA1
+othello		AH0 TH EH1 L OW0
+other	oth·er	AH1 DH ER0
+other's		AH1 DH ER0 Z
+otherness	oth·er·ness	AH1 DH ER0 N AH0 S
+others		AH1 DH ER0 Z
+others'		AH1 DH ER0 Z
+otherwise	oth·er·wise	AH1 DH ER0 W AY2 Z
+otherworldly	oth·er·world·ly	AH1 DH ER0 W ER1 L D L IY0
+othilia		OW0 TH IY1 L IY0 AH0
+othman	oth·man	AA1 TH M AH0 N
+othman's		AA1 TH M AH0 N Z
+otiose	o·ti·ose	OW1 T IY0 OW2 S
+otis	o·tis	OW1 T IH0 S
+otmar		AA1 T M AA0 R
+otologies		OW0 T AA1 L AH0 JH IY0 Z
+otology	o·tol·o·gy	OW0 T AA1 L AH0 JH IY0
+otomobil		OW0 T OW1 M OW0 B AH0 L
+otoole		AA1 T UW0 L
+otremba		OW0 T R EH1 M B AH0
+otsego	ot·se·go	AA0 T S EY1 G OW0
+otsuka		OW0 T S UW1 K AH0
+ott		AA1 T
+ottaviani		OW0 T AA0 V IY0 AA1 N IY0
+ottaviano		OW0 T AA0 V IY0 AA1 N OW0
+ottawa	ot·ta·wa	AA1 T AH0 W AA2
+ottawa's		AA1 T AH0 W AH0 Z
+ottaway		AA1 T AH0 W EY0
+ottaway's		AA1 T AH0 W EY0 Z
+otte		AA1 T
+otten		AA1 T AH0 N
+otten's		AA1 T AH0 N Z
+ottens		AA1 T AH0 N Z
+otter	ot·ter	AA1 T ER0
+otter's		AA1 T ER0 Z
+otterbein	ot·ter·bein	AA1 T ER0 B AY0 N
+otterbein's		AA1 T ER0 B AY0 N Z
+otterloo		AA1 T ER0 L UW2
+otters		AA1 T ER0 Z
+otterson		AA1 T ER0 S AH0 N
+otterson's		AA1 T ER0 S AH0 N Z
+ottesen		AA1 T IY0 Z AH0 N
+otteson		AA1 T IH0 S AH0 N
+ottilie		AA1 T AH0 L IY0
+otting		AA1 T IH0 NG
+ottley		AA1 T L IY0
+ottman		AA1 T M AH0 N
+otto	ot·to	AA1 T OW2
+otto's		AA1 T OW2 Z
+ottoman	ot·to·man	AA1 T AH0 M AH0 N
+ottosen		AA1 T OW0 S AH0 N
+ottoson		AA1 T AH0 S AH0 N
+otts		AA1 T S
+ottum		AA1 T AH0 M
+otulsky		AH0 T UH1 L S K IY0
+otwell		AA1 T W EH2 L
+ou		UW1
+ouaga		W AA1 G AH0
+ouagadougou	oua·ga·dou·gou	W AA2 G AH0 D UW1 G UW0
+oubre		UW1 B ER0
+ouch	ouch	AW1 CH
+ouderkirk		AW1 D ER0 K ER0 K
+ouelette		AA1 UW0 L EH0 T
+ouellet		AA1 UW0 L IH0 T
+ouellette		AA1 UW0 L EH0 T
+ought	ought	AO1 T
+oughta		AO1 T AH0
+oughtn't	ought·n't	AO1 T AH0 N T
+oui		W IY1;UW0 W IY1
+ouimet		W IY0 M EH1 T
+ouimette		W IY0 M EH1 T
+ounce	ounce	AW1 N S
+ounces		AW1 N S AH0 Z;AW1 N S IH0 Z
+ounsted		AW1 N S T EH2 D
+our	our	AW1 ER0;AW1 R;AA1 R
+ourada		OW0 UH0 R AA1 D AH0
+ours	ours	AW1 ER0 Z;AA1 R Z;AW1 R Z
+ourself	our·self	AW0 ER0 S EH1 L F;AA0 R S EH1 L F
+ourselves	our·selves	AW0 ER0 S EH1 L V Z;AA0 R S EH1 L V Z
+ourso		ER1 S OW0
+ouseba		UW1 S AH0 B AH0
+ousley		AW1 S L IY0
+oust	oust	AW1 S T
+ousted		AW1 S T IH0 D
+ouster	oust·er	AW1 S T ER0
+ousting		AW1 S T IH0 NG
+out	out	AW1 T
+out's		AW1 T S
+out-mode		AW1 T M OW1 D
+out-moded		AW1 T M OW1 D IH0 D
+outage	out·age	AW1 T AH0 JH;AW1 T IH0 JH
+outages		AW1 T IH0 JH IH0 Z
+outback	out·back	AW1 T B AE2 K
+outbid	out·bid	AW1 T B IH2 D
+outbidded		AW1 T B IH2 D AH0 D
+outbidding	out·bid·ding	AW1 T B IH2 D IH0 NG
+outbids		AW1 T B IH2 D Z
+outboard	out·board	AW1 T B AO2 R D
+outboard's		AW1 T B AO2 R D Z
+outboards		AW1 T B AO2 R D Z
+outbound	out·bound	AW1 T B AW2 N D
+outbreak	out·break	AW1 T B R EY2 K
+outbreaks		AW1 T B R EY2 K S
+outburst	out·burst	AW1 T B ER2 S T
+outbursts		AW1 T B ER2 S T S
+outcalt		AW1 T K AH0 L T
+outcast	out·cast	AW1 T K AE2 S T
+outcasts		AW1 T K AE2 S T S
+outclass	out·class	AW1 T K L AE2 S
+outclassed		AW1 T K L AE2 S T
+outclasses		AW1 T K L AE2 S IH0 Z
+outclassing		AW1 T K L AE2 S IH0 NG
+outcome	out·come	AW1 T K AH2 M
+outcomes		AW1 T K AH2 M Z
+outcries		AW1 T K R AY2 Z
+outcry	out·cry	AW1 T K R AY2
+outdate	out·date	AW1 T D EY2 T
+outdated	out·dat·ed	AW1 T D EY2 T IH0 D
+outdid	out·did	AW1 T D IH2 D
+outdistance	out·dis·tance	AW1 T D IH1 S T AH0 N S
+outdistanced	out·dis·tanced	AW1 T D IH1 S T AH0 N S T
+outdistances		AW1 T D IH1 S T AH0 N S IH0 Z
+outdistancing	out·dis·tanc·ing	AW1 T D IH1 S T AH0 N S IH0 NG
+outdo	out·do	AW2 T D UW1
+outdoes		AW2 T D AH1 Z
+outdoing	out·do·ing	AW2 T D UW1 IH0 NG
+outdone	out·done	AW1 T D AH1 N
+outdoor	out·door	AW1 T D AO2 R
+outdoors	out·doors	AW1 T D AO1 R Z
+outdoorsman		AW1 T D AO1 R Z M AH0 N
+outed		AW1 T AH0 D
+outen		AW1 T AH0 N
+outer	out·er	AW1 T ER0
+outermost	out·er·most	AW1 T ER0 M OW2 S T
+outerwear	out·er·wear	AW1 T ER0 W EH2 R
+outfield	out·field	AW1 T F IY2 L D
+outfielder	out·field·er	AW1 T F IY2 L D ER0
+outfielders		AW1 T F IY2 L D ER0 Z
+outfields		AW1 T F IY2 L D Z
+outfit	out·fit	AW1 T F IH2 T
+outfits		AW1 T F IH2 T S
+outfitted	out·fit·ted	AW1 T F IH2 T IH0 D
+outfitter	out·fit·ter	AW1 T F IH2 T ER0
+outfitters		AW1 T F IH2 T ER0 Z
+outfitting	out·fit·ting	AW1 T F IH2 T IH0 NG
+outflank	out·flank	AW1 T F L AE2 NG K
+outflanked		AW0 T F L AE1 NG K T
+outflanking		AW1 T F L AE2 NG K IH0 NG
+outflanks		AW1 T F L AE2 NG K S
+outflow	out·flow	AW1 T F L OW2
+outflows		AW1 T F L OW2 Z
+outfox	out·fox	AW0 T F AA1 K S
+outfoxed		AW0 T F AA1 K S T
+outfoxes		AW0 T F AA1 K S IH0 Z
+outfoxing		AW0 T F AA1 K S IH0 NG
+outgain	out·gain	AW1 T G EY2 N
+outgained		AW1 T G EY2 N D
+outgaining		AW1 T G EY2 N IH0 NG
+outgains		AW1 T G EY2 N Z
+outgo	out·go	AW1 T G OW2
+outgoing	out·go·ing	AW1 T G OW2 IH0 NG
+outgrew	out·grew	AW2 T G R UW1
+outgrow	out·grow	AW2 T G R OW1
+outgrowing	out·grow·ing	AW1 T G R OW2 IH0 NG
+outgrown	out·grown	AW2 T G R OW1 N
+outgrows		AW2 T G R OW1 Z
+outgrowth	out·growth	AW1 T G R OW2 TH
+outguess	out·guess	AW1 T G EH2 S
+outguessed		AW1 T G EH2 S T
+outguesses		AW1 T G EH2 S IH0 Z
+outguessing		AW1 T G EH2 S IH0 NG
+outgun	out·gun	AW1 T G AH2 N
+outgunned	out·gunned	AW1 T G AH2 N D
+outgunning	out·gun·ning	AW1 T G AH2 N IH0 NG
+outguns		AW1 T G AH2 N Z
+outhouse	out·house	AW1 T HH AW2 S
+outhouses	out·hous·es	AW1 T HH AW2 S IH0 Z
+outing	out·ing	AW1 T IH0 NG
+outings		AW1 T IH0 NG Z
+outland	out·land	AW1 T L AE2 N D;AW1 T L AH0 N D
+outlandish	out·land·ish	AW0 T L AE1 N D IH0 SH
+outlast	out·last	AW1 T L AE2 S T;AW0 T L AE1 S T
+outlasted		AW1 T L AE2 S T IH0 D;AW0 T L AE1 S T IH0 D
+outlasting		AW1 T L AE2 S T IH0 NG;AW0 T L AE1 S T IH0 NG
+outlasts		AW1 T L AE2 S T S;AW0 T L AE1 S T S;AW1 T L AE2 S;AW0 T L AE1 S
+outlaw	out·law	AW1 T L AO2
+outlawed		AW1 T L AO2 D
+outlawing		AW1 T L AO2 IH0 NG
+outlawry	out·law·ry	AW1 T L AO2 R IY0
+outlaws		AW1 T L AO2 Z
+outlay	out·lay	AW1 T L EY2
+outlays		AW1 T L EY2 Z
+outler		AW1 T AH0 L ER0;AW1 T L ER0
+outlet	out·let	AW1 T L EH2 T
+outlet's		AW1 T L EH2 T S
+outlets		AW1 T L EH2 T S
+outley		AW1 T L IY0
+outlier	out·li·er	AW1 T L AY0 ER0
+outliers		AW1 T L AY0 ER0 Z
+outline	out·line	AW1 T L AY2 N
+outlined	out·lined	AW1 T L AY2 N D
+outlines		AW1 T L AY2 N Z
+outlining	out·lin·ing	AW1 T L AY2 N IH0 NG
+outlive	out·live	AW2 T L IH1 V
+outlived	out·lived	AW2 T L IH1 V D
+outlives		AW2 T L IH1 V Z
+outliving	out·liv·ing	AW2 T L IH1 V IH0 NG
+outlook	out·look	AW1 T L UH2 K
+outlooks		AW1 T L UH2 K S
+outlying	out·ly·ing	AW1 T L AY2 IH0 NG
+outman	out·man	AW1 T M AH0 N;AW2 T M AE1 N
+outmaneuver	out·ma·neu·ver	AW0 T M AH0 N UW1 V ER0
+outmaneuvered		AW0 T M AH0 N UW1 V ER0 D
+outmaneuvering		AW0 T M AH0 N UW1 V ER0 IH0 NG
+outmaneuvers		AW0 T M AH0 N UW1 V ER0 Z
+outmanned	out·manned	AW2 T M AE1 N D
+outmode	out·mode	AW2 T M OW1 D
+outmoded	out·mod·ed	AW2 T M OW1 D IH0 D
+outnumber	out·num·ber	AW0 T N AH1 M B ER0
+outnumbered		AW2 T N AH1 M B ER0 D
+outnumbering		AW1 T N AH2 M B ER0 IH0 NG
+outnumbers		AW0 T N AH1 M B ER0 Z
+outokumpu		UW2 T AH0 K AH1 M P UW0
+outpace	out·pace	AW1 T P EY2 S
+outpaced	out·paced	AW1 T P EY2 S T
+outpaces		AW1 T P EY2 S IH0 Z
+outpacing	out·pac·ing	AW1 T P EY2 S IH0 NG
+outpatient	out·pa·tient	AW1 T P EY2 SH AH0 N T
+outpatients		AW1 T P EY2 SH AH0 N T S
+outperform	out·per·form	AW1 T P ER0 F AO2 R M
+outperformance		AW2 T P ER0 F AO1 R M AH0 N S
+outperformed		AW1 T P ER0 F AO2 R M D
+outperformer		AW2 T P ER0 F AO1 R M ER0
+outperformers		AW2 T P ER0 F AO1 R M ER0 Z
+outperforming		AW1 T P ER0 F AO2 R M IH0 NG
+outperforms		AW1 T P ER0 F AO1 R M Z
+outplacement		AW1 T P L EY2 S M AH0 N T
+outpost	out·post	AW1 T P OW2 S T
+outposts		AW1 T P OW2 S T S
+outpouch		AW1 T P AW2 CH
+outpouching		AW1 T P AW2 CH IH0 NG
+outpour	out·pour	AW2 T P AO1 R
+outpouring	out·pour·ing	AW2 T P AO1 R IH0 NG
+outpours		AW2 T P AO1 R Z
+output	out·put	AW1 T P UH2 T
+outputs		AW1 T P UH2 T S
+outrage	out·rage	AW1 T R EY2 JH
+outraged	out·raged	AW1 T R EY2 JH D
+outrageous	out·ra·geous	AW0 T R EY1 JH AH0 S
+outrageously	out·ra·geous·ly	AW2 T R EY1 JH AH0 S L IY0
+outrageousness	out·ra·geous·ness	AW0 T R EY1 JH AH0 S N AH0 S
+outrages		AW1 T R EY2 JH IH0 Z
+outraging	out·rag·ing	AW1 T R EY2 JH IH0 NG
+outran	out·ran	AW0 T R AE1 N
+outreach	out·reach	AW1 T R IY2 CH
+outrider	out·rid·er	AW1 T R AY2 D ER0
+outriders		AW1 T R AY2 D ER0 Z
+outrigger	out·rig·ger	AW1 T R IH2 G ER0
+outriggers		AW1 T R IH2 G ER0 Z
+outright	out·right	AW1 T R AY1 T
+outrun	out·run	AW0 T R AH1 N
+outrunning		AW0 T R AH1 N IH0 NG
+outruns		AW0 T R AH1 N Z
+outs		AW1 T S
+outscore	out·score	AW0 T S K AO1 R
+outscored	out·scored	AW0 T S K AO1 R D
+outscores		AW0 T S K AO1 R Z
+outscoring	out·scor·ing	AW0 T S K AO1 R IH0 NG
+outsell	out·sell	AW0 T S EH1 L
+outselling	out·sell·ing	AW0 T S EH1 L IH0 NG
+outsells		AW0 T S EH1 L Z
+outset	out·set	AW1 T S EH2 T
+outshine	out·shine	AW1 CH AY2 N
+outshines		AW1 CH AY2 N Z
+outshining	out·shin·ing	AW1 CH AY2 N IH0 NG
+outshone	out·shone	AW0 T SH OW1 N
+outside	out·side	AW1 T S AY1 D
+outsider	out·sid·er	AW0 T S AY1 D ER0
+outsider's		AW0 T S AY1 D ER0 Z
+outsiders		AW0 T S AY1 D ER0 Z
+outsiders'		AW0 T S AY1 D ER0 Z
+outsides		AW1 T S AY1 D Z
+outsize	out·size	AW1 T S AY2 Z
+outsized	out·sized	AW1 T S AY2 Z D
+outskirt	out·skirt	AW1 T S K ER2 T
+outskirts	out·skirts	AW1 T S K ER2 T S
+outsmart	out·smart	AW1 T S M AA2 R T
+outsmarted		AW1 T S M AA2 R T IH0 D
+outsmarting		AW1 T S M AA2 R T IH0 NG
+outsmarts		AW1 T S M AA2 R T S
+outsold	out·sold	AW0 T S OW1 L D
+outsource		AW2 T S AO1 R S
+outsourced		AW2 T S AO1 R S T
+outsources		AW2 T S AO1 R S IH0 Z
+outsourcing		AW2 T S AO1 R S IH0 NG
+outspend		AW1 T S P EH2 N D
+outspending		AW1 T S P EH2 N D IH0 NG
+outspends		AW1 T S P EH2 N D Z
+outspent		AW0 T S P EH1 N T
+outspoken	out·spo·ken	AW1 T S P OW1 K AH0 N
+outspokenness	out·spo·ken·ness	AW0 T S P OW1 K AH0 N AH0 S
+outstanding	out·stand·ing	AW2 T S T AE1 N D IH0 NG
+outstandingly		AW2 T S T AE1 N D IH0 NG L IY0
+outstretch	out·stretch	AW0 T S T R EH1 CH
+outstretched		AW0 T S T R EH1 CH T
+outstrip	out·strip	AW0 T S T R IH1 P
+outstripped	out·stripped	AW0 T S T R IH1 P T
+outstripping	out·strip·ping	AW0 T S T R IH1 P IH0 NG
+outstrips		AW0 T S T R IH1 P S
+outta		UW1 T AH0;AW1 T AH0
+outtake		AW1 T T EY2 K;AW1 T EY2 K
+outtakes		AW1 T T EY2 K S;AW1 T EY2 K S
+outten		AW1 T AH0 N
+outvote	out·vote	AW0 T V OW1 T
+outvoted	out·vot·ed	AW0 T V OW1 T IH0 D
+outvotes		AW0 T V OW1 T S
+outvoting	out·vot·ing	AW0 T V OW1 T IH0 NG
+outward	out·ward	AW1 T W ER0 D
+outwardly	out·ward·ly	AW1 T W ER0 D L IY0
+outwards	out·wards	AW1 T W ER0 D Z
+outweigh	out·weigh	AW1 T W EY2
+outweighed		AW0 T W EY1 D
+outweighing		AW1 T W EY2 IH0 NG
+outweighs		AW1 T W EY2 Z
+outwit	out·wit	AW1 T W IH2 T
+outwits		AW1 T W IH2 T S
+outwitted	out·wit·ted	AW1 T W IH2 T IH0 D
+outwitting	out·wit·ting	AW1 T W IH2 T IH0 NG
+ouzts		AW1 Z T S;AW1 S T S
+ova	o·va	OW1 V AH0
+oval	o·val	OW1 V AH0 L
+ovalle	o·va·lle	AA1 V EY0 L
+ovarian	o·var·i·an	OW0 V EH1 R IY2 AH0 N
+ovaries		OW1 V ER2 IY0 Z
+ovary	o·va·ry	OW1 V ER2 IY0
+ovate	o·vate	OW1 V EY0 T
+ovation	o·va·tion	OW0 V EY1 SH AH0 N
+ovations		OW0 V EY1 SH AH0 N Z
+oven	ov·en	AH1 V AH0 N
+ovens		AH1 V AH0 N Z
+over	over/o·ver	OW1 V ER0
+overabundance	o·ver·a·bun·dance	OW1 V ER0 AH0 B AH1 N D AH0 N S
+overacker		OW1 V ER0 AH0 K ER0
+overact	o·ver·act	OW1 V ER0 AE2 K T
+overacted		OW1 V ER0 AE2 K T IH0 D;OW2 V ER0 AE1 K T IH0 D
+overactive	o·ver·ac·tive	OW1 V ER0 AE1 K T IH0 V
+overacts		OW1 V ER0 AE2 K T S
+overall	o·ver·all	OW1 V ER0 AO2 L
+overallotment		OW1 V ER0 AH0 L AA1 T M AH0 N T
+overallotments		OW1 V ER0 AH0 L AA1 T M AH0 N T S
+overalls		OW1 V ER0 AO2 L Z
+overambitious	o·ver·am·bi·tious	OW1 V ER0 AE0 M B IH2 SH AH0 S
+overarching		OW1 V ER0 AA2 R CH IH0 NG
+overate	o·ver·ate	OW0 V ER0 EY1 T
+overbaugh		OW0 V ER1 B AO0
+overbay		OW1 V ER0 B EY2
+overbearing	o·ver·bear·ing	OW1 V ER0 B EH1 R IH0 NG
+overbeck		OW1 V ER0 B EH2 K
+overbey		OW1 V ER0 B IY0
+overbill	o·ver·bill	OW2 V ER0 B IH1 L
+overbilled		OW1 V ER0 B IH2 L D
+overbilling		OW1 V ER0 B IH2 L IH0 NG
+overbills		OW2 V ER0 B IH1 L Z
+overblown	o·ver·blown	OW2 V ER0 B L OW1 N
+overboard	o·ver·board	OW1 V ER0 B AO2 R D
+overbook	o·ver·book	OW1 V ER0 B UH2 K
+overbooked		OW1 V ER0 B UH2 K T
+overbooking		OW1 V ER0 B UH2 K IH0 NG
+overbooks		OW1 V ER0 B UH2 K S
+overbought	o·ver·bought	OW1 V ER0 B AO1 T
+overbuilding	o·ver·build·ing	OW1 V ER0 B IH2 L D IH0 NG
+overbuilt	o·ver·built	OW1 V ER0 B IH1 L T
+overburden	o·ver·bur·den	OW1 V ER0 B ER1 D AH0 N
+overburdened		OW1 V ER0 B ER1 D AH0 N D
+overbuy	o·ver·buy	OW1 V ER0 B AY2
+overby		OW1 V ER0 B IY0
+overcame	o·ver·came	OW1 V ER0 K EY1 M
+overcapacity	o·ver·ca·pac·i·ty	OW1 V ER0 K AH0 P AE1 S AH0 T IY0
+overcash		OW1 V ER0 K AE2 SH
+overcast	o·ver·cast	OW1 V ER0 K AE2 S T
+overcharge	o·ver·charge	OW1 V ER0 CH AA2 R JH
+overcharged		OW1 V ER0 CH AA1 R JH D
+overcharges		OW1 V ER0 CH AA2 R JH IH0 Z
+overcharging		OW2 V ER0 CH AA1 R JH IH0 NG
+overclock		OW1 V ER0 K L AO1 K
+overclocking		OW1 V ER0 K L AO1 K IH0 NG
+overcoat	o·ver·coat	OW1 V ER0 K OW2 T
+overcoats		OW1 V ER0 K OW2 T S
+overcome	o·ver·come	OW1 V ER0 K AH2 M
+overcomes		OW1 V ER0 K AH2 M Z
+overcoming	o·ver·com·ing	OW1 V ER0 K AH2 M IH0 NG
+overconfidence	o·ver·con·fi·dence	OW2 V ER0 K AA1 N F IH0 D AH0 N S
+overconfident		OW2 V ER0 K AA1 N F IH0 D AH0 N T
+overconsumption	o·ver·con·sump·tion	OW1 V ER0 K AH0 N S AH2 M P SH AH0 N
+overcook	o·ver·cook	OW2 V ER0 K UH1 K
+overcooked		OW2 V ER0 K UH1 K T
+overcooking		OW2 V ER0 K UH1 K IH0 NG
+overcooks		OW2 V ER0 K UH1 K S
+overcrowd	o·ver·crowd	OW2 V ER0 K R AW1 D
+overcrowded		OW1 V ER0 K R AW2 D IH0 D
+overcrowding		OW1 V ER0 K R AW2 D IH0 NG
+overcrowds		OW2 V ER0 K R AW1 D Z
+overdamping		OW1 V ER0 D AE2 M P IH0 NG
+overdependence	o·ver·de·pend·ence	OW1 V ER0 D IH0 P EH2 N D AH0 N S
+overdependent	o·ver·de·pend·ent	OW1 V ER0 D IH0 P EH2 N D AH0 N T
+overdid	o·ver·did	OW1 V ER0 D IH2 D
+overdo	o·ver·do	OW1 V ER0 D UW1
+overdoes		OW2 V ER0 D AH1 Z
+overdoing	o·ver·do·ing	OW1 V ER0 D UW1 IH0 NG
+overdone	o·ver·done	OW1 V ER0 D AH1 N
+overdorf		OW1 V ER0 D AO0 R F
+overdose	o·ver·dose	OW1 V ER0 D OW2 S
+overdosed	o·ver·dosed	OW1 V ER0 D OW2 S T
+overdoses		OW1 V ER0 D OW2 S IH0 Z
+overdosing	o·ver·dos·ing	OW1 V ER0 D OW2 S IH0 NG
+overdraft	o·ver·draft	OW1 V ER0 D R AE2 F T
+overdrafting		OW1 V ER0 D R AE2 F T IH0 NG
+overdrafts		OW1 V ER0 D R AE2 F T S
+overdraw	o·ver·draw	OW1 V ER0 D R AO2
+overdrawn		OW1 V ER0 D R AO1 N
+overdress	o·ver·dress	OW1 V ER0 D R EH2 S
+overdrew		OW1 V ER0 D R UW2
+overdrive	o·ver·drive	OW1 V ER0 D R AY2 V
+overdue	o·ver·due	OW1 V ER0 D UW1
+overeager	o·ver·ea·ger	OW1 V ER0 IY2 G ER0
+overeat	o·ver·eat	OW1 V ER0 IY2 T
+overeating	o·ver·eat·ing	OW1 V ER0 IY1 T IH0 NG
+overemphasize	o·ver·em·pha·size	OW1 V ER0 EH1 M F AH0 S AY2 Z
+overemphasized	o·ver·em·pha·sized	OW1 V ER0 EH1 M F AH0 S AY2 Z D
+overemphasizes		OW1 V ER0 EH1 M F AH0 S AY2 Z IH0 Z
+overemphasizing	o·ver·em·pha·siz·ing	OW1 V ER0 EH1 M F AH0 S AY2 Z IH0 NG
+overestimate	o·ver·es·ti·mate	OW2 V ER0 EH1 S T AH0 M EY2 T
+overestimated	o·ver·es·ti·mat·ed	OW2 V ER0 EH1 S T AH0 M EY2 T IH0 D
+overestimates		OW2 V ER0 EH1 S T AH0 M EY2 T S
+overestimating	o·ver·es·ti·mat·ing	OW2 V ER0 EH1 S T AH0 M EY2 T IH0 NG
+overexcite	o·ver·ex·cite	OW2 V ER0 EH0 K S AY1 T
+overexcited	o·ver·ex·cit·ed	OW2 V ER0 EH0 K S AY1 T IH0 D
+overexcites		OW2 V ER0 EH0 K S AY1 T S
+overexciting	o·ver·ex·cit·ing	OW2 V ER0 EH0 K S AY1 T IH0 NG
+overexpansion	o·ver·ex·pan·sion	OW2 V ER0 IH0 K S P AE1 N SH AH0 N
+overexpose	o·ver·ex·pose	OW2 V ER0 IH0 K S P OW1 Z
+overexposed	o·ver·ex·posed	OW2 V ER0 IH0 K S P OW1 Z D
+overexposes		OW2 V ER0 IH0 K S P OW1 Z IH0 Z
+overexposing	o·ver·ex·pos·ing	OW2 V ER0 IH0 K S P OW1 Z IH0 NG
+overexposure	o·ver·ex·po·sure	OW2 V ER0 IH0 K S P OW1 ZH ER0
+overextend	o·ver·ex·tend	OW2 V ER0 IH0 K S T EH1 N D
+overextended		OW2 V ER0 IH0 K S T EH1 N D IH0 D
+overextending		OW2 V ER0 IH0 K S T EH1 N D IH0 NG
+overextends		OW2 V ER0 IH0 K S T EH1 N D Z
+overfed	o·ver·fed	OW2 V ER0 F EH1 D
+overfeed	o·ver·feed	OW2 V ER0 F IY1 D
+overfelt		OW1 V ER0 F EH2 L T
+overfield		OW1 V ER0 F IY2 L D
+overfill	o·ver·fill	OW1 V ER0 F IH2 L
+overfishing		OW1 V ER0 F IH2 SH IH0 NG
+overflight	o·ver·flight	OW1 V ER0 F L AY2 T
+overflights		OW1 V ER0 F L AY2 T S
+overflow	o·ver·flow	OW1 V ER0 F L OW2;OW2 V ER0 F L OW1
+overflowed		OW2 V ER0 F L OW1 D
+overflowing		OW1 V ER0 F L OW2 IH0 NG
+overflows		OW1 V ER0 F L OW2 Z
+overfly	o·ver·fly	OW2 V ER0 F L AY1
+overflying	o·ver·fly·ing	OW2 V ER0 F L AY1 IH0 NG
+overfund		OW1 V ER0 F AH2 N D
+overfunded		OW1 V ER0 F AH2 N D IH0 D
+overfunding		OW1 V ER0 F AH2 N D IH0 NG
+overgaard		OW1 V ER0 G AA2 R D
+overgenerous	o·ver·gen·er·ous	OW1 V ER0 JH EH2 N ER0 AH0 S
+overgrazing	o·ver·graz·ing	OW1 V ER0 G R EY2 Z IH0 NG
+overgrowing	o·ver·grow·ing	OW2 V ER0 G R OW1 W IH0 NG
+overgrown	o·ver·grown	OW2 V ER0 G R OW1 N
+overgrowth	o·ver·growth	OW1 V ER0 G R OW0 TH
+overhang	o·ver·hang	OW1 V ER0 HH AE2 NG
+overhanging	o·ver·hang·ing	OW1 V ER0 HH AE2 NG IH0 NG
+overhangs		OW1 V ER0 HH AE2 NG Z
+overhaul	o·ver·haul	OW1 V ER0 HH AO2 L
+overhauled		OW1 V ER0 HH AO2 L D
+overhauling		OW1 V ER0 HH AO2 L IH0 NG
+overhauls		OW1 V ER0 HH AO2 L Z
+overhead	o·ver·head	OW1 V ER0 HH EH1 D
+overheads	o·ver·heads	OW1 V ER0 HH EH2 D Z
+overhear	o·ver·hear	OW1 V ER0 HH IY1 R
+overheard	o·ver·heard	OW1 V ER0 HH ER1 D
+overhearing	o·ver·hear·ing	OW2 V ER0 HH IY1 R IH0 NG
+overhears		OW1 V ER0 HH IY1 R Z
+overheat	o·ver·heat	OW1 V ER0 HH IY2 T
+overheated		OW1 V ER0 HH IY2 T IH0 D
+overheating		OW1 V ER0 HH IY2 T IH0 NG
+overheats		OW1 V ER0 HH IY2 T S
+overholser		OW1 V ER0 HH OW2 L S ER0
+overholt		OW1 V ER0 HH OW0 L T
+overholtzer		OW1 V ER0 HH OW0 L T Z ER0
+overhung	o·ver·hung	OW0 V ER0 HH AH1 NG
+overjoyed		OW2 V ER0 JH OY1 D
+overkill	o·ver·kill	OW1 V ER0 K IH2 L
+overkilling		OW1 V ER0 K IH2 L IH0 NG
+overlaid	o·ver·laid	OW1 V ER0 L EY2 D
+overlain	o·ver·lain	OW1 V ER0 L EY2 N
+overland	o·ver·land	OW1 V ER0 L AE2 N D;OW1 V ER0 L AH0 N D
+overlap	o·ver·lap	OW1 V ER0 L AE2 P
+overlapped	o·ver·lapped	OW1 V ER0 L AE2 P T
+overlapping	o·ver·lap·ping	OW1 V ER0 L AE2 P IH0 NG
+overlaps		OW1 V ER0 L AE2 P S
+overlay	o·ver·lay	OW1 V ER0 L EY2
+overlays		OW1 V ER0 L EY2 Z
+overleverage		OW2 V ER0 L EH1 V R IH0 JH
+overleveraged		OW1 V ER0 L EH1 V R IH0 JH D
+overley		OW1 V ER0 L IY0
+overload	o·ver·load	OW1 V ER0 L OW2 D
+overloaded		OW1 V ER0 L OW2 D IH0 D
+overloading		OW1 V ER0 L OW2 D IH0 NG
+overloads		OW1 V ER0 L OW2 D Z
+overlock		OW1 V ER0 L AA2 K
+overlook	o·ver·look	OW1 V ER0 L UH2 K
+overlooked		OW1 V ER0 L UH2 K T
+overlooking		OW1 V ER0 L UH2 K IH0 NG
+overlooks		OW1 V ER0 L UH2 K S
+overlord	o·ver·lord	OW1 V ER0 L AO2 R D
+overlords		OW1 V ER0 L AO2 R D Z
+overly	o·ver·ly	OW1 V ER0 L IY0
+overlying	o·ver·ly·ing	OW2 V ER0 L AY1 IH0 NG
+overman	o·ver·man	OW1 V ER0 M AH0 N
+overmatch	o·ver·match	OW2 V ER0 M AE1 CH
+overmatched		OW1 V ER0 M AE1 CH T
+overmyer		OW1 V ER0 M IY0 ER0
+overnight	o·ver·night	OW1 V ER0 N AY1 T
+overnighter		OW2 V ER0 N AY1 T ER0
+overnighters		OW2 V ER0 N AY1 T ER0 Z
+overnite		OW1 V ER0 N AY1 T
+overoptimism	o·ver·op·ti·mism	OW2 V ER0 AA1 P T IH0 M IH2 Z AH0 M
+overpaid	o·ver·paid	OW1 V ER0 P EY1 D
+overpass	o·ver·pass	OW1 V ER0 P AE2 S
+overpasses		OW1 V ER0 P AE2 S IH0 Z
+overpay	o·ver·pay	OW1 V ER0 P EY2
+overpaying	o·ver·pay·ing	OW1 V ER0 P EY2 IH0 NG
+overpayment	o·ver·pay·ment	OW1 V ER0 P EY2 M AH0 N T
+overpayments		OW1 V ER0 P EY2 M AH0 N T S
+overpeck		OW1 V ER0 P EH2 K
+overplay	o·ver·play	OW1 V ER0 P L EY1
+overplayed		OW1 V ER0 P L EY1 D
+overplaying		OW1 V ER0 P L EY1 IH0 NG
+overplays		OW1 V ER0 P L EY1 Z
+overpopulate	o·ver·pop·u·late	OW2 V ER0 P AA1 P Y AH0 L EY0 T
+overpopulated	o·ver·pop·u·lat·ed	OW2 V ER0 P AA1 P Y AH0 L EY0 T IH0 D
+overpopulates		OW2 V ER0 P AA1 P Y AH0 L EY0 T S
+overpopulating	o·ver·pop·u·lat·ing	OW2 V ER0 P AA1 P Y AH0 L EY0 T IH0 NG
+overpopulation	o·ver·pop·u·la·tion	OW2 V ER0 P AA2 P Y AH0 L EY1 SH AH0 N
+overpower	o·ver·pow·er	OW2 V ER0 P AW1 ER0
+overpowered		OW2 V ER0 P AW1 ER0 D
+overpowering	o·ver·pow·er·ing	OW1 V ER0 P AW1 R IH0 NG
+overpowers		OW2 V ER0 P AW1 ER0 Z
+overprice	o·ver·price	OW2 V ER0 P R AY1 S
+overpriced	o·ver·priced	OW1 V ER0 P R AY2 S T
+overprices		OW2 V ER0 P R AY1 S IH0 Z
+overpricing	o·ver·pric·ing	OW2 V ER0 P R AY1 S IH0 NG
+overproduce		OW1 V ER0 P R AH0 D UW1 S
+overproduced		OW1 V ER0 P R AH0 D UW1 S T
+overproducer		OW1 V ER0 P R AH0 D UW1 S ER0
+overproducers		OW1 V ER0 P R AH0 D UW1 S ER0 Z
+overproducing		OW2 V ER0 P R AH0 D Y UW1 S IH0 NG
+overproduction		OW1 V ER0 P R AH0 D AH1 K SH AH0 N
+overprotect	o·ver·pro·tect	OW2 V ER0 P R AH0 T EH1 K T
+overprotected		OW2 V ER0 P R AH0 T EH1 K T IH0 D
+overprotection	o·ver·pro·tec·tion	OW2 V ER0 P R AH0 T EH1 K SH AH0 N
+overprotective		OW2 V ER0 P R AH0 T EH1 K T AH0 V
+overqualified	o·ver·qual·i·fied	OW1 V ER0 K W AA2 L AH0 F AY2 D
+overqualify	o·ver·qual·i·fy	OW1 V ER0 K W AA2 L IH0 F AY2
+overran	o·ver·ran	OW1 V ER0 R AE1 N
+overrate	o·ver·rate	OW2 V ER0 R EY1 T
+overrated	o·ver·rat·ed	OW2 V ER0 R EY1 T IH0 D
+overrates		OW2 V ER0 R EY1 T S
+overrating	o·ver·rat·ing	OW2 V ER0 R EY1 T IH0 NG
+overreach	o·ver·reach	OW1 V ER0 R IY2 CH
+overreached		OW1 V ER0 R IY2 CH T
+overreaches		OW1 V ER0 R IY2 CH IH0 Z
+overreaching		OW1 V ER0 R IY2 CH IH0 NG
+overreact	o·ver·re·act	OW1 V ER0 R IY0 AE1 K T
+overreacted		OW1 V ER0 R IY0 AE2 K T IH0 D
+overreacting		OW1 V ER0 R IY0 AE2 K T IH0 NG
+overreaction	o·ver·re·ac·tion	OW1 V ER0 R IY0 AE2 K SH AH0 N
+overreacts		OW1 V ER0 R IY0 AE1 K T S
+overregulate	o·ver·reg·u·late	OW1 V ER0 R EH1 G Y AH0 L EY2 T
+overregulated	o·ver·reg·u·lat·ed	OW2 V ER0 R EH1 G Y AH0 L EY2 T IH0 D
+overregulates		OW1 V ER0 R EH1 G Y AH0 L EY2 T S
+overregulation	o·ver·reg·u·la·tion	OW2 V ER0 R EH2 G Y AH0 L EY1 SH AH0 N
+overreliance	o·ver·re·li·ance	OW1 V ER0 R IH0 L AY2 AH0 N S
+overrepresent	o·ver·rep·re·sent	OW1 V ER0 R EH2 P R AH0 Z EH1 N T
+overrepresented		OW1 V ER0 R EH2 P R AH0 Z EH1 N T IH0 D
+overridden	o·ver·rid·den	OW1 V ER0 R IH1 D AH0 N
+override	o·ver·ride	OW1 V ER0 R AY2 D
+overrides		OW1 V ER0 R AY2 D Z
+overriding	o·ver·rid·ing	OW1 V ER0 R AY2 D IH0 NG
+overripe	o·ver·ripe	OW1 V ER0 R AY1 P
+overrode	o·ver·rode	OW1 V ER0 R OW1 D
+overrule	o·ver·rule	OW1 V ER0 R UW2 L
+overruled	o·ver·ruled	OW2 V ER0 R UW1 L D
+overrules		OW1 V ER0 R UW2 L Z
+overruling	o·ver·rul·ing	OW1 V ER0 R UW2 L IH0 NG
+overrun	o·ver·run	OW1 V ER0 R AH2 N
+overrunning	o·ver·run·ning	OW1 V ER0 R AH2 N IH0 NG
+overruns		OW1 V ER0 R AH2 N Z
+overs		OW1 V ER0 Z
+oversaw	o·ver·saw	OW1 V ER0 S AO2
+oversea		OW2 V ER0 S IY1
+overseas	o·ver·seas	OW1 V ER0 S IY1 Z
+oversee	o·ver·see	OW1 V ER0 S IY2
+overseeing	o·ver·see·ing	OW1 V ER0 S IY2 IH0 NG
+overseen	o·ver·seen	OW1 V ER0 S IY2 N
+overseer	o·ver·se·er	OW1 V ER0 S IY1 ER0
+overseers		OW2 V ER0 S IY1 ER0 Z
+oversees		OW1 V ER0 S IY2 Z
+oversell	o·ver·sell	OW1 V ER0 S EH2 L
+overselling	o·ver·sell·ing	OW1 V ER0 S EH2 L IH0 NG
+oversensitive		OW2 V ER0 S EH1 N S AH0 T IH0 V
+oversensitivity		OW2 V ER0 S EH0 N S AH0 T IH1 V IH0 T IY0
+overshadow	o·ver·shad·ow	OW1 V ER0 SH AE1 D OW0
+overshadowed		OW2 V ER0 SH AE1 D OW0 D
+overshadowing		OW1 V ER0 SH AE1 D OW0 IH0 NG
+overshadows		OW1 V ER0 SH AE1 D OW0 Z
+overshoot	o·ver·shoot	OW1 V ER0 SH UW2 T
+overshooting	o·ver·shoot·ing	OW1 V ER0 SH UW2 T IH0 NG
+overshot	o·ver·shot	OW1 V ER0 SH AA2 T
+oversight	o·ver·sight	OW1 V ER0 S AY2 T
+oversimplification	o·ver·sim·pli·fi·ca·tion	OW0 V ER0 S IH1 M P L IH0 F IH0 K EY2 SH AH0 N
+oversimplified	o·ver·sim·pli·fied	OW0 V ER0 S IH1 M P L IH0 F AY2 D
+oversimplify	o·ver·sim·pli·fy	OW0 V ER0 S IH1 M P L IH0 F AY2
+oversimplifying	o·ver·sim·pli·fy·ing	OW0 V ER0 S IH1 M P L IH0 F AY2 IH0 NG
+oversize	o·ver·size	OW2 V ER0 S AY1 Z
+oversized	o·ver·sized	OW1 V ER0 S AY2 Z D
+oversizes		OW2 V ER0 S AY1 Z IH0 Z
+oversizing		OW2 V ER0 S AY1 Z IH0 NG
+oversleep	o·ver·sleep	OW2 V ER0 S L IY1 P
+overslept	o·ver·slept	OW2 V ER0 S L EH1 P T
+oversold	o·ver·sold	OW1 V ER0 S OW1 L D
+overson		OW1 V ER0 S AH0 N
+overspend	o·ver·spend	OW1 V ER0 S P EH2 N D
+overspending	o·ver·spend·ing	OW1 V ER0 S P EH2 N D IH0 NG
+overspends		OW1 V ER0 S P EH2 N D Z
+overspent	o·ver·spent	OW1 V ER0 S P EH1 N T
+overstaff	o·ver·staff	OW1 V ER0 S T AE2 F
+overstaffed		OW1 V ER0 S T AE2 F T
+overstate	o·ver·state	OW1 V ER0 S T EY2 T
+overstated		OW1 V ER0 S T EY2 T IH0 D
+overstatement		OW1 V ER0 S T EY2 T M AH0 N T
+overstatements		OW1 V ER0 S T EY2 T M AH0 N T S
+overstates		OW1 V ER0 S T EY2 T S
+overstating		OW1 V ER0 S T EY2 T IH0 NG
+overstay	o·ver·stay	OW2 V ER0 S T EY1
+overstayed	o·ver·stayed	OW2 V ER0 S T EY1 D
+overstep	o·ver·step	OW1 V ER0 S T EH2 P
+overstepped	o·ver·stepped	OW1 V ER0 S T EH2 P T
+overstepping	o·ver·step·ping	OW1 V ER0 S T EH2 P IH0 NG
+overstock	o·ver·stock	OW1 V ER0 S T AA1 K
+overstocked		OW1 V ER0 S T AA1 K T
+overstreet		OW1 V ER0 S T R IY2 T
+overstrom		OW1 V ER0 S T R AA1 M
+overstuff	o·ver·stuff	OW1 V ER0 S T AH2 F
+overstuffed	o·ver·stuffed	OW1 V ER0 S T AH2 F T
+oversubscribe	o·ver·sub·scribe	OW2 V ER0 S AH0 B S K R AY1 B
+oversubscribed		OW2 V ER0 S AH0 B S K R AY1 B D
+oversupplied	o·ver·sup·plied	OW2 V ER0 S AH0 P L AY1 D
+oversupply	o·ver·sup·ply	OW2 V ER0 S AH0 P L AY1
+overt	o·vert	OW0 V ER1 T;OW1 V ER0 T
+overtake	o·ver·take	OW1 V ER0 T EY2 K
+overtaken		OW1 V ER0 T EY2 K AH0 N
+overtakes		OW1 V ER0 T EY2 K S
+overtaking		OW1 V ER0 T EY2 K IH0 NG
+overtax	o·ver·tax	OW1 V ER0 T AE2 K S
+overtaxed		OW2 V ER0 T AE1 K S T
+overthrew		OW2 V ER0 TH R UW1
+overthrow	o·ver·throw	OW1 V ER0 TH R OW2
+overthrowing		OW1 V ER0 TH R OW2 IH0 NG
+overthrown		OW2 V ER0 TH R OW1 N
+overthrows		OW1 V ER0 TH R OW2 Z
+overtime	o·ver·time	OW1 V ER0 T AY2 M
+overtly	o·vert·ly	OW0 V ER1 T L IY0
+overton	o·ver·ton	OW1 V ER0 T AH0 N
+overtone	o·ver·tone	OW1 V ER0 T OW2 N
+overtones		OW1 V ER0 T OW2 N Z
+overtook	o·ver·took	OW2 V ER0 T UH1 K
+overtrain		OW0 V ER0 T R EY1 N
+overtraining		OW0 V ER0 T R EY1 N IH0 NG
+overture	o·ver·ture	OW1 V ER0 CH ER0
+overtures		OW1 V ER0 CH UH2 R Z
+overturf		OW1 V ER0 T ER2 F
+overturn	o·ver·turn	OW1 V ER0 T ER2 N
+overturned		OW1 V ER0 T ER2 N D
+overturning		OW1 V ER0 T ER2 N IH0 NG
+overturns		OW1 V ER0 T ER2 N Z
+overuse	o·ver·use	OW2 V ER0 Y UW1 Z
+overused	o·ver·used	OW2 V ER0 Y UW1 Z D
+overuses		OW2 V ER0 Y UW1 Z IH0 Z
+overusing	o·ver·us·ing	OW2 V ER0 Y UW1 Z IH0 NG
+overvaluation	o·ver·val·u·a·tion	OW2 V ER0 V AE2 L Y UW0 EY1 SH AH0 N
+overvalue	o·ver·val·ue	OW1 V ER0 V AE2 L Y UW0
+overvalued	o·ver·val·ued	OW1 V ER0 V AE2 L Y UW0 D
+overview	o·ver·view	OW1 V ER0 V Y UW2
+overviews		OW1 V ER0 V Y UW2 Z
+overweight	o·ver·weight	OW2 V ER0 W EY1 T
+overweighted		OW2 V ER0 W EY1 T IH0 D
+overwhelm	o·ver·whelm	OW2 V ER0 W EH1 L M;OW2 V ER0 HH W EH1 L M
+overwhelmability		OW2 V ER0 W EH1 L M AH0 B IH1 L AH0 T IY0;OW2 V ER0 HH W EH0 L M AH0 B IH1 L AH0 T IY0
+overwhelmed		OW2 V ER0 W EH1 L M D;OW2 V ER0 HH W EH1 L M D
+overwhelming	o·ver·whelm·ing	OW2 V ER0 W EH1 L M IH0 NG;OW2 V ER0 HH W EH1 L M IH0 NG
+overwhelmingly	o·ver·whelm·ing·ly	OW2 V ER0 W EH1 L M IH0 NG L IY0;OW2 V ER0 HH W EH1 L M IH0 NG L IY0
+overwhelms		OW2 V ER0 W EH1 L M Z;OW2 V ER0 HH W EH1 L M Z
+overwinter	o·ver·win·ter	OW2 V ER0 W IH1 N T ER0
+overwork	o·ver·work	OW2 V ER0 W ER1 K
+overworked		OW2 V ER0 W ER1 K T
+overworking	o·ver·work·ing	OW2 V ER0 W ER1 K IH0 NG
+overworks		OW2 V ER0 W ER1 K S
+overwrite	o·ver·write	OW2 V ER0 R AY1 T
+overwrites		OW2 V ER0 R AY1 T S
+overwriting		OW2 V ER0 R AY1 T IH0 NG
+overwritten		OW2 V ER0 R IH1 T AH0 N
+overwrote		OW2 V ER0 R OW1 T
+overwrought	o·ver·wrought	OW2 V ER0 R AO1 T
+overy		OW1 V ER0 IY0
+overzealous	o·ver·zeal·ous	OW2 V ER0 Z EH1 L AH0 S
+overzealously	o·ver·zeal·ous·ly	OW2 V ER0 Z EH1 L AH0 S L IY0
+oveson		AA1 V AH0 S AH0 N
+ovett		OW2 V EH1 T
+ovett's		OW2 V EH1 T S
+ovex		OW1 V EH0 K S
+oviatt		OW1 V IY0 AA2 T
+oviatt's		OW1 V IY0 AA2 T S
+oviedo	o·vie·do	OW0 V IY0 EY1 D OW0
+oviparous	o·vip·a·rous	OW0 V IH1 P ER0 AH0 S
+ovitt		OW1 V IH0 T
+ovitt's		OW1 V IH0 T S
+ovitz		OW0 V IH1 T S
+ovitz's		OW0 V IH1 T S IH0 Z
+ovoid	o·void	OW1 V OY2 D
+ovonic		OW0 V AA1 N IH0 K
+ovoviviparous	o·vo·vi·vip·a·rous	OW2 V OW2 V AY2 V IH1 P ER0 AH0 S
+ovshinsky		AA0 V SH IH1 N S K IY0
+ovulation		OW2 V Y AH0 L EY1 SH AH0 N
+ovulations		OW2 V Y AH0 L EY1 SH AH0 N Z
+ovule	ov·ule	OW1 V Y UW0 L
+ovules		OW1 V Y UW0 L Z
+ovum	o·vum	OW1 V AH0 M
+ow		OW1;AW1
+owada		OW0 AA1 D AH0
+owades		OW0 AA1 D Z
+owczarzak		AW0 CH AA1 R Z AH0 K
+owe	owe	OW1
+owed		OW1 D
+owen	ow·en	OW1 AH0 N
+owen's		OW1 AH0 N Z
+owenby		AW1 IH0 N B IY0
+owenby's		AW1 IH0 N B IY0 Z
+owens	ow·ens	OW1 AH0 N Z
+owens's		OW1 AH0 N Z IH0 Z
+owensboro	ow·ens·bor·o	OW1 AH0 N Z B ER0 OW0
+owensby		AW1 IH0 N S B IY0
+owensby's		AW1 IH0 N S B IY0 Z
+owes		OW1 Z
+owing	ow·ing	OW1 IH0 NG
+owings		OW1 IH0 NG Z
+owl	owl	AW1 L
+owls		AW1 L Z
+own	own	OW1 N
+ownbey		AW1 N B IY0
+ownby		AW1 N B IY0
+owned		OW1 N D
+owner	own·er	OW1 N ER0
+owner's		OW1 N ER0 Z
+owners		OW1 N ER0 Z
+owners'		OW1 N ER0 Z
+ownership	own·er·ship	OW1 N ER0 SH IH2 P
+owning		OW1 N IH0 NG
+owns		OW1 N Z
+owosso	o·wos·so	OW0 AO1 S OW0
+owsley		AW1 S L IY0
+owyhee		OW1 IH0 HH IY0
+ox		AA1 K S
+oxalates		AA1 K S AH0 L EY2 T S
+oxalis	ox·a·lis	AA1 K S AH0 L AH0 S
+oxbow	ox·bow	AA1 K S B OW2
+oxbridge	ox·bridge	AA1 K S B R IH2 JH
+oxcart	ox·cart	AA1 K S K AA2 R T
+oxdon		AA1 K S D AA2 N
+oxen	ox·en	AA1 K S AH0 N
+oxendine		AA1 K S IH0 N D AY0 N
+oxfam		AA1 K S F AE2 M
+oxfam's		AA1 K S F AE2 M Z
+oxford	ox·ford	AA1 K S F ER0 D
+oxford's		AA1 K S F ER0 D Z
+oxfords		AA1 K S F ER0 D Z
+oxidant	ox·i·dant	AA1 K S AH0 D AH0 N T
+oxidants		AA1 K S IH0 D AH0 N T S
+oxidase	ox·i·dase	AA1 K S IH0 D EY2 Z
+oxidation	ox·i·da·tion	AA2 K S AH0 D EY1 SH AH0 N
+oxidative	ox·i·da·tive	AA2 K S AH0 D AY1 T IH0 V
+oxide	ox·ide	AA1 K S AY2 D
+oxides		AA1 K S AY2 D Z
+oxidize	ox·i·dize	AA1 K S AH0 D AY2 Z
+oxidized		AA1 K S AH0 D AY2 Z D
+oxidizer	ox·i·diz·er	AA1 K S IH0 D AY2 Z ER0
+oxidizing		AA1 K S AH0 D AY2 Z IH0 NG
+oxidyne		AA1 K S IH0 D AY2 N
+oxley		AA1 K S L IY0
+oxman		AA1 K S M AH0 N
+oxnard		AA1 K S N ER0 D
+oxner		AA1 K S N ER0
+oxoco		AA0 K S OW1 K OW0
+oxton		AA1 K S T AH0 N
+oxy		AA1 K S IY0
+oxydative		AA2 K S AH0 D AY1 T IH0 V
+oxygen	ox·y·gen	AA1 K S AH0 JH AH0 N;AA1 K S IH0 JH AH0 N
+oxygenate	ox·y·gen·ate	AA1 K S AH0 JH AH0 N EY2 T
+oxygenated	ox·y·gen·at·ed	AA1 K S AH0 JH AH0 N EY2 T IH0 D
+oxymoron	ox·y·mo·ron	AA2 K S IY1 M AO1 R AA0 N
+oxytocin	ox·y·to·cin	AA2 K S AH0 T OW1 S AH0 N
+oy		OY1
+oyama	o·ya·ma	OW0 Y AA1 M AH0
+oye		OY1
+oyen		OY1 IH0 N
+oyer	oy·er/o·yer	OY1 ER0
+oyler		OY1 L ER0
+oyola		OY2 OW1 L AH0
+oyster	oys·ter	OY1 S T ER0
+oysters		OY1 S T ER0 Z
+oz		AA1 Z
+ozaki		OW0 Z AA1 K IY0
+ozal		OW1 Z AH0 L
+ozal's		OW0 Z AA1 L Z
+ozanich		AH0 Z AE1 N IH0 HH
+ozanne		OW1 Z AE0 N
+ozark	o·zark	OW1 Z AA2 R K
+ozarks	o·zarks	OW1 Z AA2 R K S
+ozawa		OW0 Z AA1 W AH0
+ozbun		AA1 Z B AH0 N
+ozburn		AA1 Z B ER0 N
+ozelle		AH0 Z EH1 L
+ozga		OW1 Z G AH0
+ozick		OW1 Z IH0 K
+ozick's		OW1 Z IH0 K S
+ozier		OW1 Z IY0 ER0
+ozimek		AH0 Z IH1 M EH0 K
+ozment		AA1 Z M AH0 N T
+ozmet		AA1 Z M AH0 T
+ozmun		AA1 Z M AH0 N
+ozolins		OW0 Z OW1 L IY0 N Z
+ozols		OW1 Z OW0 L Z
+ozone	o·zone	OW1 Z OW2 N
+ozora		AH0 Z AO1 R AH0
+ozuna		OW0 Z UW1 N AH0
+ozzie	oz·zie	AA1 Z IY2
+ozzy		AA1 Z IY2

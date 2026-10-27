@@ -1,0 +1,1712 @@
+u		Y UW1
+u's		Y UW1 Z
+u-turn	u-turn	Y UW1 T ER2 N
+u-turns		Y UW1 T ER2 N Z
+u.		Y UW1
+u.'s		Y UW1 Z
+u.k.		Y UW2 K EY1
+u.n.		Y UW2 EH1 N
+u.s		Y UW1 Z
+u.s.		Y UW2 EH1 S
+u.s.a.		Y UW2 EH2 S EY1
+u.s.c.		Y UW2 EH2 S IY1
+uarco		Y UW2 AA1 R K OW0
+uart	uart	Y UW1 AA0 R T
+ubben		AH1 B AH0 N
+uber		Y UW1 B ER0
+ubiquitous	u·biq·ui·tous	Y UW0 B IH1 K W IH0 T AH0 S
+ubiquity		Y UW0 B IH1 K W IH0 T IY0
+ubuntu		UW2 B UW1 T UW2
+uccel		UW1 CH AH0 L
+uccel's		UW1 CH AH0 L Z
+ucci		UW1 CH IY0
+uchida		UW0 K IY1 D AH0
+uclaf		AH1 K L AE0 F;Y UW1 K L AE0 F
+udagawa		UW2 D AA0 G AA1 W AH0
+udale		Y UW1 D EY2 L
+udall	u·dall	Y UW1 D AH0 L
+uday		UW1 D EY0
+uddin		AH1 D IH0 N
+ude		UW1 D
+udell		AH1 D AH0 L
+udelle		AH0 D EH1 L
+uden		UW1 D AH0 N
+udo	u·do	UW1 D OW2
+udolf		AH1 D OW0 L F
+udvar		AH1 D V AA0 R
+udverhye		UW2 D V EH1 R HH IY0;Y UW2 D V EH1 R HH IY0
+udverhye's		UW2 D V EH1 R HH IY0 Z;Y UW2 D V EH1 R HH IY0 Z
+udy		Y UW1 D IY0
+uebel		UH1 B AH0 L
+ueberroth		Y UW1 B ER0 R AO2 TH
+uecker		UH1 K ER0
+ueckert		UH1 K ER0 T
+ueda		W EH1 D AH0;UW0 EY1 D AH0
+uehara		UW0 EY0 HH AA1 R AH0
+uehling		UH1 L IH0 NG
+ueki		Y UW2 EH1 K IY0
+ueland		UH1 L AH0 N D
+uelman		UH1 L M AH0 N
+uelmen		UH1 L M EH0 N
+uelmen's		UH1 L M EH0 N Z
+uemura		UW2 IH0 M UW1 R AH0
+ueno		W EH1 N OW0;UW0 EY1 N OW0
+uenohara		W EH2 N OW0 HH AA1 R AH0;UW0 EY2 N OW0 HH AA1 R AH0
+uffelman		AH1 F AH0 L M AH0 N
+ufo	ufo	Y UW2 EH2 F OW1
+ufo's		Y UW2 EH2 F OW1 Z
+ufos		Y UW2 EH2 F OW1 Z
+ugalde		UW0 G AA1 L D IY0
+uganda	u·gan·da	Y UW0 G AE1 N D AA0;Y UW2 G AA1 N D AA0
+uganda's		Y UW0 G AE1 N D AH0 Z
+ugandan		Y UW2 G AE1 N D AH0 N;Y UW2 G AA1 N D AH0 N
+ugarte		UW0 G AA1 R T IY0
+ugh	ugh	AH1 G
+ugity		AH1 G IH0 T IY0
+uglier		AH1 G L IY0 ER0
+ugliest		AH1 G L IY0 AH0 S T
+ugliness	ug·li·ness	AH1 G L IY0 N AH0 S
+ugly	ug·ly	AH1 G L IY0
+ugolin		Y UW1 G AH0 L IH0 N
+ugolini		UW0 G OW0 L IY1 N IY0
+ugric	u·gric	Y UW1 G R IH0 K
+uh		AH1
+uh-huh	uh-huh	AH1 HH AH1
+uh-oh		AH1 OW2
+uhde	uh·de	AH1 D;UW1 D AH0
+uher		UW1 ER0
+uhh		AH1
+uhl		AH1 L
+uhland	uh·land	UW1 L AH0 N D
+uhle		UW1 AH0 L
+uhler		UW1 L ER0
+uhlich		UW1 L IH0 K
+uhlig		UW1 L IH0 G
+uhlir		UW1 L ER0
+uhlman		UW1 L M AH0 N
+uhlmann		UW1 L M AH0 N
+uhls		UW1 L Z
+uhr		UH1 R
+uhrich		UH1 R IH0 K
+uhrig		UH1 R IH0 G
+uhrin		UH1 R IH0 N
+ui		Y UW1 AY1
+uinta		Y UW0 IH1 N T AH0
+uk		Y UW2 K EY1
+ukase	u·kase	Y UW1 K EY2 Z
+ukman		AH1 K M AH0 N
+ukraine	u·kraine	Y UW0 K R EY1 N
+ukraine's		Y UW0 K R EY1 N Z
+ukrainian	u·krain·i·an	Y UW0 K R EY1 N IY0 AH0 N
+ukrainian's		Y UW0 K R EY1 N IY0 AH0 N Z
+ukrainians		Y UW0 K R EY1 N IY0 AH0 N Z
+ukulele	u·ku·le·le	Y UW2 K AH0 L EY1 L IY0
+ul		Y UW1 EH1 L;AH1 L
+ula	u·la	Y UW1 L AH0
+ulaanbaatar		UW2 L AA1 N B AH0 T AA1 R;Y UW2 L AA1 N B AH0 T AA1 R
+ulam		Y UW1 L AE0 M
+uland		Y UW1 L AH0 N D
+ulatowski		AH0 L AH0 T AO1 F S K IY0
+ulbrich		AH1 L B R IH0 K
+ulbricht	ul·bricht	AH1 L B R IH0 K T
+ulcer	ul·cer	AH1 L S ER0
+ulceration	ul·cer·a·tion	AH2 L S ER0 EY1 SH AH0 N
+ulcerations		AH2 L S ER0 EY1 SH AH0 N Z
+ulcers		AH1 L S ER0 Z
+ulch		AH1 L CH
+ulee		Y UW0 L IY1
+ulee's		Y UW0 L IY1 Z
+ulery		AH0 L ER1 IY0
+ulf		AH1 L F
+ulfred		AH1 L F ER0 D
+ulger		AH1 L G ER0
+uli		Y UW1 L IY0
+uliano		UW0 L IY0 AA1 N OW0
+uliaski		Y UW0 L Y AE1 S K IY0
+uliassi		Y UW0 L Y AE1 S IY0
+uliassi's		Y UW0 L Y AE1 S IY0 Z
+ulibarri		UW0 L IY0 B AA1 R IY0
+ulicny		AH0 L IH1 K N IY0
+ulima		UW0 L IY1 M AH0
+ulin		Y UW1 L IH0 N
+ulitsa		Y UW0 L IH1 T S AH0
+ulland		AH1 L AH0 N D
+ullenberg		Y UW1 L AH0 N B ER0 G
+ullery		UW1 L ER0 IY0
+ullman		AH1 L M AH0 N
+ullmann		AH1 L M AH0 N
+ullmer		AH1 L M ER0
+ulloa		UW0 L OW1 AH0
+ullock		AH1 L AH0 K
+ullom		AH1 L AH0 M
+ullrich		UH1 L R IH0 K
+ullyses		Y UW0 L IH1 S IY0 Z
+ulm	ulm	AH1 L M
+ulman		AH1 L M AH0 N
+ulmar		AH1 L M ER0
+ulmer		AH1 L M ER0
+ulmus		AH1 L M AH0 S
+ulrey		AH1 L R IY0
+ulric	ul·ric	AH1 L R IH0 K
+ulrica	ul·ri·ca	AH1 L R IH0 K AH0
+ulrich	ul·rich	AH1 L R IH0 CH
+ulrick		AH1 L R IH0 K
+ulsan		AH1 L S AH0 N
+ulsh		AH1 L SH
+ulshafer		AH1 L SH AH0 F ER0
+ulster	ul·ster	AH1 L S T ER0
+ulterior	ul·te·ri·or	AH0 L T IH1 R IY0 ER0
+ultima	ul·ti·ma	AH1 L T IH0 M AH0
+ultimate	ul·ti·mate	AH1 L T AH0 M AH0 T
+ultimately	ul·ti·mate·ly	AH1 L T AH0 M AH0 T L IY0
+ultimatum	ul·ti·ma·tum	AH2 L T AH0 M EY1 T AH0 M
+ultimatums		AH2 L T AH0 M EY1 T AH0 M Z
+ultra	ul·tra	AH1 L T R AH0
+ultra's		AH1 L T R AH0 Z
+ultraconservative	ul·tra·con·ser·va·tive	AH2 L T R AH0 K AH0 N S ER1 V AH0 T IH0 V
+ultrair		AH1 L T R EH2 R
+ultramar		AH1 L T R AH0 M AA0 R
+ultramodern	ul·tra·mod·ern	AH2 L T R AH0 M AA1 D ER0 N
+ultranationalist		AH2 L T R AH0 N AE1 SH AH0 N AH0 L AH0 S T
+ultranationalist's		AH2 L T R AH0 N AE1 SH AH0 N AH0 L AH0 S T S
+ultranationalists		AH2 L T R AH0 N AE1 SH AH0 N AH0 L AH0 S T S
+ultrasonic	ul·tra·son·ic	AH2 L T R AH0 S AA1 N IH0 K
+ultrasound	ul·tra·sound	AH2 L T R AH0 S AW1 N D
+ultrasystem		AH1 L T R AH0 S IH2 S T AH0 M
+ultrasystems		AH1 L T R AH0 S IH2 S T AH0 M Z
+ultraviolet	ultra·violet/ul·tra·vi·o·let	AH2 L T R AH0 V AY1 AH0 L IH0 T
+ulundi		Y UW0 L AH1 N D IY0
+ulva		UW1 L V AH0
+ulvert		AH1 L V ER0 T
+ulysses	u·lys·ses	Y UW0 L IH1 S IY0 Z
+um		AH1 M
+uma		Y UW1 M AH0
+umana		UW0 M AA1 N AH0
+umansky		AH0 M AE1 N S K IY0
+umass		Y UW1 M AE1 S
+umbach		AH1 M B AA2 K
+umbarger		AH1 M B AA2 R G ER0
+umbaugh		AH1 M B AW0
+umbel	um·bel	AH1 M B AH0 L
+umberger		AH1 M B ER0 G ER0
+umberto	um·ber·to	AH0 M B EH1 R T OW2
+umbilical	um·bil·i·cal	AH0 M B IH1 L IH0 K AH0 L
+umble		AH1 M B AH0 L
+umbra	um·bra	AH1 M B R AH0
+umbrage	um·brage	AH1 M B R IH0 JH
+umbrella	um·brel·la	AH0 M B R EH1 L AH0;AH1 M B R EH2 L AH0
+umbrellas		AH0 M B R EH1 L AH0 Z
+umbria	um·bri·a	AH1 M B R IY0 AH0
+umetsu		Y UW2 M EH1 T S UW0
+umfleet		AH1 M F L IY2 T
+umholtz		AH1 M HH OW2 L T S
+umland		AH1 M L AH0 N D
+umlasi		UW2 M L AA1 S IY0
+umlauf		AH1 M L AW0 F
+umm		AH1 M
+ummel		AH1 M AH0 L
+umphlett		AH0 M F L EH1 T
+umphress		AH1 M F R IH0 S
+umphrey		AH1 M F R IY0
+umpire	um·pire	AH1 M P AY2 ER0
+umpires		AH1 M P AY2 ER0 Z
+umpteen	ump·teen	AH1 M P T IY1 N
+umpteenth	ump·teenth	AH1 M P T IY2 N TH
+umscheid		AH1 M SH AY2 D
+umstead		AH1 M S T EH2 D
+un		AH1 N;Y UW1 EH1 N
+una	u·na	UW1 N AH0
+unabashed	un·a·bashed	AH2 N AH0 B AE1 SH T
+unabashedly	un·a·bash·ed·ly	AH2 N AH0 B AE1 SH IH0 D L IY0
+unabated	un·a·bat·ed	AH2 N AH0 B EY1 T IH0 D
+unable	un·a·ble	AH0 N EY1 B AH0 L
+unabom		Y UW1 N AH0 B AO2 M
+unabomb		Y UW1 N AH0 B AO2 M
+unabomb's		Y UW1 N AH0 B AO2 M Z
+unabomber		Y UW1 N AH0 B AO2 M ER0
+unabomber's		Y UW1 N AH0 B AO2 M ER0 Z
+unabombers		Y UW1 N AH0 B AO2 M ER0 Z
+unabombing		Y UW1 N AH0 B AO2 M IH0 NG
+unabombings		Y UW1 N AH0 B AO2 M IH0 NG Z
+unabridged	un·a·bridged	AH2 N AH0 B R IH1 JH D
+unacceptable	un·ac·cep·ta·ble	AH2 N AE0 K S EH1 P T AH0 B AH0 L
+unacceptably		AH2 N AE0 K S EH1 P T AH0 B L IY0
+unaccompanied	un·ac·com·pa·nied	AH2 N AH0 K AH1 M P AH0 N IY0 D
+unaccountable	un·ac·count·a·ble	AH2 N AH0 K AW1 N T AH0 B AH0 L
+unaccountably	un·ac·count·a·bly	AH2 N AH0 K AW1 N T AH0 B L IY0
+unaccounted	un·ac·count·ed	AH2 N AH0 K AW1 N T IH0 D
+unaccredited	un·ac·cred·it·ed	AH2 N AH0 K R EH1 D IH2 T IH0 D
+unaccustomed	un·ac·cus·tomed	AH2 N AH0 K AH1 S T AH0 M D
+unaddressed	un·ad·dressed	AH2 N AH0 D R EH1 S T
+unadjust		AH2 N AH0 JH AH1 S T
+unadjustable	un·ad·just·a·ble	AH2 N AH0 JH AH1 S T IH0 B AH0 L
+unadjusted	un·ad·just·ed	AH2 N AH0 JH AH1 S T IH0 D
+unadorn		AH2 N AH0 D AO1 R N
+unadorned	un·a·dorned	AH2 N AH0 D AO1 R N D
+unadulterated	un·a·dul·ter·at·ed	AH2 N AH0 D AH1 L T ER0 EY2 T IH0 D
+unaffected	un·af·fect·ed	AH2 N AH0 F EH1 K T IH0 D
+unaffiliate		AH0 N AH0 F IH1 L IY0 EY2 T
+unaffiliated	un·af·fil·i·at·ed	AH0 N AH0 F IH1 L IY0 EY2 T IH0 D
+unaffordable		AH0 N AH0 F AO1 R D AH0 B AH0 L
+unafraid	un·a·fraid	AH2 N AH0 F R EY1 D
+unaided	un·aid·ed	AH0 N EY1 D IH0 D
+unalienable	un·al·ien·a·ble	AH0 N EY1 L IY0 EH2 N AH0 B AH0 L;AH0 N EY1 L Y EH0 N AH0 B AH0 L
+unallocate		AH0 N AE1 L AH0 K EY2 T
+unallocated		AH0 N AE1 L AH0 K EY2 T IH0 D
+unallowable	un·al·low·a·ble	AH2 N AH0 L AW1 AH0 B AH0 L
+unalloyed	un·al·loyed	AH0 N AE1 L OY2 D
+unalterable	un·al·ter·a·ble	AH0 N AO1 L T ER0 AH0 B AH0 L
+unalterably	un·al·ter·a·bly	AH0 N AO1 L T ER0 AH0 B L IY0
+unaltered		AH0 N AO1 L T ER0 D
+unambiguous	un·am·big·u·ous	AH2 N AE0 M B IH1 G Y AH0 W AH0 S
+unambiguously		AH0 N AE0 M B IH1 G Y UW0 AH0 S L IY0
+unamended	un·a·mend·ed	AH0 N AH0 M EH1 N D IH0 D
+unamerican		AH0 N AH0 M EH1 R IH0 K AH0 N
+unamortized	un·am·or·tized	AH0 N AE1 M ER0 T AY2 Z D
+unangst		AO1 N AH0 NG S T
+unanimity	u·na·nim·i·ty	Y UW2 N AH0 N IH1 M AH0 T IY0;Y UW2 N AH0 N IH1 M IH0 T IY0
+unanimous	u·nan·i·mous	Y UW0 N AE1 N AH0 M AH0 S
+unanimously	u·nan·i·mous·ly	Y UW0 N AE1 N AH0 M AH0 S L IY0
+unannounced	un·an·nounced	AH2 N AH0 N AW1 N S T
+unanswerable	un·an·swer·a·ble	AH2 N AE1 N S ER0 AH0 B AH0 L
+unanswered		AH2 N AE1 N S ER0 D
+unanticipated	un·an·tic·i·pat·ed	AH2 N AE0 N T IH1 S AH0 P EY2 T IH0 D
+unapologetic	un·a·pol·o·get·ic	AH2 N AH0 P AA2 L AH0 JH EH1 T IH0 K
+unappealing	un·ap·peal·ing	AH2 N AH0 P IY1 L IH0 NG
+unappetizing	un·ap·pe·tiz·ing	AH2 N AE1 P AH0 T AY2 Z IH0 NG
+unappreciated	un·ap·pre·ci·at·ed	AH2 N AH0 P R IY1 SH IY0 EY2 T IH0 D
+unapproachable	un·ap·proach·a·ble	AH2 N AH0 P R OW1 CH AH0 B AH0 L
+unapproved	un·ap·proved	AH2 N AH0 P R UW1 V D
+unarm	un·arm	AH0 N AA1 R M
+unarmed	un·armed	AH0 N AA1 R M D
+unashamed	un·a·shamed	AH2 N AH0 SH EY1 M D
+unashamedly		AH2 N AH0 SH EY1 M AH0 D L IY0
+unassailable	un·as·sail·a·ble	AH2 N AH0 S EY1 L AH0 B AH0 L
+unassisted	un·as·sist·ed	AH2 N AH0 S IH1 S T IH0 D
+unassuming	un·as·sum·ing	AH2 N AH0 S UW1 M IH0 NG
+unattach		AH2 N AH0 T AE1 CH
+unattached	un·at·tached	AH2 N AH0 T AE1 CH T
+unattainable	un·at·tain·a·ble	AH2 N AH0 T EY1 N AH0 B AH0 L
+unattended	un·at·tend·ed	AH0 N AH0 T EH1 N D IH0 D
+unattractive	un·at·trac·tive	AH2 N AH0 T R AE1 K T IH0 V
+unaudited	un·au·dit·ed	AH0 N AO1 D AH0 T IH0 D
+unauthentic	un·au·then·tic	AH2 N AO0 TH EH1 N T IH0 K
+unauthorized	un·au·thor·ized	AH0 N AO1 TH ER0 AY2 Z D
+unavailability	un·a·vail·a·bil·i·ty	AH0 N AH0 V EY2 L AH0 B IH1 L IH0 T IY0
+unavailable	un·a·vail·a·ble	AH2 N AH0 V EY1 L AH0 B AH0 L
+unavailing	un·a·vail·ing	AH2 N AH0 V EY1 L IH0 NG
+unavoidable	un·a·void·a·ble	AH2 N AH0 V OY1 D AH0 B AH0 L
+unavoidably		AH2 N AH0 V OY1 D AH0 B L IY0
+unaware	un·a·ware	AH2 N AH0 W EH1 R
+unawares	un·a·wares	AH2 N AH0 W EH1 R Z
+unbalance	un·bal·ance	AH0 N B AE1 L AH0 N S
+unbalanced	un·bal·anced	AH0 N B AE1 L AH0 N S T
+unbearable	un·bear·a·ble	AH0 N B EH1 R AH0 B AH0 L
+unbearably	un·bear·a·bly	AH0 N B EH1 R AH0 B L IY0
+unbeatable	un·beat·a·ble	AH2 N B IY1 T AH0 B AH0 L
+unbeaten	un·beat·en	AH0 N B IY1 T AH0 N
+unbecoming	un·be·com·ing	AH2 N B IH0 K AH1 M IH0 NG;AH2 N B IY0 K AH1 M IH0 NG
+unbeknown	un·be·known	AH2 N B IH0 N OW1 N;AH2 N B IY0 N OW1 N
+unbeknownst	un·be·knownst	AH0 N B IY0 N OW1 N S T
+unbelievable	un·be·liev·a·ble	AH2 N B AH0 L IY1 V AH0 B AH0 L
+unbelievably		AH2 N B AH0 L IY1 V AH0 B L IY0
+unbelieving	un·be·liev·ing	AH2 N B AH0 L IY1 V IH0 NG
+unbend	un·bend	AH2 N B EH1 N D
+unbending	un·bend·ing	AH2 N B EH1 N D IH0 NG
+unbiased	un·bi·ased	AH2 N B AY1 AH0 S T
+unblemished	un·blem·ished	AH0 N B L EH1 M IH0 SH T
+unbolt	un·bolt	AH1 N B OW2 L T
+unbolted	un·bolt·ed	AH1 N B OW2 L T IH0 D
+unbook		AH0 N B UH1 K
+unborn	un·born	AH1 N B AO1 R N
+unbound	un·bound	AH0 N B AW1 N D
+unbounded	un·bound·ed	AH0 N B AW1 N D IH0 D
+unbowed	un·bowed	AH0 N B OW1 D;AH0 N B AW1 D
+unbox	un·box	AH0 N B AO1 K S
+unboxing		AH0 N B AO1 K S IH2 NG
+unbranded	un·brand·ed	AH0 N B R AE1 N D IH0 D
+unbreakability		AH0 N B R EY2 K AH0 B IH1 L IH0 T IY0
+unbreakable	un·break·a·ble	AH0 N B R EY1 K AH0 B AH0 L
+unbridled	un·bri·dled	AH0 N B R AY1 D AH0 L D
+unbroken	un·bro·ken	AH0 N B R OW1 K AH0 N
+unbuildable		AH0 N B IH1 L D AH0 B AH0 L
+unbuilt	un·built	AH2 N B IH1 L T
+unbundle		AH0 N B AH1 N D AH0 L
+unbundled	un·bun·dled	AH0 N B AH1 N D AH0 L D
+unbundling		AH0 N B AH1 N D L IH0 NG
+unburden	un·bur·den	AH0 N B ER1 D AH0 N
+unburdened		AH0 N B ER1 D AH0 N D
+unburned	un·burned	AH0 N B ER1 N D
+unbutton	un·but·ton	AH0 N B AH1 T AH0 N
+unbuttoned		AH0 N B AH1 T AH0 N D
+uncalled	un·called	AH0 N K AO1 L D
+uncannily	un·can·ni·ly	AH0 N K AE1 N AH0 L IY0
+uncanny	un·can·ny	AH0 N K AE1 N IY0
+uncapher		AH1 N K AH0 F ER0
+uncapitalized	un·cap·i·tal·ized	AH0 N K AE1 P IH0 T AH0 L AY0 Z D
+uncaring	un·car·ing	AH0 N K EH1 R IH0 NG
+unceasing	un·ceas·ing	AH0 N S IY1 S IH0 NG
+uncensored	un·cen·sored	AH0 N S EH1 N S ER0 D
+unceremonious	un·cer·e·mo·ni·ous	AH2 N S EH2 R AH0 M OW1 N IY0 AH0 S
+unceremoniously	un·cer·e·mo·ni·ous·ly	AH2 N S EH2 R AH0 M OW1 N IY0 AH0 S L IY0
+uncertain	un·cer·tain	AH0 N S ER1 T AH0 N
+uncertainly		AH0 N S ER1 T AH0 N L IY0
+uncertainties		AH0 N S ER1 T AH0 N T IY0 Z
+uncertainty	un·cer·tain·ty	AH0 N S ER1 T AH0 N T IY0
+unchallenged	un·chal·lenged	AH0 N CH AE1 L IH0 N JH D
+unchanged	un·changed	AH0 N CH EY1 N JH D
+unchanging	un·chang·ing	AH0 N CH EY1 N JH IH0 NG
+uncharacteristic	un·char·ac·ter·is·tic	AH2 N K EH2 R IH0 K T ER0 IH1 S T IH0 K
+uncharacteristically	un·char·ac·ter·is·ti·cal·ly	AH2 N K EH2 R IH0 K T ER0 IH1 S T IH0 K L IY0
+uncharted	un·chart·ed	AH0 N CH AA1 R T IH0 D
+unchartered	un·char·tered	AH0 N CH AA1 R T ER0 D
+unchecked	un·checked	AH0 N CH EH1 K T
+uncivil	un·civ·il	AH0 N S IH1 V AH0 L
+uncivilized	un·civ·i·lized	AH0 N S IH1 V AH0 L AY0 Z D
+unclaimed	un·claimed	AH0 N K L EY1 M D
+unclamp		AH0 N K L AE1 M P
+unclamps		AH0 N K L AE1 M P S
+unclassified	un·clas·si·fied	AH0 N K L AE1 S IH0 F AY2 D
+unclassify		AH0 N K L AE1 S IH0 F AY2
+uncle	un·cle	AH1 NG K AH0 L
+uncle's		AH1 NG K AH0 L Z
+unclean	un·clean	AH0 N K L IY1 N
+unclear	un·clear	AH0 N K L IH1 R
+uncles		AH1 NG K AH0 L Z
+uncluttered	un·clut·tered	AH0 N K L AH1 T ER0 D
+uncoat	un·coat	AH0 N K OW1 T
+uncoated		AH0 N K OW1 T IH0 D
+uncoil	un·coil	AH2 N K OY1 L
+uncoiled		AH2 N K OY1 L D
+uncollectable	un·col·lect·a·ble	AH0 N K AH0 L EH1 K T AH0 B AH0 L
+uncollected	un·col·lect·ed	AH0 N K AH0 L EH1 K T IH0 D
+uncollectible	un·col·lect·i·ble	AH0 N K AH0 L EH1 K T IH0 B AH0 L
+uncomfortable	un·com·fort·a·ble	AH0 N K AH1 M F ER0 T AH0 B AH0 L
+uncomfortably	un·com·fort·a·bly	AH0 N K AH1 M F ER0 T AH0 B L IY0
+uncommitted	un·com·mit·ted	AH2 N K AH0 M IH1 T IH0 D
+uncommon	un·com·mon	AH0 N K AA1 M AH0 N
+uncommonly	un·com·mon·ly	AH2 N K AA1 M AH0 N L IY0
+uncompensate		AH0 N K AA1 M P AH0 N S EY2 T
+uncompensated	un·com·pen·sat·ed	AH0 N K AA1 M P AH0 N S EY2 T IH0 D
+uncompetitive	un·com·pet·i·tive	AH0 N K AH0 M P EH1 T AH0 T IH0 V
+uncomplete	un·com·plete	AH2 N K AH0 M P L IY1 T
+uncompleted		AH2 N K AH0 M P L IY1 T IH0 D
+uncomplicate		AH0 N K AA1 M P L AH0 K EY2 T
+uncomplicated	un·com·pli·cat·ed	AH0 N K AA1 M P L AH0 K EY2 T IH0 D
+uncompromising	un·com·pro·mis·ing	AH0 N K AA1 M P R AH0 M AY0 Z IH0 NG
+unconcealed		AH2 N K AH0 N S IY1 L D
+unconcern	un·con·cern	AH2 N K AH0 N S ER1 N
+unconcerned	un·con·cerned	AH2 N K AH0 N S ER1 N D
+unconditional	un·con·di·tion·al	AH2 N K AH0 N D IH1 SH AH0 N AH0 L
+unconditionally		AH2 N K AH0 N D IH1 SH AH0 N AH0 L IY0;AH2 N K AH0 N D IH1 SH N AH0 L IY0
+unconfined	un·con·fined	AH2 N K AH0 N F AY1 N D
+unconfirmed		AH2 N K AH0 N F ER1 M D
+unconnected	un·con·nect·ed	AH2 N K AH0 N EH1 K T IH0 D
+unconscionable	un·con·scion·a·ble	AH0 N K AA1 N SH AH0 N AH0 B AH0 L
+unconscious	un·con·scious	AH2 N K AA1 N SH AH0 S
+unconsciously	un·con·scious·ly	AH2 N K AA1 N SH AH0 S L IY0
+unconsciousness	un·con·scious·ness	AH2 N K AA1 N SH AH0 S N IH0 S
+unconsolidated	un·con·sol·i·dat·ed	AH0 N K AH0 N S AA1 L AH0 D EY2 T IH0 D
+unconstitutional	un·con·sti·tu·tion·al	AH2 N K AA2 N S T AH0 T UW1 SH AH0 N AH0 L
+unconstitutionally		AH2 N K AA2 N S T AH0 T UW1 SH AH0 N AH0 L IY0;AH2 N K AA2 N S T AH0 T UW1 SH N AH0 L IY0
+unconstrained	un·con·strained	AH2 N K AH0 N S T R EY1 N D
+uncontaminated	un·con·tam·i·nat·ed	AH2 N K AH0 N T AE1 M AH0 N EY2 T IH0 D
+uncontested	un·con·test·ed	AH2 N K AH0 N T EH1 S T IH0 D
+uncontradicted	un·con·tra·dict·ed	AH2 N K AO0 N T R AH0 D IH1 K T IH0 D
+uncontrollable	un·con·trol·la·ble	AH2 N K AH0 N T R OW1 L AH0 B AH0 L
+uncontrollably		AH2 N K AH0 N T R OW1 L AH0 B L IY0
+uncontrolled	un·con·trolled	AH2 N K AH0 N T R OW1 L D
+uncontroversial	un·con·tro·ver·sial	AH2 N K AA2 N T R AH0 V ER1 SH AH0 L
+unconventional	un·con·ven·tion·al	AH2 N K AH0 N V EH1 N SH AH0 N AH0 L
+unconverted	un·con·vert·ed	AH2 N K AH0 N V ER1 T IH0 D
+unconvinced	un·con·vinced	AH2 N K AH0 N V IH1 N S T
+unconvincing	un·con·vinc·ing	AH2 N K AH0 N V IH1 N S IH0 NG
+uncool		AH2 N K UW1 L
+uncooperative	un·co·op·er·a·tive	AH0 N K OW0 AA1 P ER0 AH0 T IH0 V
+uncoordinated	un·co·or·di·nat·ed	AH0 N K OW0 AO1 R D AH0 N EY0 T IH0 D
+uncork	un·cork	AH0 N K AO1 R K
+uncorked		AH0 N K AO1 R K T
+uncorks		AH0 N K AO1 R K S
+uncorrected	un·cor·rect·ed	AH2 N K ER0 EH1 K T IH0 D
+uncorroborated	un·cor·rob·o·rat·ed	AH2 N K ER0 AA1 B ER0 EY0 T IH0 D
+uncounted	un·count·ed	AH2 N K AW1 N T IH0 D
+uncouple	un·cou·ple	AH0 N K AH1 P AH0 L
+uncouth	un·couth	AH1 N K UW1 TH
+uncover	un·cover/un·cov·er	AH0 N K AH1 V ER0
+uncovered	un·cov·ered	AH0 N K AH1 V ER0 D
+uncovering		AH0 N K AH1 V ER0 IH0 NG
+uncovers		AH2 N K AH1 V ER0 Z
+uncritical	un·crit·i·cal	AH0 N K R IH1 T IH0 K AH0 L
+uncritically	un·crit·i·cal·ly	AH0 N K R IH1 T IH0 K AH0 L IY0;AH0 N K R IH1 T IH0 K L IY0
+unctad	unctad	AH1 N K T AE2 D
+unctuous	unc·tu·ous	AH1 NG CH W AH0 S
+uncured	un·cured	AH2 N K Y ER1 D
+uncut	un·cut	AH2 N K AH1 T
+und		AH1 N D
+undamaged	un·dam·aged	AH2 N D AE1 M AH0 JH D
+undated	un·dat·ed	AH2 N D EY1 T IH0 D
+undaunted	un·daunt·ed	AH0 N D AO1 N T IH0 D
+undecided	un·de·cid·ed	AH2 N D IH0 S AY1 D IH0 D
+undecideds		AH2 N D IH0 S AY1 D IH0 D Z
+undeclared	un·de·clared	AH0 N D IH0 K L EH1 R D
+undefeated	un·de·feat·ed	AH2 N D IH0 F IY1 T IH0 D
+undefined	un·de·fined	AH2 N D IH0 F AY1 N D
+undelivered	un·de·liv·ered	AH2 N D IH0 L IH1 V ER0 D
+undemocratic	un·dem·o·crat·ic	AH2 N D EH0 M AH0 K R AE1 T IH0 K
+undeniable	un·de·ni·a·ble	AH2 N D IH0 N AY1 AH0 B AH0 L
+undeniably	un·de·ni·a·bly	AH2 N D IH0 N AY1 AH0 B L IY0
+under	un·der	AH1 N D ER0
+under-age		AH1 N D ER0 EY1 JH
+underachiever	un·der·a·chiev·er	AH1 N D ER0 AH0 CH IY2 V ER0
+underachievers		AH1 N D ER0 AH0 CH IY2 V ER0 Z
+underage	un·der·age	AH1 N D ER0 IH0 JH
+underarm	un·der·arm	AH2 N D ER0 AA1 R M
+underbelly	un·der·bel·ly	AH1 N D ER0 B EH2 L IY0
+underberg		AH1 N D ER0 B ER0 G
+underbid	un·der·bid	AH1 N D ER0 B IH2 D
+underbrush	un·der·brush	AH1 N D ER0 B R AH2 SH
+undercapitalize	un·der·cap·i·tal·ize	AH0 N D ER0 K AE1 P AH0 T AH0 L AY2 Z
+undercapitalized	un·der·cap·i·tal·ized	AH0 N D ER0 K AE1 P AH0 T AH0 L AY2 Z D
+undercarriage	un·der·car·riage	AH1 N D ER0 K AE2 R IH0 JH
+underclass		AH1 N D ER0 K L AE2 S
+underclassmen		AH2 N D ER0 K L AE1 S M EH0 N
+undercoat	un·der·coat	AH1 N D ER0 K OW2 T
+undercook	un·der·cook	AH0 N D ER0 K UH1 K
+undercooked		AH0 N D ER0 K UH1 K T
+undercount		AH1 N D ER0 K AW2 N T
+undercounted		AH1 N D ER0 K AW2 N T IH0 D
+undercover	un·der·cov·er	AH2 N D ER0 K AH1 V ER0
+undercurrent	un·der·cur·rent	AH1 N D ER0 K ER2 AH0 N T
+undercurrents		AH1 N D ER0 K ER2 AH0 N T S
+undercut	un·der·cut	AH1 N D ER0 K AH2 T
+undercuts		AH1 N D ER0 K AH2 T S
+undercutting	un·der·cut·ting	AH1 N D ER0 K AH2 T IH0 NG
+underdahl		AH1 N D ER0 D AA2 L
+underdevelop	un·der·de·vel·op	AH2 N D ER0 D IH0 V EH1 L AH0 P
+underdeveloped	un·der·de·vel·oped	AH2 N D ER0 D IH0 V EH1 L AH0 P T
+underdevelopment	un·der·de·vel·op·ment	AH2 N D ER0 D AH0 V EH1 L AH0 P M AH0 N T
+underdog	un·der·dog	AH1 N D ER0 D AO2 G
+underdogs		AH1 N D ER0 D AO2 G Z
+underdown	un·der·down	AH1 N D ER0 D AW2 N
+underemploy		AH1 N D ER0 IH0 M P L OY1
+underemployed	un·der·em·ployed	AH1 N D ER0 IH0 M P L OY1 D
+underemployment	un·der·em·ploy·ment	AH2 N D ER0 IH0 M P L OY1 M AH0 N T
+underestimate	un·der·es·ti·mate	AH1 N D ER0 EH1 S T AH0 M EY2 T;AH1 N D ER0 EH1 S T AH0 M AH0 T
+underestimated		AH1 N D ER0 EH1 S T AH0 M EY2 T IH0 D
+underestimates		AH2 N D ER0 EH1 S T IH0 M IH0 T S;AH2 N D ER0 EH1 S T IH0 M EY0 T S
+underestimating		AH2 N D ER0 EH1 S T IH0 M EY2 T IH0 NG
+underfinance	un·der·fi·nance	AH2 N D ER0 F IH0 N AE1 N S
+underfinanced	un·der·fi·nanced	AH2 N D ER0 F IH0 N AE1 N S T
+underfoot	un·der·foot	AH2 N D ER0 F UH1 T
+underfund		AH1 N D ER0 F AH2 N D
+underfunded		AH1 N D ER0 F AH2 N D IH0 D
+underfunding		AH1 N D ER0 F AH2 N D IH0 NG
+undergarment	un·der·gar·ment	AH1 N D ER0 G AA2 R M AH0 N T
+undergarments		AH1 N D ER0 G AA2 R M AH0 N T S
+undergo	un·der·go	AH2 N D ER0 G OW1
+undergoes		AH1 N D ER0 G OW2 Z
+undergoing	un·der·go·ing	AH2 N D ER0 G OW1 IH0 NG
+undergone	un·der·gone	AH2 N D ER0 G AO1 N
+undergrad	un·der·grad	AH1 N D ER0 G R AE2 D
+undergraduate	un·der·grad·u·ate	AH2 N D ER0 G R AE1 JH AH0 W AH0 T
+undergraduates		AH2 N D ER0 G R AE1 JH AH0 W AH0 T S
+underground	un·der·ground	AH1 N D ER0 G R AW2 N D
+undergrowth	un·der·growth	AH1 N D ER0 G R OW2 TH
+underhanded	un·der·hand·ed	AH1 N D ER0 HH AE1 N D IH0 D
+underhill	un·der·hill	AH1 N D ER0 HH IH2 L
+underinsure		AH2 N D ER0 IH0 N SH AO1 R
+underinsured	un·der·in·sured	AH2 N D ER0 IH0 N SH AO1 R D
+underkoffler		AH1 N D ER0 K AH0 F AH0 L ER0
+underlie	un·der·lie	AH2 N D ER0 L AY1
+underlies		AH2 N D ER0 L AY1 Z
+underline	un·der·line	AH1 N D ER0 L AY2 N
+underlined		AH1 N D ER0 L AY2 N D
+underlines		AH1 N D ER0 L AY2 N Z
+underling	un·der·ling	AH1 N D ER0 L IH0 NG
+underlings		AH1 N D ER0 L IH0 NG Z
+underlining		AH1 N D ER0 L AY2 N IH0 NG
+underly		AH2 N D ER0 L AY1
+underlying	un·der·ly·ing	AH2 N D ER0 L AY1 IH0 NG
+underman	un·der·man	AH1 N D ER0 M AE2 N
+undermanned	un·der·manned	AH1 N D ER0 M AE2 N D
+undermine	un·der·mine	AH1 N D ER0 M AY2 N
+undermined	un·der·mined	AH2 N D ER0 M AY1 N D
+undermines		AH2 N D ER0 M AY1 N Z
+undermining	un·der·min·ing	AH1 N D ER0 M AY2 N IH0 NG
+underneath	un·der·neath	AH2 N D ER0 N IY1 TH
+undernourish	un·der·nour·ish	AH2 N D ER0 N ER1 IH0 SH
+undernourished		AH2 N D ER0 N ER1 IH0 SH T
+underpaid	un·der·paid	AH1 N D ER0 P EY1 D
+underpants	un·der·pants	AH1 N D ER0 P AE2 N T S
+underpass	un·der·pass	AH1 N D ER0 P AE2 S
+underpay	un·der·pay	AH2 N D ER0 P EY1
+underpaying		AH1 N D ER0 P EY2 IH0 NG
+underpayment	un·der·pay·ment	AH1 N D ER0 P EY2 M AH0 N T
+underpayments		AH1 N D ER0 P EY2 M AH0 N T S
+underperform		AH1 N D ER0 P ER0 F AO2 R M
+underperformance		AH0 N D ER0 P ER0 F AO1 R M AH0 N S
+underperformed		AH1 N D ER0 P ER0 F AO2 R M D
+underperformer		AH1 N D ER0 P ER0 F AO2 R M ER0
+underperforming		AH1 N D ER0 P ER0 F AO2 R M IH0 NG
+underpin	un·der·pin	AH1 N D ER0 P IH2 N
+underpinned	un·der·pinned	AH1 N D ER0 P IH2 N D
+underpinning	un·der·pin·ning	AH1 N D ER0 P IH2 N IH0 NG
+underpinnings	un·der·pin·nings	AH1 N D ER0 P IH2 N IH0 NG Z
+underplay	un·der·play	AH2 N D ER0 P L EY1
+underplayed		AH2 N D ER0 P L EY1 D
+underpower		AH2 N D ER0 P AW1 ER0
+underpowered	un·der·pow·ered	AH2 N D ER0 P AW1 ER0 D
+underprice	un·der·price	AH1 N D ER0 P R AY2 S
+underpriced	un·der·priced	AH1 N D ER0 P R AY2 S T
+underpricing	un·der·pric·ing	AH1 N D ER0 P R AY2 S IH0 NG
+underprivileged	un·der·priv·i·leged	AH1 N D ER0 P R IH1 V L AH0 JH D
+underrate	un·der·rate	AH2 N D ER0 R EY1 T
+underrated		AH2 N D ER0 R EY1 T IH0 D
+underreport		AH2 N D ER0 R IH0 P AO1 R T
+underreported		AH2 N D ER0 R IH0 P AO1 R T IH0 D
+underreporting		AH1 N D ER0 R IH0 P AO1 R T IH0 NG
+underrepresent	un·der·rep·re·sent	AH2 N D ER0 R EH2 P R IH0 Z EH1 N T
+underrepresented		AH0 N D ER0 R EH2 P R IH0 Z EH1 N T IH0 D
+underscore	un·der·score	AH2 N D ER0 S K AO1 R
+underscored	un·der·scored	AH2 N D ER0 S K AO1 R D
+underscores		AH2 N D ER0 S K AO1 R Z
+underscoring	un·der·scor·ing	AH2 N D ER0 S K AO1 R IH0 NG
+undersea	un·der·sea	AH2 N D ER0 S IY1
+underseas		AH2 N D ER0 S IY1 Z
+undersecretary	un·der·sec·re·tar·y	AH2 N D ER0 S EH1 K R IH0 T EH2 R IY0
+undersell	un·der·sell	AH1 N D ER0 S EH2 L
+underselling	un·der·sell·ing	AH1 N D ER0 S EH2 L IH0 NG
+underserve		AH2 N D ER0 S ER1 V
+underserved		AH2 N D ER0 S ER1 V D
+undershirt	un·der·shirt	AH1 N D ER0 SH ER2 T
+undershirts		AH1 N D ER0 SH ER2 T S
+underside	un·der·side	AH1 N D ER0 S AY2 D
+undersized	un·der·sized	AH1 N D ER0 S AY2 Z D
+undersold	un·der·sold	AH2 N D ER0 S OW1 L D
+underspin	un·der·spin	AH1 N D ER0 S P IH2 N
+understaff	un·der·staff	AH1 N D ER0 S T AE2 F
+understaffed	un·der·staffed	AH1 N D ER0 S T AE2 F T
+understand	un·der·stand	AH2 N D ER0 S T AE1 N D
+understandable	un·der·stand·a·ble	AH2 N D ER0 S T AE1 N D AH0 B AH0 L
+understandably	un·der·stand·a·bly	AH2 N D ER0 S T AE1 N D AH0 B L IY0
+understanding	un·der·stand·ing	AH2 N D ER0 S T AE1 N D IH0 NG
+understandings		AH2 N D ER0 S T AE1 N D IH0 NG Z
+understands		AH2 N D ER0 S T AE1 N D Z
+understate	un·der·state	AH1 N D ER0 S T EY2 T
+understated	un·der·stat·ed	AH1 N D ER0 S T EY2 T IH0 D
+understatement	un·der·state·ment	AH1 N D ER0 S T EY2 T M AH0 N T
+understates		AH1 N D ER0 S T EY2 T S
+understating	un·der·stat·ing	AH1 N D ER0 S T EY2 T IH0 NG
+understood	un·der·stood	AH2 N D ER0 S T UH1 D
+understory		AH1 N D ER0 S T AO2 R IY0
+understudy	un·der·stud·y	AH1 N D ER0 S T AH2 D IY0
+undersubscribed		AH2 N D ER0 S AH0 B S K R AY1 B D
+undertake	un·der·take	AH1 N D ER0 T EY2 K
+undertaken		AH1 N D ER0 T EY2 K AH0 N
+undertaker	un·der·tak·er	AH1 N D ER0 T EY2 K ER0
+undertakes		AH1 N D ER0 T EY2 K S
+undertaking	un·der·tak·ing	AH1 N D ER0 T EY2 K IH0 NG
+undertakings		AH1 N D ER0 T EY2 K IH0 NG Z
+undertone	un·der·tone	AH1 N D ER0 T OW2 N
+undertones		AH1 N D ER0 T OW2 N Z
+undertook	un·der·took	AH2 N D ER0 T UH1 K
+undertow	un·der·tow	AH1 N D ER0 T OW2
+undertows		AH1 N D ER0 T OW2 Z
+underuse		AH2 N D ER0 Y UW1 Z
+underused		AH2 N D ER0 Y UW1 Z D
+underutilize		AH1 N D ER0 Y UW2 T AH0 L AY2 Z
+underutilized		AH1 N D ER0 Y UW2 T AH0 L AY2 Z D
+undervaluation		AH1 N D ER0 V AE2 L Y UW0 EY1 SH AH0 N
+undervalue	un·der·val·ue	AH1 N D ER0 V AE2 L Y UW0
+undervalued	un·der·val·ued	AH1 N D ER0 V AE2 L Y UW0 D
+undervalues		AH1 N D ER0 V AE2 L Y UW0 Z
+undervaluing	un·der·val·u·ing	AH0 N D ER0 V AE1 L Y UW0 IH0 NG
+underwater	un·der·wa·ter	AH1 N D ER0 W AO2 T ER0
+underway		AH2 N D ER0 W EY1
+underwear	un·der·wear	AH1 N D ER0 W EH2 R
+underweight	un·der·weight	AH1 N D ER0 W EY2 T
+underweighted		AH0 N D ER0 W EY1 T IH0 D
+underwent	un·der·went	AH2 N D ER0 W EH1 N T
+underwhelm		AH2 N D ER0 W EH1 L M
+underwhelmed		AH2 N D ER0 W EH1 L M D
+underwithheld		AH1 N D ER0 W IH2 TH HH EH1 L D
+underwithhold		AH1 N D ER0 W IH2 TH HH OW2 L D
+underwithholding		AH1 N D ER0 W IH2 TH HH OW2 L D IH0 NG
+underwood	un·der·wood	AH1 N D ER0 W UH2 D
+underwoods		AH1 N D ER0 W UH2 D Z
+underworld	un·der·world	AH1 N D ER0 W ER2 L D
+underwrite	un·der·write	AH1 N D ER0 R AY2 T
+underwriter	un·der·writ·er	AH1 N D ER0 R AY2 T ER0
+underwriter's		AH1 N D ER0 R AY2 T ER0 Z
+underwriters		AH1 N D ER0 R AY2 T ER0 Z
+underwriters'		AH1 N D ER0 R AY2 T ER0 Z
+underwrites		AH1 N D ER0 R AY2 T S
+underwriting	un·der·writ·ing	AH1 N D ER0 R AY1 T IH0 NG
+underwritings		AH1 N D ER0 R AY2 T IH0 NG Z
+underwritten	un·der·writ·ten	AH1 N D ER0 R IH2 T AH0 N
+underwrote	un·der·wrote	AH2 N D ER0 R OW1 T
+undeserved	un·de·served	AH2 N D IH0 Z ER1 V D
+undeserving	un·de·serv·ing	AH2 N D IH0 Z ER1 V IH0 NG
+undesirable	un·de·sir·a·ble	AH2 N D IH0 Z AY1 R AH0 B AH0 L
+undetectable	un·de·tect·a·ble	AH0 N D IH0 T EH1 K T AH0 B AH0 L
+undetected	un·de·tect·ed	AH2 N D IH0 T EH1 K T IH0 D
+undetermined	un·de·ter·mined	AH2 N D IH0 T ER1 M IH0 N D;AH2 N D IY0 T ER1 M AH0 N D
+undetermining	un·de·ter·min·ing	AH2 N D IH0 T ER1 M IH0 N IH0 NG;AH2 N D IY0 T ER1 M AH0 N IH0 NG
+undeterred	un·de·terred	AH2 N D IH0 T ER1 D
+undeveloped		AH2 N D IH0 V EH1 L AH0 P T
+undiagnosed	un·di·ag·nosed	AH0 N D AY1 AE0 G N OW0 S T
+undid	un·did	AH2 N D IH1 D
+undifferentiated	un·dif·fer·en·ti·at·ed	AH0 N D IH0 F ER0 EH1 N SH IY0 EY2 T IH0 D
+undignified	un·dig·ni·fied	AH0 N D IH1 G N IH0 F AY2 D
+undilute	un·di·lute	AH2 N D AH0 L UW1 T
+undiluted	un·di·lut·ed	AH2 N D AH0 L UW1 T IH0 D
+undiminished	un·di·min·ished	AH2 N D AH0 M IH1 N IH0 SH T
+undine	un·dine	AH1 N D IY2 N
+undiplomatic	un·dip·lo·mat·ic	AH0 N D IH2 P L AH0 M AE1 T IH0 K
+undiplomatically	un·dip·lo·mat·i·cal·ly	AH0 N D IH2 P L AH0 M AE1 T IH0 K L IY0
+undisciplined	un·dis·ci·plined	AH0 N D IH1 S IH0 P L IH0 N D
+undisclosed	un·dis·closed	AH2 N D IH0 S K L OW1 Z D
+undiscovered	un·dis·cov·ered	AH2 N D IH0 S K AH1 V ER0 D
+undisguised	un·dis·guised	AH2 N D IH0 S G AY1 Z D
+undisputed	un·dis·put·ed	AH2 N D IH0 S P Y UW1 T IH0 D
+undistinguished	un·dis·tin·guished	AH2 N D IH0 S T IH1 NG G W IH0 SH T
+undistributed	un·dis·trib·ut·ed	AH2 N D IH0 S T R IH1 B Y UW0 T IH0 D
+undisturbed	un·dis·turbed	AH2 N D IH0 S T ER1 B D
+undiversified	un·di·ver·si·fied	AH2 N D IH0 V ER1 S IH0 F AY2 D
+undivided	un·di·vid·ed	AH2 N D AH0 V AY1 D IH0 D
+undo	un·do	AH0 N D UW1
+undock		AH0 N D AA1 K
+undocking		AH0 N D AA1 K IH0 NG
+undocumented	un·doc·u·ment·ed	AH0 N D AA1 K Y AH0 M EH0 N T IH0 D;AH0 N D AA1 K Y AH0 M EH0 N IH0 D
+undoing	un·do·ing	AH0 N D UW1 IH0 NG
+undone	un·done	AH0 N D AH1 N
+undoubted	un·doubt·ed	AH0 N D AW1 T IH0 D
+undoubtedly	un·doubt·ed·ly	AH0 N D AW1 T IH0 D L IY0
+undreamed	un·dreamed	AH0 N D R IY1 M D
+undress	un·dress	AH0 N D R EH1 S
+undressed	un·dressed	AH0 N D R EH1 S T
+undue	un·due	AH0 N D UW1
+undulate	un·du·late	AH1 N JH AH0 L EY2 T
+undulated	un·du·lat·ed	AH1 N JH AH0 L EY2 T AH0 D
+undulates		AH1 N JH AH0 L EY2 T S
+undulating		AH1 N JH AH0 L EY2 T IH0 NG
+unduly	un·du·ly	AH0 N D UW1 L IY0
+undying	un·dy·ing	AH0 N D AY1 IH0 NG
+unearned	un·earned	AH0 N ER1 N D
+unearth	un·earth	AH0 N ER1 TH
+unearthed		AH0 N ER1 TH T
+unearthing		AH0 N ER1 TH IH0 NG
+unearthly	un·earth·ly	AH0 N ER1 TH L IY0
+unease	un·ease	AH0 N IY1 Z
+uneasily	un·eas·i·ly	AH0 N IY1 Z AH0 L IY0
+uneasiness	un·eas·i·ness	AH2 N IY1 Z IY0 N AH0 S
+uneasy	un·eas·y	AH0 N IY1 Z IY0
+uneconomic	un·e·co·nom·ic	AH0 N EH2 K AH0 N AA1 M IH0 K
+uneconomical	un·e·co·nom·i·cal	AH0 N EH2 K AH0 N AA1 M IH0 K AH0 L
+unedited	un·ed·it·ed	AH0 N EH1 D AH0 T IH0 D
+uneducated	un·ed·u·cat·ed	AH0 N EH1 JH UH0 K EY2 T IH0 D
+unelectable	un·e·lect·a·ble	AH2 N IH0 L EH1 K T AH0 B AH0 L
+unelected	un·e·lect·ed	AH2 N IH0 L EH1 K T IH0 D
+unemotional	un·e·mo·tion·al	AH2 N IY0 M OW1 SH AH0 N AH0 L;AH2 N AH0 M OW1 SH AH0 N AH0 L
+unemploy		AH0 N IH0 M P L OY1
+unemployable	un·em·ploy·a·ble	AH0 N IH0 M P L OY1 AH0 B AH0 L
+unemployed	un·em·ployed	AH2 N EH0 M P L OY1 D
+unemployment	un·em·ploy·ment	AH2 N IH0 M P L OY1 M AH0 N T
+unencumber		AH2 N EH0 N K AH1 M B ER0
+unencumbered	un·en·cum·bered	AH2 N EH0 N K AH1 M B ER0 D
+unending	un·end·ing	AH0 N EH1 N D IH0 NG
+unenforceable	un·en·force·a·ble	AH2 N EH0 N F AO1 R S AH0 B AH0 L
+unenforced	un·en·forced	AH2 N EH0 N F AO1 R S T
+unenlightened	un·en·light·ened	AH2 N EH0 N L AY1 T AH0 N D
+unenthusiastic	un·en·thu·si·as·tic	AH0 N IH0 N TH UW2 Z IY0 AE1 S T IH0 K
+unenumerated	un·e·nu·mer·at·ed	AH0 N IH0 N UW1 M ER0 EY2 T IH0 D
+unenviable	un·en·vi·a·ble	AH0 N EH1 N V IY2 AH0 B AH0 L
+uneo		Y UW1 N IY0 OW0
+unequal	un·e·qual	AH0 N IY1 K W AH0 L
+unequaled	un·e·qualed	AH0 N IY1 K W AH2 L D
+unequivocably		AH0 N IH0 K W IH1 V AH0 K AH0 B L IY0
+unequivocal	un·e·quiv·o·cal	AH2 N IH0 K W IH1 V AH0 K AH0 L;AH2 N IY0 K W IH1 V AH0 K AH0 L
+unequivocally	un·e·quiv·o·cal·ly	AH2 N IY0 K W IH1 V AH0 K AH0 L IY0;AH2 N IY0 K W IH1 V AH0 K L IY0
+unesco	unesco	Y UW0 N EH1 S K OW2
+unethical	un·eth·i·cal	AH0 N EH1 TH IH0 K AH0 L
+unethically		AH0 N EH1 TH IH0 K L IY0
+uneven	un·e·ven	AH0 N IY1 V AH0 N
+unevenly	un·e·ven·ly	AH0 N IY1 V AH0 N L IY0
+uneventful	un·e·vent·ful	AH2 N IY0 V EH1 N T F AH0 L
+unexciting	un·ex·cit·ing	AH0 N IH0 K S AY1 T IH0 NG
+unexercised	un·ex·er·cised	AH0 N EH1 K S ER0 S AY2 Z D
+unexpected	un·ex·pect·ed/un·ex·pec·ted	AH2 N IH0 K S P EH1 K T IH0 D
+unexpectedly	un·ex·pect·ed·ly	AH2 N IH0 K S P EH1 K T IH0 D L IY0
+unexpired	un·ex·pired	AH2 N IH0 K S P AY1 ER0 D
+unexplainable	un·ex·plain·a·ble	AH2 N IH0 K S P L EY1 N AH0 B AH0 L
+unexplained	un·ex·plained	AH2 N IH0 K S P L EY1 N D
+unexploded	un·ex·plod·ed	AH2 N IH0 K S P L OW1 D IH0 D
+unexploited	un·ex·ploit·ed	AH0 N IH0 K S P L OY1 T IH0 D
+unexplored	un·ex·plored	AH2 N IH0 K S P L AO1 R D
+unfailing	un·fail·ing	AH0 N F EY1 L IH0 NG
+unfailingly	un·fail·ing·ly	AH0 N F EY1 L IH0 NG L IY0
+unfair	un·fair	AH0 N F EH1 R;AH1 N F EH1 R;AO2 N F EH1 R
+unfairly		AH0 N F EH1 R L IY0
+unfairness		AH0 N F EH1 R N AH0 S
+unfaithful	un·faith·ful	AH0 N F EY1 TH F AH0 L
+unfamiliar	un·fa·mil·iar	AH2 N F AH0 M IH1 L Y ER0
+unfamiliarities		AH2 N F AH0 M IH2 L Y EH1 R AH0 T IY0 Z
+unfamiliarity	un·fa·mil·i·ar·i·ty	AH2 N F AH0 M IH2 L Y EH1 R AH0 T IY0
+unfashionable	un·fash·ion·a·ble	AH0 N F AE1 SH AH0 N AH0 B AH0 L
+unfathomable	un·fath·om·a·ble	AH0 N F AE1 DH AH0 M AH0 B AH0 L
+unfav		AH0 N F EY1 V
+unfavorable	un·fa·vor·a·ble	AH2 N F EY1 V ER0 AH0 B AH0 L
+unfavorably	un·fa·vor·a·bly	AH0 N F EY1 V ER0 AH0 B L IY0
+unfazed		AH0 N F EY1 Z D
+unfeasible	un·fea·si·ble	AH0 N F IY1 Z AH0 B AH0 L
+unfeeling	un·feel·ing	AH0 N F IY1 L IH0 NG
+unfenced	un·fenced	AH0 N F EH1 N S T
+unfettered		AH0 N F EH1 T ER0 D
+unfilled	un·filled	AH0 N F IH1 L D
+unfiltered	un·fil·tered	AH0 N F IH1 L T ER0 D
+unfinished	un·fin·ished	AH0 N F IH1 N IH0 SH T
+unfit	un·fit	AH0 N F IH1 T
+unflagging	un·flag·ging	AH0 N F L AE1 G IH0 NG
+unflappable	un·flap·pa·ble	AH0 N F L AE1 P AH0 B AH0 L
+unflattering	un·flat·ter·ing	AH0 N F L AE1 T ER0 IH0 NG
+unflinching	un·flinch·ing	AH0 N F L IH1 N CH IH0 NG
+unfocused	un·fo·cused	AH0 N F OW1 K AH0 S T
+unfold	un·fold	AH0 N F OW1 L D
+unfolded		AH0 N F OW1 L D IH0 D
+unfolding		AH0 N F OW1 L D IH0 NG
+unfolds		AH0 N F OW1 L D Z
+unforeseeable	un·fore·see·a·ble	AH2 N F AO0 R S IY1 AH0 B AH0 L
+unforeseen	un·fore·seen	AH2 N F AO0 R S IY1 N
+unforgettable	un·for·get·ta·ble	AH2 N F ER0 G EH1 T AH0 B AH0 L
+unforgivable	un·for·giv·a·ble	AH2 N F AO0 R G IH1 V AH0 B AH0 L
+unforgiven	un·for·giv·en	AH2 N F AO0 R G IH1 V AH0 N;AH2 N F ER0 G IH1 V AH0 N
+unforgiving	un·for·giv·ing	AH0 N F ER0 G IH1 V IH0 NG
+unformed	un·formed	AH0 N F AO1 R M D
+unfortunate	un·for·tu·nate	AH0 N F AO1 R CH AH0 N AH0 T;AH0 N F AO1 R CH UW0 N AH0 T
+unfortunately	un·for·tu·nate·ly	AH0 N F AO1 R CH AH0 N AH0 T L IY0;AH0 N F AO1 R CH UW0 N AH0 T L IY0
+unfortunates		AH0 N F AO1 R CH AH0 N AH0 T S;AH0 N F AO1 R CH UW0 N AH0 T S
+unfounded	un·found·ed	AH0 N F AW1 N D IH0 D
+unfriendly	un·friend·ly	AH0 N F R EH1 N D L IY0
+unfrozen	un·fro·zen	AH0 N F R OW1 Z IH0 N
+unfulfilled	un·ful·filled	AH2 N F UH0 L F IH1 L D
+unfunded	un·fund·ed	AH0 N F AH1 N D IH0 D
+unfunnily	un·fun·ni·ly	AH0 N F AH1 N AH0 L IY0
+unfurl	un·furl	AH0 N F ER1 L
+unfurled		AH0 N F ER1 L D
+unfurling		AH0 N F ER1 L IH0 NG
+ung		AH1 NG
+ungainly	un·gain·ly	AH0 N G EY1 N L IY0
+ungar		AH1 NG G ER0
+ungaro		UW0 NG G AA1 R OW0
+unger	ung·er	AH1 NG G ER0
+ungerer		AH1 NG ER0 ER0
+ungermann		AH0 N JH ER1 M AH0 N
+unglamorous	un·glam·or·ous	AH0 N G L AE1 M ER0 AH0 S
+unglue	un·glue	AH0 N G L UW1
+unglued	un·glued	AH0 N G L UW1 D
+ungo		AH0 N G OW1
+ungodly	un·god·ly	AH0 N G AO1 D L IY0
+ungovernable	un·gov·ern·a·ble	AH0 N G AH1 V ER0 N AH0 B AH0 L
+ungrateful	un·grate·ful	AH0 N G R EY1 T F AH0 L
+unguarded	un·guard·ed	AH0 N G AA1 R D IH0 D
+unhampered	un·ham·pered	AH0 N HH AE1 M P ER0 D
+unhappily		AH0 N HH AE1 P AH0 L IY0
+unhappiness	un·hap·pi·ness	AH0 N HH AE1 P IY0 N IH0 S
+unhappy	un·hap·py	AH0 N HH AE1 P IY0
+unharmed	un·harmed	AH0 N HH AA1 R M D
+unhealthful		AH0 N HH EH1 L TH F AH0 L
+unhealthy	un·health·y	AH0 N HH EH1 L TH IY0
+unheard	un·heard	AH0 N HH ER1 D
+unhedged	un·hedged	AH0 N HH EH1 JH D
+unheeded	un·heed·ed	AH0 N HH IY1 D IH0 D
+unhelpful	un·help·ful	AH0 N HH EH1 L P F AH0 L
+unheralded	un·her·ald·ed	AH0 N HH EH1 R AH0 L D IH0 D
+unhesitatingly	un·hes·i·tat·ing·ly	AH0 N HH EH1 Z IH0 T EY2 T IH0 NG L IY0
+unhindered	un·hin·dered	AH0 N HH IH1 N D ER0 D
+unhinge	un·hinge	AH0 N HH IH1 N JH
+unhinged	un·hinged	AH0 N HH IH1 N JH D
+unhitch	un·hitch	AH0 N HH IH1 CH
+unholy	un·ho·ly	AH0 N HH OW1 L IY0
+unhook	un·hook	AH0 N HH UH1 K
+unhorsed	un·horsed	AH0 N HH AO1 R S T
+unhurried	un·hur·ried	AH0 N HH ER1 IY0 D
+unhurt	un·hurt	AH0 N HH ER1 T
+uni	u·ni	Y UW1 N IY0
+unibancorp		Y UW1 N IH0 B AE2 N K AO2 R P
+unicef	unicef	Y UW1 N AH0 S EH2 F
+unicef's		Y UW1 N AH0 S EH2 F S
+unicellular	u·ni·cel·lu·lar	Y UW2 N IH0 S EH1 L Y AH0 L ER0
+unicenter		Y UW2 N IH0 S EH1 N T ER0
+unicom		Y UW1 N IH0 K AO0 M
+unicorn	u·ni·corn	Y UW1 N IH0 K AO2 R N
+unicorp		Y UW1 N IH0 K AO2 R P
+unicorp's		Y UW1 N IH0 K AO2 R P S
+unicycle	u·ni·cy·cle	Y UW1 N AH0 S AY2 K AH0 L
+unicycles		Y UW1 N AH0 S AY2 K AH0 L Z
+uniden		Y UW1 N IH0 D EH2 N
+uniden's		Y UW1 N IH0 D EH2 N Z
+unidentified	un·i·den·ti·fied	AH2 N AY0 D EH1 N T AH0 F AY2 D
+unification	u·ni·fi·ca·tion	Y UW2 N AH0 F AH0 K EY1 SH AH0 N
+unified	u·ni·fied	Y UW1 N AH0 F AY2 D
+unifil		Y UW1 N IH0 F IH0 L
+uniforce		Y UW1 N IH0 F AO2 R S
+uniform	u·ni·form	Y UW1 N AH0 F AO2 R M
+uniformed	u·ni·formed	Y UW1 N AH0 F AO2 R M D
+uniformity	u·ni·form·i·ty	Y UW2 N AH0 F AO1 R M AH0 T IY0
+uniformly	u·ni·form·ly	Y UW1 N AH0 F AO2 R M L IY0
+uniforms		Y UW1 N AH0 F AO2 R M Z
+unify	u·ni·fy	Y UW1 N AH0 F AY2
+unifying	u·ni·fy·ing	Y UW1 N AH0 F AY2 IH0 NG
+unigesco		Y UW1 N IH0 G EH2 S K OW0
+unikom		Y UW1 N IH0 K AO0 M
+unilab		Y UW1 N IH0 L AE2 B
+unilateral	u·ni·lat·er·al	Y UW2 N AH0 L AE1 T ER0 AH0 L
+unilateralism	u·ni·lat·er·al·ism	Y UW2 N IH0 L AE1 T ER0 AH0 L IH2 Z AH0 M
+unilaterally	u·ni·lat·er·al·ly	Y UW2 N AH0 L AE1 T ER0 AH0 L IY0;Y UW2 N AH0 L AE1 T R AH0 L IY0
+unilever		Y UW2 N IH0 L IY1 V ER0
+unilever's		Y UW2 N IH0 L IY1 V ER0 Z
+unimaginable	un·im·ag·i·na·ble	AH2 N IH0 M AE1 JH IH0 N AH0 B AH0 L
+unimaginative	un·im·ag·i·na·tive	AH0 N IH0 M AE1 JH IH2 N AH0 T IH0 V
+unimagined	un·im·ag·ined	AH2 N IH0 M AE1 JH AH0 N D
+unimate		Y UW1 N IH0 M EY2 T
+unimation		Y UW2 N IH0 M EY1 SH AH0 N
+unimedia		Y UW2 N IH0 M IY1 D IY0 AH0
+unimpaired	un·im·paired	AH2 N IH0 M P EH1 R D
+unimpeachable	un·im·peach·a·ble	AH2 N IH0 M P IY1 CH AH0 B AH0 L
+unimpeded	un·im·ped·ed	AH2 N IH0 M P IY1 D IH0 D
+unimportant	un·im·por·tant	AH0 N IH0 M P AO1 R T AH0 N T
+unimpressed	un·im·pressed	AH2 N IH0 M P R EH1 S T
+unimpressive	un·im·pres·sive	AH2 N IH0 M P R EH1 S IH0 V
+unimproved	un·im·proved	AH2 N IH0 M P R UW1 V D
+unincorporated	un·in·cor·po·ra·ted	AH2 N IH0 N K AO1 R P ER0 EY2 T IH0 D
+unindicted	un·in·dict·ed	AH2 N IH0 N D AY1 T IH0 D
+uninfected	un·in·fect·ed	AH2 N IH0 N F EH1 K T IH0 D
+uninformative	un·in·form·a·tive	AH0 N IH0 N F AO1 R M AH0 T IH0 V
+uninformed	un·in·formed	AH2 N IH0 N F AO1 R M D
+uninhabitable	un·in·hab·it·a·ble	AH2 N IH0 N HH AE1 B AH0 T AH0 B AH0 L
+uninhabited	un·in·hab·it·ed	AH2 N IH0 N HH AE1 B AH0 T IH0 D
+uninhibited	un·in·hib·it·ed	AH2 N IH0 N HH IH1 B IH0 T IH0 D
+uninitiated	un·in·i·ti·at·ed	AH2 N IH0 N IH1 SH IY0 EY2 T IH0 D;AH2 N IY0 N IH1 SH IY0 EY2 T IH0 D
+uninjured	un·in·jured	AH0 N IH1 N JH ER0 D
+uninspired	un·in·spired	AH2 N IH0 N S P AY1 ER0 D
+uninspiring	un·in·spir·ing	AH0 N IH0 N S P AY1 R IH0 NG
+uninstall		AH2 N IH0 N S T AO1 L
+uninsurable	un·in·sur·a·ble	AH0 N IH0 N SH UH1 R AH0 B AH0 L
+uninsured	un·in·sured	AH2 N IH0 N SH UH1 R D
+unintelligible		AH2 N IH0 N T EH1 L AH0 JH AH0 B AH0 L
+unintended	un·in·tend·ed	AH2 N IH0 N T EH1 N D IH0 D
+unintentional	un·in·ten·tion·al	AH2 N IH0 N T EH1 N SH AH0 N AH0 L
+unintentionally		AH2 N IH0 N T EH1 N SH AH0 N AH0 L IY0;AH2 N IH0 N T EH1 N SH N AH0 L IY0
+uninterested	un·in·ter·est·ed	AH0 N IH1 N T R AH0 S T IH0 D
+uninteresting	un·in·ter·est·ing	AH0 N IH1 N T R AH0 S T IH0 NG
+uninterrupted	un·in·ter·rupt·ed	AH2 N IH0 N T ER0 AH1 P T IH0 D;AH2 N IH0 N ER0 AH1 P T IH0 D
+uninterruptible		AH0 N IH0 N T ER0 AH1 P T AH0 B AH0 L;AH0 N IH0 N ER0 AH1 P T AH0 B AH0 L
+uninvited	un·in·vit·ed	AH2 N IH0 N V AY1 T IH0 D
+uninviting	un·in·vit·ing	AH2 N IH0 N V AY1 T IH0 NG
+uninvolved	un·in·volved	AH0 N IH0 N V AO1 L V D
+union	un·ion	Y UW1 N Y AH0 N
+union's		Y UW1 N Y AH0 N Z
+uniondale	un·ion·dale	Y UW1 N Y AH0 N D EY2 L
+unionfed		Y UW1 N Y AH0 N F EH2 D
+unionism	un·ion·ism	Y UW1 N Y AH0 N IH2 Z AH0 M
+unionist	un·ion·ist	Y UW1 N Y AH0 N AH0 S T
+unionists		Y UW1 N Y AH0 N IH0 S T S
+unionization		Y UW2 N Y AH0 N AH0 Z EY1 SH AH0 N
+unionize	un·ion·ize	Y UW1 N Y AH0 N AY2 Z
+unionized		Y UW1 N Y AH0 N AY2 Z D
+unionizing		Y UW1 N Y AH0 N AY2 Z IH0 NG
+unions		Y UW1 N Y AH0 N Z
+unions'		Y UW1 N Y AH0 N Z
+unique	u·nique	Y UW0 N IY1 K
+uniquely		Y UW0 N IY1 K L IY0
+uniqueness		Y UW0 N IY1 K N AH0 S
+uniroyal		Y UW1 N IH0 R OY2 AH0 L
+unisex	u·ni·sex	Y UW1 N IH0 S EH2 K S
+unisom		Y UW1 N AH0 S AA2 M
+unison	u·ni·son	Y UW1 N AH0 S AH0 N;Y UW1 N IH0 S AH0 N
+unisons		Y UW1 N AH0 S AH0 N Z;Y UW1 N IH0 S AH0 N Z
+unisource		Y UW1 N IH0 S AO2 R S
+unissued	un·is·sued	AH0 N IH1 SH UW2 D
+unisys		Y UW1 N IH0 S IH2 S
+unisys'		Y UW1 N IH0 S IH2 S
+unisys's		Y UW1 N IH0 S IH2 S IH0 Z
+unit	unit/u·nit	Y UW1 N AH0 T;Y UW1 N IH0 T
+unit's		Y UW1 N IH0 T S
+unita		Y UW2 N IY1 T AH0
+unitaf		Y UW2 N IH0 T AE1 F
+unitarian	u·ni·tar·i·an	Y UW2 N AH0 T EH1 R IY0 AH0 N
+unitary	u·ni·tar·y	Y UW1 N IH0 T EH2 R IY0
+unitas		Y UW0 N AY1 T AH0 S
+unite	u·nite	Y UW1 N AY2 T
+united	u·nit·ed	Y UW0 N AY1 T IH0 D
+united's		Y UW0 N AY1 T AH0 D Z
+unitedbank		Y UW2 N AY1 T IH0 D B AE1 NG K
+unitek		Y UW1 N IH0 T EH2 K
+unitel		Y UW1 N IH0 T EH2 L
+unites		Y UW0 N AY1 T S
+unitholder		Y UW1 N IH0 T HH OW2 L D ER0
+unitholders		Y UW1 N IH0 T HH OW2 L D ER0 Z
+uniting	u·nit·ing	Y UW0 N AY1 T IH0 NG
+unitrin		Y UW1 N IH0 T R IH2 N
+unitrin's		Y UW1 N IH0 T R IH2 N Z
+unitrode		Y UW1 N IH0 T R OW2 D
+unitrode's		Y UW1 N IH0 T R OW2 D Z
+units		Y UW1 N AH0 T S;Y UW1 N IH0 T S
+units'		Y UW1 N IH0 T S
+unity	u·ni·ty	Y UW1 N AH0 T IY0;Y UW1 N IH0 T IY0
+univa		Y UW1 N IH0 V AH0
+univar		Y UW1 N IH0 V AA0 R
+univation		Y UW2 N IH0 V EY1 SH AH0 N
+universal	u·ni·ver·sal	Y UW2 N AH0 V ER1 S AH0 L
+universal's		Y UW2 N AH0 V ER1 S AH0 L Z
+universality	u·ni·ver·sal·i·ty	Y UW2 N AH0 V ER0 S AE1 L AH0 T IY0
+universally	u·ni·ver·sal·ly	Y UW2 N AH0 V ER1 S AH0 L IY0
+universe	u·ni·verse	Y UW1 N AH0 V ER2 S
+universes		Y UW1 N AH0 V ER2 S IH0 Z
+universities		Y UW2 N AH0 V ER1 S AH0 T IY0 Z
+universities'		Y UW2 N IH0 V ER1 S IH0 T IY0 Z
+university	u·ni·ver·si·ty	Y UW2 N AH0 V ER1 S AH0 T IY0
+university's		Y UW2 N AH0 V ER1 S AH0 T IY0 Z
+univisa		Y UW2 N IH0 V IY1 S AH0
+univision		Y UW2 N IH0 V IH1 ZH AH0 N
+unix		Y UW1 N IH0 K S
+unjust	un·just	AH0 N JH AH1 S T
+unjustifiable	un·jus·ti·fi·a·ble	AH2 N JH AH2 S T IH0 F AY1 AH0 B AH0 L
+unjustifiably		AH2 N JH AH2 S T IH0 F AY1 AH0 B L IY0
+unjustified	un·jus·ti·fied	AH0 N JH AH1 S T AH0 F AY2 D
+unjustly	un·just·ly	AH0 N JH AH1 S T L IY0
+unkefer		AH1 NG K IH0 F ER0
+unkempt	un·kempt	AH0 N K EH1 M P T
+unkind	un·kind	AH0 N K AY1 N D
+unkindest		AH0 N K AY1 N D IH0 S T
+unknowable	un·know·a·ble	AH0 N N OW1 AH0 B AH0 L
+unknowing	un·know·ing	AH0 N N OW1 IH0 NG
+unknowingly	un·know·ing·ly	AH0 N N OW1 IH0 NG L IY0
+unknown	un·known	AH0 N N OW1 N
+unknowns		AH0 N OW1 N Z
+unlabeled	un·la·beled	AH0 N L EY1 B AH0 L D
+unland		AH1 N L AH0 N D
+unlawful	un·law·ful	AH0 N L AO1 F AH0 L
+unlawfully	un·law·ful·ly	AH0 N L AO1 F AH0 L IY0
+unleaded	un·lead·ed	AH0 N L EH1 D IH0 D
+unleash	un·leash	AH0 N L IY1 SH
+unleashed		AH0 N L IY1 SH T
+unleashes		AH0 N L IY1 SH IH0 Z
+unleashing		AH0 N L IY1 SH IH0 NG
+unless	un·less	AH0 N L EH1 S
+unleveraged		AH0 N L EH1 V R IH0 JH D
+unlicensed	un·li·censed	AH0 N L AY1 S AH0 N S T
+unlike	un·like	AH0 N L AY1 K
+unlikely	un·like·ly	AH0 N L AY1 K L IY0
+unlimited	un·lim·it·ed	AH0 N L IH1 M AH0 T IH0 D;AH0 N L IH1 M IH0 T IH0 D
+unlined	un·lined	AH0 N L AY1 N D
+unlisted	un·list·ed	AH0 N L IH1 S T IH0 D
+unlivable	un·liv·a·ble	AH0 N L IH1 V AH0 B AH0 L
+unload	un·load	AH0 N L OW1 D
+unloaded		AH0 N L OW1 D IH0 D
+unloading		AH0 N L OW1 D IH0 NG
+unloads		AH0 N L OW1 D Z
+unlock	un·lock	AH0 N L AA1 K
+unlocked		AH0 N L AA1 K T
+unlocking		AH0 N L AA1 K IH0 NG
+unloved	un·loved	AH0 N L AH1 V D
+unlucky	un·luck·y	AH0 N L AH1 K IY0
+unmade	un·made	AH0 N M EY1 D
+unmanage		AH0 N M AE1 N IH0 JH
+unmanageable	un·man·age·a·ble	AH0 N M AE1 N IH0 JH AH0 B AH0 L
+unmanaged	un·man·aged	AH0 N M AE1 N IH0 JH D
+unmanned	un·manned	AH0 N M AE1 N D
+unmarked	un·marked	AH0 N M AA1 R K T
+unmarried	un·mar·ried	AH0 N M EH1 R IY0 D
+unmask	un·mask	AH0 N M AE1 S K
+unmasked	un·masked	AH0 N M AE1 S K T
+unmatched	un·matched	AH0 N M AE1 CH T
+unmentionable	un·men·tion·a·ble	AH0 N M EH1 N SH AH0 N AH0 B AH0 L
+unmentioned	un·men·tioned	AH0 N M EH1 N CH AH0 N D
+unmerciful	un·mer·ci·ful	AH0 N M ER1 S IH0 F AH0 L
+unmet	un·met	AH0 N M EH1 T
+unmistakable	un·mis·tak·a·ble	AH2 N M IH0 S T EY1 K AH0 B AH0 L
+unmistakably	un·mis·tak·a·bly	AH2 N M IH0 S T EY1 K AH0 B L IY0
+unmitigated	un·mit·i·gat·ed	AH0 N M IH1 T AH0 G EY2 T IH0 D
+unmixed	un·mixed	AH0 N M IH1 K S T
+unmolested	un·mo·lest·ed	AH2 N M AH0 L EH1 S T IH0 D
+unmoved	un·moved	AH0 N M UW1 V D
+unnamed	un·named	AH0 N N EY1 M D
+unnatural	un·nat·u·ral	AH0 N N AE1 CH ER0 AH0 L
+unnaturally	un·nat·u·ral·ly	AH0 N N AE1 CH ER0 AH0 L IY0;AH0 N N AE1 CH ER0 L IY0;AH0 N AE1 CH ER0 L IY0;AH0 N N AE1 CH R AH0 L IY0
+unnecessarily	un·nec·es·sar·i·ly	AH0 N N EH1 S AH0 S EH2 R AH0 L IY0
+unnecessary	un·nec·es·sar·y	AH0 N N EH1 S AH0 S EH2 R IY0
+unneeded	un·need·ed	AH0 N N IY1 D IH0 D
+unnerve	un·nerve	AH0 N ER1 V
+unnerved		AH0 N N ER1 V D
+unnerving		AH0 N ER1 V IH0 NG
+unnoticed	un·no·ticed	AH0 N N OW1 T IH0 S T
+uno	uno	AH0 N OW1;UW1 N OW2
+unobstructed	un·ob·struct·ed	AH2 N AH0 B S T R AH1 K T IH0 D
+unobtainable	un·ob·tain·a·ble	AH2 N AH0 B T EY1 N AH0 B AH0 L
+unobtrusive	un·ob·tru·sive	AH2 N AH0 B T R UW1 S IH0 V
+unocal		Y UW1 N AH0 K AE2 L;Y UW1 N AH0 K AO2 L
+unocal's		Y UW1 N AH0 K AE2 L Z;Y UW1 N AH0 K AO2 L Z
+unoccupied	un·oc·cu·pied	AH0 N AA1 K Y AH0 P AY2 D
+unofficial	un·of·fi·cial	AH2 N AH0 F IH1 SH AH0 L
+unofficially		AH0 N AH0 F IH1 SH AH0 L IY0
+unopened	un·o·pened	AH0 N OW1 P AH0 N D
+unopposed	un·op·posed	AH2 N AH0 P OW1 Z D
+unorganized	un·or·ganized/un·or·gan·ized	AH0 N AO1 R G AH0 N AY2 Z D
+unorthodox	un·or·tho·dox	AH0 N AO1 R TH AH0 D AA2 K S
+unos		UW1 N OW0 Z
+unosom		Y UW1 N OW0 S AO2 M;Y UW1 N OW0 S AH0 M
+unpack	un·pack	AH0 N P AE1 K
+unpacked		AH0 N P AE1 K T
+unpacking		AH0 N P AE1 K IH0 NG
+unpaid	un·paid	AH0 N P EY1 D
+unpainted	un·paint·ed	AH0 N P EY1 N T IH0 D
+unpalatable	un·pal·at·a·ble	AH0 N P AE1 L AH0 T AH0 B AH0 L
+unparalleled	un·par·al·leled	AH0 N P EH1 R AH0 L EH2 L D
+unpatriotic	un·pa·tri·ot·ic	AH0 N P EY2 T R IY0 AA1 T IH0 K
+unpaved	un·paved	AH2 P EY2 V D
+unpayable	un·pay·a·ble	AH0 N P EY1 AH0 B AH0 L
+unperturbed	un·per·turbed	AH2 N P ER0 T ER1 B D
+unplaced	un·placed	AH0 N P L EY1 S T
+unplanned		AH0 N P L AE1 N D
+unpleasant	un·pleas·ant	AH0 N P L EH1 Z AH0 N T
+unpleasantly		AH0 N P L EH1 Z AH0 N T L IY0
+unpleasantness	un·pleas·ant·ness	AH0 N P L EH1 Z AH0 N T N AH0 S
+unplug	un·plug	AH0 N P L AH1 G
+unplugged	un·plugged	AH0 N P L AH1 G D;AH1 N P L AH1 G D
+unpopular	un·pop·u·lar	AH2 N P AA1 P Y AH0 L ER0
+unpopularity	un·pop·u·lar·i·ty	AH0 N P AA2 P Y AH0 L EH1 R IH0 T IY0
+unprecedented	un·prec·e·dent·ed	AH0 N P R EH1 S IH0 D EH2 N T IH0 D
+unprecedentedly		AH0 N P R EH1 S AH0 D EH2 N T IH0 D L IY0
+unpredictability	un·pre·dict·a·bil·i·ty	AH2 N P R AH0 D IH2 K T AH0 B IH1 L IH0 T IY0
+unpredictable	un·pre·dict·a·ble	AH2 N P R IH0 D IH1 K T AH0 B AH0 L
+unpredictably	un·pre·dict·a·bly	AH2 N P R IH0 D IH1 K T AH0 B L IY0
+unprepared	un·pre·pared	AH2 N P R IY0 P EH1 R D
+unpreserved	un·pre·served	AH0 N P R AH0 Z ER1 V D;AH0 N P R IH0 Z ER1 V D;AH0 N P R IY0 Z ER1 V D
+unpressurized		AH0 N P R EH1 SH ER0 AY0 Z D
+unpretentious	un·pre·ten·tious	AH2 N P R IY0 T EH1 N SH AH0 S
+unprincipled	un·prin·ci·pled	AH0 N P R IH1 N S AH0 P AH0 L D
+unprintable	un·print·a·ble	AH0 N P R IH1 N T AH0 B AH0 L
+unprocessed	un·proc·essed	AH0 N P R AO1 S EH2 S T
+unproductive	un·pro·duc·tive	AH2 N P R AH0 D AH1 K T IH0 V
+unprofessional	un·pro·fes·sion·al	AH2 N P R AH0 F EH1 SH AH0 N AH0 L
+unprofitability	un·prof·it·a·bil·i·ty	AH0 N P R AA2 F IH0 T AH0 B IH1 L IH0 T IY0
+unprofitable	un·prof·it·a·ble	AH0 N P R AA1 F IH0 T AH0 B AH0 L
+unprofor		AH1 P R OW0 F AO2 R
+unprofor's		AH1 P R OW0 F AO2 R Z
+unpromising	un·prom·is·ing	AH0 N P R AO1 M IH0 S IH0 NG
+unprotected	un·pro·tect·ed	AH2 N P R AH0 T EH1 K T IH0 D
+unproved	un·proved	AH0 N P R UW1 V D
+unproven	un·prov·en	AH0 N P R UW1 V AH0 N
+unprovoked	un·pro·voked	AH2 N P R AH0 V OW1 K T
+unpublicized	un·pub·li·cized	AH0 N P AH1 B L IH0 S AY0 Z D
+unpublished	un·pub·lished	AH0 N P AH1 B L IH0 SH T
+unpunished	un·pun·ished	AH0 N P AH1 N IH0 SH T
+unqualified	un·qual·i·fied	AH0 N K W AA1 L IH0 F AY2 D
+unquestionable	un·ques·tion·a·ble	AH0 N K W EH1 S CH AH0 N AH0 B AH0 L
+unquestionably	un·ques·tion·a·bly	AH0 N K W EH1 S CH AH0 N AH0 B L IY0
+unquestioned	un·ques·tioned	AH0 N K W EH1 S CH AH0 N D
+unquestioning	un·ques·tion·ing	AH0 N K W EH1 S CH AH0 N IH0 NG
+unquote	un·quote	AH1 N K W OW1 T
+unrated	un·rat·ed	AH0 N R EY1 T IH0 D
+unrath		AH1 N R AH0 TH
+unratified	un·rat·i·fied	AH0 N R AE1 T IH0 F AY2 D
+unravel	un·rav·el	AH0 N R AE1 V AH0 L
+unraveled	un·rav·eled	AH0 N R AE1 V AH0 L D
+unraveling	un·rav·el·ing	AH0 N R AE1 V AH0 L IH0 NG;AH0 N R AE1 V L IH0 NG
+unravels		AH0 N R AE1 V AH0 L Z
+unreachable	un·reach·a·ble	AH0 N R IY1 CH AH0 B AH0 L
+unread	un·read	AH0 N R EH1 D
+unreadable	un·read·a·ble	AH0 N R IY1 D AH0 B AH0 L;AH1 N R IY1 D AH0 B AH0 L
+unreal	un·re·al	AH0 N R IY1 L
+unrealistic	un·re·al·is·tic	AH0 N R IY2 L IH1 S T IH0 K
+unrealistically	un·re·al·is·ti·cal·ly	AH0 N R IY2 AH0 L IH1 S T IH0 K L IY0
+unreality	un·re·al·i·ty	AH2 N R IY0 AE1 L AH0 T IY0
+unrealized	un·re·al·ized	AH0 N R IY1 AH0 L AY2 Z D
+unreasonable	un·rea·son·a·ble	AH0 N R IY1 Z N AH0 B AH0 L
+unreasonably	un·rea·son·a·bly	AH0 N R IY1 Z AH0 N AH0 B L IY0
+unreasoning	un·rea·son·ing	AH0 N R IY1 Z N IH0 NG
+unreceptive	un·re·cep·tive	AH0 N R IH0 S EH1 P T IH0 V
+unrecognizable	un·rec·og·niz·a·ble	AH0 N R EH2 K AH0 G N AY1 Z AH0 B AH0 L
+unrecognized	un·rec·og·nized	AH0 N R EH1 K AH0 G N AY2 Z D
+unreconciled	un·rec·on·ciled	AH0 N R EH1 K AH0 N S AY2 L D
+unreconstructed	un·re·con·struct·ed	AH2 N R IY0 K AH0 N S T R AH1 K T IH0 D
+unrecorded	un·re·cord·ed	AH2 N R IH0 K AO1 R D IH0 D
+unredeemed		AH2 N R IY0 D IY1 M D
+unrefined	un·re·fined	AH2 N R IY0 F AY1 N D
+unrefuted	un·re·fut·ed	AH2 N R IY0 F Y UW1 T IH0 D
+unregistered	un·reg·is·tered	AH0 N R EH1 JH IH0 S T ER0 D
+unregulated	un·reg·u·lat·ed	AH0 N R EH1 G Y AH0 L EY2 T IH0 D
+unrehearsed	un·re·hearsed	AH0 N R IY2 HH ER2 S T
+unreimbursed		AH0 N R IY2 IH0 M B ER2 S T
+unrein		AO1 N R AY0 N
+unrelated	un·re·lat·ed	AH2 N R IH0 L EY1 T IH0 D;AH2 N R IY0 L EY1 T IH0 D
+unreleased	un·re·leased	AH0 N R IH0 L IY1 S T
+unrelenting	un·re·lent·ing	AH2 N R IY0 L EH1 N T IH0 NG
+unreliability	un·re·li·a·bil·i·ty	AH2 N R IY0 L AY2 AH0 B IH1 L IH0 T IY0
+unreliable	un·re·li·a·ble	AH2 N R IH0 L AY1 AH0 B AH0 L;AH2 N R IY0 L AY1 AH0 B AH0 L
+unrelieved	un·re·lieved	AH2 N R IY0 L IY1 V D
+unremarkable	un·re·mark·a·ble	AH0 N R IH0 M AA1 R K AH0 B AH0 L
+unremarked	un·re·marked	AH0 N R IH0 M AA1 R K T
+unremitted	un·re·mit·ted	AH0 N R IH0 M IH1 T IH0 D
+unremitting	un·re·mit·ting	AH2 N R IH0 M IH1 T IH0 NG;AH2 N R IY0 M IH1 T IH0 NG
+unrepentant	un·re·pent·ant	AH2 N R IH0 P EH1 N T AH0 N T;AH2 N R IY0 P EH1 N T AH0 N T
+unreported	un·re·port·ed	AH2 N R IY0 P AO1 R T IH0 D
+unrepresentative	un·rep·re·sent·a·tive	AH0 N R EH2 P R IH0 Z EH1 N T AH0 T IH0 V
+unrepresented	un·rep·re·sent·ed	AH0 N R EH2 P R IH0 Z EH1 N T IH0 D
+unrequited	un·re·quit·ed	AH2 N R IY0 K W AY1 T IH0 D
+unresolved	un·re·solved	AH0 N R IH0 Z AA1 L V D
+unresponsive	un·re·spon·sive	AH2 N R IY0 S P AA1 N S IH0 V
+unrest	un·rest	AH0 N R EH1 S T
+unrestrained	un·re·strained	AH2 N R IY0 S T R EY1 N D
+unrestricted	un·re·strict·ed	AH2 N R IY0 S T R IH1 K T IH0 D
+unrevised	un·re·vised	AH0 N R IY0 V AY1 Z D
+unring		AH0 N R IH1 NG
+unrivaled	un·ri·valed	AH0 N R AY1 V AH0 L D
+unroll	un·roll	AH2 N R OW1 L
+unrolled		AH2 N R OW1 L D
+unrolling		AH2 N R OW1 L IH0 NG
+unrolls		AH2 N R OW1 L Z
+unrue		AH1 N R UW0
+unruffled	un·ruf·fled	AH0 N R AH1 F AH0 L D
+unruh		AH1 N R UW0
+unruly	un·ru·ly	AH0 N R UW1 L IY0
+unsafe	un·safe	AH0 N S EY1 F
+unsaid	un·said	AH0 N S EH1 D
+unsalable	un·sal·a·ble	AH0 N S EY1 L AH0 B AH0 L
+unsaleable	un·sale·a·ble	AH0 N S EY1 L AH0 B AH0 L
+unsanctioned	un·sanc·tioned	AH0 N S AE1 NG K SH AH0 N D
+unsanitary	un·san·i·tar·y	AH0 N S AE1 N AH0 T EH2 R IY0
+unsatisfactory	un·sat·is·fac·to·ry	AH2 N S AH0 T IH0 S F AE1 K T ER0 IY0
+unsatisfied	un·sat·is·fied	AH0 N S AE1 T IH0 S F AY2 D
+unsatisfying		AH0 N S AE1 T IH0 S F AY2 IH0 NG
+unsaturated	un·sat·u·rat·ed	AH0 N S AE1 CH ER0 EY2 T IH0 D
+unsavory	un·sa·vor·y	AH0 N S EY1 V ER0 IY0
+unscathed	un·scathed	AH0 N S K EY1 DH D
+unscheduled	un·sched·uled	AH0 N S K EH1 JH UW0 L D
+unscientific	un·sci·en·tif·ic	AH0 N S AY2 AH0 N T IH1 F IH0 K
+unscom		AH1 N S K AO2 M
+unscramble	un·scram·ble	AH0 N S K R AE1 M B AH0 L
+unscripted	un·script·ed	AH0 N S K R IH1 P T IH0 D
+unscrupulous	un·scru·pu·lous	AH0 N S K R UW1 P Y AH0 L AH0 S
+unseal	un·seal	AH0 N S IY1 L
+unsealed	un·sealed	AH0 N S IY1 L D
+unseasonably	un·sea·son·a·bly	AH0 N S IY1 Z AH0 N AH0 B L IY0
+unseat	un·seat	AH0 N S IY1 T
+unseated		AH0 N S IY1 T IH0 D
+unseating		AH0 N S IY1 T IH0 NG
+unsecured	un·se·cured	AH2 N S IH0 K Y UH1 R D;AH2 N S IY0 K Y UH1 R D
+unseemly	un·seem·ly	AH0 N S IY1 M L IY0
+unseen	un·seen	AH0 N S IY1 N
+unsell	un·sell	AH0 N S EH1 L
+unsentimental	un·sen·ti·men·tal	AH0 N S EH2 N T IH0 M EH1 N T AH0 L
+unser		AH1 N S ER0
+unserviceable	un·ser·vice·a·ble	AH0 N S ER1 V AH0 S AH0 B AH0 L;AH1 N S ER1 V AH0 S AH0 B AH0 L
+unset	un·set	AH0 N S EH1 T;AH1 N S EH1 T
+unsettle	un·set·tle	AH0 N S EH1 T AH0 L
+unsettled	un·set·tled	AH0 N S EH1 T AH0 L D
+unsettling		AH0 N S EH1 T AH0 L IH0 NG;AH0 N S EH1 T L IH0 NG
+unshackle	un·shack·le	AH0 N SH AE1 K AH0 L
+unshackled		AH0 N SH AE1 K AH0 L D
+unshakable	un·shak·a·ble	AH0 N SH EY1 K AH0 B AH0 L
+unshakeable	un·shake·a·ble	AH0 N SH EY1 K AH0 B AH0 L
+unshaken	un·sha·ken	AH0 N SH EY1 K AH0 N
+unsharpened	un·sharp·ened	AH0 N SH AA1 R P AH0 N D
+unshaven		AH0 N SH EY1 V AH0 N
+unsightly	un·sight·ly	AH0 N S AY1 T L IY0
+unsigned	un·signed	AH0 N S AY1 N D
+unsinkable	un·sink·a·ble	AH0 N S IH1 NG K AH0 B AH0 L
+unskilled	un·skilled	AH0 N S K IH1 L D
+unsmiling	un·smil·ing	AH0 N S M AY1 L IH0 NG
+unsold	un·sold	AH0 N S OW1 L D
+unsolicited	un·so·lic·it·ed	AH2 N S AH0 L IH1 S IH0 T IH0 D
+unsolvable	un·solv·a·ble	AH0 N S AA1 L V AH0 B AH0 L
+unsolved	un·solved	AH0 N S AA1 L V D
+unsophisticated	un·so·phis·ti·cat·ed	AH2 N S AH0 F IH1 S T IH0 K EY2 T IH0 D
+unsound	un·sound	AH0 N S AW1 N D
+unsparing	un·spar·ing	AH0 N S P EH1 R IH0 NG
+unspeakable	un·speak·a·ble	AH0 N S P IY1 K AH0 B AH0 L
+unspecified	un·spec·i·fied	AH0 N S P EH1 S AH0 F AY2 D
+unspectacular	un·spec·tac·u·lar	AH2 N S P EH0 K T AE1 K Y AH0 L ER0
+unspent	un·spent	AH0 N S P EH1 N T
+unspoiled	un·spoiled	AH0 N S P OY1 L D
+unspoken	un·spo·ken	AH0 N S P OW1 K AH0 N
+unsportsmanlike	un·sports·man·like	AH0 N S P AO1 R T S M AH0 N L AY2 K
+unstable	un·sta·ble	AH0 N S T EY1 B AH0 L
+unstained	un·stained	AH0 N S T EY1 N D
+unstated	un·stat·ed	AH0 N S T EY1 T IH0 D
+unsteady	un·stead·y	AH0 N S T EH1 D IY0
+unstinting	un·stint·ing	AH0 N S T IH1 N T IH0 NG
+unstoppable	un·stop·pa·ble	AH0 N S T AA1 P AH0 B AH0 L
+unstressed	un·stressed	AH0 N S T R EH1 S T
+unstructured	un·struc·tured	AH0 N S T R AH1 K SH ER0 D
+unstuck	un·stuck	AH0 N S T AH1 K
+unsubscribe		AH0 N S AH0 B S K R AY1 B
+unsubscribed	un·sub·scribed	AH0 N S AH0 B S K R AY1 B D
+unsubsidized	un·sub·si·dized	AH0 N S AH1 B S AH0 D AY2 Z D
+unsubstantiated	un·sub·stan·ti·at·ed	AH2 N S AH0 B S T AE1 N SH IY0 EY2 T IH0 D
+unsubtle	un·sub·tle	AH0 N S AH1 T AH0 L
+unsuccessful	un·suc·cess·ful	AH2 N S AH0 K S EH1 S F AH0 L
+unsuccessfully	un·suc·cess·ful·ly	AH2 N S AH0 K S EH1 S F AH0 L IY0
+unsuitable	un·suit·a·ble	AH0 N S UW1 T AH0 B AH0 L
+unsuited	un·suit·ed	AH0 N S UW1 T IH0 D
+unsullied	un·sul·lied	AH0 N S AH1 L IY0 D
+unsung	un·sung	AH0 N S AH1 NG
+unsupervised	un·su·per·vised	AH0 N S UW1 P ER0 V AY2 Z D
+unsupportable	un·sup·port·a·ble	AH2 N S AH0 P AO1 R T AH0 B AH0 L
+unsupported	un·sup·port·ed	AH0 N S AH0 P AO1 R T IH0 D
+unsure	un·sure	AH0 N SH UH1 R
+unsurpassed	un·sur·passed	AH2 N S ER0 P AE1 S T
+unsurprising	un·sur·pris·ing	AH0 N S ER0 P R AY1 Z IH0 NG
+unsurprisingly		AH2 N S ER0 P R AY1 Z IH0 NG L IY0
+unsuspected	un·sus·pect·ed	AH2 N S AH0 S P EH1 K T IH0 D
+unsuspecting	un·sus·pect·ing	AH2 N S AH0 S P EH1 K T IH0 NG
+unsustainable	un·sus·tain·a·ble	AH2 N S AH0 S T EY1 N AH0 B AH0 L
+unsustainably		AH2 N S AH0 S T EY1 N AH0 B L IY0
+unswayed	un·swayed	AH0 N S W EY1 D
+unswerving	un·swerv·ing	AH0 N S W ER1 V IH0 NG
+unsworth		AH1 N S W ER0 TH
+unsympathetic	un·sym·pa·thet·ic	AH0 N S IH2 M P AH0 TH EH1 T IH0 K
+untainted	un·taint·ed	AH0 N T EY1 N T IH0 D
+untangle	un·tan·gle	AH0 N T AE1 NG G AH0 L
+untangling		AH0 N T AE1 NG L IH0 NG
+untapped	un·tapped	AH0 N T AE1 P T
+untaxed		AH0 N T AE1 K S T
+unted		AH0 N T EH1 D
+untenable	un·ten·a·ble	AH0 N T EH1 N AH0 B AH0 L
+untendered	un·ten·dered	AH0 N T EH1 N D ER0 D
+unterberg		AH1 N T ER0 B ER0 G
+unterman		AH1 N T ER0 M AH0 N
+untermeyer	un·ter·mey·er	AH1 N T ER0 M AY2 R
+unterreiner		AO1 N T ER0 AY0 N ER0
+untested	un·test·ed	AH0 N T EH1 S T IH0 D
+unthinkable	un·think·a·ble	AH0 N TH IH1 NG K AH0 B AH0 L
+unthinking	un·think·ing	AH0 N TH IH1 NG K IH0 NG
+unthinkingly	un·think·ing·ly	AH0 N TH IH1 NG K IH0 NG L IY0
+untidy	un·ti·dy	AH0 N T AY1 D IY0
+untie	un·tie	AH0 N T AY1
+untied	un·tied	AH0 N T AY1 D
+untiedt		AO1 N T IY0 T
+until	un·til	AH0 N T IH1 L
+untimely	un·time·ly	AH0 N T AY1 M L IY0
+unto	un·to	AH1 N T UW0
+untold	un·told	AH0 N T OW1 L D
+untouchable	un·touch·a·ble	AH0 N T AH1 CH AH0 B AH0 L
+untouchables		AH0 N T AH1 CH AH0 B AH0 L Z
+untouched	un·touched	AH0 N T AH1 CH T
+untoward	un·to·ward	AH0 N T UW0 AO1 R D;AH0 N T AH0 W AO1 R D
+untraceable	un·trace·a·ble	AH0 N T R EY1 S AH0 B AH0 L
+untraditional	un·tra·di·tion·al	AH2 N T R AH0 D IH1 SH AH0 N AH0 L
+untrained	un·trained	AH0 N T R EY1 N D
+untrammeled	un·tram·meled	AH0 N T R AE1 M AH0 L D
+untreatable	un·treat·a·ble	AH0 N T R IY1 T AH0 B AH0 L
+untreated	un·treat·ed	AH0 N T R IY1 T IH0 D
+untried	un·tried	AH0 N T R AY1 D
+untroubled	un·trou·bled	AH0 N T R AH1 B AH0 L D
+untrue	un·true	AH0 N T R UW1
+untrustworthy	un·trust·wor·thy	AH0 N T R AH1 S T W ER2 DH IY0
+untruth	un·truth	AH0 N T R UW1 TH
+untruthful	un·truth·ful	AH0 N T R UW1 TH F AH0 L
+untruths		AH0 N T R UW1 TH S;AH0 N T R UW1 DH S
+unturned	un·turned	AH0 N T ER1 N D
+untypical	un·typ·i·cal	AH0 N T IH1 P IH0 K AH0 L
+unum		Y UW1 N AH0 M;UW1 N AH0 M
+unusable	un·us·a·ble	AH0 N Y UW1 Z AH0 B AH0 L
+unused	un·used	AH0 N Y UW1 Z D
+unusual	un·u·su·al	AH0 N Y UW1 ZH UW2 AH0 L;AH0 N Y UW1 ZH W AH0 L
+unusually	un·u·su·al·ly	AH0 N Y UW1 ZH UW2 AH0 L IY0;AH0 N Y UW1 ZH W AH0 L IY0
+unvarnished	un·var·nished	AH0 N V AA1 R N IH0 SH T
+unveil	un·veil	AH0 N V EY1 L
+unveiled		AH0 N V EY1 L D
+unveiling	un·veil·ing	AH0 N V EY1 L IH0 NG
+unveils		AH0 N V EY1 L Z
+unverifiable	un·ver·i·fi·able	AH0 N V EH2 R IH0 F AY1 AH0 B AH0 L
+unverified	un·ver·i·fied	AH0 N V EH1 R IH0 F AY2 D
+unverzagt		AO1 N V ER0 Z AO0 G T
+unwanted	un·want·ed	AH0 N W AO1 N T IH0 D
+unwarranted	un·war·rant·ed	AH0 N W AO1 R AH0 N T IH0 D
+unwary	un·war·y	AH0 N W EH1 R IY0
+unwashed	un·washed	AH0 N W AA1 SH T
+unwavering	un·wa·ver·ing	AH0 N W EY1 V ER0 IH0 NG
+unwed	un·wed	AH0 N W EH1 D
+unwelcome	un·wel·come	AH0 N W EH1 L K AH0 M
+unwelcomed	un·wel·comed	AH0 N W EH1 L K AH0 M D
+unwell	un·well	AH0 N W EH1 L
+unwieldiness	un·wield·i·ness	AH0 N W IY1 L D IY0 N AH0 S
+unwielding		AH0 N W IY1 L D IH0 NG
+unwieldy	un·wield·y	AH0 N W IY1 L D IY0
+unwilling	un·will·ing	AH0 N W IH1 L IH0 NG
+unwillingly	un·will·ing·ly	AH0 N W IH1 L IH0 NG L IY0
+unwillingness	un·will·ing·ness	AH0 N W IH1 L IH0 NG N IH0 S
+unwin		AO1 N W IH0 N
+unwind	un·wind	AH0 N W AY1 N D
+unwinding		AH0 N W AY1 N D IH0 NG
+unwinnable	un·win·na·ble	AH0 N W IH1 N AH0 B AH0 L
+unwise	un·wise	AH0 N W AY1 Z
+unwisely	un·wise·ly	AH0 N W AY1 Z L IY0
+unwitting	un·wit·ting	AH0 N W IH1 T IH0 NG
+unwittingly	un·wit·ting·ly	AH0 N W IH1 T IH0 NG L IY0
+unworkable	un·work·a·ble	AH0 N W ER1 K AH0 B AH0 L
+unworried	un·wor·ried	AH0 N W ER1 IY0 D
+unworthy	un·wor·thy	AH0 N W ER1 DH IY0
+unwound	un·wound	AH0 N W AW1 N D
+unwrap	un·wrap	AH0 N R AE1 P
+unwrapped	un·wrapped	AH0 N R AE1 P T
+unwrapping	un·wrap·ping	AH0 N R AE1 P IH0 NG
+unwritten	un·writ·ten	AH0 N R IH1 T AH0 N
+unyielding	un·yield·ing	AH0 N Y IY1 L D IH0 NG
+unz		AH1 N Z
+unzicker		AO1 N Z IH0 K ER0
+unzip	un·zip	AH0 N Z IH1 P
+unzipped	un·zipped	AH0 N Z IH1 P T
+up		AH1 P
+up's		AH1 P S
+up-front		AH1 P F R AH2 N T
+upbeat	up·beat	AH1 P B IY2 T
+upbraid	up·braid	AH1 P B R EY2 D
+upbraided		AH0 P B R EY1 D IH0 D
+upbringing	up·bring·ing	AH1 P B R IH2 NG IH0 NG
+upchurch		AH1 P CH ER2 CH
+upcoming		AH1 P K AH2 M IH0 NG
+update	up·date	AH0 P D EY1 T;AH1 P D EY2 T
+updated	up·dat·ed	AH0 P D EY1 T IH0 D;AH1 P D EY2 T IH0 D
+updates		AH0 P D EY1 T S;AH1 P D EY2 T S
+updating	up·dat·ing	AH0 P D EY1 T IH0 NG;AH1 P D EY2 T IH0 NG
+updegraff		AH1 P D IH0 G R AH0 F
+updegrove		UW0 P D EH0 G R OW1 V IY0
+updike	up·dike	AH1 P D AY2 K
+updike's		AH1 P D AY2 K Z
+updraft	up·draft	AH1 P D R AE2 F T
+updrafts		AH1 P D R AE2 F T S
+updyke		AH1 P D AY2 K
+upfront		AH1 P F R AH2 N T
+upgrade	up·grade	AH0 P G R EY1 D;AH1 P G R EY1 D
+upgraded	up·grad·ed	AH0 P G R EY1 D IH0 D;AH1 P G R EY2 D IH0 D
+upgrader	up·grad·er	AH1 P G R EY2 D ER0
+upgrades		AH0 P G R EY1 D Z;AH1 P G R EY2 D Z
+upgrading	up·grad·ing	AH0 P G R EY1 D IH0 NG;AH1 P G R EY2 D IH0 NG
+upham		AH1 P AH0 M
+upheaval	up·heav·al	AH0 P HH IY1 V AH0 L
+upheavals		AH0 P HH IY1 V AH0 L Z
+upheld	up·held	AH0 P HH EH1 L D
+uphill	up·hill	AH1 P HH IH1 L
+uphoff		AH1 P HH AO2 F
+uphold	up·hold	AH0 P HH OW1 L D
+upholding	up·hold·ing	AH0 P HH OW1 L D IH0 NG
+upholds		AH0 P HH OW1 L D Z
+upholster	up·hol·ster	AH0 P OW1 L S T ER0
+upholstered		AH0 P OW1 L S T ER0 D
+upholstery	up·hol·ster·y	AH0 P OW1 L S T ER0 IY0
+upjohn		AH1 P JH AA2 N
+upjohn's		AH1 P JH AA2 N Z
+upkeep	up·keep	AH1 P K IY2 P
+upland	up·land	AH1 P L AH0 N D
+uplands		AH1 P L AH0 N D Z
+uplift	up·lift	AH1 P L IH0 F T
+uplifted		AH1 P L IH0 F T IH0 D
+uplifting		AH1 P L IH2 F T IH0 NG
+uplinger		UW1 P AH0 L IH0 NG ER0;UW1 P L IH0 NG ER0
+uplink		AH1 P L IH2 NG K
+uplinked		UW1 P L IH2 NG K D
+uplinks		UW1 P L IH2 NG K S
+upload		AH1 P L OW2 D
+uploaded		AH1 P L OW2 D IH0 D
+uploading		AH1 P L OW2 D IH0 NG
+uploads		AH1 P L OW2 D Z
+upmanship		AH1 P M AH0 N SH IH2 P
+upmarket		AH1 P M AA2 R K AH0 T
+upon	up·on	AH0 P AA1 N
+upp		AH1 P
+upped		AH1 P T
+upper	up·per	AH1 P ER0
+upperclass		AH1 P ER0 K L AE2 S
+upperman		AH1 P ER0 M AH0 N
+uppermost	up·per·most	AH1 P ER0 M OW2 S T
+uppers		AH1 P ER0 Z
+upping	up·ping	AH1 P IH0 NG
+uppity	up·pi·ty	AH1 P AH0 T IY0
+upright	up·right	AH0 P R AY1 T;AH1 P R AY2 T
+uprights		AH1 P R AY2 T S
+uprise	up·rise	AH1 P R AY0 Z
+uprising	up·ris·ing	AH0 P R AY1 Z IH0 NG;AH1 P R AY2 Z IH0 NG
+uprisings		AH1 P R AY2 Z IH0 NG Z
+upriver	up·riv·er	AH2 P R IH1 V ER0
+uproar	up·roar	AH1 P R AO2 R
+uproot	up·root	AH0 P R UW1 T
+uprooted		AH0 P R UW1 T IH0 D
+uprooting		AH0 P R UW1 T IH0 NG
+ups		AH1 P S
+upscale		AH1 P S K EY2 L
+upset	up·set	AH0 P S EH1 T;AH1 P S EH2 T
+upsets		AH0 P S EH1 T S;AH1 P S EH2 T S
+upsetting	up·set·ting	AH0 P S EH1 T IH0 NG
+upshaw		AH1 P SH AO2
+upshot	up·shot	AH1 P SH AA2 T
+upshur		AH1 P SH ER0
+upside	up·side	AH1 P S AY1 D
+upside-down		AH1 P S AY0 D D AW2 N
+upsize		AH1 P S AY1 Z
+upsizing		AH1 P S AY1 Z IH0 NG
+upson		AH1 P S AH0 N
+upstage	up·stage	AH0 P S T EY1 JH
+upstaged	up·staged	AH1 P S T EY1 JH D
+upstairs	up·stairs	AH0 P S T EH1 R Z
+upstanding	up·stand·ing	AH1 P S T AE2 N D IH0 NG
+upstart	up·start	AH1 P S T AA2 R T
+upstarting		AH1 P S T AA2 R T IH0 NG
+upstarts		AH0 P S T AA1 R T S
+upstate	up·state	AH1 P S T EY1 T
+upstream	up·stream	AH1 P S T R IY1 M
+upsurge	up·surge	AH1 P S ER2 JH
+upswing	up·swing	AH0 P S W IH1 NG;AH1 P S W IH2 NG
+upswings		AH1 P S W IH2 NG Z
+uptain		AH0 P T EY1 N
+uptake	up·take	AH1 P T EY2 K
+uptegrove		AH1 P T IH0 G R AH0 V
+uptick		AH1 P T IH2 K
+upticks		AH1 P T IH2 K S
+uptight	up·tight	AH0 P T AY1 T
+upton	up·ton	AH1 P T AH0 N
+uptown	up·town	AH1 P T AW1 N
+uptrend	up·trend	AH1 P T R EH2 N D
+upturn	up·turn	AH0 P T ER1 N;AH1 P T ER2 N
+upturns		AH1 P T ER2 N Z
+upvote		AH1 P V OW1 T
+upvoted		AH1 P V OW1 T IH0 D
+upvotes		AH1 P V OW1 T S
+upvoting		AH1 P V OW1 T IH0 NG
+upward	up·ward	AH1 P W ER0 D
+upwardly	up·ward·ly	AH1 P W ER0 D L IY0
+upwards	up·wards	AH1 P W ER0 D Z
+upwood		AH1 P W UH2 D
+ur		ER1
+ural	u·ral	Y UH1 R AH0 L
+urals	u·rals	Y UH1 R AH0 L Z
+uram		Y UW1 R AH0 M
+uranga		ER0 AA1 NG G AH0
+uranium	u·ra·ni·um	Y ER0 EY1 N IY0 AH0 M
+uranus	u·ra·nus	Y UW1 R AH0 N AH0 S;Y ER1 AH0 N AH0 S
+urbach		ER1 B AA0 K
+urbain		ER0 B EY1 N
+urban	ur·ban	ER1 B AH0 N
+urban's		ER1 B AH0 N Z
+urbana		ER0 B AE1 N AH0
+urbanchuk		ER0 B AH1 N CH AH0 K
+urbanczyk		ER0 B AH1 N CH IH0 K
+urbane	ur·bane	ER0 B EY1 N
+urbanek		ER0 B AE1 N EH0 K
+urbani		ER0 B AA1 N IY0
+urbaniak		ER0 B AE1 N IY0 AE0 K
+urbanik		ER0 B AE1 N IH0 K
+urbanism	ur·ban·ism	ER1 B AH0 N IH0 Z AH0 M
+urbanite	ur·ban·ite	ER1 B AH0 N AY2 T
+urbanites		ER1 B AH0 N AY2 T S
+urbanization	ur·ban·i·za·tion	ER2 B AH0 N AH0 Z EY1 SH AH0 N;ER2 B AH0 N IH0 Z EY1 SH AH0 N
+urbanize	ur·ban·ize	ER1 B AH0 N AY2 Z
+urbanized		ER1 B AH0 N AY2 Z D
+urbano		ER0 B AA1 N OW0
+urbanowicz		ER0 B AE1 N AH0 V IH0 CH
+urbanski		ER0 B AE1 N S K IY0
+urbas		ER1 B AH0 Z
+urbaszewski		ER2 B AH0 S UW1 S K IY0
+urbina		ER0 B IY1 N AH0
+urchin	ur·chin	ER1 CH AH0 N
+urchins		ER1 CH AH0 N Z
+urda		ER1 D AH0
+urdangarin		ER0 D AE1 NG AA0 R IH0 N
+urdiales		ER1 D IY0 EY0 L Z
+urdu	ur·du	ER0 D UW1
+ure		Y UW1 R
+urea	u·re·a	Y ER0 IY1 AH0
+uremia	u·re·mi·a	Y ER0 IY1 M IY0 AH0
+uren		ER0 EH1 N
+urena	u·re·na	ER0 EY1 N AH0
+uresti		ER0 EH1 S T IY0
+urethane	u·re·thane	Y ER1 AH0 TH EY2 N
+urethra	u·re·thra	Y ER2 IY1 TH R AH0
+urey	u·rey	Y ER1 IY0
+urfer		ER1 F ER0
+urge	urge	ER1 JH
+urged		ER1 JH D
+urgen		ER1 JH EH2 N
+urgen's		ER1 JH EH2 N Z
+urgency	ur·gen·cy	ER1 JH AH0 N S IY0
+urgent	ur·gent	ER1 JH AH0 N T
+urgently		ER1 JH AH0 N T L IY0
+urges		ER1 JH AH0 Z;ER1 JH IH0 Z
+urging	urg·ing	ER1 JH IH0 NG
+urgings		ER1 JH IH0 NG Z
+urgo		ER1 G OW0
+uri	u·ri	Y ER1 IY0
+uri's		Y ER1 IY0 Z
+urian		Y ER1 IY0 AH0 N
+uriarte		Y ER1 IY0 AA1 R T IY0
+urias	u·ri·as	Y ER0 IY1 AH0 Z
+uribe		Y ER0 IY1 B IY0
+uric	u·ric	Y ER1 IH0 K
+urich		Y ER1 IH0 K
+urick		Y ER1 R IH0 K
+urie		Y ER1 IY0
+uriegas		Y ER0 IY1 G AH0 Z
+urinalysis	u·ri·nal·y·sis	Y ER2 AH0 N AE1 L AH0 S IH0 S
+urinary	u·ri·nar·y	Y ER1 AH0 N EH2 R IY0
+urinate	u·ri·nate	Y ER1 AH0 N EY2 T
+urinating	u·ri·nat·ing	Y ER1 AH0 N EY2 T IH0 NG
+urine	u·rine	Y ER1 AH0 N;Y UH1 R AH0 N
+urioste		Y ER0 IY0 OW1 S T IY0
+urkel		ER1 K AH0 L
+url		Y UW2 AA2 R EH1 L;UH1 R L
+urls		Y UW1 AA1 R EH1 L Z
+urman		ER1 M AH0 N
+urn	urn	ER1 N
+urness		ER1 N AH0 S
+urokinase		Y ER2 AH0 K AH0 N EY1 Z
+urologist		Y ER0 AA1 L AH0 JH AH0 S T
+urologists		Y ER0 AA1 L AH0 JH AH0 S T S
+urology	u·rol·o·gy	Y ER0 AA1 L AH0 JH IY0
+urquhart	ur·quhart	ER1 K AA2 R T
+urquidez		ER0 K W IY1 D EH0 Z
+urquidi		ER0 K W IY1 D IY0
+urquiza		ER0 K W IY1 Z AH0
+urrea		ER0 IY1 AH0
+urrutia		ER0 UW1 SH AH0
+ursa	ur·sa	ER1 S AH0
+urschel		ER1 SH AH0 L
+ursery		ER1 S ER0 IY0
+ursie		ER1 S IY0
+ursin		ER1 S IH0 N
+ursini		ER0 S IY1 N IY0
+urso		ER1 S OW0
+ursola		ER0 S OW1 L AH0
+urson		ER1 S AH0 N
+urstadt		ER1 S T AE2 T
+ursula	ur·su·la	ER1 S AH0 L AH0
+ursus		ER1 S AH0 S
+ursy		ER1 S IY0
+urton		ER1 T AH0 N
+uruguay	u·ru·guay	Y ER1 AH0 G W EY2;Y ER1 AH0 G W AY2
+uruguay's		Y ER1 AH0 G W EY2 Z;Y ER1 AH0 G W AY2 Z
+uruguayan	u·ru·guay·an	Y ER2 AH0 G W EY1 AH0 N;Y ER2 AH0 G W AY1 AH0 N
+urwin		ER1 W AH0 N
+ury		Y UW1 R IY0;Y ER1 IY0
+us		AH1 S;Y UW2 EH1 S
+usa	usa	Y UW2 EH2 S EY1
+usa's		Y UW1 EH1 S EY1 Z
+usable	us·a·ble	Y UW1 Z AH0 B AH0 L
+usafe		Y UW1 S EY0 F
+usage	us·age	Y UW1 S AH0 JH;Y UW1 S IH0 JH
+usages		Y UW1 S AH0 JH AH0 Z;Y UW1 S IH0 JH IH0 Z
+usaid		Y UW2 EH1 S EY1 D
+usair		Y UW2 EH2 S EH1 R
+usair's		Y UW2 EH2 S EH1 R Z
+usairways		Y UW2 EH2 S EH1 R W EY2 Z
+usameribancs		Y UW2 EH2 S AH0 M EH1 R IH0 B AE2 N K S
+usb		Y UW1 EH1 S B IY1
+usbancorp		Y UW2 EH2 S B AE1 NG K AO2 R P
+usda		Y UW2 EH2 S D IY2 EY1
+use	use	Y UW1 S;Y UW1 Z
+usec		Y UW1 S EH0 K
+used	used	Y UW1 Z D
+useful	use·ful	Y UW1 S F AH0 L
+useful's		Y UW1 S F AH0 L Z
+usefully	use·ful·ly	Y UW1 S F AH0 L IY0
+usefulness	use·ful·ness	Y UW1 S F AH0 L N AH0 S
+useless	use·less	Y UW1 S L AH0 S
+uselman		Y UW1 S AH0 L M AH0 N
+uselton		Y UW1 S AH0 L T AH0 N
+usenet		Y UW1 Z N EH2 T
+user	us·er	Y UW1 Z ER0
+user's		Y UW1 Z ER0 Z
+username		Y UW1 Z ER0 N EY2 M
+usernames		Y UW1 Z ER0 N EY2 M Z
+users		Y UW1 Z ER0 Z
+users'		Y UW1 Z ER0 Z
+usery		Y UW1 Z ER0 IY0
+uses		Y UW1 S AH0 Z;Y UW1 S IH0 Z;Y UW1 Z AH0 Z;Y UW1 Z IH0 Z
+usher	ush·er	AH1 SH ER0
+ushered		AH1 SH ER0 D
+ushering		AH1 SH ER0 IH0 NG
+ushers		AH1 SH ER0 Z
+usines		Y UW2 Z IY1 N Z
+using	us·ing	Y UW1 Z IH0 NG
+usinor		Y UW1 S AH0 N ER0
+usmc		Y UW1 EH1 S EH1 M S IY1
+usoniam		Y UW0 S OW1 N IY0 AH0 M
+usrey		AH1 S R IY0
+usry		AH1 S R IY0
+uss	uss	Y UW2 EH2 S EH1 S
+ussery		AH1 S ER0 IY0
+ussr	ussr	Y UW2 EH2 S EH2 S AA1 R
+ustasha		Y UW0 S T AA1 SH AH0
+ustinov	us·ti·nov	UW1 S T IH0 N AA0 V;Y UW1 S T IH0 N AA0 V
+ustrust		Y UW1 EH1 S T R AH1 S T
+usual	u·su·al	Y UW1 ZH AH0 W AH0 L;Y UW1 ZH UW0 AH0 L
+usually	u·su·al·ly	Y UW1 ZH AH0 W AH0 L IY0;Y UW1 ZH AH0 L IY0
+usurp	u·surp	Y UW2 S ER1 P
+usurpation	u·sur·pa·tion	Y UW2 S ER0 P EY1 SH AH0 N
+usurped		Y UW2 S ER1 P T
+usurping		Y UW2 S ER1 P IH0 NG
+usurps		Y UW2 S ER1 P S
+usury	u·su·ry	Y UW1 ZH ER0 IY0;Y UW1 Z ER0 IY0
+utah	u·tah	Y UW1 T AO2
+utah's		Y UW1 T AA0 Z
+utamaro	u·ta·ma·ro	Y UW2 T AH0 M AA1 R OW0
+utech		Y UW1 T EH2 K
+utecht		Y UW1 T EH2 K T
+utensil	u·ten·sil	Y UW0 T EH1 N S AH0 L
+utensils		Y UW0 T EH1 N S AH0 L Z
+uterine	u·ter·ine	Y UW1 T ER0 AH0 N
+utero		Y UW1 T ER0 OW0
+uterus	u·ter·us	Y UW1 T ER0 AH0 S
+utgoff		AH1 T G AO0 F
+uthe		AH1 DH;AH1 TH
+uther	u·ther	Y UW1 TH ER0;AH1 DH ER0
+utica	u·ti·ca	Y UW1 T AH0 K AH0;Y UW1 T IY0 K AH0
+utilicorp		Y UW0 T IH1 L AH0 K AO0 R P;Y UW0 T IH1 L AH0 K AO0 R
+utilitarian	u·til·i·tar·i·an	Y UW0 T IH2 L AH0 T EH1 R IY0 AH0 N
+utilities		Y UW0 T IH1 L AH0 T IY0 Z
+utilities'		Y UW0 T IH1 L AH0 T IY0 Z
+utility	u·til·i·ty	Y UW0 T IH1 L AH0 T IY0
+utility's		Y UW0 T IH1 L AH0 T IY0 Z
+utilization	u·ti·li·za·tion	Y UW2 T AH0 L AH0 Z EY1 SH AH0 N
+utilize	u·ti·lize	Y UW1 T AH0 L AY2 Z
+utilized	u·ti·lized	Y UW1 T AH0 L AY2 Z D
+utilizes		Y UW1 T AH0 L AY2 Z IH0 Z
+utilizing	u·ti·liz·ing	Y UW1 T AH0 L AY2 Z IH0 NG
+utke		AH1 T K IY0
+utley		AH1 T L IY0
+utmost	ut·most	AH1 T M OW2 S T
+utopia	u·to·pi·a	Y UW0 T OW1 P IY0 AH0
+utopian	u·to·pi·an	Y UW0 T OW1 P IY0 AH0 N
+utopians		Y UW0 T OW1 P IY0 AH0 N Z
+utopias		Y UW0 T OW1 P IY0 AH0 Z
+utsey		AH1 T S IY0
+utsumi		UW0 T S UW1 M IY0
+utt		AH1 T
+uttech		AH1 T EH2 K
+utter	ut·ter	AH1 T ER0
+utterance	ut·ter·ance	AH1 T ER0 AH0 N S
+utterances		AH1 T ER0 AH0 N S IH0 Z
+uttered		AH1 T ER0 D
+uttering		AH1 T ER0 IH0 NG
+utterly		AH1 T ER0 L IY0
+utters		AH1 T ER0 Z
+utz		AH1 T S
+utzinger		AH1 T Z IH0 NG ER0
+uv		Y UW1 V IY1
+uva		Y UW1 V AH0;Y UW1 V IY1 EY1
+uwe		Y UW1
+uy		UW1 IY0;Y UW1 W AY1
+uyeda		AY0 IY1 D AH0
+uyehara		UW0 Y EY0 HH AA1 R AH0
+uyeno		AY0 EY1 N OW0
+uys		Y UW1 IY0 Z;Y UW1 W AY1 EH1 S
+uzbek	uz·bek	UW1 Z B EH0 K
+uzbekistan		UW0 Z B EH1 K IH0 S T AE2 N
+uzbeks		UW1 Z B EH0 K S
+uzelac		AH0 Z EH1 L AH0 K
+uzi		UW1 Z IY0
+uzis		UW1 Z IY0 Z
+uzmack		UW1 Z M AE2 K
+uzzell		UW0 Z EH1 L
+uzzle		AH1 Z AH0 L

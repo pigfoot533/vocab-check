@@ -1,0 +1,4225 @@
+e		IY1
+e's		IY1 Z
+e-commerce		IY1 K AA1 M ER0 S
+e-mail		IY1 M EY2 L
+e-mailed		IY1 M EY2 L D
+e-mailing		IY1 M EY2 L IH0 NG
+e-mails		IY1 M EY2 L Z
+e.		IY1
+e.'s		IY1 Z
+e.g.		IY2 G IY1
+e.s		IY1 Z
+each	each	IY1 CH
+eachan		IY1 CH AH0 N
+eachus		IY1 CH AH0 S
+eaddy		IY1 D IY0
+eade		IY1 D
+eader		IY1 D ER0
+eades		IY1 D Z
+eadie	ea·die	EH1 D IY0
+eads	eads	IY1 D Z
+eads'		IY1 D Z
+eady		IY1 D IY0
+eagan		IY1 G AH0 N
+eagar		IY1 G ER0
+eagen		IY1 G AH0 N
+eager	ea·ger	IY1 G ER0
+eagerly	ea·ger·ly	IY1 G ER0 L IY0
+eagerness	ea·ger·ness	IY1 G ER0 N AH0 S
+eagle	ea·gle	IY1 G AH0 L
+eagle's		IY1 G AH0 L Z
+eagleburger		IY1 G AH0 L B ER0 G ER0
+eagles		IY1 G AH0 L Z
+eagleson		IY1 G AH0 L S AH0 N
+eagleton		IY1 G AH0 L T AH0 N
+eagleye		IY1 G AH0 L AY2
+eaglin		IY1 G L IH0 N
+eagon		IY1 G AH0 N
+eaken		IY1 K AH0 N
+eaker		IY1 K ER0
+eakes		IY1 K S
+eakin		IY1 K IH0 N
+eakins	ea·kins	IY1 K IH0 N Z
+eakle		IY1 K AH0 L
+eales		IY1 L Z
+ealey		IY1 L IY0
+ealing	ea·ling	IY1 L IH0 NG
+ealy		IY1 L IY0
+eamer		IY1 M ER0
+eames		IY1 M Z
+eamon		IY1 M AH0 N
+eanes	ea·nes	IY1 N Z
+eap		IY1 EY1 P IY1;IY1 P
+eappen		IY1 P AH0 N
+ear	ear	IY1 R;IH1 R
+eardley		IH1 R D L IY0;ER1 D L IY0
+eared	eared	IH1 R D
+earful	ear·ful	IY1 R F AH2 L
+earfull		IH1 R F AH2 L
+eargle		IH1 R G AH0 L
+earhart	ear·hart	IH1 R HH AA0 R T;EH1 R HH AA0 R T
+earl	earl	ER1 L
+earl's		ER1 L Z
+earldom	earl·dom	ER1 L D AH0 M
+earle		ER1 L
+earlene	ear·lene	ER1 L IY0 N
+earles		ER1 L Z
+earless	ear·less	IH1 R L AH0 S;IY1 R L AH0 S
+earley		ER1 L IY0
+earlie		ER1 L IY0
+earlier	ear·li·er	ER1 L IY0 ER0
+earlier's		ER1 L IY0 ER0 Z
+earliest	ear·li·est	ER1 L IY0 AH0 S T
+earline	ear·line	ER1 L AY0 N
+earll		ER1 L
+earls		ER1 L Z
+early	ear·ly	ER1 L IY0
+earlywine		ER1 L IY0 W AY2 N
+earmark	ear·mark	IH1 R M AA2 R K;IY1 R M AA2 R K
+earmarked		IH1 R M AA2 R K T;IY1 R M AA2 R K T
+earmarking		IH1 R M AA2 R K IH0 NG;IY1 R M AA2 R K IH0 NG
+earmarks		IH1 R M AA2 R K S;IY1 R M AA2 R K S
+earmuff	ear·muff	IH1 R M AH2 F;IY1 R M AH2 F
+earmuffs		IH1 R M AH2 F S;IY1 R M AH2 F S
+earn	earn	ER1 N
+earned		ER1 N D
+earner	earn·er	ER1 N ER0
+earners		ER1 N ER0 Z
+earnest	ear·nest	ER1 N IH0 S T
+earnestly	ear·nest·ly	ER1 N AH0 S T L IY0
+earnestness	ear·nest·ness	ER1 N AH0 S T N AH0 S
+earney		ER1 N IY0
+earnhardt		ER1 N HH AA2 R T
+earnhart		ER1 N HH AA2 R T
+earnheart		ER1 N HH AA2 R T
+earning	earn·ing	ER1 N IH0 NG
+earnings	earn·ings	ER1 N IH0 NG Z
+earnings'		ER1 N IH0 NG Z
+earns		ER1 N Z
+earnshaw		ER1 N SH AO2
+earp	earp	ER1 P
+earphone	ear·phone	IH1 R F OW2 N;IY1 R F OW2 N
+earphones		IH1 R F OW2 N Z;IY1 R F OW2 N Z
+earpiece	ear·piece	IH1 R P IY0 S;IY1 R P IY0 S
+earpieces		IH1 R P IY0 S IH0 Z;IY1 R P IY0 S IH0 Z
+earplug	ear·plug	IH1 R P L AH2 G;IY1 R P L AH2 G
+earplugs		IH1 R P L AH2 G Z;IY1 R P L AH2 G Z
+earring	ear·ring	IH1 R IH0 NG;IY1 R IH0 NG
+earrings		IH1 R IH0 NG Z;IY1 R IH0 NG Z
+ears		IH1 R Z;IY1 R Z
+earshot	ear·shot	IH1 R SH AA2 T;IY1 R SH AA2 T
+earth	earth	ER1 TH
+earth's		ER1 TH S
+earth-like		ER1 TH L AY2 K
+eartha	ear·tha	ER1 TH AH0
+earthbound	earth·bound	ER1 TH B AW2 N D
+earthen	earth·en	ER1 TH AH0 N
+earthenware	earth·en·ware	ER1 TH AH0 N W EH2 R
+earthling	earth·ling	ER1 TH L IH0 NG
+earthlings		ER1 TH L IH0 NG Z
+earthly	earth·ly	ER1 TH L IY0
+earthmoving		ER1 TH M UW2 V IH0 NG
+earthquake	earth·quake	ER1 TH K W EY2 K
+earthquake's		ER1 TH K W EY2 K S
+earthquakes		ER1 TH K W EY2 K S
+earths		ER1 TH S
+earthshaking	earth·shak·ing	ER1 TH SH EY2 K IH0 NG
+earthshine	earth·shine	ER1 TH SH AY2 N
+earthstar	earth·star	ER1 TH S T AA2 R
+earthwork	earth·work	ER1 TH W ER2 K
+earthworm	earth·worm	ER1 TH W ER2 M
+earthworms		ER1 TH W ER2 M Z
+earthy	earth·y	ER1 TH IY0
+earvin		ER1 V IH0 N
+earwax	ear·wax	IH1 R W AE2 K S;IY1 R W AE2 K S
+earwood		IH1 R W UH2 D;IY1 R W UH2 D
+eary		IH1 R IY0
+easco		IY1 S K OW0
+ease	ease	IY1 Z
+eased		IY1 Z D
+easel	ea·sel	IY1 Z AH0 L
+easement	ease·ment	IY1 Z M AH0 N T
+eases		IY1 Z IH0 Z
+eash		IY1 SH
+easib		IY1 S IH0 B
+easier	eas·i·er	IY1 Z IY0 ER0
+easiest	eas·i·est	IY1 Z IY0 AH0 S T
+easily	eas·i·ly	IY1 Z AH0 L IY0
+easing	eas·ing	IY1 Z IH0 NG
+easler		IY1 Z L ER0
+easley	eas·ley	IY1 Z L IY0
+easom		IY1 Z AH0 M
+eason		IY1 Z AH0 N
+east	east	IY1 S T
+east's		IY1 S T S
+eastbound	east·bound	IY1 S T B AW2 N D
+eastburn		IY1 S T B ER2 N
+eastdil		IY1 S T D IH2 L
+eastend		IY1 S T EH2 N D
+eastender		IY1 S T EH2 N D ER0
+eastenders		IY1 S T EH2 N D ER0 Z
+eastep		IY1 Z T IH0 P
+easter	east·er	IY1 S T ER0
+easterbrook		IY1 S T ER0 B R UH2 K
+easterday		IY1 S T ER0 D EY2
+easterlin		AH0 Z T ER1 L IH0 N;IY1 S T ER0 L IH0 N
+easterling	east·er·ling	IY1 S T ER0 L IH0 NG
+easterly	east·er·ly	IY1 S T ER0 L IY0
+eastern	east·ern	IY1 S T ER0 N
+eastern's		IY1 S T ER0 N Z
+eastern-west		IY1 S T ER0 N W EH1 S T
+easterner	east·ern·er	IY1 S T ER0 N ER0
+easterners		IY1 S T ER0 N ER0 Z
+easterwood		IY1 S T ER0 W UH2 D
+eastes		IY1 S T S
+eastgroup		IY1 S T G R UW2 P
+eastham		IY1 S T AH0 M
+eastin		IY1 Z T IH0 N
+eastland	east·land	IY1 S T L AH0 N D;IY1 S T L AE0 N D;IY1 S L AH0 N D;IY1 S L AE0 N D
+eastland's		IY1 S T L AH0 N D Z;IY1 S T L AE0 N D Z;IY1 S L AH0 N D Z;IY1 S L AE0 N D Z
+eastlick		IY1 S T L IH2 K
+eastman	east·man	IY1 S T M AH0 N
+eastmet		IY1 S T M EH2 T
+eastmet's		IY1 S T M EH2 T S
+easton	eas·ton	IY1 S T AH0 N
+eastover		IY1 S T OW2 V ER0
+eastpac		IY1 S T P AE2 K
+eastpac's		IY1 S T P AE2 K S
+eastridge		IY1 S T R IH2 JH
+eastward	east·ward	IY1 S T W ER0 D
+eastwick		IY1 S T W IH2 K
+eastwind		IY1 S T W IH0 N D
+eastwood		IY1 S T W UH2 D
+eastwood's		IY1 S T W UH2 D Z
+easudes		EY2 S UW1 D EY0 S
+easy	eas·y	IY1 Z IY0
+easy's		IY1 Z IY0 Z
+easygoing	eas·y·go·ing	IY1 Z IY0 G OW1 IH0 NG
+eat	eat	IY1 T
+eatable	eat·a·ble	IY1 T AH0 B AH0 L
+eaten	eat·en	IY1 T AH0 N
+eater	eat·er	IY1 T ER0
+eateries	eat·er·ies	IY1 T ER0 IY0 Z
+eaters		IY1 T ER0 Z
+eatery	eat·er·y	IY1 T ER0 IY0
+eatherly		EH1 DH ER0 L IY0
+eatherton		EH0 TH ER1 T AH0 N;IY2 TH ER1 T AH0 N
+eating	eat·ing	IY1 T IH0 NG
+eatman		IY1 T M AH0 N
+eatmon		IY1 T M AH0 N
+eaton	ea·ton	IY1 T AH0 N
+eaton's		IY1 T AH0 N Z
+eats	eats	IY1 T S
+eau	eau	OW1
+eau-claire		OW1 K L EH1 R
+eaux		OW1;OW1 Z
+eave	eave	IY1 V
+eavenson		IY1 V IH0 N S AH0 N
+eaves	eaves	IY1 V Z
+eavesdrop	eaves·drop	IY1 V Z D R AA2 P
+eavesdropping	eaves·drop·ping	IY1 V Z D R AA2 P IH0 NG
+eb		EH1 B
+eba		IY1 B AH0
+eban		EH1 B AH0 N;IY1 B AH0 N
+ebanks		EH1 B AH0 NG K S
+ebano		EH0 B AA1 N OW0;IY1 B AH0 N OW0
+ebarb		EH1 B AA0 R B
+ebasco		EH0 B AE1 S K OW0
+ebaugh		EH1 B AO0
+ebay		IY1 B EY2
+ebay's		IY1 B EY2 Z
+ebb	ebb	EH1 B
+ebba		EH1 B AH0
+ebbed		EH1 B AH0 D
+ebben		EH1 B AH0 N
+ebbers		EH1 B ER0 Z
+ebbert		EH1 B ER0 T
+ebbing		EH1 B IH0 NG
+ebbs		EH1 B Z
+ebby		EH1 B IY0
+ebel		EH1 B AH0 L
+ebeling		EH1 B AH0 L IH0 NG
+eben		EH1 B AH0 N
+ebeneezer		EH1 B AH0 N IY2 Z ER0
+ebenezer	eb·e·ne·zer	EH2 B IH0 N IY1 Z ER0
+eber		EH1 B ER0
+eberhard	eb·er·hard	EH1 B ER0 HH AA0 R T
+eberhardt		EH1 B ER0 HH AA2 R T
+eberhart	e·ber·hart	EH1 B ER0 HH AA2 R T
+eberl		EH1 B ER0 L
+eberle		EH1 B ER0 AH0 L
+eberlein		EH1 B ER0 L AY2 N
+eberlin		EH1 B ER0 L IH0 N
+eberling		EH1 B ER0 L IH0 NG
+eberly		EH1 B ER0 L IY0
+ebers		EH1 B ER0 Z
+ebersol		EH1 B ER0 S AA0 L
+ebersold		EH1 B ER0 S OW2 L D
+ebersole		EH1 B ER0 S OW2 L
+eberstadt		EH1 B ER0 S T AE2 T
+ebert	e·bert	EH1 B ER0 T
+eberts		EH1 B ER0 T S
+eberwein		EH1 B ER0 W AY2 N
+ebey		EH1 B IY0
+ebinger		EH1 B IH0 NG ER0
+eble		EH1 B AH0 L
+eblen		EH1 B AH0 L AH0 N
+eblin		EH1 B L IH0 N
+ebling		EH1 B AH0 L IH0 NG;EH1 B L IH0 NG
+ebner	eb·ner	EH1 B N ER0
+ebola		IY0 B OW1 L AH0
+ebonic		IY0 B AO1 N IH0 K
+ebonics		IY0 B AO1 N IH0 K S
+ebony	eb·on·y	EH1 B AH0 N IY0
+ebright		IH2 B R AY1 T
+ebro	e·bro	IY1 B R OW2
+ebron		EH1 B R AH0 N
+ebullience	e·bul·lience	IH2 B UH1 L Y AH0 N S
+ebullient	e·bul·lient	IH2 B AH1 L Y AH0 N T
+eby		IY1 B IY0
+ecad	e·cad	IY1 K AE2 D
+eccentric	ec·cen·tric	IH0 K S EH1 N T R IH0 K;EH2 K S EH1 N T R IH0 K
+eccentricities		EH2 K S EH0 N T R IH1 S IH0 T IY0 Z
+eccentricity	ec·cen·tric·i·ty/ec·cen·tri·ci·ty	EH2 K S AH0 N T R IH1 S AH0 T IY0
+eccentrics		IH0 K S EH1 N T R IH0 K S;EH2 K S EH1 N T R IH0 K S
+eccles	eccles/ec·cles	EH1 K AH0 L Z
+ecclesiastic	ec·cle·si·as·tic	IH0 K L IY2 Z IY0 AE1 S T IH0 K
+ecclesiastical	ec·cle·si·as·ti·cal	IH0 K L IY2 Z IY0 AE1 S T IH0 K AH0 L
+eccleston		EH1 K AH0 L S T AA0 N
+ecevit	e·ce·vit	EH1 S AH0 V IH0 T
+echard	ec·hard	EH1 CH ER0 D
+echavarria		EH2 CH AH0 V AE1 R IY0 AH0
+echelon	ech·e·lon/e·che·lon	EH1 SH AH0 L AA2 N
+echelons		EH1 SH AH0 L AA2 N Z
+echemende		EH2 K AH0 M EH1 N D
+echenberg		EH1 K AH0 N B ER0 G
+echevarria		EY0 CH EY0 V AA1 R IY0 AH0
+echeverria		EY0 CH EY0 V EH1 R IY0 AH0
+echidna	e·chid·na	IH0 K IH1 D N AH0
+echinacea		EH2 CH AH0 N EY1 S IY2 AH0
+echlin		EH1 K L IH0 N
+echlin's		EH1 K L IH0 N Z
+echo	ech·o	EH1 K OW0
+echo's		EH1 K OW0 Z
+echoed	ech·oed	EH1 K OW0 D
+echoes	ech·oes	EH1 K OW0 Z
+echograph	ech·o·graph	EH1 K OW0 G R AE2 F
+echography		EH0 K AA1 G R AH0 F IY0
+echohawk		EH1 K OW0 HH AO2 K
+echohawk's		EH1 K OW0 HH AO2 K S
+echoing	ech·o·ing	EH1 K OW0 IH0 NG
+echolocation	ech·o·lo·ca·tion	EH2 K OW0 L OW0 K EY1 SH AH0 N
+echols		EH1 K AH0 L Z
+echos		EH1 K OW0 Z
+eck	eck	EH1 K
+eckard		EH1 K ER0 D;EH1 K HH AA2 R D
+eckardt	eck·ardt	EH1 K ER0 T;EH1 K HH AA2 R T
+eckardt's		EH1 K ER0 T S;EH1 K HH AA2 R T S
+eckart	eck·art	EH1 K AA0 R T
+eckberg		EH1 K B ER0 G
+eckel		EH1 K AH0 L
+eckelberry		EH1 K AH0 L B EH2 R IY0
+eckels		EH1 K AH0 L Z
+eckenfelder		EH1 K AH0 N F EH2 L D ER0
+eckenrod		EH1 K IH0 N R AH0 D
+eckenrode		EH1 K IH0 N R OW2 D
+eckenroth		EH1 K IH0 N R AO0 TH
+ecker		EH1 K ER0
+eckerd		EH1 K ER0 D
+eckerle		EH1 K ER0 AH0 L
+eckerman		EH1 K ER0 M AH0 N
+eckersley		EH1 K ER0 S L IY0
+eckerson		EH1 K ER0 S AH0 N
+eckert		EH1 K ER0 T
+eckert's		EH1 K ER0 T S
+eckes		EH1 K S
+eckford		EH1 K F ER0 D
+eckhard		EH1 K HH AA2 R D
+eckhardt	eck·hardt	EH1 K HH AA2 R T
+eckhart	eck·hart	EH1 K HH AA2 R T
+eckhoff		EH1 K HH AO2 F
+eckl		EH1 K AH0 L
+eckland		EH1 K L AH0 N D
+eckler		EH1 K L ER0
+eckles		EH1 K AH0 L Z
+eckley		EH1 K L IY0
+ecklund		EH1 K L AH0 N D
+eckman		EH1 K M AH0 N
+eckmann		EH1 K M AH0 N
+eckrich		EH1 K R IH0 K
+eckrote		EH1 K R AH0 T
+eckroth		EH1 K R AO2 TH
+eckstein		EH1 K S T IY2 N;EH1 K S T AY2 N
+eckstrom		EH1 K S T R AH0 M
+eclectic	ec·lec·tic	IH0 K L EH1 K T IH0 K
+eclipse	e·clipse	IH0 K L IH1 P S;AH0 K L IH1 P S;IY0 K L IH1 P S
+eclipsed	e·clipsed	IH0 K L IH1 P S T;AH0 K L IH1 P S T;IY0 K L IH1 P S T
+eclipses		IH0 K L IH1 P S IH0 Z;IY0 K L IH1 P S IH0 Z
+eclipsing	e·clips·ing	IH0 K L IH1 P S IH0 NG;IY0 K L IH1 P S IH0 NG;AH0 K L IH1 P S IH0 NG
+ecliptic	e·clip·tic	IH0 K L IH1 P T IH0 K
+eco		IY1 K OW0;EH1 K OW0
+ecogen		IY1 K OW0 G AH0 N
+ecolab		IY1 K OW0 L AE2 B;EH1 K OW0 L AE2 B
+ecolaire		IY1 K OW0 L EH2 R
+ecole		IH0 K OW1 L
+ecological	ec·o·log·i·cal	IY0 K AH0 L AA1 JH IH0 K AH0 L;EH0 K AH0 L AA1 JH IH0 K AH0 L
+ecologically	ec·o·log·i·cal·ly	IY0 K AH0 L AA1 JH IH0 K L IY0;EH0 K AH0 L AA1 JH IH0 K L IY0
+ecologist	e·col·o·gist	IH0 K AA1 L AH0 JH IH0 S T;IY0 K AA1 L AH0 JH IH0 S T
+ecologists		IH0 K AA1 L AH0 JH IH0 S T S;IY0 K AA1 L AH0 JH IH0 S T S;IH0 K AA1 L AH0 JH IH0 S;IY0 K AA1 L AH0 JH IH0 S
+ecology	e·col·o·gy	IH0 K AA1 L AH0 JH IY0;IY0 K AA1 L AH0 JH IY0
+econ	econ	IY1 K AA2 N
+econocom		IY0 K AA1 N OW0 K AA2 M
+econoline		IY0 K AA1 N OW0 L AY2 N
+econometric	e·con·o·met·ric	IH0 K AA2 N AH0 M EH1 T R IH0 K
+econometrics	e·con·o·met·rics	IH0 K AA2 N AH0 M EH1 T R IH0 K S
+economic	e·co·nom·ic	EH2 K AH0 N AA1 M IH0 K;IY2 K AH0 N AA1 M IH0 K
+economical	e·co·nom·i·cal	EH2 K AH0 N AA1 M IH0 K AH0 L;IY2 K AH0 N AA1 M IH0 K AH0 L
+economically	e·co·nom·i·cal·ly	EH2 K AH0 N AA1 M IH0 K L IY0;IY2 K AH0 N AA1 M IH0 K L IY0
+economico		IY0 K AA2 N AH0 M IY1 K OW0
+economics	e·co·nom·ics	EH2 K AH0 N AA1 M IH0 K S;IY2 K AH0 N AA1 M IH0 K S
+economies		IH0 K AA1 N AH0 M IY0 Z;IY0 K AA1 N AH0 M IY0 Z
+economist	e·con·o·mist	IH0 K AA1 N AH0 M IH0 S T;IY0 K AA1 N AH0 M IH0 S T
+economist's		IH0 K AA1 N AH0 M IH0 S T S;IY0 K AA1 N AH0 M IH0 S T S;IH0 K AA1 N AH0 M IH0 S;IY0 K AA1 N AH0 M IH0 S
+economists		IH0 K AA1 N AH0 M IH0 S T S;IH0 K AA1 N AH0 M IH0 S;IY0 K AA1 N AH0 M IH0 S
+economists'		IH0 K AA1 N AH0 M IH0 S T S;IY0 K AA1 N AH0 M IH0 S T S
+economize	e·con·o·mize	IH0 K AA1 N AH0 M AY2 Z;IY0 K AA1 N AH0 M AY2 Z
+economizes		IH0 K AA1 N AH0 M AY2 Z AH0 Z;IY0 K AA1 N AH0 M AY2 Z AH0 Z
+economizing	e·con·o·miz·ing	IH0 K AA1 N AH0 M AY2 Z IH0 NG;IY0 K AA1 N AH0 M AY2 Z IH0 NG
+economos		EH0 K AH0 N OW1 M OW0 Z
+economou		EH0 K OW0 N OW1 M UW0
+economy	e·con·o·my	IH0 K AA1 N AH0 M IY0;IY0 K AA1 N AH0 M IY0
+economy's		IH0 K AA1 N AH0 M IY0 Z;IY0 K AA1 N AH0 M IY0 Z
+econships		IY1 K AA2 N SH IH2 P S
+ecosystem	ec·o·sys·tem/e·co·sys·tem	IY1 K OW0 S IH2 S T AH0 M
+ecosystems		IY1 K OW0 S IH2 S T AH0 M Z
+ecru	ec·ru	EH1 K R UW0
+ecstasy	ec·sta·sy	EH1 K S T AH0 S IY0
+ecstatic	ec·stat·ic	EH0 K S T AE1 T IH0 K
+ecstatically	ec·stat·i·cal·ly	EH0 K S T AE1 T IH0 K L IY0
+ecton		EH1 K T AH0 N
+ector		EH1 K T ER0
+ecuador	ec·ua·dor	EH1 K W AH0 D AO2 R
+ecuador's		EH1 K W AH0 D AO2 R Z
+ecuadoran		EH2 K W AH0 D AO1 R AH0 N
+ecuadorean	ec·ua·do·re·an	EH2 K W AH0 D AO1 R IY0 AH0 N
+ecuadorian	ec·ua·do·ri·an	EH2 K W AH0 D AO1 R IY0 AH0 N
+ecumena		EH2 K Y UW0 M IY1 N AH0
+ecumenical	ec·u·men·i·cal/e·cu·men·i·cal	EH2 K Y UW0 M EH1 N IH0 K AH0 L
+eczema	ec·ze·ma	EH1 K S AH0 M AH0
+ed		EH1 D
+ed's		EH1 D Z
+eda	ed·a	IY1 D AH0
+edam	e·dam	IY1 D AH0 M
+edan		IY1 D AH0 N
+edana		EH0 D AE1 N AH0
+edberg		EH1 D B ER0 G
+edbert		EH1 D B ER0 T
+eddie	ed·die	EH1 D IY0
+eddie's		EH1 D IY2 Z
+eddies		EH1 D IY0 Z
+eddinger		EH1 D IH0 NG ER0
+eddings		EH1 D IH0 NG Z
+eddington	ed·ding·ton	EH1 D IH0 NG T AH0 N
+eddins		EH1 D IH0 N Z
+eddleman		EH1 D AH0 L M AH0 N
+eddlemon		EH1 D AH0 L M AA0 N
+edds		EH1 D Z
+eddy	ed·dy	EH1 D IY0
+ede	e·de	IY1 D
+edel		EH1 D AH0 L
+edelen		EH1 D AH0 L AH0 N
+edeline	ed·e·line	EH1 D IH0 L AY0 N
+edell		IH0 D EH1 L
+edelman		EH1 D AH0 L M AH0 N;EY1 D AH0 L M AH0 N
+edelman's		EH1 D AH0 L M AH0 N Z;EY1 D AH0 L M AH0 N Z
+edelmann		EH1 D AH0 L M AH0 N
+edelmar		EH1 D IH0 L M ER0
+edelson		EH1 D IH0 L S AH0 N
+edelstein		EH1 D AH0 L S T AY2 N;EH1 D AH0 L S T IY2 N
+edelweiss	e·del·weiss	EY1 D AH0 L V AY2 S
+edema	e·de·ma	IH0 D IY1 M AH0
+eden	e·den	IY1 D AH0 N
+edenfield		EH1 D AH0 N F IY2 L D
+edens		IY1 D AH0 N Z
+edenton	e·den·ton	EH1 D AH0 N T AH0 N
+eder		EH1 D ER0
+ederer		EH1 D ER0 ER0
+edes		IY1 D Z
+edgar	ed·gar	EH1 D G ER0
+edgar's		EH1 D G ER0 Z
+edgcomb		EH1 JH K AH0 M
+edge	edge	EH1 JH
+edgecomb		EH1 JH K AO0 M
+edgecombe		EH1 JH K OW0 M
+edged		EH1 JH D
+edgell		EH1 JH AH0 L
+edgemon		EH1 JH M AH0 N
+edger	edg·er	EH1 JH ER0
+edgerly		EH1 JH ER0 L IY0
+edgerton	edg·er·ton	EH1 JH ER0 T AH0 N
+edges		EH1 JH AH0 Z;EH1 JH IH0 Z
+edgett		EH1 JH IH0 T
+edgeway		EH1 JH W EY2
+edgeways	edge·ways	EH1 JH W EY2 Z
+edgewise	edge·wise	EH1 JH W AY2 Z
+edgewood	edge·wood	EH1 JH W UH2 D
+edgeworth	edge·worth	EH1 JH W ER0 TH
+edgin		EH1 JH IH0 N
+edginess	edg·i·ness	EH1 JH IY0 N AH0 S
+edging	edg·ing	EH1 JH IH0 NG
+edgington		EH1 JH IH0 NG T AH0 N
+edgington's		EH1 JH IH0 NG T AH0 N Z
+edgley		EH1 JH L IY0
+edgmon		EH1 JH M AH0 N
+edgren		EH1 D G R EH0 N
+edgy	edg·y	EH1 JH IY0
+edi		IY1 D IY0
+edible	ed·i·ble	EH1 D AH0 B AH0 L
+edibles	ed·i·bles	EH1 D AH0 B AH0 L Z
+edick		EH1 D IH0 K
+edict	e·dict	IY1 D IH0 K T
+edicts		IY1 D IH0 K T S
+edie	e·die	EH1 D IY0
+edification	ed·i·fi·ca·tion	EH2 D AH0 F AH0 K EY1 SH AH0 N
+edifice	ed·i·fice	EH1 D AH0 F AH0 S
+edify	ed·i·fy	EH1 D AH0 F AY2
+edifying	ed·i·fy·ing	EH1 D AH0 F AY2 IH0 NG
+ediger		EH1 D IH0 G ER0
+edin		EH1 D IH0 N
+edina	e·di·na	AH0 D IY1 N AH0
+edinboro		EH1 D AH0 N B ER0 OW0
+edinburgh	ed·in·burgh	EH1 D AH0 N B ER0 OW0
+edinger		EH1 D IH0 NG ER0
+edington		EH1 D IH0 NG T AH0 N
+edison	ed·i·son	EH1 D IH0 S AH0 N
+edison's		EH1 D IH0 S AH0 N Z
+edisons		EH1 D IH0 S AH0 N Z
+edisto		EH1 D IH0 S T OW0
+edit	edit/ed·it	EH1 D AH0 T
+edited		EH1 D AH0 T AH0 D;EH1 D IH0 T IH0 D
+edith	e·dith	IY1 D IH0 TH
+editha		EH1 D IH0 DH AH0
+edithe	e·dithe	EH1 D IH0 DH
+editing		EH1 D AH0 T IH0 NG;EH1 D IH0 T IH0 NG
+edition	e·di·tion	AH0 D IH1 SH AH0 N;IH0 D IH1 SH AH0 N
+edition's		IH0 D IH1 SH AH0 N Z
+editions		IH0 D IH1 SH AH0 N Z
+editor	ed·i·tor	EH1 D AH0 T ER0;EH1 D IH0 T ER0
+editor's		EH1 D IH0 T ER0 Z
+editorial	ed·i·to·ri·al	EH2 D AH0 T AO1 R IY0 AH0 L
+editorial's		EH2 D AH0 T AO1 R IY0 AH0 L Z
+editorialist	ed·i·to·ri·al·ist	EH2 D AH0 T AO1 R IY0 AH0 L IH0 S T
+editorialists		EH2 D AH0 T AO1 R IY0 AH0 L IH0 S T S
+editorialize	ed·i·to·ri·al·ize	EH2 D AH0 T AO1 R IY0 AH0 L AY2 Z
+editorialized	ed·i·to·ri·al·ized	EH2 D AH0 T AO1 R IY0 AH0 L AY2 Z D
+editorializing	ed·i·to·ri·al·iz·ing	EH2 D AH0 T AO1 R IY0 AH0 L AY2 Z IH0 NG
+editorially	ed·i·to·ri·al·ly	EH2 D AH0 T AO1 R IY0 AH0 L IY0
+editorials		EH2 D AH0 T AO1 R IY0 AH0 L Z
+editors		EH1 D IH0 T ER0 Z
+editors'		EH1 D IH0 T ER0 Z
+editorship	ed·i·tor·ship	EH1 D AH0 T ER0 SH IH2 P
+edits		EH1 D IH0 T S
+ediva		EH0 D IY1 V AH0
+edival		EH0 D IY1 V AH0 L;EH1 D IY0 V AE2 L
+edizione		EH0 D IY2 Z IY0 OW1 N IY0
+edleman		EH1 D AH0 L M AH0 N
+edler		EH1 D L ER0
+edley	ed·ley	EH1 D L IY0
+edlin		EH1 D L IH0 N
+edling		EH1 D L IH0 NG
+edlund		EH1 D L AH0 N D
+edlyn		EH1 D L IH0 N
+edman	ed·man	EH1 D M AH0 N
+edmands		EH1 D M AH0 N D Z
+edmar		EH1 D M AA0 R
+edmark		EH1 D M AA0 R K
+edminster		IH0 D M IH1 N S T ER0
+edmison		EH1 D M IH0 S AH0 N
+edmisten		EH0 D M IH1 S AH0 N
+edmister		EH1 D M IH0 S T ER0
+edmiston		EH1 D M IH0 S T AA0 N
+edmond	ed·mond	EH1 D M AH0 N D
+edmonda		EH2 D M AA1 N D AH0
+edmonds	ed·monds	EH1 D M AH0 N D Z
+edmondson		EH1 D M AH0 N D S AH0 N
+edmonson		EH1 D M AH0 N S AH0 N
+edmonston		IH0 D M AA1 N S T AH0 N
+edmonton	ed·mon·ton	EH1 D M AH0 N T AH0 N
+edmund	ed·mund	EH1 D M AH0 N D
+edmunda	ed·mun·da	EH2 D M AH1 N D AH0
+edmundo		EH2 D M AH1 N D OW0
+edmunds	ed·munds	EH1 D M AH0 N D Z
+edmundson		EH1 D M AH0 N D S AH0 N
+edna	ed·na	EH1 D N AH0
+edney		EH1 D N IY0
+edo	ed·o/e·do	IY1 D OW0
+edoardo		EH2 D W AA1 R D OW0
+edolf		EH1 D OW0 L F
+edouard		EH1 D UW0 AA0 R D
+edper		EH1 D P ER0
+edquist		EH1 D K W IH2 S T
+edra		EH1 D R AH0
+edrea		EH1 D R IY0 AH0
+edric		EH1 D R IH0 K
+edrington		EH1 D ER0 IH0 NG T AH0 N
+edris		IH0 D R IY1 S
+edsall		IH0 D S AO1 L
+edsel	ed·sel	EH1 D S AH0 L
+edson		EH1 D S AH0 N
+edstrom		EH1 D S T R AH0 M
+edu		EH1 D Y UW0;IY1 D IY1 Y UW1
+eduard	ed·u·ard/e·du·ard	EH1 D W ER0 D
+eduardo	e·duar·do	EH0 D W AA1 R D OW0
+educate	ed·u·cate	EH1 JH AH0 K EY2 T;EH1 JH Y UW0 K EY2 T
+educated	ed·u·cat·ed	EH1 JH AH0 K EY2 T IH0 D;EH1 JH Y UW0 K EY2 T IH0 D
+educates		EH1 JH AH0 K EY2 T S;EH1 JH Y AH0 K EY2 T S;EH1 JH UW0 K EY2 T S;EH1 JH Y UW0 K EY2 T S
+educating	ed·u·cat·ing	EH1 JH AH0 K EY2 T IH0 NG;EH1 JH Y UW0 K EY2 T IH0 NG
+education	educa·tion/ed·u·ca·tion	EH2 JH AH0 K EY1 SH AH0 N;EH2 JH Y UW0 K EY1 SH AH0 N
+education's		EH2 JH AH0 K EY1 SH AH0 N Z;EH2 JH Y UW0 K EY1 SH AH0 N Z
+educational	ed·u·ca·tion·al	EH2 JH AH0 K EY1 SH AH0 N AH0 L;EH2 JH Y UW0 K EY1 SH AH0 N AH0 L
+educationally	ed·u·ca·tion·al·ly	EH2 JH AH0 K EY1 SH AH0 N AH0 L IY0;EH2 JH AH0 K EY1 SH N AH0 L IY0;EH2 JH Y UW0 K EY1 SH AH0 N AH0 L IY0;EH2 JH Y UW0 K EY1 SH N AH0 L IY0
+educations		EH2 JH AH0 K EY1 SH AH0 N Z;EH2 JH Y UW0 K EY1 SH AH0 N Z
+educative	ed·u·ca·tive	EH2 JH IH0 K EY1 T IH0 V
+educator	ed·u·ca·tor	EH1 JH AH0 K EY2 T ER0;EH1 JH Y UW0 K EY2 T ER0
+educators		EH1 JH AH0 K EY2 T ER0 Z;EH1 JH Y UW0 K EY2 T ER0 Z
+edwald		IH0 D W AO1 L D
+edward	ed·ward	EH1 D W ER0 D
+edward's		EH1 D W ER0 D Z
+edwardian	ed·ward·i·an	EH0 D W AO1 R D IY0 AH0 N
+edwardine		IH0 D W AO1 R D AY0 N
+edwards	ed·wards	EH1 D W ER0 D Z
+edwards'		EH1 D W ER0 D Z
+edwards's		EH1 D W ER0 D Z IH0 Z
+edwardson		EH1 D W AO0 R D S AH0 N
+edwin	ed·win	EH1 D W AH0 N;EH1 D W IH0 N
+edwina	ed·wi·na	EH0 D W IY1 N AH0
+edye		EH1 D IY0;IY1 D IY0
+edyth	e·dyth	EH1 D IH0 TH
+edythe	e·dythe	EH1 D AY0 DH
+edzard		EH1 D Z ER0 D
+ee		IY1
+eeg	eeg	IY1 G
+eel	eel	IY1 L
+eelam		IY1 L AE0 M
+eelgrass	eel·grass	IY1 L G R AE2 S
+eellike	eel·like	IY1 L L AY2 K
+eelpout	eel·pout	IY1 L P AW2 T
+eelpouts		IY1 L P AW2 T S
+eels		IY1 L Z
+eeo		IY1 IY1 OW1
+eerie	ee·rie	IH1 R IY0
+eerily	ee·ri·ly	IH1 R AH0 L IY0
+efaw		EH1 F AO0
+efecto		IH0 F EH1 K T OW0
+efface	ef·face	IH0 F EY1 S
+effacing	ef·fac·ing	IH0 F EY1 S IH0 NG
+effect	ef·fect	IH0 F EH1 K T;IY1 F EH0 K T;AH0 F EH1 K T
+effected		IH0 F EH1 K T IH0 D;IY1 F EH0 K T AH0 D;IY1 F EH0 K T IH0 D
+effecting		IH0 F EH1 K T IH0 NG;IY1 F EH0 K T IH0 NG
+effective	ef·fec·tive	IH0 F EH1 K T IH0 V;IY1 F EH0 K T IH0 V
+effectively	ef·fec·tive·ly	IH0 F EH1 K T IH0 V L IY0;IY1 F EH0 K T IH0 V L IY0
+effectiveness	ef·fec·tive·ness	IH0 F EH1 K T IH0 V N AH0 S;IY1 F EH0 K T IH0 V N AH0 S
+effector	ef·fec·tor	IH0 F EH1 K T ER0
+effectors		IH0 F EH1 K T ER0 Z
+effects	ef·fects	IH0 F EH1 K T S;IY1 F EH0 K T S
+effectuate	ef·fec·tu·ate	IH0 F EH1 K CH UW0 EY2 T
+effeminate	ef·fem·i·nate	IY0 F EH1 M IH0 N AH0 T
+efferent	ef·fer·ent	EH1 F ER0 AH0 N T
+efferson		EH1 F ER0 S AH0 N
+effertz		EH1 F ER0 T S
+effervescent	ef·fer·ves·cent	EH2 F ER0 V EH1 S AH0 N T
+effete	ef·fete	EH0 F IY1 T
+efficacious	ef·fi·ca·cious	EH2 F AH0 K EY1 SH AH0 S
+efficacy	ef·fi·ca·cy	EH1 F IH0 K AE2 S IY0
+efficiencies		IH0 F IH1 SH AH0 N S IY0 Z
+efficiency	ef·fi·cien·cy	IH0 F IH1 SH AH0 N S IY0
+efficient	ef·fi·cient	IH0 F IH1 SH AH0 N T
+efficiently	ef·fi·cient·ly	IH0 F IH1 SH AH0 N T L IY0
+effie	ef·fie	EH1 F IY0
+effigy	ef·fi·gy	EH1 F IH0 JH IY0
+effinger		EH1 F IH0 NG ER0
+effingham	ef·fing·ham	EH1 F IH0 NG AH0 M;EH1 F IH0 NG HH AH0 M
+effler		EH1 F L ER0
+effluence	ef·flu·ence	EH1 F L UW0 AH0 N S
+effluent	ef·fluent/ef·flu·ent	EH1 F L UW0 AH0 N T
+efflux	ef·flux	EH1 F L AH0 K S
+effort	ef·fort	EH1 F ER0 T
+effortless	ef·fort·less	EH1 F ER0 T L AH0 S
+effortlessly	ef·fort·less·ly	EH1 F ER0 T L AH0 S L IY0
+efforts		EH1 F ER0 T S
+effron		EH1 F R AH0 N
+effrontery	ef·fron·ter·y	IH0 F R AH1 N T ER0 IY0
+effusive	ef·fu·sive	EH1 F Y UW0 S IH0 V
+effusively	ef·fu·sive·ly	IH0 F Y UW1 S IH0 V L IY0
+effy	ef·fy	EH1 F IY0
+efird		EH1 F ER0 D
+efron		EH1 F R AH0 N
+efta	efta	EH1 F T AH0
+egaldey		IY1 G AH0 L D EY0
+egalitarian	e·gal·i·tar·i·an	IH0 G AE2 L AH0 T EH1 R IY0 AH0 N
+egalitarianism	e·gal·i·tar·i·an·ism	IY0 G AE2 L AH0 T EH1 R IY0 AH0 N IH2 Z AH0 M
+egan		IY1 G AH0 N
+egbert	eg·bert	EH1 G B ER0 T
+egberta		EY0 G B EH1 R T AH0
+egbertina		EH0 G B ER0 T IY1 N AH0
+egbertine		EH1 G B ER0 T IY2 N
+egberts		EH1 G B ER0 T S
+ege		IY1 JH
+egeland		EH1 G IH0 L AH0 N D
+egeler		EH1 G AH0 L ER0
+egelhoff		EH1 G IH0 L HH AO0 F
+egelston		EH1 G IH0 L S T AH0 N
+egelton		EH1 G AH0 L T AH0 N
+eger	e·ger	IY1 G ER0
+egerer		EH1 G ER0 ER0
+egert		EH1 G ER0 T
+egerton		EH1 G ER0 T AH0 N
+egg	egg	EH1 G
+eggcup	egg·cup	EH1 G K AH2 P
+eggcups		EH1 G K AH2 P S
+egge		EH1 G
+eggebrecht		EH1 G IH0 B R IH0 K T
+egged		EH1 G D
+eggemeyer		EH1 G IH0 M AY2 ER0
+eggen		EH1 G AH0 N
+eggenberger		EH1 G AH0 N B ER0 G ER0
+egger	egg·er/eg·ger	EH1 G ER0
+eggers		EH1 G ER0 Z
+eggert		EH1 G ER0 T
+egghead	egg·head	EH1 G HH EH2 D
+egghead's		EH1 G HH EH2 D Z
+eggheads		EH1 G HH EH2 D Z
+egging		EH1 G IH0 NG
+eggleston	eg·gle·ston	EH1 G AH0 L S T AH0 N
+eggleton		EH1 G AH0 L T AA0 N
+eggnog	egg·nog	EH1 G N AO2 G
+eggnogs		EH1 G N AO2 G Z
+eggplant	egg·plant	EH1 G P L AE2 N T
+eggplants		EH1 G P L AE2 N T S
+eggs		EH1 G Z
+eggshape		EH1 G SH EY2 P
+eggshaped		EH1 G SH EY2 P T
+eggshell	egg·shell	EH1 G SH EH2 L
+eggshells		EH1 G SH EH2 L Z
+eggum		EH1 G AH0 M
+egland		EH1 G L AH0 N D
+eglantine	eg·lan·tine	EH1 G L AH0 N T AY2 N
+egle		EH1 G AH0 L
+egler		EH1 G L ER0
+egleston		EH1 G AH0 L S T AA0 N
+egley		EH1 G L IY0
+egli		EH1 G L IY0
+eglin		EH1 G L IH0 N
+eglise		EH2 G L IY1 S
+egloff		EH1 G L AO0 F
+egly		EH1 G L IY0
+egner		EH1 G N ER0
+egnew		IH0 G N UW1
+egnor		EH1 G N ER0
+ego	e·go	IY1 G OW0
+egocentric	e·go·cen·tric	IY2 G OW0 S EH1 N T R IH0 K
+egoism	e·go·ism	IY1 G OW0 IH2 Z AH0 M
+egolf		EH1 G OW0 L F
+egomaniac	e·go·ma·ni·ac	IY2 G OW0 M EY1 N IY0 AE0 K
+egon	e·gon	IY1 G AH0 N;IY1 G AA2 N
+egos	e·gos	IY1 G OW0 Z
+egotism	e·go·tism	IY1 G AH0 T IH2 Z AH0 M
+egotist	e·go·tist	IY1 G AH0 T IH0 S T
+egotistical	e·go·tis·ti·cal	IY2 G AH0 T IH1 S T IH0 K AH0 L
+egregious	e·gre·gious	IH0 G R IY1 JH AH0 S
+egregiously	e·gre·gious·ly	IH0 G R IY1 JH AH0 S L IY0
+egress	e·gress	IH0 G R EH1 S
+egret	e·gret	EH1 G R AH0 T
+egypt	egypt/e·gypt	IY1 JH AH0 P T;IY1 JH IH0 P T
+egypt's		IY1 JH AH0 P T S;IY1 JH IH0 P T S
+egyptair		IY1 JH IH0 P T EH2 R
+egyptian	e·gyp·tian	IH0 JH IH1 P SH AH0 N
+egyptians		IH0 JH IH1 P SH AH0 N Z
+egyptology	e·gyp·tol·o·gy	IY2 JH AH0 P T AA1 L AH0 JH IY0
+eh		EH1
+ehinger		EH1 HH IH0 N JH ER0
+ehle		EH1 L
+ehlen		EH1 L AH0 N
+ehler		EH1 L ER0
+ehlers		EH1 L ER0 Z
+ehlert		EH1 L ER0 T
+ehlinger		EH1 L IH0 NG ER0
+ehlke		EH1 L K
+ehlmann		EH1 L M AH0 N
+ehly		EH1 L IY0
+ehman		EH1 M AH0 N
+ehmann		EH1 M AH0 N
+ehmen		EH1 M EH0 N
+ehmke		EH1 M K IY0
+ehren		EH1 R AH0 N
+ehrenberg		EH1 R AH0 N B ER0 G
+ehrenfeld		EH1 R IH0 N F EH0 L D
+ehrenhalt		EH1 R AH0 N HH AO2 L T
+ehrenkrantz		EH1 R AH0 N K R AE2 N T S
+ehrenreich		EH1 R IH0 N R AY0 K;EH1 R AH0 N R IH2 CH
+ehresman		EH1 R IH0 S M AH0 N
+ehret		EH1 R IH0 T
+ehrhard		EH1 R HH ER0 D
+ehrhardt		EH1 R HH AA0 R T
+ehrhart		EH1 R HH AA0 R T
+ehrich		EH1 R IH0 K
+ehrig		EH1 R IH0 G
+ehrke		EH1 R K
+ehrler		EH1 R L ER0
+ehrlich	ehr·lich	ER1 L IH0 K
+ehrlich's		ER1 L IH0 K S
+ehrlichman		ER1 L IH0 K M AH0 N
+ehrman		EH1 R M AH0 N
+ehrmann		EH1 R M AH0 N
+ehrsam		EH1 R S AH0 M
+ehud		EH0 HH AH1 D
+eiben		AY1 B AH0 N
+eich		AY1 K
+eichberg		AY1 K B ER0 G
+eichel		AY1 K AH0 L
+eichelberger		AY1 K AH0 L B ER0 G ER0
+eichen		AY1 K AH0 N
+eichenbaum		AY1 K AH0 N B AW2 M
+eichenberg		AY1 K AH0 N B ER0 G
+eichenberger		AY1 K AH0 N B ER0 G ER0
+eichenlaub		AY1 K IH0 N L AW0 B
+eicher		AY1 K ER0
+eichholz		AY1 K HH OW0 L Z
+eichhorn		AY1 K HH ER0 N
+eichhorst		AY1 K HH AO0 R S T
+eichinger		AY1 K IH0 N JH ER0
+eichler		AY1 K AH0 L ER0;AY1 K L ER0
+eichman		AY1 K M AH0 N
+eichmann	eich·mann	AY1 K M AH0 N
+eichner		AY1 K N ER0
+eicholtz		AY1 K OW0 L T S
+eichorn		AY1 K AO0 R N
+eichorst		AY1 K HH AO0 R S T
+eichstadt	eich·stadt	AY1 K S T AE0 T
+eichstaedt		AY1 K S T AE0 T
+eick		AY1 K
+eickhoff		AY1 K HH AO2 F
+eickholt		AY1 K HH OW2 L T
+eickmeyer		AY1 K M AY0 ER0
+eid		AY1 D
+eide	ei·de	AY1 D
+eidem		AY1 D IH0 M
+eiden		AY1 D AH0 N
+eidson		IY1 D S AH0 N
+eiermann		AY1 R M AH0 N
+eifert		AY1 F ER0 T
+eiffel	eif·fel	AY1 F AH0 L
+eifler		AY1 F AH0 L ER0;AY1 F L ER0
+eigen		AY1 G AH0 N
+eigenvalue	ei·gen·val·ue	AY1 G AH0 N V AE2 L Y UW0
+eigenvalues		AY1 G AH0 N V AE2 L Y UW0 Z
+eighmey		EY1 M IY0
+eighmy		EY1 G M IY0
+eight	eight	EY1 T
+eight's		EY1 T S
+eighteen	eight·een	EY0 T IY1 N;EY1 T IY1 N
+eighteen's		EY0 T IY1 N Z
+eighteens		EY0 T IY1 N Z
+eighteenth	eight·eenth	EY0 T IY1 N TH;EY1 T IY1 N TH
+eightfold	eight·fold	EY1 T F OW2 L D
+eighth	eighth	EY1 T TH;EY1 TH
+eighths		EY1 T TH S
+eighties	eight·ies	EY1 T IY0 Z
+eightieth	eight·i·eth	EY1 T IY0 IH0 TH
+eights		EY1 T S
+eighty	eight·y	EY1 T IY0
+eighty's		EY1 T IY0 Z
+eigner		AY1 G N ER0
+eiichi		EY0 IY1 CH IY0
+eiji		EY1 JH IY0
+eike		AY1 K
+eikenberry		IY1 K AH0 N B EH0 R IY0
+eilan		AY1 L AH0 N
+eiland		AY1 L AH0 N D
+eileen	ei·leen	AY0 L IY1 N
+eiler		AY1 L ER0
+eilerman		AY1 L ER0 M AH0 N
+eilers		AY1 L ER0 Z
+eilert		AY1 L ER0 T
+eiley		AY1 L IY0
+eilts		AY1 L T S
+eimer		AY1 M ER0
+eimers		AY1 M ER0 Z
+ein		AY1 N
+einar	ei·nar	AY1 N ER0
+einbender		AY1 N B EH2 N D ER0
+eindhoven	eind·ho·ven	AY1 N D HH OW2 V AH0 N
+einhorn		AY1 N HH AO2 R N
+einon		AY1 N AO0 N
+einon's		AY1 N AO0 N Z
+einspahr		AY1 N S P AA0 R
+einstein	ein·stein	AY1 N S T AY0 N
+einstein's		AY1 N S T AY0 N Z
+eir		AY1 R
+eirena		ER0 EY1 N AH0
+eirich		AY1 R IH0 K
+eis		AY1 Z
+eisa		EY1 S AH0
+eisai		AY1 S AY2
+eisaman		AY1 S AH0 M AH0 N
+eischeid		AY1 SH AY0 D
+eischen		AY1 SH AH0 N
+eischens		AY1 SH AH0 N Z
+eisel		AY1 S AH0 L
+eisele		AY1 S AH0 L
+eiseman		AY1 S M AH0 N
+eisemann		AY1 S M AH0 N
+eisen		AY1 S AH0 N
+eisenach	ei·sen·ach	AY1 Z AH0 N AA2 K
+eisenbach		AY1 Z AH0 N B AA0 K
+eisenbarth		AY1 Z AH0 N B AA0 R TH
+eisenbeis		AY1 Z AH0 N B AY0 S
+eisenberg		AY1 Z AH0 N B ER0 G
+eisenberger		AY1 Z AH0 N B ER0 G ER0
+eisenbraun		AY1 Z AH0 N B R AW0 N
+eisenhardt		AY1 Z AH0 N HH AA0 R T
+eisenhart		AY1 Z AH0 N HH AA0 R T
+eisenhauer		AY1 Z AH0 N HH AW0 ER0
+eisenhour		AY1 Z AH0 N AW0 R
+eisenhower	ei·sen·how·er	AY1 Z AH0 N HH AW2 ER0
+eisenhower's		AY1 Z AH0 N HH AW2 ER0 Z
+eisenhowers		AY1 Z AH0 N HH AW2 ER0 Z
+eisenhut		AY1 Z AH0 N HH AH0 T
+eisenhuth		AY1 Z AH0 N HH UW0 TH
+eisenman		AY1 Z AH0 N M AH0 N
+eisenmann		AY1 Z AH0 N M AH0 N
+eisenmenger		AY1 Z AH0 N M EH0 NG ER0
+eisenstadt	ei·sen·stadt	AY1 Z AH0 N S T AE0 T
+eisenstein	ei·sen·stein	AY1 Z AH0 N S T AY0 N;AY1 Z AH0 N S T IY0 N
+eiserman		AY1 Z ER0 M AH0 N
+eisert		AY1 S ER0 T
+eishi		EY1 SH IY0
+eisin		AY1 S AH0 N
+eisinger		AY1 S IH0 N JH ER0
+eisler		AY1 S L ER0
+eisman		AY1 S M AH0 N
+eisner		AY1 S N ER0
+eisner's		AY1 S N ER0 Z
+eison		AY1 Z AH0 N
+eissler		AY1 S AH0 L ER0;AY1 S L ER0
+eiszner		AY1 Z N ER0
+eitel		AY1 T AH0 L
+either	ei·ther	IY1 DH ER0;AY1 DH ER0
+eitzen		AY1 T Z AH0 N
+eizenstat		AY1 Z AH0 N S T AE2 T
+ejaculate	e·jac·u·late	IH0 JH AE1 K Y UW0 L EY2 T
+ejaculation	e·jac·u·la·tion	IY0 JH AE2 K Y UW0 L EY1 SH AH0 N
+eject	e·ject	IH0 JH EH1 K T
+ejected		IH0 JH EH1 K T IH0 D
+ejecting		IH0 JH EH1 K T IH0 NG
+ejection	e·jec·tion	IH0 JH EH1 K SH AH0 N
+ejects		IH0 JH EH1 K T S;IH0 JH EH1 K S
+ejup		IY1 JH AH0 P;IY1 JH UW0 P
+ejup's		IY1 JH AH0 P S;IY1 JH UW0 P S
+ek		EH1 K;IY1 K EY1
+eka		EH1 K AH0
+ekaterina		EY0 K AA0 T EH0 R IY1 N AH0
+ekberg		EH1 K B ER0 G
+ekblad		EH1 K B L AE2 D
+ekco		EH1 K OW0
+ekdahl		EH1 K D AA2 L
+eke	eke	IY1 K
+eked		IY1 K T
+ekern		EH1 K ER0 N
+ekeus		IY2 K UW1 S
+ekholm		EH1 K HH OW2 L M
+eking	ek·ing	IY1 K IH0 NG
+ekins		EH1 K IH0 N Z
+ekk		IY1 K EY1 K EY1
+ekkehard		EH1 K HH AA2 R D
+eklund		EH1 K L AH0 N D
+ekman		EH1 K M AH0 N
+eko		EH1 K OW0
+ekofisk		EH1 K AH0 F IH0 S K
+eksportfinans		EH1 K S P AO2 R T F IH0 N AH0 N Z
+ekstrand		EH1 K S T R AH0 N D
+ekstrom		EH1 K S T R AH0 M
+el		EH1 L
+el-al		EH1 L AE1 L
+el-greco		EH1 L G R EH1 K OW0
+el-nino		EH1 L N IY1 N Y OW0
+el-paso		EH1 L P AE1 S OW0
+el-salvador		EH1 L S AE1 L V AH0 D AO2 R
+ela		EH1 L AH0
+elaborate	e·lab·o·rate	IH0 L AE1 B R AH0 T;IH0 L AE1 B ER0 EY2 T
+elaborated	e·lab·o·rat·ed	IH0 L AE1 B ER0 EY0 T AH0 D
+elaborately	e·lab·o·rate·ly	IH0 L AE1 B R AH0 T L IY0
+elaborates		IH0 L AE1 B ER0 EY2 T S
+elaborating	e·lab·o·rat·ing	IH0 L AE1 B ER0 EY2 T IH0 NG
+elaboration	e·lab·o·ra·tion	IH0 L AE2 B ER0 EY1 SH AH0 N
+elaina		IH0 L EY1 N AH0
+elaine	e·laine	IH0 L EY1 N;AH0 L EY1 N;IY2 L EY1 N
+elaine's		AH0 L EY1 N Z;IY2 L EY1 N Z;IH0 L EY1 N Z
+elaire		IH0 L EY1 R
+elam	e·lam	EH1 L AH0 M
+elamin		EH1 L AH0 M IH0 N
+elan	e·lan	IY1 L AH0 N
+eland	e·land	IY1 L AH0 N D
+elane		IH0 L EY1 N
+elapse	e·lapse	IH0 L AE1 P S
+elapsed	e·lapsed	IH0 L AE1 P S T
+elardo		EH0 L AA1 R D OW0
+elastic	e·las·tic	IH0 L AE1 S T IH0 K
+elasticity	e·las·tic·i·ty	IY2 L AE2 S T IH1 S AH0 T IY0
+elastomer	e·las·to·mer	IH0 L AE1 S T AH0 M ER0
+elastomers		IH0 L AE1 S T AH0 M ER0 Z
+elat	e·lat	EH0 L AE1 T
+elata		EH0 L AA1 T AH0
+elate	e·late	IH0 L EY1 T
+elated	e·lat·ed	IH0 L EY1 T AH0 D;IH0 L EY1 T IH0 D
+elater	el·a·ter	EH1 L AH0 T ER0;IH1 L EY0 T ER0
+elaters		EH1 L AH0 T ER0 Z;IH1 L EY0 T ER0 Z
+elates		IH0 L EY1 T S
+elating	e·lat·ing	IH0 L EY1 T IH0 NG
+elation	e·la·tion	IH0 L EY1 SH AH0 N
+elayne		IH0 L EY1 N
+elbaum		EH1 L B AW2 M
+elbe	el·be	EH1 L B
+elber		EH1 L B ER0
+elberson		EH1 L B ER0 S AH0 N
+elbert	el·bert	EH1 L B ER0 T
+elberta	el·ber·ta	EH0 L B EH1 R T AH0
+elbertine		EH1 L B ER0 T IY2 N
+elbow	el·bow	EH1 L B OW2
+elbowed		EH1 L B OW2 D
+elbowing		EH1 L B OW2 IH0 NG
+elbowroom	el·bow·room	EH1 L B OW2 R UW2 M
+elbows		EH1 L B OW2 Z
+elbrick		EH1 L B R IH0 K
+elbrick's		EH1 L B R IH0 K S
+elbrus	el·brus	EH1 L B R AH0 S
+elchibey		EH1 L CH AH0 B EY0
+elco		EH1 L K OW0
+elcock		IH0 L K AA1 K
+elcor		EH1 L K AO2 R
+elcotel		EH1 L K OW0 T EH2 L
+eldar		EH1 L D AA2 R
+elden	el·den	EH1 L D AH0 N
+elder	eld·er/el·der	EH1 L D ER0
+elderkin		EH1 L D ER0 K IH0 N
+elderly	eld·er·ly/el·der·ly	EH1 L D ER0 L IY0
+elderly's		EH1 L D ER0 L IY0 Z
+elderman		EH1 L D ER0 M AH0 N
+elders		EH1 L D ER0 Z
+elders'		EH1 L D ER0 Z
+elders's		EH1 L D ER0 Z IH0 Z
+eldest	eld·est	EH1 L D AH0 S T
+eldin		EH1 L D IH0 N
+eldon	el·don	IH0 L D AA1 N
+eldora	el·do·ra	EH0 L D AO1 R AH0
+eldorado	el·do·ra·do	EH2 L D ER0 AA1 D OW0
+eldorado's		EH2 L D ER0 AA1 D OW0 Z
+eldred	el·dred	EH1 L D ER0 D
+eldredge		IH0 L D R EH1 JH
+eldreth		IH0 L D R EH1 TH
+eldric		EH1 L D R IH0 K
+eldrida		EH0 L D R IY1 D AH0
+eldridge	el·dridge	EH1 L D R IH2 JH
+eldritch	el·dritch	EH1 L D R IH0 CH
+eldwin		IH0 L D W IH1 N
+eleanor	el·ea·nor	EH1 L AH0 N AO0 R;EH1 L AH0 N ER0
+eleanor's		EH1 L AH0 N AO0 R Z;EH1 L AH0 N ER0 Z
+eleanora	el·e·a·nor·a	EH2 L AH0 N AO1 R AH0
+eleanore		EH1 L AH0 N AO0 R
+eleazer		EH1 L AH0 Z ER0
+elect	elect/e·lect	IH0 L EH1 K T
+elect's		IH0 L EH1 K T S
+electability		IH0 L EH2 K T AH0 B IH1 L AH0 T IY0
+electable		IH0 L EH1 K T AH0 B AH0 L
+elected		IH0 L EH1 K T AH0 D;IH0 L EH1 K T IH0 D
+electing		IH0 L EH1 K T IH0 NG
+election	e·lec·tion	IH0 L EH1 K SH AH0 N
+election's		IH0 L EH1 K SH AH0 N Z
+electioneer	e·lec·tion·eer	IH0 L EH2 K SH AH0 N IH1 R
+electioneering		IH0 L EH2 K SH AH0 N IH1 R IH0 NG
+electioneers		IH0 L EH2 K SH AH0 N IH1 R Z
+elections		IH0 L EH1 K SH AH0 N Z
+elective	e·lec·tive	IH0 L EH1 K T IH0 V
+electives		IH0 L EH1 K T IH0 V Z
+elector	e·lec·tor	IH0 L EH1 K T ER0
+electoral	e·lec·tor·al	IH0 L EH1 K T ER0 AH0 L
+electorate	e·lec·tor·ate	IH0 L EH1 K T ER0 AH0 T;IH0 L EH1 K T R IH0 T
+electorate's		IH0 L EH1 K T ER0 AH0 T S
+electorates		IH0 L EH1 K T ER0 AH0 T S
+electors		IH0 L EH1 K T ER0 Z
+electra	e·lec·tra	IH0 L EH1 K T R AH0
+electric	e·lec·tric	IH0 L EH1 K T R IH0 K
+electric's		IH0 L EH1 K T R IH0 K S
+electrical	e·lec·tri·cal	IH0 L EH1 K T R IH0 K AH0 L
+electrically	e·lec·tri·cal·ly	IH0 L EH1 K T R IH0 K AH0 L IY0;IH0 L EH1 K T R IH0 K L IY0
+electricals		IH0 L EH1 K T R IH0 K AH0 L Z
+electricar		IH0 L EH1 K T R IH0 K AA2 R
+electrician	e·lec·tri·cian	IH0 L EH0 K T R IH1 SH AH0 N
+electricians		IH0 L EH0 K T R IH1 SH AH0 N Z
+electricians'		IH0 L EH0 K T R IH1 SH AH0 N Z
+electricite		AH0 L EH2 K T R IH1 S IH2 T EY0
+electricity	e·lec·tric·i·ty	IH0 L EH2 K T R IH1 S AH0 T IY0
+electrics		IH0 L EH1 K T R IH0 K S
+electrification	e·lec·tri·fi·ca·tion	IH0 L EH2 K T R AH0 F IH0 K EY1 SH AH0 N
+electrified	e·lec·tri·fied	IH0 L EH1 K T R AH0 F AY2 D
+electrifies		IH0 L EH1 K T R AH0 F AY2 Z
+electrify	e·lec·tri·fy	IH0 L EH1 K T R AH0 F AY2
+electrifying	e·lec·tri·fy·ing	IH0 L EH1 K T R AH0 F AY2 IH0 NG
+electrique		EH2 L EH0 K T R IY1 K
+electro	e·lec·tro	IH0 L EH1 K T R OW0
+electrobiology	e·lec·tro·bi·ol·o·gy	IH2 L EH2 K T R OW0 B AY0 AA1 L AH0 JH IY2
+electrobiology's		IH2 L EH2 K T R OW0 B AY0 AA1 L AH0 JH IY2 Z
+electrocardiogram	e·lec·tro·car·di·o·gram	IH2 L EH2 K T R OW0 K AA1 R D IY0 AH0 G R AE2 M
+electrocardiograms		IH2 L EH2 K T R OW0 K AA1 R D IY0 AH0 G R AE2 M Z
+electrochemical	e·lec·tro·chem·i·cal	AH2 L EH2 K T R OW0 K EH1 M IH0 K AH0 L
+electrocom		IH2 L EH1 K T R OW0 K AA2 M
+electrocute	e·lec·tro·cute	IH2 L EH1 K T R AH0 K Y UW2 T
+electrocuted	e·lec·tro·cut·ed	IH2 L EH1 K T R AH0 K Y UW2 T IH0 D
+electrocution	e·lec·tro·cu·tion	IH2 L EH2 K T R AH0 K Y UW1 SH AH0 N
+electrocutions		AH0 L EH2 K T R AH0 K Y UW1 SH AH0 N Z
+electrode	e·lec·trode	IH2 L EH1 K T R OW0 D
+electrodes		IH2 L EH1 K T R OW0 D Z
+electrodynamic	e·lec·tro·dy·nam·ic	IH2 L EH2 K T R OW0 D AY2 N AE1 M IH0 K
+electrodynamics	e·lec·tro·dy·nam·ics	IH2 L EH2 K T R OW0 D AY2 N AE1 M IH0 K S
+electrolux		IH0 L EH1 K T R AH0 L AH0 K S
+electrolysis	e·lec·trol·y·sis	IH0 L EH2 K T R AA1 L AH0 S AH0 S
+electrolyte	e·lec·tro·lyte	IH0 L EH2 K T R AA0 L AY1 T
+electrolytes		IH0 L EH2 K T R AA0 L AY1 T S
+electrolytic	e·lec·tro·lyt·ic	IH2 L EH2 K T R AH0 L IH1 T IH0 K
+electromagnet	e·lec·tro·mag·net	IH0 L EH2 K T R OW0 M AE1 G N AH0 T
+electromagnetic	e·lec·tro·mag·net·ic	IH2 L EH2 K T R OW0 M AE0 G N EH1 T IH0 K
+electromagnetism	e·lec·tro·mag·net·ism/e·lec·tro·mag·ne·tism	IH2 L EH2 K T R OW0 M AE1 G N AH0 T IH2 Z AH0 M
+electromagnets		IH2 L EH2 K T R OW0 M AE1 G N AH0 T S
+electromechanical	e·lec·tro·me·chan·i·cal	IH2 L EH2 K T R OW0 M AH0 K AE1 N IH0 K AH0 L
+electromedics		IH2 L EH2 K T R OW0 M EH1 D IH0 K S
+electron	e·lec·tron	IH2 L EH1 K T R AA0 N
+electronic	e·lec·tron·ic	IH2 L EH2 K T R AA1 N IH0 K
+electronically	e·lec·tron·i·cal·ly	IH2 L EH2 K T R AA1 N IH0 K AH0 L IY2;IH0 L EH2 K T R AA1 N IH0 K L IY0
+electronics	e·lec·tron·ics	IH2 L EH2 K T R AA1 N IH0 K S
+electronics'		IH2 L EH2 K T R AA1 N IH0 K S
+electrons		IH2 L EH1 K T R AA0 N Z
+electrophoresis	e·lec·tro·pho·re·sis	IH2 L EH2 K T R OW0 F AO0 R IH1 S IH0 S;IH0 L EH0 K T R OW0 F ER0 IY1 S IH0 S
+electrophoretogram		IH0 L EH2 K T R AA0 F AH0 R EH1 T AH0 G R AE0 M
+electroplate	e·lec·tro·plate	IH2 L EH1 K T R AH0 P L EY2 T
+electroplating	e·lec·tro·plat·ing	IH2 L EH1 K T R AH0 P L EY2 T IH0 NG
+electroshock	e·lec·tro·shock	IH2 L EH1 K T R OW2 SH AA2 K
+electrosound		IH2 L EH1 K T R OW0 S AW2 N D
+electrospace		IH2 L EH1 K T R OW0 S P EY2 S
+electrospray		IH2 L EH1 K T R OW0 S P R EY2
+electrostatic	e·lec·tro·stat·ic	IH2 L EH2 K T R OW0 S T AE1 T IH0 K
+elects		IH2 L EH1 K T S
+eledge		EH1 L IH0 JH
+eleemosynary	el·ee·mos·y·nar·y/el·e·e·mos·y·nar·y	EH2 L AH0 M AO1 S AH0 N EH2 R IY0
+eleen		EH1 L IY2 N
+elefante		EH0 L EH0 F AA1 N T IY0
+elegance	el·e·gance	EH1 L AH0 G AH0 N S
+elegant	el·e·gant	EH1 L AH0 G AH0 N T
+elegantly	el·e·gant·ly	EH1 L IH0 G AH0 N T L IY2
+elegy	el·e·gy	EH1 L AH0 JH IY2
+elek		EH1 L IH0 K
+elektra	e·lek·tra	EH0 L EH1 K T R AH0
+elektrisk		IH0 L EH2 K T R IH1 S K
+elektrizitaetswerk		EH2 L IH0 K T R IH1 Z IH0 T AE2 T S W ER0 K
+elektron		IH0 L EH1 K T R AA0 N
+element	el·e·ment	EH1 L AH0 M AH0 N T
+elemental	el·e·ment·al/el·e·men·tal	EH2 L AH0 M EH1 N T AH0 L;EH2 L AH0 M EH1 N AH0 L
+elementary	el·e·men·ta·ry	EH2 L AH0 M EH1 N T R IY0;EH2 L AH0 M EH1 N T ER0 R IY0;EH2 L AH0 M EH1 N CH R IY0
+elements		EH1 L AH0 M AH0 N T S
+elena	el·e·na	EH1 L AH0 N AA0;EH2 L EY1 N AA0
+elena's		EH1 L AH0 N AH0 Z
+elenbaas		EH1 L IH0 N B AA0 Z
+elene		EH1 L IY0 N
+elenore	el·e·nore	EH1 L IH0 N ER0
+eleonore	el·e·o·nore	EH0 L IY0 AH0 N AO1 R IY0
+elephant	el·e·phant	EH1 L AH0 F AH0 N T
+elephant's	el·e·phant's	EH1 L AH0 F AH0 N T S
+elephantiasis	el·e·phan·ti·a·sis	EH2 L IH0 F AH0 N T AY1 AH0 S IH0 S
+elephantine	el·e·phan·tine	EH2 L AH0 F AE1 N T IY2 N
+elephants		EH1 L AH0 F AH0 N T S
+elephants'		EH1 L AH0 F AH0 N T S
+eletr		EH1 L AH0 T ER0
+eleuthera	e·leu·ther·a	IH0 L UW1 TH ER0 AH0
+elevate	el·e·vate	EH1 L AH0 V EY2 T
+elevated	el·e·vat·ed	EH1 L AH0 V EY2 T IH0 D
+elevates		EH1 L AH0 V EY2 T S
+elevating	el·e·vat·ing	EH1 L AH0 V EY2 T IH0 NG
+elevation	el·e·va·tion	EH2 L AH0 V EY1 SH AH0 N
+elevations		EH2 L AH0 V EY1 SH AH0 N Z
+elevator	el·e·va·tor	EH1 L AH0 V EY2 T ER0
+elevators		EH1 L AH0 V EY2 T ER0 Z
+eleven	e·lev·en	IH0 L EH1 V AH0 N;IY1 L EH0 V AH0 N
+eleven's		IH0 L EH1 V AH0 N Z;IY1 L EH0 V AH0 N Z
+elevens	e·lev·ens	IH0 L EH1 V AH0 N Z;IY1 L EH0 V AH0 N Z
+eleventh	e·lev·enth	IH0 L EH1 V AH0 N TH;IY1 L EH0 V AH0 N TH
+elexis		EH0 L EH1 K S IH0 S
+eley		IY1 L IY0
+elf	elf	EH1 L F
+elf's		EH1 L F S
+elfers		EH1 L F ER0 Z
+elfie		EH1 L F IY0
+elfin	elf·in	EH1 L F IH0 N
+elfish	elf·ish	EH1 L F IH0 SH
+elfman		EH1 L F M AH0 N
+elford		EH1 L F ER0 D
+elfreda		EH0 L F R EH1 D AH0
+elfrida		EH0 L F R IY1 D AH0
+elfrieda		EH0 L F R IY1 D AH0
+elfrink		EH1 L F R IH0 NG K
+elfstrom		EH1 L F S T R AH0 M
+elg		EH1 L G
+elga	el·ga	IH0 L G AA1
+elgabrowny		EH0 L G AH0 B R AW1 N IY0
+elgar	el·gar	EH1 L G ER0
+elgar's		EH1 L G ER0 Z
+elgart		EY1 L G AA0 R T
+elger	el·ger	EH1 L G ER0
+elgersma		EH0 L JH EH1 R S M AH0
+elgie		EH1 L JH IY0
+elgin	el·gin	EH1 L JH IH0 N
+eli	e·li	IY1 L AY0
+elia	e·li·a	AH0 L AY1 AH0
+eliades		IY1 L IY2 EY0 D Z
+elias	e·lias/e·li·as	AH0 L AY1 AH0 S
+eliason		AH0 L AY1 AH0 S AH0 N
+eliassen		AH0 L AY1 AH0 S AH0 N
+elich		EH1 L IH0 K
+elicit	e·lic·it	IH0 L IH1 S IH0 T
+elicited		IH0 L IH1 S IH0 T IH0 D
+eliciting		IH0 L IH1 S AH0 T IH0 NG
+elicits		IH0 L IH1 S AH0 T S
+elick		EH1 L IH0 K
+elicker		EH1 L IH0 K ER0
+elie	el·ie	EH1 L IY0
+eligaya		EH0 L AH0 G AY1 AH0
+eligibility	el·i·gi·bil·i·ty	EH2 L IH0 JH AH0 B IH1 L IH0 T IY0
+eligible	el·i·gi·ble	EH1 L AH0 JH AH0 B AH0 L;EH1 L IH0 JH AH0 B AH0 L
+elihu	el·i·hu	EH1 L IH0 HH UW0
+elijah	e·li·jah	EH0 L AY1 JH AH0;IY0 L AY1 JH AH0
+eliminate	e·lim·i·nate	IH0 L IH1 M AH0 N EY2 T
+eliminated	e·lim·i·nat·ed	IH0 L IH1 M AH0 N EY2 T IH0 D
+eliminates		IH0 L IH1 M AH0 N EY2 T S
+eliminating	e·lim·i·nat·ing	IH0 L IH1 M AH0 N EY2 T IH0 NG
+elimination	e·lim·i·na·tion	IH0 L IH2 M AH0 N EY1 SH AH0 N
+eliminations		IH0 L IH2 M IH0 N EY1 SH AH0 N Z
+eline		EH1 L AY0 N
+elinor	el·i·nor	EH1 L IH0 N ER0
+elinore		EH0 L IY0 N AO1 R IY0
+elio		EH1 L IY0 OW0
+eliopoulos		EH0 L IY0 AA1 P AH0 L IH0 S
+eliot	el·i·ot	EH1 L IY0 AH0 T
+eliot's		EH1 L IY0 AH0 T S
+eliott		EH1 L IY0 AA0 T
+elisa	e·lis·a	AH0 L IY1 S AH0;AH0 L IY1 Z AH0
+elisa's		AH0 L IY1 S AH0 Z;AH0 L IY1 Z AH0 Z
+elisabeth	e·lis·a·beth	IH0 L IH1 Z AH0 B IH0 TH
+elise	e·lise	AH0 L IY1 S
+elish		EH1 L IH0 SH
+elisha	e·li·sha	EH1 L IH0 SH AH0
+elison		EH1 L IH0 S AH0 N
+elissa	e·lis·sa	EH0 L IY1 S AH0
+elite	e·lite	IH0 L IY1 T;EY0 L IY1 T
+elites		IH0 L IY1 T S;EY0 L IY1 T S
+elitism	e·lit·ism	EH1 L IH0 T IH2 Z AH0 M;EY0 L IY1 T IH2 Z AH0 M
+elitist	e·lit·ist	EY0 L IY1 T IH0 S T;IH0 L IY1 T IH0 S T
+elitists		EY0 L IY1 T IH0 S T S;IH0 L IY1 T IH0 S T S
+elixir	e·lix·ir	IH0 L IH1 K S ER0
+eliza	e·li·za	IH0 L AY1 Z AH0
+elizabeth	e·liz·a·beth	IH0 L IH1 Z AH0 B AH0 TH;IH0 L IH1 Z AH0 B IH0 TH
+elizabeth's		IH0 L IH1 Z AH0 B AH0 TH S
+elizabethan	e·liz·a·be·than	EH2 L IH0 Z AH0 B IY1 TH AH0 N
+elizabethtown	e·liz·a·beth·town	AH0 L IH1 Z AH0 B EH0 TH T AW2 N
+elizalde		EH0 L IY0 Z AA1 L D IY0
+elizondo		EH2 L IH0 Z AA1 N D OW0
+eljer		EH1 L JH ER0
+elk	elk	EH1 L K
+elkes		EH1 L K S
+elkhart	elk·hart	EH1 L K HH AA2 R T
+elkhorn	elk·horn	EH1 L K HH AO2 R N
+elkin	el·kin	IH0 L K IH1 N
+elkind		IH0 L K AY1 N D;EH1 L K IH0 N D
+elkington		EH1 L K IH0 NG T AH0 N
+elkins	el·kins	EH1 L K IH0 N Z
+elko	el·ko	EH1 L K OW0
+elks		EH1 L K S
+elkton	elk·ton	EH1 L K T AH0 N
+ell	ell/el·l	EH1 L
+ella	el·la	EH1 L AH0
+ella's		EH1 L AH0 Z
+ellamay	el·la·may	EH1 L AH0 M EY2
+ellan		EH1 L AH0 N
+ellan's		EH1 L AH0 N Z
+ellard		EH1 L ER0 D
+elle		EH1 L
+elledge		EH1 L IH0 JH
+ellefson		EH1 L IH0 F S AH0 N
+ellegood		EH1 L IH0 G UH0 D
+ellemann		EH1 L AH0 M AH0 N
+ellen	el·len	EH1 L AH0 N
+ellen's		EH1 L AH0 N Z
+ellena		EH0 L EH1 N AH0
+ellenbecker		EH1 L IH0 N B EH0 K ER0
+ellenberg		EH1 L AH0 N B ER0 G
+ellenberger		EH1 L AH0 N B ER0 G ER0
+ellenbogen		EH1 L IH0 N B AH0 G AH0 N
+ellenburg		EH1 L AH0 N B ER0 G
+ellender		EH1 L EH0 N D ER0
+ellene		EH1 L IY2 N
+ellenpore		EH1 L IH0 N P AO0 R
+ellenson		EH1 L IH0 N S AH0 N
+ellenwood		EH1 L AH0 N W UH2 D
+eller		EH1 L ER0
+ellerbe		EH1 L ER0 B
+ellerbee		IH0 L ER1 B IY0
+ellerbrock		IH0 L ER1 B R AH0 K
+ellerby		EH1 L ER0 B IY0
+ellerey		EH1 L ER0 IY0
+ellerman		EH1 L ER0 M AH0 N
+ellers		EH1 L ER0 Z
+ellert		EH1 L ER0 T
+ellertson		EH1 L ER0 T S AH0 N
+ellery	el·ler·y	EH1 L ER0 IY0
+ellesmere		EH1 L Z M IH2 R
+ellesse		EH0 L EH1 S
+ellestad		EH1 L IH0 S T AH0 D
+ellett		EH1 L IH0 T
+ellette		IH0 L EH1 T
+elley		EH1 L IY0
+ellice		EH1 L IH0 S
+ellicott		EH1 L IH0 K AA0 T
+ellie		EH1 L IY0
+elliff		EH1 L IH0 F
+ellijay		IY0 L AY1 JH EY0
+elliman		EH1 L IH0 M AH0 N
+elling	el·ling	EH1 L IH0 NG
+ellinger		EH1 L IH0 NG ER0
+ellingsen		EH1 L IH0 NG S AH0 N
+ellingson		EH1 L IH0 NG S AH0 N
+ellingsworth		EH1 L IH0 NG Z W ER2 TH
+ellington	el·ling·ton	EH1 L IH0 NG T AH0 N
+ellington's		EH1 L IH0 NG T AH0 N Z
+ellingwood		EH1 L IH0 NG W UH2 D
+ellinwood	el·lin·wood	EH1 L IH0 N W UH2 D
+ellios		EH1 L Y OW0 S
+elliot	el·li·ot	EH1 L IY0 AH0 T
+elliott	el·li·ott	EH1 L IY0 AH0 T
+elliott's		EH1 L IY0 AH0 T S
+ellipse	el·lipse	IH0 L IH1 P S
+ellipsoid	el·lip·soid	IH0 L IH1 P S OY0 D
+ellipsoids		IH0 L IH1 P S OY0 D Z
+elliptical	el·lip·ti·cal	IH0 L IH1 P T IH0 K AH0 L
+ellis	el·lis	EH1 L IH0 S
+ellis's		EH1 L IH0 S IH0 Z
+ellison	el·li·son	EH1 L IH0 S AH0 N
+ellisor		EH1 L IH0 S ER0
+elliston		EH1 L IH0 S T AA0 N
+ellithorpe		EH1 L IH0 TH ER0 P
+ellman		EH1 L M AH0 N
+ellmann		EH1 L M AH0 N
+ellner		EH1 L N ER0
+ellroy		EH1 L R OY2
+ells		EH1 L Z
+ellsberg		EH1 L Z B ER0 G
+ellsberg's		EH1 L Z B ER0 G Z
+ellsburg		EH1 L Z B ER0 G
+ellsworth	ells·worth	EH1 L Z W ER0 TH
+ellwanger		EH1 L W AO0 NG ER0
+ellwood		EH1 L W UH2 D
+ellwood's		EH1 L W UH2 D Z
+elly		EH1 L IY0
+ellyn		EH1 L IH0 N
+ellyson		EH1 L IH0 S AH0 N
+ellzey		EH1 L Z IY0
+elm	elm	EH1 L M
+elma		EH1 L M AH0
+elman	el·man	EH1 L M AH0 N
+elmendorf		EH1 L M IH0 N D AO0 R F
+elmer	el·mer	EH1 L M ER0
+elmes		EH1 L M Z
+elmhurst	elm·hurst	EH1 L M HH ER0 S T
+elmira	el·mi·ra	EH0 L M AY1 R AH0
+elmo		EH1 L M OW0
+elmootazbell		EH0 L M UW1 T AH2 Z B EH2 L
+elmootazbellah		EH0 L M UW2 T AH2 Z B EH1 L AH0
+elmore		EH1 L M AO0 R
+elmquist		EH1 L M K W IH2 S T
+elms		EH1 L M Z
+elmsford	elms·ford	EH1 L M Z F ER0 D
+elmwood		EH1 L M W UH2 D
+elna		IH0 L N AA1
+elnora		EH0 L N AO1 R AH0
+elnore		IH0 L N AO1 R
+elnozahy		EH2 L N OW1 Z AA1 HH IY0
+elocution	el·o·cu·tion	EH2 L AH0 K Y UW1 SH AH0 N
+elocutions		EH2 L AH0 K Y UW1 SH AH0 N Z
+eloisa		EH0 L OY1 S AH0
+eloise	el·o·ise	IH0 L OY1 Z;EH1 L OW0 IY0 Z
+elommal		IH0 L OW1 M AH0 L
+elongate	e·lon·gate	IH0 L AO1 NG G EY0 T
+elongated	e·lon·gat·ed	IH0 L AO1 NG G EY0 T AH0 D
+elongation	e·lon·ga·tion	IY2 L AO0 NG G EY1 SH AH0 N
+elope	e·lope	IH0 L OW1 P
+eloped	e·loped	IH0 L OW1 P D
+elopes		IH0 L OW1 P S
+eloquence	el·o·quence	EH1 L AH0 K W AH0 N S
+eloquent	el·o·quent	EH1 L AH0 K W AH0 N T
+eloquently	el·o·quent·ly	EH1 L AH0 K W AH0 N T L IY0
+elouise		EH1 L AH0 W IY2 Z
+eloy	e·loy	IY1 L OY0
+elpers		EH1 L P ER0 Z
+elrica	el·ri·ca	EH1 L R IH0 K AH0
+elrich		EH1 L R IH0 CH
+elrick		EH1 L R IH0 K
+elrod		IH0 L R AA1 D
+elron		EH1 L R AH0 N
+elroy	el·roy	IH0 L R OY1
+els		EH1 L Z
+elsa	el·sa	EH1 L S AH0
+elsas		EH1 L S AH0 Z
+elsasser		EH1 L S AH0 S ER0
+elsberry		EH1 L Z B EH2 R IY0
+elsbury		EH1 L Z B EH2 R IY0
+elsdon	els·don	EH1 L S D AH0 N
+else	else	EH1 L S
+else's		EH1 L S IH0 Z
+elsea		EH1 L S IY0 AH0
+elsen		EH1 L S AH0 N
+elser		EH1 L S ER0
+elses		EH1 L S IH0 Z
+elsesser		EH1 L S IH0 S ER0
+elsevier	el·se·vier	EH0 L S EH1 V Y ER0;EH1 L S AH0 V IH2 R
+elsevier's		EH0 L S EH1 V Y ER0 Z;EH1 L S AH0 V IH2 R Z
+elsewhere	else·where	EH1 L S W EH2 R
+elsey		EH1 L S IY0
+elsie	el·sie	EH1 L S IY0
+elsie's		EH1 L S IY0 Z
+elsinore	el·si·nore	EH1 L S AH0 N AO2 R
+elsner		EH1 L S N ER0
+elson		EH1 L S AH0 N
+elstad		EH1 L S T AH0 D
+elster		EH1 L S T ER0
+elston		IH0 L S T AA1 N
+elswick		EH1 L Z W IH2 K
+elsworth		EH1 L Z W ER2 TH
+elting		EH1 L T IH0 NG
+elton	el·ton	EH1 L T AH0 N
+eltringham		EH1 L T R IH0 NG AE0 M
+eltzroth		EH1 L T S R AO0 TH
+elucidate	e·lu·ci·date	IH0 L UW1 S AH0 D EY2 T
+elucidated	e·lu·ci·dat·ed	IH0 L UW1 S AH0 D EY2 T AH0 D
+elucidative	e·lu·ci·da·tive	IH0 L UW1 S AH0 D EY2 T IH0 V
+elude	e·lude	IH0 L UW1 D
+eluded	e·lud·ed	IH0 L UW1 D IH0 D
+eludes		IH0 L UW1 D Z
+eluding	e·lud·ing	IH0 L UW1 D IH0 NG
+elusive	e·lu·sive	IH0 L UW1 S IH0 V
+elusiveness	e·lu·sive·ness	IH0 L UW1 S IH0 V N AH0 S
+elva	el·va	EH1 L V AH0
+elvera		EY0 L V EH1 R AH0
+elvers		EH1 L V ER0 Z
+elves	elves	EH1 L V Z
+elvgren		EH1 L V G R EH0 N
+elvia		EH1 L V IY0 AH0
+elvie		EH1 L V IY0
+elvin	el·vin	EH1 L V IH0 N
+elvina	el·vi·na	EH0 L V IY1 N AH0
+elving		EH1 L V IH0 NG
+elvington		EH1 L V IH0 NG T AH0 N
+elvira	el·vi·ra	EH0 L V AY1 R AH0
+elvire		EH1 L V AY2 R
+elvis	el·vis	EH1 L V IH0 S
+elvis'		EH1 L V IH0 S
+elvis's		EH1 L V IH0 S IH0 Z
+elvy		EH1 L V IY0
+elway		EH1 L W EY2
+elway's		EH1 L W EY2 Z
+elwell		IH0 L W EH1 L
+elwin	el·win	EH1 L W IH0 N
+elwood	el·wood	EH1 L W UH2 D
+elxsi		EH1 L K S IY0
+ely	e·ly	IY1 L AY0
+elyn		EH1 L IH0 N
+elyria	e·lyr·i·a	IH0 L IH1 R IY0 AH0
+elyse	e·lyse	EH1 L AY0 S
+elysee		EH1 L IH0 S IY2;EH1 L IY0 S IY2
+elysees		EH1 L IH0 S IY2 Z;EH1 L IY0 S IY2 Z
+elysia	e·ly·sia	IH0 L IH1 ZH IY0 AH0;IH0 L IY1 ZH AH0
+elysium	e·ly·si·um	IH0 L IH1 Z IY0 AH0 M
+elza		EH1 L Z AH0
+elzey		EH1 L Z IY0
+elzinga		EH0 L Z IY1 NG G AH0
+elzy		EH1 L Z IY0
+em		EH1 M
+ema		IY1 M AH0
+emaciate	e·ma·ci·ate	IH0 M EY1 SH IY0 EY2 T
+emaciated	e·ma·ci·at·ed	IH0 M EY1 SH IY0 EY2 T IH0 D
+emaciates		IH0 M EY1 SH IY0 EY2 T S
+emaciating	e·ma·ci·at·ing	IH0 M EY1 SH IY0 EY2 T IH0 NG
+emacs		IY1 M AE2 K S
+emad		IY1 M AE0 D
+email		IY0 M EY1 L
+emailed		IY0 M EY1 L D
+emailing		IY0 M EY1 L IH0 NG
+emails		IY0 M EY1 L Z
+emanate	em·a·nate	EH1 M AH0 N EY2 T
+emanated	em·a·nat·ed	EH1 M AH0 N EY2 T IH0 D
+emanates		EH1 M AH0 N EY0 T S
+emanating	em·a·nat·ing	EH1 M AH0 N EY2 T IH0 NG
+emanation	em·a·na·tion	EH2 M AH0 N EY1 SH AH0 N
+emanations		EH2 M AH0 N EY1 SH AH0 N Z
+emancipate	e·man·ci·pate	IH0 M AE1 N S AH0 P EY2 T
+emancipated	e·man·ci·pat·ed	IH0 M AE1 N S AH0 P EY2 T IH0 D
+emancipates		IH0 M AE1 N S AH0 P EY2 T S
+emancipating	e·man·ci·pat·ing	IH0 M AE1 N S AH0 P EY2 T IH0 NG
+emancipation	e·man·ci·pa·tion	IH0 M AE2 N S AH0 P EY1 SH AH0 N
+emancipations		IH0 M AE2 N S AH0 P EY1 SH AH0 N Z
+emanuel	e·man·u·el/e·ma·nu·el	IH0 M AE1 N Y UW0 AH0 L
+emanuele		EY0 M AA0 N UW0 EH1 L EY0
+emanuelson		IH0 M AE1 N UW0 L S AH0 N
+emard		EH1 M ER0 D
+emasculate	e·mas·cu·late	AH0 M AE1 S K Y UW0 L IH0 T;AH0 M AE1 S K Y UW0 L EY2 T
+emasculated	e·mas·cu·lat·ed	AH0 M AE1 S K Y UW0 L EY2 T IH0 D
+embalm	em·balm	EH0 M B AA1 M
+embalmed		EH0 M B AA1 M D
+embalming		EH0 M B AA1 M IH0 NG
+embankment	em·bank·ment	EH0 M B AE1 NG K M AH0 N T
+embankments		EH0 M B AE1 NG K M AH0 N T S
+embarcadero		EH0 M B AA2 R K AH0 D EH1 R OW0
+embargo	em·bar·go	EH0 M B AA1 R G OW0
+embargoed	em·bar·goed	IH0 M B AA1 R G OW0 D
+embargoes		EH0 M B AA1 R G OW0 Z
+embark	em·bark	EH0 M B AA1 R K;IH0 M B AA1 R K
+embarkation	em·bar·ka·tion	EH2 M B AA0 R K EY1 SH AH0 N
+embarked		EH0 M B AA1 R K T
+embarking		EH0 M B AA1 R K IH0 NG
+embarks		IH0 M B AA1 R K S
+embarrass	em·bar·rass	IH0 M B EH1 R AH0 S
+embarrassed		IH0 M B EH1 R AH0 S T
+embarrasses		IH0 M B AE1 R AH0 S IH0 Z
+embarrassing		IH0 M B EH1 R AH0 S IH0 NG
+embarrassingly	em·bar·rass·ing·ly	IH0 M B EH1 R AH0 S IH0 NG L IY0
+embarrassment	em·bar·rass·ment	IH0 M B EH1 R AH0 S M AH0 N T
+embarrassments		IH0 M B EH1 R AH0 S M AH0 N T S
+embassies		EH1 M B AH0 S IY0 Z
+embassy	em·bas·sy	EH1 M B AH0 S IY0
+embassy's		EH1 M B AH0 S IY0 Z
+embattle	em·bat·tle	EH0 M B AE1 T AH0 L
+embattled	em·bat·tled	EH0 M B AE1 T AH0 L D
+embayment	em·bay·ment	EH0 M B EY1 M AH0 N T
+embed	em·bed	IH0 M B EH1 D
+embedded	em·bed·ded	EH0 M B EH1 D IH0 D
+embedding	em·bed·ding	EH0 M B EH1 D IH0 NG
+embellish	em·bel·lish	IH0 M B EH1 L IH0 SH
+embellished		EH0 M B EH1 L IH0 SH T
+embellishes		EH0 M B EH1 L IH0 SH AH0 Z
+embellishing		EH0 M B EH1 L IH0 SH IH0 NG
+embellishment	em·bel·lish·ment	EH0 M B EH1 L IH0 SH M AH0 N T
+ember	em·ber	EH1 M B ER0
+embers		EH1 M B ER0 Z
+emberson		EH1 M B ER0 S AH0 N
+emberton		IH0 M B ER1 T AH0 N;EH1 M B ER0 T AH0 N
+embezzle	em·bez·zle	IH0 M B EH1 Z AH0 L
+embezzled		IH0 M B EH1 Z AH0 L D
+embezzlement	em·bez·zle·ment	EH0 M B EH1 Z AH0 L M AH0 N T
+embezzler	em·bez·zler	IH0 M B EH1 Z AH0 L ER0;EH0 M B EH1 Z L ER0
+embezzlers		IH0 M B EH1 Z AH0 L ER0 Z;EH0 M B EH1 Z L ER0 Z
+embezzles		IH0 M B EH1 Z AH0 L Z
+embezzling		IH0 M B EH1 Z AH0 L IH0 NG;EH0 M B EH1 Z L IH0 NG;IH0 M B EH1 Z L IH0 NG;EH0 M B EH1 Z AH0 L IH0 NG
+embitter	em·bit·ter	EH0 M B IH1 T ER0
+embittered		EH0 M B IH1 T ER0 D
+emblazon	em·bla·zon	EH0 M B L EY1 Z AH0 N
+emblazoned		EH0 M B L EY1 Z AH0 N D
+emblem	em·blem	EH1 M B L AH0 M
+emblematic	em·blem·at·ic	EH2 M B L AH0 M AE1 T IH0 K
+emblems		EH1 M B L AH0 M Z
+embler		EH1 M B L ER0
+embleton		EH1 M B L IH0 T AA0 N;EH1 M B AH0 L T AA0 N
+embodied	em·bod·ied	IH0 M B AA1 D IY0 D
+embodies		EH0 M B AA1 D IY0 Z
+embodiment	em·bod·i·ment	EH0 M B AA1 D IY0 M AH0 N T
+embody	em·bod·y	IH0 M B AA1 D IY0
+embodying	em·bod·y·ing	IH0 M B AA1 D IY0 IH0 NG
+embolden	em·bold·en	EH0 M B OW1 L D AH0 N
+emboldened		EH0 M B OW1 L D AH0 N D
+embolism	em·bo·lism	EH1 M B OW0 L IH2 Z AH0 M
+embolisms		EH1 M B OW0 L IH2 Z AH0 M Z
+emboss	em·boss	IH0 M B AO1 S
+embossed		IH0 M B AO1 S T
+embrace	em·brace	EH0 M B R EY1 S;IH0 M B R EY1 S
+embraceable	em·brace·a·ble	IH0 M B R EY1 S AH0 B AH0 L
+embraced	em·braced	EH0 M B R EY1 S T
+embraces		EH0 M B R EY1 S IH0 Z
+embracing	em·brac·ing	EH0 M B R EY1 S IH0 NG
+embree		IH0 M B R IY1
+embrey		EH1 M B R IY0
+embroider	em·broi·der	IH0 M B R OY1 D ER0
+embroidered		EH0 M B R OY1 D ER0 D
+embroiderer	em·broi·der·er	EH0 M B R OY1 D ER0 ER0
+embroiderers		EH0 M B R OY1 D ER0 ER0 Z
+embroideries	em·broi·der·ies	IH0 M B R OY1 D ER0 IY0 Z
+embroidering		EH0 M B R OY1 D ER0 IH0 NG
+embroidery	em·broi·der·y	EH0 M B R OY1 D ER0 IY0
+embroil	em·broil	EH0 M B R OY1 L
+embroiled		EH0 M B R OY1 L D
+embrose		EH1 M B R OW0 Z
+embry		EH1 M B R IY0
+embryo	em·bry·o	EH1 M B R IY0 OW2
+embryology	em·bry·ol·o·gy	EH2 M B R IY0 AA1 L AH0 JH IY0
+embryonic	em·bry·on·ic	EH2 M B R IY0 AA1 N IH0 K
+embryos		EH1 M B R IY0 OW2 Z
+embury		EH1 M B EH2 R IY0
+emcee	em·cee	EH1 M S IY1
+emch		EH1 M CH
+emco		EH1 M K OW0
+emde		EH1 M D
+emdr		IY1 EH1 M D IY1 AA1 R
+emel		EH1 M AH0 L
+emelda	e·mel·da	EH0 M EH1 L D AH0
+emelie		EH1 M AH0 L IY0
+emelina		EH2 M EH0 L IY1 N AH0
+emeline	em·e·line	EH1 M IH0 L AY2 N
+emelita		EH0 M EH0 L IY1 T AH0
+emelyne		EH1 M IH0 L AY0 N
+emens		EH1 M EH0 N Z
+emera		EH0 M EH1 R AH0
+emerald	em·er·ald	EH1 M R AH0 L D;EH1 M ER0 R AH0 L D
+emeralds		EH1 M R AH0 L D Z;EH1 M ER0 R AH0 L D Z
+emerant		EY0 M EH1 R AH0 N T
+emeraude		EH1 M ER0 AW2 D
+emerge	e·merge	IH0 M ER1 JH;IY1 M ER0 JH
+emerged	e·merged	IH0 M ER1 JH D;IY1 M ER0 JH D
+emergence	e·mer·gence	IH0 M ER1 JH AH0 N S;IY1 M ER0 JH AH0 N S
+emergencies		IH0 M ER1 JH AH0 N S IY0 Z;IY1 M ER0 JH AH0 N S IY0 Z
+emergency	e·mer·gen·cy	IH0 M ER1 JH AH0 N S IY0;IY1 M ER0 JH AH0 N S IY0
+emergent	e·mer·gent	IH0 M ER1 JH AH0 N T;IY1 M ER0 JH AH0 N T
+emerges		IH0 M ER1 JH IH0 Z;IY1 M ER0 JH IH0 Z
+emerging	e·merg·ing	IH0 M ER1 JH IH0 NG;IY1 M ER0 JH IH0 NG
+emerich		EH1 M ER0 IH0 K
+emerick		EH1 M ER0 IH0 K
+emerine		EH1 M ER0 IY2 N
+emeritus	e·mer·i·tus	IH0 M EH1 R AH0 T AH0 S
+emerse		IH0 M ER1 S
+emersed	e·mersed	IH0 M ER1 S T
+emerson	em·er·son	EH1 M ER0 S AH0 N
+emerson's		EH1 M ER0 S AH0 N Z
+emert		EH1 M ER0 T
+emerton		IH0 M ER1 T AH0 N;EH1 M ER0 T AH0 N
+emery	em·er·y	EH1 M ER0 IY0
+emery's		EH1 M ER0 IY0 Z
+emeryville	em·er·y·ville	EH1 M ER0 IY0 V IH2 L
+emetic	e·met·ic	IH0 M EH1 T IH0 K
+emfinger		EH1 M F IH0 NG ER0
+emge		EH1 M JH
+emhart		EH1 M HH AA2 R T
+emick		EH1 M IH0 K
+emig		EH1 M IH0 G
+emigh		EH1 M AY0
+emigrant	em·i·grant	EH1 M AH0 G R AH0 N T
+emigrants		EH1 M AH0 G R AH0 N T S
+emigrate	em·i·grate	EH1 M AH0 G R EY2 T
+emigrated	em·i·grat·ed	EH1 M AH0 G R EY2 T IH0 D
+emigrates		EH1 M AH0 G R EY2 T S
+emigrating	em·i·grat·ing	EH1 M AH0 G R EY2 T IH0 NG
+emigration	em·i·gra·tion	EH2 M AH0 G R EY1 SH AH0 N
+emigrations		EH2 M AH0 G R EY1 SH AH0 N Z
+emigre		EH1 M AH0 G R EY2
+emigres		EH1 M AH0 G R EY2 Z
+emil	e·mil	EH0 M IY1 L
+emile		EY0 M IY1 L
+emilia		AH0 M IY1 L IY0 AH0
+emilie	em·i·lie	EH1 M AH0 L IY0
+emilio	e·mi·lio/e·mi·li·o	AH0 M IY1 L IY0 OW0
+emilo		EH0 M IY1 L OW0
+emilo's		EH0 M IY1 L OW0 Z
+emily	em·i·ly	EH1 M IH0 L IY0
+emily's		EH1 M IH0 L IY0 Z
+emina	em·i·na	EH0 M IY1 N AH0
+eminase		EH2 M IH0 N AA1 S IY0
+eminem		EH1 M AH0 N AH0 M
+eminence	em·i·nence	EH1 M AH0 N AH0 N S
+eminences		EH1 M AH0 N AH0 N S IH0 Z
+eminent	em·i·nent	EH1 M AH0 N AH0 N T
+eminently	em·i·nent·ly	EH1 M AH0 N AH0 N T L IY0
+emir	e·mir	IH0 M IH1 R;EY0 M IH1 R
+emirate	e·mir·ate	EH1 M ER0 AH0 T;EH1 M ER0 EY2 T
+emirates		EH1 M ER0 AH0 T S;EH1 M ER0 EY2 T S
+emirates'		EH1 M ER0 AH0 T S;EH1 M ER0 EY2 T S
+emison		EH1 M IH0 S AH0 N
+emissaries	em·is·sar·ies	EH1 M AH0 S EH2 R IY0 Z
+emissary	em·is·sar·y	EH1 M AH0 S EH2 R IY0
+emission	e·mis·sion	IH0 M IH1 SH AH0 N
+emissions		IH0 M IH1 SH AH0 N Z
+emit	e·mit	IH0 M IH1 T
+emits		IH0 M IH1 T S
+emitted	e·mit·ted	IH0 M IH1 T AH0 D;IH0 M IH1 T IH0 D
+emitter	e·mit·ter	IH0 M IH1 T ER0
+emitting	e·mit·ting	IH0 M IH1 T IH0 NG
+emler		EH1 M L ER0
+emley		EH1 M L IY0
+emling		EH1 M L IH0 NG
+emlyn	em·lyn	IH0 M L IH1 N
+emlynne		IH0 M L AY1 N
+emma	em·ma	EH1 M AH0
+emma's		EH1 M AH0 Z
+emmaline		EH0 M AA0 L IY1 N IY0
+emmanuel	em·man·u·el/em·ma·nu·el	IH0 M AE1 N Y UW0 AH0 L
+emmanuelle		IH0 M AA1 N UW0 EH2 L
+emmaus		EH1 M AW0 S
+emme		EH1 M
+emmel		EH1 M AH0 L
+emmeline	em·me·line	EH1 M AH0 L AY2 N
+emmendorfer		EH1 M IH0 N D AO0 R F ER0
+emmer	em·mer	EH1 M ER0
+emmerich	em·me·rich	EH1 M ER0 IH0 K
+emmerling		EH1 M ER0 L IH0 NG
+emmerson		EH1 M ER0 S AH0 N
+emmert		EH1 M ER0 T
+emmery		EH1 M ER0 IY0
+emmet	em·met	EH1 M IH0 T
+emmett	em·mett	EH1 M IH0 T
+emmi		EH1 M IY0
+emmick		EH1 M IH0 K
+emmie	em·mie	EH1 M IY0
+emminger		EH1 M IH0 NG ER0
+emmis		EH1 M IH0 S
+emmit		EH1 M IH0 T
+emmitt		EH1 M IH0 T
+emmons		EH1 M AH0 N Z
+emmott		EH1 M AH0 T
+emmy	em·my	EH1 M IY0
+emmy's		EH1 M IY0 Z
+emmys		EH1 M IY0 Z
+emo		IY1 M OW2
+emogene	em·o·gene	EH1 M AH0 G IY0 N
+emond		EH1 M AH0 N D
+emory	em·o·ry	EH1 M ER0 IY0
+emory's		EH1 M ER0 IY0 Z
+emoticon		AH0 M OW1 T AH0 K AA2 N
+emotion	e·mo·tion	IH0 M OW1 SH AH0 N;IY1 M OW2 SH AH0 N
+emotional	e·mo·tion·al	IH0 M OW1 SH AH0 N AH0 L;IY1 M OW2 SH AH0 N AH0 L
+emotionalism	e·mo·tion·al·ism	IH0 M OW1 SH AH0 N AH0 L IH2 Z AH0 M;IY1 M OW0 SH AH0 N AH0 L IH2 Z AH0 M
+emotionally	e·mo·tion·al·ly	IH0 M OW1 SH N AH0 L IY0;IY1 M OW2 SH N AH0 L IY0
+emotions		IH0 M OW1 SH AH0 N Z;IY1 M OW0 SH AH0 N Z
+emotive	e·mo·tive	IH0 M OW1 T IH0 V;IY1 M OW2 T IH0 V
+empanel	em·pan·el	IH0 M P AE1 N AH0 L
+empaneled	em·pan·eled	IH0 M P AE1 N AH0 L D
+empaneling	em·pan·el·ing	EH0 M P AE1 N AH0 L IH0 NG
+empath		EH1 M P AE2 TH
+empathetic	em·pa·thet·ic	EH2 M P AH0 TH EH1 T IH0 K
+empathize	em·pa·thize	EH1 M P AH0 TH AY2 Z
+empathy	em·pa·thy	EH1 M P AH0 TH IY0
+emperor	em·per·or	EH1 M P ER0 ER0
+emperor's		EH1 M P ER0 ER0 Z
+emperors		EH1 M P ER0 ER0 Z
+empey		EH1 M P IY0
+emphases		EH1 M F AH0 S IY2 Z
+emphasis	em·pha·sis	EH1 M F AH0 S AH0 S;EH1 M F AH0 S IH0 S
+emphasize	em·pha·size	EH1 M F AH0 S AY2 Z
+emphasized	em·pha·sized	EH1 M F AH0 S AY2 Z D
+emphasizes		EH1 M F AH0 S AY2 Z AH0 Z;EH1 M F AH0 S AY2 Z IH0 Z
+emphasizing	em·pha·siz·ing	EH1 M F AH0 S AY2 Z IH0 NG
+emphatic	em·phat·ic	EH0 M F AE1 T IH0 K
+emphatically		EH0 M F AE1 T IH0 K L IY0;EH0 M F AE1 T IH0 K AH0 L IY0
+emphysema	em·phy·se·ma	EH2 M F AH0 Z IY1 M AH0
+empie		EH1 M P IY0
+empire	em·pire	EH1 M P AY0 ER0
+empire's		EH1 M P AY0 ER0 Z
+empires		EH1 M P AY0 ER0 Z
+empirical	em·pir·i·cal	EH2 M P IH1 R IH0 K AH0 L
+empirically	em·pir·i·cal·ly	EH0 M P IH1 R IH0 K AH0 L IY0;EH0 M P IH1 R IH0 K L IY0
+empiricism	em·pir·i·cism	EH0 M P IH1 R AH0 S IH2 Z AH0 M
+empiricist	em·pir·i·cist	IH0 M P IH1 R AH0 S AH0 S T
+emplacement	em·place·ment	IH0 M P L EY1 S M AH0 N T
+emplacements		IH0 M P L EY1 S M AH0 N T S
+employ	em·ploy	EH0 M P L OY1;IH0 M P L OY1
+employable	em·ploy·a·ble	EH0 M P L OY1 AH0 B AH0 L
+employed		EH0 M P L OY1 D;IH0 M P L OY1 D
+employee	em·ploy·ee	EH0 M P L OY1 IY0;IH0 M P L OY1 IY0
+employee's		EH0 M P L OY1 IY0 Z;IH0 M P L OY1 IY0 Z
+employees		EH0 M P L OY1 IY0 Z;IH0 M P L OY1 IY0 Z
+employees'		EH0 M P L OY1 IY0 Z
+employer	em·ploy·er	EH0 M P L OY1 ER0;IH0 M P L OY1 ER0
+employer's		EH0 M P L OY1 ER0 Z;IH0 M P L OY1 ER0 Z
+employers		EH0 M P L OY1 ER0 Z;IH0 M P L OY1 ER0 Z
+employers'		EH0 M P L OY1 ER0 Z;IH0 M P L OY1 ER0 Z
+employing		EH0 M P L OY1 IH0 NG;IH0 M P L OY1 IH0 NG
+employment	em·ploy·ment	EH0 M P L OY1 M AH0 N T;IH0 M P L OY1 M AH0 N T
+employments		EH0 M P L OY1 M AH0 N T S;IH0 M P L OY1 M AH0 N T S
+employs		EH0 M P L OY1 Z;IH0 M P L OY1 Z
+emporia	em·po·ri·a	EH0 M P AO1 R IY0 AH0
+emporium	em·po·ri·um	EH2 M P AO1 R IY0 AH0 M
+empower	em·pow·er	IH0 M P AW1 ER0
+empowered		IH0 M P AW1 ER0 D
+empowering		IH0 M P AW1 ER0 IH0 NG
+empowerment	em·pow·er·ment	IH0 M P AW1 ER0 M AH0 N T
+empowers		IH0 M P AW1 ER0 Z
+empresa		EH0 M P R EH1 S AH0
+empresas		EH0 M P R EH1 S AH0 Z
+empress	em·press	EH1 M P R EH0 S
+emprise	em·prise	EH0 M P R AY1 Z
+empson	emp·son	EH1 M P S AH0 N
+empt	empt	EH1 M P T;EH1 M T
+empted		EH1 M P T IH0 D;EH1 M T IH0 D
+emptied	emp·tied	EH1 M P T IY0 D;EH1 M T IY0 D
+emptier	emp·ti·er	EH1 M P T IY0 ER0;EH1 M T IY0 ER0
+empties		EH1 M P T IY0 Z;EH1 M T IY0 Z
+emptiness	emp·ti·ness	EH1 M P T IY0 N AH0 S;EH1 M T IY0 N AH0 S
+empting		EH1 M P T IH0 NG;EH1 M T IH0 NG
+emption		EH1 M P SH AH0 N
+emptive		EH1 M P T IH0 V
+emptor	emp·tor	EH1 M P T ER0
+empts		EH1 M P T S
+empty	emp·ty	EH1 M P T IY0;EH1 M T IY0
+empty-handed	emp·ty-hand·ed	EH1 M P T IY0 HH AE1 N D IH0 D
+emptying	emp·ty·ing	EH1 M P T IY0 IH0 NG;EH1 M T IY0 IH0 NG
+emrich		EH1 M R IH0 K
+emrick		EH1 M R IH0 K
+emry		EH1 M R IY0
+ems	ems	IY1 EH1 M EH1 S
+emslie		EH1 M S AH0 L IY0
+emswiler		EH1 M Z W AY2 L ER0
+emu	emu/e·mu	IY1 M Y UW2
+emuil		EH1 M Y UW0 IH2 L
+emuil's		EH1 M Y UW0 IH2 L Z
+emulate	em·u·late	EH1 M Y AH0 L EY2 T
+emulated	em·u·lat·ed	EH1 M Y AH0 L EY2 T IH0 D
+emulates		EH1 M Y AH0 L EY2 T S
+emulating	em·u·lat·ing	EH1 M Y AH0 L EY2 T IH0 NG
+emulation	em·u·la·tion/e·mu·la·tion	EH2 M Y AH0 L EY1 SH AH0 N
+emulator	em·u·la·tor	EH1 M Y AH0 L EY2 T ER0
+emulex		EH1 M Y UW0 L AH0 K S
+emulsified	e·mul·si·fied	IH0 M AH1 L S AH0 F AY0 D
+emulsifier	e·mul·si·fi·er	IH0 M AH1 L S AH0 F AY2 ER0
+emulsifies		IH0 M AH1 L S AH0 F AY0 Z
+emulsify	e·mul·si·fy	IH0 M AH1 L S AH0 F AY0
+emulsifying	e·mul·si·fy·ing	IH0 M AH1 L S AH0 F AY2 IH0 NG
+emulsion	e·mul·sion	IH0 M AH1 L SH AH0 N
+en		EH1 N
+ena	e·na	EH1 N AH0
+enable	en·a·ble	EH0 N EY1 B AH0 L;IH0 N EY1 B AH0 L
+enabled		EH0 N EY1 B AH0 L D;IH0 N EY1 B AH0 L D
+enabler	en·a·bler	EH0 N EY1 B AH0 L ER0;EH0 N EY1 B L ER0;IH0 N EY1 B L ER0;IH0 N EY1 B AH0 L ER0
+enables		EH0 N EY1 B AH0 L Z;IH0 N EY1 B AH0 L Z
+enabling	en·a·bling	EH0 N EY1 B AH0 L IH0 NG;IH0 N EY1 B AH0 L IH0 NG;IH0 N EY1 B L IH0 NG
+enact	en·act	IH0 N AE1 K T
+enacted		EH0 N AE1 K T AH0 D
+enacting		EH0 N AE1 K T IH0 NG
+enactment	en·act·ment	EH0 N AE1 K T M AH0 N T;EH0 N AE1 K M AH0 N T
+enactments		EH2 N AE1 K T M AH0 N T S;EH2 N AE1 K M AH0 N T S;EH2 N AE1 K M AH0 N S
+enacts		IH2 N AE1 K T S
+enamel	e·nam·el	IH0 N AE1 M AH0 L
+enameled	e·nam·eled	IH0 N AE1 M AH0 L D
+enamels		IH0 N AE1 M AH0 L Z
+enamor	en·am·or	EH0 N AE1 M ER0
+enamored		EH0 N AE1 M ER0 D
+enamoring		EH0 N AE1 M ER0 IH0 NG
+enamors		EH0 N AE1 M ER0 Z
+enasa		EY0 N AA1 S AH0
+enberg		EH1 N B ER0 G
+encamp	en·camp	IH0 N K AE1 M P
+encamped		IH0 N K AE1 M P T
+encampment	en·camp·ment	IH0 N K AE1 M P M IH0 N T
+encampments		IH0 N K AE1 M P M IH0 N T S
+encapsulate	en·cap·su·late	EH0 N K AE1 P S AH0 L EY2 T
+encapsulated	en·cap·su·lat·ed	EH0 N K AE1 P S AH0 L EY2 T IH0 D
+encapsulating	en·cap·su·lat·ing	EH0 N K AE1 P S AH0 L EY2 T IH0 NG
+encarnacion		IH0 N K AA0 R N AA0 S IY0 AO1 N
+encarta		EH0 N K AA1 R T AH2;EH0 N K AA1 R T AH0
+encase	en·case	EH0 N K EY1 S
+encased	en·cased	EH0 N K EY1 S T
+encata		EH0 N K AA1 T AH2;EH0 N K AA1 T AH0
+encata's		EH0 N K AA1 T AH2 Z;EH0 N K AA1 T AH0 Z
+encephalitis	en·ceph·a·li·tis	EH0 N S EH2 F AH0 L AY1 T AH0 S
+encephalopathy	en·ceph·a·lop·a·thy	EH0 N S EH2 F AH0 L AO1 P AH0 TH IY0
+enchant	en·chant	EH0 N CH AE1 N T
+enchanted		EH0 N CH AE1 N T IH0 D;EH0 N CH AE1 N IH0 D
+enchanter	en·chant·er	EH0 N CH AE1 N T ER0
+enchanter's		EH0 N CH AE1 N T ER0 Z;IH0 N CH AE1 N T ER0 Z;EH0 N CH AE1 N ER0 Z;IH0 N CH AE1 N ER0 Z
+enchanters		EH0 N CH AE1 N T ER0 Z;IH0 N CH AE1 N T ER0 Z;EH0 N CH AE1 N ER0 Z;IH0 N CH AE1 N ER0 Z
+enchanting	en·chant·ing	EH0 N CH AE1 N T IH0 NG;EH0 N CH AE1 N IH0 NG
+enchantment	en·chant·ment	EH0 N CH AE1 N T M AH0 N T
+enchilada	en·chi·la·da	EH0 N CH IH0 L AA1 D AH0
+encinas		EH1 N S IH0 N AH0 Z
+encinias		IH0 N S IY0 N IY1 AH0 Z
+encino		EH0 N S IY1 N OW0
+encircle	en·cir·cle	EH0 N S ER1 K AH0 L
+encircled		IH0 N S ER1 K AH0 L D
+encirclement	en·cir·cle·ment	EH0 N S ER1 K AH0 L M AH0 N T
+encircling		EH0 N S ER1 K AH0 L IH0 NG;EH0 N S ER1 K L IH0 NG
+enciso		IH0 N S IY1 S OW0
+enck		EH1 NG K
+enclave	en·clave	AA1 N K L EY2 V;EH1 N K L EY2 V
+enclaves		AA1 N K L EY2 V Z;EH1 N K L EY2 V Z
+enclose	en·close	IH0 N K L OW1 Z
+enclosed	en·closed	EH0 N K L OW1 Z D;IH0 N K L OW1 Z D
+enclosing	en·clos·ing	EH0 N K L OW1 Z IH0 NG
+enclosure	en·clo·sure	EH0 N K L OW1 ZH ER0;IH0 N K L OW1 ZH ER0
+enclosures		IH0 N K L OW1 ZH ER0 Z
+encode	en·code	EH0 N K OW1 D
+encoded	en·cod·ed	EH0 N K OW1 D IH0 D
+encoding	en·cod·ing	EH0 N K OW1 D IH0 NG
+encomium	en·co·mi·um	EH0 N K AO1 M IH2 AH0 M
+encomiums	en·co·mi·ums	EH0 N K AO1 M IH2 AH0 M Z
+encompass	en·com·pass	EH0 N K AH1 M P AH0 S
+encompassed		EH0 N K AH1 M P AH0 S T
+encompasses		EH0 N K AH1 M P AH0 S AH0 Z
+encompassing		EH0 N K AH1 M P AH0 S IH0 NG
+encor		EH1 N K AO2 R
+encor's		EH1 N K AO2 R Z
+encore	en·core	AA1 N K AO2 R
+encores		AA1 N K AO2 R Z
+encounter	en·coun·ter	IH0 N K AW1 N T ER0;IH0 N K AW1 N ER0
+encountered		IH0 N K AW1 N T ER0 D;IH0 N K AW1 N ER0 D
+encountering		EH0 N K AW1 N T ER0 IH0 NG;EH0 N K AW1 N ER0 IH0 NG
+encounters		IH0 N K AW1 N T ER0 Z;IH0 N K AW1 N ER0 Z
+encourage	en·cour·age	EH0 N K ER1 IH0 JH;IH0 N K ER1 AH0 JH
+encouraged	en·cour·aged	EH0 N K ER1 IH0 JH D;IH0 N K ER1 AH0 JH D
+encouragement	en·cour·age·ment	EH0 N K ER1 IH0 JH M AH0 N T
+encourages		EH0 N K ER1 IH0 JH IH0 Z;IH0 N K ER1 AH0 JH AH0 Z
+encouraging	en·cour·ag·ing	EH0 N K ER1 IH0 JH IH0 NG;IH0 N K ER1 AH0 JH IH0 NG
+encroach	en·croach	IH0 N K R OW1 CH
+encroached		IH0 N K R OW1 CH T
+encroaches		IH0 N K R OW1 CH IH0 Z
+encroaching		IH0 N K R OW1 CH IH0 NG
+encroachment	en·croach·ment	EH0 N K R OW1 CH M AH0 N T
+encroachments		IH0 N K R OW1 CH M AH0 N T S
+encrust	en·crust	EH0 N K R AH1 S T
+encrusted		EH0 N K R AH1 S T IH0 D
+encrusting		EH0 N K R AH1 S T IH0 NG
+encrypt	en·crypt	EH0 N K R IH1 P T;IH0 N K R IH1 P T
+encrypted		EH0 N K R IH1 P T IH0 D;IH0 N K R IH1 P T IH0 D
+encryption	en·cryp·tion	EH0 N K R IH1 P SH AH0 N
+encumber	en·cum·ber	EH0 N K AH1 M B ER0
+encumbered		EH0 N K AH1 M B ER0 D
+encyclical	en·cyc·li·cal	EH0 N S IH1 K L IH0 K AH0 L
+encyclicals		EH0 N S IH1 K L IH0 K AH0 L Z
+encyclopaedia	en·cy·clo·pae·di·a	IH0 N S AY2 K L AH0 P IY1 D IY0 AH0;IH0 N S AY2 K L OW0 P IY1 D IY0 AH0
+encyclopedia	en·cy·clo·pe·di·a	IH0 N S AY2 K L AH0 P IY1 D IY0 AH0;IH0 N S AY2 K L OW0 P IY1 D IY0 AH0
+encyclopedias		IH0 N S AY2 K L AH0 P IY1 D IY0 AH0 Z;IH0 N S AY2 K L OW0 P IY1 D IY0 AH0 Z
+encyclopedic	en·cy·clo·pe·dic	IH0 N S AY2 K L AH0 P IY1 D IH0 K;IH0 N S AY2 K L OW0 P IY1 D IH0 K
+encyclopedist	en·cy·clo·pe·dist	IH0 N S AY2 K L AH0 P IY1 D AH0 S T;IH0 N S AY2 K L OW0 P IY1 D AH0 S T
+end	end	EH1 N D
+endaka		EH0 N D AA1 K AH0
+endanger	en·dan·ger	EH0 N D EY1 N JH ER0
+endangered		EH0 N D EY1 N JH ER0 D;IH0 N D EY1 N JH ER0 D
+endangering		EH0 N D EY1 N JH ER0 IH0 NG
+endangerment	en·dan·ger·ment	EH0 N D EY1 N JH ER0 M AH0 N T
+endangers		EH0 N D EY1 N JH ER0 Z
+endara		EH1 N D AA1 R AH0
+ende		EH1 N D
+endear	en·dear	EH0 N D IY1 R
+endeared		EH0 N D IY1 R D
+endearing		EH0 N D IY1 R IH0 NG
+endearment	en·dear·ment	IH0 N D IH1 R M AH0 N T
+endeavor	en·deav·or	IH0 N D EH1 V ER0
+endeavor's		IH0 N D EH1 V ER0 Z
+endeavored		IH0 N D EH1 V ER0 D
+endeavoring		IH0 N D EH1 V ER0 IH0 NG;IH0 N D EH1 V R IH0 NG
+endeavors		IH0 N D EH1 V ER0 Z
+endeavour		IH0 N D EH1 V ER0
+endeavour's		IH0 N D EH1 V ER0 Z
+ended		EH1 N D AH0 D;EH1 N D IH0 D
+endelman		EH1 N D AH0 L M AH0 N
+endemic	endemic/en·dem·ic	EH0 N D EH1 M IH0 K
+ender	end·er	EH1 N D ER0
+enderby		EH1 N D ER0 B IY0
+enderle		EH1 N D ER0 AH0 L
+enderlin		EH1 N D ER0 L IH0 N
+enders	en·ders	EH1 N D ER0 Z
+enderson		EH1 N D ER0 S AH0 N
+endevco		EH0 N D EH1 V K OW0
+endgame	end·game	EH1 N D G EY0 M
+endgames		EH1 N D G EY0 M Z
+endicott	en·di·cott	EH1 N D IH0 K AA2 T
+ending	end·ing	EH1 N D IH0 NG
+endings		EH1 N D IH0 NG Z
+endive	en·dive	EH1 N D IH0 V
+endler		EH1 N D L ER0
+endless	end·less	EH1 N D L AH0 S
+endlessly	end·less·ly	EH1 N D L AH0 S L IY0
+endlich		EH1 N D L IH0 K
+endo		EH1 N D OW0
+endocrine	en·do·crine	EH1 N D OW0 K R AY2 N
+endocrinologist	en·do·cri·nol·o·gist	EH2 N D OW0 K R AH0 N AA1 L AH0 JH AH0 S T
+endocrinologist's		EH2 N D OW0 K R AH0 N AA1 L AH0 JH AH0 S T S
+endocrinologists		EH2 N D OW0 K R AH0 N AA1 L AH0 JH AH0 S T S
+endocrinology	en·do·cri·nol·o·gy	EH2 N D OW0 K R AH0 N AA1 L AH0 JH IY0
+endodermal	en·do·der·mal	EH2 N D OW0 D ER1 M AH0 L
+endogenous	en·dog·e·nous	EH2 N D AO1 JH EH0 N AH0 S
+endometrial	en·do·me·tri·al	EH2 N D OW0 M EH2 T R IY0 AH0 L
+endometriosis	en·do·me·tri·o·sis	EH2 N D OW0 M EH2 T R IY0 OW1 S IH0 S
+endorphin		EH0 N D AO1 R F IH0 N
+endorphins		EH0 N D AO1 R F IH0 N Z
+endorse	en·dorse	EH0 N D AO1 R S
+endorsed	en·dorsed	EH0 N D AO1 R S T
+endorsement	en·dorse·ment	EH0 N D AO1 R S M AH0 N T
+endorsements		EH0 N D AO1 R S M AH0 N T S
+endorser	en·dors·er	IH0 N D AO1 R S ER0
+endorsers		IH0 N D AO1 R S ER0 Z
+endorses		EH0 N D AO1 R S IH0 Z
+endorsing	en·dors·ing	EH0 N D AO1 R S IH0 NG
+endoscope	en·do·scope	EH1 N D OW0 S K OW2 P
+endoscopic	en·do·scop·ic	EH2 N D OW0 S K AA1 P IH0 K
+endoscopy	en·dos·co·py	EH2 N D AO1 S K AA0 P IY0
+endosperm	en·do·sperm	EH1 N D AH0 S P ER2 M
+endothelial	en·do·the·li·al	EH2 N D OW0 TH IY1 L IY2 AH0 L
+endothermic	en·do·ther·mic	EH2 N D OW0 TH ER1 M IH0 K
+endotronics		EH2 N D OW0 T R AA1 N IH0 K S
+endotronics'		EH2 N D AH0 T R AA1 N IH0 K S
+endotronics's		EH2 N D OW0 T R AA1 N IH0 K S IH0 Z
+endow	en·dow	EH0 N D AW1
+endowed		EH0 N D AW1 D
+endowing		EH0 N D AW1 IH0 NG
+endowment	en·dow·ment	EH0 N D AW1 M AH0 N T
+endowment's		EH0 N D AW1 M AH0 N T S
+endowments		EH0 N D AW1 M AH0 N T S
+endows		EH0 N D AW1 Z
+endpoint	end·point	EH1 N D P OY2 N T
+endpoints		EH1 N D P OY2 N T S
+endproduct		EH1 N D P R AO2 D AH0 K T
+endproducts		EH1 N D P R AO2 D AH0 K T S
+endres		EH1 N D ER0 Z
+endress		EH1 N D R IH0 S
+endrizzi		IH0 N D R IY1 T S IY0
+ends		EH1 N D Z
+endsley		EH1 N D S L IY0
+endtimer		EH1 N D T AY0 M ER0
+endtimers		EH1 N D T AY0 M ER0 Z
+endued	en·dued	EH0 N D UW1 D
+endurance	en·dur·ance	EH1 N D ER0 AH0 N S
+endure	en·dure	EH0 N D Y UH1 R;IH0 N D UH1 R
+endured	en·dured	EH0 N D Y UH1 R D;IH0 N D UH1 R D
+endures		EH0 N D Y UH1 R Z;IH0 N D UH1 R Z
+enduring	en·dur·ing	EH0 N D Y UH1 R IH0 NG;IH0 N D UH1 R IH0 NG
+enduser		EH1 N D Y UW2 Z ER0
+endusers		EH1 N D Y UW2 Z ER0 Z
+endy		EH1 N D IY0
+enea		EH1 N IY0 AH0
+enema	en·e·ma	EH1 N AH0 M AH0
+enemas		EH1 N AH0 M AH0 Z
+enemies		EH1 N AH0 M IY0 Z
+enemies'		EH1 N AH0 M IY0 Z
+enemy	en·e·my	EH1 N AH0 M IY0
+enemy's		EH1 N AH0 M IY0 Z
+energas		EH1 N ER0 G AE2 S
+energen		EH1 N ER0 JH EH2 N
+energetic	en·er·get·ic	EH2 N ER0 JH EH1 T IH0 K
+energetically	en·er·get·i·cal·ly	EH2 N ER0 JH EH1 T IH0 K L IY0
+energies		EH1 N ER0 JH IY0 Z
+energize	en·er·gize	EH1 N ER0 JH AY2 Z
+energized	en·er·gized	EH1 N ER0 JH AY2 Z D
+energizer	en·er·giz·er	EH1 N ER0 JH AY2 Z ER0
+energizes		EH1 N ER0 JH AY2 Z IH0 Z
+energizing	en·er·giz·ing	EH1 N ER0 JH AY2 Z IH0 NG
+energy	en·er·gy	EH1 N ER0 JH IY0
+energy's		EH1 N ER0 JH IY0 Z
+enerson		EH1 N ER0 S AH0 N
+enex		IY1 N AH0 K S
+enfant		EH1 N F AA2 N T;AA2 N F AA1 N T
+enfeeble	en·fee·ble	EH0 N F IY1 B AH0 L
+enfeebled		EH0 N F IY1 B AH0 L D
+enfield	en·field	EH1 N F IY0 L D
+enfield's		EH1 N F IY0 L D Z
+enfinger		EH1 N F IH0 NG ER0
+enfold	en·fold	IH0 N F OW1 L D
+enfor		EH1 N F ER0
+enforce	en·force	EH0 N F AO1 R S
+enforceability	en·force·a·bil·i·ty	EH0 N F AO2 R S AH0 B IH1 L IH0 T IY0
+enforceable	en·force·a·ble	EH0 N F AO1 R S AH0 B AH0 L
+enforced	en·forced	EH0 N F AO1 R S T
+enforcement	en·force·ment	EH0 N F AO1 R S M AH0 N T
+enforcement's		EH0 N F AO1 R S M AH0 N T S
+enforcements		EH0 N F AO1 R S M AH0 N T S
+enforcer	en·forc·er	EH0 N F AO1 R S ER0
+enforcers		EH0 N F AO1 R S ER0 Z
+enforces		EH0 N F AO1 R S IH0 Z
+enforcing	en·forc·ing	EH0 N F AO1 R S IH0 NG
+enfranchise	en·fran·chise	IH0 N F R AE1 N CH AY2 Z
+enfranchised	en·fran·chised	EH0 N F R AE1 N CH AY2 Z D
+enfranchises		EH0 N F R AE1 N CH AY2 Z IH0 Z
+eng	eng	EH1 NG
+engage	en·gage	EH0 N G EY1 JH
+engaged	en·gaged	EH0 N G EY1 JH D
+engagement	en·gage·ment	EH0 N G EY1 JH M AH0 N T
+engagements		EH0 N G EY1 JH M AH0 N T S
+engages		EH0 N G EY1 JH IH0 Z
+engaging	en·gag·ing	EH0 N G EY1 JH IH0 NG
+engberg		EH1 NG B ER0 G
+engdahl		EH1 NG D AA0 L
+enge		EH1 N JH
+engebretsen		EH1 NG G IH0 B R IH0 T S AH0 N
+engebretson		EH1 NG G IH0 B R IH0 T S AH0 N
+engel	eng·el	EH1 N G AH0 L
+engelberg		EH1 NG G AH0 L B ER0 G
+engelbert	eng·el·bert	EH1 NG G IH0 L B ER0 T
+engelberta	en·gel·ber·ta	EH0 NG G EH0 L B EH1 R T AH0
+engelbrecht		EH1 NG G IH0 L B R IH0 K T
+engeleiter		EH1 NG G AH0 L AY2 T ER0
+engelhard		EH1 NG G AH0 L HH AA2 R D
+engelhardt		EH1 NG G IH0 L HH AA0 R T
+engelhart		EH1 NG G AH0 L HH AA2 R T
+engelke		EH1 NG G IH0 L K
+engelken		EH1 NG G IH0 L K AH0 N
+engelking		EH1 NG G IH0 L K IH0 NG
+engelman		EH1 NG G AH0 L M AH0 N
+engelmann		EH1 NG G AH0 L M AH0 N
+engels	en·gels	EH1 NG G AH0 L Z
+engelson		EH1 NG G IH0 L S AH0 N
+engelstad		EH1 NG G IH0 L S T AH0 D
+engeman		EH1 N JH M AH0 N
+engen		EH1 NG AH0 N
+engender	en·gen·der	EH0 N JH EH1 N D ER0;IH0 N JH EH1 N D ER0
+engendered		EH0 N JH EH1 N D ER0 D
+engenders		EH1 NG G AH0 N D ER0 Z
+enger		EH1 NG G ER0
+engert		EH1 NG G ER0 T
+engesser		EH1 NG G IH0 S ER0
+engh		EH1 NG
+engholm		EH1 NG HH OW0 L M
+engine	en·gine	EH1 N JH AH0 N;IH1 N JH AH0 N
+engine's		EH1 N JH AH0 N Z
+engined		EH1 N JH AH0 N D
+engineer	en·gi·neer	EH1 N JH AH0 N IH1 R
+engineer's		EH2 N JH AH0 N IY1 R Z
+engineered		EH2 N JH AH0 N IY1 R D
+engineering	en·gi·neer·ing	EH1 N JH AH0 N IH1 R IH0 NG
+engineers		EH1 N JH AH0 N IH1 R Z
+engineers'		EH1 N JH AH0 N IH1 R Z
+engines		EH1 N JH AH0 N Z
+engines'		EH1 NG G IY2 N Z
+england	eng·land	IH1 NG G L AH0 N D
+england's		IH1 NG G L AH0 N D Z
+englander	eng·land·er	IH1 NG G L AH0 N D ER0
+englanders		IH1 NG G L AH0 N D ER0 Z
+englands		IH1 NG G L AH0 N D Z
+englbred		EH1 G AH0 L B R EH2 D
+engle	en·gle	EH1 NG G AH0 L
+englebert		IH1 NG AH0 L B ER0 T
+englehardt		IH1 NG AH0 L HH AA0 R T
+englehart		IH1 NG AH0 L HH AA0 R T
+engleman		IH1 NG AH0 L M AH0 N
+engler		EH1 NG G AH0 L ER0;EH1 NG G L ER0
+engler's		EH1 NG G AH0 L ER0 Z;EH1 NG G L ER0 Z
+englert		IH1 NG L ER0 T
+englerth		IH1 NG L ER0 TH
+engles		IH1 NG AH0 L Z
+englewood	en·gle·wood	EH1 NG G AH0 L W UH2 D
+english	eng·lish	IH1 NG G L IH0 SH;IH1 NG L IH0 SH
+englishman	eng·lish·man	IH1 NG G L IH0 SH M AH0 N
+englishmen		EH2 NG L IH1 SH M AH0 N
+englishwoman	eng·lish·wom·an	IH1 NG G L IH0 SH W UH2 M AH0 N
+englund		IH1 NG L AH0 N D
+engman		EH1 NG M AH0 N
+engquist		EH1 NG K W IH0 S T
+engram	en·gram	EH1 N G R AE2 M
+engrave	en·grave	IH0 N G R EY1 V
+engraved	en·graved	IH0 N G R EY1 V D
+engraver	en·grav·er	IH0 N G R EY1 V ER0
+engraving	en·grav·ing	IH0 N G R EY1 V IH0 NG
+engravings		IH0 N G R EY1 V IH0 NG Z
+engross	en·gross	IH0 N G R OW1 S
+engrossed		IH0 N G R OW1 S T
+engrossing	en·gross·ing	IH0 N G R OW1 S IH0 NG
+engrossment	en·gross·ment	IH0 N G R OW1 S M AH0 N T
+engstrand		EH1 NG S T R AH0 N D
+engstrom		EH1 NG S T R AH0 M
+engulf	en·gulf	IH0 N G AH1 L F
+engulfed		IH0 N G AH1 L F T
+engulfing		IH0 N G AH1 L F IH0 NG
+engwall		IH0 NG W AO1 L
+enhance	en·hance	EH0 N HH AE1 N S
+enhanced	en·hanced	EH0 N HH AE1 N S T;IH0 N HH AE1 N S T
+enhancement	en·hance·ment	EH0 N HH AE1 N S M AH0 N T
+enhancements		EH0 N HH AE1 N S M AH0 N T S
+enhancer	en·hanc·er	EH0 N HH AE1 N S ER0
+enhances		EH0 N HH AE1 N S IH0 Z
+enhancing	en·hanc·ing	EH0 N HH AE1 N S IH0 NG
+enholm		EH1 N HH OW2 L M
+enholme		EH1 N HH OW2 L M
+eniac		IY1 N IY0 AE2 K
+enichem		EH1 N IH0 CH AH0 M
+enid	e·nid	IY1 N IH0 D
+enigma	e·nig·ma	IH0 N IH1 G M AH0
+enigmatic	en·ig·mat·ic	EH2 N IH0 G M AE1 T IH0 K
+enimont		IY1 N IH0 M AA2 N T
+enis		EH1 N IH0 S
+enitt		EH1 N IH0 T
+enix		EH1 N IH0 K S
+enjoin	en·join	EH2 N JH OY1 N;IH0 N JH OY1 N
+enjoined		EH2 N JH OY1 N D
+enjoining		EH2 N JH OY1 N IH0 NG
+enjoy	en·joy	EH2 N JH OY1;IH0 N JH OY1
+enjoyable	en·joy·a·ble	EH2 N JH OY1 AH0 B AH0 L
+enjoyably	en·joy·a·bly	EH2 N JH OY1 AH0 B L IY0
+enjoyed		EH2 N JH OY1 D;IH0 N JH OY1 D
+enjoying		EH2 N JH OY1 IH0 NG;IH0 N JH OY1 IH0 NG
+enjoyment	en·joy·ment	EH2 N JH OY1 M AH0 N T;IH0 N JH OY1 M AH0 N T
+enjoyments		EH0 N JH OY1 M AH0 N T S
+enjoys		EH2 N JH OY1 Z;IH0 N JH OY1 Z
+enke		EH1 NG K
+enlarge	en·large	EH2 N L AA1 R JH;IH0 N L AA1 R JH
+enlarged	en·larged	EH2 N L AA1 R JH D;IH0 N L AA1 R JH D
+enlargement	en·large·ment	IH0 N L AA1 R JH M AH0 N T
+enlargements		IH0 N L AA1 R JH M AH0 N T S
+enlarger	en·larg·er	IH0 N L AA1 R G ER0
+enlarges		IH0 N L AA1 R JH IH0 Z
+enlarging	en·larg·ing	IH0 N L AA1 R JH IH0 NG
+enlighten	en·light·en	EH2 N L AY1 T AH0 N
+enlightened		EH2 N L AY1 T AH0 N D
+enlightening		EH2 N L AY1 T AH0 N IH0 NG;EH0 N L AY1 T N IH0 NG
+enlightenment	en·light·en·ment	EH2 N L AY1 T AH0 N M AH0 N T
+enlightens		EH2 N L AY1 T AH0 N Z
+enlist	en·list	EH2 N L IH1 S T
+enlisted		EH2 N L IH1 S T IH0 D;IH0 N L IH1 S T AH0 D
+enlistee	en·list·ee	IH0 N L IH2 S T IY1
+enlistees		IH0 N L IH2 S T IY1 Z
+enlisting		EH0 N L IH1 S T IH0 NG;IH0 N L IH1 S T IH0 NG
+enlistment	en·list·ment	EH0 N L IH1 S T M AH0 N T
+enlists		EH0 N L IH1 S T S
+enliven	en·liv·en	EH0 N L AY1 V AH0 N
+enlivened		EH0 N L AY1 V AH0 N D
+enlivening		EH0 N L AY1 V AH0 N IH0 NG
+enlivens		EH0 N L AY1 V AH0 N Z
+enlo		EH1 N L OW0
+enloe		IH0 N L OW1
+enlow		IH0 N L OW1
+enman		EH1 N M AH0 N
+enmesh	en·mesh	EH0 N M EH1 SH
+enmeshed		EH0 N M EH1 SH T
+enmeshes		EH0 N M EH1 SH AH0 Z
+enmeshing		EH0 N M EH1 SH IH0 NG
+enmities		EH1 N M AH0 T IY0 Z;EH1 N M IH0 T IY0 Z
+enmity	en·mi·ty	EH1 N M AH0 T IY0;EH1 N M IH0 T IY0
+ennea		EH1 N IY0 AH0
+enneking		EH1 N IH0 K IH0 NG
+ennen		EH1 N AH0 N
+ennes		EH1 N Z;EH1 N EH0 Z
+ennis	en·nis	EH1 N IH0 S
+ennoble	en·no·ble	IH0 N OW1 B AH0 L
+ennobled		IH0 N OW1 B AH0 L D
+ennobles		IH0 N OW1 B AH0 L Z
+ennobling		IH0 N OW1 B L IH0 NG
+ennosuke		EH1 N AH0 S UW0 K
+enns		EH1 N Z
+ennui	en·nui	EH0 N UW1 IY0
+eno		EH1 N OW0
+enoch	e·noch	IY1 N AH0 K
+enochs		EH1 N AH0 K S
+enojada		EH2 N OW0 JH AA1 D AH0
+enola	e·no·la	IH0 N OW1 L AH0
+enomoto		IH0 N OW0 M OW1 T OW0
+enormity	e·nor·mi·ty	IH0 N AO1 R M AH0 T IY0;IY0 N AO1 R M AH0 T IY0
+enormous	e·nor·mous	IH0 N AO1 R M AH0 S;IH0 N AO1 R M IH0 S;IY0 N AO1 R M AH0 S;IY0 N AO1 R M IH0 S
+enormously	e·nor·mous·ly	IH0 N AO1 R M AH0 S L IY0;IY0 N AO1 R M AH0 S L IY0
+enos	e·nos	IY1 N AH0 S
+enough	e·nough	IH0 N AH1 F;IY0 N AH1 F
+enough's		IH0 N AH1 F S;IY0 N AH1 F S
+enqueso		EH0 N K W EH1 S OW0
+enquire	en·quire	IH0 N K W AY1 ER0
+enquirer		IH0 N K W AY1 R ER0
+enquiry	en·quir·y	IH0 N K W AY1 R IY2
+enquist		EH1 N K W IH2 S T
+enrage	en·rage	EH0 N R EY1 JH
+enraged	en·raged	EH0 N R EY1 JH D;IH0 N R EY1 JH D
+enrages		EH0 N R EY1 JH AH0 Z
+enraging	en·rag·ing	EH0 N R EY1 JH IH0 NG
+enrapture	en·rap·ture	EH0 N R AE1 P CH ER0
+enraptured	en·rap·tured	EH0 N R AE1 P CH ER0 D
+enrica	en·ri·ca	IH0 N R IY1 K AH0
+enrich	en·rich	EH0 N R IH1 CH;IH0 N R IH1 CH
+enriched		EH0 N R IH1 CH T
+enriches		EH0 N R IH1 CH IH0 Z
+enriching		EH0 N R IH1 CH IH0 NG;IH0 N R IH1 CH IH0 NG
+enrichment	en·rich·ment	EH0 N R IH1 CH M AH0 N T;IH0 N R IH1 CH M AH0 N T
+enrico	en·ri·co	EH0 N R IY1 K OW0
+enright		IH0 N R AY1 T
+enrile		EH0 N R IY1 L;EH0 N R IY1 L EY2
+enrique	en·ri·que	EH0 N R IY1 K EY0
+enriquez		IH0 N R IY1 K W EH0 Z
+enro		EH1 N R OW0
+enroll	en·roll	EH0 N R OW1 L;IH0 N R OW1 L
+enrolled	en·rolled	EH0 N R OW1 L D
+enrollee	en·roll·ee	EH0 N R OW1 L IY1
+enrollees		EH0 N R OW1 L IY1 Z
+enrolling	en·rol·ling	EH0 N R OW1 L IH0 NG
+enrollment	en·roll·ment	EH0 N R OW1 L M AH0 N T
+enrollments		EH0 N R OW1 L M AH0 N T S
+enrolls		EH0 N R OW1 L Z
+enron		EH1 N R AA0 N
+enron's		EH1 N R AA0 N Z
+enroute		EH0 N R UW1 T
+ensco		EH1 N S K OW0
+ensco's		EH1 N S K OW0 Z
+ensconce	en·sconce	IH0 N S K AA1 N S
+ensconced	en·sconced	IH0 N S K AA1 N S T
+enseco		EH0 N S EH1 K OW0
+ensemble	en·sem·ble	AA0 N S AA1 M B AH0 L
+ensembles		AA0 N S AA1 M B AH0 L Z
+enserch		EH1 N S ER0 CH
+ensey		EH1 N Z IY0
+enshrine	en·shrine	EH0 N SH R AY1 N
+enshrined	en·shrined	EH0 N SH R AY1 N D
+enshroud	en·shroud	IH0 N SH R AW1 D
+enshrouded		IH0 N SH R AW1 D AH0 D
+ensign	en·sign	EH1 N S AH0 N
+ensing		EH1 N S IH0 NG
+ensinger		EH1 N S IH0 N JH ER0
+enskilda		EH0 N S K IH1 L D AH0
+enslave	en·slave	EH0 N S L EY1 V
+enslaved	en·slaved	EH0 N S L EY1 V D
+enslavement	en·slave·ment	EH0 N S L EY1 V M AH0 N T
+enslen		EH1 N S AH0 L AH0 N
+ensley		EH1 N S L IY0
+enslin		EH1 N S L IH0 N
+enslow		IH0 N S L OW1
+ensminger		EH1 N S AH0 M IH0 NG ER0
+ensnare	en·snare	IH0 N S N EH1 R
+ensnared	en·snared	IH0 N S N EH1 R D
+ensnares		IH0 N S N EH1 R Z
+ensnarl		IH0 N S N AA1 R L
+ensnarled		IH0 N S N AA1 R L D
+ensor	en·sor	EH1 N S ER0
+ensource		EH0 N S AO1 R S
+ensrud		EH1 N Z R UW2 D
+enstrom		EH1 N S T R AH0 M
+ensue	en·sue	IH0 N S UW1
+ensued	en·sued	IH0 N S UW1 D
+ensues		IH0 N S UW1 Z
+ensuing	en·su·ing	EH1 N S UW0 IH0 NG
+ensure	en·sure	EH0 N SH UH1 R;IH0 N SH UH1 R
+ensured	en·sured	EH0 N SH UH1 R D;IH0 N SH UH1 R D
+ensures		EH0 N SH UH1 R Z;IH0 N SH UH1 R Z
+ensuring	en·sur·ing	EH0 N SH UH1 R IH0 NG;IH0 N SH UH1 R IH0 NG
+ensz		EH1 N SH
+ent	ent	EH1 N T
+entail	en·tail	EH0 N T EY1 L
+entailed		IH0 N T EY1 L D
+entailing		IH0 N T EY1 L IH0 NG
+entails		IH0 N T EY1 L Z
+entangle	en·tan·gle	EH0 N T AE1 NG G AH0 L
+entangled		EH0 N T AE1 NG G AH0 L D
+entanglement	en·tan·gle·ment	EH0 N T AE1 NG G AH0 L M AH0 N T;IH0 N T AE1 NG G AH0 L M AH0 N T
+entanglements		EH0 N T AE1 NG G AH0 L M AH0 N T S;IH0 N T AE1 NG G AH0 L M AH0 N T S
+entangling		IH0 N T AE1 NG L IH0 NG;EH0 N T AE1 NG L IH0 NG
+ente		EH1 N T EY0
+entebbe	en·teb·be	EH2 N T EH1 B IY0
+entebbe's		EH2 N T EH1 B IY0 Z
+entendre		AA0 N T AA1 N D R AH0
+entenmann		EH1 N T AH0 N M AH0 N
+entenmann's		EH1 N T AH0 N M AH0 N Z
+enter	en·ter	EH1 N T ER0;EH1 N ER0
+entered		EH1 N T ER0 D;EH1 N ER0 D
+entergy		EH1 N T ER0 JH IY0
+entering		EH1 N T ER0 IH0 NG;EH1 N ER0 IH0 NG
+enteritidis		EH2 N T ER0 IH1 T IH0 D IH0 S
+enterividous		EH2 N T ER0 IH1 V IH0 D AH0 S
+enterline		EH1 N T ER0 L AY2 N
+enterline's		EH1 N T ER0 L AY2 N Z
+enterococcus		EH2 N T ER0 AH0 K AO1 K AH0 S
+enterology	en·ter·ol·o·gy	EH2 N T ER0 AA1 L AH0 JH IY0
+enterprise	en·ter·prise	EH1 N T ER0 P R AY2 Z;EH1 N ER0 P R AY2 Z
+enterprise's		EH1 N T ER0 P R AY2 Z AH0 Z;EH1 N T ER0 P R AY2 Z IH0 Z;EH1 N ER0 P R AY2 Z AH0 Z;EH1 N ER0 P R AY2 Z IH0 Z
+enterprises		EH1 N T ER0 P R AY2 Z IH0 Z;EH1 N ER0 P R AY2 Z IH0 Z
+enterprises'		EH1 N T ER0 P R AY2 Z IH0 Z;EH1 N ER0 P R AY2 Z IH0 Z
+enterprising	en·ter·pris·ing	EH1 N T ER0 P R AY2 Z IH0 NG;EH1 N ER0 P R AY2 Z IH0 NG
+enterra		EH0 N T EH1 R AH0
+enters		EH1 N T ER0 Z;EH1 N ER0 Z
+entertain	en·ter·tain	EH2 N T ER0 T EY1 N;EH2 N ER0 T EY1 N
+entertained		EH2 N T ER0 T EY1 N D;EH2 N ER0 T EY1 N D
+entertainer	en·ter·tain·er	EH2 N T ER0 T EY1 N ER0;EH2 N ER0 T EY1 N ER0
+entertainer's		EH2 N T ER0 T EY1 N ER0 Z;EH2 N ER0 T EY1 N ER0 Z
+entertainers		EH2 N T ER0 T EY1 N ER0 Z;EH2 N ER0 T EY1 N ER0 Z
+entertaining	en·ter·tain·ing	EH2 N T ER0 T EY1 N IH0 NG;EH2 N ER0 T EY1 N IH0 NG
+entertainment	en·ter·tain·ment	EH2 N T ER0 T EY1 N M AH0 N T;EH2 N ER0 T EY1 N M AH0 N T
+entertainment's		EH2 N T ER0 T EY1 N M AH0 N T S;EH2 N ER0 T EY1 N M AH0 N T S
+entertainments		EH2 N T ER0 T EY1 N M AH0 N T S;EH2 N ER0 T EY1 N M AH0 N T S
+entertains		EH2 N T ER0 T EY1 N Z;EH2 N ER0 T EY1 N Z
+entex		EH1 N T EH2 K S
+enthral	en·thral	EH0 N TH R AO1 L
+enthralled	en·thralled	EH0 N TH R AO1 L D
+enthuse	en·thuse	IH0 N TH UW1 Z
+enthused	en·thused	IH0 N TH UW1 Z D
+enthusiasm	en·thu·si·asm	IH0 N TH UW1 Z IY0 AE2 Z AH0 M
+enthusiasms		IH0 N TH UW1 Z IY0 AE2 Z AH0 M Z
+enthusiast	en·thu·si·ast	EH0 N TH UW1 Z IY0 AE2 S T
+enthusiastic	en·thu·si·as·tic	IH0 N TH UW2 Z IY0 AE1 S T IH0 K
+enthusiastically	en·thu·si·as·ti·cal·ly	IH0 N TH UW2 Z IY0 AE1 S T IH0 K L IY0
+enthusiasts		EH0 N TH UW1 Z IY0 AE2 S T S
+entice	en·tice	IH0 N T AY1 S
+enticed	en·ticed	IH0 N T AY1 S T
+enticement	en·tice·ment	IH0 N T AY1 S M AH0 N T
+enticements		IH0 N T AY1 S M AH0 N T S
+enticing	en·tic·ing	EH0 N T AY1 S IH0 NG
+entin		EH1 N T IH0 N
+entire	en·tire	IH0 N T AY1 ER0
+entirely	en·tire·ly	IH0 N T AY1 ER0 L IY0
+entirety	en·tire·ty	IH0 N T AY1 ER0 T IY0
+entities		EH1 N T IH0 T IY0 Z
+entities'		EH1 N T IH0 T IY0 Z
+entitle	en·ti·tle	EH0 N T AY1 T AH0 L;IH0 N T AY1 T AH0 L
+entitled		EH0 N T AY1 T AH0 L D
+entitlement	en·ti·tle·ment	EH0 N T AY1 T AH0 L M AH0 N T
+entitlements		EH0 N T AY1 T AH0 L M AH0 N T S
+entitles		EH0 N T AY1 T AH0 L Z
+entitling		EH0 N T AY1 T AH0 L IH0 NG;EH0 N T AY1 T L IH0 NG
+entity	en·ti·ty	EH1 N T AH0 T IY0;EH1 N T IH0 T IY0
+entity's		EH1 N T AH0 T IY0 Z
+entler		EH1 N T L ER0
+entoffen		EH1 N T AH0 F AH0 N
+entoffen's		EH1 N T AH0 F AH0 N Z
+entomb	en·tomb	EH0 N T UW1 M
+entombed		EH0 N T UW1 M D
+entombment	en·tomb·ment	IH0 N T UW1 M M AH0 N T
+entomologist		EH2 N T AH0 M AA1 L AH0 JH AH0 S T
+entomologists		EH2 N T AH0 M AA1 L AH0 JH AH0 S T S
+entomology	en·to·mol·o·gy	EH2 N T AH0 M AA1 L AH0 JH IY0
+entourage	en·tou·rage	AA2 N T UH0 R AA1 ZH;AA2 N T ER0 AA1 ZH
+entourages		AA2 N T UH0 R AA1 ZH AH0 Z;AA2 N T ER0 AA1 ZH AH0 Z
+entrail		EH1 N T R AH0 L
+entrails	en·trails	EH1 N T R AH0 L Z
+entrance	en·trance	EH1 N T R AH0 N S
+entranced	en·tranced	IH0 N T R AE1 N S T
+entrances		EH1 N T R AH0 N S AH0 Z
+entrant	en·trant	EH1 N T R AH0 N T
+entrants		EH1 N T R AH0 N T S
+entrap	en·trap	IH0 N T R AE1 P
+entrapment	en·trap·ment	IH0 N T R AE1 P M AH0 N T
+entrapped	en·trapped	IH0 N T R AE1 P T
+entre		AA1 N T R EY0;AA1 N T R AH0
+entreaties	en·treat·ies	EH0 N T R IY1 T IY0 Z
+entreating		EH0 N T R IY1 T IH0 NG
+entreaty	en·treat·y	EH0 N T R IY1 T IY0
+entree	en·tree	AA1 N T R EY2
+entrees		AA1 N T R EY2 Z
+entregrowth		EH1 N T R AH0 G R OW0 TH
+entrekin		EH1 N T R IH0 K IH0 N
+entrench	en·trench	EH0 N T R EH1 N CH
+entrenched		EH0 N T R EH1 N CH T;IH0 N T R EH1 N CH T
+entrenches		EH0 N T R EH1 N CH IH0 Z
+entrenching		EH0 N T R EH1 N CH IH0 NG
+entrenchment	en·trench·ment	EH0 N T R EH1 N CH M AH0 N T
+entrepreneur	en·tre·pre·neur	AA2 N T R AH0 P R AH0 N ER1;AA2 N T R AH0 P R AH0 N UH1 R
+entrepreneur's		AA2 N T R AH0 P R AH0 N ER1 Z
+entrepreneurial	en·tre·pre·neur·i·al	AA2 N T R AH0 P R AH0 N ER1 IY0 AH0 L
+entrepreneurialism		EH2 N T R AH0 P R AH0 N UW2 R IY1 AH0 L IH2 Z AH0 M
+entrepreneurs		AA2 N T R AH0 P R AH0 N ER1 Z
+entrepreneurship	en·tre·pre·neur·ship	AA2 N T R AH0 P R AH0 N ER1 SH IH0 P
+entries		EH1 N T R IY0 Z
+entrikin		EH1 N T R IH0 K IH0 N
+entringer		EH1 N T ER0 IH0 NG ER0
+entropy	en·tro·py	EH1 N T R AH0 P IY0
+entrust	en·trust	EH0 N T R AH1 S T
+entrusted		EH0 N T R AH1 S T IH0 D
+entrusting		EH0 N T R AH1 S T IH0 NG
+entry	en·try	EH1 N T R IY0
+entryway	en·try·way	EH1 N T R IY0 W EY0
+entsminger		EH1 N T S AH0 M IH0 NG ER0
+entwine	en·twine	EH0 N T W AY1 N
+entwined	en·twined	EH0 N T W AY1 N D
+entwisle		EH1 N T W AY0 AH0 L
+entwistle		IH0 N T W IH1 S AH0 L
+entz		EH1 N T S
+entzminger		EH1 N T S M IH0 NG ER0
+enumerate	e·nu·mer·ate	IH0 N UW1 M ER0 EY2 T
+enumerated	e·nu·mer·at·ed	IH0 N UW1 M ER0 EY2 T IH0 D
+enumerates		IH0 N UW1 M ER0 EY2 T S
+enumeration	e·nu·mer·a·tion	IH0 N UW2 M ER0 EY1 SH AH0 N
+enunciate	e·nun·ci·ate	IH0 N AH1 N S IY0 EY2 T;IY0 N AH1 N S IY0 EY2 T
+enunciated	e·nun·ci·at·ed	IH0 N AH1 N S IY0 EY2 T IH0 D
+enunciating	e·nun·ci·at·ing	IH0 N AH1 N S IY0 EY2 T IH0 NG
+envelop	en·vel·op	IH0 N V EH1 L AH0 P
+envelope	en·ve·lope	EH1 N V AH0 L OW2 P
+enveloped	en·vel·oped	EH0 N V EH1 L AH0 P T
+envelopes		EH1 N V AH0 L OW2 P S
+enveloping	en·vel·op·ing	IH0 N V EH1 L AH0 P IH0 NG
+envelops		IH0 N V EH1 L AH0 P S
+enviable	en·vi·a·ble	EH1 N V IY0 AH0 B AH0 L
+envied	en·vied	EH1 N V IY0 D
+envious	en·vi·ous	EH1 N V IY0 AH0 S
+enviously	en·vi·ous·ly	EH1 N V IY0 AH0 S L IY0
+enviro		EH0 N V AY1 R OW0
+envirodyne		EH0 N V AY1 R OW0 D AY2 N
+environic		EH2 N V AY0 R AO1 N IH0 K
+environics		EH2 N V AY0 R AO1 N IH0 K S
+environment	en·vi·ron·ment	IH0 N V AY1 R AH0 N M AH0 N T
+environment's		IH0 N V AY1 R AH0 N M AH0 N T S
+environmental	en·vi·ron·men·tal	IH0 N V AY2 R AH0 N M EH1 N T AH0 L;IH0 N V AY2 R AH0 N M EH1 N AH0 L
+environmentalism	en·vi·ron·men·tal·ism	EH0 N V AY1 R AH0 N M EH2 N T AH0 L IH2 Z AH0 M;EH0 N V AY1 R AH0 N M EH2 N AH0 L IH2 Z AH0 M
+environmentalist	en·vi·ron·men·tal·ist	IH0 N V AY2 R AH0 N M EH1 N T AH0 L IH0 S T;IH0 N V AY2 R AH0 N M EH1 N AH0 L IH0 S T
+environmentalists		EH0 N V AY1 R AH0 N M EH2 N T AH0 L IH0 S T S;EH0 N V AY1 R AH0 N M EH2 N AH0 L IH0 S T S;EH0 N V AY1 R AH0 N M EH2 N T AH0 L IH0 S;EH0 N V AY1 R AH0 N M EH2 N AH0 L IH0 S
+environmentalists'		IH0 N V AY2 R AH0 N M EH1 N T AH0 L IH0 S T S;EH0 N V AY2 R AH0 N M EH1 N AH0 L IH0 S T S
+environmentally	en·vi·ron·men·tal·ly	IH0 N V AY2 R AH0 N M EH1 N T AH0 L IY0;IH0 N V AY2 R AH0 N M EH1 N AH0 L IY0
+environments		IH0 N V AY1 R AH0 N M AH0 N T S
+environs	en·vi·rons	IH0 N V AY1 R AH0 N Z
+enviropact		IH0 N V AY1 R OW0 P AE2 K T
+envirosafe		IH0 N V AY1 R OW0 S EY2 F
+envirotest		IH2 N V AY1 R OW0 T EH2 S T
+envisage	en·vis·age	EH0 N V IH1 Z IH0 JH
+envisaged	en·vis·aged	EH0 N V IH1 Z IH0 JH D
+envisages		EH0 N V IH1 Z IH0 JH IH0 Z
+envision	en·vi·sion	EH0 N V IH1 ZH AH0 N
+envisioned		EH0 N V IH1 ZH AH0 N D
+envisioning		EH0 N V IH1 ZH AH0 N IH0 NG
+envisions		EH0 N V IH1 ZH AH0 N Z
+envos		EH1 N V OW0 S
+envoy	en·voy	EH1 N V OY0;AA1 N V OY0
+envoys		EH1 N V OY0 Z;AA1 N V OY0 Z
+envy	en·vy	EH1 N V IY0
+enwright		IH0 N W R AY1 T
+enyart		EH1 N Y AA0 R T
+enyeart		EH1 N Y ER0 T
+enz		EH1 N Z
+enzo		EH1 N Z OW0
+enzon		EH1 N Z AA0 N
+enzor		EH1 N Z ER0
+enzymatic	en·zy·mat·ic	EH2 N Z AY0 M AE1 T IH0 K
+enzyme	en·zyme	EH1 N Z AY2 M
+enzymes		EH1 N Z AY2 M Z
+eocene	e·o·cene	IY1 AH0 S IY2 N
+eoff		EY1 AO0 F
+eohippus	e·o·hip·pus	IY2 OW0 HH IH1 P AH0 S
+eolande	e·o·lan·de	EY2 OW0 L AA1 N D IY0
+eon	e·on	IY1 AH0 N;IY1 AA0 N
+eons		IY1 AH0 N Z
+eos	e·os	IY1 AA0 S
+eos's		IY1 AA0 S AH0 Z
+eosinophilia	e·o·sin·o·phil·i·a	IY2 AH0 S IH1 N AH0 F IH1 L Y AH0
+eosinophilic	e·o·sin·o·phil·ic	IY2 AH0 S IH1 N AH0 F IH1 L IH0 K
+epa	epa	IY2 P IY2 EY1
+epcot		EH1 P K AA0 T
+epeda		EH0 P EY1 D AH0
+epeda's		EH0 P EY1 D AH0 Z
+epes		IY1 P S
+ephedrine	e·phed·rine	IH0 F EH1 D R IH0 N
+ephemeral	e·phem·er·al	IH0 F EH1 M ER0 AH0 L
+ephesus	eph·e·sus	EH1 F UH0 S AH0 S
+ephlin		EH1 F L IH0 N
+ephraim	e·phra·im	IY1 F R AH0 M
+ephron		EH1 F R AH0 N
+epic	ep·ic	EH1 P IH0 K
+epic's		EH1 P IH0 K S
+epicenter	ep·i·cen·ter	EH1 P AH0 S EH2 N T ER0
+epics		EH1 P IH0 K S
+epictetus	ep·ic·te·tus	EH2 P IH0 K T IY1 T AH0 S;EH2 P IH0 K T IY1 SH AH0 S
+epicure	ep·i·cure	EH1 P IH0 K Y UH2 R
+epicurean	ep·i·cu·re·an/e·pi·cu·re·an	EH2 P AH0 K Y UH0 R IY1 AH0 N;EH2 P AH0 K Y UH1 R IY0 AH0 N
+epicures		EH1 P IH0 K Y UH2 R Z
+epidemic	ep·i·dem·ic	EH2 P AH0 D EH1 M IH0 K;EH2 P IH0 D EH1 M IH0 K
+epidemics		EH2 P AH0 D EH1 M IH0 K S
+epidemiological	ep·i·de·mi·o·log·i·cal	EH2 P AH0 D IY0 M IY0 AH0 L AA1 JH IH0 K AH0 L
+epidemiologically	ep·i·de·mi·o·log·i·cal·ly	EH2 P AH0 D IY2 M IY2 AH0 L AA1 JH IH0 K L IY2
+epidemiologist	ep·i·de·mi·ol·o·gist	EH2 P AH0 D IY2 M IY2 AA1 L AH0 JH IH2 S T
+epidemiologists		EH2 P AH0 D IY2 M IY2 AA1 L AH0 JH IH2 S T S
+epidemiology	ep·i·de·mi·ol·o·gy	EH2 P AH0 D EH2 M IY0 AA1 L AH0 JH IY0
+epidermal	ep·i·der·mal	EH2 P AH0 D ER1 M AH0 L
+epidermis	ep·i·der·mis	EH2 P AH0 D ER1 M AH0 S
+epidural	e·pi·dur·al	EH2 P AH0 D ER1 AH0 L
+epigenetic	ep·i·ge·net·ic	EH2 P AH0 JH AH0 N EH1 T IH0 K
+epigram	ep·i·gram	EH1 P AH0 G R AE2 M
+epigrammatic	ep·i·gram·mat·ic	EH2 P AH0 G R AH0 M AE1 T IH0 K
+epigraphic	ep·i·graph·ic	EH2 P AH0 G R AE1 F IH0 K
+epilepsies		EH1 P AH0 L EH2 P S IY0 Z
+epilepsy	ep·i·lep·sy	EH1 P AH0 L EH2 P S IY0
+epileptic	ep·i·lep·tic	EH2 P AH0 L EH1 P T IH0 K
+epileptics		EH2 P AH0 L EH1 P T IH0 K S
+epilogue	ep·i·logue	EH1 P AH0 L AO2 G
+epinephrine	ep·i·neph·rine	EH2 P IH0 N EH1 F R IH0 N
+epiphany	e·piph·a·ny	IH0 P IH1 F AH0 N IY0
+episcopal	e·pis·co·pal	IH0 P IH1 S K AH0 P AH0 L
+episcopalian	e·pis·co·pa·lian/e·pis·co·pa·li·an	IH0 P IH2 S K AH0 P EY1 L IY0 AH0 N;IH0 P IH2 S K AH0 P EY1 L Y AH0 N
+episcopalians		IH0 P IH2 S K AH0 P EY1 L IY0 AH0 N Z;IH0 P IH2 S K AH0 P EY1 L Y AH0 N Z
+episcopo		IH0 P IH0 S K OW1 P OW0
+episode	ep·i·sode	EH1 P AH0 S OW2 D;EH1 P IH0 S OW2 D
+episodes		EH1 P AH0 S OW2 D Z;EH1 P IH0 S OW2 D Z
+episodic	ep·i·sod·ic	EH2 P AH0 S AA1 D IH0 K
+episteme	ep·i·ste·me	EH1 P IH0 S T IY2 M
+epistemic	ep·is·tem·ic/ep·i·ste·mic	EH2 P IH0 S T EH1 M IH0 K
+epistemological	e·pis·te·mo·log·i·cal	EH0 P IH2 S T AH0 M AA0 L AA1 JH IY2 K AH0 L
+epistemologies		EH0 P IH2 S T AH0 M AA1 L AH0 JH IY2 Z
+epistemology	e·pis·te·mol·o·gy	EH0 P IH2 S T AH0 M AA1 L AH0 JH IY2
+epistle	e·pis·tle	IH0 P IH1 S AH0 L
+epistolary	e·pis·to·lar·y	IH0 P IH1 S T AH0 L EH2 R IY0
+epitaph	ep·i·taph	EH1 P AH0 T AE2 F
+epitaphs		EH1 P AH0 T AE2 F S
+epithelial	ep·i·the·li·al	EH0 P IH0 TH EH1 L Y AH0 L
+epithelium	ep·i·the·li·um	EH2 P IH0 TH IY1 L Y AH0 M
+epithet	ep·i·thet	EH1 P AH0 TH EH2 T
+epithets		EH1 P AH0 TH EH2 T S
+epitome	e·pit·o·me	IH0 P IH1 T AH0 M IY0
+epitomize	e·pit·o·mize	IH0 P IH1 T AH0 M AY2 Z
+epitomized	e·pit·o·mized	IH0 P IH1 T AH0 M AY2 Z D
+epitomizes		IH0 P IH1 T AH0 M AY2 Z IH0 Z
+epitope		EH1 P IH0 T OW2 P
+epler		EH1 P L ER0
+epley		EH1 P L IY0
+eplin		EH1 P L IH0 N
+epling		EH1 P L IH0 NG
+epoch	ep·och/e·poch	EH1 P AH0 K;IY1 P AH0 K
+epochal	ep·och·al	EH1 P AH0 K AH0 L
+epochs		EH1 P AH0 K S;IY1 P AH0 K S
+epogen		EH1 P AH0 JH EH0 N
+eponymous	ep·on·y·mous	EH0 P AO1 N IH2 M AH0 S
+eponymy	ep·on·y·my/e·pon·y·my	EH0 P AO1 N IH0 M IY2
+epoxy	ep·ox·y/e·pox·y	IH0 P AA1 K S IY0
+epp		EH1 P
+eppard		EH1 P ER0 D
+eppel		EH1 P AH0 L
+epperly		EH1 P ER0 L IY0
+eppers		EH1 P ER0 Z
+epperson		EH1 P ER0 S AH0 N
+eppes		EH1 P S
+eppich		EH1 P IH0 CH
+epping		EH1 P IH0 NG
+eppinger		EH1 P IH0 NG ER0
+epple		EH1 P AH0 L
+eppler		EH1 P L ER0
+eppley		EH1 P L IY0
+eppner		EH1 P N ER0
+eppolito		EH0 P OW0 L IY1 T OW0
+epps		EH1 P S
+eprom	eprom	EH1 P R AH0 M
+eproms		EH1 P R AH0 M Z
+epsco		EH1 P S K OW0
+epsilon	ep·si·lon	EH1 P S AH0 L AA2 N
+epsom	ep·som	EH1 P S AH0 M
+epsomite	ep·som·ite	EH1 P S AH0 M AY2 T
+epson		EH1 P S AH0 N
+epstein	ep·stein	EH1 P S T IY2 N;EH1 P S T AY2 N
+epting		EH1 P T IH0 NG
+equable	eq·ua·ble	EH1 K W AH0 B AH0 L
+equal	e·qual	IY1 K W AH0 L
+equaled	e·qualed	IY1 K W AH0 L D
+equaling	e·qual·ing	IY1 K W AH0 L IH0 NG
+equality	e·qual·i·ty	IH0 K W AA1 L AH0 T IY0
+equalization	e·qual·i·za·tion	IY2 K W AH0 L IH0 Z EY1 SH AH0 N
+equalize	e·qual·ize	IY1 K W AH0 L AY2 Z
+equalized	e·qual·ized	IY1 K W AH0 L AY2 Z D
+equalizer	e·qual·iz·er	IY1 K W AH0 L AY2 Z ER0
+equalizes		IY1 K W AH0 L AY2 Z IH0 Z
+equalizing	e·qual·iz·ing	IY1 K W AH0 L AY2 Z IH0 NG
+equally	e·qual·ly	IY1 K W AH0 L IY0
+equals		IY1 K W AH0 L Z
+equanimity	e·qua·nim·i·ty	IY2 K W AH0 N IH1 M IH0 T IY0
+equate	e·quate	IH0 K W EY1 T
+equated	e·quat·ed	IH0 K W EY1 T IH0 D
+equates		IH0 K W EY1 T S
+equating	e·quat·ing	IH0 K W EY1 T IH0 NG
+equation	e·qua·tion	IH0 K W EY1 ZH AH0 N
+equations		IH0 K W EY1 ZH AH0 N Z
+equator	e·qua·tor	IH0 K W EY1 T ER0
+equatorial	e·qua·to·ri·al	IY2 K W AH0 T AO1 R IY0 AH0 L
+equators		IH0 K W EY1 T ER0 Z
+equestrian	e·ques·tri·an	IH0 K W EH1 S T R IY0 AH0 N
+equiangular	e·qui·an·gu·lar	IY2 K W AH0 AE1 NG G Y AH0 L ER0
+equibank		EH1 K W AH0 B AE2 NG K
+equicor		EH1 K W IH2 K AO2 R
+equifax		EH1 K W IH0 F AE2 K S
+equilibria	e·qui·lib·ri·a	IY2 K W AH0 L IH1 B R IY0 AH0
+equilibrium	e·qui·lib·ri·um	IY2 K W AH0 L IH1 B R IY0 AH0 M
+equilink		EH1 K W AH0 L IH2 NG K
+equimark		EH1 K W IH0 M AA2 R K
+equine	eq·uine/e·quine	IY1 K W AY2 N
+equinox	e·qui·nox	IY1 K W AH0 N AA2 K S
+equion		EH1 K W IY0 AA0 N
+equip	e·quip	IH0 K W IH1 P
+equipment	e·quip·ment	IH0 K W IH1 P M AH0 N T
+equipment's		IH0 K W IH1 P M AH0 N T S
+equipments		IH0 K W IH1 P M AH0 N T S
+equipped	e·quipped	IH0 K W IH1 P T
+equipping	e·quip·ping	IH0 K W IH1 P IH0 NG
+equips		IH0 K W IH1 P S
+equitable	eq·ui·ta·ble	EH1 K W AH0 T AH0 B AH0 L;EH1 K W IH0 T AH0 B AH0 L
+equitable's		EH1 K W AH0 T AH0 B AH0 L Z
+equitably	eq·ui·ta·bly	EH1 K W IH0 T AH0 B L IY0
+equitas		EH1 K W AH0 T AH0 S
+equitation	eq·ui·ta·tion	EH2 K W AH0 T EY1 SH AH0 N
+equitec		EH1 K W AH0 T EH2 K
+equitex		EH1 K W AH0 T EH2 K S
+equiticorp		EH1 K W IH0 T IY0 K AO2 R P
+equities	eq·ui·ties	EH1 K W AH0 T IY0 Z
+equities'		EH1 K W AH0 T IY0 Z
+equity	eq·ui·ty	EH1 K W AH0 T IY0
+equity's		EH1 K W AH0 T IY0 Z
+equivalence	eq·ui·va·lence/e·quiv·a·lence	IH0 K W IH1 V AH0 L AH0 N S
+equivalency	eq·ui·va·len·cy/e·quiv·a·len·cy	IH0 K W IH1 V AH0 L AH0 N S IY0
+equivalent	e·quiv·a·lent	IH0 K W IH1 V AH0 L AH0 N T
+equivalents		IH0 K W IH1 V AH0 L AH0 N T S
+equivocal	e·quiv·o·cal	IH0 K W IH1 V AH0 K AH0 L
+equivocate	e·quiv·o·cate	IH0 K W IH1 V AH0 K EY2 T
+equivocating	e·quiv·o·cat·ing	IH0 K W IH1 V AH0 K EY2 T IH0 NG
+equivocation	e·quiv·o·ca·tion	IH0 K W IH0 V AH0 K EY1 SH AH0 N
+er		ER0
+era	e·ra	EH1 R AH0;IH1 R AH0
+era's		EH1 R AH0 Z;IH1 R AH0 Z
+eradicable	e·rad·i·ca·ble	IH0 R AE1 D AH0 K AH0 B AH0 L
+eradicate	e·rad·i·cate	IH0 R AE1 D AH0 K EY2 T
+eradicated	e·rad·i·cat·ed	IH0 R AE1 D AH0 K EY2 T IH0 D
+eradicating	e·rad·i·cat·ing	IH0 R AE1 D AH0 K EY2 T IH0 NG
+eradication	e·rad·i·ca·tion	IH0 R AE2 D AH0 K EY1 SH AH0 N
+erakat		EH0 R AA1 K AH0 T
+eralp		EH1 R AO0 L P
+eramo		EH0 R AA1 M OW0
+eranthe		EH1 R AH0 N TH
+erany		AH0 R EY1 N IY0
+eras		IH1 R AH0 Z
+erasable	e·ras·a·ble	IH0 R EY1 S AH0 B AH0 L;IY1 R EY0 S AH0 B AH0 L
+erase	e·rase	IH0 R EY1 S;IY0 R EY1 S
+erased	e·rased	IH0 R EY1 S T;IY0 R EY1 S T
+eraser	e·ras·er	IH0 R EY1 S ER0;IY0 R EY1 S ER0
+erasers		IH0 R EY1 S ER0 Z;IY0 R EY1 S ER0 Z
+erases		IH0 R EY1 S IH0 Z;IY0 R EY1 S IH0 Z
+erasing	e·ras·ing	IH0 R EY1 S IH0 NG;IY0 R EY1 S IH0 NG
+erasmus	e·ras·mus	IH0 R AE1 Z M AH0 S
+erastus	e·ras·tus	IH0 R AE1 S T AH0 S
+erawan		EH1 R AH0 W AA2 N
+erazo		EH0 R AA1 Z OW0
+erb		ER1 B
+erbacher		ER1 B AA0 K ER0
+erbakan		ER0 B AA0 K AA1 N
+erbakan's		ER0 B AA0 K AA1 N Z
+erbamont		ER1 B AH0 M AA2 N T
+erbamont's		ER1 B AH0 M AA2 N T S
+erbe		ER1 B
+erber		ER1 B ER0
+erbes		ER1 B Z
+erburu		ER0 B UH1 R UW0
+erby		ER1 B IY0
+erceg		ER1 S IH0 G
+erck		ER1 K
+ercole		ER0 K OW1 L IY0
+ercros		ER1 K R OW0 Z
+erda		EH1 R D AH0
+erdahl		ER1 D AA0 L
+erdman		ER1 D M AH0 N
+erdmann		ER1 D M AH0 N
+erdos		ER1 D OW0 Z
+erdrich		ER1 D R IH0 K
+ere	ere	EH1 R
+erect	e·rect	IH0 R EH1 K T
+erected		IH0 R EH1 K T AH0 D;IH0 R EH1 K T IH0 D
+erecting		IH0 R EH1 K T IH0 NG
+erection	e·rec·tion	IH0 R EH1 K SH AH0 N
+erections		IH0 R EH1 K SH AH0 N Z
+erector	e·rec·tor	IH0 R EH1 K T ER0
+erects		IH0 R EH1 K T S
+erena		ER0 EH1 N AH0
+erensel		EH1 R AH0 N S EH0 L
+ergle		ER1 G AH0 L
+ergo	er·go	ER1 G OW0
+ergonomic	er·go·nom·ic	ER2 G AH0 N AA1 M IH0 K
+ergonomically		ER2 G AH0 N AA1 M IH0 K L IY0
+ergonomics	er·go·nom·ics	ER2 G AH0 N AA1 M IH0 K S
+ergot	er·got	ER1 G AH0 T
+ergot's		ER1 G AH0 T S
+ergotism	er·got·ism	ER1 G AH0 T IH2 Z AH0 M
+ergots		ER1 G AH0 T S
+erhard	er·hard	EH1 R HH AA0 R D
+erhardt	er·hardt	ER1 HH AA0 R T
+erhart		ER1 HH AA0 R T
+eric	er·ic	EH1 R IH0 K
+eric's		EH1 R IH0 K S
+erica	er·i·ca	EH1 R IH0 K AH0
+erich	er·ich/e·rich	EH1 R IH0 K
+erichsen		EH1 R IH0 K S AH0 N
+erick		EH1 R IH0 K
+ericka		EH1 R IH0 K AH0
+ericksen		EH1 R IH0 K S AH0 N
+erickson		EH1 R IH0 K S AH0 N
+ericson	er·ic·son	EH1 R IH0 K S AH0 N
+ericsson	er·ics·son	EH1 R IH0 K S AH0 N
+ericsson's		EH1 R IH0 K S AH0 N Z
+eridania		EH2 R IH0 D AE1 N IY0 AH0
+erie	e·rie	IH1 R IY0
+erik	er·ik	EH1 R IH0 K
+erik's		EH1 R IH0 K S
+erika	er·i·ka	EH1 R IH0 K AH0
+eriksen		EH1 R IH0 K S AH0 N
+erikson		EH1 R IH0 K S AH0 N
+erikson's		EH1 R IH0 K S AH0 N Z
+eriksson		EH1 R IH0 K S AH0 N
+erin	er·in/e·rin	EH1 R IH0 N
+erina	er·i·na	ER0 IY1 N AH0
+erion		EH0 R IY0 AO1 N
+erisa		EH0 R IY1 S AH0
+erisman		EH1 R IH0 S M AH0 N
+eritrea	er·i·tre·a	EH2 R IH0 T R IY1 AH0;EH2 R IH0 T R EY1 AH0
+eritrean		EH2 R IH0 T R IY1 AH0 N;EH2 R IH0 T R EY1 AH0 N
+eritreans		EH1 R IH0 T R IY2 N Z;EH2 R IH0 T R EY1 AH0 N Z
+erk	erk	ER1 K
+erker		ER1 K ER0
+erkkila		ER1 K IH0 L AH0
+erl		ER1 L
+erlach		ER1 L AA2 K
+erland		ER1 L AH0 N D
+erlandson		ER1 L AH0 N D S AH0 N
+erlangen	er·lan·gen	ER0 L AE1 NG G AH0 N
+erlanger	er·lang·er/er·lan·ger	EH1 R L AE0 NG ER0;EH1 R L AE0 NG G ER0
+erlbaum		EH2 R L B AW1 M
+erle		EH1 R L AH0
+erlene	er·lene	ER1 L IY0 N
+erler		ER1 L ER0
+erlich		ER1 L IH0 K
+erlichman		ER1 L IH0 K M AH0 N;EH1 R L IH0 K M AH0 N
+erlick		ER1 L IH0 K;EH1 R L IH0 K
+erline	er·line	ER1 L AY0 N
+erling		ER1 L IH0 NG
+erly		ER1 L IY0
+erma	er·ma	ER1 M AH0
+erma's		ER1 M AH0 Z
+erman		ER1 M AH0 N
+ermer		ER1 M ER0
+ermin		ER1 M IH0 N
+ermina	er·mi·na	ER0 M IY1 N AH0
+ermine	er·mine	ER1 M AH0 N
+erminia		ER0 M IY1 N IY0 AH0
+erminie		ER1 M IH0 N IY0
+ermis		ER1 M IH0 S
+erna	er·na	ER1 N AH0
+ernaline	er·na·line	ER1 N AH0 L AY0 N
+erne	erne	ER1 N
+ernest	er·nest	ER1 N AH0 S T;ER1 N IH0 S T
+ernest's		ER1 N AH0 S T S
+ernestine	er·nes·tine	ER1 N IH0 S T IY2 N
+ernesto	er·nes·to	ER0 N EH1 S T OW0
+ernests		ER1 N AH0 S T S
+erney		ER1 N IY0
+ernie	er·nie	ER1 N IY0
+erno		EH1 R N OW0
+ernsberger		ER1 N Z B ER0 G ER0
+ernst	ernst	ER1 N S T
+ernster		ER1 N S T ER0
+erny		ER1 N IY0
+ero		IH1 R OW0
+erode	e·rode	IH0 R OW1 D;IY1 R OW0 D
+eroded	e·rod·ed	IH0 R OW1 D AH0 D;IH0 R OW1 D IH0 D
+erodes		IH0 R OW1 D Z
+erodible	e·rod·i·ble	IH0 R OW1 D AH0 B AH0 L
+eroding	e·rod·ing	IH0 R OW1 D IH0 NG;IY0 R OW1 D IH0 NG
+eroh		EH1 R OW0
+eroica		ER0 OY1 K AH0
+erol		EH1 R AH0 L
+erol's		EH1 R AH0 L Z
+eron		IH1 R AA0 N
+eros	e·ros	IH1 R AA0 S
+erosion	e·ro·sion	IH0 R OW1 ZH AH0 N
+erosional	e·ro·sion·al	IH0 R OW1 ZH AH0 N AH0 L
+erosive	e·ro·sive	IH0 R OW1 S IH0 V
+erotic	e·rot·ic	IH0 R AA1 T IH0 K
+erotica	e·rot·i·ca	IH0 R AA1 T IH0 K AH0
+eroticism	e·rot·i·cism	ER0 AA1 T IH0 S IH2 Z AH0 M
+erpelding		ER1 P IH0 L D IH0 NG
+erps		ER1 P S
+err	err	EH1 R;ER1
+erra		EH1 R AH0
+errand	er·rand	EH1 R AH0 N D
+errands		EH1 R AH0 N D Z
+errant	er·rant	EH1 R AH0 N T
+erratic	er·rat·ic	IH0 R AE1 T IH0 K
+erratically	er·rat·i·cal·ly	EH0 R AE1 T IH0 K L IY0
+erred		EH1 R D
+errett		EH1 R IH0 T
+erria		EH1 R IY0 AH0
+errickson		EH1 R IH0 K S AH0 N
+errico		ER0 IY1 K OW0
+erring	err·ing	EH1 R IH0 NG
+errington		EH1 R IH0 NG T AH0 N
+errol	er·rol	EH1 R AH0 L
+errol's		EH1 R AH0 L Z
+erroneous	er·ro·ne·ous	EH0 R OW1 N IY0 AH0 S;ER0 OW1 N IY0 AH0 S
+erroneously	er·ro·ne·ous·ly	EH0 R OW1 N IY0 AH0 S L IY0
+error	er·ror	EH1 R ER0
+errorful		EH1 R ER0 F AH0 L
+errors		EH1 R ER0 Z
+errs		EH1 R Z
+ers	ers	ER1 Z;IY1 AA1 R EH1 S
+ersatz	er·satz	EH1 R S AA2 T S;EH1 R Z AA2 T S
+ershad		ER1 SH AE2 D;ER1 SH AA2 D
+erskin		ER1 S K IH0 N
+erskine	er·skine	ER1 S K AY2 N
+erstwhile	erst·while	ER1 S T W AY2 L
+erte		ER1 T;ER1 T EY0
+ertel		ER1 T AH0 L
+ertha		ER1 DH AH0
+ertl		ER1 T AH0 L
+ertle		ER1 T AH0 L
+ertman		ER1 T M AH0 N
+ertz		ER1 T S
+erudite	er·u·dite	EH1 R AH0 D AY2 T
+erudition	er·u·di·tion	EH2 R AH0 D IH1 SH AH0 N
+erupt	e·rupt	IH0 R AH1 P T;IY1 R AH0 P T
+erupted		IY2 R AH1 P T IH0 D;IH2 R AH1 P T IH0 D
+erupting		IY2 R AH1 P T IH0 NG;IH2 R AH1 P T IH0 NG
+eruption	e·rup·tion	IY2 R AH1 P SH AH0 N;IH2 R AH1 P SH AH0 N
+eruptions		IY2 R AH1 P SH AH0 N Z;IH2 R AH1 P SH AH0 N Z
+eruptive	e·rup·tive	IY2 R AH1 P T IH0 V;IH2 R AH1 P T IH0 V
+erupts		IY2 R AH1 P T S;IH2 R AH1 P T S
+erven		ER1 V AH2 N
+ervin	er·vin	ER1 V IH2 N
+erving		ER1 V IH2 NG
+erway		ER1 W EY2
+erwin	er·win	ER1 W IH2 N
+erwina		ER0 V AY1 N AH0
+erxleben		ER0 K S L EH1 B AH0 N
+erykah		EH1 R IY0 K AH0
+erythropoietin		EH0 R IH2 TH R AH0 P OY1 T IH0 N
+erzurum	er·zu·rum	ER0 Z UH1 R AH0 M
+es		EH1 S
+esarey		EH1 S ER0 IY0
+esau	e·sau	IY1 S AO2
+esbenshade		EH1 S B IH0 N SH AH0 D;EH1 S B AH0 N SH EY0 D
+esber		EH1 S B ER0
+escada		EH2 S K AA1 D AH0
+escalade	es·ca·lade	EH2 S K AH0 L AA1 D
+escalante		EH0 S K AA0 L AA1 N T IY0
+escalate	es·ca·late	EH1 S K AH0 L EY2 T
+escalated	es·ca·lat·ed	EH1 S K AH0 L EY2 T IH0 D
+escalates		EH1 S K AH0 L EY2 T S
+escalating	es·ca·lat·ing	EH1 S K AH0 L EY2 T IH0 NG
+escalation	es·ca·la·tion	EH2 S K AH0 L EY1 SH AH0 N
+escalator	es·ca·la·tor	EH1 S K AH0 L EY2 T ER0
+escalators		EH1 S K AH0 L EY2 T ER0 Z
+escalera		EH0 S K AA0 L EH1 R AH0
+escalona		EH0 S K AA0 L OW1 N AH0
+escambia		EH2 S K AE1 M B IY0 AH0
+escamez		EH0 S K AA1 M EH0 Z
+escamilla		EH0 S K AA0 M IH1 L AH0
+escanaba	es·ca·na·ba	EH2 S K AH0 N AA1 B AH0
+escandon		IH0 S K AE1 N D AH0 N
+escapade	es·ca·pade	EH1 S K AH0 P EY2 D
+escapades		EH1 S K AH0 P EY2 D Z
+escape	es·cape	IH0 S K EY1 P
+escaped	es·caped	IH0 S K EY1 P T
+escapee	es·cap·ee	IH0 S K EY2 P IY1
+escapees		IH0 S K EY2 P IY1 Z
+escapement	es·cape·ment	IH0 S K EY1 P M AH0 N T
+escapes		IH0 S K EY1 P S
+escaping	es·cap·ing	IH0 S K EY1 P IH0 NG
+escapism	es·cap·ism	IH0 S K EY1 P IH2 Z AH0 M
+escarcega		EH0 S K AA0 R CH EH1 G AH0
+escareno		EH0 S K AA0 R EH1 N OW0
+escargot	es·car·got	EH2 S K AA1 R G OW0
+escarpment	es·carp·ment	EH0 S K AA1 R P M AH0 N T
+escarpments		EH0 S K AA1 R P M AH0 N T S
+esch		EH1 SH
+eschatological	es·cha·to·log·i·cal	EH2 S K AH0 T AH0 L AA1 JH IH0 K AH0 L
+eschbach		EH1 SH B AA2 K
+esche		EH1 SH
+eschemic		EH2 S K IY1 M IH0 K
+eschen		EH1 SH AH0 N
+eschenbach		EH1 SH IH0 N B AA0 K
+eschenburg		EH1 SH AH0 N B ER0 G
+escher		EH1 SH ER0
+eschete		EH1 SH IY0 T
+eschew	es·chew	EH0 S CH UW1
+eschewed		EH2 SH UW1 D;EH2 S K Y UW1 D
+eschewing		EH2 SH UW1 IH0 NG;EH2 S K Y UW1 IH0 NG
+eschews		EH0 S CH UW1 Z
+eschmann		EH1 SH M AH0 N
+esco		EH1 S K OW0
+escobar		EH1 S K OW0 B AA2 R;EH1 S K AH0 B AA2 R
+escobar's		EH1 S K OW0 B AA2 R Z;EH1 S K AH0 B AA2 R Z
+escobedo		EH0 S K OW0 B EY1 D OW0
+escoe		IH0 S K OW1
+escondido	es·con·di·do	EH2 S K AA0 N D IY1 D OW0
+escora		EH0 S K AO1 R AH0
+escort	es·cort	EH0 S K AO1 R T;EH1 S K AO0 R T
+escorted		EH0 S K AO1 R T IH0 D
+escorting		EH1 S K AO0 R T IH0 NG
+escorts		EH1 S K AO0 R T S
+escoto		EH0 S K OW1 T OW0
+escott		EH1 S K AH0 T
+escrow	es·crow	EH0 S K R OW1;EH1 S K R OW0
+escrowed		EH1 S K R OW0 D
+escuchando		EH2 S K UW0 CH AA1 N D OW0
+escudero	es·cu·de·ro	EH0 S K UW0 D EH1 R OW0
+escudo	es·cu·do	EH0 S K UW1 D OW0
+escudos		EH0 S K UW1 D OW0 Z
+escue		EY1 S K Y UW0
+esculent	es·cu·lent	EH0 S K UW1 L AH0 N T
+esh		EH1 SH
+esham		EH1 SH AH0 M
+eshbach		EH1 SH B AA2 K
+eshbaugh		IH0 SH B AO1
+eshelman		EH1 SH AH0 L M AH0 N
+eshleman		EH1 SH AH0 L M AH0 N
+eskandarian		EH2 S K AH0 N D EH1 R IY0 AH0 N
+eskelson		EH1 S K IH0 L S AH0 N
+eskenazi		EY0 S K EY0 N AA1 Z IY0;EH0 S K AH0 N AA1 Z IY0
+esker	es·ker	EH1 S K ER0
+eskew		EH1 S K Y UW0
+eskey		EH1 S K IY0
+eskimo	es·ki·mo	EH1 S K AH0 M OW2
+eskimos		EH1 S K AH0 M OW2 Z
+eskin		IH0 S K IH1 N
+eskridge		EH1 S K R IH2 JH
+esler		EH1 S AH0 L ER0;EH1 S L ER0
+eslick		EH1 S L IH0 K
+eslinger		EH1 S AH0 L IH0 NG ER0;EH1 S L IH0 NG ER0
+esmark		EH1 S M AA2 R K
+esme	es·me	EH1 Z M EY1;EH1 Z M IY0
+esmerelda		EH0 S M ER0 EH1 L D AH0
+esmine		EH1 Z M AH0 N
+esmond	es·mond	EH1 Z M AH0 N D
+esophageal	e·soph·a·ge·al	IH0 S AA2 F AH0 G IY1 AH0 L
+esophagus	e·soph·a·gus	IH0 S AA1 F AH0 G AH0 S
+esoteric	es·o·ter·ic	EH2 S AH0 T EH1 R IH0 K;EH2 S OW0 T EH1 R IH0 K
+espada	es·pa·da	EY0 S P AA1 D AH0
+espalier	es·pal·ier	EH0 S P AE1 L Y ER0
+espana	es·pa·na	EH0 S P AE1 N Y AH0
+espanol		EH2 S P AA0 N Y OW1 L
+espanola		EH2 S P AH0 N OW1 L AH0
+esparza		EH0 S P AA1 R Z AH0
+espe		EH1 S P
+especial	es·pe·cial	AH0 S P EH1 SH AH0 L
+especially	es·pe·cial·ly	AH0 S P EH1 SH L IY0;AH0 S P EH1 SH AH0 L IY0
+espectador		EH0 S P EH2 K T AH0 D AO1 R
+espejo		EY0 S P EY1 Y OW0
+espeland		EH1 S P IH0 L AH0 N D
+espenschied		EH1 S P IH0 N SH IY0 D
+espenshade		EH1 S P IH0 N SH AH0 D;EH1 S P IH0 N SH EY0 D
+esper		EH1 S P ER0
+esperanto	es·pe·ran·to	EH2 S P ER0 AE1 N T OW0
+esperanto's		EH2 S P ER0 AE1 N T OW0 Z
+espeseth		EH1 S P IH0 S IH0 TH
+espey		EH1 S P IY0
+espinal		EY0 S P IY1 N AH0 L
+espino		EY0 S P IY1 N OW0
+espinola		EH0 S P IY0 N OW1 L AH0
+espinosa		EH0 S P IH0 N OW1 Z AH0
+espinoza		EY0 S P IY0 N OW1 Z AH0
+espionage	es·pi·o·nage	EH1 S P IY0 AH0 N AA0 JH
+espirito		EH2 S P IH0 R IY1 T OW0;EH2 S P IH1 R IH0 T OW0
+espiritu		EH0 S P IH0 R IY1 CH UW0
+espitia		EH0 S P IY1 SH AH0
+esplanade	es·pla·nade	EH2 S P L AH0 N AA1 D
+esplin		EH1 S P L IH0 N
+espn		IY1 EH1 S P IY1 EH1 N
+esposito		EH0 S P AH0 Z IY1 T OW0
+espouse	es·pouse	IH0 S P AW1 Z;IH0 S P AW1 S
+espoused	es·poused	IH0 S P AW1 Z D;IH0 S P AW1 S T
+espouses		IH0 S P AW1 Z IH0 Z;IH0 S P AW1 S IH0 Z
+espousing	es·pous·ing	IH0 S P AW1 Z IH0 NG;IH0 S P AW1 S IH0 NG
+espresso	es·pres·so	EH2 S P R EH1 S OW0;EH2 K S P R EH1 S OW2
+espressos		EH2 S P R EH1 S OW2 Z;EH2 K S P R EH1 S OW2 Z
+esprit	es·prit	EH0 S P R IY1
+esprit's		EH0 S P R IY1 Z
+espy	es·py	EH1 S P IY0
+espy's		EH1 S P IY0 Z
+esque		EH1 S K
+esqueda		EH0 S K W EY1 D AH0
+esquer		IH0 S K ER1
+esquibel		EY0 S K W IY0 B EH1 L
+esquire	es·quire	EH1 S K W AY2 R
+esquire's		EH1 S K W AY2 R Z
+esquivel		EY0 S K W IY0 V EH1 L
+esrey		EH1 S R IY0
+ess	ess	EH1 S
+essa		EH1 S AH0
+essary		EH1 S EH0 R IY0
+essay	es·say	EH0 S EY1;EH1 S EY2
+essayist	es·say·ist	EH1 S EY2 IH0 S T
+essays		EH0 S EY1 Z;EH1 S EY2 Z
+esse	es·se	EH1 S
+esselman		EH1 S AH0 L M AH0 N
+esselte		EH0 S EH1 L T IY0
+essen	es·sen	EH1 S AH0 N
+essenburg		EH1 S AH0 N B ER0 G
+essence	es·sence	EH1 S AH0 N S
+essential	es·sen·tial	EH0 S EH1 N SH AH0 L;IY0 S EH1 N SH AH0 L
+essentially	es·sen·tial·ly	EH0 S EH1 N SH AH0 L IY0;IY0 S EH1 N SH AH0 L IY0
+essentials		EH0 S EH1 N SH AH0 L Z;IY0 S EH1 N SH AH0 L Z
+esser		EH1 S ER0
+esses		EH1 S IH0 Z;EH1 S IY0 Z
+essex	es·sex	EH1 S IH0 K S
+essex's		EH1 S IH0 K S IH0 Z
+essick		EH1 S IH0 K
+essie	es·sie	EH1 S IY0
+essig		EH1 S IH0 G
+esslinger		EH1 S L IH0 NG G ER0
+essman		EH1 S M AH0 N
+essner		EH1 S N ER0
+esso		EH1 S OW0
+esson		EH1 S AH0 N
+est	est	EH1 S T
+esta		EH1 S T AH0
+establish	es·tab·lish	IH0 S T AE1 B L IH0 SH
+established		IH0 S T AE1 B L IH0 SH T
+establishes		IH0 S T AE1 B L IH0 SH IH0 Z
+establishing		IH0 S T AE1 B L IH0 SH IH0 NG
+establishment	es·tab·lish·ment	IH0 S T AE1 B L IH0 SH M AH0 N T
+establishment's		EH0 S T AE1 B L IH0 SH M AH0 N T S
+establishments		EH0 S T AE1 B L IH0 SH M AH0 N T S
+estabrook		EH1 S T AH0 B R UH2 K
+estabrooks		EH1 S T AH0 B R UH0 K S
+estai		EH1 S T EY0
+estan		EH1 S T AH0 N
+estate	es·tate	IH0 S T EY1 T
+estate's		IH0 S T EY1 T S
+estatehood		IH0 S T EY1 T HH UH2 D
+estates		IH0 S T EY1 T S
+este	es·te	EH1 S T EY0
+esteban	es·te·ban	EH1 S T AH0 B AA0 N
+estedat		EH1 S T EH0 D AE2 T
+estee		EH1 S T IY0
+esteem	es·teem	AH0 S T IY1 M
+esteem's		IH0 S T IY1 M Z
+esteemed		IH0 S T IY1 M D
+estefan		EH1 S T IH0 F AA0 N;EH0 S T EH1 V AH0 N
+estel		EH1 S T AH0 L
+estell		EH1 S T AH0 L
+estella	es·tel·la	EH0 S T EH1 L AH0
+estelle	es·telle	EH0 S T EH1 L
+estenson		EH1 S T IH0 N S AH0 N
+estep		EH1 S T IH0 P
+estepp		EH1 S T IH0 P
+ester	es·ter	EH1 S T ER0
+esterline		EH1 S T ER0 L AY2 N
+esterline's		EH1 S T ER0 L AY2 N Z
+esterly		EH1 S T ER0 L IY0
+esters		EH1 S T ER0 Z
+estes	es·tes	EH1 S T IY0 Z
+esteve		EH1 S T IH0 V
+esteves		EY0 S T EY1 V EH0 S
+estevez		EY0 S T EY1 V EH0 Z
+estey		EH1 S T IY0
+esther	es·ther	EH1 S T ER0
+esthetic	es·thet·ic	EH0 S TH EH1 T IH0 K
+esthetically	es·thet·i·cal·ly	EH0 S TH EH1 T IH0 K L IY0
+esthetics	es·thet·ics	EH0 S TH EH1 T IH0 K S
+estill		EH0 S T IY1 L
+estimable	es·ti·ma·ble	EH1 S T AH0 M AH0 B AH0 L
+estimate	es·ti·mate	EH1 S T AH0 M AH0 T;EH1 S T AH0 M EY2 T
+estimated	es·ti·mat·ed	EH1 S T AH0 M EY2 T AH0 D;EH1 S T AH0 M EY2 T IH0 D
+estimates		EH1 S T AH0 M AH0 T S;EH1 S T AH0 M EY2 T S
+estimating	es·ti·mat·ing	EH1 S T AH0 M EY2 T IH0 NG
+estimation	es·ti·ma·tion	EH2 S T AH0 M EY1 SH AH0 N
+estimations		EH2 S T AH0 M EY1 SH AH0 N Z
+estimator	es·ti·ma·tor	EH0 S T IH1 M AH0 T ER0;EH1 S T IH0 M EY2 T ER0
+estimators		EH0 S T IH1 M AH0 T ER0 Z;EH1 S T IH0 M EY2 T ER0 Z
+estis		EH1 S T IH0 S
+estle		EH1 S AH0 L
+estock		EH1 S T AA0 K
+estok		IH0 S T AA1 K
+estonia	es·to·ni·a	EH0 S T OW1 N IY0 AH0
+estonian	es·to·ni·an	EH0 S T OW1 N IY0 AH0 N
+estonians		EH0 S T OW1 N IY0 AH0 N Z
+estrada		EH0 S T R AA1 D AH0
+estrange	es·trange	EH0 S T R EY1 N JH
+estranged	es·tranged	EH0 S T R EY1 N JH D
+estrangement	es·trange·ment	IH0 S T R EY1 N JH M AH0 N T
+estrella		EH2 S T R EH1 L AH0
+estrich		EH1 S T R IH0 K
+estridge		IH0 S T R IH1 JH
+estrin	es·trin	EH1 S T R IH0 N
+estrogen	es·tro·gen	EH1 S T R AH0 JH AH0 N
+estrogens		EH1 S T R AH0 JH IH0 N Z
+estrous	es·trous	EH1 S T R AH0 S
+estrus	es·trus	EH1 S T R AH0 S
+estruth		EH1 S T R UW2 TH
+estuaries	es·tu·ar·ies	EH1 S CH UW0 EH2 R IY0 Z
+estuary	es·tu·ar·y	EH1 S CH UW0 EH2 R IY0
+esty		EH1 S T IY0
+esworthy		EH1 S W ER0 DH IY0
+eszterhas		EH1 S T ER0 HH AA0 S
+et		EH1 T
+etablissements		EH2 T AE0 B L IH2 S AH0 M AA1 N T S
+etc	etc	EH2 T S EH1 T ER0 AH0
+etc.		EH2 T S EH1 T ER0 AH0
+etcetera	et·cet·er·a	EH1 T S EH1 T ER0 AH0
+etch	etch	EH1 CH
+etched		EH1 CH T
+etches		EH1 CH IH0 Z
+etcheverry		EH1 CH IH0 V EH0 R IY0
+etching	etch·ing	EH1 CH IH0 NG
+etchings		EH1 CH IH0 NG Z
+etchison		EH1 CH IH0 S AH0 N
+eternal	e·ter·nal	IH0 T ER1 N AH0 L;IY0 T ER1 N AH0 L
+eternally	e·ter·nal·ly	IH0 T ER1 N AH0 L IY0;IY0 T ER1 N AH0 L IY0
+eternit		EH1 T ER0 N IH0 T
+eternity	e·ter·ni·ty	IH0 T ER1 N AH0 T IY0;IY0 T ER1 N AH0 T IY0
+etess		EH2 T EH1 S
+ethan	e·than	IY1 TH AH0 N
+ethane	eth·ane/e·thane	EH1 TH EY2 N
+ethanol	eth·a·nol	EH1 TH AH0 N AO2 L
+ethel	eth·el	EH1 TH AH0 L
+ethelbert	eth·el·bert	EH1 TH IH0 L B ER0 T
+ethelda	e·thel·da	IH0 TH EH1 L D AH0
+ethelinda	eth·e·lin·da	EH0 TH EH0 L IY1 N D AH0
+etheline	eth·e·line	EH1 TH IH0 L AY2 N
+etheljean		EH1 TH IH0 L Y AH0 N;EH2 TH AH0 L JH IY1 N
+ethelson		EH1 TH IH0 L S IH0 N
+ethelyn		EH1 TH IH0 L IH0 N
+ethene	eth·ene	EH1 TH IY2 N
+ether	e·ther	IY1 TH ER0
+ethereal	e·the·re·al	IH0 TH IH1 R IY0 AH0 L
+etheredge		EH1 TH ER0 EH0 JH
+etheridge		EH1 TH ER0 IH2 JH
+etherington		EH1 DH ER0 IH0 NG T AH0 N
+ethernet		IY1 TH ER0 N EH2 T
+ethers		IY1 TH ER0 Z
+etherton		IH0 TH ER1 T AH0 N;EH1 TH ER0 T AH0 N
+ethic	eth·ic	EH1 TH IH0 K
+ethical	eth·i·cal	EH1 TH IH0 K AH0 L
+ethically	eth·i·cal·ly	EH1 TH IH0 K AH0 L IY0
+ethicist		EH1 TH IH0 S IH0 S T
+ethicists		EH1 TH IH0 S IH0 S T S
+ethicon		EH1 TH IH0 K AA2 N
+ethics	eth·ics	EH1 TH IH0 K S
+ethier		EH1 TH IY0 ER0
+ethington		EH1 TH IH0 NG T AH0 N
+ethiopia	e·thi·o·pi·a	IY2 TH IY0 OW1 P IY0 AH0
+ethiopia's		IY2 TH IY0 OW1 P IY0 AH0 Z
+ethiopian	e·thi·o·pi·an	IY2 TH IY0 OW1 P IY0 AH0 N
+ethiopians		IY2 TH IY0 OW1 P IY0 AH0 N Z
+ethnic	eth·nic	EH1 TH N IH0 K
+ethnical	eth·ni·cal	EH1 TH N IH0 K AH0 L
+ethnically	eth·ni·cal·ly	EH1 TH N IH0 K L IY0
+ethnicity	eth·nic·i·ty	EH0 TH N IH1 S IH0 T IY0
+ethnics		EH1 TH N IH0 K S
+ethnocentric	eth·no·cen·tric	EH2 TH N OW0 S EH1 N T R IH0 K
+ethnocentrism	eth·no·cen·trism	EH2 TH N OW0 S EH1 N T R IH0 Z AH0 M
+ethnographic	eth·no·graph·ic	EH2 TH N AH0 G R AE1 F IH0 K
+ethnology	eth·nol·o·gy	EH0 TH N AA1 L AH0 JH IY0
+ethnomusicologist	eth·no·mu·si·col·o·gist	EH0 TH N AH0 M Y UW2 Z AH0 K AA1 L AH0 JH IH0 S T
+ethnos	eth·nos	EH1 TH N OW0 S
+ethnos's		EH1 TH N AH0 S IH0 Z
+ethology	e·thol·o·gy	IH0 TH AA1 L AH0 JH IY0
+ethos	e·thos	IY1 TH AA0 S
+ethridge		IH0 TH R IH1 JH
+ethyl	eth·yl/e·thyl	EH1 TH AH0 L
+ethylene	eth·yl·ene	EH1 TH AH0 L IY2 N
+ethyol		EH1 TH AY0 AA0 L
+etienne	e·tienne	EH1 T IY0 EH0 N
+etiologies		IY2 T IY0 AA1 L AH0 JH IY0 Z
+etiology	e·ti·ol·o·gy	IY2 T IY0 AA1 L AH0 JH IY0;IY2 T IY2 AA1 L AH0 JH IY0
+etiquette	et·i·quette	EH1 T AH0 K AH0 T
+etling		EH1 T L IH0 NG
+etna	et·na	EH1 T N AH0
+eton	e·ton	IY1 T AH0 N
+etops		IY1 T AA0 P S
+etruscan	e·trus·can	IH0 T R AH1 S K AH0 N
+etruscans		IH0 T R AH1 S K AH0 N Z
+etsty		EH1 T S T IY0
+etsu		EH1 T S UW0
+etsy		EH1 T S IY0
+etta	et·ta	EH1 T AH0
+etter		EH1 T ER0
+etters		EH1 T ER0 Z
+ettie		EH1 T IY0
+ettinger		EH1 T IH0 NG ER0
+ettinger's		EH1 T IH0 NG ER0 Z
+ettlinger		EH1 T L IH0 NG ER0
+etty		EH1 T IY0
+etudes		EY1 T UW2 D Z
+etymological	et·y·mo·log·i·cal	EH2 T AH0 M AH0 L AA1 JH AH0 K AH0 L
+etymology	et·y·mol·o·gy	EH2 T AH0 M AA1 L AH0 JH IY0;EH2 T IH0 M AA1 L AH0 JH IY0
+etzel	et·zel	EH1 T Z AH0 L
+etzel's		EH1 T Z AH0 L Z
+etzioni		EH2 T S IY2 OW1 N IY0
+etzkorn		EH1 T S K ER0 N
+etzler		EH1 T S L ER0
+eu		IY1 Y UW2
+euan		Y UW1 AH0 N
+eubank		Y UW1 B AE0 NG K
+eubanks		Y UW1 B AE0 NG K S
+eucalypti		Y UW2 K AH0 L IH1 P T AY0;Y UW2 K AH0 L IH1 P T IY0
+eucalyptus	eu·ca·lyp·tus	Y UW2 K AH0 L IH1 P T AH0 S
+eucharist	eu·cha·rist	Y UW1 K ER0 AH0 S T
+euchre	eu·chre	Y UW1 K ER0
+euchred		Y UW1 K ER0 D
+euclea	eu·cle·a	Y UW1 K L IY0 AH0
+euclid	eu·clid	Y UW1 K L IH0 D
+eudocia		Y UW0 D OW1 CH AH0
+eudora	eu·do·ra	Y UW0 D AO1 R AH0
+eudosia		Y UW0 D OW1 S IY0 AH0
+eudoxia		Y UW2 D AA1 K S IY0 AH0
+eudy		Y UW1 D IY0
+eugene	eu·gene	Y UW0 JH IY1 N;Y UW1 JH IY0 N
+eugenia	eu·ge·ni·a	Y UW2 JH IY1 N IY0 AH0
+eugenia's		Y UW2 JH IY1 N IY0 AH0 Z
+eugenic	eu·gen·ic	Y UW0 JH EH1 N IH0 K
+eugenics	eu·gen·ics	Y UW0 JH EH1 N IH0 K S
+eugenie	eu·ge·nie	Y UW2 JH IY1 N IY0
+eugenio	e·u·ge·nio	Y UW2 JH IY1 N IY0 OW0
+eugenio's		Y UW2 JH IY1 N IY0 OW0 Z
+eula	eu·la	Y UW1 L AH0
+euler	eu·ler	OY1 L ER0
+eulich		Y UW1 L IH0 K
+eulogies		Y UW1 L AH0 JH IY0 Z
+eulogize	eu·lo·gize	Y UW1 L AH0 JH AY2 Z
+eulogized	eu·lo·gized	Y UW1 L AH0 JH AY2 Z D
+eulogy	eu·lo·gy	Y UW1 L AH0 JH IY0
+eulogy's		Y UW1 L AH0 JH IY0 Z
+eunice	eu·nice	Y UW1 N AH0 S;Y UW1 N IH0 S
+eunuch	eu·nuch	Y UW1 N AH0 K
+euphemia	eu·phe·mi·a	Y UW0 F IY1 M IY0 AH0
+euphemism	eu·phe·mism	Y UW1 F AH0 M IH2 Z AH0 M
+euphemisms		Y UW1 F AH0 M IH2 Z AH0 M Z
+euphemistic	eu·phe·mis·tic	Y UW2 F AH0 M IH1 S T IH0 K
+euphemistically	eu·phe·mis·ti·cal·ly	Y UW2 F AH0 M IH1 S T IH0 K L IY0
+euphony	eu·pho·ny	Y UW1 F AH0 N IY0
+euphoria	eu·pho·ri·a	Y UW0 F AO1 R IY0 AH0
+euphoric	eu·phor·ic	Y UW0 F AO1 R IH0 K
+euphory		Y UW1 F AO0 R IY0
+euphrates	eu·phra·tes	Y UW0 F R EY1 T IY0 Z
+eurailpass		Y UW2 R EY1 L P AH2 S
+eurasia	eur·a·sia	Y UH0 R EY1 ZH AH0
+eurasian	eur·a·sian	Y UH0 R EY1 ZH IH0 N
+eure	eure	ER1
+eureca		Y UW1 R EH0 K AH0
+eureka	eu·re·ka	Y UH0 R IY1 K AH0
+eurest		Y UH1 R EH0 S T
+eurich		OY1 R IH0 K
+euro		Y UW1 R OW0;Y UH1 R OW0;Y UH1 R AH0
+eurobond		Y UW1 R OW0 B AA2 N D
+eurobonds		Y UW1 R OW0 B AA2 N D Z
+eurocheck		Y UW1 R AH0 CH EH2 K
+eurochecks		Y UW1 R AH0 CH EH2 K S
+eurocom		Y UW1 R AH0 K AH0 M;Y UW1 R OW0 K AA0 M
+eurocommercial		Y UW1 R OW0 K AH0 M ER1 SH AH0 L
+eurocopter		Y UH1 R OW0 K AA2 P T ER0
+eurocopters		Y UH1 R OW0 K AA2 P T ER0 Z
+eurocrat	eu·ro·crat	Y UW1 R AH0 K R AE0 T
+eurocrats		Y UW1 R AH0 K R AE0 T S
+eurodebenture		Y UW2 R OW0 D AH0 B EH1 N CH ER0
+eurodebentures		Y UW2 R OW0 D AH0 B EH1 N CH ER0 Z
+eurodebt		Y UW1 R OW0 D EH2 T
+eurodeposit		Y UW2 R OW0 D AH0 P AA1 Z AH0 T
+eurodeposits		Y UW2 R OW0 D IH0 P AA1 Z IH0 T S
+eurodisney		Y UW1 R OW0 D IH2 Z N IY0;Y UH1 R OW0 D IH2 Z N IY0
+eurodollar	eu·ro·dol·lar	Y UW1 R OW0 D AA2 L ER0;Y UH1 R OW0 D AO2 L ER0
+eurodollars	eu·ro·dol·lars	Y UW1 R OW0 D AA2 L ER0 Z
+eurofighter		Y UW1 R OW0 F AY2 T ER0
+eurofighters		Y UW1 R OW0 F AY2 T ER0 Z
+eurofima		Y UW2 R AH0 F IY1 M AH0
+euromark		Y UW1 R AH0 M AA0 R K
+euromarket	eu·ro·mar·ket	Y UW1 R OW0 M AA2 R K IH0 T
+euromarkets		Y UW1 R OW0 M AA2 R K IH0 T S
+euromissile		Y UW2 R OW0 M IH1 S AH0 L
+euromissiles		Y UW2 R OW0 M IH1 S AH0 L Z
+euromobiliare		Y UW1 R OW0 M OW0 B IH0 L EH1 R
+euromobiliare's		Y UW1 R OW0 M OW0 B IH0 L EH1 R Z
+euromoney		Y UW1 R OW0 M AH2 N IY0
+euronote		Y UW1 R AH0 N OW2 T
+euronotes		Y UW1 R AH0 N OW2 T S
+europa	eu·ro·pa	Y UH0 R OW1 P AH0
+europe	eu·rope	Y UH1 R AH0 P
+europe's		Y UH1 R AH0 P S
+european	eu·ro·pe·an	Y UH2 R AH0 P IY1 AH0 N
+europeans		Y UH2 R AH0 P IY1 AH0 N Z
+europeans'		Y UH2 R AH0 P IY1 AH0 N Z
+europeenne		Y UW1 R OW0 P IY2 N
+europewide		Y UH1 R AH0 P W AY1 D
+europhile		Y UH1 R OW0 F AY0 L
+europhiles		Y UH1 R OW0 F AY0 L Z
+europium	eu·ro·pi·um	Y UH0 R OW1 P IY0 AH0 M
+euros		Y UW1 R OW2 Z;Y UW1 R OW0 Z
+eurosid		Y UW1 R AH0 S IH0 D
+eurostar		Y UH1 R OW0 S T AA2 R
+eurostat		Y UW2 R AO1 S T AE0 T
+eurosterling		Y UW1 R OW0 S T ER1 L IH0 NG
+eurotunnel		Y UW1 R OW0 T AH1 N AH0 L
+eurotunnel's		Y UH1 R OW0 T AH2 N AH0 L Z
+euroyen		Y UW1 R OW0 Y EH2 N
+eury		Y UW1 R IY0
+eusebio		Y UW2 S IY1 B IY0 OW0
+eustace	eus·tace	Y UW1 S T AH0 S
+eustachian		Y UW0 S T EY1 K IY0 AH0 N
+eustacia	eu·sta·cia	Y UW0 S T AA1 CH AH0
+eustice		Y UW1 S T IH0 S
+eustis	eus·tis	Y UW1 S T AH0 S
+euthanasia	eu·tha·na·sia/eu·tha·na·si·a	Y UW2 TH AH0 N EY1 ZH AH0;Y UW2 TH AH0 N EY1 ZH Y AH0
+euthanasia's		Y UW2 TH AH0 N EY1 ZH AH0 Z
+euthanize		Y UW1 TH AH0 N AY2 Z
+eutsey		Y UW1 T S IY0
+eutsler		Y UW1 T S L ER0
+ev		EH1 V
+eva	eva/e·va	EY1 V AH0;IY1 V AH0
+eva's		EY1 V AH0 Z;IY1 V AH0 Z
+evacuate	e·vac·u·ate	IH0 V AE1 K Y AH0 EY2 T;IY0 V AE1 K Y AH0 EY2 T
+evacuated	e·vac·u·at·ed	IH0 V AE1 K Y AH0 W EY2 T IH0 D;IY0 V AE1 K Y AH0 W EY2 T IH0 D
+evacuating	e·vac·u·at·ing	IH0 V AE1 K Y AH0 W EY2 T IH0 NG;IY0 V AE1 K Y AH0 W EY2 T IH0 NG
+evacuation	e·vac·u·a·tion	IH0 V AE2 K Y AH0 W EY1 SH AH0 N;IY0 V AE1 K Y AH0 W EY1 SH AH0 N
+evacuations		IH0 V AE2 K Y AH0 W EY1 SH AH0 N Z;IY0 V AE1 K Y AH0 W EY1 SH AH0 N Z
+evacuee	e·vac·u·ee	IH0 V AE1 K Y UW0 IY0;IY0 V AE1 K Y UW0 IY0
+evacuees		IH0 V AE1 K Y UW0 IY0 Z;IY0 V AE1 K Y UW0 IY0 Z
+evade	e·vade	IH0 V EY1 D;IY0 V EY1 D
+evaded	e·vad·ed	IH0 V EY1 D IH0 D;IY0 V EY1 D IH0 D
+evader	e·vad·er	IH0 V EY1 D ER0;IY0 V EY1 D ER0
+evaders		IH0 V EY1 D ER0 Z;IY0 V EY1 D ER0 Z
+evades		IH0 V EY1 D Z;IY0 V EY1 D Z
+evading	e·vad·ing	IH0 V EY1 D IH0 NG;IY0 V EY1 D IH0 NG
+evadne	e·vad·ne	IH0 V EH1 D N IY0
+evald		EH1 V AH0 L D;IY1 V AA2 L D
+evaleen		EH1 V AH0 L IY2 N
+evaluate	e·val·u·ate	IH0 V AE1 L Y UW0 EY2 T;IY0 V AE1 L Y UW0 EY2 T
+evaluated	e·val·u·at·ed	IH0 V AE1 L Y UW0 EY2 T AH0 D;IY0 V AE1 L Y UW0 EY2 T AH0 D
+evaluates		IH0 V AE1 L Y UW0 EY2 T S;IY0 V AE1 L Y UW0 EY2 T S
+evaluating	e·val·u·at·ing	IH0 V AE1 L Y UW0 EY2 T IH0 NG;IY0 V AE1 L Y UW0 EY2 T IH0 NG
+evaluation	e·val·u·a·tion	IH0 V AE2 L Y UW0 EY1 SH AH0 N;IY0 V AE2 L Y UW0 EY1 SH AH0 N
+evaluations		IH0 V AE2 L Y UW0 EY1 SH AH0 N Z;IY0 V AE2 L Y UW0 EY1 SH AH0 N Z
+evan	evan/ev·an	EH1 V AH0 N
+evancho		EH0 V AA1 N K OW0
+evander	e·van·der	IY2 V AE1 N D ER0
+evandro		EH2 V AA1 D R OW0;IY2 V AE1 D R OW0
+evanescence	ev·a·nes·cence	EH2 V AH0 N EH1 S AH0 N S
+evanescent	ev·a·nes·cent	EH2 V AH0 N EH1 S AH0 N T
+evangelical	e·van·gel·i·cal	IY2 V AE0 N JH EH1 L IH0 K AH0 L
+evangelicals		IY2 V AE2 N JH EH1 L IH0 K AH0 L Z
+evangeline	e·van·ge·line	IH0 V AE1 N JH IH0 L AY2 N
+evangelism	e·van·ge·lism	IH0 V AE1 N JH AH0 L IH2 Z AH0 M;IY0 V AE1 N JH AH0 L IH2 Z AH0 M
+evangelist	e·van·ge·list	IH0 V AE1 N JH AH0 L IH0 S T;IY0 V AE1 N JH AH0 L IH0 S T
+evangelista	e·van·ge·lis·ta	EH0 V AA0 NG G EH0 L IY1 S T AH0
+evangelistic	e·van·ge·lis·tic	IY0 V AE1 N JH AH0 L IH0 S T IH0 K
+evangelists		IH0 V AE1 N JH AH0 L IH0 S T S;IY0 V AE1 N JH AH0 L IH0 S T S;IH0 V AE1 N JH AH0 L IH0 S;IY0 V AE1 N JH AH0 L IH0 S
+evangelize	e·van·ge·lize	IH0 V AE1 N JH AH0 L AY2 Z;IY0 V AE1 N JH AH0 L AY2 Z
+evangi		IH0 V AE1 N JH IY0
+evanko		IH0 V AE1 NG K OW0
+evanoff		EH1 V AH0 N AO2 F
+evanov		EH1 V AH0 N AO2 V
+evans	ev·ans	EH1 V AH0 N Z
+evans'		EH1 V AH0 N Z
+evans's		EH1 V AH0 N Z IH0 Z
+evanson		EH1 V AH0 N S AH0 N
+evanston	ev·ans·ton	EH1 V AH0 N S T AH0 N
+evansville	ev·ans·ville	EH1 V AH0 N Z V IH2 L
+evaporate	e·vap·o·rate	IH0 V AE1 P ER0 EY2 T
+evaporated	e·vap·o·rat·ed	IH0 V AE1 P ER0 EY2 T AH0 D;IH0 V AE1 P ER0 EY2 T IH0 D;IY0 V AE1 P ER0 EY2 T AH0 D;IY0 V AE1 P ER0 EY2 T IH0 D
+evaporates		IH0 V AE1 P ER0 EY2 T S;IY0 V AE1 P ER0 EY2 T S
+evaporating	e·vap·o·rat·ing	IH0 V AE1 P ER0 EY2 T IH0 NG;IY0 V AE1 P ER0 EY2 T IH0 NG
+evaporation	e·vap·o·ra·tion	IH0 V AE2 P ER0 EY1 SH AH0 N;IY0 V AE2 P ER0 EY1 SH AH0 N
+evaporator	e·vap·o·ra·tor	IH0 V AE1 P ER0 EY2 T ER0;IY0 V AE1 P ER0 EY2 T ER0
+evarts	ev·arts	EH1 V ER0 T S
+evasion	e·va·sion	IH0 V EY1 ZH AH0 N;IY0 V EY1 ZH AH0 N
+evasions		IH0 V EY1 ZH AH0 N Z;IY0 V EY1 ZH AH0 N Z
+evasive	e·va·sive	IH0 V EY1 Z IH0 V;IY0 V EY1 Z IH0 V
+evatt	ev·att	EH1 V AH0 T
+eve	eve	IY1 V
+evel		EH1 V AH0 L
+eveland		IY1 V L AH0 N D
+eveleth	ev·e·leth	EH1 V IH0 L IH0 TH
+evelina	ev·e·li·na	EH2 V EH0 L IY1 N AH0
+eveline		EH1 V AH0 L IH0 N
+evelyn	eve·lyn/ev·e·lyn	EH1 V AH0 L AH0 N;EH1 V AH0 L IH0 N
+even	e·ven	IY1 V IH0 N
+evendale		EH1 V AH0 N D EY2 L
+evened		IY1 V AH0 N D
+evenhanded		IY1 V AH0 N HH AE1 N D IH0 D
+evenhandedly		EH1 V AH0 N HH AE2 N D IH0 D L IY0
+evening	eve·ning	IY1 V N IH0 NG
+evening's		IY1 V N IH0 NG Z
+evenings	eve·nings	IY1 V N IH0 NG Z
+evenly	e·ven·ly	IY1 V AH0 N L IY0
+evenness	e·ven·ness	IY1 V AH0 N N AH0 S
+evens	e·vens	IY1 V AH0 N Z
+evensen		EH1 V IH0 N S AH0 N
+evensky		IY2 V EH1 N S K IY0
+evenson		EH1 V IH0 N S AH0 N
+event	e·vent	IH0 V EH1 N T;IY0 V EH1 N T
+event's		IH0 V EH1 N T S;IY0 V EH1 N T S
+eventful	e·vent·ful	IH0 V EH1 N T F AH0 L;IY0 V EH1 N T F AH0 L
+events		IH0 V EH1 N T S;IY0 V EH1 N T S
+eventual	e·ven·tu·al	AH0 V EH1 N CH UW0 AH0 L;IY0 V EH1 N CH UW0 AH0 L
+eventuality	e·ven·tu·al·i·ty	AH0 V EH2 N CH UW0 AE1 L IH0 T IY0;IY0 V EH2 N CH UW0 AE1 L IH0 T IY0
+eventually	e·ven·tu·al·ly	IH0 V EH1 N CH AH0 W AH0 L IY0;IH0 V EH1 N SH AH0 L IY0;IY0 V EH1 N CH AH0 W AH0 L IY0;IY0 V EH1 N SH AH0 L IY0
+ever	ev·er	EH1 V ER0
+everage		EH1 V ER0 IH0 JH
+everard	ev·e·rard	EH1 V ER0 ER0 D
+everbach		EH1 V ER0 B AA2 K
+everding		EH1 V ER0 D IH0 NG
+eveready		EH1 V ER0 R EH2 D IY0
+evered		EH1 V ER0 D
+everest	ev·er·est	EH1 V ER0 AH0 S T;EH1 V R AH0 S T
+everest's		EH1 V ER0 AH0 S T S;EH1 V R AH0 S T S
+everett	ev·er·ett	EH1 V ER0 AH0 T;EH1 V R AH0 T
+everette		EH1 V ER0 EH1 T
+everetts		EH1 V ER0 AH0 T S;EH1 V R AH0 T S
+everex		EH1 V ER0 AH0 K S
+everglades	ev·er·glades	EH1 V ER0 G L EY2 D Z
+everglades'		EH1 V ER0 G L EY2 D Z
+evergood	ev·er·good	EH1 V ER0 G UH2 D
+evergreen	ev·er·green	EH1 V ER0 G R IY2 N
+evergreens		EH1 V ER0 G R IY2 N Z
+everhardt		EH1 V ER0 HH AA2 R T
+everhart		EH1 V ER0 HH AA2 R T
+everidge		EH1 V ER0 IH2 JH
+everingham		EH1 V ER0 IH0 NG HH AE2 M
+everington		EH1 V ER0 IH2 NG T AH0 N
+everitt		EH1 V ER0 IH0 T
+everlast		EH2 V ER0 L AE1 S T
+everlasting	ev·er·last·ing	EH2 V ER0 L AE1 S T IH0 NG
+everlastings		EH2 V ER0 L AE1 S T IH0 NG Z
+everley		EH1 V ER0 L IY0
+everling		EH1 V ER0 L IH0 NG
+everly		EH1 V ER0 L IY0
+everman		EH1 V ER0 M AH0 N
+evermore	ev·er·more	EH1 V ER0 M AO2 R
+evers		EH1 V ER0 Z
+evers'		EH1 V ER0 Z
+eversman		EH1 V ER0 S M AH0 N
+eversole		EH1 V ER0 S OW2 L
+everson		EH1 V ER0 S AH0 N
+evert	ev·ert/e·vert	IH0 V ER1 T
+everton		EH1 V ER0 T AH0 N
+everts		EH1 V ER0 T S
+every	eve·ry	EH1 V ER0 IY0;EH1 V R IY0
+everybody	eve·ry·bod·y	EH1 V R IY0 B AA2 D IY0
+everybody'd		EH1 V R IY0 B AA2 D IY0 D
+everybody's		EH1 V R IY0 B AA2 D IY0 Z
+everyday	eve·ry·day	EH1 V R IY0 D EY1
+everyman	eve·ry·man	EH1 V R IY0 M AH0 N
+everyman's		EH1 V R IY0 M AH0 N Z
+everyone	eve·ry·one	EH1 V R IY0 W AH2 N
+everyone's		EH1 V R IY0 W AH2 N Z
+everyplace	eve·ry·place	EH1 V R IY0 P L EY2 S
+everything	eve·ry·thing	EH1 V R IY0 TH IH2 NG
+everything's		EH1 V R IY0 TH IH2 NG Z
+everythings		EH1 V R IY0 TH IH2 NG Z
+everytime		EH1 V R IY0 T AY2 M
+everywhere	eve·ry·where	EH1 V R IY0 W EH2 R;EH1 V R IY0 HH W EH2 R
+eves		IY1 V Z
+evett		EH1 V IH0 T
+evetts		EH1 V IH0 T S
+evian		EH1 V IY0 AH0 N
+evict	e·vict	IH0 V IH1 K T
+evicted		IH0 V IH1 K T IH0 D
+evicting		IH0 V IH1 K T IH0 NG
+eviction	e·vic·tion	IH0 V IH1 K SH AH0 N
+evictions		IH0 V IH1 K SH AH0 N Z
+evidence	ev·i·dence	EH1 V AH0 D AH0 N S
+evidenced	ev·i·denced	EH1 V IH0 D AH0 N S T
+evidences		EH1 V AH0 D AH0 N S AH0 Z
+evident	ev·i·dent	EH1 V AH0 D AH0 N T
+evidentiary	ev·i·den·tia·ry	EH2 V IH0 D EH1 N SH IY0 EH0 R IY0;EH2 V IH0 D EH1 N CH IY0 EH0 R IY0
+evidently	ev·i·dent·ly	EH1 V AH0 D AH0 N T L IY0
+evil	e·vil	IY1 V AH0 L
+evildoer	e·vil·do·er	IY1 V AH0 L D UW2 ER0
+evildoers		IY1 V AH0 L D UW2 ER0 Z
+evils		IY1 V AH0 L Z
+evilsizer		IY1 V AH0 L S AY2 Z ER0
+evilsizor		IY1 V AH0 L S AY2 Z ER0
+evin		EH1 V IH0 N
+evince	e·vince	IH0 V IH1 N S
+evinced	e·vinced	IH0 V IH1 N S T
+evinger		IY1 V IH0 NG ER0
+evins		EH1 V IH0 N Z
+eviscerate	e·vis·cer·ate	AH0 V IH1 S ER0 EY2 T
+eviscerated	e·vis·cer·at·ed	AH0 V IH1 S ER0 EY2 T IH0 D
+evita	e·vi·ta	EH0 V IY1 T AH0
+evitt		EH1 V IH0 T
+evitts		EH1 V IH0 T S
+evjen		EH1 V JH AH0 N
+evlyn		EH1 V L AH0 N
+evocation	ev·o·ca·tion	IY2 V OW0 K EY1 SH AH0 N
+evocative	e·voc·a·tive	IH0 V AA1 K AH0 T IH0 V
+evoke	e·voke	IH0 V OW1 K;IY0 V OW1 K
+evoked	e·voked	IH0 V OW1 K T;IY0 V OW1 K T
+evokes		IH0 V OW1 K S;IY0 V OW1 K S
+evoking	e·vok·ing	IH0 V OW1 K IH0 NG;IY0 V OW1 K IH0 NG
+evola		EH0 V OW1 L AH0
+evolution	ev·o·lu·tion/e·vo·lu·tion	EH2 V AH0 L UW1 SH AH0 N;IY2 V AH0 L UW1 SH AH0 N;EH2 V OW0 L UW1 SH AH0 N;IY2 V OW0 L UW1 SH AH0 N
+evolutionary	ev·o·lu·tion·ar·y	EH2 V AH0 L UW1 SH AH0 N EH2 R IY0;IY2 V AH0 L UW1 SH AH0 N EH2 R IY0;EH2 V OW0 L UW1 SH AH0 N EH2 R IY0;IY2 V OW0 L UW1 SH AH0 N EH2 R IY0
+evolve	e·volve	IH0 V AA1 L V;IY0 V AA1 L V
+evolved	e·volved	IH0 V AA1 L V D;IY0 V AA1 L V D
+evolves		IH0 V AA1 L V Z;IY0 V AA1 L V Z
+evolving	e·volv·ing	IH0 V AA1 L V IH0 NG;IY0 V AA1 L V IH0 NG
+evon		EH1 V AH0 N
+evonne		EH2 V AA1 N
+evrard		EH1 V R ER0 D
+evren		EH1 V R AH0 N
+ewald	e·wald	Y UW1 AH0 L D
+ewalt		Y UW1 AH0 L T
+ewan	ew·an	Y UW1 AH0 N
+ewart		Y UW1 ER0 T
+ewbal		Y UW1 B AA0 L
+ewbank		Y UW1 B AH0 NG K
+ewe	ewe/e·we	Y UW1
+ewell	ew·ell	Y UW1 AH0 L
+ewen		Y UW1 AH0 N
+ewer	ew·er	Y UW1 ER0
+ewers		Y UW1 ER0 Z
+ewert		Y UW1 ER0 T
+ewes		Y UW1 Z
+ewig		Y UW1 IH0 G
+ewing	ew·ing	Y UW1 IH0 NG
+ewing's		Y UW1 IH0 NG Z
+ewings		Y UW1 IH0 NG Z
+ewoldt		Y UW1 OW0 L T
+ewong		Y UW1 AO0 NG
+eworld		IY1 W ER2 L D
+ewton		Y UW1 T AH0 N
+ewy		Y UW1 IY0
+ex		EH1 K S
+ex-boyfriend		EH1 K S B OY1 F R EH2 N D
+ex-boyfriends		EH1 K S B OY1 F R EH2 N D Z
+ex-fighter		EH1 K S F AY1 T ER0
+ex-girlfriend		EH1 K Z G ER1 L F R EH2 N D
+ex-girlfriends		EH1 K Z G ER1 L F R EH2 N D Z
+ex-husband		EH1 K S HH AH1 Z B AH0 N D
+ex-husbands		EH1 K S HH AH1 Z B AH0 N D Z
+ex-voto		EH0 K S V OW1 T OW1
+ex-wife		EH1 K S W AY1 F
+ex-wives		EH1 K S W AY1 V Z
+exabyte		EH1 K S AH0 B AY2 T
+exacerbate	ex·ac·er·bate	IH0 G Z AE1 S ER0 B EY2 T
+exacerbated	ex·ac·er·bat·ed	IH0 G Z AE1 S ER0 B EY2 T AH0 D;IH0 G Z AE1 S ER0 B EY2 T IH0 D
+exacerbates		IH0 G Z AE1 S ER0 B EY2 T S
+exacerbating	ex·ac·er·bat·ing	IH0 G Z AE1 S ER0 B EY2 T IH0 NG
+exacerbation	ex·ac·er·ba·tion	IH0 G Z AE2 S ER0 B EY1 SH AH0 N
+exacerbations		IH0 G Z AE2 S ER0 B EY1 SH AH0 N Z
+exact	ex·act	IH0 G Z AE1 K T
+exacted		IH0 G Z AE1 K T IH0 D
+exacting	ex·act·ing	IH0 G Z AE1 K T IH0 NG
+exaction	ex·ac·tion	IH0 G Z AE1 K SH AH0 N
+exactions		IH0 G Z AE1 K SH AH0 N Z
+exactitude	ex·act·i·tude	IH0 G Z AE1 K T AH0 T UW2 D
+exactly	ex·act·ly	IH0 G Z AE1 K T L IY0
+exactly's		IH0 G Z AE1 K T L IY0 Z
+exacts		IH0 G Z AE1 K T S
+exaggerate	ex·ag·ger·ate	IH0 G Z AE1 JH ER0 EY2 T
+exaggerated	ex·ag·ger·at·ed	IH0 G Z AE1 JH ER0 EY2 T AH0 D;IH0 G Z AE1 JH ER0 EY2 T IH0 D
+exaggerates		IH0 G Z AE1 JH ER0 EY2 T S
+exaggerating	ex·ag·ger·at·ing	IH0 G Z AE1 JH ER0 EY2 T IH0 NG
+exaggeration	ex·ag·ger·a·tion	IH0 G Z AE2 JH ER0 EY1 SH AH0 N
+exaggerations		IH0 G Z AE2 JH ER0 EY1 SH AH0 N Z
+exalt	ex·alt	IH0 G Z AO1 L T
+exalted	ex·alt·ed	IH0 G Z AO1 L T IH0 D
+exalting		IH0 G Z AO1 L T IH0 NG
+exalts		IH0 G Z AO1 L T S
+exam	ex·am	IH0 G Z AE1 M
+examination	ex·am·i·na·tion	IH0 G Z AE2 M AH0 N EY1 SH AH0 N
+examinations		IH0 G Z AE2 M AH0 N EY1 SH AH0 N Z
+examine	ex·am·ine	IH0 G Z AE1 M IH0 N
+examined	ex·am·ined	IH0 G Z AE1 M AH0 N D
+examiner	ex·am·in·er	IH0 G Z AE1 M AH0 N ER0
+examiner's		EH0 G Z AE1 M AH0 N ER0 Z
+examiners		IH0 G Z AE1 M IH0 N ER0 Z
+examiners'		IH0 G Z AE1 M IH0 N ER0 Z
+examines		IH0 G Z AE1 M AH0 N Z
+examining	ex·am·in·ing	IH0 G Z AE1 M IH0 N IH0 NG
+example	ex·am·ple	IH0 G Z AE1 M P AH0 L
+examples		IH0 G Z AE1 M P AH0 L Z
+exams		IH0 G Z AE1 M Z
+exar		EH1 K S ER0
+exasperate	ex·as·per·ate	IH0 G Z AE1 S P ER0 EY2 T
+exasperated	ex·as·per·at·ed	IH0 G Z AE1 S P ER0 EY2 T IH0 D
+exasperating	ex·as·per·at·ing	IH0 G Z AE1 S P ER0 EY2 T IH0 NG
+exasperation	ex·as·per·a·tion	EH2 K S AE2 S P ER0 EY1 SH AH0 N
+exboyfriend		EH2 K S B OY1 F R EH2 N D
+exbroker		EH1 K S B R OW1 K ER0
+exbroker's		EH1 K S B R OW1 K ER0 Z
+exbrokers		EH1 K S B R OW1 K ER0 Z
+excalibur	ex·cal·i·bur	EH2 K S K AE1 L AH0 B ER0
+excavate	ex·ca·vate	EH1 K S K AH0 V EY2 T
+excavated	ex·ca·vat·ed	EH1 K S K AH0 V EY2 T IH0 D
+excavating	ex·ca·vat·ing	EH1 K S K AH0 V EY2 T IH0 NG
+excavation	ex·ca·va·tion	EH2 K S K AH0 V EY1 SH AH0 N
+excavations		EH2 K S K AH0 V EY1 SH AH0 N Z
+excavator	ex·ca·va·tor	EH1 K S K AH0 V EY2 T ER0
+excavators		EH1 K S K AH0 V EY2 T ER0 Z
+excedrin		EH0 K S EH1 D R AH0 N
+exceed	ex·ceed	IH0 K S IY1 D
+exceeded		IH0 K S IY1 D AH0 D;IH0 K S IY1 D IH0 D
+exceeding	ex·ceed·ing	IH0 K S IY1 D IH0 NG
+exceedingly	ex·ceed·ing·ly	IH0 K S IY1 D IH0 NG L IY0
+exceeds		IH0 K S IY1 D Z
+excel	ex·cel	IH0 K S EH1 L
+excel's		IH0 K S EH1 L Z
+excelan		EH2 K S EH1 L AH0 N
+excelled	ex·celled	IH0 K S EH1 L D
+excellence	ex·cel·lence	EH1 K S AH0 L AH0 N S
+excellencies		EH1 K S L EH1 N S IY0 Z
+excellency	ex·cel·len·cy	EH1 K S L EH1 N S IY0
+excellent	ex·cel·lent	EH1 K S AH0 L AH0 N T
+excellently	ex·cel·lent·ly	EH1 K S AH0 L AH0 N T L IY0
+excelling	ex·cel·ling	EH0 K S EH1 L IH0 NG
+excels		IH0 K S EH1 L Z
+excelsior	ex·cel·si·or	IH0 K S EH1 L S IY0 ER0
+except	ex·cept	IH0 K S EH1 P T
+excepted		IH0 K S EH1 P T IH0 D
+excepting	ex·cept·ing	EH2 K S EH1 P T IH0 NG
+exception	ex·cep·tion	IH0 K S EH1 P SH AH0 N
+exceptional	ex·cep·tion·al	IH0 K S EH1 P SH AH0 N AH0 L
+exceptionally	ex·cep·tion·al·ly	IH0 K S EH1 P SH AH0 N AH0 L IY0;IH0 K S EH1 P SH N AH0 L IY0
+exceptions		IH0 K S EH1 P SH AH0 N Z
+excerpt	ex·cerpt	EH1 K S ER0 P T;EH0 K S ER1 P T
+excerpted		EH2 K S ER1 P T IH0 D
+excerpts		EH1 K S ER0 P T S;EH0 K S ER1 P T S
+excess	ex·cess	EH1 K S EH2 S;IH0 K S EH1 S
+excesses		EH2 K S EH1 S IH0 Z;IH0 K S EH1 S IH0 Z
+excessive	ex·ces·sive	IH0 K S EH1 S IH0 V
+excessively	ex·ces·sive·ly	IH0 K S EH1 S IH0 V L IY0
+exchange	ex·change	IH0 K S CH EY1 N JH
+exchange's		IH0 K S CH EY1 N JH IH0 Z
+exchangeable	ex·change·a·ble	IH0 K S CH EY1 N JH AH0 B AH0 L
+exchanged	ex·changed	IH0 K S CH EY1 N JH D
+exchanger	ex·chang·er	IH0 K S CH EY1 N JH ER0
+exchangers		IH0 K S CH EY1 N JH ER0 Z
+exchanges		IH0 K S CH EY1 N JH AH0 Z;IH0 K S CH EY1 N JH IH0 Z
+exchanges'		EH0 K S CH EY1 N JH IH0 Z
+exchanging	ex·chang·ing	IH0 K S CH EY1 N JH IH0 NG
+exchequer	ex·cheq·uer	EH1 K S CH EH2 K ER0
+excimer		EH2 K S IH1 M ER0
+excise	ex·cise	EH0 K S AY1 S;EH1 K S AY0 Z
+excised	ex·cised	EH1 K S AY2 Z D
+excises		EH1 K S AY2 Z IH0 Z
+excision	ex·ci·sion	IH0 K S IH1 ZH AH0 N
+excitable	ex·cit·a·ble	IH0 K S AY1 T AH0 B AH0 L
+excitation	ex·ci·ta·tion	EH2 K S AY0 T EY1 SH AH0 N
+excite	ex·cite	IH0 K S AY1 T
+excited	ex·cit·ed	IH0 K S AY1 T AH0 D;IH0 K S AY1 T IH0 D
+excitedly	ex·cit·ed·ly	IH0 K S AY1 T AH0 D L IY0
+excitement	ex·cite·ment	IH0 K S AY1 T M AH0 N T
+excites		IH0 K S AY1 T S
+exciting	ex·cit·ing	IH0 K S AY1 T IH0 NG
+exclaim	ex·claim	IH0 K S K L EY1 M
+exclaimed		IH0 K S K L EY1 M D
+exclaiming		IH0 K S K L EY1 M IH0 NG
+exclaims		IH0 K S K L EY1 M Z
+exclamation	ex·cla·ma·tion	EH2 K S K L AH0 M EY1 SH AH0 N
+exclamation-point		EH2 K S K L AH0 M EY1 SH AH0 N P OY1 N T
+exclamations		EH2 K S K L AH0 M EY1 SH AH0 N Z
+excludable	ex·clud·a·ble	IH0 K S K L UW1 D AH0 B AH0 L
+exclude	ex·clude	IH0 K S K L UW1 D
+excluded	ex·clud·ed	IH0 K S K L UW1 D AH0 D;IH0 K S K L UW1 D IH0 D
+excludes		IH0 K S K L UW1 D Z
+excluding	ex·clud·ing	IH0 K S K L UW1 D IH0 NG
+exclusion	ex·clu·sion	IH0 K S K L UW1 ZH AH0 N
+exclusionary	ex·clu·sion·ar·y	IH0 K S K L UW1 ZH AH0 N EH2 R IY0
+exclusions		IH0 K S K L UW1 ZH AH0 N Z
+exclusive	ex·clu·sive	IH0 K S K L UW1 S IH0 V
+exclusively	ex·clu·sive·ly	IH0 K S K L UW1 S IH0 V L IY0
+exclusives		IH0 K S K L UW1 S IH0 V Z
+exclusivity	ex·clu·siv·i·ty	EH2 K S K L UW2 S IH1 V AH0 T IY0
+exco		EH1 K S K OW0
+excoa		EH2 K S K OW1 AH0
+excommunicate	ex·com·mun·i·cate/ex·com·mu·ni·cate	EH2 K S K AH0 M Y UW1 N AH0 K EY2 T
+excommunicated	ex·com·mu·ni·cat·ed	EH2 K S K AH0 M Y UW1 N AH0 K EY2 T AH0 D
+excommunication	ex·com·mu·ni·ca·tion	EH2 K S K AH0 M Y UW2 N AH0 K EY1 SH AH0 N
+excoriate	ex·co·ri·ate	EH0 K S K AO1 R IY0 EY2 T
+excoriated	ex·co·ri·at·ed	EH0 K S K AO1 R IY0 EY2 T IH0 D
+excoriating	ex·co·ri·at·ing	EH0 K S K AO1 R IY0 EY2 T IH0 NG
+excoriation	ex·co·ri·a·tion	EH0 K S K AO1 R IY0 EY2 SH AH0 N
+excrement	ex·cre·ment	EH1 K S K R AH0 M AH0 N T
+excrete	ex·crete	IH0 K S K R IY1 T
+excreted	ex·cret·ed	IH0 K S K R IY1 T IH0 D
+excretes		IH0 K S K R IY1 T Z
+excretion	ex·cre·tion	IH0 K S K R IY1 SH AH0 N
+excretory	ex·cre·to·ry	EH1 K S K R AH0 T AO2 R IY0
+excruciating	ex·cru·ci·at·ing	IH0 K S K R UW1 SH IY0 EY2 T IH0 NG
+excruciatingly	ex·cru·ci·at·ing·ly	EH2 K S K R UW1 S IY0 EY2 T IH0 NG L IY0
+exculpate	ex·cul·pate	EH2 K S K AH1 L P EY0 T
+exculpatory	ex·cul·pa·to·ry	EH2 K S K AH1 L P AH0 T AO2 R IY0
+excursion	ex·cur·sion	IH0 K S K ER1 ZH AH0 N
+excursions		IH0 K S K ER1 ZH AH0 N Z
+excusable	ex·cus·a·ble	IH0 K S K Y UW1 Z AH0 B AH0 L
+excuse	ex·cuse	IH0 K S K Y UW1 S;IH0 K S K Y UW1 Z
+excused	ex·cused	IH0 K S K Y UW1 Z D
+excuses		IH0 K S K Y UW1 S IH0 Z;IH0 K S K Y UW1 Z IH0 Z
+excusing	ex·cus·ing	IH0 K S K Y UW1 Z IH0 NG
+exec	exec	EH2 G Z EH1 K
+execrable	ex·e·cra·ble	EH2 G Z EH1 K R AH0 B AH0 L
+execs		EH2 G Z EH1 K S
+execute	ex·e·cute	EH1 K S AH0 K Y UW2 T
+executed	ex·e·cut·ed	EH1 K S AH0 K Y UW2 T IH0 D
+executes		EH1 K S AH0 K Y UW2 T S
+executing	ex·e·cut·ing	EH1 K S AH0 K Y UW2 T IH0 NG
+execution	ex·e·cu·tion	EH2 K S AH0 K Y UW1 SH AH0 N
+executioner	ex·e·cu·tion·er	EH2 K S AH0 K Y UW1 SH AH0 N ER0
+executioner's		EH2 K S AH0 K Y UW1 SH AH0 N ER0 Z
+executioners		EH2 K S AH0 K Y UW1 SH AH0 N ER0 Z
+executions		EH2 K S AH0 K Y UW1 SH AH0 N Z
+executive	ex·ec·u·tive	IH0 G Z EH1 K Y AH0 T IH0 V
+executive's		EH0 G Z EH1 K Y AH0 T IH0 V Z
+executives		IH0 G Z EH1 K Y AH0 T IH0 V Z
+executives'		EH0 G Z EH1 K Y AH0 T IH0 V Z
+executone		EH2 G Z EH1 K Y UW0 T OW2 N
+executor	ex·ec·u·tor	IH0 G Z EH1 K Y AH0 T ER0
+executors		IH0 G Z EH1 K Y AH0 T ER0 Z
+exel		EH1 K S AH0 L
+exemplar	ex·em·plar	IH0 G Z EH1 M P L AA0 R
+exemplars		IH0 G Z EH1 M P L AA0 R Z
+exemplary	ex·em·pla·ry	IH0 G Z EH1 M P L ER0 IY0
+exemplified	ex·em·pli·fied	IH0 G Z EH1 M P L AH0 F AY2 D
+exemplifies		IH0 G Z EH1 M P L AH0 F AY2 Z
+exemplify	ex·em·pli·fy	IH0 G Z EH1 M P L AH0 F AY2
+exemplifying	ex·em·pli·fy·ing	IH0 G Z EH1 M P L AH0 F AY2 IH0 NG
+exemplum	ex·em·plum	IH0 G Z EH1 M P L AH0 M
+exempt	ex·empt	IH0 G Z EH1 M P T
+exempted		IH0 G Z EH1 M P T IH0 D
+exempting		IH0 G Z EH1 M P T IH0 NG
+exemption	ex·emp·tion	IH0 G Z EH1 M P SH AH0 N;IH0 G Z EH1 M SH AH0 N
+exemptions		IH0 G Z EH1 M P SH AH0 N Z;IH0 G Z EH1 M SH AH0 N Z
+exempts		IH0 G Z EH1 M P T S
+exercisable	ex·er·cis·a·ble	EH1 K S ER0 S AY2 Z AH0 B AH0 L
+exercise	ex·er·cise	EH1 K S ER0 S AY2 Z
+exercised	ex·er·cised	EH1 K S ER0 S AY2 Z D
+exerciser	ex·er·cis·er	EH1 K S ER0 S AY2 Z ER0
+exercisers		EH1 K S ER0 S AY2 Z ER0 Z
+exercises		EH1 K S ER0 S AY2 Z AH0 Z;EH1 K S ER0 S AY2 Z IH0 Z
+exercising	ex·er·cis·ing	EH1 K S ER0 S AY2 Z IH0 NG
+exert	ex·ert	IH0 G Z ER1 T
+exerted		IH0 G Z ER1 T IH0 D
+exerting		IH0 G Z ER1 T IH0 NG
+exertion	ex·er·tion	IH0 G Z ER1 SH AH0 N
+exertions		IH0 G Z ER1 SH AH0 N Z
+exerts		IH0 G Z ER1 T S
+exes		EH1 K S IH0 Z
+exeter	ex·e·ter	EH1 K S IH0 T ER0
+exfoliate	ex·fo·li·ate	EH0 K S F OW1 L IY0 EY0 T
+exfoliation	ex·fo·li·a·tion	EH0 K S F OW2 L IY0 EY1 SH AH0 N
+exhalation	ex·ha·la·tion	EH2 K S HH AH0 L EY1 SH AH0 N
+exhale	ex·hale	EH0 K S HH EY1 L
+exhaled	ex·haled	EH0 K S HH EY1 L D
+exhaust	ex·haust	IH0 G Z AO1 S T
+exhausted		IH0 G Z AO1 S T IH0 D
+exhausting		IH0 G Z AO1 S T IH0 NG
+exhaustion	ex·haus·tion	IH0 G Z AO1 S CH AH0 N
+exhaustive	ex·haus·tive	IH0 G Z AO1 S T IH0 V
+exhaustively	ex·haust·ive·ly	IH0 G Z AA1 S T IH0 V L IY0
+exhausts		IH0 G Z AO1 S T S
+exhibit	ex·hib·it	IH0 G Z IH1 B IH0 T
+exhibit's		IH0 G Z IH1 B AH0 T S
+exhibited		IH0 G Z IH1 B AH0 T AH0 D
+exhibiting		IH0 G Z IH1 B IH0 T IH0 NG
+exhibition	ex·hi·bi·tion	EH2 K S AH0 B IH1 SH AH0 N
+exhibitionist	ex·hi·bi·tion·ist	EH2 K S AH0 B IH1 SH AH0 N IH0 S T
+exhibitionists		EH2 K S AH0 B IH1 SH AH0 N IH0 S T S
+exhibitions		EH2 K S AH0 B IH1 SH AH0 N Z
+exhibitor	ex·hib·i·tor	IH0 G Z IH1 B AH0 T ER0
+exhibitors		IH0 G Z IH1 B AH0 T ER0 Z
+exhibits		IH0 G Z IH1 B AH0 T S
+exhilarate	ex·hil·a·rate	IH0 G Z IH1 L ER0 EY2 T
+exhilarated	ex·hil·a·rat·ed	IH0 G Z IH1 L ER0 EY2 T IH0 D
+exhilarating	ex·hil·a·rat·ing	IH0 G Z IH1 L ER0 EY2 T IH0 NG
+exhilaration	ex·hil·a·ra·tion	IH0 G Z IH2 L ER0 EY1 SH AH0 N
+exhort	ex·hort	IH0 G Z AO1 R T
+exhortation	ex·hor·ta·tion	EH2 G Z AO2 R T EY1 SH AH0 N
+exhortations		EH2 G Z AO2 R T EY1 SH AH0 N Z
+exhorted		IH0 G Z AO1 R T IH0 D
+exhorting		IH0 G Z AO1 R T IH0 NG
+exhorts		IH0 G Z AO1 R T S
+exhumation	ex·hu·ma·tion	EH0 K S HH Y UW2 M EY1 SH AH0 N
+exhume	ex·hume	EH0 K S HH Y UW1 M
+exhumed	ex·humed	EH0 K S HH Y UW1 M D
+exhumes		EH0 K S HH Y UW1 M Z
+exide		EH1 K S AY2 D
+exigencies		EH2 K S IH1 JH AH0 N S IY0 Z
+exigency	ex·i·gen·cy	EH2 K S IH1 JH AH0 N S IY0
+exigent	ex·i·gent	EH1 K S IH0 JH AH0 N T
+exigents		EH1 K S IH0 JH AH0 N T S
+exile	ex·ile	EH1 G Z AY2 L;EH1 K S AY2 L
+exiled	ex·iled	EH1 G Z AY2 L D;EH1 K S AY2 L D
+exiles		EH1 G Z AY2 L Z;EH1 K S AY2 L Z
+exim		EH1 K S IH0 M
+exim's		EH1 K S IH0 M Z
+exist	ex·ist	IH0 G Z IH1 S T
+existed		IH0 G Z IH1 S T AH0 D
+existence	ex·ist·ence	EH0 G Z IH1 S T AH0 N S;IH0 G Z IH1 S T AH0 N S
+existent	ex·ist·ent	EH0 G Z IH1 S T AH0 N T
+existential	ex·is·ten·tial	EH2 G Z IH2 S T EH1 N SH AH0 L
+existing		IH0 G Z IH1 S T IH0 NG
+exists		IH0 G Z IH1 S T S
+exit	ex·it	EH1 G Z IH0 T;EH1 K S AH0 T
+exited		EH1 G Z AH0 T IH0 D
+exiting		EH1 G Z IH0 T IH0 NG
+exits		EH1 G Z IH0 T S;EH1 K S AH0 T S
+exler		EH1 K S L ER0
+exley		EH1 K S L IY0
+exline		EH1 K S L AY0 N
+exner		EH1 K S N ER0
+exocet		EH1 K S OW0 S EH2 T
+exodus	ex·o·dus	EH1 K S AH0 D AH0 S
+exogenous	ex·og·e·nous	EH2 K S OW1 JH AH0 N AH0 S
+exon	ex·on	EH2 K S AO1 N
+exonerate	ex·on·er·ate	IH0 G Z AA1 N ER0 EY2 T
+exonerated	ex·on·er·at·ed	IH0 G Z AA1 N ER0 EY2 T IH0 D
+exonerates		IH0 G Z AA1 N ER0 EY2 T S
+exonerating	ex·on·er·at·ing	IH0 G Z AA1 N ER0 EY2 T IH0 NG
+exoneration	ex·on·er·a·tion	IH0 G Z AA0 N ER0 EY1 SH AH0 N
+exorbitant	ex·or·bi·tant	IH0 G Z AO1 R B IH0 T AH0 N T
+exorcism	ex·or·cism	EH1 K S ER0 S IH2 Z AH0 M
+exorcisms		EH1 K S ER0 S IH2 Z AH0 M Z
+exorcist	ex·or·cist	EH1 K S ER0 S AH0 S T
+exorcists		EH1 K S ER0 S IH0 S T S
+exoskeleton	ex·o·skel·e·ton	EH2 K S OW0 S K EH1 L AH0 T AH0 N
+exothermic	ex·o·ther·mic	EH2 K S OW0 TH ER1 M IH0 K
+exotic	ex·ot·ic	IH0 G Z AA1 T IH0 K
+exotics		EH0 G Z AA1 T IH0 K S
+exovir		EH2 K S OW0 V IH1 R
+expand	ex·pand	IH0 K S P AE1 N D
+expandable	ex·pand·a·ble	IH0 K S P AE1 N D AH0 B AH0 L
+expanded	ex·pand·ed	IH0 K S P AE1 N D AH0 D;IH0 K S P AE1 N D IH0 D
+expanding		IH0 K S P AE1 N D IH0 NG
+expands		IH0 K S P AE1 N D Z
+expanse	ex·panse	IH0 K S P AE1 N S
+expanses		IH0 K S P AE1 N S IH0 Z
+expansion	ex·pan·sion	IH0 K S P AE1 N SH AH0 N;IH0 K S P AE1 N CH AH0 N
+expansion's		IH0 K S P AE1 N SH AH0 N Z;IH0 K S P AE1 N CH AH0 N Z
+expansionary	ex·pan·sion·ar·y	IH0 K S P AE1 N SH AH0 N EH2 R IY0;IH0 K S P AE1 N CH AH0 N EH2 R IY0
+expansionism	ex·pan·sion·ism	IH0 K S P AE1 N SH AH0 N IH2 Z AH0 M;IH0 K S P AE1 N CH AH0 N IH2 Z AH0 M
+expansionist	ex·pan·sion·ist	IH0 K S P AE1 N SH AH0 N IH0 S T;IH0 K S P AE1 N CH AH0 N IH0 S T
+expansions		IH0 K S P AE1 N SH AH0 N Z;IH0 K S P AE1 N CH AH0 N Z
+expansive	ex·pan·sive	IH0 K S P AE1 N S IH0 V
+expatriate	ex·pat·ri·ate/ex·pa·tri·ate	EH0 K S P EY1 T R IY0 EY2 T;EH0 K S P EY1 T R IY0 AH0 T
+expatriates		EH0 K S P EY1 T R IY0 EY2 T S;EH0 K S P EY1 T R IY0 AH0 T S
+expatriation	ex·pa·tri·a·tion	EH0 K S P EY2 T R IY0 EY1 SH AH0 N
+expect	ex·pect	IH0 K S P EH1 K T
+expectancies		IH0 K S P EH1 K T AH0 N S IY0 Z
+expectancy	ex·pect·an·cy/ex·pec·tan·cy	IH0 K S P EH1 K T AH0 N S IY0
+expectant	ex·pect·ant/ex·pec·tant	IH0 K S P EH1 K T AH0 N T
+expectation	ex·pec·ta·tion	EH2 K S P EH0 K T EY1 SH AH0 N
+expectations		EH2 K S P EH0 K T EY1 SH AH0 N Z
+expected		IH0 K S P EH1 K T AH0 D;IH0 K S P EH1 K T IH0 D
+expecting	ex·pect·ing	IH0 K S P EH1 K T IH0 NG
+expectorant	ex·pec·to·rant	IH0 K S P EH1 K T ER0 AH0 N T
+expects		IH0 K S P EH1 K T S;IH0 K S P EH1 K S
+expedia		EH0 K S P IY1 D IY0 AH0
+expedience	ex·pe·di·ence	IH0 K S P IY1 D IY0 AH0 N S
+expediency	ex·pe·di·en·cy	IH0 K S P IY1 D IY0 AH0 N S IY0
+expedient	ex·pe·di·ent	IH0 K S P IY1 D IY0 AH0 N T
+expedite	ex·pe·dite	EH1 K S P IH0 D AY2 T
+expedited	ex·pe·dit·ed	EH1 K S P IH0 D AY2 T IH0 D
+expediting	ex·pe·dit·ing	EH1 K S P AH0 D AY2 T IH0 NG
+expedition	ex·pe·di·tion	EH2 K S P AH0 D IH1 SH AH0 N
+expeditionary	ex·pe·di·tion·ar·y	EH2 K S P AH0 D IH1 SH AH0 N EH2 R IY0
+expeditions		EH2 K S P AH0 D IH1 SH AH0 N Z
+expeditious	ex·pe·di·tious	EH2 K S P AH0 D IH1 SH AH0 S
+expeditiously	ex·pe·di·tious·ly	EH2 K S P AH0 D IH1 SH AH0 S L IY0
+expel	ex·pel	IH0 K S P EH1 L
+expelled	ex·pelled	IH0 K S P EH1 L D
+expelling	ex·pel·ling	IH0 K S P EH1 L IH0 NG
+expend	ex·pend	IH0 K S P EH1 N D
+expendable	ex·pend·a·ble	IH0 K S P EH1 N D AH0 B AH0 L
+expended		IH0 K S P EH1 N D IH0 D
+expending		EH2 K S P EH1 N D IH0 NG
+expenditure	ex·pend·i·ture	IH0 K S P EH1 N D AH0 CH ER0;IH0 K S P EH1 N D IH0 CH ER0
+expenditures		IH0 K S P EH1 N D AH0 CH ER0 Z;IH0 K S P EH1 N D IH0 CH ER0 Z
+expense	ex·pense	IH0 K S P EH1 N S
+expenses		IH0 K S P EH1 N S AH0 Z;IH0 K S P EH1 N S IH0 Z
+expensing		IH0 K S P EH1 N S IH0 NG
+expensive	ex·pen·sive	IH0 K S P EH1 N S IH0 V
+expensively	ex·pen·sive·ly	EH2 K S P EH1 N S IH0 V L IY0
+experience	ex·pe·ri·ence	IH0 K S P IH1 R IY0 AH0 N S
+experienced	ex·pe·ri·enced	IH0 K S P IH1 R IY0 AH0 N S T
+experiences		IH0 K S P IH1 R IY0 AH0 N S IH0 Z
+experiencing	ex·pe·ri·enc·ing	IH0 K S P IH1 R IY0 AH0 N S IH0 NG
+experiential	ex·pe·ri·en·tial	EH0 K S P EH2 R IY0 EH1 N SH AH0 L
+experiment	ex·per·i·ment	IH0 K S P EH1 R AH0 M AH0 N T
+experiment's		IH0 K S P EH1 R AH0 M AH0 N T S
+experimental	ex·per·i·men·tal	IH0 K S P EH2 R IH0 M EH1 N T AH0 L
+experimentalist	ex·per·i·men·tal·ist	IH0 K S P EH2 R AH0 M EH1 N T AH0 L IH0 S T
+experimentally	ex·per·i·men·tal·ly	IH0 K S P EH2 R AH0 M EH1 N T AH0 L IY0
+experimentation	ex·per·i·men·ta·tion	IH0 K S P EH2 R AH0 M AH0 N T EY1 SH AH0 N
+experimented		IH0 K S P EH1 R AH0 M AH0 N T AH0 D
+experimenter	ex·per·i·ment·er	IH0 K S P EH1 R AH0 M EH2 N T ER0
+experimenters		IH0 K S P EH1 R AH0 M EH2 N T ER0 Z
+experimenting		EH0 K S P EH1 R AH0 M EH2 N T IH0 NG
+experiments		IH0 K S P EH1 R AH0 M AH0 N T S
+expert	ex·pert	EH1 K S P ER0 T
+expert's		EH1 K S P ER0 T S
+expertise	ex·pert·ise/ex·per·tise	EH2 K S P ER0 T IY1 Z
+expertly	ex·pert·ly	EH1 K S P ER0 T L IY0
+experts		EH1 K S P ER0 T S
+experts'		EH1 K S P ER0 T S
+expiate	ex·pi·ate	EH1 K S P IY0 EY2 T
+expiration	ex·pi·ra·tion	EH2 K S P ER0 EY1 SH AH0 N
+expirations		EH2 K S P ER0 EY1 SH AH0 N Z
+expiratory	ex·pir·a·to·ry	IH0 K S P AY1 R AH0 T AO2 R IY0
+expire	ex·pire	IH0 K S P AY1 R
+expired	ex·pired	IH0 K S P AY1 R D
+expires		IH0 K S P AY1 ER0 Z
+expiring	ex·pir·ing	IH0 K S P AY1 R IH0 NG
+expiry	ex·pi·ry	EH2 K S P AY1 R IY0
+explain	ex·plain	IH0 K S P L EY1 N
+explainable	ex·plain·a·ble	IH0 K S P L EY1 N AH0 B AH0 L
+explained		IH0 K S P L EY1 N D
+explaining		IH0 K S P L EY1 N IH0 NG
+explains		IH0 K S P L EY1 N Z
+explanation	ex·pla·na·tion	EH2 K S P L AH0 N EY1 SH AH0 N
+explanations		EH2 K S P L AH0 N EY1 SH AH0 N Z
+explanatory	ex·plan·a·to·ry	IH0 K S P L AE1 N AH0 T AO2 R IY0
+expletive	ex·ple·tive	EH1 K S P L AH0 T IH0 V
+expletives		EH1 K S P L AH0 T IH0 V Z
+explicable	ex·pli·ca·ble	EH0 K S P L IH1 K AH0 B AH0 L
+explicate	ex·pli·cate	EH1 K S P L AH0 K EY2 T
+explication	ex·pli·ca·tion	EH2 K S P L AH0 K EY1 SH AH0 N
+explicit	ex·plic·it	IH0 K S P L IH1 S AH0 T
+explicite		IH0 K S P L IH1 S AH0 T
+explicitly	ex·plic·it·ly	IH0 K S P L IH1 S AH0 T L IY0
+explode	ex·plode	IH0 K S P L OW1 D
+exploded	ex·plod·ed	IH0 K S P L OW1 D AH0 D;IH0 K S P L OW1 D IH0 D
+explodes		IH0 K S P L OW1 D Z
+exploding	ex·plod·ing	IH0 K S P L OW1 D IH0 NG
+exploit	ex·ploit	EH1 K S P L OY2 T;EH2 K S P L OY1 T
+exploitation	ex·ploi·ta·tion	EH2 K S P L OY2 T EY1 SH AH0 N
+exploitative	ex·ploit·a·tive	EH2 K S P L OY1 T AH0 T IH0 V
+exploited		EH1 K S P L OY2 T AH0 D;IH0 K S P L OY1 T AH0 D
+exploiting		EH1 K S P L OY2 T IH0 NG;IH0 K S P L OY1 T IH0 NG
+exploitive		IH0 K S P L OY1 T IH0 V;EH0 K S P L OY1 T IH0 V
+exploits		EH1 K S P L OY2 T S
+exploration	ex·plo·ra·tion	EH2 K S P L ER0 EY1 SH AH0 N;EH2 K S P L AO0 R EY1 SH AH0 N
+exploration's		EH2 K S P L ER0 EY1 SH AH0 N Z;EH1 K S P L AO0 R EY1 SH AH0 N Z
+explorations		EH2 K S P L ER0 EY1 SH AH0 N Z;EH1 K S P L AO0 R EY1 SH AH0 N Z
+exploratory	ex·plor·a·to·ry	IH0 K S P L AO1 R AH0 T AO2 R IY0
+exploravision		IH0 K S P L AO1 R AH0 V IH2 ZH AH0 N
+explore	ex·plore	IH0 K S P L AO1 R
+explored	ex·plored	IH0 K S P L AO1 R D
+explorer	ex·plor·er	IH0 K S P L AO1 R ER0
+explorers		IH0 K S P L AO1 R ER0 Z
+explores		IH0 K S P L AO1 R Z
+exploring	ex·plor·ing	IH0 K S P L AO1 R IH0 NG
+explosion	ex·plo·sion	IH0 K S P L OW1 ZH AH0 N
+explosions		IH0 K S P L OW1 ZH AH0 N Z
+explosive	ex·plo·sive	IH0 K S P L OW1 S IH0 V
+explosively	ex·plo·sive·ly	EH2 K S P L OW1 S IH0 V L IY0
+explosives		IH0 K S P L OW1 S IH0 V Z
+explosivos		EH2 K S P L AH0 S IY1 V OW0 S
+expo	ex·po	EH1 K S P OW0
+exponent	ex·po·nent	EH1 K S P OW2 N AH0 N T
+exponential	ex·po·nen·tial	EH2 K S P OW0 N EH1 N SH AH0 L
+exponentially	ex·po·nen·tial·ly	EH2 K S P OW0 N EH1 N SH AH0 L IY0
+exponents		IH0 K S P OW1 N AH0 N T S
+export	ex·port	EH1 K S P AO0 R T
+exportable	ex·port·a·ble	EH0 K S P AO1 R T AH0 B AH0 L
+exported		IH0 K S P AO1 R T AH0 D
+exporter	ex·port·er	IH0 K S P AO1 R T ER0
+exporters		IH0 K S P AO1 R T ER0 Z
+exporters'		EH2 K S P AO1 R T ER0 Z
+exporting		IH0 K S P AO1 R T IH0 NG
+exports		EH1 K S P AO0 R T S
+expos	ex·po·s	EH1 K S P OW0 Z
+expose	ex·pose	IH0 K S P OW1 Z
+exposed	ex·posed	IH0 K S P OW1 Z D
+exposes		IH0 K S P OW1 Z IH0 Z
+exposing	ex·pos·ing	IH0 K S P OW1 Z IH0 NG
+exposition	ex·po·si·tion	EH2 K S P AH0 Z IH1 SH AH0 N
+expositions		EH2 K S P AH0 Z IH1 SH AH0 N Z
+exposito		EH0 K S P AH0 S AY1 T OW0;EH0 K S P AH0 Z IY1 T OW0
+exposure	ex·po·sure	IH0 K S P OW1 ZH ER0
+exposures		IH0 K S P OW1 ZH ER0 Z
+expound	ex·pound	IH0 K S P AW1 N D
+expounded		IH0 K S P AW1 N D AH0 D
+expounding		IH0 K S P AW1 N D IH0 NG
+expounds		IH0 K S P AW1 N D Z
+express	ex·press	IH0 K S P R EH1 S
+express'		IH0 K S P R EH1 S
+express's		IH0 K S P R EH1 S IH0 Z
+expressed		IH0 K S P R EH1 S T
+expresses		IH0 K S P R EH1 S AH0 Z;IH0 K S P R EH1 S IH0 Z
+expressing		IH0 K S P R EH1 S IH0 NG
+expression	ex·pres·sion	IH0 K S P R EH1 SH AH0 N
+expressionism	ex·pres·sion·ism	IH0 K S P R EH1 SH AH0 N IH2 Z AH0 M
+expressionist	ex·pres·sion·ist	IH0 K S P R EH1 SH AH0 N AH0 S T
+expressionistic	ex·pres·sion·is·tic	IH0 K S P R EH2 SH AH0 N IH1 S T IH0 K
+expressionless	ex·pres·sion·less	IH0 K S P R EH2 SH AH0 N L IH0 S
+expressions		IH0 K S P R EH1 SH AH0 N Z
+expressive	ex·pres·sive	IH0 K S P R EH1 S IH0 V
+expressivity	ex·pres·siv·i·ty	EH2 K S P R AH0 S IH1 V IH0 T IY0
+expressly	ex·press·ly	EH0 K S P R EH1 S L IY0
+expresso	ex·press·o	IH0 K S P EH1 S OW0;EH0 K S P EH1 S OW0
+expressway	ex·press·way	IH0 K S P R EH1 S W EY2
+expropriate	ex·pro·pri·ate	EH0 K S P R OW1 P R IY0 EY2 T
+expropriated	ex·pro·pri·at·ed	EH0 K S P R OW1 P R IY0 EY2 T IH0 D
+expropriation	ex·pro·pri·a·tion	EH2 K S P R OW2 P R IY0 EY1 SH AH0 N
+expropriations		EH2 K S P R OW2 P R IY0 EY1 SH AH0 N Z
+expulsion	ex·pul·sion	IH0 K S P AH1 L SH AH0 N
+expulsions		IH0 K S P AH1 L SH AH0 N Z
+expunge	ex·punge	IH0 K S P AH1 N JH
+expunged	ex·punged	IH0 K S P AH1 N JH D
+exquisite	ex·quis·ite/ex·qui·site	EH1 K S K W AH0 Z AH0 T
+exquisitely	ex·qui·site·ly	EH2 K S K W IH1 Z IH0 T L IY0
+extant	ex·tant	EH1 K S T AH0 N T
+extel		EH1 K S T EH2 L
+extend	ex·tend	IH0 K S T EH1 N D
+extendable	ex·tend·a·ble	EH2 K S T EH1 N D AH0 B AH0 L
+extended	ex·tend·ed	IH0 K S T EH1 N D AH0 D;IH0 K S T EH1 N D IH0 D
+extender	ex·tend·er	EH1 K S T EH2 N D ER0
+extenders		EH1 K S T EH2 N D ER0 Z
+extendible	ex·tend·i·ble	EH2 K S T EH1 N D IH0 B AH0 L
+extending		IH0 K S T EH1 N D IH0 NG
+extends		IH0 K S T EH1 N D Z
+extension	ex·ten·sion	IH0 K S T EH1 N SH AH0 N
+extensions		IH0 K S T EH1 N SH AH0 N Z
+extensive	ex·ten·sive	IH0 K S T EH1 N S IH0 V
+extensively	ex·ten·sive·ly	IH0 K S T EH1 N S IH0 V L IY0
+extent	ex·tent	IH0 K S T EH1 N T
+extenuate	ex·ten·u·ate	IH0 K S T EH1 N Y UW0 EY2 T
+extenuating	ex·ten·u·at·ing	IH0 K S T EH1 N Y UW0 EY2 T IH0 NG
+exterior	ex·te·ri·or	IH0 K S T IH1 R IY0 ER0
+exteriors		EH0 K S T IH1 R IY0 ER0 Z
+exterminate	ex·ter·mi·nate	IH0 K S T ER1 M AH0 N EY2 T
+exterminated	ex·ter·mi·nat·ed	IH0 K S T ER1 M AH0 N EY2 T IH0 D
+exterminates		IH0 K S T ER1 M AH0 N EY2 T S
+exterminating	ex·ter·mi·nat·ing	IH0 K S T ER1 M AH0 N EY2 T IH0 NG
+extermination	ex·ter·mi·na·tion	IH0 K S T ER2 M AH0 N EY1 SH AH0 N
+exterminator	ex·ter·mi·na·tor	IH0 K S T ER1 M AH0 N EY2 T ER0
+exterminators		IH0 K S T ER1 M AH0 N EY2 T ER0 Z
+external	ex·ter·nal	IH0 K S T ER1 N AH0 L
+externally	ex·ter·nal·ly	IH0 K S T ER1 N AH0 L IY0
+extinct	ex·tinct	IH0 K S T IH1 NG K T
+extinction	ex·tinc·tion	IH0 K S T IH1 NG K SH AH0 N;IH0 K S T IH1 NG SH AH0 N
+extinctions		IH0 K S T IH1 NG K SH AH0 N Z;IH0 K S T IH1 NG SH AH0 N Z
+extinguish	ex·tin·guish	IH0 K S T IH1 NG G W IH0 SH
+extinguished		IH0 K S T IH1 NG G W IH0 SH T
+extinguisher	ex·tin·guish·er	IH0 K S T IH1 NG G W IH0 SH ER0
+extinguishers		IH0 K S T IH1 NG G W IH0 SH ER0 Z
+extinguishing		IH0 K S T IH1 NG G W IH0 SH IH0 NG
+extinguishment	ex·tin·guish·ment	IH0 K S T IH1 NG G W IH0 SH M AH0 N T
+extirpate	ex·tir·pate	EH1 K S T ER0 P EY2 T
+extirpated	ex·tir·pat·ed	EH1 K S T ER0 P EY2 T AH0 D
+extirpates		EH1 K S T ER0 P EY2 T S
+extirpating	ex·tir·pat·ing	EH1 K S T ER0 P EY2 T IH0 NG
+extol	ex·tol	IH0 K S T OW1 L
+extolled	ex·tolled	IH0 K S T OW1 L D
+extolling	ex·tol·ling	IH0 K S T OW1 L IH0 NG
+extols		IH0 K S T OW1 L Z
+exton		EH1 K S T AH0 N
+extort	ex·tort	EH0 K S T AO1 R T
+extorted		EH0 K S T AO1 R T IH0 D
+extorting		EH0 K S T AO1 R T IH0 NG
+extortion	ex·tor·tion	EH0 K S T AO1 R SH AH0 N
+extortionate	ex·tor·tion·ate	EH0 K S T AO1 R SH AH0 N AH0 T;EH0 K S T AO1 R SH AH0 N EY2 T
+extortionist	ex·tor·tion·ist	EH0 K S T AO1 R SH AH0 N IH0 S T
+extortionists		EH0 K S T AO1 R SH AH0 N IH0 S T S
+extorts		EH0 K S T AO1 R T S
+extra	ex·tra	EH1 K S T R AH0
+extracellular	ex·tra·cel·lu·lar	EH2 K S T R AH0 S EH1 L Y AH0 L ER0
+extracellularly	ex·tra·cel·lu·lar·ly	EH2 K S T R AH0 S EH1 L Y AH0 L ER0 L IY0
+extract	ex·tract	EH1 K S T R AE2 K T;IH0 K S T R AE1 K T
+extracted		EH0 K S T R AE1 K T IH0 D
+extracting		EH0 K S T R AE1 K T IH0 NG
+extraction	ex·trac·tion	EH0 K S T R AE1 K SH AH0 N
+extractions	ex·trac·tions	EH0 K S T R AE1 K SH AH0 N Z
+extracts		EH1 K S T R AE2 K T S;IH0 K S T R AE1 K T S
+extracurricular	ex·tra·cur·ric·u·lar	EH2 K S T R AH0 K ER0 IH1 K Y AH0 L ER0
+extradite	ex·tra·dite	EH1 K S T R AH0 D AY2 T
+extradited	ex·tra·dit·ed	EH1 K S T R AH0 D AY2 T IH0 D
+extradites		EH1 K S T R AH0 D AY2 T S
+extraditing	ex·tra·dit·ing	EH1 K S T R AH0 D AY2 T IH0 NG
+extradition	ex·tra·di·tion	EH2 K S T R AH0 D IH1 SH AH0 N
+extragalactic	ex·tra·ga·lac·tic	EH2 K S T R AH0 G AH0 L AE1 K T IH0 K
+extralegal	ex·tra·le·gal	EH2 K S T R AH0 L IY1 G AH0 L
+extramarital	ex·tra·mar·i·tal	EH2 K S T R AH0 M EH1 R AH0 T AH0 L
+extraneous	ex·tra·ne·ous	EH0 K S T R EY1 N IY0 AH0 S
+extraneously	ex·tra·ne·ous·ly	EH0 K S T R EY1 N IY0 AH0 S L IY0
+extraordinaire		EH2 K S T R AH0 AO1 R D IH0 N EH2 R
+extraordinarily	ex·traor·di·nar·i·ly	EH0 K S T R AO2 R D AH0 N EH1 R AH0 L IY0
+extraordinary	ex·traor·di·nar·y	EH2 K S T R AH0 AO1 R D AH0 N EH2 R IY0;IH0 K S T R AO1 R D AH0 N EH2 R IY0
+extrapolate	ex·trap·o·late	EH0 K S T R AE1 P AH0 L EY2 T
+extrapolated	ex·trap·o·lat·ed	EH0 K S T R AE1 P AH0 L EY2 T IH0 D
+extrapolates		EH0 K S T R AE1 P AH0 L EY2 T S
+extrapolating	ex·trap·o·lat·ing	EH0 K S T R AE1 P AH0 L EY2 T IH0 NG
+extrapolation	ex·trap·o·la·tion	EH0 K S T R AE2 P AH0 L EY1 SH AH0 N
+extras		EH1 K S T R AH0 Z
+extrasensory	ex·tra·sen·so·ry	EH2 K S T R AH0 S EH1 N S ER0 IY0
+extraterrestrial	ex·tra·ter·res·tri·al	EH2 K S T R AH0 T ER0 EH1 S T R IY0 AH0 L
+extraterrestrials		EH2 K S T R AH0 T ER2 EH1 S T R IY0 AH0 L Z
+extraterritorial	ex·tra·ter·ri·to·ri·al	EH2 K S T R AH0 T EH2 R IH0 T AO1 R IY0 AH0 L
+extraterritoriality	ex·tra·ter·ri·to·ri·al·i·ty	EH2 K S T R AH0 T EH2 R AH0 T AO2 R IY0 AE1 L AH0 T IY0
+extravagance	ex·trav·a·gance	EH0 K S T R AE1 V AH0 G AH0 N S
+extravagant	ex·trav·a·gant	EH0 K S T R AE1 V AH0 G AH0 N T
+extravagantly	ex·trav·a·gant·ly	EH2 K S T R AE1 V AH0 G AH0 N T L IY0
+extravaganza	ex·trav·a·gan·za	EH0 K S T R AE2 V AH0 G AE1 N Z AH0
+extravaganzas		EH0 K S T R AE2 V AH0 G AE1 N Z AH0 Z
+extravesated		EH1 K S T R AE2 V AH0 S EY1 T AH0 D
+extreme	ex·treme	EH0 K S T R IY1 M
+extremely	ex·treme·ly	EH0 K S T R IY1 M L IY0
+extremes		EH0 K S T R IY1 M Z
+extremism	ex·trem·ism	EH2 K S T R EH1 M IH0 Z AH0 M;EH2 K S T R IY1 M IH2 Z AH0 M
+extremist	ex·trem·ist	EH0 K S T R IY1 M IH0 S T
+extremists		EH0 K S T R IY1 M AH0 S T S;EH0 K S T R IY1 M IH0 S T S
+extremities		EH0 K S T R EH1 M AH0 T IY0 Z
+extremity	ex·trem·i·ty	EH0 K S T R EH1 M AH0 T IY0
+extricable	ex·tri·ca·ble	EH0 K S T R IH1 K AH0 B AH0 L
+extricate	ex·tri·cate	EH1 K S T R AH0 K EY2 T
+extricated	ex·tri·cat·ed	EH1 K S T R AH0 K EY2 T IH0 D
+extricates		EH1 K S T R AH0 K EY2 T S
+extricating	ex·tri·cat·ing	EH1 K S T R AH0 K EY2 T IH0 NG
+extrication	ex·tri·ca·tion	EH2 K S T R AH0 K EY1 SH AH0 N
+extrinsic	ex·trin·sic	EH0 K S T R IH1 N S IH0 K
+extrovert	ex·tro·vert	EH1 K S T R AH0 V ER2 T
+extroverted		EH1 K S T R AH0 V ER2 T IH0 D
+extrude	ex·trude	IH0 K S T R UW1 D
+extruded	ex·trud·ed	IH0 K S T R UW1 D AH0 D
+extrudes		IH0 K S T R UW1 D Z
+extruding	ex·trud·ing	IH0 K S T R UW1 D IH0 NG
+extrusion	ex·tru·sion	IH0 K S T R UW1 ZH AH0 N
+exuberance	ex·u·ber·ance	IH0 G Z UW1 B ER0 AH0 N S
+exuberant	ex·u·ber·ant	IH0 G Z UW1 B ER0 AH0 N T
+exude	ex·ude	IH0 G Z UW1 D
+exuded	ex·ud·ed	IH0 G Z UW1 D IH0 D
+exudes		IH0 G Z UW1 D Z
+exuding	ex·ud·ing	IH0 G Z UW1 D IH0 NG
+exult	ex·ult	IH0 G Z AH1 L T
+exultant	ex·ult·ant	IH0 G Z AH1 L T AH0 N T
+exultantly	ex·ult·ant·ly	IH0 G Z AH1 L T AH0 N T L IY0
+exulted		IH0 G Z AH1 L T IH0 D
+exulting		IH0 G Z AH1 L T IH0 NG
+exults		IH0 G Z AH1 L T S
+exum		IH0 G Z AH1 M
+exxon		EH1 K S AA0 N
+exxon's		EH1 K S AA0 N Z
+eyde		EY1 D
+eydie		EY1 D IY0
+eye	eye	AY1
+eye's		AY1 Z
+eyeball	eye·ball	AY1 B AO2 L
+eyeballs		AY1 B AO2 L Z
+eyebrow	eye·brow	AY1 B R AW2
+eyebrows		AY1 B R AW2 Z
+eyecare		AY1 K EH2 R
+eyed	eyed	AY1 D
+eyedrop		AY1 D R AA2 P
+eyedropper	eye·drop·per	AY1 D R AA2 P ER0
+eyedrops		AY1 D R AA2 P S
+eyeglass	eye·glass	AY1 G L AE2 S
+eyeglasses	eye·glass·es	AY1 G L AE2 S AH0 Z;AY1 G L AE2 S IH0 Z
+eyeing	eye·ing	AY1 IH0 NG
+eyelab		AY1 L AE2 B
+eyelash	eye·lash	AY1 L AE2 SH
+eyelashes		AY1 L AE2 SH IH0 Z
+eyeless	eye·less	AY1 L AH0 S
+eyelet	eye·let	AY1 L AH0 T
+eyelets		AY1 L AH0 T S
+eyelid	eye·lid	AY1 L IH2 D
+eyelids		AY1 L IH2 D Z
+eyelike	eye·like	AY1 L AY2 K
+eyeliner	eye·lin·er	AY1 L AY2 N ER0
+eyepiece	eye·piece	AY1 P IY2 S
+eyer	ey·er	AY1 ER0
+eyerly		IY1 ER0 L IY0
+eyerman		IY1 ER0 M AH0 N
+eyes	eyes	AY1 Z
+eyes'		AY1 Z
+eyeshade	eye·shade	AY1 SH EY2 D
+eyeshadow		AY1 SH AE1 D OW0
+eyesight	eye·sight	AY1 S AY2 T
+eyesore	eye·sore	AY1 S AO2 R
+eyespot	eye·spot	AY1 S P AA2 T
+eyestone	eye·stone	AY1 S T OW2 N
+eyestrain	eye·strain	AY1 S T R EY2 N
+eyetech		AY1 T EH2 K
+eyetech's		AY1 T EH2 K S
+eyewear		AY1 W EH2 R
+eyewitness	eye·wit·ness	AY1 W IH1 T N AH0 S
+eyewitnesses		AY1 W IH2 T N AH0 S IH0 Z
+eyler		EY1 L ER0
+eyman		EY1 M AH0 N
+eynon		EY1 N AH0 N
+eyre	eyre	EH1 R
+eyrich		EH1 R IH0 CH
+eyrie	ey·rie	EH1 R IY0
+eyring		EY1 R IH0 NG
+eyster		EY1 S T ER0
+eyton		EY1 T AH0 N
+ezekiel	e·ze·ki·el	EH1 Z IH0 K IY2 L
+ezell		AH0 Z EH1 L
+ezell's		AH0 Z EH1 L Z
+ezelle		IH0 Z EH1 L
+ezer		EH1 Z ER0
+ezoe		EH1 Z OW0
+ezola		EY2 Z OW1 L AH0
+ezra	ez·ra	EH1 Z R AH0
+ezrachi		EH0 Z R AA1 CH IY2
+ezzell		EH1 Z AH0 L
+ezzo		EH1 Z OW0

@@ -1,0 +1,15 @@
+/* 発音判定の結果表示（PronJudge.render）用の見た目。移植先の色に合わせて変えてよい */
+:root { --ok:#2e7d32; --ok-soft:#e8f5e9; --warn:#b26a00; --warn-soft:#fff4e0; --ng:#c62828; --ng-soft:#fdecea; --info:#1565c0; --info-soft:#e8f1fb; --accent:#1565c0; --border:#ccc; --surface:#fff; --text:#222; }
+.notice { border-radius: 12px; padding: 12px 14px; margin-bottom: 14px; font-size: .92rem; }
+.notice.info { background: var(--info-soft); color: var(--text); border-left: 4px solid var(--info); }
+.notice.warn { background: var(--warn-soft); border-left: 4px solid var(--warn); }
+.notice.ng { background: var(--ng-soft); border-left: 4px solid var(--ng); }
+.notice.ok { background: var(--ok-soft); border-left: 4px solid var(--ok); }
+.notice p:last-child { margin-bottom: 0; }
+.pj-syls { display: flex; flex-wrap: wrap; gap: 6px; font-size: 1.3rem; margin: 6px 0; }
+.pj-syl { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 10px; border: 2px solid var(--border); background: var(--surface); }
+.pj-syl.pj-stress .en { color: var(--accent); font-weight: 700; text-decoration: underline; text-underline-offset: 4px; }
+.pj-syl.pj-good { border-color: var(--ok); } .pj-syl.pj-good strong { color: var(--ok); }
+.pj-syl.pj-fair { border-color: var(--warn); } .pj-syl.pj-fair strong { color: var(--warn); }
+.pj-syl.pj-bad { border-color: var(--ng); } .pj-syl.pj-bad strong { color: var(--ng); }
+.small { font-size: .9rem; } .muted { opacity: .75; } .mt { margin-top: 12px; } .mb0 { margin-bottom: 0; }

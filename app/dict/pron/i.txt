@@ -1,0 +1,3057 @@
+i		AY1
+i'd	i'd	AY1 D
+i'ers		AY1 ER0 Z
+i'll	i'll	AY1 L
+i'm	i'm	AY1 M;AH0 M
+i's	i's	AY1 Z
+i've	i've	AY1 V
+i.		AY1
+i.'s		AY1 Z
+i.s		AY1 Z
+ia		IY1 AH0
+iacobelli		IY0 AA2 K OW0 B EH1 L IY0
+iacobellis		IY0 AA2 K OW0 B EH1 L IH0 S
+iacobucci		IY0 AA0 K OW0 B UW1 CH IY0
+iacocca		AY2 AH0 K OW1 K AH0
+iacocca's		AY2 AH0 K OW1 K AH0 Z
+iacona		AY2 AH0 K OW1 N AH0
+iacono		AY2 AH0 K OW1 N OW0
+iacovelli		IY0 AA2 K OW0 V EH1 L IY0
+iafrate		AY2 AH0 F R EY1 T IY0
+iago	i·a·go	IY0 AA1 G OW0
+iain		IY0 EY1 N
+iakovos		IY0 AA1 K OW0 V OW0 S
+ialla		AY1 AA0 L AH0;IY1 AA0 L AH0
+iams		IY1 AA0 M Z;AY1 AA0 M Z
+ian	i·an	IY1 AH0 N
+iannaccone		IY0 AA2 N AH0 K OW1 N IY0
+iannacone		IY0 AA2 N AH0 K OW1 N IY0
+iannamico		IY0 AA2 N AH0 M IY1 K OW0
+iannelli		IY0 AH0 N EH1 L IY0
+iannello		IY0 AH0 N EH1 L OW0
+ianni		IY0 AA1 N IY0
+ianniello		IY0 AA2 N IY0 EH1 L OW0
+iannone		IY0 AH0 N OW1 N IY0
+iannotti		IY0 AH0 N OW1 T IY0
+iannucci		IY0 AH0 N UW1 CH IY0
+iannuzzi		IY0 AH0 N UW1 T S IY0;IY0 AH0 N UW1 Z IY0
+ianovski		Y AH0 N AA1 V S K IY0;Y AH0 N AA1 F S K IY0
+iantha		IY0 AA1 N TH AH0
+ianthe	i·an·the	IY0 AA1 N TH EY0
+ianthina		IY0 AH0 N TH IY1 N AH0
+iason		IY1 AH0 S AH0 N
+iavarone		IY0 AA2 V ER0 OW1 N IY0
+ib		IH1 B;AY1 B IY1
+iba		IY1 B AH0
+ibach		IH1 B AA0 K
+ibanez	i·ba·nez	IH2 B AA1 N EH0 Z
+ibaraki		AY2 B ER0 AA1 K IY0
+ibarra		IH2 B AA1 R AH0
+ibbotson		IH1 B AH0 T S AH0 N
+iberia	i·be·ri·a	AY0 B IH1 R IY0 AH0
+iberia's		AY0 B IH1 R IY0 AH0 Z
+iberian	i·be·ri·an	AY0 B IH1 R IY0 AH0 N
+ibero		IH2 B EH1 R OW0
+ibex	i·bex	AY1 B EH0 K S
+ibid		IH1 B IH0 D
+ibis	i·bis	AY1 B AH0 S
+ibiza	i·bi·za	IY2 B IY1 Z AH0
+ibm		AY1 B IY2 EH2 M
+ibmer		IH1 B M ER0
+ibmers		IH1 B M ER0 Z
+ibn		IH1 B AH0 N
+ibogaine		AY1 B OW0 G EY0 N;AY1 B AH0 G EY0 N
+ibrahim		IH2 B R AA0 HH IY1 M
+ibsen	ib·sen	IH1 B S AH0 N
+ibuprofen		AY2 B Y UW0 P R OW1 F AH0 N
+icahn		AY1 K AA0 N
+icahn's		AY1 K AA0 N Z
+icard		IH2 K AA1 R D
+icarus	ic·a·rus	IH1 K ER2 AH0 S
+ice	ice	AY1 S
+ice-cream		AY1 S K R IY2 M
+ice-nine		AY1 S N AY1 N
+iceberg	ice·berg	AY1 S B ER0 G
+icebergs		AY1 S B ER0 G Z
+icebox	ice·box	AY1 S B AA2 K S
+icebreaker	ice·break·er	AY1 S B R EY2 K ER0
+icebreakers		AY1 S B R EY2 K ER0 Z
+iced	iced	AY1 S T
+icefish		AY1 S F IH2 SH
+iceland	ice·land	AY1 S L AH0 N D
+icelandair		AY2 S L AE0 N D EH1 R
+icelandic	ice·land·ic/ice·lan·dic	AY0 S L AE1 N D IH0 K
+iceman	ice·man	AY1 S M AE0 N
+icenhour		IH1 S AH0 N AW0 R;AY1 S AH0 N AW0 R
+icenhower		IH1 S AH0 N HH AW2 ER0;AY1 S AH0 N HH AW2 ER0
+icenogle		IH1 S AH0 N OW2 G AH0 L;AY1 S AH0 N OW2 G AH0 L
+ices		AY1 S AH0 Z;AY1 S IH0 Z
+iceskate		AY1 S S K EY2 T;AY1 S K EY2 T
+iceskating		AY1 S S K EY2 T IH0 NG;AY1 S K EY2 T IH0 NG
+ich	ich	IH1 CH
+ichi		IY1 CH IY2
+ichikawa		IH2 CH IY2 K AA1 W AA0
+ichiro		IY1 CH IH0 R OW0
+icicle	i·ci·cle	AY1 S IH0 K AH0 L
+icicles		AY1 S IH0 K AH0 L Z
+icily	i·ci·ly	AY1 S IH0 L IY0
+icing	ic·ing	AY1 S IH0 NG
+ickes	ick·es	IH1 K IY0 Z;AY1 K IY0 Z;AY1 K S
+ickes'		IH1 K AH0 S;IH1 K IY0 Z
+icloud		AY1 K L AW1 D
+icon	i·con	AY1 K AA0 N
+iconic	i·con·ic	AY2 K AA1 N IH0 K
+iconoclasm	i·con·o·clasm	AY2 K AA1 N AH0 K L AE2 Z AH0 M
+iconoclast	i·con·o·clast	AY2 K AA1 N AH0 K L AE2 S T
+iconoclastic	i·con·o·clas·tic	AY2 K AH0 N AH0 K L AE1 S T IH0 K
+iconography	i·co·nog·ra·phy	AY2 K AH0 N AA1 G R AH0 F IY0
+icons	i·cons	AY1 K AA2 N Z
+icy	i·cy	AY1 S IY0
+id	i·d	IH1 D;AY1 D IY1
+ida	ida/i·da	AY1 D AH0
+idaho	i·da·ho	AY1 D AH0 HH OW2
+idaho's		AY1 D AH0 HH OW2 Z
+idaho-falls		AY1 D AH0 HH OW2 F AA1 L Z
+idalia	i·dal·ia	IH2 D AA1 L Y AH0
+idalina	i·da·li·na	IH2 D AA0 L IY1 N AH0
+idaline	i·da·line	IH1 D AH0 L AY0 N
+iddings		IH1 D IH0 NG Z
+ide	ide	AY1 D
+idea	i·de·a	AY0 D IY1 AH0
+idea's		AY0 D IY1 AH0 Z
+ideal	i·de·al	AY0 D IY1 L
+ideal's		AY0 D IY1 L Z
+idealism	i·de·al·ism	AY0 D IY1 L IH0 Z AH0 M
+idealist	i·de·al·ist	AY0 D IY1 L IH0 S T
+idealistic	i·de·al·is·tic	AY0 D IY2 AH0 L IH1 S T IH0 K
+idealistically	i·de·al·is·ti·cal·ly	AY0 D IY2 AH0 L IH1 S T IH0 K L IY0
+idealists		AY0 D IY1 L IH0 S T S
+idealize	i·de·al·ize	AY0 D IY1 L AY2 Z
+idealized	i·de·al·ized	AY0 D IY1 AH0 L AY2 Z D
+idealizes		AY0 D IY1 L AY2 Z IH0 Z
+idealizing	i·de·al·iz·ing	AY0 D IY1 L AY2 Z IH0 NG
+ideally	i·de·al·ly	AY0 D IY1 L IY0
+ideals		AY0 D IY1 L Z
+ideas		AY0 D IY1 AH0 Z
+ideation	i·de·a·tion	AY2 D IY0 EY1 SH AH0 N
+idec		AY1 D AH0 K
+iden		AY1 D AH0 N
+ident		AY0 D EH1 N T
+identa		AY0 D EH1 N T AH0
+identical	i·den·ti·cal	AY0 D EH1 N T IH0 K AH0 L
+identics		AY0 D EH1 N T IH0 K S
+identifiable	i·den·ti·fi·a·ble	AY0 D EH1 N T AH0 F AY2 AH0 B AH0 L
+identification	i·den·ti·fi·ca·tion	AY0 D EH2 N T AH0 F AH0 K EY1 SH AH0 N
+identifications		AY0 D EH2 N T AH0 F AH0 K EY1 SH AH0 N Z
+identified	i·den·ti·fied	AY0 D EH1 N T AH0 F AY2 D
+identifier	i·den·ti·fi·er	AY0 D EH1 N T AH0 F AY2 ER0
+identifiers		AY0 D EH1 N AH0 F AY2 ER0 Z
+identifies		AY0 D EH1 N T AH0 F AY2 Z
+identify	i·den·ti·fy	AY0 D EH1 N T AH0 F AY2
+identifying	i·den·ti·fy·ing	AY0 D EH1 N T AH0 F AY2 IH0 NG
+identikit	i·den·ti·kit	AY0 D EH1 N T IH0 K IH2 T
+identities		AY0 D EH1 N T IH0 T IY2 Z
+identity	i·den·ti·ty	AY0 D EH1 N T IH0 T IY2
+ideological	i·de·o·log·i·cal	AY2 D IY0 AH0 L AA1 JH IH0 K AH0 L
+ideologically		AY2 D IY0 AH0 L AA1 JH IH0 K L IY0
+ideologies		AY2 D IY0 AA1 L AH0 JH IY0 Z
+ideologist	i·de·ol·o·gist	AY2 D IY0 AA1 L AH0 JH AH0 S T
+ideologists		AY2 D IY0 AA1 L AH0 JH IH0 S T S
+ideologue	i·de·o·logue	AY1 D IY0 AH0 L OW0 G
+ideologues		AY1 D IY0 AH0 L AO0 G Z
+ideology	i·de·ol·o·gy	AY2 D IY0 AA1 L AH0 JH IY0
+ideonomy		AY2 D IY0 AA1 N AH0 M IY0
+idette		AY2 D EH1 T
+ididerod		AY0 D IH1 D ER0 AA0 D
+idiocy	id·i·o·cy	IH1 D IY0 AH0 S IY0
+idiom	id·i·om	IH1 D IY0 AH0 M
+idiomatic	id·i·o·mat·ic	IH2 D IY0 AH0 M AE1 T IH0 K
+idioms		IH1 D IY0 AH0 M Z
+idiopath		IH2 D IY0 OW0 P AE1 TH
+idiopathic	id·i·o·path·ic	IH2 D IY0 OW0 P AE1 TH AH0 K
+idiosyncrasies		IH2 D IY0 OW0 S IH1 N K R AH0 S IY2 Z
+idiosyncrasy	id·i·o·syn·cra·sy	IH2 D IY0 OW0 S IH1 N K R AH0 S IY2
+idiosyncratic	id·i·o·syn·crat·ic	IH2 D IY0 OW0 S IH2 N K R AE1 T IH0 K
+idiot	id·i·ot	IH1 D IY2 AH0 T
+idiotic	id·i·ot·ic	IH2 D IY0 AA1 T IH0 K
+idiotically	id·i·ot·i·cal·ly	IH2 D IY0 AA1 T IH0 K L IY0
+idiots		IH1 D IY2 AH0 T S
+iditarod		IH2 D IH1 T AH0 R AO2 D
+idle	i·dle	AY1 D AH0 L
+idled	i·dled	AY1 D AH0 L D
+idleman		AY1 D AH0 L M AH0 N
+idleness	i·dle·ness	AY1 D AH0 L N AH0 S
+idler	i·dler	AY1 D AH0 L ER0;AY1 D L ER0
+idles		AY1 D AH0 L Z
+idlewild	i·dle·wild	AY1 D AH0 L W AY2 L D;AY1 D AH0 L W AY2 L
+idling	i·dling	AY1 D AH0 L IH0 NG;AY1 D L IH0 NG
+idly	i·dly	AY1 D L IY0
+ido	i·do	IY1 D OW2
+idol	i·dol	AY1 D AH0 L
+idola	i·do·la	IH2 D OW1 L AH0
+idolatrous	i·dol·a·trous	AY0 D AA1 L AH0 T R AH0 S
+idolatry	i·dol·a·try	AY0 D AA1 L AH0 T R IY0
+idolize	i·dol·ize	AY1 D AH0 L AY2 Z
+idolized	i·dol·ized	AY1 D AH0 L AY2 Z D
+idolizes		AY1 D AH0 L AY2 Z IH0 Z
+idolizing	i·dol·iz·ing	AY1 D AH0 L AY2 Z IH0 NG
+idols		AY1 D AH0 L Z
+idona	i·do·na	IH2 D OW1 N AH0
+idoney		IH2 D OW1 N IY0
+idonia		IH2 D OW1 N IY0 AH0
+idrocarburi		IH2 D R AA2 K AA2 R B UH1 R IY0
+ids		AY1 D IY1 Z
+iduna	i·dun·a	IH2 D UW1 N AH0
+idyll	id·yll/i·dyll	AY1 D AH0 L
+idyllic	i·dyl·lic	AY0 D IH1 L IH0 K
+ieee		AY2 T R IH2 P L AH0 IY1
+ierardi		IY0 ER0 AA1 R D IY0
+ierne		IH1 R N
+iezzi		IY0 EH1 T S IY0
+if		IH1 F;IH0 F
+if's		IH1 F S
+ifas		AY1 F AH0 S
+iffy	if·fy	IH1 F IY0
+ifil		AY2 F IY1 L
+ifill		IH0 F IY1 L
+ifint		AY1 F IH0 N T
+ifor		AY1 F AO2 R
+ifs	ifs	IH1 F S
+igarashi		IY2 G AA0 R AA1 SH IY0
+ige		AY1 JH
+igel		IH1 G AH0 L
+igene		AY0 JH IY1 N
+iger		AY1 G ER0
+iglehart		AY1 G AH0 L HH AA0 R T
+iglesia		IY2 G L EY1 S IY0 AH0
+iglesias		IH2 G L EY1 S IY0 IH0 S
+igloo	ig·loo	IH1 G L UW0
+igman		IH1 G M AH0 N
+ignace	ig·nace/i·gnace	IH1 G N AH0 S
+ignacio	ig·na·cio	IH2 G N AA1 S IY0 OW0
+ignacio's		IH2 G N AA1 S IY0 OW0 Z
+ignasiak		IH2 G N AA1 S IY0 AE0 K
+ignatia		IH2 G N AA1 SH AH0
+ignatius	ig·na·tius/ig·na·ti·us	IH2 G N EY1 SH AH0 S
+ignatowski		IH2 G N AH0 T AO1 F S K IY0
+ignatz		IH1 G N AH0 T S
+igneous	ig·ne·ous	IH1 G N IY0 AH0 S
+ignite	ig·nite	IH2 G N AY1 T
+ignited	ig·nit·ed	IH2 G N AY1 T IH0 D
+ignites		IH2 G N AY1 T S
+igniting	ig·nit·ing	IH2 G N AY1 T IH0 NG
+ignition	ig·ni·tion	IH2 G N IH1 SH AH0 N
+ignoble	ig·no·ble	IH2 G N OW1 B AH0 L
+ignominious	ig·no·min·i·ous	IH2 G N AH0 M IH1 N IY0 AH0 S
+ignominy	ig·no·min·y	IH1 G N OW0 M IH2 N IY0
+ignoramus	ig·no·ra·mus	IH2 G N ER0 EY1 M AH0 S
+ignorance	ig·no·rance	IH1 G N ER0 AH0 N S
+ignorant	ig·no·rant	IH1 G N ER0 AH0 N T
+ignore	ig·nore	IH2 G N AO1 R
+ignored	ig·nored	IH2 G N AO1 R D
+ignores		IH2 G N AO1 R Z
+ignoring	ig·nor·ing	IH2 G N AO1 R IH0 NG
+igo		IY1 G OW0
+igoe		IY1 G OW0
+igon		AY1 G AH0 N
+igor	i·gor	IH2 G AO1 R;IY1 G AO2 R
+igou		IH2 G UW1
+iguana	i·gua·na	AY0 G W AA1 N AH0
+iguanas		IH2 G W AA1 N AH0 Z
+iguchi		AH0 G UW1 CH IY0
+igushi		IH0 G UW1 SH IY2
+ihasz		AY1 HH AE0 S
+ihde		IH1 D
+ihle		AY1 HH AH0 L
+ihlenfeldt		IH1 L IH0 N F IH0 L T
+ihnen		IH1 N AH0 N
+ihrig		IH1 R IH0 G
+ihrke		IH1 R K
+iiams		IY1 AH0 M Z
+iida		IY1 D AH0
+iie		IY1 IY0
+ijames		IH0 Y AA1 M EH0 S;AY1 JH EY1 M Z
+ijaz		IH1 JH AH0 Z;IY0 JH AA1 Z
+ikaes		AY1 K AE0 S
+ikard		IH1 K ER0 D
+ike	ike	AY1 K
+ike's		AY1 K S
+ikea		AY2 K IY1 AH0
+ikeda	i·ke·da	IH0 K EY1 D AH0
+ikenberry		AY1 K AH0 N B EH2 R IY0
+ikerd		IH1 K ER0 D
+ikeuchi		IY0 K UW1 CH IY0
+ikey		IH1 K IY0
+ikie		IH1 K IY0
+ikle		IH1 K AH0 L
+ikner		IH1 K N ER0
+ikon	i·kon	AY1 K AA0 N
+il		IH1 L
+ila	i·la/i·l·a	IY1 L AH0
+ilalis		IH2 L AE1 L AH0 S
+ilalis'		IH2 L AE1 L AH0 S
+ilalis's		IH2 L AE1 L AH0 S IH0 S
+ilan		IY2 L AA1 N
+ilana		IH2 L AA1 N AH0
+ilana's		IH2 L AA1 N AH0 Z
+ilardi		IH2 L AA1 R D IY0
+ilbo		IH1 L B OW0
+ileana		IH2 L IY0 AE1 N AH0
+ilene	i·lene	IH1 L IY0 N
+iler		AY1 L ER0
+iles		AY1 L Z
+ileto		AY0 L EY1 D OW0
+ilg		IH1 L G
+ilgenfritz		IH1 L G IH0 N F R IH0 T S
+ilhae		IH2 L HH EY1
+iliad	il·i·ad	IH1 L IY0 AH0 D
+iliano		IH2 L IY0 AA1 N OW0
+ilidza		IH2 L IH1 D Z AH0
+iliescu		IH2 L IY0 EH1 S K Y UW2
+iliff		IH1 L IH0 F
+iljin		IH1 L JH IH0 N
+ilk	ilk	IH1 L K
+ilka	il·ka	IH1 L K AH0
+ill	ill	IH1 L
+illegal	il·le·gal	IH2 L IY1 G AH0 L
+illegalities		IH2 L IY0 G AE1 L IH0 T IY0 Z
+illegality	il·le·gal·i·ty	IH2 L IY0 G AE1 L IH0 T IY0
+illegally	il·le·gal·ly	IH2 L IY1 G AH0 L IY0
+illegals		IH2 L IY1 G AH0 L Z
+illegible	il·leg·i·ble	IH2 L EH1 JH AH0 B AH0 L
+illegitimacy	il·le·git·i·ma·cy	IH2 L IH0 JH IH1 T AH0 M AH0 S IY0
+illegitimate	il·le·git·i·mate	IH2 L IH0 JH IH1 T AH0 M IH0 T
+illes		AY1 L Z
+illg		IH1 L G
+illicit	il·lic·it	IH2 L IH1 S AH0 T
+illicitly	il·lic·it·ly	IH1 L IH0 S IH0 T L IY0
+illig		IH1 L IH0 G
+illina		IH2 L IY1 N AH0
+illingworth		IH1 L IH0 NG W ER2 TH
+illinois	il·li·nois	IH2 L AH0 N OY1;IH2 L AH0 N OY1 Z
+illinois'		IH1 L IH0 N OY0 Z
+illinois's		IH2 L IH0 N OY1 Z
+illiquid	il·liq·uid	IH2 L IH1 K W IH0 D
+illiquidity		IH2 L IH0 K W IH1 D IH0 T IY0
+illiteracy	il·lit·er·a·cy	IH2 L IH1 T ER0 AH0 S IY0
+illiterate	il·lit·er·ate	IH2 L IH1 T ER0 AH0 T
+illiterates		IH2 L IH1 T ER0 AH0 T S
+illness	ill·ness	IH1 L N AH0 S
+illnesses		IH1 L N AH0 S IH0 Z
+illogic	il·log·ic	IH2 L AA1 JH IH0 K
+illogical	il·log·i·cal	IH2 L AA1 JH IH0 K AH0 L
+ills		IH1 L Z
+illuminate	il·lu·mi·nate	IH2 L UW1 M IH0 N IH0 T
+illuminated	il·lu·mi·nat·ed	IH2 L UW1 M AH0 N EY2 T AH0 D
+illuminates		IH2 L UW1 M AH0 N EY2 T S
+illuminating	il·lu·mi·nat·ing	IH2 L UW1 M AH0 N EY2 T IH0 NG
+illumination	il·lu·mi·na·tion	IH2 L UW2 M AH0 N EY1 SH AH0 N
+illuminator	il·lu·mi·na·tor	IH2 L UW1 M AH0 N EY2 T ER0
+illumined	il·lu·mined	IH2 L UW1 M AH0 N D
+illusion	il·lu·sion	IH2 L UW1 ZH AH0 N
+illusionary	il·lu·sion·ar·y	IH2 L UW1 ZH AH0 N EH2 R IY0
+illusionism	il·lu·sion·ism	IH2 L UW1 ZH AH0 N IH2 Z AH0 M
+illusionist	il·lu·sion·ist	IH2 L UW1 ZH AH0 N AH0 S T
+illusionist's		IH2 L UW1 ZH AH0 N AH0 S T S
+illusionists		IH2 L UW1 ZH AH0 N AH0 S T S
+illusions		IH2 L UW1 ZH AH0 N Z
+illusive	il·lu·sive	IH2 L UW1 S IH0 V
+illusory	il·lu·so·ry	IH2 L UW1 S ER0 IY0
+illustrate	il·lus·trate	IH1 L AH0 S T R EY2 T
+illustrated	il·lus·trat·ed	IH1 L AH0 S T R EY2 T AH0 D;IH1 L AH0 S T R EY2 T IH0 D
+illustrates		IH1 L AH0 S T R EY2 T S
+illustrating	il·lus·trat·ing	IH1 L AH0 S T R EY2 T IH0 NG
+illustration	il·lus·tra·tion	IH2 L AH0 S T R EY1 SH AH0 N
+illustrations		IH2 L AH0 S T R EY1 SH AH0 N Z
+illustrative	il·lus·tra·tive	IH2 L AH1 S T R AH0 T IH0 V
+illustrator	il·lus·tra·tor	IH1 L AH0 S T R EY2 T ER0
+illustrators		IH1 L AH0 S T R EY2 T ER0 Z
+illustrious	il·lus·tri·ous	IH2 L AH1 S T R IY0 AH0 S
+illyrian	il·lyr·i·an	IH2 L IH1 R IY0 AH0 N
+ilo	ilo	AY1 L OW0
+ilona	i·lo·na	IH2 L OW1 N AH0
+ilopango		IY2 L OW0 P AE1 NG G OW0
+ilsa		IH1 L S AH0
+ilse	il·se	IH1 L S
+ilsley		IH1 L Z L IY0
+ilva		IH1 L V AH0
+ilya	il·ya	IH1 L Y AH0
+ilyaronoff		IH1 L Y AA0 R AO1 N AO0 F
+im		IH1 M
+image	im·age	IH1 M AH0 JH;IH1 M IH0 JH
+imageries		IH1 M IH0 JH R IY0 Z
+imagery	im·age·ry	IH1 M AH0 JH R IY0;IH1 M IH0 JH R IY0
+images		IH1 M AH0 JH AH0 Z;IH1 M IH0 JH IH0 Z
+imaginable	im·ag·i·na·ble	IH2 M AE1 JH AH0 N AH0 B AH0 L
+imaginary	im·ag·i·nar·y	IH2 M AE1 JH AH0 N EH2 R IY0
+imagination	im·ag·i·na·tion	IH2 M AE2 JH AH0 N EY1 SH AH0 N
+imaginations		IH2 M AE2 JH AH0 N EY1 SH AH0 N Z
+imaginative	im·ag·i·na·tive	IH2 M AE1 JH AH0 N AH0 T IH0 V
+imaginatively	i·mag·i·na·tive·ly	IH2 M AE1 JH AH0 N AH0 T IH2 V L IY2
+imagine	im·ag·ine	IH2 M AE1 JH AH0 N
+imagined	im·ag·ined	IH2 M AE1 JH AH0 N D
+imagineer		IH2 M AE2 JH AH0 N IH1 R
+imagineering		IH2 M AE2 JH AH0 N IH1 R IH0 NG
+imagines	i·ma·gi·nes	IH2 M AE1 JH AH0 N Z
+imaging	im·ag·ing	IH1 M IH0 JH IH0 NG
+imagining	im·ag·in·ing	IH2 M AE1 JH AH0 N IH0 NG
+imai		IH2 M AY1
+imam	i·mam	AY1 M AE0 M
+imamura		IH2 M AA2 M UH1 R AA2
+iman	i·man	AY1 M AH0 N
+imari		IY0 M AA1 R IY0
+imasco		IH0 M AE1 S OW0
+imax		AY1 M AE2 K S
+imax'		AY1 M AE2 K S
+imax's		AY1 M AE2 K S IH0 Z
+imbalance	im·bal·ance	IH0 M B AE1 L AH0 N S
+imbalances		IH0 M B AE1 L AH0 N S IH0 Z
+imbecile	im·be·cile	IH1 M B AH0 S AH0 L;IH1 M B AH0 S AY0 L
+imbeciles		IH1 M B AH0 S AH0 L Z;IH1 M B AH0 S AY0 L Z
+imbed	im·bed	IH0 M B EH1 D
+imbedded	im·bed·ded	IH0 M B EH1 D IH0 D
+imbeds		IH0 M B EH1 D Z
+imber		IH1 M B ER0
+imbera		IH1 M B ER0 AH0
+imbibe	im·bibe	IH0 M B AY1 B
+imbibed	im·bibed	IH0 M B AY1 B D
+imboden		IH1 M B OW0 D AH0 N
+imbroglio	im·bro·glio/im·bro·gli·o	IH2 M B R OW1 L Y OW2
+imbrogno		IH2 M B R OW1 G N OW2
+imbue	im·bue	IH2 M B Y UW1
+imbued	im·bued	IH2 M B Y UW1 D
+imburgia		IH1 M B ER0 G IY0 AH0
+imcera		IH2 M S EH1 R AH0
+imel		IH1 M AH0 L
+imelda		IH2 M EH1 L D AH0
+imes		AY1 M Z
+imhof		IH1 M HH AH0 F
+imhoff		IH1 M HH AO2 F
+imig		IH1 M IH0 G
+imitable	im·i·ta·ble	IH1 M AH0 T AH0 B AH0 L
+imitate	im·i·tate	IH1 M AH0 T EY2 T
+imitated	im·i·tat·ed	IH1 M AH0 T EY2 T IH0 D
+imitates		IH1 M AH0 T EY2 T S
+imitating	im·i·tat·ing	IH1 M AH0 T EY2 T IH0 NG
+imitation	im·i·ta·tion	IH2 M AH0 T EY1 SH AH0 N
+imitations		IH2 M IH0 T EY1 SH AH0 N Z
+imitative	im·i·ta·tive	IH1 M AH0 T EY2 T IH0 V
+imitator	im·i·ta·tor	IH1 M AH0 T EY2 T ER0
+imitators		IH1 M IH0 T EY2 T ER0 Z
+imlay		IH2 M L EY1
+imler		IH1 M L ER0
+imm		IH1 M
+immaculate	im·mac·u·late	IH2 M AE1 K Y UW0 L IH0 T
+immaculately	im·mac·u·late·ly	IH2 M AE1 K Y AH0 L AH0 T L IY0
+immanence	im·ma·nence	IH1 M AH0 N AH0 N S
+immanent	im·ma·nent	IH1 M AH0 N AH0 N T
+immanuel	im·man·u·el	IH1 M AH0 N UH0 L
+immaterial	im·ma·te·ri·al	IH2 M AH0 T IH1 R IY0 AH0 L
+immature	im·ma·ture	IH2 M AH0 T Y UH1 R
+immaturity	im·ma·tu·ri·ty	IH2 M AH0 CH UH1 R IH0 T IY0
+immeasurable	im·meas·ur·a·ble	IH2 M EH1 ZH ER0 AE2 B AH0 L
+immeasurably	im·meas·ur·a·bly	IH2 M EH1 ZH ER0 AE2 B L IY0
+immediacy	im·me·di·a·cy	IH2 M IY1 D IY2 AH0 S IY0
+immediate	im·me·di·ate	IH2 M IY1 D IY2 AH0 T
+immediately	im·me·di·ate·ly	IH2 M IY1 D IY2 AH0 T L IY0
+immel		IH1 M AH0 L
+immemorial	im·me·mo·ri·al	IH2 M AH0 M AO1 R IY0 AH0 L
+immense	im·mense	IH2 M EH1 N S
+immensely	im·mense·ly	IH2 M EH1 N S L IY0
+immerman		IH1 M ER0 M AH0 N
+immerse	im·merse	IH2 M ER1 S
+immersed	im·mersed	IH2 M ER1 S T
+immersion	im·mer·sion	IH2 M ER1 ZH AH0 N
+immigrant	im·mi·grant	IH1 M AH0 G R AH0 N T
+immigrant's		IH1 M AH0 G R AH0 N T S
+immigrants		IH1 M AH0 G R AH0 N T S
+immigrants'		IH1 M IH0 G R AH0 N T S
+immigrate	im·mi·grate	IH1 M AH0 G R EY2 T
+immigrated	im·mi·grat·ed	IH1 M AH0 G R EY2 T IH0 D
+immigration	im·mi·gra·tion	IH2 M AH0 G R EY1 SH AH0 N
+imminence	im·mi·nence	IH1 M AH0 N AH0 N S
+imminent	im·mi·nent	IH1 M AH0 N AH0 N T
+imminently	im·mi·nent·ly	IH1 M AH0 N AH0 N T L IY0
+immiscible	im·mis·ci·ble	IH2 M IH1 S AH0 B AH0 L
+immobile	im·mo·bile	IH2 M OW1 B AH0 L;IH2 M OW1 B AY2 L;IH2 M OW1 B IY2 L
+immobility	im·mo·bil·i·ty	IH2 M OW0 B IH1 L IH0 T IY0
+immobilize	im·mo·bi·lize	IH2 M OW1 B AH0 L AY2 Z
+immobilized	im·mo·bi·lized	IH2 M OW1 B AH0 L AY2 Z D
+immobilizing	im·mo·bi·liz·ing	IH2 M OW1 B AH0 L AY2 Z IH0 NG
+immolate	im·mo·late	IH1 M AH0 L EY2 T
+immolated	im·mo·lat·ed	IH1 M AH0 L EY2 T AH0 D
+immolates		IH1 M AH0 L EY2 T S
+immolating	im·mo·lat·ing	IH1 M AH0 L EY2 T IH0 NG
+immolation	im·mo·la·tion	IH1 M AH0 L EY2 SH AH0 N
+immoral	im·mor·al	IH2 M AO1 R AH0 L
+immorality	im·mo·ral·i·ty	IH2 M ER0 AE1 L IH0 T IY0
+immortal	im·mor·tal	IH2 M AO1 R T AH0 L
+immortality	im·mor·tal·i·ty	IH2 M AO0 R T AE1 L IH0 T IY0
+immortalize	im·mor·tal·ize	IH2 M AO1 R T AH0 L AY0 Z
+immortalized	im·mor·tal·ized	IH2 M AO1 R T AH0 L AY0 Z D
+immortalizes		IH2 M AO1 R T AH0 L AY0 Z IH0 Z
+immortalizing	im·mor·tal·iz·ing	IH2 M AO1 R T AH0 L AY0 Z IH0 NG
+immortals	im·mor·tals	IH2 M AO1 R T AH0 L Z
+immotile	im·mo·tile	IH2 M OW1 T AH0 L
+immovable	im·mov·a·ble	IH2 M UW1 V AH0 B AH0 L
+immu		IH1 M Y UW0
+immulogic		IH1 M Y UW0 L AA2 JH IH0 K
+immune	im·mune	IH2 M Y UW1 N
+immunetech		IH1 M Y UW0 N T EH2 K
+immunex		IH1 M Y UW0 N EH0 K S
+immunities		IH2 M Y UW1 N IH0 T IY0 Z
+immunity	im·mu·ni·ty	IH2 M Y UW1 N AH0 T IY0;IH2 M Y UW1 N IH0 T IY0
+immunization	im·mu·ni·za·tion	IH2 M Y UW0 N AH0 Z EY1 SH AH0 N
+immunizations		IH2 M Y UW0 N AH0 Z EY1 SH AH0 N Z
+immunize	im·mu·nize	IH1 M Y UW0 N AY2 Z
+immunized	im·mu·nized	IH1 M Y AH0 N AY2 Z D
+immunizes		IH1 M Y AH0 N AY2 Z IH0 Z
+immunizing	im·mu·niz·ing	IH1 M Y AH0 N AY2 Z IH0 NG
+immuno		IH2 M Y UW1 N OW0
+immunodeficiency		IH2 M Y UW0 N OW0 D IH2 F IH1 SH AH0 N S IY0
+immunological		IH2 M Y UW0 N AH0 L AA1 JH IH0 K AH0 L
+immunologist	im·mu·nol·o·gist	IH2 M Y UW0 N AA1 L AH0 JH IH0 S T
+immunology	im·mu·nol·o·gy	IH2 M Y UW0 N AA1 L AH0 JH IY0
+immunomedic		IH1 M Y UW0 N OW0 M EH2 D IH0 K
+immunomedics		IH1 M Y UW0 N OW0 M EH2 D IH0 K S
+immunoperoxidase		IH1 M Y UW0 N OW0 P EH0 R AO1 K S IH0 D EY2 Z
+immunotherapy	im·mu·no·ther·a·py	IH2 M Y UW0 N OW0 TH EH1 R AH0 P IY0
+immutable	im·mu·ta·ble	IH2 M Y UW1 T AH0 B AH0 L
+imnet		IH1 M N EH2 T
+imo	i·mo	AY1 M OW0;AY1 EH1 M OW1
+imogen	im·o·gen	IH1 M AH0 G AH0 N
+imogene	im·o·gene	IH1 M AH0 JH IY2 N
+imondi		IH2 M OW1 N D IY2;IH2 M AA1 N D IY2
+imp	imp	IH1 M P
+impact	im·pact	IH2 M P AE1 K T;IH1 M P AE0 K T
+impacted	im·pact·ed	IH1 M P AE2 K T IH0 D;IH2 M P AE1 K T IH0 D
+impacting		IH2 M P AE1 K T IH0 NG
+impacts		IH2 M P AE1 K T S;IH1 M P AE0 K T S;IH0 M P AE1 K S;IH1 M P AE0 K S
+impair	im·pair	IH2 M P EH1 R
+impaired		IH2 M P EH1 R D
+impairing		IH2 M P EH1 R IH0 NG
+impairment	im·pair·ment	IH2 M P EH1 R M AH0 N T
+impairments		IH2 M P EH1 R M AH0 N T S
+impairs		IH2 M P EH1 R Z
+impala	im·pal·a/im·pa·la	IH2 M P AA1 L AH0
+impale	im·pale	IH2 M P EY1 L
+impaled	im·paled	IH2 M P EY1 L D
+impales		IH2 M P EY1 L Z
+impaling	im·pal·ing	IH2 M P EY1 L IH0 NG
+impanel	im·pan·el	IH2 M P AE1 N AH0 L
+impaneled	im·pan·eled	IH2 M P AE1 N AH0 L D
+impart	im·part	IH2 M P AA1 R T
+imparted		IH2 M P AA1 R T IH0 D
+impartial	im·par·tial	IH2 M P AA1 R SH AH0 L
+impartiality	im·par·ti·al·i·ty	IH2 M P AA2 R SH IY0 AE1 L IH0 T IY0
+impartially	im·par·tial·ly	IH2 M P AA1 R SH AH0 L IY0
+imparting		IH2 M P AA1 R T IH0 NG
+imparts		IH2 M P AA1 R T S
+impassable	im·pass·a·ble	IH2 M P AE1 S AH0 B AH0 L
+impasse	im·passe	IH2 M P AE1 S;IH1 M P AE2 S
+impassion	im·pas·sion	IH2 M P AE1 SH AH0 N
+impassioned	im·pas·sioned	IH2 M P AE1 SH AH0 N D
+impassive	im·pas·sive	IH2 M P AE1 S IH0 V
+impassively	im·pas·sive·ly	IH2 M P AE1 S IH0 V L IY0
+impastato		IH2 M P AA0 S T AA1 T OW0
+impatience	im·pa·tience	IH2 M P EY1 SH AH0 N S
+impatiens	im·pa·ti·ens	IH2 M P EY1 SH AH0 N Z
+impatient	im·pa·tient	IH2 M P EY1 SH AH0 N T
+impatiently	im·pa·tient·ly	IH2 M P EY1 SH AH0 N T L IY0
+impeach	im·peach	IH2 M P IY1 CH
+impeachable	im·peach·a·ble	IH2 M P IY1 CH AH0 B AH0 L
+impeached		IH2 M P IY1 CH T
+impeaches		IH2 M P IY1 CH AH0 Z
+impeaching		IH2 M P IY1 CH IH0 NG
+impeachment	im·peach·ment	IH2 M P IY1 CH M AH0 N T
+impeachments		IH2 M P IY1 CH M AH0 N T S
+impeccable	im·pec·ca·ble	IH2 M P EH1 K AH0 B AH0 L
+impeccably	im·pec·ca·bly	IH2 M P EH1 K AH0 B L IY0
+impedance	im·ped·ance	IH2 M P IY1 D AH0 N S
+impede	im·pede	IH2 M P IY1 D
+impeded	im·ped·ed	IH2 M P IY1 D IH0 D
+impedes		IH2 M P IY1 D Z
+impediment	im·ped·i·ment	IH2 M P EH1 D AH0 M AH0 N T
+impediments		IH2 M P EH1 D AH0 M AH0 N T S
+impeding	im·ped·ing	IH2 M P IY1 D IH0 NG
+impel	im·pel	IH2 M P EH1 L
+impelled	im·pelled	IH2 M P EH1 L D
+impend	im·pend	IH2 M P EH1 N D
+impending	im·pend·ing	IH2 M P EH1 N D IH0 NG
+impenetrable	im·pen·e·tra·ble	IH2 M P EH1 N AH0 T R AH0 B AH0 L
+imperative	im·per·a·tive	IH2 M P EH1 R AH0 T IH0 V
+imperatives		IH2 M P EH1 R AH0 T IH0 V Z
+imperato		IH2 M P ER0 AA1 T OW0
+imperceptible	im·per·cep·ti·ble	IH2 M P ER0 S EH1 P T IH0 B AH0 L
+imperceptibly	im·per·cep·ti·bly	IH2 M P ER0 S EH1 P T IH0 B L IY0
+imperfect	im·per·fect	IH2 M P ER1 F IH0 K T
+imperfection	im·per·fec·tion	IH2 M P ER0 F EH1 K SH AH0 N
+imperfections		IH2 M P ER0 F EH1 K SH AH0 N Z
+imperfectly	im·per·fect·ly	IH2 M P ER1 F IH0 K T L IY0
+imperia	im·pe·ria/im·pe·ri·a	IH2 M P IY1 R IY0 AH0
+imperial	im·pe·ri·al	IH2 M P IH1 R IY0 AH0 L
+imperial's		IH2 M P IH1 R IY0 AH0 L Z
+imperiale		IH2 M P ER0 IY0 AA1 L IY0
+imperialism	im·pe·ri·al·ism	IH2 M P IH1 R IY0 AH0 L IH2 Z AH0 M
+imperialist	im·pe·ri·al·ist	IH2 M P IH1 R IY0 AH0 L IH0 S T
+imperialistic	im·pe·ri·al·is·tic	IH2 M P IY2 R IY0 AH0 L IH1 S T IH0 K
+imperialists		IH2 M P IH1 R IY0 AH0 L IH0 S T S
+imperil	im·per·il	IH2 M P EH1 R AH0 L
+imperiled	im·per·iled	IH2 M P EH1 R AH0 L D
+imperiling	im·per·il·ing	IH2 M P EH1 R AH0 L IH0 NG
+imperils		IH2 M P EH1 R AH0 L Z
+imperious	im·pe·ri·ous	IH2 M P IH1 R IY0 AH0 S
+impermissible	im·per·mis·si·ble	IH2 M P ER0 M IH1 S IH0 B AH0 L
+impersonal	im·per·son·al	IH2 M P ER1 S AH0 N AH0 L
+impersonality	im·per·son·al·i·ty	IH2 M P ER2 S AH0 N AE1 L AH0 T IY0
+impersonate	im·per·son·ate	IH2 M P ER1 S AH0 N EY2 T
+impersonated	im·per·son·at·ed	IH2 M P ER1 S AH0 N EY2 T IH0 D
+impersonates		IH2 M P ER1 S AH0 N EY2 T S
+impersonating	im·per·son·at·ing	IH2 M P ER1 S AH0 N EY2 T IH0 NG
+impersonation	im·per·son·a·tion	IH2 M P ER0 S AH0 N EY1 SH AH0 N
+impersonator	im·per·son·a·tor	IH2 M P ER1 S AH0 N EY0 T ER0
+impersonators		IH2 M P ER1 S AH0 N EY2 T ER0 Z
+impertinent	im·per·ti·nent	IH2 M P ER1 T AH0 N AH0 N T
+impervious	im·per·vi·ous	IH2 M P ER1 V IY0 AH0 S
+impetuous	im·pet·u·ous	IH2 M P EH1 CH W AH0 S
+impetus	im·pe·tus	IH1 M P AH0 T AH0 S
+impinge	im·pinge	IH2 M P IH1 N JH
+impinged	im·pinged	IH2 M P IH1 N JH D
+impinges		IH2 M P IH1 N JH IH0 Z
+impinging	im·ping·ing	IH2 M P IH1 N JH IH0 NG
+impious	im·pi·ous	IH2 M P AY1 AH0 S
+impish	imp·ish	IH1 M P IH0 SH
+implacable	im·plac·a·ble	IH2 M P L AE1 K AH0 B AH0 L
+implant	im·plant	IH2 M P L AE1 N T;IH1 M P L AE2 N T
+implantable		IH1 M P L AE2 N T AH0 B AH0 L
+implantation	im·plan·ta·tion	IH2 M P L AE0 N T EY1 SH AH0 N
+implanted		IH2 M P L AE1 N T IH0 D
+implanting		IH2 M P L AE1 N T IH0 NG
+implants		IH2 M P L AE1 N T S;IH1 M P L AE2 N T S
+implausible	im·plau·si·ble	IH2 M P L AO1 Z AH0 B AH0 L
+implausibly	im·plau·si·bly	IH2 M P L AO1 Z AH0 B L IY0
+implement	im·ple·ment	IH1 M P L AH0 M AH0 N T
+implementation	im·ple·men·ta·tion	IH2 M P L AH0 M EH0 N T EY1 SH AH0 N
+implementations		IH2 M P L AH0 M EH0 N T EY1 SH AH0 N Z
+implemented		IH1 M P L AH0 M EH2 N T AH0 D;IH1 M P L AH0 M EH2 N AH0 D
+implementing		IH1 M P L AH0 M EH2 N T IH0 NG;IH1 M P L AH0 M EH2 N IH0 NG
+implements		IH1 M P L AH0 M AH0 N T S
+implicate	im·pli·cate	IH1 M P L IH0 K EY2 T
+implicated	im·pli·cat·ed	IH1 M P L IH0 K EY2 T IH0 D
+implicates		IH1 M P L IH0 K EY2 T S
+implicating	im·pli·cat·ing	IH1 M P L IH0 K EY2 T IH0 NG
+implication	im·pli·ca·tion	IH2 M P L AH0 K EY1 SH AH0 N
+implications		IH2 M P L AH0 K EY1 SH AH0 N Z
+implicit	im·plic·it	IH2 M P L IH1 S AH0 T
+implicitly	im·plic·it·ly	IH2 M P L IH1 S AH0 T L IY0
+implied	im·plied	IH2 M P L AY1 D
+implies		IH2 M P L AY1 Z
+implode	im·plode	IH2 M P L OW1 D
+imploded	im·plod·ed	IH2 M P L OW1 D IH0 D
+implodes		IH2 M P L OW1 D Z
+imploding	im·plod·ing	IH2 M P L OW1 D IH0 NG
+implore	im·plore	IH2 M P L AO1 R
+implored	im·plored	IH2 M P L AO1 R D
+implores		IH2 M P L AO1 R Z
+imploring	im·plor·ing	IH2 M P L AO1 R IH0 NG
+implosion	im·plo·sion	IH2 M P L OW1 ZH AH0 N
+imply	im·ply	IH2 M P L AY1
+implying	im·ply·ing	IH2 M P L AY1 IH0 NG
+impolite	im·po·lite	IH2 M P AH0 L AY1 T
+impolitic	im·pol·i·tic	IH2 M P AO0 L IH1 T IH2 K
+imponderable	im·pon·der·a·ble	IH2 M P AA1 N D ER0 AH0 B AH0 L
+imponderables		IH2 M P AA1 N D ER0 AH0 B AH0 L Z
+import	im·port	IH2 M P AO1 R T;IH1 M P AO2 R T
+importance	im·por·tance	IH2 M P AO1 R T AH0 N S
+important	im·por·tant	IH2 M P AO1 R T AH0 N T
+importantly	im·por·tant·ly	IH2 M P AO1 R T AH0 N T L IY0
+importation	im·por·ta·tion	IH2 M P AO0 R T EY1 SH AH0 N
+imported		IH2 M P AO1 R T IH0 D
+importer	im·port·er	IH2 M P AO1 R T ER0
+importers		IH2 M P AO1 R T ER0 Z
+importers'		IH2 M P AO1 R T ER0 Z
+importing		IH2 M P AO1 R T IH0 NG
+imports		IH2 M P AO1 R T S;IH1 M P AO2 R T S
+imports'		IH1 M P AO0 R T S
+impose	im·pose	IH2 M P OW1 Z
+imposed	im·posed	IH2 M P OW1 Z D
+imposes		IH0 M P OW1 Z AH0 Z;IH0 M P OW1 Z IH0 Z
+imposing	im·pos·ing	IH2 M P OW1 Z IH0 NG
+imposition	im·po·si·tion	IH2 M P AH0 Z IH1 SH AH0 N
+impossibility	im·pos·si·bil·i·ty	IH2 M P AO2 S IH0 B IH1 L IH0 T IY0
+impossible	im·pos·si·ble	IH2 M P AA1 S AH0 B AH0 L
+impossible's		IH2 M P AA1 S AH0 B AH0 L Z
+impossibly	im·pos·si·bly	IH2 M P AA1 S AH0 B L IY0
+imposter	im·post·er	IH2 M P AO1 S T ER0
+impostor	im·pos·tor	IH2 M P AO1 S T ER0
+impostors		IH2 M P AO1 S T ER0 Z
+impotence	im·po·tence	IH1 M P AH0 T AH0 N S
+impotent	im·po·tent	IH1 M P AH0 T AH0 N T
+impound	im·pound	IH2 M P AW1 N D
+impounded		IH2 M P AW1 N D IH0 D
+impounding		IH2 M P AW1 N D IH0 NG
+impoundment	im·pound·ment	IH2 M P AW1 N D M AH0 N T
+impoundments		IH2 M P AW1 N D M AH0 N T S
+impounds		IH2 M P AW1 N D Z
+impoverish	im·pov·er·ish	IH2 M P AA1 V R IH0 SH
+impoverished	im·pov·er·ished	IH2 M P AA1 V R IH0 SH T
+impoverishes		IH2 M P AA1 V R IH0 SH AH0 Z
+impoverishing		IH2 M P AA1 V R IH0 SH IH0 NG
+impoverishment	im·pov·er·ish·ment	IH2 M P AA1 V R IH0 SH M AH0 N T
+impracticable	im·prac·ti·ca·ble	IH2 M P R AE1 K T IH0 K AH0 B AH0 L
+impractical	im·prac·ti·cal	IH2 M P R AE1 K T AH0 K AH0 L;IH2 M P R AE1 K T IH0 K AH0 L
+imprecise	im·pre·cise	IH1 M P R AH0 S AY2 S
+impregnable	im·preg·na·ble	IH2 M P R EH1 G N AH0 B AH0 L
+impregnate	im·preg·nate	IH2 M P R EH1 G N EY2 T
+impregnated		IH2 M P R EH1 G N EY2 T AH0 D
+impregnates		IH2 M P R EH1 G N EY2 T S
+impregnating		IH2 M P R EH1 G N EY2 T IH0 NG
+impregnation	im·preg·na·tion	IH2 M P R EH1 G N EY1 SH AH0 N
+impresario	im·pre·sa·ri·o	IH2 M P R IH0 S AA1 R IY0 OW2
+impress	im·press	IH2 M P R EH1 S;IH1 M P R EH2 S
+impressed		IH2 M P R EH1 S T
+impresses		IH2 M P R EH1 S IH0 Z
+impressing	im·pres·sing	IH2 M P R EH1 S IH0 NG
+impression	im·pres·sion	IH2 M P R EH1 SH AH0 N
+impressionable	im·pres·sion·a·ble	IH2 M P R EH1 SH AH0 N AH0 B AH0 L
+impressionism	im·pres·sion·ism	IH2 M P R EH1 SH AH0 N IH2 Z AH0 M
+impressionist	im·pres·sion·ist	IH2 M P R EH1 SH AH0 N AH0 S T;IH2 M P R EH1 SH AH0 N IH0 S T
+impressionistic	im·pres·sion·is·tic	IH2 M P R EH2 SH AH0 N IH1 S T IH0 K
+impressionists		IH2 M P R EH1 SH AH0 N IH0 S T S
+impressions		IH2 M P R EH1 SH AH0 N Z
+impressive	im·pres·sive	IH2 M P R EH1 S IH0 V
+impressively	im·pres·sive·ly	IH2 M P R EH1 S IH0 V L IY0
+impressment	im·press·ment	IH2 M P R EH1 S M AH0 N T
+imprimatur	im·pri·ma·tur	IH2 M P R IH0 M AA1 T ER0
+imprimis	im·pri·mis	IH2 M P R IY1 M IH0 S
+imprint	im·print	IH2 M P R IH1 N T;IH1 M P R IH0 N T
+imprinted		IH2 M P R IH1 N T IH0 D;IH2 M P R IH1 N IH0 D
+imprinting	im·print·ing	IH2 M P R IH1 N T IH0 NG;IH2 M P R IH1 N IH0 NG
+imprints		IH2 M P R IH1 N T S
+imprison	im·pris·on	IH2 M P R IH1 Z AH0 N
+imprisoned		IH2 M P R IH1 Z AH0 N D
+imprisoning		IH2 M P R IH1 Z AH0 N IH0 NG
+imprisonment	im·pris·on·ment	IH2 M P R IH1 Z AH0 N M AH0 N T
+imprisons		IH2 M P R IH1 Z AH0 N Z
+improbable	im·prob·a·ble	IH2 M P R AA1 B AH0 B AH0 L
+improbably	im·prob·a·bly	IH2 M P R AA1 B AH0 B L IY0
+impromptu	im·promp·tu	IH2 M P R AA1 M P T UW0
+improper	im·prop·er	IH2 M P R AA1 P ER0
+improperly	im·prop·er·ly	IH2 M P R AA1 P ER0 L IY0
+improprieties		IH2 M P R AH0 P R AY1 AH0 T IY0 Z
+impropriety	im·pro·pri·e·ty	IH2 M P R AH0 P R AY1 AH0 T IY0
+improv		IH1 M P R AA2 V
+improve	im·prove	IH2 M P R UW1 V
+improved	im·proved	IH2 M P R UW1 V D
+improvement	im·prove·ment	IH2 M P R UW1 V M AH0 N T
+improvements		IH2 M P R UW1 V M AH0 N T S
+improves		IH2 M P R UW1 V Z
+improving	im·prov·ing	IH2 M P R UW1 V IH0 NG
+improvisation	im·prov·i·sa·tion	IH2 M P R AA0 V IH0 Z EY1 SH AH0 N
+improvisational	im·prov·i·sa·tion·al	IH2 M P R AA0 V IH0 Z EY1 SH AH0 N AH0 L
+improvisations		IH2 M P R AA0 V IH0 Z EY1 SH AH0 N Z
+improvise	im·pro·vise	IH1 M P R AH0 V AY2 Z;IH2 M P R AH0 V AY1 Z
+improvised	im·pro·vised	IH1 M P R AH0 V AY2 Z D
+improvises		IH1 M P R AH0 V AY2 Z AH0 Z;IH2 M P R AH0 V AY1 Z AH0 Z
+improvising	im·pro·vis·ing	IH1 M P R AH0 V AY2 Z IH0 NG
+imprudence	im·pru·dence	IH2 M P R UW1 D AH0 N S
+imprudent	im·pru·dent	IH2 M P R UW1 D AH0 N T
+imprudently	im·pru·dent·ly	IH2 M P R UW1 D AH0 N T L IY0
+impson		IH1 M P S AH0 N
+impugn	im·pugn	IH2 M P Y UW1 N
+impugned		IH2 M P Y UW1 N D
+impugning		IH2 M P Y UW1 N IH0 NG
+impugns		IH2 M P Y UW1 N Z
+impulse	im·pulse	IH1 M P AH0 L S;IH2 M P AH1 L S
+impulses		IH1 M P AH0 L S IH0 Z;IH2 M P AH1 L S IH0 Z
+impulsive	im·pul·sive	IH2 M P AH1 L S IH0 V
+impulsively	im·pul·sive·ly	IH2 M P AH1 L S IH0 V L IY0
+impunity	im·pu·ni·ty	IH2 M P Y UW1 N IH0 T IY0
+impure	im·pure	IH2 M P Y UH1 R
+impurities		IH2 M P Y UH1 R AH0 T IY0 Z
+impurity	im·pu·ri·ty	IH2 M P Y UH1 R AH0 T IY0
+imputation	im·pu·ta·tion	IH2 M P Y AH0 T EY1 SH AH0 N
+impute	im·pute	IH2 M P Y UW1 T
+imputed	im·put·ed	IH2 M P Y UW1 T IH0 D
+imre	im·re	IH1 M R AH0
+imreg		IH2 M R EH1 G
+imreg's		IH2 M R EH1 G Z
+imrie		IH1 M ER0 IY0
+imus		AY1 M AH0 S
+in		IH0 N;IH1 N
+in's		IH0 N Z;IH1 N Z
+in-app		IH0 N AE1 P
+in-depth		IH0 N D EH1 P TH
+in-house		IH0 N HH AW1 S
+in-law	in-law	IH0 N L AO1
+in-laws		IH0 N L AO1 Z
+in-memory		IH0 N M EH1 M ER0 IY0
+in-person		IH0 N P ER1 S AH0 N
+in.		IH1 N;IH1 N CH
+ina	i·na	IY1 N AH0
+inability	in·a·bil·i·ty	IH2 N AH0 B IH1 L IH0 T IY0
+inabinet		IH2 N AH0 B IH1 N IH0 T
+inaccessibility	in·ac·ces·si·bil·i·ty	IH2 N AH0 K S EH2 S AH0 B IH1 L AH0 T IY0
+inaccessible	in·ac·ces·si·ble	IH2 N AH0 K S EH1 S AH0 B AH0 L
+inaccuracies		IH2 N AE1 K Y ER0 AE2 S IY0 Z
+inaccuracy	in·ac·cu·ra·cy	IH2 N AE1 K Y ER0 AH0 S IY0
+inaccurate	in·ac·cu·rate	IH2 N AE1 K Y ER0 AH0 T
+inaccurately	in·ac·cu·rate·ly	IH2 N AE1 K Y ER0 AH0 T L IY0
+inacom		IH1 N AH0 K AA2 M;AY1 N AH0 K AA2 M
+inacomp		AY1 N AH0 K AA2 M P;IH1 N AH0 K AA2 M P
+inaction	in·ac·tion	IH2 N AE1 K SH AH0 N
+inactivate	in·ac·ti·vate	IH2 N AE1 K T IH0 V EY2 T
+inactivated	in·ac·ti·vat·ed	IH2 N AE1 K T IH0 V EY2 T IH0 D
+inactivates		IH2 N AE1 K T IH0 V EY2 T S
+inactivation	in·ac·ti·va·tion	IH2 N AE2 K T IH0 V EY1 SH AH0 N
+inactive	in·ac·tive	IH2 N AE1 K T IH0 V
+inactivity	in·ac·tiv·i·ty	IH2 N AE0 K T IH1 V IH0 T IY0
+inadequacies		IH2 N AE1 D AH0 K W AH0 S IY0 Z
+inadequacy	in·ad·e·qua·cy	IH2 N AE1 D IH0 K W AH0 S IY0
+inadequate	in·ad·e·quate	IH2 N AE1 D AH0 K W AH0 T;IH2 N AE1 D AH0 K W EY2 T
+inadequately	in·ad·e·quate·ly	IH2 N AE1 D AH0 K W AH0 T L IY0
+inadmissible	in·ad·mis·si·ble	IH2 N AH0 D M IH1 S AH0 B AH0 L;IH2 N AE0 D M IH1 S AH0 B AH0 L
+inadmissibly	in·ad·mis·si·bly	IH2 N AH0 D M IH1 S AH0 B L IY0;IH2 N AE0 D M IH1 S AH0 B L IY0
+inadvertence	in·ad·vert·ence	IH2 N AH0 D V ER1 T AH0 N S;IH2 N AE0 D V ER1 T AH0 N S
+inadvertent	in·ad·vert·ent	IH2 N AH0 D V ER1 T AH0 N T;IH2 N AE0 D V ER1 T AH0 N T
+inadvertently	in·ad·vert·ent·ly	IH2 N AH0 D V ER1 T AH0 N T L IY0;IH2 N AE0 D V ER1 T AH0 N T L IY0
+inadvisable	in·ad·vis·a·ble	IH2 N AH0 D V AY1 Z AH0 B AH0 L;IH2 N AE0 D V AY1 Z AH0 B AH0 L
+inaez		IH2 N AE1 Z;IH2 N EY1 Z
+inaki		IH2 N AA1 K IY0
+inalienable	in·al·ien·a·ble	IH2 N EY1 L Y AH0 N AH0 B AH0 L
+inamura		IH2 N AH0 M UH1 R AH0
+inane	in·ane	IH2 N EY1 N
+inanimate	in·an·i·mate	IH2 N AE1 N AH0 M AH0 T
+inapplicable	in·ap·pli·ca·ble	IH2 N AE1 P L IH0 K AH0 B AH0 L
+inappropriate	in·ap·pro·pri·ate	IH2 N AH0 P R OW1 P R IY0 IH0 T
+inappropriately	in·ap·pro·pri·ate·ly	IH2 N AH0 P R AA1 P R IY0 AH0 T L IY0
+inarticulate	in·ar·tic·u·late	IH2 N AA0 R T IH1 K Y AH0 L AH0 T
+inasmuch		IH2 N AE1 S M AH0 K
+inattention	in·at·ten·tion	IH2 N AH0 T EH1 N CH AH0 N
+inattentive	in·at·ten·tive	IH2 N AH0 T EH1 N T IH0 V
+inaudible	in·au·di·ble	IH2 N AO1 D AH0 B AH0 L
+inaudibly	in·au·di·bly	IH2 N AO1 D AH0 B L IY0
+inaugural	in·au·gu·ral	IH2 N AO1 G ER0 AH0 L;IH2 N AO1 G Y ER0 AH0 L
+inaugurate	in·au·gu·rate	IH0 N AO1 G Y ER0 IH0 T;IH0 N AO1 G Y ER0 EY0 T
+inaugurated	in·au·gu·rat·ed	IH0 N AO1 G ER0 EY2 T IH0 D;IH0 N AO1 G Y ER0 EY2 T IH0 D
+inaugurates		IH0 N AO1 G Y ER0 IH0 T S
+inaugurating	in·au·gu·rat·ing	IH0 N AO1 G Y ER0 EY2 T IH0 NG
+inauguration	in·au·gu·ra·tion	IH0 N AO2 G Y ER0 EY1 SH AH0 N
+inaugurations		IH0 N AO2 G Y ER0 EY1 SH AH0 N Z
+inauspicious	in·aus·pi·cious	IH2 N AW2 S P IH1 SH IH0 S
+inbio		IH2 N B AY1 OW0
+inboard	in·board	IH1 N B AO2 R D
+inboden		IH1 N B OW0 D AH0 N
+inbody		IH1 N B AA0 D IY0
+inborn	in·born	IH1 N B AO2 R N
+inbound	in·bound	IH2 N B AW1 N D;IH1 N B AW0 N D
+inbox		IH1 N B AA2 K S
+inbred	in·bred	IH1 N B R EH2 D
+inbreed	in·breed	IH1 N B R IY2 D
+inbreeding	in·breed·ing	IH2 N B R IY1 D IH0 NG
+inc	inc	IH1 NG K
+inc.		IH1 NG K;IH0 NG K AO1 R P AO0 R EY0 T AH0 D
+inc.'s		IH1 NG K S
+inca	in·ca	IH1 NG K AH0
+incalculable	in·cal·cu·la·ble	IH2 N K AE1 L K Y AH0 L AH0 B AH0 L
+incandescent	in·can·des·cent	IH2 N K AH0 N D EH1 S AH0 N T
+incant		IH2 N K AE1 N T
+incantation	in·can·ta·tion	IH2 N K AE1 N T EY1 SH AH0 N
+incantatory	in·can·ta·to·ry	IH2 N K AE1 N T AH0 T AO2 R IY0
+incapable	in·ca·pa·ble	IH2 N K EY1 P AH0 B AH0 L
+incapacitate	in·ca·pac·i·tate	IH2 N K AH0 P AE1 S IH0 T EY2 T
+incapacitated	in·ca·pac·i·tat·ed	IH2 N K AH0 P AE1 S IH0 T EY2 T IH0 D
+incapacitating	in·ca·pac·i·tat·ing	IH2 N K AH0 P AE1 S IH0 T EY2 T IH0 NG
+incapacitation	in·ca·pac·i·ta·tion	IH2 N K AH0 P AE2 S IH0 T EY1 SH AH0 N
+incapacity	in·ca·pac·i·ty	IH2 N K AH0 P AE1 S AH0 T IY0
+incarcerate	in·car·cer·ate	IH2 N K AA1 R S ER0 EY2 T
+incarcerated	in·car·cer·at·ed	IH2 N K AA1 R S ER0 EY2 T IH0 D
+incarcerates		IH2 N K AA1 R S ER0 EY2 T S
+incarcerating	in·car·cer·at·ing	IH2 N K AA1 R S ER0 EY2 T IH0 NG
+incarceration	in·car·cer·a·tion	IH2 N K AA2 R S ER0 EY1 SH AH0 N
+incarnate	in·car·nate	IH2 N K AA1 R N AH0 T;IH2 N K AA1 R N EY2 T
+incarnation	in·car·na·tion	IH2 N K AA1 R N EY1 SH AH0 N
+incarnations		IH2 N K AA0 R N EY1 SH AH0 N Z
+incas		IH1 NG K AH0 Z
+incase	in·case	IH2 N K EY1 S
+incata		IH2 NG K AA1 T AH0
+incata's		IH2 NG K AA1 T AH0 Z
+ince		IH1 N S
+incendiary	in·cen·di·ar·y	IH2 N S EH1 N D IY0 EH0 R IY0
+incense	in·cense	IH2 N S EH1 N S;IH1 N S EH2 N S
+incensed	in·censed	IH1 N S EH2 N S T
+incentive	in·cen·tive	IH2 N S EH1 N T IH0 V;IH2 N S EH1 N IH0 V
+incentives		IH2 N S EH1 N T IH0 V Z;IH2 N S IH1 N IH0 V Z
+inception	in·cep·tion	IH2 N S EH1 P SH AH0 N
+incessant	in·ces·sant	IH2 N S EH1 S AH0 N T
+incessantly	in·ces·sant·ly	IH2 N S EH1 S AH0 N T L IY0
+incest	in·cest	IH1 N S EH2 S T
+incestuous	in·ces·tu·ous	IH2 N S EH1 S CH W AH0 S
+inch	inch	IH1 N CH
+inchcape		IH1 N CH K EY2 P
+inched		IH1 N CH T
+incheon	in·cheon	IH1 N CH AO0 N
+inches		IH1 N CH AH0 Z;IH1 N CH IH0 Z
+inches'		IH1 N CH AH0 Z;IH1 N CH IH0 Z
+inching		IH1 N CH IH0 NG
+inchoate	in·cho·ate	IH2 N K OW1 AH0 T
+inchon	in·chon	IH1 N CH AO0 N
+incidence	in·ci·dence	IH1 N S AH0 D AH0 N S;IH1 N S IH0 D AH0 N S
+incidences		IH1 N S AH0 D AH0 N S IH0 Z
+incident	in·ci·dent	IH1 N S AH0 D AH0 N T
+incidental	in·ci·den·tal	IH2 N S IH0 D EH1 N T AH0 L
+incidentally	in·ci·den·tal·ly	IH2 N S IH0 D EH1 N T AH0 L IY0;IH2 N S IH0 D EH1 N T L IY0
+incidentals		IH2 N S IH0 D EH1 N T AH0 L Z
+incidents		IH1 N S AH0 D AH0 N T S
+incinerate	in·cin·er·ate	IH2 N S IH1 N ER0 EY2 T
+incinerated	in·cin·er·at·ed	IH2 N S IH1 N ER0 EY2 T IH0 D
+incinerating	in·cin·er·at·ing	IH2 N S IH1 N ER0 EY2 T IH0 NG
+incineration	in·cin·er·a·tion	IH2 N S IH1 N ER0 EY2 SH AH0 N
+incinerator	in·cin·er·a·tor	IH2 N S IH1 N ER0 EY2 T ER0
+incinerators		IH2 N S IH1 N ER0 EY2 T ER0 Z
+incipient	in·cip·i·ent	IH2 N S IH1 P IY0 AH0 N T
+incirlik		IH2 N S ER1 L IH0 K
+incise	in·cise	IH2 N S AY1 Z
+incised	in·cised	IH2 N S AY1 Z D
+incision	in·ci·sion	IH2 N S IH1 ZH AH0 N
+incisions		IH2 N S IH1 ZH AH0 N Z
+incisive	in·ci·sive	IH2 N S AY1 S IH0 V
+incisor	in·ci·sor	IH2 N S AY1 Z ER0
+incisors		IH2 N S AY1 Z ER0 Z
+incite	in·cite	IH2 N S AY1 T
+incited	in·cit·ed	IH2 N S AY1 T IH0 D
+incitement	in·cite·ment	IH2 N S AY1 T M AH0 N T
+incitements		IH2 N S AY1 T M AH0 N T S
+incites		IH2 N S AY1 T S
+inciting	in·cit·ing	IH2 N S AY1 T IH0 NG
+incivility	in·ci·vil·i·ty	IH2 N S IH0 V IH1 L IH0 T IY0
+inclement	in·clem·ent	IH2 N K L EH1 M AH0 N T;IH1 N K L IH0 M AH0 N T
+inclination	in·cli·na·tion	IH2 N K L AH0 N EY1 SH AH0 N
+inclinations		IH2 N K L AH0 N EY1 SH AH0 N Z
+incline	in·cline	IH2 N K L AY1 N;IH1 N K L AY0 N
+inclined	in·clined	IH2 N K L AY1 N D
+inclines		IH2 N K L AY1 N Z;IH1 N K L AY0 N Z
+inclosure	in·clo·sure	IH2 N K L OW1 ZH ER0
+include	in·clude	IH2 N K L UW1 D
+included	in·clud·ed	IH2 N K L UW1 D AH0 D;IH2 N K L UW1 D IH0 D
+includes		IH2 N K L UW1 D Z
+including	in·clud·ing	IH2 N K L UW1 D IH0 NG
+inclusion	in·clu·sion	IH2 N K L UW1 ZH AH0 N
+inclusions		IH2 N K L UW1 ZH AH0 N Z
+inclusive	in·clu·sive	IH2 N K L UW1 S IH0 V
+inclusiveness	in·clu·sive·ness	IH2 N K L UW1 S IH0 V N IH0 S;IH2 N K L UW1 S IH0 V N EH0 S
+inco		IH2 N K OW1
+inco's		IH1 NG K OW0 Z
+incognito	in·cog·ni·to	IH2 N K AO0 G N IY1 T OW0
+incoherence	in·co·her·ence	IH2 N K OW0 HH IH1 R AH0 N S
+incoherent	in·co·her·ent	IH2 N K OW0 HH IH1 R AH0 N T
+incoherently	in·co·her·ent·ly	IH2 N K OW0 HH IH1 R AH0 N T L IY0
+incom		IH1 NG K AA0 M
+income	in·come	IH1 N K AH2 M
+incomes		IH1 N K AH2 M Z
+incoming	in·com·ing	IH1 N K AH2 M IH0 NG
+incommunicado	in·com·mu·ni·ca·do	IH2 N K AH0 M Y UW2 N AH0 K AA1 D OW0
+incomparable	in·com·pa·ra·ble	IH2 N K AA1 M P ER0 AH0 B AH0 L
+incomparably	in·com·pa·ra·bly	IH2 N K AA1 M P ER0 AH0 B L IY0
+incompatibility	in·com·pat·i·bil·i·ty	IH2 N K AA2 M P AH0 T IH0 B IH1 L IH0 T IY0
+incompatible	in·com·pat·i·ble	IH2 N K AH0 M P AE1 T AH0 B AH0 L
+incompetence	in·com·pe·tence	IH2 N K AA1 M P AH0 T AH0 N S
+incompetency	in·com·pe·ten·cy	IH2 N K AA1 M P AH0 T AH0 N S IY0
+incompetent	in·com·pe·tent	IH2 N K AA1 M P AH0 T AH0 N T
+incompetently	in·com·pe·tent·ly	IH2 N K AA1 M P AH0 T AH0 N T L IY0
+incompetents		IH2 NG K AA1 M P AH0 T AH0 N T S
+incomplete	in·com·plete	IH2 N K AH0 M P L IY1 T
+incomprehensible	in·com·pre·hen·si·ble	IH2 NG K AA2 M P R AH0 HH EH1 N S IH0 B AH0 L
+incomprehensibly	in·com·pre·hen·si·bly	IH2 NG K AA2 M P R AH0 HH EH1 N S IH0 B L IY0
+incompressible	in·com·press·i·ble	IH2 N K AH0 M P R EH1 S AH0 B AH0 L
+inconceivable	in·con·ceiv·a·ble	IH2 N K AH0 N S IY1 V AH0 B AH0 L
+inconclusive	in·con·clu·sive	IH2 N K AH0 N K L UW1 S IH0 V
+inconclusively	in·con·clu·sive·ly	IH2 NG K AA1 N K L UW0 S IH0 V L IY0
+incongruity	in·con·gru·i·ty	IH2 NG K AO0 NG R UW1 IH0 T IY0
+incongruous	in·con·gru·ous	IH2 NG K AO1 NG R UW0 AH0 S
+incongruously	in·con·gru·ous·ly	IH2 NG K AO1 NG R UW0 AH0 S L IY0
+inconsequential	in·con·se·quen·tial	IH2 NG K AA2 N S AH0 K W EH1 N CH AH0 L
+inconsistencies		IH2 NG K AA1 N S IH0 S T EH2 N S IY0 Z
+inconsistency	in·con·sist·en·cy	IH2 N K AH0 N S IH1 S T AH0 N S IY0
+inconsistent	in·con·sist·ent	IH2 N K AH0 N S IH1 S T AH0 N T
+inconspicuous	in·con·spic·u·ous	IH2 NG K AA1 N S P IH0 K W AH0 S
+inconstancy	in·con·stan·cy	IH2 N K AA1 N S T AH0 N S IY0
+incontinence	in·con·ti·nence	IH2 N K AA1 N T AH0 N AH0 N S
+incontinent	in·con·ti·nent	IH2 N K AA1 N T AH0 N AH0 N T
+incontrovertible	in·con·tro·vert·i·ble	IH2 NG K AA2 N T R OW0 V ER1 T IH0 B AH0 L
+inconvenience	in·con·ven·ience	IH2 N K AH0 N V IY1 N Y AH0 N S
+inconvenienced	in·con·ven·ienced	IH2 N K AH0 N V IY1 N Y AH0 N S T
+inconveniences		IH2 N K AH0 N V IY1 N Y AH0 N S IH0 Z
+inconvenient	in·con·ven·ient	IH2 N K AH0 N V IY1 N Y AH0 N T
+incoordination	in·co·or·di·na·tion	IH2 N K OW2 AO1 R D AH0 N EY2 SH AH0 N
+incorporate	in·cor·po·rate	IH2 N K AO1 R P ER0 EY2 T
+incorporated	in·cor·po·rat·ed	IH2 N K AO1 R P ER0 EY2 T IH0 D;IH0 N K AO1 R P ER0 EY2 T IH0 D
+incorporated's		IH2 N K AO1 R P ER0 EY2 T IH0 D Z
+incorporates		IH2 N K AO1 R P ER0 EY2 T S
+incorporating	in·cor·po·rat·ing	IH2 N K AO1 R P ER0 EY2 T IH0 NG
+incorporation	in·cor·po·ra·tion	IH2 N K AO2 R P ER0 EY1 SH AH0 N
+incorporation's		IH2 N K AO2 R P ER0 EY1 SH AH0 N Z
+incorporations		IH2 N K AO2 R P ER0 EY1 SH AH0 N Z
+incorrect	in·cor·rect	IH2 N K ER0 EH1 K T
+incorrectly	in·cor·rect·ly	IH2 N K ER0 EH1 K T L IY0
+incorrigible	in·cor·ri·gi·ble	IH2 N K AA1 R AH0 JH AH0 B AH0 L
+incorvaia		IH2 N K AO0 R V AA1 Y AH0
+increase	in·crease	IH2 N K R IY1 S;IH1 N K R IY2 S
+increased	in·creased	IH2 N K R IY1 S T;IH1 N K R IY2 S T
+increases		IH0 N K R IY1 S AH0 Z;IH1 N K R IY2 S IH0 Z;IH1 N K R IY0 S AH0 Z
+increasing	in·creas·ing	IH2 N K R IY1 S IH0 NG
+increasingly	in·creas·ing·ly	IH0 N K R IY1 S IH0 NG L IY0;IH0 N K R IY1 S IH0 NG G L IY0
+incredible	in·cred·i·ble	IH2 N K R EH1 D AH0 B AH0 L
+incredibly	in·cred·i·bly	IH2 N K R EH1 D AH0 B L IY0
+incredulity	in·cre·du·li·ty	IH2 N K R AH0 D UW1 L IH0 T IY0
+incredulous	in·cred·u·lous	IH2 N K R EH1 JH AH0 L AH0 S
+increment	in·cre·ment	IH1 N K R AH0 M AH0 N T
+incremental	in·cre·men·tal	IH2 N K R AH0 M EH1 N T AH0 L
+incrementalism		IH2 N K R AH0 M EH1 N T AH0 L IH2 Z AH0 M
+incrementally		IH2 N K R AH0 M EH1 N T AH0 L IY2
+incremented		IH1 N K R AH0 M EH2 N T IH0 D
+increments		IH1 NG K R AH0 M AH0 N T S
+incriminate	in·crim·i·nate	IH2 N K R IH1 M AH0 N EY2 T
+incriminating	in·crim·i·nat·ing	IH2 N K R IH1 M AH0 N EY2 T IH0 NG
+incrimination	in·crim·i·na·tion	IH2 N K R IH2 M AH0 N EY1 SH AH0 N
+incrust	in·crust	IH2 N K R AH1 S T
+incrustation	in·crus·ta·tion	IH2 N K R AH0 S T EY1 SH AH0 N
+incstar		IH1 NG K S T AA2 R
+incubate	in·cu·bate	IH1 N K Y AH0 B EY2 T
+incubates		IH1 N K Y AH0 B EY2 T S
+incubating	in·cu·bat·ing	IH1 N K Y AH0 B EY2 T IH0 NG
+incubation	in·cu·ba·tion	IH2 NG K Y UW0 B EY1 SH AH0 N
+incubator	in·cu·ba·tor	IH1 NG K Y AH0 B EY2 T ER0
+incubators		IH1 NG K Y UW0 B EY2 T ER0 Z
+inculcate	in·cul·cate	IH1 NG K AH0 L K EY2 T
+inculcated	in·cul·cat·ed	IH1 NG K AH0 L K EY2 T AH0 D
+inculcates		IH1 NG K AH0 L K EY2 T S
+incumbency	in·cum·ben·cy	IH2 N K AH1 M B AH0 N S IY0
+incumbent	in·cum·bent	IH2 N K AH1 M B AH0 N T
+incumbent's		IH2 N K AH1 M B AH0 N T S
+incumbents		IH2 N K AH1 M B AH0 N T S
+incur	in·cur	IH2 N K ER1
+incurable	in·cur·a·ble	IH2 N K Y UH1 R AH0 B AH0 L
+incurred	in·curred	IH2 N K ER1 D
+incurring	in·cur·ring	IH2 N K ER1 IH0 NG
+incurs		IH2 N K ER1 Z
+incursion	in·cur·sion	IH2 N K ER1 ZH AH0 N
+incursions		IH2 N K ER1 ZH AH0 N Z
+inda		IY1 N D AH0
+indaba	in·da·ba	IH2 N D AA1 B AH0
+indal		IH1 N D AH0 L
+indata		IH2 N D AA1 T AH0
+indebted	in·debt·ed	IH2 N D EH1 T IH0 D;IH0 N D EH1 T IH0 D
+indebtedness	in·debt·ed·ness	IH2 N D EH1 T IH0 D N IH0 S
+indecency	in·de·cen·cy	IH2 N D IY1 S AH0 N S IY0
+indecent	in·de·cent	IH2 N D IY1 S AH0 N T
+indecision	in·de·ci·sion	IH2 N D IH0 S IH1 ZH AH0 N
+indecisive	in·de·ci·sive	IH2 N D IH0 S AY1 S IH0 V
+indecisiveness	in·de·ci·sive·ness	IH2 N D EH1 S IH0 S IH0 V N AH0 S
+indeed	in·deed	IH2 N D IY1 D
+indefatigable	in·de·fat·i·ga·ble	IH2 N D IH0 F AE1 T IH0 G AH0 B AH0 L
+indefeasible	in·de·fea·si·ble	IH2 D AH0 F IY1 Z AH0 B AH0 L
+indefensible	in·de·fen·si·ble	IH2 N D IH0 F EH1 N S AH0 B AH0 L
+indefinable	in·de·fin·a·ble	IH2 N D IH0 F AY1 N AH0 B AH0 L
+indefinite	in·def·i·nite	IH2 N D EH1 F AH0 N AH0 T
+indefinitely	in·def·i·nite·ly	IH2 N D EH1 F AH0 N AH0 T L IY0
+indelible	in·del·i·ble	IH2 N D EH1 L IH0 B AH0 L
+indelibly	in·del·i·bly	IH2 N D EH1 L AH0 B L IY0
+indelicate	in·del·i·cate	IH2 N D EH1 L IH0 K AH0 T
+indelicato		IH2 N D EH0 L IY0 K AA1 T OW0
+indemnification	in·dem·ni·fi·ca·tion	IH2 N D EH2 M N AH0 F IH0 K EY1 SH AH0 N
+indemnified	in·dem·ni·fied	IH2 N D EH1 M N AH0 F AY2 D
+indemnify	in·dem·ni·fy	IH2 N D EH1 M N AH0 F AY2
+indemnifying	in·dem·ni·fy·ing	IH2 N D EH2 M N IH0 F AY1 IH0 NG
+indemnities		IH2 N D EH1 M N IH0 T IY0 Z
+indemnity	in·dem·ni·ty	IH2 N D EH1 M N AH0 T IY0;IH2 N D EH1 M N IH0 T IY0
+indent	in·dent	IH2 N D EH1 N T
+indentation	in·den·ta·tion	IH2 N D EH2 N T EY1 SH AH0 N
+indenture	in·den·ture	IH2 N D EH1 N CH ER0
+indentured	in·den·tured	IH2 N D EH1 N CH ER0 D
+indentures		IH2 N D EH1 N CH ER0 Z
+independence	in·de·pend·ence	IH2 N D IH0 P EH1 N D AH0 N S
+independence's		IH2 N D IH0 P EH1 N D AH0 N S IH0 Z
+independent	in·de·pend·ent	IH2 N D IH0 P EH1 N D AH0 N T
+independently	in·de·pend·ent·ly	IH2 N D IH0 P EH1 N D AH0 N T L IY0
+independents		IH2 N D IH0 P EH1 N D AH0 N T S
+inderal		IH1 N D ER0 AH0 L
+indescribable	in·de·scrib·a·ble	IH2 N D IH0 S K R AY1 B AH0 B AH0 L
+indestructibility	in·de·struct·i·bil·i·ty	IH2 N D AH0 S T R AH2 K T IH0 B IH1 L IH0 T IY0
+indestructible	in·de·struct·i·ble	IH2 N D AH0 S T R AH1 K T IH0 B AH0 L
+indeterminate	in·de·ter·mi·nate	IH2 N D IH0 T ER1 M IH0 N IH0 T
+index	in·dex	IH1 N D EH0 K S
+index's		IH1 N D EH0 K S IH0 Z
+indexation		IH1 N D EH2 K S EY1 SH AH0 N
+indexed		IH1 N D EH0 K S T
+indexer	in·dex·er	IH1 N D EH2 K S ER0
+indexers		IH1 N D EH2 K S ER0 Z
+indexes	in·dex·es	IH1 N D EH0 K S IH0 Z
+indexing		IH1 N D EH0 K S IH0 NG
+india	in·di·a	IH1 N D IY0 AH0
+india's		IH1 N D IY0 AH0 Z
+indiaia		IH2 N D IY0 AY1 AH0
+indian	in·di·an	IH1 N D IY0 AH0 N
+indian's		IH1 N D IY0 AH0 N Z
+indiana	in·di·an·a	IH2 N D IY0 AE1 N AH0
+indiana's		IH2 N D IY0 AE1 N AH0 Z
+indianapolis	in·di·an·ap·o·lis	IH2 N D IY0 AH0 N AE1 P AH0 L IH0 S
+indianapolis's		IH2 N D IY0 AH0 N AE1 P AH0 L IH0 S IH0 Z
+indianian	in·di·an·i·an	IH2 N D IY0 AE1 N IY0 AH0 N
+indianians		IH2 N D IY0 AE1 N IY0 AH0 N Z
+indianola	in·di·a·no·la	IH1 N D IY0 AH0 N OW1 L AH0
+indians		IH1 N D IY0 AH0 N Z
+indians'		IH1 N D IY0 AH0 N Z
+indic	indic/in·dic	IH1 N D IH0 K
+indica		IH1 D AH0 K AH0
+indicate	in·di·cate	IH1 N D AH0 K EY2 T
+indicated	in·di·cat·ed	IH1 N D AH0 K EY2 T AH0 D;IH1 N D AH0 K EY2 T IH0 D
+indicates		IH1 N D IH0 K EY2 T S
+indicating	in·di·cat·ing	IH1 N D AH0 K EY2 T IH0 NG
+indication	in·di·ca·tion	IH2 N D AH0 K EY1 SH AH0 N
+indications		IH2 N D AH0 K EY1 SH AH0 N Z
+indicative	in·dic·a·tive	IH2 N D IH1 K AH0 T IH0 V
+indicator	in·di·ca·tor	IH1 N D AH0 K EY2 T ER0
+indicators		IH1 N D AH0 K EY2 T ER0 Z
+indices	in·di·ces	IH1 N D IH0 S IY2 Z;IH1 N D AH0 S IH0 Z
+indicia	in·di·ci·a	IH2 N D IH1 S Y AH0
+indict	in·dict	IH2 N D AY1 T
+indicted		IH2 N D AY1 T IH0 D
+indicting		IH2 N D AY1 T IH0 NG
+indictment	in·dict·ment	IH2 N D AY1 T M AH0 N T
+indictments		IH2 N D AY1 T M AH0 N T S
+indie		IH1 N D IY0
+indies	in·dies	IH1 N D IY0 Z
+indifference	in·dif·fer·ence	IH2 N D IH1 F ER0 AH0 N S;IH2 N D IH1 F R AH0 N S
+indifferent	in·dif·fer·ent	IH2 N D IH1 F R AH0 N T;IH2 N D IH1 F ER0 AH0 N T
+indifferently	in·dif·fer·ent·ly	IH2 N D IH1 F R AH0 N T L IY0;IH2 N D IH1 F ER0 AH0 N T L IY0
+indigenous	in·dig·e·nous	IH2 N D IH1 JH AH0 N AH0 S
+indigenously	in·dig·e·nous·ly	IH2 N D IH1 JH AH0 N AH0 S L IY2
+indigent	in·di·gent	IH1 N D IH0 JH AH0 N T
+indigents		IH1 N D IH0 JH AH0 N T S
+indigest		IH2 N D AY0 JH EH1 S T;IH2 N D AH0 JH EH1 S T
+indigestion	in·di·ges·tion	IH2 N D AY0 JH EH1 S CH AH0 N
+indignant	in·dig·nant	IH2 N D IH1 G N AH0 N T
+indignantly	in·dig·nant·ly	IH2 N D IH1 G N AH0 N T L IY2
+indignation	in·dig·na·tion	IH2 N D IH0 G N EY1 SH AH0 N
+indignities		IH2 N D IH1 G N AH0 T IY0 Z
+indignity	in·dig·ni·ty	IH2 N D IH1 G N AH0 T IY2
+indigo	in·di·go	IH1 N D AH0 G OW2;IH1 N D IH0 G OW2
+indira	in·di·ra	IH2 N D IH1 R AH0
+indirect	in·di·rect	IH2 N D ER0 EH1 K T
+indirectly	in·di·rect·ly	IH2 N D ER0 EH1 K T L IY2
+indiscreet	in·dis·creet	IH2 N D IH0 S K R IY1 T
+indiscretion	in·dis·cre·tion	IH2 N D IH0 S K R EH1 SH AH0 N
+indiscretions		IH2 N D IH0 S K R EH1 SH AH0 N Z
+indiscriminate	in·dis·crim·i·nate	IH2 N D IH0 S K R IH1 M AH0 N AH0 T
+indiscriminately	in·dis·crim·i·nate·ly	IH2 N D IH0 S K R IH1 M AH0 N AH0 T L IY2
+indispensable	in·dis·pen·sa·ble	IH2 N D IH0 S P EH1 N S AH0 B AH0 L
+indispensible		IH2 N D IH0 S P EH1 N S IH0 B AH0 L
+indisputable	in·dis·put·a·ble	IH2 N D IH0 S P Y UW1 T AH0 B AH0 L
+indisputably	in·dis·put·a·bly	IH2 N D IH1 S P Y UW0 T AE2 B L IY2
+indistinct	in·dis·tinct	IH2 N D IH0 S T IH1 NG K T
+indistinguishable	in·dis·tin·guish·a·ble	IH2 N D IH0 S T IH1 NG G W IH0 SH AH0 B AH0 L
+indite	in·dite	IH2 N D AY1 T
+indited	in·dit·ed	IH2 N D AY1 T IH0 D
+indium	in·di·um	IH1 N D IY0 AH0 M
+individual	in·di·vid·u·al	IH2 N D AH0 V IH1 JH AH0 W AH0 L
+individual's		IH2 N D AH0 V IH1 JH AH0 W AH0 L Z
+individualism	in·di·vid·u·al·ism	IH2 N D IH0 V IH0 D UW1 AH0 L IH2 Z AH0 M
+individualist	in·di·vid·u·al·ist	IH2 N D IH0 V IH0 D UW1 AH0 L IH0 S T
+individualistic	in·di·vid·u·al·is·tic	IH2 N D IH0 V IH2 JH UW0 AH0 L IH1 S T IH0 K
+individualists		IH2 N D AH0 V IH1 JH UW0 AH0 L IH0 S T S
+individuality	in·di·vid·u·al·i·ty	IH2 N D IH2 V IH0 JH UW0 AE1 L IH0 T IY0
+individualize	in·di·vid·u·al·ize	IH2 N D IH0 V IH1 JH UW0 AH0 L AY0 Z;IH2 N D IH0 V IH1 JH AH0 L AY0 Z
+individualized	in·di·vid·u·al·ized	IH2 N D IH0 V IH1 JH UW0 AH0 L AY0 Z D;IH2 N D IH0 V IH1 JH AH0 L AY0 Z D
+individually	in·di·vid·u·al·ly	IH2 N D IH0 V IH1 JH UW0 AH0 L IY0;IH2 N D IH0 V IH1 JH AH0 L IY0
+individuals		IH2 N D AH0 V IH1 JH AH0 W AH0 L Z
+individuals'		IH2 N D IH0 V IH1 JH AH0 W AH0 L Z
+indivisible	in·di·vis·i·ble	IH2 N D IH0 V IH1 S IH0 B AH0 L
+indo		IH1 N D OW0
+indo-european	in·do-eu·ro·pe·an	IH2 N D OW0 Y UH2 R AH0 P IY1 AH0 N
+indochina	in·do·chi·na	IH2 N D OW0 CH AY1 N AH0
+indochinese	in·do·chi·nese	IH2 N D OW0 CH AY2 N IY1 Z
+indoctrinate	in·doc·tri·nate	IH0 N D AA1 K T R AH0 N EY2 T
+indoctrinated	in·doc·tri·nat·ed	IH2 N D AA1 K T R AH0 N EY2 T IH0 D
+indoctrination	in·doc·tri·na·tion	IH2 N D AA2 K T R AH0 N EY1 SH AH0 N
+indolent	in·do·lent	IH1 N D AH0 L AH0 N T
+indomitable	in·dom·i·ta·ble	IH2 N D AA1 M AH0 T AH0 B AH0 L
+indonesia	in·do·ne·sia/in·do·ne·si·a	IH2 N D OW0 N IY1 ZH AH0
+indonesia's		IH2 N D OW0 N IY1 ZH AH0 Z
+indonesian	in·do·ne·sian/in·do·ne·si·an	IH2 N D OW0 N IY1 ZH AH0 N
+indonesians		IH2 N D OW0 N IY1 S IY0 AH0 N Z;IH2 N D OW0 N IY1 ZH AH0 N Z
+indoor	in·door	IH1 N D AO2 R
+indoors	in·doors	IH1 N D AO2 R Z
+indosuez		IH1 N D OW0 S UW0 EY1 Z;IH1 N D OW0 S UW0 EH0 Z
+indovina		IH2 N D OW0 V IY1 N AH0
+indri	in·dri	IH2 N D R IY1
+indubious		IH2 D UW1 B IY0 AH0 S
+indubiously		IH2 D UW1 B IY0 AH0 S L IY0
+induce	in·duce	IH2 N D UW1 S
+induced	in·duced	IH2 N D UW1 S T
+inducement	in·duce·ment	IH2 N D UW1 S M AH0 N T
+inducements		IH2 N D UW1 S M AH0 N T S
+induces		IH2 N D UW1 S IH0 Z
+inducing	in·duc·ing	IH2 N D UW1 S IH0 NG
+induct	in·duct	IH2 N D AH1 K T
+inductance	in·duct·ance	IH2 N D AH1 K T AH0 N S
+inducted		IH2 N D AH1 K T IH0 D
+inductee	in·duc·tee	IH2 N D AH1 K T IY1
+inductees		IH2 N D AH1 K T IY1 Z
+induction	in·duc·tion	IH2 N D AH1 K SH AH0 N
+inductive	in·duc·tive	IH2 N D AH1 K T IH0 V
+inductor	in·duc·tor	IH2 N D AH1 K T ER0
+indulge	in·dulge	IH2 N D AH1 L JH
+indulged	in·dulged	IH2 N D AH1 L JH D
+indulgence	in·dul·gence	IH2 N D AH1 L JH AH0 N S
+indulgences		IH0 N D AH1 L JH AH0 N S AH0 Z;IH0 N D AH1 L JH AH0 N S IH0 Z
+indulgent	in·dul·gent	IH2 N D AH1 L JH AH0 N T
+indulges		IH2 N D AH1 L JH IH0 Z
+indulging	in·dulg·ing	IH2 N D AH1 L JH IH0 NG
+indus	in·dus	IH1 N D AH0 S
+industri		IH2 N D AH1 S T R IY0
+industria		IH2 N D AH1 S T R IY0 AH0
+industrial	in·dus·tri·al	IH2 N D AH1 S T R IY0 AH0 L
+industrial's		IH2 N D AH1 S T R IY0 AH0 L Z
+industriale		IH2 N D AH0 S T R IY0 AA1 L IY0
+industriali		IH2 N D AH2 S T R IY0 AA1 L IY0
+industrialist	in·dus·tri·al·ist	IH2 N D AH1 S T R IY0 AH0 L IH0 S T
+industrialists		IH2 N D AH1 S T R IY0 AH0 L IH0 S T S
+industrialization	in·dus·tri·al·i·za·tion	IH2 N D AH2 S T R IY0 AH0 L IH0 Z EY1 SH AH0 N
+industrialize	in·dus·tri·al·ize	IH2 N D AH1 S T R IY0 AH0 L AY2 Z
+industrialized	in·dus·tri·al·ized	IH2 N D AH1 S T R IY0 AH0 L AY2 Z D
+industrializing	in·dus·tri·al·iz·ing	IH2 N D AH1 S T R IY0 AH0 L AY2 Z IH0 NG
+industrially	in·dus·tri·al·ly	IH2 N D AH1 S T R IY0 AH0 L IY0
+industrials	in·dus·tri·als	IH2 N D AH1 S T R IY0 AH0 L Z
+industrials'		IH2 N D AH1 S T R IY0 AH0 L Z
+industrie		IH1 N D AH0 S T R IY0
+industrielle		IH2 N D AH2 S T R IY0 EH1 L;IH2 N D AH1 S T R IY0 AH0 L EH2
+industrier		IH1 N D AH0 S T R IY2 ER0
+industries		IH1 N D AH0 S T R IY0 Z
+industries'		IH1 N D AH0 S T R IY0 Z
+industrious	in·dus·tri·ous	IH2 N D AH1 S T R IY0 AH0 S
+industrivaerden		IH1 N D AH0 S T R IY0 V EH2 R D AH0 N
+industry	in·dus·try	IH1 N D AH0 S T R IY0
+industry's		IH1 N D AH0 S T R IY0 Z
+industrywide		IH1 N D AH0 S T R IY0 W AY2 D
+indy	in·dy	IH1 N D IY0
+indyk		IH1 N D IH0 K
+inebriate	in·e·bri·ate	IH2 N EH1 B R IY0 EY2 T
+inebriated	in·e·bri·at·ed	IH2 N EH1 B R IY0 EY2 T AH0 D
+inebriates		IH2 N EH1 B R IY0 EY2 T S
+inebriating	in·e·bri·at·ing	IH2 N EH1 B R IY0 EY2 T IH0 NG
+inedible	in·ed·i·ble	IH2 N EH1 D AH0 B AH0 L
+ineffable	in·ef·fa·ble	IH2 N EH1 F AH0 B AH0 L
+ineffective	in·ef·fec·tive	IH2 N IH0 F EH1 K T IH0 V
+ineffectiveness	in·ef·fec·tive·ness	IH2 N AH0 F EH1 K T IH0 V N AH0 S
+ineffectual	in·ef·fec·tu·al	IH2 N AH0 F EH1 K CH UW0 AH0 L
+inefficiencies		IH2 N IH0 F IH1 SH AH0 N S IY0 Z
+inefficiency	in·ef·fi·cien·cy	IH2 N IH0 F IH1 SH AH0 N S IY0
+inefficient	in·ef·fi·cient	IH2 N IH0 F IH1 SH AH0 N T
+inefficiently	in·ef·fi·cient·ly	IH2 N IH0 F IH1 SH AH0 N T L IY0
+inelastic	in·e·las·tic	IH2 N AH0 L AE1 S T IH0 K
+ineligible	in·el·i·gi·ble	IH2 N EH1 L IH0 JH AH0 B AH0 L
+ineluctible		IH2 N AH0 L AH1 K T AH0 B AH0 L
+inept	in·ept	IH2 N EH1 P T
+ineptitude	in·ept·i·tude	IH2 N EH1 P T IH0 T UW2 D
+ineptly	in·ept·ly	IH2 N EH1 P T L IY0
+ineptness	in·ept·ness	IH2 N EH1 P T N IH0 S
+inequalities		IH2 N AH0 K W AA1 L IH0 T IY0 Z;IH2 N IH0 K W AA1 L IH0 T IY0 Z;IH1 N IY0 K W AA1 L IH0 T IY0 Z
+inequality	in·e·qual·i·ty	IH2 N IH0 K W AA1 L AH0 T IY0;IH2 N AH0 K W AA1 L AH0 T IY0;IH1 N IY0 K W AA1 L AH0 T IY0
+inequitable	in·eq·ui·ta·ble	IH2 N EH1 K W AH0 T AH0 B AH0 L
+inequities		IH2 N EH1 K W AH0 T IY0 Z
+inequity	in·eq·ui·ty	IH2 N EH1 K W AH0 T IY0
+ineradicable	in·e·rad·i·ca·ble	IH2 N ER0 AE1 D AH0 K AH2 B AH0 L
+inerco		IH2 N ER1 K OW0
+inert	in·ert	IH2 N ER1 T
+inertia	in·er·tia	IH2 N ER1 SH AH0
+inertial	in·er·tial	IH2 N ER1 SH AH0 L
+inertness	in·ert·ness	IH2 N ER1 T N AH0 S
+ines	i·nes	IH1 N IH0 S;IH2 N EH1 S
+inescapable	in·es·cap·a·ble	IH2 N IH0 S K EY1 P AH0 B AH0 L
+inescapably	in·es·cap·a·bly	IH2 N IH0 S K EY1 P AH0 B L IY0
+inevitability	in·ev·i·ta·bil·i·ty	IH2 N EH2 V IH0 T AH0 B IH1 L IH0 T IY0
+inevitable	in·ev·i·ta·ble	IH2 N EH1 V AH0 T AH0 B AH0 L
+inevitably	in·ev·i·ta·bly	IH2 N EH1 V AH0 T AH0 B L IY0
+inexact	in·ex·act	IH2 N IH0 G Z AE1 K T
+inexcusable	in·ex·cus·a·ble	IH2 N IH0 K S K Y UW1 Z AH0 B AH0 L
+inexcusably	in·ex·cus·a·bly	IH2 N IH0 K S K Y UW1 Z AH0 B L IY0
+inexhaustible	in·ex·haust·i·ble	IH2 N IH0 G Z AO1 S T AH0 B AH0 L
+inexorable	in·ex·o·ra·ble	IH2 N EH1 K S ER0 AH0 B AH0 L
+inexorably	in·ex·o·ra·bly	IH2 N EH1 K S ER0 AH0 B L IY0
+inexpensive	in·ex·pen·sive	IH2 N IH0 K S P EH1 N S IH0 V
+inexpensively	in·ex·pen·sive·ly	IH2 N AH0 K S P EH1 N S IH0 V L IY0
+inexperience	in·ex·pe·ri·ence	IH2 N IH0 K S P IH1 R IY0 AH0 N S
+inexperienced	in·ex·pe·ri·enced	IH0 N IH0 K S P IH1 R IY0 AH0 N S T
+inexplicable	in·ex·pli·ca·ble	IH2 N AH0 K S P L IH1 S AH0 B AH0 L
+inexplicably	in·ex·pli·ca·bly	IH2 N IH0 K S P L IH1 K AH0 B L IY0
+inextricable	in·ex·tri·ca·ble	IH2 N EH1 K S T R IH0 K AH2 B AH0 L
+inextricably	in·ex·tri·ca·bly	IH2 N EH1 K S T R IH0 K AH2 B L IY0
+inez	i·nez	IH2 N EH1 Z
+infallibility	in·fal·li·bil·i·ty	IH2 N F AE2 L IH0 B IH1 L IH0 T IY0
+infallible	in·fal·li·ble	IH2 N F AE1 L AH0 B AH0 L
+infamous	in·fa·mous	IH1 N F AH0 M AH0 S
+infamy	in·fa·my	IH1 N F AH0 M IY0
+infancy	in·fan·cy	IH1 N F AH0 N S IY0
+infant	in·fant	IH1 N F AH0 N T
+infant's		IH1 N F AH0 N T S
+infante	in·fan·te	IH2 N F AA1 N T EY2
+infanticide	in·fan·ti·cide	IH2 N F AE1 N T AH0 S AY2 D
+infanticides		IH2 N F AE1 N T AH0 S AY2 D Z
+infantile	in·fan·tile	IH1 N F AH0 N T IH0 L
+infantino		IH2 N F AA0 N T IY1 N OW2
+infantry	in·fan·try	IH1 N F AH0 N T R IY0
+infantryman	in·fan·try·man	IH1 N F AE0 N T R IY0 M AH0 N
+infantrymen		IH1 N F AE0 N T R IY0 M AH0 N
+infants		IH1 N F AH0 N T S
+infants'		IH1 N F AH0 N T S
+infarction	in·farc·tion	IH2 N F AA1 R K SH AH0 N
+infatuate	in·fat·u·ate	IH2 N F AE1 CH UW0 EY2 T
+infatuated	in·fat·u·at·ed	IH2 N F AE1 CH UW0 EY2 T IH0 D
+infatuates		IH2 N F AE1 CH UW0 EY2 T S
+infatuating	in·fat·u·at·ing	IH2 N F AE1 CH UW0 EY2 T IH0 NG
+infatuation	in·fat·u·a·tion	IH2 N F AE2 CH UW0 EY1 SH AH0 N
+infeasible	in·fea·si·ble	IH2 N F IY1 Z AH0 B AH0 L
+infect	in·fect	IH2 N F EH1 K T
+infected		IH2 N F EH1 K T IH0 D
+infecting		IH2 N F EH1 K T IH0 NG
+infection	in·fec·tion	IH2 N F EH1 K SH AH0 N
+infections		IH2 N F EH1 K SH AH0 N Z
+infectious	in·fec·tious	IH2 N F EH1 K SH AH0 S
+infective	in·fec·tive	IH2 N F EH1 K T IH0 V
+infects		IH2 N F EH1 K T S
+infer	in·fer	IH2 N F ER1
+inference	in·fer·ence	IH1 N F ER0 AH0 N S
+inferences		IH1 N F ER0 EH2 N S IH0 Z
+inferential	in·fer·en·tial	IH2 N F ER0 EH1 N SH AH0 L
+inferior	in·fe·ri·or	IH2 N F IH1 R IY0 ER0
+inferiority	in·fe·ri·or·i·ty	IH2 N F IH0 R IY0 AO1 R IH0 T IY2
+infernal	in·fer·nal	IH2 N F ER1 N AH0 L
+inferno	in·fer·no	IH2 N F ER1 N OW2
+inferred	in·ferred	IH2 N F ER1 D
+inferring	in·fer·ring	IH2 N F ER1 IH0 NG
+infers		IH2 N F ER1 Z
+infertile	in·fer·tile	IH2 N F ER1 T AH0 L
+infertility	in·fer·til·i·ty	IH2 N F ER0 T IH1 L IH0 T IY2
+infest	in·fest	IH2 N F EH1 S T
+infestation	in·fes·ta·tion	IH2 N F EH1 S T EY1 SH AH0 N
+infestations		IH2 N F EH2 S T EY1 SH AH0 N Z
+infested		IH2 N F EH1 S T IH0 D
+infests		IH2 N F EH1 S T S
+infidel	in·fi·del	IH1 N F IH0 D EH2 L
+infidelities		IH2 N F IH0 D EH1 L IH0 T IY0 Z
+infidelity	in·fi·del·i·ty	IH2 N F IH0 D EH1 L IH0 T IY0
+infidels		IH1 N F IH0 D EH0 L Z
+infield	in·field	IH1 N F IY2 L D
+infielder	in·field·er	IH1 N F IY2 L D ER0
+infielders		IH1 N F IY2 L D ER0 Z
+infighting	in·fight·ing	IH1 N F AY2 T IH0 NG
+infiltrate	in·fil·trate	IH1 N F IH0 L T R EY2 T
+infiltrated	in·fil·trat·ed	IH1 N F IH0 L T R EY2 T IH0 D
+infiltrating	in·fil·trat·ing	IH2 N F IH1 L T R EY2 T IH0 NG
+infiltration	in·fil·tra·tion	IH2 N F IH0 L T R EY1 SH AH0 N
+infiltrator	in·fil·tra·tor	IH1 N F IH0 L T R EY2 T ER0
+infiltrators		IH1 N F IH0 L T R EY2 T ER0 Z
+infinger		IH1 N F IH0 NG ER0
+infinite	in·fi·nite	IH1 N F AH0 N AH0 T
+infinitely	in·fi·nite·ly	IH1 N F AH0 N AH0 T L IY0
+infinitesimal	in·fin·i·tes·i·mal	IH2 N F IH0 N IH0 T EH1 S IH0 M AH0 L
+infiniti		IH2 N F IH1 N IH0 T IY0
+infinitive	in·fin·i·tive	IH2 N F IH1 N IH0 T IH0 V
+infinitum		IH2 N F IH1 N IH0 T AH0 M
+infinity	in·fin·i·ty	IH2 N F IH1 N IH0 T IY0
+infirm	in·firm	IH0 N F ER1 M
+infirmary	in·fir·ma·ry	IH0 N F ER1 M ER0 IY0
+infirmed		IH0 N F ER1 M D
+infirmities		IH0 N F ER1 M IH0 T IY0 Z
+infirmity	in·fir·mi·ty	IH0 N F ER1 M IH0 T IY0
+inflame	in·flame	IH0 N F L EY1 M
+inflamed	in·flamed	IH0 N F L EY1 M D
+inflames		IH0 N F L EY1 M Z
+inflaming	in·flam·ing	IH0 N F L EY1 M IH0 NG
+inflammable	in·flam·ma·ble	IH0 N F L AE1 M AH0 B AH0 L
+inflammation	in·flam·ma·tion	IH2 N F L AH0 M EY1 SH AH0 N
+inflammatory	in·flam·ma·to·ry	IH0 N F L AE1 M AH0 T AO2 R IY0
+inflatable	in·flat·a·ble	IH0 N F L EY1 T AH0 B AH0 L
+inflate	in·flate	IH0 N F L EY1 T
+inflated	in·flat·ed	IH2 N F L EY1 T IH0 D
+inflates		IH2 N F L EY1 T S
+inflating	in·flat·ing	IH2 N F L EY1 T IH0 NG
+inflation	in·fla·tion	IH2 N F L EY1 SH AH0 N
+inflation's		IH2 N F L EY1 SH AH0 N Z
+inflationary	in·fla·tion·ar·y	IH2 N F L EY1 SH AH0 N EH2 R IY0
+inflator	in·fla·tor	IH2 N F L EY1 T ER0
+inflected		IH2 N F L EH1 K T AH0 D
+inflection	in·flec·tion	IH2 N F L EH1 K SH AH0 N
+inflections		IH2 N F L EH1 K SH AH0 N Z
+inflexibility	in·flex·i·bil·i·ty	IH2 N F L EH2 K S IH0 B IH1 L IH0 T IY0
+inflexible	in·flex·i·ble	IH2 N F L EH1 K S AH0 B AH0 L
+inflexibly	in·flex·i·bly	IH2 N F L EH1 K S AH0 B L IY0
+inflict	in·flict	IH2 N F L IH1 K T
+inflicted		IH2 N F L IH1 K T IH0 D
+inflicting		IH2 N F L IH1 K T IH0 NG
+infliction	in·flic·tion	IH2 N F L IH1 K SH AH0 N
+inflicts		IH2 N F L IH1 K T S;IH0 N F L IH1 K S
+inflight	in·flight	IH1 N F L AY2 T
+inflow	in·flow	IH1 N F L OW2
+inflows		IH1 N F L OW2 Z
+influence	in·flu·ence	IH1 N F L UW0 AH0 N S
+influenced	in·flu·enced	IH1 N F L UW0 AH0 N S T
+influences		IH1 N F L UW2 AH0 N S IH0 Z
+influencing	in·flu·enc·ing	IH1 N F L UW2 AH0 N S IH0 NG
+influential	in·flu·en·tial	IH2 N F L UW0 EH1 N SH AH0 L
+influenza	in·flu·en·za	IH2 N F L UW0 EH1 N Z AH0
+influx	in·flux	IH1 N F L AH2 K S
+info	in·fo	IH1 N F OW0
+infocorp		IH1 N F OW0 K AO2 R P
+infographic		IH1 N F OW0 G R AE1 F IH0 K
+infomercial		IH1 N F OW0 M ER2 SH AH0 L
+infomercial's		IH1 N F OW0 M ER2 SH AH0 L Z
+infomercials		IH1 N F OW0 M ER2 SH AH0 L Z
+inform	in·form	IH2 N F AO1 R M
+informal	in·for·mal	IH2 N F AO1 R M AH0 L
+informality	in·for·mal·i·ty	IH2 N F ER0 M AE1 L IH0 T IY0
+informally	in·for·mal·ly	IH2 N F AO1 R M AH0 L IY0
+informals		IH2 N F AO1 R M AH0 L Z
+informant	in·form·ant	IH2 N F AO1 R M AH0 N T
+informants		IH2 N F AO1 R M AH0 N T S
+informatic		IH0 N F ER0 M AE1 T IH0 K;IH0 N F AO1 R M AE1 T IH0 K
+informatics		IH2 N F ER0 M AE1 T IH0 K S;IH0 N F AO1 R M AE1 T IH0 K S
+information	in·for·ma·tion	IH2 N F ER0 M EY1 SH AH0 N;IH0 N F AO1 R M EY1 SH AH0 N
+information's		IH2 N F ER0 M EY1 SH AH0 N Z;IH0 N F AO1 R M EY1 SH AH0 N Z
+informational	in·for·ma·tion·al	IH2 N F ER0 M EY1 SH AH0 N AH0 L;IH0 N F AO1 R M EY1 SH AH0 N AH0 L
+informations		IH2 N F ER0 M EY1 SH AH0 N Z;IH0 N F AO1 R M EY1 SH AH0 N Z
+informative	in·form·a·tive	IH2 N F AO1 R M AH0 T IH0 V
+informed	in·formed	IH2 N F AO1 R M D
+informer	in·form·er	IH2 N F AO1 R M ER0
+informers		IH2 N F AO1 R M ER0 Z
+informing		IH2 N F AO1 R M IH0 NG
+informix		IH2 N F AO1 R M IH0 K S
+informs		IH2 N F AO1 R M Z
+infoscan		IH1 N F OW0 S K AE2 N
+infotainment		IH2 N F OW0 T EY1 N M AH0 N T
+infotech		IH1 N F OW0 T EH2 K
+infotechnology		IH2 N F OW0 T EH0 K N AA1 L AH0 JH IY0
+infotron		IH1 N F OW0 T R AA2 N
+infotron's		IH1 N F OW0 T R AA2 N Z
+infoworld		IH1 N F OW0 W ER2 L D
+infra	in·fra	IH1 N F R AH0
+infraction	in·frac·tion	IH2 N F R AE1 K SH AH0 N
+infractions		IH2 N F R AE1 K SH AH0 N Z
+infrared	in·fra·red	IH2 N F R ER0 EH1 D
+infrastructural		IH2 N F R AH0 S T R AH1 K CH ER0 AH0 L
+infrastructure	in·fra·struc·ture	IH2 N F R AH0 S T R AH1 K CH ER0
+infrastructures		IH2 N F R AH0 S T R AH1 K CH ER0 Z
+infrequency	in·fre·quen·cy	IH2 N F R IY1 K W AH0 N S IY0
+infrequent	in·fre·quent	IH2 N F R IY1 K W AH0 N T
+infrequently	in·fre·quent·ly	IH2 N F R IY1 K W AH0 N T L IY0
+infringe	in·fringe	IH2 N F R IH1 N JH
+infringed	in·fringed	IH2 N F R IH1 N JH D
+infringement	in·fringe·ment	IH2 N F R IH1 N JH M AH0 N T
+infringements		IH2 N F R IH1 N JH M AH0 N T S
+infringes		IH2 N F R IH1 N JH IH0 Z
+infringing	in·fring·ing	IH2 N F R IH1 N JH IH0 NG
+infuriate	in·fur·i·ate/in·fu·ri·ate	IH2 N F Y UH1 R IY0 EY2 T
+infuriated	in·fu·ri·at·ed	IH2 N F Y UH1 R IY0 EY2 T IH0 D;IH0 N F Y UH1 R IY0 EY2 T IH0 D
+infuriates		IH2 N F Y UH1 R IY0 EY2 T S
+infuriating	in·fu·ri·at·ing	IH2 N F Y UH1 R IY0 EY2 T IH0 NG
+infuse	in·fuse	IH2 N F Y UW1 Z
+infused	in·fused	IH2 N F Y UW1 Z D
+infuses		IH2 N F Y UW1 Z IH0 Z
+infusing	in·fus·ing	IH2 N F Y UW1 Z IH0 NG
+infusion	in·fu·sion	IH2 N F Y UW1 ZH AH0 N
+infusions		IH2 N F Y UW1 ZH AH0 N Z
+ing		IH1 NG
+inga	in·ga	IY1 NG G AH0
+ingalls		IH2 NG G AO1 L Z
+ingalsbe		IH1 NG G AH0 L S B IY0
+ingar		IH1 NG G ER0
+ingber		IH1 NG B ER0
+inge	inge	IH1 N JH
+ingelheim		IH1 NG G AH0 L HH AY2 M
+ingels		IH1 NG G AH0 L Z
+ingemar	ing·e·mar	IH1 NG G IH0 M ER0;IH1 NG G IH0 M AA0 R
+ingenious	in·gen·ious	IH2 N JH IY1 N Y AH0 S
+ingeniously	in·gen·ious·ly	IH2 N JH IY1 N Y AH0 S L IY0
+ingenito		IH2 NG G EH0 N IY1 T OW0;IH2 NG JH EH0 N IY1 T OW0
+ingenue	in·ge·nue	IH1 N JH EH2 N Y UW2;AA1 N JH AH0 N UW2;IH0 N JH EH1 N UW0;IH1 N JH AH0 N UW0
+ingenuity	in·ge·nu·i·ty	IH2 N JH AH0 N UW1 AH0 T IY2
+ingenuous	in·gen·u·ous	IH2 N JH EH1 N Y UW0 AH0 S
+inger		IH1 NG ER0
+ingersoll	in·ger·soll	IH1 NG G ER0 S AO0 L
+ingerson		IH1 NG G ER0 S AH0 N
+ingest	in·gest	IH2 N JH EH1 S T
+ingested		IH2 N JH EH1 S T AH0 D
+ingesting		IH2 N JH EH1 S T IH0 NG
+ingestion	in·ges·tion	IH2 N JH EH1 S CH AH0 N
+ingham		IH1 NG AH0 M
+inghram		IH1 NG G R AE2 M
+ingimarson		IH1 NG AH0 M AA2 R S AH0 N
+ingle	in·gle	IH1 NG G AH0 L
+inglebert		IH1 NG G AH0 L B ER0 T
+inglenook	in·gle·nook	IH1 NG G AH0 L N UH2 K
+ingles		IH1 NG G AH0 L Z
+inglese		IH1 NG G L IY0 Z
+inglett		IH2 NG G L EH1 T
+inglewood	in·gle·wood	IH1 NG G AH0 L W UH2 D
+inglis		IH1 NG G L IH0 S
+inglish		IH1 NG G AH0 L IH0 SH
+inglorious	in·glo·ri·ous	IH2 N G L AO1 R IY0 AH0 S
+ingman		IH1 NG M AH0 N
+ingmar	ing·mar	IH1 NG M AA0 R
+ingmire		IH1 NG M AY0 R
+ingo		IH1 NG G OW0
+ingoglia		IH2 NG G OW1 G L IY0 AA2
+ingold		IH1 NG G OW0 L D
+ingot	in·got	IH1 NG G AH0 T
+ingots		IH1 NG G AH0 T S
+ingraham		IH1 NG G R AH0 HH AE2 M
+ingrained	in·grained	IH2 N G R EY1 N D
+ingram	in·gram	IH1 NG G R AH0 M
+ingrao		IY1 NG G R AW0
+ingrassia		IH2 NG G R AA1 SH AH0
+ingratiate	in·gra·ti·ate	IH2 NG G R EY1 SH IY0 EY2 T
+ingratiating	in·gra·ti·at·ing	IH2 NG G R EY1 SH IY0 EY2 T IH0 NG
+ingredient	in·gre·di·ent	IH2 N G R IY1 D IY0 AH0 N T
+ingredients		IH2 N G R IY1 D IY0 AH0 N T S
+ingria		IH1 NG G R IY0 AH0
+ingrid	in·grid	IH1 NG G R IH0 D
+ingrum		IH1 NG G R AH0 M
+ingvar		IH1 NG V AA0 R
+ingwersen		IH1 NG G W ER0 S AH0 N
+inhabit	in·hab·it	IH2 N HH AE1 B AH0 T
+inhabitant	in·hab·it·ant	IH0 N HH AE1 B AH0 T AH0 N T;IH0 N HH AE1 B IH0 T AH0 N T
+inhabitants		IH0 N HH AE1 B AH0 T AH0 N T S;IH0 N HH AE1 B IH0 T AH0 N T S
+inhabitation	in·hab·i·ta·tion	IH0 N HH AE2 B AH0 T EY1 SH AH0 N
+inhabited	in·hab·it·ed	IH2 N HH AE1 B AH0 T AH0 D
+inhabiting		IH0 N HH AE1 B AH0 T IH0 NG
+inhabits		IH0 N HH AE1 B AH0 T S
+inhalable		IH2 N HH EY1 L AH0 B AH0 L
+inhalant	in·hal·ant/in·ha·lant	IH2 N HH EY1 L AH0 N T
+inhalants		IH2 N HH EY1 L AH0 N T S
+inhalation	in·ha·la·tion	IH0 N AH0 L EY1 SH AH0 N;IH2 N HH AH0 L EY1 SH AH0 N
+inhale	in·hale	IH2 N HH EY1 L
+inhaled	in·haled	IH2 N HH EY1 L D
+inhaler	in·hal·er	IH2 N HH EY1 L ER0
+inhalers		IH2 N HH EY1 L ER0 Z
+inhaling	in·hal·ing	IH2 N HH EY1 L IH0 NG
+inherent	in·her·ent	IH0 N HH IH1 R AH0 N T;IH0 N HH EH1 R AH0 N T
+inherently	in·her·ent·ly	IH0 N HH IH1 R AH0 N T L IY0;IH0 N HH EH1 R AH0 N T L IY0
+inherit	in·her·it	IH2 N HH EH1 R AH0 T
+inheritable	in·her·it·a·ble	IH2 N HH EH1 R AH0 T AH0 B AH0 L
+inheritance	in·her·it·ance	IH2 N HH EH1 R AH0 T AH0 N S
+inherited	in·her·it·ed	IH2 N HH EH1 R AH0 T IH0 D
+inheriting		IH2 N HH EH1 R AH0 T IH0 NG
+inheritor	in·her·i·tor	IH2 N HH EH1 R AH0 T ER0
+inherits		IH2 N HH EH1 R AH0 T S
+inhibit	in·hib·it	IH2 N HH IH1 B AH0 T
+inhibited		IH2 N HH IH1 B AH0 T IH0 D
+inhibiting		IH2 N HH IH1 B AH0 T IH0 NG
+inhibition	in·hi·bi·tion	IH2 N HH AH0 B IH1 SH AH0 N;IH2 N AH0 B IH1 SH AH0 N
+inhibitions		IH2 N HH AH0 B IH1 SH AH0 N Z;IH2 N AH0 B IH1 SH AH0 N Z
+inhibitor	in·hib·i·tor	IH2 N HH IH1 B AH0 T ER0
+inhibitors		IH2 N HH IH1 B AH0 T ER0 Z
+inhibitory	in·hib·i·to·ry	IH2 N HH IH1 B AH0 T AO2 R IY0
+inhibits		IH2 N HH IH1 B AH0 T S
+inhofe		IH1 N HH OW2 F;IH1 N HH AA2 F
+inhofe's		IH1 N HH OW2 F S;IH1 N HH AA2 F S
+inhospitable	in·hos·pi·ta·ble	IH0 N HH AA1 S P AH0 T AH0 B AH0 L;IH2 N HH AA0 S P IH1 T AH0 B AH0 L
+inhouse		IH1 N HH AW2 S
+inhuman	in·hu·man	IH2 N HH Y UW1 M AH0 N
+inhumane	in·hu·mane	IH2 N HH Y UW0 M EY1 N
+inhumanity	in·hu·man·i·ty	IH2 N HH Y UW0 M AE1 N AH0 T IY0
+iniga		IH2 N IY1 G AH0
+iniguez		IH2 N IY1 G EH0 Z
+iniki		IY2 N IY1 K IY2
+inikpratt		IH2 N IY1 K P R AE0 T
+inimical	in·im·i·cal	IH2 N IH1 M IH0 K AH0 L
+inimitable	in·im·i·ta·ble	IH2 N IH1 M AH0 T AH0 B AH0 L
+iniquity	in·iq·ui·ty	IH2 N IH1 K W IH0 T IY0
+iniss		IH1 N IH0 S
+initable		IH2 N IH1 T AH0 B AH0 L
+initial	in·i·tial	IH2 N IH1 SH AH0 L
+initialed	in·i·tialed	IH2 N IH1 SH AH0 L D
+initialing	in·i·tial·ing	IH2 N IH1 SH AH0 L IH0 NG
+initialize	in·i·tial·ize	IH2 N IH1 SH AH0 L AY2 Z
+initialized		IH2 N IH1 SH AH0 L AY2 Z D
+initialling	in·i·tial·ling	IH2 N IH1 SH AH0 L IH0 NG
+initially	in·i·tial·ly	IH2 N IH1 SH AH0 L IY0
+initials		IH2 N IH1 SH AH0 L Z
+initiate	in·i·ti·ate	IH2 N IH1 SH IY0 EY2 T
+initiated	in·i·ti·at·ed	IH2 N IH1 SH IY0 EY2 T AH0 D;IH2 N IH1 SH IY0 EY2 T IH0 D
+initiates		IH2 N IH1 SH IY0 AH0 T S
+initiating	in·i·ti·at·ing	IH2 N IH1 SH IY0 EY2 T IH0 NG
+initiation	in·i·ti·a·tion	IH2 N IH2 SH IY0 EY1 SH AH0 N
+initiative	in·i·ti·a·tive	IH2 N IH1 SH AH0 T IH0 V;IH2 N IH1 SH Y AH0 T IH0 V
+initiatives		IH2 N IH1 SH AH0 T IH0 V Z;IH2 N IH1 SH Y AH0 T IH0 V Z
+initiator	in·i·ti·a·tor	IH2 N IH0 SH IY1 EY0 T ER0
+initiators		IH2 N IH1 SH IY0 EY0 T ER0 Z
+initio		IH2 N IH1 T IY0 OW0;IH2 N IH1 SH IY0 OW0
+iniziativa		IH2 N IH0 Z IY2 AH0 T IY1 V AH0
+inject	in·ject	IH2 N JH EH1 K T
+injectable	in·ject·a·ble	IH2 N JH EH1 K T AH0 B AH0 L
+injected		IH2 N JH EH1 K T AH0 D;IH2 N JH EH1 K T IH0 D
+injecting		IH2 N JH EH1 K T IH0 NG
+injection	in·jec·tion	IH2 N JH EH1 K SH AH0 N
+injections		IH2 N JH EH1 K SH AH0 N Z
+injector	in·jec·tor	IH2 N JH EH1 K T ER0
+injectors		IH2 N JH EH1 K T ER0 Z
+injects		IH2 N JH EH1 K T S
+injudicious	in·ju·di·cious	IH2 N JH AH2 D IH1 SH AH0 S
+injunction	in·junc·tion	IH2 N JH AH1 NG K SH AH0 N;IH2 N JH AH1 NG SH AH0 N
+injunctions		IH2 N JH AH1 NG K SH AH0 N Z;IH2 N JH AH1 NG SH AH0 N Z
+injunctive	in·junc·tive	IH2 N JH AH1 NG K T IH0 V;IH2 N JH AH1 NG T IH0 V
+injure	in·jure	IH1 N JH ER0
+injured	in·jured	IH1 N JH ER0 D
+injures		IH1 N JH ER0 Z
+injuries	in·ju·ries	IH1 N JH ER0 IY0 Z
+injuring	in·jur·ing	IH1 N JH ER0 IH0 NG
+injurious	in·ju·ri·ous	IH2 N JH UH1 R IY0 AH0 S
+injury	in·ju·ry	IH1 N JH ER0 IY0
+injustice	in·jus·tice	IH2 N JH AH1 S T IH0 S
+injustices		IH2 N JH AH1 S T AH0 S IH0 Z
+ink	ink	IH1 NG K
+inkatha		IH2 NG K AE1 TH AH0;IH2 NG K AA1 T AH2;IH2 NG K AA1 T AH0
+inkatha's		IH2 NG K AE1 TH AH0 Z;IH2 NG K AA1 T AH2 Z;IH2 NG K AA1 T AH0 Z
+inkblot	ink·blot	IH1 NG K B L AA2 T
+inkjet		IH1 NG K JH EH2 T
+inkling	ink·ling	IH1 NG K L IH0 NG
+inks		IH1 NG K S
+inky	ink·y/in·ky	IH1 NG K IY0
+inlaid	in·laid	IH1 N L EY2 D
+inland	in·land	IH1 N L AE2 N D
+inland's		IH1 N L AH0 N D Z
+inlaw	in·law	IH2 N L AO1;IH1 N L AO2
+inlaws		IH2 N L AO1 Z;IH1 N L AO0 Z
+inlay	in·lay	IH1 N L EY2
+inlet	in·let	IH1 N L EH2 T
+inlets		IH1 N L EH2 T S
+inlex		IH1 N L EH0 K S
+inline	in·line	IH2 N L AY1 N
+inlow		IH2 N L OW1
+inmac		IH1 N M AE0 K
+inman		IH1 N M AH0 N
+inman's		IH1 N M AH0 N Z
+inmarsat		IH2 N M AA2 R S AE1 T
+inmate	in·mate	IH1 N M EY2 T
+inmate's		IH1 N M EY2 T S
+inmates		IH1 N M EY2 T S
+inmex		IH1 N M EH2 K S
+inmobiliaria		IH2 N M OW2 B AH0 L IY0 EH1 R IY0 AH0
+inmon		IH1 N M AH0 N
+inmont		IH1 N M AA2 N T
+inn	inn/i·n·n	IH1 N
+inn's		IH1 N Z
+innard		IH1 N ER0 D
+innards	in·nards	IH1 N ER0 D Z
+innate	in·nate	IH2 N EY1 T
+innately	in·nate·ly	IH2 N EY1 T L IY0
+inner	in·ner	IH1 N ER0
+innermost	in·ner·most	IH1 N ER0 M OW2 S T
+innerspace		IH1 N ER0 S P EY2 S
+innes		IH1 N AH0 S
+inness	in·ness	IH1 N IH0 S
+inning	in·ning	IH1 N IH0 NG
+innings	in·nings	IH1 N IH0 NG Z
+innis		IH1 N IH0 S
+inniss		IH1 N IH0 S
+innkeeper	inn·keep·er	IH1 N K IY2 P ER0
+innkeepers		IH1 N K IY2 P ER0 Z
+inno		IH1 N OW0
+innocence	in·no·cence	IH1 N AH0 S AH0 N S
+innocent	in·no·cent	IH1 N AH0 S AH0 N T
+innocenti		IH2 N OW0 CH EH1 N T IY0
+innocently	in·no·cent·ly	IH1 N AH0 S AH0 N T L IY0
+innocents		IH1 N AH0 S AH0 N T S
+innoculate		IH2 N AO1 K Y AH0 L EY2 T
+innoculated		IH2 N AO1 K Y AH0 L EY2 T AH0 D
+innoculates		IH2 N AO1 K Y AH0 L EY2 T S
+innoculating		IH2 N AO1 K Y AH0 L EY2 T IH0 NG
+innoculation		IH2 N AO2 K Y AH0 L EY1 SH AH0 N
+innocuous	in·noc·u·ous	IH2 N AA1 K Y UW0 AH0 S
+innominate	in·nom·i·nate	IH2 N AA1 M AH0 N AH0 T
+innopac		IH1 N AH0 P AE2 K
+innovate	in·no·vate	IH1 N AH0 V EY2 T;IH1 N OW0 V EY2 T
+innovated	in·no·vat·ed	IH1 N AH0 V EY2 T IH0 D;IH1 N OW0 V EY2 T IH0 D
+innovates		IH1 N AH0 V EY2 T S;IH1 N OW0 V EY2 T S
+innovating	in·no·vat·ing	IH2 N AH0 V EY1 T IH0 NG;IH2 N OW0 V EY1 T IH0 NG
+innovation	in·no·va·tion	IH2 N AH0 V EY1 SH AH0 N;IH2 N OW0 V EY1 SH AH0 N
+innovations		IH2 N AH0 V EY1 SH AH0 N Z;IH2 N OW0 V EY1 SH AH0 N Z
+innovative	in·no·va·tive	IH1 N AH0 V EY2 T IH0 V;IH1 N OW0 V EY2 T IH0 V
+innovator	in·no·va·tor	IH1 N AH0 V EY2 T ER0;IH1 N OW0 V EY2 T ER0
+innovators		IH1 N AH0 V EY2 T ER0 Z;IH1 N OW0 V EY2 T ER0 Z
+inns		IH1 N Z
+inns'		IH1 N Z
+innuendo	in·nu·en·do	IH2 N Y UW0 EH1 N D OW0
+innuendoes		IH2 N Y UW0 EH1 N D OW0 Z
+innuendos		IH2 N Y UW0 EH1 N D OW0 Z
+innumerable	in·nu·mer·a·ble	IH2 N UW1 M ER0 AH0 B AH0 L
+inocencio		IH2 N OW0 CH EH1 N CH IY0 OW0
+inoculate	in·oc·u·late	IH2 N AA1 K Y AH0 L EY2 T
+inoculated	in·oc·u·lat·ed	IH2 N AA1 K Y AH0 L EY2 T IH0 D
+inoculates		IH2 N AA1 K Y AH0 L EY2 T S
+inoculation	in·oc·u·la·tion	IH2 N AA2 K Y AH0 L EY1 SH AH0 N
+inoculations		IH2 N AA2 K Y AH0 L EY1 SH AH0 N Z
+inoffensive	in·of·fen·sive	IH2 N AH0 F EH1 N S IH0 V
+inoperable	in·op·er·a·ble	IH2 N AA1 P ER0 AH0 B AH0 L
+inoperative	in·op·er·a·tive	IH2 N AA1 P ER0 AH0 T IH0 V
+inopportune	in·op·por·tune	IH2 N AA2 P ER0 T UW1 N
+inordinate	in·or·di·nate	IH2 N AO1 R D AH0 N IH0 T
+inordinately	in·or·di·nate·ly	IH2 N AO1 R D AH0 N AH0 T L IY0
+inorganic	in·or·gan·ic	IH2 N AO0 R G AE1 N IH0 K
+inoue		IH2 N OW1 EY2
+inouye		IH2 N UW1 EY2
+inpatient	in·pa·tient	IH1 N P EY2 SH AH0 N T
+inpatients		IH1 N P EY2 SH AH0 N T S
+input	in·put	IH1 N P UH2 T
+inputs		IH1 N P UH2 T S
+inquest	in·quest	IH1 N K W EH2 S T
+inquire	in·quire	IH2 N K W AY1 R
+inquired	in·quired	IH2 N K W AY1 ER0 D
+inquirer	in·quir·er	IH2 N K W AY1 R ER0
+inquires		IH2 N K W AY1 ER0 Z
+inquiries	in·quir·ies	IH2 N K W AY1 ER0 IY0 Z;IH1 N K W ER0 IY0 Z
+inquiring	in·quir·ing	IH2 N K W AY1 ER0 IH0 NG
+inquiry	in·quir·y	IH2 N K W AY1 R IY2;IH0 N K W ER0 R IY0
+inquisition	in·qui·si·tion	IH2 N K W AH0 Z IH1 SH AH0 N
+inquisitive	in·quis·i·tive	IH2 N K W IH1 Z IH0 T IH0 V
+inquisitor	in·quis·i·tor	IH2 N K W IH1 Z AH0 T ER0
+inquisitors		IH2 N K W IH1 Z AH0 T ER0 Z
+inroad	in·road	IH1 N R OW2 D
+inroads		IH1 N R OW2 D Z
+ins	ins	IH1 N Z;AY1 EH1 N EH1 S
+insalaco		IH2 N S AA0 L AA1 K OW0
+insane	in·sane	IH2 N S EY1 N
+insanity	in·san·i·ty	IH2 N S AE1 N AH0 T IY0;IH2 N S AE1 N IH0 T IY0
+insatiable	in·sa·tia·ble	IH2 N S EY1 SH AH0 B AH0 L
+inscho		IH1 N SH OW0
+insco		IY1 N S K OW0
+inscoe		IH2 N S K OW1
+inscore		IH2 N S K AO1 R IY0
+inscribe	in·scribe	IH2 N S K R AY1 B
+inscribed	in·scribed	IH2 N S K R AY1 B D
+inscribes		IH2 N S K R AY1 B Z
+inscribing	in·scrib·ing	IH2 N S K R AY1 B IH0 NG
+inscription	in·scrip·tion	IH2 N S K R IH1 P SH AH0 N
+inscriptions		IH2 N S K R IH1 P SH AH0 N Z
+inscrutable	in·scru·ta·ble	IH2 N S K R UW1 T AH0 B AH0 L
+insect	in·sect	IH1 N S EH2 K T
+insect's		IH1 N S EH2 K T S
+insecticide	in·sec·ti·cide	IH2 N S EH1 K T AH0 S AY2 D
+insecticides		IH2 N S EH1 K T AH0 S AY2 D Z
+insectivorous	in·sec·tiv·o·rous	IH2 N S EH0 K T IH1 V ER0 AH0 S
+insects		IH1 N S EH2 K T S
+insecure	in·se·cure	IH1 N S AH0 K Y ER0
+insecurities		IH2 N S AH0 K Y UH1 R IH0 T IY0 Z
+insecurity	in·se·cu·ri·ty	IH2 N S IH0 K Y UH1 R IH0 T IY0
+insel		IH1 N S AH0 L
+inseminate	in·sem·i·nate	IH2 N S EH1 M AH0 N EY2 T
+insemination	in·sem·i·na·tion	IH2 N S EH2 M AH0 N EY1 SH AH0 N
+insensible	in·sen·si·ble	IH2 N S EH1 N S AH0 B AH0 L
+insensitive	in·sen·si·tive	IH2 N S EH1 N S AH0 T IH0 V;IH2 N S EH1 N S IH0 T IH0 V
+insensitivity	in·sen·si·tiv·i·ty	IH2 N S EH2 N S AH0 T IH1 V AH0 T IY0
+inseparable	in·sep·a·ra·ble	IH2 N S EH1 P ER0 AH0 B AH0 L
+inseparably	in·sep·a·ra·bly	IH2 N S EH1 P ER0 AH0 B L IY0
+inserra		IH2 N S EH1 R AH0
+insert	in·sert	IH2 N S ER1 T;IH1 N S ER2 T
+inserted	in·sert·ed	IH2 N S ER1 T AH0 D;IH2 N S ER1 T IH0 D
+inserting		IH2 N S ER1 T IH0 NG
+insertion	in·ser·tion	IH2 N S ER1 SH AH0 N
+inserts		IH2 N S ER1 T S;IH1 N S ER2 T S
+inset	in·set	IH1 N S EH2 T
+inshore	in·shore	IH1 N SH AO1 R
+inside	in·side	IH2 N S AY1 D;IH1 N S AY2 D
+insider	in·sid·er	IH2 N S AY1 D ER0
+insider's		IH2 N S AY1 D ER0 Z
+insiders		IH2 N S AY1 D ER0 Z
+insiders'		IH2 N S AY1 D ER0 Z
+insides	in·sides	IH2 N S AY1 D Z;IH1 N S AY0 D Z
+insidious	in·sid·i·ous	IH2 N S IH1 D IY2 AH0 S
+insight	in·sight	IH1 N S AY2 T
+insightful	in·sight·ful	IH1 N S AY2 T F AH0 L
+insights		IH1 N S AY2 T S
+insignia	in·sig·ni·a	IH2 N S IH1 G N IY2 AH0
+insignificance	in·sig·nif·i·cance	IH2 N S IH0 G N Y IH1 F IH0 K AH0 N S
+insignificant	in·sig·nif·i·cant	IH2 N S IH0 G N Y IH1 F IH0 K AH0 N T
+insilco		IH2 N S IH1 L K OW0
+insincere	in·sin·cere	IH2 N S IH0 N S IH1 R
+insinuate	in·sin·u·ate	IH2 N S IH1 N Y UW0 EY0 T
+insinuated	in·sin·u·at·ed	IH2 N S IH1 N Y UW0 EY0 T IH0 D
+insinuates		IH2 N S IH1 N Y UW0 EY0 T S
+insinuating	in·sin·u·at·ing	IH2 N S IH1 N Y UW0 EY0 T IH0 NG
+insinuation	in·sin·u·a·tion	IH2 N S IH2 N Y UW0 EY1 SH AH0 N
+insinuations		IH2 N S IH2 N Y UW0 EY1 SH AH0 N Z
+insipid	in·sip·id	IH2 N S IH1 P AH0 D
+insist	in·sist	IH2 N S IH1 S T
+insisted		IH2 N S IH1 S T AH0 D;IH2 N S IH1 S T IH0 D
+insistence	in·sist·ence	IH2 N S IH1 S T AH0 N S
+insistent	in·sist·ent	IH2 N S IH1 S T AH0 N T
+insistently	in·sist·ent·ly	IH2 N S IH1 S T AH0 N T L IY0
+insisting		IH2 N S IH1 S T IH0 NG
+insists		IH2 N S IH1 S T S
+insituform		IH2 N S IH1 T UW2 F AO0 R M
+inskeep		IH1 N Z K IY2 P
+inskip		IH1 N S K IH0 P
+insko		IH1 N S K OW0
+inslaw		IH1 N S L AA0
+insley		IH1 N S L IY0
+insofar	in·so·far	IH1 N S AH0 F AA0 R
+insolence	in·so·lence	IH1 N S AH0 L AH0 N S
+insolent	in·so·lent	IH1 N S AH0 L AH0 N T
+insoluble	in·sol·u·ble	IH2 N S AA1 L Y AH0 B AH0 L
+insolvencies		IH2 N S AA1 L V AH0 N S IY0 Z
+insolvency	in·sol·ven·cy	IH2 N S AA1 L V AH0 N S IY0
+insolvent	in·sol·vent	IH2 N S AA1 L V AH0 N T
+insomnia	in·som·ni·a	IH2 N S AA1 M N IY0 AH0
+insomniac	in·som·ni·ac	IH2 N S AA1 M N IY0 AE2 K
+insouciance	in·sou·ci·ance	IH2 N S UW1 S IY0 AH0 N S;IH2 N S UW1 S Y AH0 N S
+insouciant	in·sou·ci·ant	IH2 N S UW1 S Y AH0 N T
+inspect	in·spect	IH2 N S P EH1 K T
+inspected		IH2 N S P EH1 K T IH0 D
+inspecting		IH2 N S P EH1 K T IH0 NG
+inspection	in·spec·tion	IH2 N S P EH1 K SH AH0 N
+inspections		IH2 N S P EH1 K SH AH0 N Z
+inspector	in·spec·tor	IH2 N S P EH1 K T ER0
+inspector's		IH2 N S P EH1 K T ER0 Z
+inspectorate	in·spec·tor·ate	IH2 N S P EH1 K T ER0 AH0 T
+inspectors		IH2 N S P EH1 K T ER0 Z
+inspectors'		IH2 N S P EH1 K T ER0 Z
+inspects		IH2 N S P EH1 K T S
+inspeech		IH2 N S P IY1 CH
+inspiration	in·spi·ra·tion	IH2 N S P ER0 EY1 SH AH0 N
+inspirational	in·spi·ra·tion·al	IH2 N S P ER0 EY1 SH AH0 N AH0 L
+inspirations		IH2 N S P ER0 EY1 SH AH0 N Z
+inspire	in·spire	IH2 N S P AY1 R
+inspired	in·spired	IH2 N S P AY1 ER0 D
+inspires		IH2 N S P AY1 R Z
+inspiring	in·spir·ing	IH2 N S P AY1 R IH0 NG;IH2 N S P AY1 ER0 IH0 NG
+instabilities		IH2 N S T AH0 B IH1 L IH0 T IY0 Z
+instability	in·sta·bil·i·ty	IH2 N S T AH0 B IH1 L IH0 T IY0
+instagram		IH2 N S T AH0 G R AE2 M
+install	in·stall	IH2 N S T AO1 L
+installation	in·stal·la·tion	IH2 N S T AH0 L EY1 SH AH0 N
+installations		IH2 N S T AH0 L EY1 SH AH0 N Z
+installed	in·stalled	IH2 N S T AO1 L D
+installer	in·stall·er	IH2 N S T AO1 L ER0
+installers		IH2 N S T AO1 L ER0 Z
+installing	in·stal·ling	IH2 N S T AO1 L IH0 NG
+installment	in·stall·ment	IH2 N S T AO1 L M AH0 N T
+installments		IH2 N S T AO1 L M AH0 N T S
+installs		IH2 N S T AO1 L Z
+instance	in·stance	IH1 N S T AH0 N S
+instances		IH1 N S T AH0 N S AH0 Z;IH1 N S T AH0 N S IH0 Z
+instant	in·stant	IH1 N S T AH0 N T
+instantaneous	in·stan·ta·ne·ous	IH2 N S T AH0 N T AE1 N IY0 AH0 S
+instantaneously	in·stan·ta·ne·ous·ly	IH2 N S T AH0 N T AE1 N IY0 AH0 S L IY0
+instantiate	in·stan·ti·ate	IH2 N S T AE1 N SH IY0 EY2 T
+instantiated		IH2 N S T AE1 N SH IY0 EY2 T AH0 D
+instantiates		IH2 N S T AE1 N SH IY0 EY2 T S
+instantiating		IH2 N S T AE1 N SH IY0 EY2 T IH0 NG
+instantiation		IH2 N S T AE2 N SH IY0 EY1 SH AH0 N
+instantly	in·stant·ly	IH1 N S T AH0 N T L IY0
+instead	in·stead	IH2 N S T EH1 D
+instigate	in·sti·gate	IH1 N S T AH0 G EY2 T
+instigated	in·sti·gat·ed	IH1 N S T AH0 G EY2 T IH0 D
+instigates		IH1 N S T AH0 G EY2 T S
+instigating	in·sti·gat·ing	IH1 N S T AH0 G EY2 T IH0 NG
+instigation	in·sti·ga·tion	IH2 N S T IH0 G EY1 SH AH0 N
+instigator	in·sti·ga·tor	IH1 N S T AH0 G EY2 T ER0
+instigators		IH1 N S T AH0 G EY2 T ER0 Z
+instill	in·still	IH2 N S T IH1 L
+instilled	in·stilled	IH2 N S T IH1 L D
+instilling	in·stil·ling	IH2 N S T IH1 L IH0 NG
+instills		IH2 N S T IH1 L Z
+instinct	in·stinct	IH1 N S T IH0 NG K T
+instinctive	in·stinc·tive	IH2 N S T IH1 NG K T IH0 V
+instinctively	in·stinc·tive·ly	IH2 N S T IH1 NG K T IH0 V L IY2
+instincts		IH1 N S T IH0 NG K T S
+instinet		IH1 N S T IH0 N EH2 T
+institucional		IH2 N S T IH0 T UW2 S IY0 AH0 N AE1 L
+institut		IH1 N S T IH0 T UW0 T
+institute	in·sti·tute	IH1 N S T AH0 T UW2 T
+institute's		IH1 N S T IH0 T UW0 T S
+instituted	in·sti·tut·ed	IH1 N S T AH0 T UW2 T IH0 D
+institutes	in·sti·tutes	IH1 N S T AH0 T UW2 T S
+institutes'		IH1 N S T IH0 T UW2 T S
+instituting	in·sti·tut·ing	IH1 N S T IH0 T UW2 T IH0 NG
+institution	in·sti·tu·tion	IH2 N S T IH0 T UW1 SH AH0 N
+institution's		IH2 N S T IH0 T UW1 SH AH0 N Z
+institutional	in·sti·tu·tion·al	IH2 N S T IH0 T UW1 SH AH0 N AH0 L
+institutionalist	in·sti·tu·tion·al·ist	IH2 N S T IH0 T UW1 SH AH0 N AH0 L IH0 S T
+institutionalists		IH2 N S T IH0 T UW1 SH AH0 N AH0 L IH0 S T S
+institutionalization	in·sti·tu·tion·al·i·za·tion	IH2 N S T IH0 T UW2 SH AH0 N AH0 L IH0 Z EY1 SH AH0 N
+institutionalize	in·sti·tu·tion·al·ize	IH2 N S T IH0 T UW1 SH AH0 N AH0 L AY2 Z
+institutionalized	in·sti·tu·tion·al·ized	IH2 N S T IH0 T UW1 SH AH0 N AH0 L AY2 Z D
+institutionalizes		IH2 N S T IH0 T UW1 SH AH0 N AH0 L AY2 Z IH0 Z
+institutionalizing	in·sti·tu·tion·al·iz·ing	IH2 N S T IH0 T UW1 SH AH0 N AH0 L AY2 Z IH0 NG
+institutionally	in·sti·tu·tion·al·ly	IH2 N S T IH0 T UW1 SH AH0 N AH0 L IY2;IH2 N S T IH0 T UW1 SH N AH0 L IY0
+institutions		IH2 N S T IH0 T UW1 SH AH0 N Z
+institutions'		IH2 N S T IH0 T UW1 SH AH0 N Z
+instituto		IH2 N S T IH0 T UW1 T OW2
+instone		IH1 N S T OW2 N
+instruct	in·struct	IH2 N S T R AH1 K T
+instructed		IH2 N S T R AH1 K T AH0 D;IH2 N S T R AH1 K T IH0 D
+instructing		IH2 N S T R AH1 K T IH0 NG
+instruction	in·struc·tion	IH2 N S T R AH1 K SH AH0 N
+instructional	in·struc·tion·al	IH2 N S T R AH1 K SH AH0 N AH0 L
+instructions	in·struc·tions	IH2 N S T R AH1 K SH AH0 N Z
+instructive	in·struc·tive	IH2 N S T R AH1 K T IH0 V
+instructor	in·struc·tor	IH2 N S T R AH1 K T ER0
+instructors		IH2 N S T R AH1 K T ER0 Z
+instructs		IH2 N S T R AH1 K T S
+instrument	in·stru·ment	IH1 N S T R AH0 M AH0 N T
+instrument's		IH1 N S T R AH0 M AH0 N T S
+instrumental	in·stru·men·tal	IH2 N S T R AH0 M EH1 N T AH0 L;IH2 N S T R AH0 M EH1 N AH0 L
+instrumentalist	in·stru·men·tal·ist	IH2 N S T R AH0 M EH1 N T AH0 L IH0 S T;IH2 N S T R AH0 M EH1 N AH0 L IH0 S T
+instrumentalists		IH2 N S T R AH0 M EH1 N T AH0 L IH0 S T S;IH2 N S T R AH0 M EH1 N AH0 L IH0 S T S;IH2 N S T R AH0 M EH1 N T AH0 L IH0 S;IH2 N S T R AH0 M EH1 N AH0 L IH0 S
+instrumentality	in·stru·men·tal·i·ty	IH2 N S T R AH0 M EH0 N T AE1 L IH0 T IY0
+instrumentals		IH2 N S T R AH0 M EH1 N T AH0 L Z;IH2 N S T R AH0 M EH1 N AH0 L Z
+instrumentation	in·stru·men·ta·tion	IH2 N S T R AH0 M EH2 N T EY1 SH AH0 N
+instruments		IH1 N S T R AH0 M AH0 N T S
+instruments'		IH1 N S T R AH0 M AH0 N T S
+insubordinate	in·sub·or·di·nate	IH2 N S AH0 B AO1 R D AH0 N EY2 T;IH2 N S AH0 B AO1 R D AH0 N AH0 T
+insubordination	in·sub·or·di·na·tion	IH2 N S AH0 B AO2 R D AH0 N EY1 SH AH0 N
+insubstantial	in·sub·stan·tial	IH2 N S AH0 B S T AE1 N SH AH0 L
+insubstantiate		IH2 N S AH0 B S T AE1 N CH IY2 EY0 T;IH2 N S AH0 B S T AE1 N SH IY2 EY0 T
+insubstantiated		IH2 N S AH0 B S T AE1 N CH IY2 EY0 T AH0 D;IH2 N S AH0 B S T AE1 N SH IY2 EY0 T AH0 D
+insufferable	in·suf·fer·a·ble	IH2 N S AH1 F ER0 AH0 B AH0 L
+insufficiency	in·suf·fi·cien·cy	IH2 N S AH0 F IH1 SH AH0 N S IY2
+insufficient	in·suf·fi·cient	IH2 N S AH0 F IH1 SH AH0 N T
+insufficiently	in·suf·fi·cient·ly	IH2 N S AH0 F IH1 SH AH0 N T L IY0
+insular	in·su·lar	IH1 N S AH0 L ER0
+insularity	in·su·lar·i·ty	IH2 N S AH0 L EH1 R IH0 T IY0
+insulate	in·su·late	IH1 N S AH0 L EY2 T
+insulated	in·su·lat·ed	IH1 N S AH0 L EY2 T AH0 D;IH1 N S AH0 L EY2 T IH0 D
+insulating	in·su·lat·ing	IH1 N S AH0 L EY2 T IH0 NG
+insulation	in·su·la·tion	IH2 N S AH0 L EY1 SH AH0 N
+insulator	in·su·la·tor	IH1 N S AH0 L EY2 T ER0
+insulators		IH1 N S AH0 L EY2 T ER0 Z
+insulin	in·su·lin	IH1 N S AH0 L AH0 N
+insult	in·sult	IH2 N S AH1 L T;IH1 N S AH2 L T
+insulted		IH2 N S AH1 L T IH0 D
+insulting	in·sult·ing	IH2 N S AH1 L T IH0 NG
+insults		IH2 N S AH1 L T S;IH1 N S AH2 L T S
+insupportable	in·sup·port·a·ble	IH2 N S AH0 P AO1 R T AH0 B AH0 L
+insurance	insur·ance/in·sur·ance	IH2 N SH UH1 R AH0 N S
+insurance's		IH2 N SH UH1 R AH0 N S IH0 Z
+insurances		IH2 N SH UH1 R AH0 N S IH0 Z
+insure	in·sure	IH2 N SH UH1 R
+insured	in·sured	IH2 N SH UH1 R D
+insurer	in·sur·er	IH2 N SH UH1 R ER0
+insurer's		IH2 N SH UH1 R ER0 Z
+insurers		IH2 N SH UH1 R ER0 Z
+insurers'		IH2 N SH UH1 R ER0 Z
+insures		IH2 N SH UH1 R Z
+insurgencies		IH2 N S ER1 JH AH0 N S IY0 Z
+insurgency	in·sur·gen·cy	IH2 N S ER1 JH AH0 N S IY0
+insurgent	in·sur·gent	IH2 N S ER1 JH AH0 N T
+insurgents		IH2 N S ER1 JH AH0 N T S
+insurgents'		IH2 N S ER1 JH AH0 N T S
+insuring	in·sur·ing	IH2 N SH UH1 R IH0 NG
+insurmountable	in·sur·mount·a·ble	IH2 N S ER0 M AW1 N T AH0 B AH0 L
+insurrection	in·sur·rec·tion	IH2 N S ER0 EH1 K SH AH0 N
+intact	in·tact	IH2 N T AE1 K T
+intaglio	in·tagl·io/in·tag·li·o	IH2 N T AE1 L Y OW0;IH2 N T AE1 G L Y OW0
+intake	in·take	IH1 N T EY2 K
+intan		IH1 N T AH0 N
+intangible	in·tan·gi·ble	IH2 N T AE1 N JH AH0 B AH0 L
+intangibles		IH2 N T AE1 N JH AH0 B AH0 L Z
+intangibly	in·tan·gi·bly	IH2 N T AE1 N JH AH0 B L IY0
+intefadeh		IH2 N T AH0 F AA1 D AH0;IH2 N T IH0 F AA1 D AH0
+integer	in·te·ger	IH1 N T AH0 JH ER0
+integers		IH1 N T AH0 JH ER0 Z
+integon		IH1 N T AH0 G AA0 N
+integra		IH2 N T EH1 G R AH0
+integral	in·te·gral	IH1 N T AH0 G R AH0 L;IH1 N AH0 G R AH0 L
+integrals		IH1 N T AH0 G R AH0 L Z
+integrate	in·te·grate	IH1 N T AH0 G R EY2 T;IH1 N AH0 G R EY2 T
+integrated	in·te·grat·ed	IH1 N T AH0 G R EY2 T AH0 D;IH1 N T AH0 G R EY2 T IH0 D;IH1 N AH0 G R EY2 T AH0 D;IH1 N AH0 G R EY2 T IH0 D
+integrated's		IH1 N T AH0 G R EY2 T IH0 D Z;IH1 N AH0 G R EY2 T IH0 D Z
+integrates		IH1 N T AH0 G R EY2 T S;IH1 N AH0 G R EY2 T S
+integrating	in·te·grat·ing	IH1 N T AH0 G R EY2 T IH0 NG;IH1 N AH0 G R EY2 T IH0 NG
+integration	in·te·gra·tion	IH2 N T AH0 G R EY1 SH AH0 N;IH2 N AH0 G R EY1 SH AH0 N
+integrations		IH2 N T AH0 G R EY1 SH AH0 N Z;IH2 N AH0 G R EY1 SH AH0 N Z
+integrator	in·te·gra·tor	IH1 N T AH0 G R EY2 T ER0;IH1 N AH0 G R EY2 T ER0
+integrators		IH1 N T AH0 G R EY2 T ER0 Z;IH1 N AH0 G R EY2 T ER0 Z
+integrelin		IH2 N T AH0 G R EH1 L AH0 N;IH2 N T EH1 G R AH0 L IH0 N
+integrity	in·teg·ri·ty	IH2 N T EH1 G R AH0 T IY0;IH0 N T EH1 G R IH0 T IY0
+integument	in·teg·u·ment	IH2 N T EH1 G Y AH0 M AH0 N T
+intel		IH2 N T EH1 L
+intel's		IH2 N T EH1 L Z
+intelco		IH2 N T EH1 L K OW0
+intelcom		IH2 N T EH1 L K AA0 M
+intellect	in·tel·lect	IH1 N T AH0 L EH2 K T;IH1 N AH0 L EH2 K T
+intellects		IH1 N T AH0 L EH2 K T S;IH1 N AH0 L EH2 K T S;IH1 N T AH0 L EH2 K S;IH1 N AH0 L EH2 K S
+intellectual	in·tel·lec·tu·al	IH2 N T AH0 L EH1 K CH UW0 AH0 L;IH2 N AH0 L EH1 K CH UW0 AH0 L
+intellectualism	in·tel·lec·tu·al·ism	IH2 N T EH2 L AH0 K CH UW1 AH0 L IH2 Z AH0 M;IH2 N EH2 L AH0 K CH UW1 AH0 L IH2 Z AH0 M
+intellectually	in·tel·lec·tu·al·ly	IH2 N T AH0 L EH1 K CH UW0 AH0 L IY0;IH2 N T AH0 L EH1 K CH UW0 L IY0;IH2 N AH0 L EH1 K CH UW0 AH0 L IY0;IH2 N AH0 L EH1 K CH UW0 L IY0
+intellectuals		IH2 N T AH0 L EH1 K CH UW0 AH0 L Z
+intellicall		IH2 N T EH1 L IH0 K AO2 L
+intellicorp		IH2 N T EH1 L IH0 K AO2 R P
+intelligence	in·tel·li·gence	IH2 N T EH1 L AH0 JH AH0 N S
+intelligent	in·tel·li·gent	IH2 N T EH1 L AH0 JH AH0 N T
+intelligently	in·tel·li·gent·ly	IH2 N T EH1 L IH0 JH AH0 N T L IY0
+intelligentsia	in·tel·li·gent·si·a	IH2 N T EH2 L AH0 JH EH1 N T S IY0 AH0
+intelligible	in·tel·li·gi·ble	IH2 N T EH1 L AH0 JH AH0 B AH0 L
+intelligibly	in·tel·li·gi·bly	IH2 N T EH1 L AH0 JH AH0 B L IY0
+intelogic		IH2 N T AH0 L AA1 JH IH0 K
+intelsat	in·tel·sat	IH2 N T EH1 L S AE0 T
+intemperate	in·tem·per·ate	IH2 N T EH1 M P ER0 AH0 T
+intend	in·tend	IH2 N T EH1 N D
+intended	in·tend·ed	IH2 N T EH1 N D IH0 D;IH0 N T EH1 N D IH0 D
+intending		IH2 N T EH1 N D IH0 NG
+intends		IH2 N T EH1 N D Z
+intense	in·tense	IH2 N T EH1 N S
+intensely	in·tense·ly	IH2 N T EH1 N S L IY0
+intensification	in·ten·si·fi·ca·tion	IH0 N T EH2 N S AH0 F AH0 K EY1 SH AH0 N
+intensified	in·ten·si·fied	IH0 N T EH1 N S AH0 F AY2 D
+intensifies		IH0 N T EH1 N S AH0 F AY2 Z
+intensify	in·ten·si·fy	IH0 N T EH1 N S AH0 F AY2
+intensifying	in·ten·si·fy·ing	IH0 N T EH1 N S AH0 F AY2 IH0 NG
+intensities		IH0 N T EH1 N S AH0 T IY0 Z
+intensity	in·ten·si·ty	IH0 N T EH1 N S AH0 T IY0;IH0 N T EH1 N S IH0 T IY0
+intensive	in·ten·sive	IH2 N T EH1 N S IH0 V
+intensively	in·ten·sive·ly	IH2 N T EH1 N S IH0 V L IY0
+intent	in·tent	IH2 N T EH1 N T
+intention	in·ten·tion	IH2 N T EH1 N CH AH0 N
+intentional	in·ten·tion·al	IH2 N T EH1 N SH AH0 N AH0 L
+intentionally	in·ten·tion·al·ly	IH2 N T EH1 N SH AH0 N AH0 L IY0
+intentioned	in·ten·tioned	IH2 N T EH1 N CH AH0 N D
+intentions		IH2 N T EH1 N CH AH0 N Z
+intently	in·tent·ly	IH2 N T EH1 N T L IY0
+intents		IH2 N T EH1 N T S
+inter	inter/in·ter	IH2 N T ER1
+interacciones		IH2 N T ER0 AE2 K S IY0 OW1 N Z
+interact	in·ter·act	IH2 N T ER0 AE1 K T;IH2 N ER0 AE1 K T
+interacted		IH2 N T ER0 AE1 K T AH0 D;IH2 N ER0 AE1 K T AH0 D
+interacting		IH2 N T ER0 AE1 K T IH0 NG;IH2 N ER0 AE1 K T IH0 NG
+interaction	in·ter·ac·tion	IH2 N T ER0 AE1 K SH AH0 N;IH2 N ER0 AE1 K SH AH0 N
+interactions		IH2 N T ER0 AE1 K SH AH0 N Z;IH2 N ER0 AE1 K SH AH0 N Z
+interactive	in·ter·ac·tive	IH2 N T ER0 AE1 K T IH0 V;IH2 N ER0 AE1 K T IH0 V
+interactivity		IH2 N T ER0 AE2 K T IH1 V IH0 T IY0;IH2 N ER0 AE2 K T IH1 V IH0 T IY0
+interacts		IH2 N T ER0 AE1 K T S;IH2 N ER0 AE1 K T S
+interagency	in·ter·a·gen·cy	IH2 N T ER0 EY1 JH AH0 N S IY0
+interamerican		IH2 N T ER0 AH0 M EH1 R AH0 K AH0 N
+interand		IH1 N T ER0 AH0 N D
+interbank	in·ter·bank	IH2 N T ER0 B AE1 NG K
+interbred	in·ter·bred	IH2 N T ER0 B R EH1 D
+interbrew		IH1 N T ER2 B R UW2;IH1 N T ER0 B R UW2
+interbrew's		IH1 N T ER2 B R UW2 Z;IH1 N T ER0 B R UW2 Z
+intercable		IH2 N T ER0 K EY1 B AH0 L
+intercapital		IH2 N T ER0 K AE1 P AH0 T AH0 L
+intercare		IH1 N T ER0 K EH2 R
+intercede	in·ter·cede	IH2 N T ER0 S IY1 D
+interceded	in·ter·ced·ed	IH2 N T ER0 S IY1 D IH0 D
+interceding	in·ter·ced·ing	IH2 N T ER0 S IY1 D IH0 NG
+intercellular	in·ter·cel·lu·lar	IH2 N T ER0 S EH1 L Y AH0 L ER0
+intercept	in·ter·cept	IH2 N T ER0 S EH1 P T;IH2 N ER0 S EH1 P T
+intercepted		IH2 N T ER0 S EH1 P T AH0 D;IH2 N T ER0 S EH1 P T IH0 D;IH2 N ER0 S EH1 P T AH0 D;IH2 N ER0 S EH1 P T IH0 D
+intercepting		IH2 N T ER0 S EH1 P T IH0 NG;IH2 N ER0 S EH1 P T IH0 NG
+interception	in·ter·cep·tion	IH2 N T ER0 S EH1 P SH AH0 N;IH2 N ER0 S EH1 P SH AH0 N
+interceptions		IH2 N T ER0 S EH1 P SH AH0 N Z;IH2 N ER0 S EH1 P SH AH0 N Z
+interceptor	in·ter·cep·tor	IH2 N T ER0 S EH1 P T ER0;IH2 N ER0 S EH1 P T ER0
+interceptors		IH2 N T ER0 S EH1 P T ER0 Z;IH2 N ER0 S EH1 P T ER0 Z
+intercepts		IH2 N T ER0 S EH1 P T S;IH2 N ER0 S EH1 P T S
+intercession	in·ter·ces·sion	IH2 N T ER0 S EH1 SH AH0 N;IH2 N ER0 S EH1 SH AH0 N
+interchange	in·ter·change	IH2 N T ER0 CH EY1 N JH;IH2 N ER0 CH EY1 N JH
+interchangeable	in·ter·change·a·ble	IH2 N T ER0 CH EY1 N JH AH0 B AH0 L;IH2 N ER0 CH EY1 N JH AH0 B AH0 L
+interchangeably	in·ter·change·a·bly	IH2 N T ER0 CH EY1 N JH AH0 B L IY0;IH2 N ER0 CH EY1 N JH AH0 B L IY0
+interchanges		IH1 N T ER0 CH EY2 N JH IH0 Z;IH1 N ER0 CH EY2 N JH IH0 Z
+intercity	in·ter·cit·y	IH1 N T ER0 S IH2 T IY0;IH1 N ER0 S IH2 T IY0
+interco		IH1 N T ER0 K OW2
+interco's		IH1 N T ER0 K OW2 Z
+intercollegiate	in·ter·col·le·giate	IH2 N T ER0 K AH0 L IY1 JH AH0 T
+intercom	in·ter·com	IH1 N T ER0 K AA2 M
+intercompany	in·ter·com·pa·ny	IH2 N T ER0 K AH1 M P AH0 N IY0
+interconnect		IH2 N T ER0 K AH0 N EH1 K T
+interconnected		IH2 N T ER0 K AH0 N EH1 K T IH0 D
+interconnection	in·ter·con·nec·tion	IH2 N T ER0 K AH0 N EH1 K SH AH0 N
+interconnections		IH2 N T ER0 K AH0 N EH1 K SH AH0 N Z
+intercontinental	in·ter·con·ti·nen·tal	IH2 N T ER0 K AA2 N T AH0 N EH1 N T AH0 L
+intercontinentale		IH2 N T ER0 K AA0 N T IH1 N AH0 N T AA2 L
+intercorp		IH1 N T ER0 K AO2 R P
+intercorporation		IH2 N T ER0 K AO2 R P ER0 EY1 SH AH0 N
+intercourse	in·ter·course	IH1 N T ER0 K AO2 R S;IH1 N ER0 K AO2 R S
+intercultural		IH2 N T ER0 K AH1 L CH ER0 AH0 L
+intercurrent	in·ter·cur·rent	IH2 N T ER0 K ER1 AH0 N T
+interdealer		IH1 N T ER0 D IY2 L ER0
+interdependence	in·ter·de·pend·ence	IH2 N T ER0 D AH0 P EH1 N D AH0 N S
+interdependent	in·ter·de·pend·ent	IH2 N T ER0 D IH0 P EH1 N D AH0 N T
+interdict	in·ter·dict	IH1 N T ER0 D IH2 K T
+interdicted		IH1 N T ER0 D IH2 K T IH0 D
+interdictes		IH1 N T ER0 D IH2 K T S
+interdicting		IH2 N T ER0 D IH1 K T IH0 NG
+interdiction	in·ter·dic·tion	IH2 N T ER0 D IH1 K SH AH0 N
+interdigital	in·ter·dig·i·tal	IH2 N T ER0 D IH1 JH AH0 T AH0 L
+interdisciplinary	in·ter·dis·ci·pli·nar·y	IH2 N T ER0 D IH1 S AH0 P L AH0 N EH2 R IY0
+interdyne		IH1 N T ER0 D AY2 N
+interest	in·ter·est	IH1 N T R AH0 S T;IH1 N T R IH0 S T;IH1 N T ER0 AH0 S T;IH1 N T ER0 IH0 S T
+interested	in·ter·est·ed	IH1 N T R AH0 S T IH0 D;IH1 N T R IH0 S T IH0 D;IH1 N T ER0 AH0 S T AH0 D;IH1 N T ER0 IH0 S T IH0 D
+interesting	in·ter·est·ing	IH1 N T R AH0 S T IH0 NG;IH1 N T R IH0 S T IH0 NG;IH1 N T ER0 AH0 S T IH0 NG;IH1 N T ER0 IH0 S T IH0 NG
+interestingly	in·ter·est·ing·ly	IH1 N T ER0 EH2 S T IH0 NG L IY0
+interestrate		IH1 N T ER0 AH0 S T R EY2 T
+interests		IH1 N T R AH0 S T S;IH1 N T R IH0 S T S;IH1 N T ER0 AH0 S T S;IH1 N T ER0 IH0 S T S
+interface	in·ter·face	IH1 N T ER0 F EY2 S;IH1 N ER0 F EY2 S
+interfaces		IH1 N T ER0 F EY2 S IH0 Z;IH1 N ER0 F EY2 S IH0 Z
+interfaith	in·ter·faith	IH2 N T ER0 F EY1 TH
+interfax		IH1 N T ER0 F AE2 K S
+interfere	in·ter·fere	IH2 N T ER0 F IH1 R;IH2 N ER0 F IH1 R
+interfered	in·ter·fered	IH2 N T ER0 F IH1 R D;IH2 N ER0 F IH1 R D
+interference	in·ter·fer·ence	IH2 N T ER0 F IH1 R AH0 N S;IH2 N ER0 F IH1 R AH0 N S
+interferes		IH2 N T ER0 F IH1 R Z;IH2 N ER0 F IH1 R Z
+interfering	in·ter·fer·ing	IH2 N T ER0 F IH1 R IH0 NG;IH2 N ER0 F IH1 R IH0 NG
+interferometer	in·ter·fer·om·e·ter	IH2 N T ER0 F ER0 AA1 M AH0 T ER0
+interferon	in·ter·fer·on	IH2 N T ER0 F EH1 R AA0 N;IH2 N T ER0 F IH1 R AA0 N
+interferons		IH2 N T ER0 F IH1 R AA0 N Z
+interfirst		IH2 N T ER0 F ER1 S T
+interflug		IH1 N T ER0 F L AH0 G
+interfunding		IH1 N T ER0 F AH2 N D IH0 NG
+intergenerational		IH2 N T ER0 JH EH1 N ER0 EY1 SH AH0 N AH0 L
+intergovernmental	in·ter·gov·ern·men·tal	IH2 N T ER0 G AH2 V ER0 N M EH1 N T AH0 L
+intergraph		IH1 N T ER0 G R AE2 F
+intergraph's		IH1 N T ER0 G R AE2 F S
+intergroup	in·ter·group	IH2 N T ER0 G R UW1 P
+intergroup's		IH2 N T ER0 G R UW1 P S
+interim	in·ter·im	IH1 N T ER0 AH0 M;IH1 N T R AH0 M;IH1 N ER0 AH0 M
+interior	in·te·ri·or	IH2 N T IH1 R IY0 ER0
+interiors		IH2 N T IH1 R IY0 ER0 Z
+interject	in·ter·ject	IH2 N T ER0 JH EH1 K T
+interjected		IH2 N T ER0 JH EH1 K T IH0 D
+interjection	in·ter·jec·tion	IH2 N T ER0 JH EH1 K SH AH0 N
+interjections		IH2 N T ER0 JH EH1 K SH AH0 N Z
+interjects		IH2 N T ER0 JH EH1 K T S
+interlace	in·ter·lace	IH2 N T ER0 L EY1 S
+interlaced	in·ter·laced	IH2 N T ER0 L EY1 S T
+interlake		IH1 N T ER0 L EY2 K
+interlake's		IH1 N T ER0 L EY2 K S
+interleaf	in·ter·leaf	IH1 N T ER0 L IY2 F
+interleave	in·ter·leave	IH2 N T ER0 L IY1 V
+interleaved	in·ter·leaved	IH2 N T ER0 L IY1 V D
+interleaves		IH2 N T ER0 L IY1 V Z
+interleaving	in·ter·leav·ing	IH2 N T ER0 L IY1 V IH0 NG
+interleukin		IH2 N T ER0 L UW1 K IH0 N
+interlink	in·ter·link	IH2 N T ER0 L IH1 NG K
+interlinked		IH2 N T ER0 L IH1 NG K T
+interlock	in·ter·lock	IH2 N T ER0 L AA1 K
+interlocked		IH2 N T ER0 L AA1 K T
+interlocking		IH1 N T ER0 L AA2 K IH0 NG
+interlocutor	in·ter·loc·u·tor	IH2 N T ER0 L AA1 K Y AH0 T ER0
+interlocutors		IH2 N T ER0 L AA1 K Y AH0 T ER0 Z
+interloper	in·ter·lop·er	IH1 N T ER0 L OW2 P ER0
+interlopers		IH1 N T ER0 L OW2 P ER0 Z
+interlude	in·ter·lude	IH1 N T ER0 L UW2 D
+interludes		IH1 N T ER0 L UW2 D Z
+intermagnetic		IH2 N T ER0 M AE0 G N EH1 T IH0 K
+intermagnetics		IH2 N T ER0 M AE0 G N EH1 T IH0 K S
+intermark		IH2 N T ER0 M AA1 R K
+intermarket		IH2 N T ER0 M AA1 R K IH0 T
+intermarriage	in·ter·mar·riage	IH2 N T ER0 M EH1 R IH0 JH
+intermarried	in·ter·mar·ried	IH2 N T ER0 M AE1 R IY0 D
+intermarry	in·ter·mar·ry	IH2 N T ER0 M AE1 R IY0
+intermec		IH1 N T ER0 M AH0 K
+intermedia		IH2 N T ER0 M IY1 D IY0 AH0
+intermediaries	in·ter·me·di·ar·ies	IH2 N T ER0 M IY1 D IY0 EH2 R IY0 Z;IH2 N ER0 M IY1 D IY0 EH2 R IY0 Z
+intermediary	in·ter·me·di·ar·y	IH2 N ER0 M IY1 D IY0 EH0 R IY0;IH2 N T ER0 M IY1 D IY0 EH0 R IY0
+intermediate	in·ter·me·di·ate	IH2 N T ER0 M IY1 D IY0 IH0 T;IH2 N ER0 M IY1 D IY0 IH0 T
+intermediates		IH2 N T ER0 M IY1 D IY0 AH0 T S;IH2 N T ER0 M IY1 D IY0 EY0 T S;IH2 N ER0 M IY1 D IY0 AH0 T S;IH2 N ER0 M IY1 D IY0 EY0 T S
+intermedic		IH1 N T ER0 M EH2 D IH0 K
+intermedics		IH1 N T ER0 M EH2 D IH0 K S
+intermet	in·ter·met	IH2 N T ER0 M EH1 T
+interminable	in·ter·mi·na·ble	IH2 N T ER1 M AH0 N AH0 B AH0 L
+interminably	in·ter·mi·na·bly	IH1 N T ER0 M IH0 N AE2 B L IY0;IH2 N T ER1 M IH0 N AH0 B L IY0
+intermingle	in·ter·min·gle	IH2 N T ER0 M IH1 NG G AH0 L
+intermingled		IH2 N T ER0 M IH1 NG G AH0 L D
+intermingling		IH2 N T ER0 M IH1 NG G AH0 L IH0 NG;IH2 N T ER0 M IH1 NG G L IH0 NG
+intermission	in·ter·mis·sion	IH2 N T ER0 M IH1 SH AH0 N
+intermissions		IH2 N T ER0 M IH1 SH AH0 N Z
+intermittent	in·ter·mit·tent	IH2 N T ER0 M IH1 T AH0 N T
+intermittently	in·ter·mit·tent·ly	IH2 N T ER0 M IH1 T AH0 N T L IY0
+intermix	in·ter·mix	IH2 N T ER0 M IH1 K S
+intermixed		IH2 N T ER0 M IH1 K S T
+intermixing		IH1 N T ER0 M IH1 K S IH0 NG
+intermodal		IH2 N T ER0 M OW1 D AH0 L
+intermolecular	in·ter·mo·lec·u·lar	IH2 N T ER0 M AH0 L EH1 K Y AH0 L ER0
+intermountain	in·ter·moun·tain	IH2 N T ER0 M AW1 N T IH0 N
+intern	in·tern	IH1 N T ER0 N
+internacional		IH2 N T ER0 N AE1 SH AH0 N AH0 L;IH2 N T ER0 N AA2 S IY0 OW0 N AE1 L
+internal	in·ter·nal	IH2 N T ER1 N AH0 L
+internalize	in·ter·nal·ize	IH2 N T ER1 N AH0 L AY2 Z
+internalized	in·ter·nal·ized	IH2 N T ER1 N AH0 L AY2 Z D
+internally	in·ter·nal·ly	IH2 N T ER1 N AH0 L IY0
+international	in·ter·na·tion·al	IH2 N T ER0 N AE1 SH AH0 N AH0 L;IH2 N ER0 N AE1 SH AH0 N AH0 L
+international's		IH2 N T ER0 N AE1 SH AH0 N AH0 L Z;IH2 N ER0 N AE1 SH AH0 N AH0 L Z
+internationale	in·ter·na·tio·nale	IH0 N T ER0 N AE2 SH AH0 N AA1 L IY0;IH2 N ER0 N AE2 SH AH0 N AA1 L IY0
+internationalism	in·ter·na·tion·al·ism	IH0 N T ER0 N AE1 SH AH0 N AH0 L IH2 Z AH0 M;IH0 N ER0 N AE1 SH AH0 N AH0 L IH2 Z AH0 M
+internationalist	in·ter·na·tion·al·ist	IH2 N T ER0 N AE1 SH AH0 N AH0 L IH0 S T;IH2 N ER0 N AE1 SH AH0 N AH0 L IH0 S T
+internationalists		IH2 N T ER0 N AE1 SH AH0 N AH0 L IH0 S T S;IH2 N ER0 N AE1 SH AH0 N AH0 L IH0 S T S;IH2 N T ER0 N AE1 SH AH0 N AH0 L IH0 S;IH2 N ER0 N AE1 SH AH0 N AH0 L IH0 S
+internationalization	in·ter·na·tion·al·i·za·tion	IH2 N T ER0 N AE2 SH AH0 N AH0 L IH0 Z EY1 SH AH0 N;IH2 N ER0 N AE2 SH AH0 N AH0 L IH0 Z EY1 SH AH0 N
+internationalize	in·ter·na·tion·al·ize	IH2 N T ER0 N AE1 SH AH0 N AH0 L AY2 Z;IH2 N ER0 N AE1 SH AH0 N AH0 L AY2 Z;IH2 N ER0 N AE1 SH N AH0 L AY2 Z
+internationalized	in·ter·na·tion·al·ized	IH0 N T ER0 N AE1 SH AH0 N AH0 L AY0 Z D;IH0 N ER0 N AE1 SH AH0 N AH0 L AY0 Z D;IH0 N ER0 N AE1 SH N AH0 L AY0 Z D
+internationally	in·ter·na·tion·al·ly	IH2 N T ER0 N AE1 SH AH0 N AH0 L IY0;IH2 N T ER0 N AE1 SH N AH0 L IY0;IH2 N ER0 N AE1 SH AH0 N AH0 L IY0;IH2 N ER0 N AE1 SH N AH0 L IY0
+internationals		IH2 N T ER0 N AE1 SH AH0 N AH0 L Z
+internatonal		IH2 N T ER0 N AE1 SH AH0 N AH0 L;IH2 N ER0 N AE1 SH AH0 N AH0 L
+internecine	in·ter·ne·cine	IH2 N T ER1 N AH0 S IY2 N
+interned		IH1 N T ER2 N D
+internee	in·tern·ee	IH2 N T ER0 N IY1
+internees		IH2 N T ER0 N IY1 Z
+internet		IH1 N T ER0 N EH2 T
+internet's		IH1 N T ER0 N EH2 T S
+internist	in·tern·ist	IH2 N T ER1 N IH0 S T
+internists		IH2 N T ER1 N IH0 S T S
+internment	in·tern·ment	IH2 N T ER1 N M AH0 N T
+internorth		IH1 N T ER0 N AO0 R TH
+interns		IH1 N T ER0 N Z
+internship	in·tern·ship	IH1 N T ER0 N SH IH2 P
+internships		IH1 N T ER0 N SH IH2 P S
+interoffice	in·ter·of·fice	IH2 N T ER0 AO1 F AH0 S
+interoperate		IH2 N T ER0 AO1 P ER0 AH0 T
+interoperates		IH2 N T ER0 AO1 P ER0 AH0 T S
+interpart		IH1 N T ER0 P AA2 R T
+interpersonal	in·ter·per·son·al	IH2 N T ER0 P ER1 S AH0 N AH0 L
+interplanetary	in·ter·plan·e·tar·y	IH2 N T ER0 P L AE1 N AH0 T EH2 R IY0
+interplay	in·ter·play	IH1 N T ER0 P L EY2
+interpol	in·ter·pol	IH1 N T ER0 P OW2 L
+interpolate	in·ter·po·late	IH2 T ER1 P AH0 L EY2 T
+interpolated	in·ter·po·lat·ed	IH2 T ER1 P AH0 L EY2 T IH0 D
+interpolation	in·ter·po·la·tion	IH2 T ER1 P AH0 L EY2 SH AH0 N
+interpolations		IH2 T ER1 P AH0 L EY2 SH AH0 N Z
+interpose	in·ter·pose	IH2 N T ER0 P OW1 Z
+interpret	in·ter·pret	IH2 N T ER1 P R AH0 T
+interpretation	in·ter·pre·ta·tion	IH2 N T ER2 P R IH0 T EY1 SH AH0 N
+interpretations		IH2 N T ER2 P R IH0 T EY1 SH AH0 N Z
+interpreted		IH2 N T ER1 P R AH0 T AH0 D
+interpreter	in·ter·pret·er	IH2 N T ER1 P R AH0 T ER0
+interpreters		IH2 N T ER1 P R AH0 T ER0 Z
+interpreting		IH1 N T ER0 P R EH2 T IH0 NG
+interpretive	in·ter·pre·tive	IH2 N T ER1 P R AH0 T IH0 V
+interprets		IH2 N T ER1 P R AH0 T S
+interprovincial	in·ter·pro·vin·cial	IH2 N T ER0 P R OW0 V IH1 N SH AH0 L
+interpublic		IH2 N T ER0 P AH1 B L IH0 K
+interpublic's		IH2 N T ER0 P AH1 B L IH0 K S
+interracial	in·ter·ra·cial	IH2 N T ER0 R EY1 SH AH0 L
+interrante		IH2 N T ER0 R AA1 N T IY0
+interred	in·terred	IH2 N T ER1 D
+interregnum	in·ter·reg·num	IH2 N T ER0 R EH1 G N AH0 M
+interrelate	in·ter·re·late	IH2 N T ER0 R IH0 L EY1 T
+interrelated	in·ter·re·lat·ed	IH2 N T ER0 R IH0 L EY1 T IH0 D;IH2 N T ER0 R IY0 L EY1 T IH0 D
+interrelationship	in·ter·re·la·tion·ship	IH1 N T ER0 R IY0 L EY1 SH AH0 N SH IH0 P
+interrent		IH1 N T ER0 EH2 N T;IH1 N ER0 EH2 N T
+interrogate	in·ter·ro·gate	IH2 N T EH1 R AH0 G EY2 T
+interrogated	in·ter·ro·gat·ed	IH2 N T EH1 R AH0 G EY2 T IH0 D
+interrogating	in·ter·ro·gat·ing	IH2 N T EH1 R AH0 G EY2 T IH0 NG
+interrogation	in·ter·ro·ga·tion	IH2 N T EH2 R AH0 G EY1 SH AH0 N
+interrogations		IH2 N T EH2 R AH0 G EY1 SH AH0 N Z
+interrogator	in·ter·ro·ga·tor	IH2 N T EH1 R AH0 G EY2 T ER0
+interrogatories	in·ter·rog·a·to·ries	IH2 N T EH0 R AA1 G AH0 T AO2 R IY0 Z
+interrogators		IH2 N T EH1 R AH0 G EY2 T ER0 Z
+interrogatory	in·ter·rog·a·to·ry	IH2 N T EH0 R AA1 G AH0 T AO2 R IY0
+interrupt	in·ter·rupt	IH2 N T ER0 AH1 P T
+interrupted	in·ter·rupt·ed	IH2 N T ER0 AH1 P T IH0 D
+interruptible	in·ter·rupt·i·ble	IH2 N T ER0 R AH1 P T IH0 B AH0 L
+interrupting		IH2 N T ER0 AH1 P T IH0 NG
+interruption	in·ter·rup·tion	IH2 N T ER0 AH1 P SH AH0 N
+interruptions		IH2 N T ER0 AH1 P SH AH0 N Z
+interrupts		IH2 N T ER0 AH1 P T S
+interscholastic	in·ter·scho·las·tic	IH2 N T ER0 S K AH0 L AE1 S T IH0 K
+interscope		IH1 N T ER0 S K OW2 P
+intersec		IH1 N T ER0 S EH0 K
+intersect	in·ter·sect	IH2 N T ER0 S EH1 K T
+intersected		IH2 N T ER0 S EH1 K T IH0 D
+intersecting		IH2 N T ER0 S EH1 K T IH0 NG
+intersection	in·ter·sec·tion	IH2 N T ER0 S EH1 K SH AH0 N
+intersections		IH2 N T ER0 S EH1 K SH AH0 N Z
+intersects		IH2 N T ER0 S EH1 K T S
+intersegment		IH2 N T ER0 S EH1 G M AH0 N T
+interspec		IH1 N T ER0 S P EH0 K
+intersperse	in·ter·sperse	IH2 N T ER0 S P ER1 S
+interspersed	in·ter·spersed	IH2 N T ER0 S P ER1 S T
+intersperses		IH2 N T ER0 S P ER1 S AH0 Z
+interstate	in·ter·state	IH2 N T ER0 S T EY1 T
+interstate's		IH2 N T ER0 S T EY1 T S
+interstates		IH1 N T ER0 S T EY2 T S
+interstellar	in·ter·stel·lar	IH2 N T ER0 S T EH1 L ER0
+interstitial	in·ter·sti·tial	IH2 N T ER0 S T IH1 SH AH0 L
+intertan		IH2 N T ER0 T AE1 N
+intertech		IH1 N T ER0 T EH2 K
+intertechnology		IH2 N T ER0 T AH0 K N AA1 L AH0 JH IY0
+intertect		IH1 N T ER0 T EH2 K T
+intertidal	in·ter·tid·al	IH2 N T ER0 T AY1 D AH0 L
+intertrans		IH1 N T ER0 T R AE2 N Z
+intertribal	in·ter·trib·al	IH2 N T ER0 T R AY1 B AH0 L
+intertwine	in·ter·twine	IH2 N T ER0 T W AY1 N
+intertwined	in·ter·twined	IH2 N T ER0 T W AY1 N D
+intertwining	in·ter·twin·ing	IH1 N T ER0 T W AY2 N IH0 NG
+interurban	in·ter·ur·ban	IH2 N T ER0 ER1 B AH0 N
+interval	in·ter·val	IH1 N T ER0 V AH0 L
+intervals		IH1 N T ER0 V AH0 L Z
+intervene	in·ter·vene	IH2 N T ER0 V IY1 N
+intervened	in·ter·vened	IH2 N T ER0 V IY1 N D
+intervenes		IH2 N T ER0 V IY1 N Z
+intervening	in·ter·ven·ing	IH2 N T ER0 V IY1 N IH0 NG
+intervenor	in·ter·ve·nor	IH2 N T ER0 V IY1 N ER0
+intervenors		IH2 N T ER0 V IY1 N ER0 Z
+intervention	in·ter·ven·tion	IH2 N T ER0 V EH1 N SH AH0 N
+interventionism	in·ter·ven·tion·ism	IH2 N T ER0 V EH1 N SH AH0 N IH2 Z AH0 M
+interventionist	in·ter·ven·tion·ist	IH2 N T ER0 V EH1 N SH AH0 N IH0 S T
+interventionists		IH2 N T ER0 V EH1 N SH AH0 N IH0 S T S
+interventions		IH2 N T ER0 V EH1 N SH AH0 N Z
+interview	in·ter·view	IH1 N T ER0 V Y UW2
+interviewed		IH1 N T ER0 V Y UW2 D
+interviewee	in·ter·view·ee	IH2 N T ER0 V Y UW0 IY1
+interviewees		IH2 N T ER0 V Y UW0 IY1 Z
+interviewer	in·ter·view·er	IH1 N T ER0 V Y UW2 ER0
+interviewers		IH1 N T ER0 V Y UW2 ER0 Z
+interviewing		IH1 N T ER0 V Y UW2 IH0 NG
+interviews		IH1 N T ER0 V Y UW2 Z
+intervoice		IH2 N T ER0 V OY1 S
+interweave	in·ter·weave	IH2 N T ER0 W IY1 V
+interweaving	in·ter·weav·ing	IH2 N T ER0 W IY1 V IH0 NG
+interwoven	in·ter·wo·ven	IH2 N T ER0 W OW1 V AH0 N
+intestinal	in·tes·ti·nal	IH0 N T EH1 S T AH0 N AH0 L
+intestine	in·tes·tine	IH2 N T EH1 S T AH0 N
+intestines		IH2 N T EH1 S T AH0 N Z
+intex		IH1 N T EH2 K S
+inti		IH1 N T IY0
+intifada		IH2 N T IH0 F AA1 D AH0
+intimacy	in·ti·ma·cy	IH1 N T AH0 M AH0 S IY0
+intimate	in·ti·mate	IH1 N T AH0 M AH0 T;IH1 N T AH0 M EY2 T;IH1 N AH0 M AH0 T
+intimated	in·ti·mat·ed	IH1 N T AH0 M EY2 T IH0 D
+intimately	in·ti·mate·ly	IH1 N T AH0 M AH0 T L IY0
+intimates		IH1 N T AH0 M AH0 T S
+intimation	in·ti·ma·tion	IH2 N T AH0 M EY1 SH AH0 N
+intimations		IH2 N T AH0 M EY1 SH AH0 N Z
+intimidate	in·tim·i·date	IH2 N T IH1 M IH0 D EY2 T
+intimidated	in·tim·i·dat·ed	IH2 N T IH1 M IH0 D EY2 T IH0 D
+intimidates		IH2 N T IH1 M IH0 D EY2 T S
+intimidating	in·tim·i·dat·ing	IH2 N T IH1 M IH0 D EY2 T IH0 NG
+intimidation	in·tim·i·da·tion	IH2 N T IH2 M IH0 D EY1 SH AH0 N
+intis		IH1 N T IH0 S
+into	in·to	IH1 N T UW0;IH0 N T UW1;IH0 N T AH0
+intolerable	in·tol·er·a·ble	IH2 N T AA1 L ER0 AH0 B AH0 L
+intolerably	in·tol·er·a·bly	IH2 N T AA1 L ER0 AH0 B L IY0
+intolerance	in·tol·er·ance	IH2 N T AA1 L ER0 AH0 N S
+intolerant	in·tol·er·ant	IH2 N T AA1 L ER0 AH0 N T
+intonation	in·to·na·tion	IH2 N T AH0 N EY1 SH AH0 N
+intonations		IH2 N T AH0 N EY1 SH AH0 N Z
+intone	in·tone	IH2 N T OW1 N
+intoned	in·toned	IH2 N T OW1 N D
+intones		IH2 N T OW1 N Z
+intoning	in·ton·ing	IH2 N T OW1 N IH0 NG
+intourist		IH2 N T UH1 R IH0 S T
+intoxicate	in·tox·i·cate	IH2 N T AA1 K S AH0 K EY2 T
+intoxicated	in·tox·i·cat·ed	IH0 N T AA1 K S AH0 K EY2 T IH0 D;IH0 N T AA1 K S IH0 K EY2 T IH0 D
+intoxicates		IH2 N T AA1 K S AH0 K EY2 T S
+intoxicating	in·tox·i·cat·ing	IH2 N T AA1 K S IH0 K EY2 T IH0 NG
+intoxication	in·tox·i·ca·tion	IH2 N T AA2 K S AH0 K EY1 SH AH0 N
+intra		IH1 N T R AA0
+intracellular	in·tra·cel·lu·lar	IH2 N T R AA0 S EH1 L Y AH0 L ER0
+intracompany		IH2 N T R AH0 K AA1 M P AH0 N IY0
+intracranial	in·tra·cra·ni·al	IH2 N T R AH0 K R EY1 N IY0 AH0 L
+intractable	in·trac·ta·ble	IH2 N T R AE1 K T AH0 B AH0 L
+intraday		IH2 N T R AH0 D EY1
+intramarginal	in·tra·mar·gin·al	IH2 N T R AH0 M AA1 R JH IH0 N AH0 L
+intramural	in·tra·mu·ral	IH2 N T R AH0 M Y UH1 R AH0 L
+intransigence	in·tran·si·gence	IH2 N T R AE1 N S AH0 JH AH0 N S;IH2 N T R AE1 N S IH0 JH AH0 N S
+intransigent	in·tran·si·gent	IH2 N T R AE1 N S AH0 JH AH0 N T;IH2 N T R AE1 N Z AH0 JH AH0 N T
+intraocular		IH2 N T R AH0 OW1 K Y UW0 L ER0
+intraparty		IH1 N T R AH0 P AA2 R T IY0
+intraspecific		IH2 N T R AH0 S P AH0 S IH1 F AH0 K
+intrastate	in·tra·state	IH2 N T R AH0 S T EY1 T
+intrauterine	in·tra·u·ter·ine	IH2 N T R AH0 Y UW1 T ER0 IH0 N
+intravenous	in·tra·ve·nous	IH2 N T R AH0 V IY1 N AH0 S
+intravenously	in·tra·ve·nous·ly	IH0 N T R AE1 V AH0 N AH0 S L IY0;IH0 N T R AH0 V IY1 N AH0 S L IY0
+intrawest		IH1 N T R AH0 W AH0 S T;IH2 N T R AH0 W EH1 S T
+intrepid	in·trep·id	IH0 N T R EH1 P AH0 D
+intrepidity	in·tre·pid·i·ty	IH2 N T R EH1 P IH0 D AH0 T IY2
+intrepidly	in·trep·id·ly	IH0 N T R EH1 P AH0 D L IY0
+intrex		IH1 N T R AH0 K S
+intricacies		IH1 N T R AH0 K AH0 S IY0 Z
+intricacy	in·tri·ca·cy	IH1 N T R AH0 K AH0 S IY0
+intricate	in·tri·cate	IH1 N T R AH0 K AH0 T
+intricately	in·tri·cate·ly	IH1 N T R AH0 K AH0 T L IY0
+intrie		IH1 N T R IY0
+intrieri		IH2 N T R IH1 R IY0
+intrigue	in·trigue	IH2 N T R IY1 G;IH1 N T R IY0 G
+intrigued	in·trigued	IH1 N T R IY0 G D;IH2 N T R IY1 G D
+intrigues		IH2 N T R IY1 G Z;IH1 N T R IY0 G Z
+intriguing	in·tri·guing	IH2 N T R IY1 G IH0 NG
+intriguingly	in·tri·guing·ly	IH2 N T R IY1 G IH0 NG L IY0
+intrinsic	in·trin·sic	IH2 N T R IH1 N S IH0 K
+intrinsically	in·trin·si·cal·ly	IH2 N T R IH1 N S IH0 K AH0 L IY0;IH2 N T R IH1 N S IH0 K L IY0
+intro	intro/in·tro	IH1 N T R OW0
+introduce	in·tro·duce	IH2 N T R AH0 D UW1 S;IH2 N T R OW0 D UW1 S
+introduced	in·tro·duced	IH2 N T R AH0 D UW1 S T;IH2 N T R OW0 D UW1 S T
+introduces		IH2 N T R AH0 D UW1 S IH0 Z;IH2 N T R OW0 D UW1 S IH0 Z
+introducing	in·tro·duc·ing	IH2 N T R AH0 D UW1 S IH0 NG;IH2 N T R OW0 D UW1 S IH0 NG
+introduction	in·tro·duc·tion	IH2 N T R AH0 D AH1 K SH AH0 N;IH2 N T R OW0 D AH1 K SH AH0 N
+introductions		IH2 N T R AH0 D AH1 K SH AH0 N Z;IH2 N T R OW0 D AH1 K SH AH0 N Z
+introductory	in·tro·duc·to·ry	IH2 N T R AH0 D AH1 K T ER0 IY0;IH2 N T R OW0 D AH1 K T ER0 IY0
+intron		IH1 N T R AH0 N
+intros		IH1 N T R OW0 Z
+introspect	in·tro·spect	IH1 N T R AH0 S P EH2 K T
+introspection	in·tro·spec·tion	IH2 N T R AH0 S P EH1 K SH AH0 N;IH2 N T R OW0 S P EH1 K SH AH0 N
+introspective	in·tro·spec·tive	IH2 N T R AH0 S P EH1 K T IH0 V;IH2 N T R OW0 S P EH1 K T IH0 V
+introvert	in·tro·vert	IH1 N T R OW0 V ER2 T
+introverted		IH1 N T R OW0 V ER2 T IH0 D
+intrude	in·trude	IH2 N T R UW1 D
+intruded	in·trud·ed	IH2 N T R UW1 D AH0 D
+intruder	in·trud·er	IH2 N T R UW1 D ER0
+intruders		IH2 N T R UW1 D ER0 Z
+intrudes		IH2 N T R UW1 D Z
+intruding	in·trud·ing	IH2 N T R UW1 D IH0 NG
+intrusion	in·tru·sion	IH2 N T R UW1 ZH AH0 N
+intrusions		IH2 N T R UW1 ZH AH0 N Z
+intrusive	in·tru·sive	IH2 N T R UW1 S IH0 V
+intrusiveness	in·tru·sive·ness	IH2 N T R UW1 S IH0 V N EH0 S
+intuit	in·tu·it	IH2 N T UW1 AH0 T
+intuit's		IH2 N T UW1 AH0 T S
+intuition	in·tu·i·tion	IH2 N T UW0 IH1 SH AH0 N
+intuitive	in·tu·i·tive	IH2 N T UW1 AH0 T IH0 V
+intuitively	in·tu·i·tive·ly	IH2 N T UW1 IH0 T IH0 V L IY0
+inuit	in·u·it	IH1 N UW0 T
+inundate	in·un·date	IH1 N AH0 N D EY2 T
+inundated	in·un·dat·ed	IH1 N AH0 N D EY2 T IH0 D
+inundating	in·un·dat·ing	IH1 N AH0 N D EY2 T IH0 NG;IH2 N AH1 N D EY2 T IH0 NG
+inundation	in·un·da·tion	IH2 N AH0 N D EY1 SH AH0 N
+inundations		IH2 N AH0 N D EY1 SH AH0 N Z
+inure	in·ure	IH2 N Y UH1 R
+inured	in·ured	IH2 N Y UH1 R D
+invacare		IH1 N V AH0 K EH2 R
+invade	in·vade	IH2 N V EY1 D
+invaded	in·vad·ed	IH2 N V EY1 D AH0 D;IH2 N V EY1 D IH0 D
+invader	in·vad·er	IH2 N V EY1 D ER0
+invaders		IH2 N V EY1 D ER0 Z
+invades		IH2 N V EY1 D Z
+invading	in·vad·ing	IH2 N V EY1 D IH0 NG
+invalid	in·val·id/in·va·lid	IH1 N V AH0 L AH0 D;IH1 N V AH0 L IH0 D;IH2 N V AE1 L AH0 D
+invalidate	in·val·i·date	IH2 N V AE1 L IH0 D EY2 T
+invalidated	in·val·i·dat·ed	IH2 N V AE1 L AH0 D EY2 T AH0 D;IH2 N V AE1 L IH0 D EY2 T IH0 D
+invalidating	in·val·i·dat·ing	IH2 N V AE1 L AH0 D EY2 T IH0 NG
+invalidation	in·val·i·da·tion	IH2 N V AE2 L AH0 D EY1 SH AH0 N
+invalids		IH1 N V AH0 L AH0 D Z
+invaluable	in·val·u·a·ble	IH2 N V AE1 L Y AH0 B AH0 L
+invariable	in·var·i·a·ble	IH2 N V EH1 R IY0 AH0 B AH0 L
+invariably	in·var·i·a·bly	IH2 N V EH1 R IY0 AH0 B L IY0
+invariance		IH2 N V EH1 R IY0 AH0 N S
+invariant	in·var·i·ant	IH2 N V EH1 R IY0 AH0 N T
+invasion	in·va·sion	IH2 N V EY1 ZH AH0 N
+invasions		IH2 N V EY1 ZH AH0 N Z
+invasive	in·va·sive	IH2 N V EY1 S IH0 V
+invective	in·vec·tive	IH2 N V EH1 K T IH0 V
+invent	in·vent	IH2 N V EH1 N T
+invented		IH2 N V EH1 N T AH0 D;IH2 N V EH1 N T IH0 D
+inventing		IH2 N V EH1 N T IH0 NG
+invention	in·ven·tion	IH2 N V EH1 N SH AH0 N
+inventions		IH2 N V EH1 N SH AH0 N Z
+inventive	in·ven·tive	IH2 N V EH1 N T IH0 V
+inventiveness	in·ven·tive·ness	IH2 N V EH1 N T IH0 V N AH0 S
+inventor	in·ven·tor	IH2 N V EH1 N T ER0
+inventoried	in·ven·to·ried	IH1 N V AH0 N T AO2 R IY0 D
+inventories	in·ven·to·ries	IH2 N V AH0 N T AO1 R IY0 Z
+inventors		IH2 N V EH1 N T ER0 Z
+inventory	in·ven·to·ry	IH2 N V AH0 N T AO1 R IY0
+inventory's		IH2 N V AH0 N T AO1 R IY0 Z
+invents		IH2 N V EH1 N T S
+inverlat		IH1 N V ER0 L AE2 T
+inverness	in·ver·ness	IH1 N V ER0 N EH2 S
+inverse	in·verse	IH2 N V ER1 S
+inversely	in·verse·ly	IH2 N V ER1 S L IY0
+inversion	in·ver·sion	IH2 N V ER1 ZH AH0 N
+invert	in·vert	IH2 N V ER1 T
+invertebrate	in·ver·te·brate	IH2 N V ER1 T AH0 B R AH0 T;IH2 N V ER1 T AH0 B R EY2 T
+invertebrates		IH2 N V ER1 T AH0 B R AH0 T S;IH2 N V ER1 T AH0 B R EY2 T S
+inverted		IH2 N V ER1 T IH0 D
+invesco		IH2 N V EH1 S K OW0
+invesco's		IH2 N V EH1 S OW0 Z
+invest	in·vest	IH2 N V EH1 S T
+investable	in·vest·a·ble	IH2 N V EH1 S T AH0 B AH0 L
+investcorp		IH2 N V EH1 S T K AO0 R P
+invested		IH2 N V EH1 S T AH0 D;IH2 N V EH1 S T IH0 D
+investigate	in·ves·ti·gate	IH2 N V EH1 S T AH0 G EY2 T
+investigated	in·ves·ti·gat·ed	IH2 N V EH1 S T AH0 G EY2 T AH0 D;IH2 N V EH1 S T AH0 G EY2 T IH0 D
+investigates		IH2 N V EH1 S T AH0 G EY2 T S
+investigating	in·ves·ti·gat·ing	IH2 N V EH1 S T AH0 G EY2 T IH0 NG
+investigation	in·ves·ti·ga·tion	IH2 N V EH2 S T AH0 G EY1 SH AH0 N
+investigational	in·ves·ti·ga·tion·al	IH2 N V EH0 S T IH0 G EY1 SH AH0 N AH0 L
+investigations		IH2 N V EH2 S T AH0 G EY1 SH AH0 N Z
+investigative	in·ves·ti·ga·tive	IH2 N V EH1 S T AH0 G EY2 T IH0 V
+investigator	in·ves·ti·ga·tor	IH2 N V EH1 S T AH0 G EY2 T ER0
+investigator's		IH2 N V EH1 S T AH0 G EY2 T ER0 Z
+investigators		IH2 N V EH1 S T AH0 G EY2 T ER0 Z
+investigators'		IH2 N V EH1 S T AH0 G EY2 T ER0 Z
+investigatory	in·ves·ti·ga·to·ry	IH2 N V EH1 S T AH0 G AH0 T AO2 R IY0
+investimento		IH2 N V EH2 S T IH0 M EH1 N T OW2
+investing		IH2 N V EH1 S T IH0 NG
+investissements		IH2 N V EH2 S T IY1 Z IH0 M AA0 N T S
+investiture	in·ves·ti·ture	IH2 N V EH1 S T AH0 CH ER0
+investment	in·vest·ment	IH2 N V EH1 S T M AH0 N T;IH2 N V EH1 S M AH0 N T
+investment's		IH2 N V EH1 S T M AH0 N T S;IH2 N V EH1 S M AH0 N T S
+investments		IH2 N V EH1 S T M AH0 N T S;IH2 N V EH1 S M AH0 N T S
+investments'		IH2 N V EH1 S T M AH0 N T S;IH2 N V EH1 S M AH0 N T S
+investnet		IH2 N V EH1 S T N EH2 T
+investor	in·ves·tor	IH2 N V EH1 S T ER0
+investor's		IH2 N V EH1 S T ER0 Z
+investors		IH2 N V EH1 S T ER0 Z
+investors'		IH2 N V EH1 S T ER0 Z
+invests		IH2 N V EH1 S T S
+inveterate	in·vet·er·ate	IH2 N V EH1 T ER0 AH0 T
+invidious	in·vid·i·ous	IH2 N V IH1 D IY0 AH0 S
+invigorate	in·vig·or·ate	IH2 N V IH1 G ER0 IH0 T
+invigorated	in·vig·or·at·ed	IH2 N V IH1 G ER0 EY2 T IH0 D
+invigorating	in·vig·or·at·ing	IH2 N V IH1 G ER0 EY2 T IH0 NG
+invincibility	in·vin·ci·bil·i·ty	IH2 N V IH2 N S AH0 B IH1 L IH0 T IY0
+invincible	in·vin·ci·ble	IH2 N V IH1 N S AH0 B AH0 L
+inviolable	in·vi·o·la·ble	IH2 N V AY1 AH0 L AH0 B AH0 L
+inviolate	in·vi·o·late	IH2 N V AY1 AH0 L IH0 T
+invirase		IH2 N V AY1 R EY2 Z
+invisibility	in·vis·i·bil·i·ty	IH2 N V IH2 Z AH0 B IH1 L AH0 T IY0
+invisible	in·vis·i·ble	IH2 N V IH1 Z AH0 B AH0 L
+invisibles		IH2 N V IH1 Z AH0 B AH0 L Z
+invitation	in·vi·ta·tion	IH2 N V IH0 T EY1 SH AH0 N
+invitational	in·vi·ta·tion·al	IH2 N V AH0 T EY1 SH AH0 N AH0 L
+invitations		IH2 N V IH0 T EY1 SH AH0 N Z
+invite	in·vite	IH2 N V AY1 T
+invited	in·vit·ed	IH2 N V AY1 T AH0 D;IH2 N V AY1 T IH0 D
+invitee		IH2 N V AY0 T IY1
+invitees		IH2 N V AY0 T IY1 Z
+invites		IH2 N V AY1 T S
+inviting	in·vit·ing	IH2 N V AY1 T IH0 NG
+invitron		IH1 N V IH0 T R AA0 N
+invitron's		IH1 N V IH0 T R AA0 N Z
+invocation	in·vo·ca·tion	IH2 N V AH0 K EY1 SH AH0 N
+invoice	in·voice	IH1 N V OY0 S
+invoiced	in·voiced	IH0 N V OY1 S T
+invoices		IH1 N V OY0 S IH0 Z
+invoicing	in·voic·ing	IH1 N V OY2 S IH0 NG
+invoke	in·voke	IH2 N V OW1 K
+invoked	in·voked	IH2 N V OW1 K T
+invokes		IH2 N V OW1 K S
+invoking	in·vok·ing	IH2 N V OW1 K IH0 NG
+involuntarily	in·vol·un·tar·i·ly	IH2 N V OW0 L AH1 N T ER0 IH2 L IY0;IH2 N V AA2 L AH0 N T ER1 AH0 L IY0
+involuntary	in·vol·un·tar·y	IH2 N V AA1 L AH0 N T EH2 R IY0
+involve	in·volve	IH2 N V AA1 L V
+involved	in·volved	IH2 N V AA1 L V D
+involvement	in·volve·ment	IH2 N V AA1 L V M AH0 N T
+involvements		IH2 N V AA1 L V M AH0 N T S
+involves		IH2 N V AA1 L V Z
+involving	in·volv·ing	IH2 N V AA1 L V IH0 NG
+invulnerability	in·vul·ner·a·bil·i·ty	IH2 N V AH2 L N ER0 AH0 B IH1 L IH0 T IY0
+invulnerable	in·vul·ner·a·ble	IH2 N V AH1 L N ER0 AH0 B AH0 L
+inward	in·ward	IH1 N W ER0 D
+inwardly	in·ward·ly	IH1 N W ER0 D L IY0
+inwood		IH1 N W UH2 D
+iny		IH1 N IY0
+inyokern		IH2 N Y OW1 K ER0 N
+inzer		IH1 N Z ER0
+io	i·o	AY1 OW0
+iodice		AY1 AH0 D AY2 S;AY2 AH0 D IY1 S EY0
+iodide	i·o·dide	AY1 AH0 D AY2 D
+iodide's		AY1 AH0 D AY2 D Z
+iodides		AY1 AH0 D AY2 D Z
+iodine	i·o·dine	AY1 AH0 D AY2 N
+iola	i·o·la	AY0 OW1 L AH0
+iolande		IY0 OW0 L AA1 N D IY0
+iolanthe	i·o·lan·the	IY0 AH0 L AA1 N TH EY0
+iole	i·o·le	IY0 OW1 L IY0
+iomega		AY2 OW0 M EY1 G AH0
+ion	i·on	AY1 AH0 N;AY1 AA2 N
+iona	i·o·na	AY0 OW1 N AH0
+ionarde		IY0 AH0 N AA1 R D EY0
+ione		AY0 OW1 N IY0
+ionic	i·on·ic	AY2 AA1 N IH0 K
+ionics		AY2 AA1 N IH0 K S
+ionics's		AY2 AA1 N IH0 K S IH0 Z
+ionization	i·on·i·za·tion	AY2 AH0 N AH0 Z EY1 SH AH0 N
+ionize	i·on·ize	AY1 AH0 N AY2 Z
+ionizer	i·on·iz·er	AY1 AH0 N AY2 Z ER0
+ionizers		AY1 AH0 N AY2 Z ER0 Z
+ionizing	i·on·iz·ing	AY1 AH0 N AY2 Z IH0 NG
+ionosphere	i·on·o·sphere	AY2 AA1 N AO0 S F IY2 R
+ionospheric	i·on·o·spher·ic	AY2 AA2 N AO0 S F EH1 R IH0 K
+ions		AY1 AH0 N Z;AY1 AA2 N Z
+iorio		IY0 AO1 R IY0 OW2
+ios	i·os	IY1 OW0 S;AY1 OW0 S
+iosif		AY1 AH0 S IH0 F;Y EH1 S AH0 F
+iosue		AY0 OW1 S UW0
+iota	i·o·ta	AY2 OW1 T AH0
+iott		AY1 AH0 T
+iou	iou	AY2 OW2 Y UW1
+iovine		IY0 OW0 V IY1 N IY0
+iovino		IY0 OW0 V IY1 N OW0
+iowa	i·o·wa	AY1 AH0 W AH0;AY1 OW0 AH0
+iowa's		AY1 AH0 W AH0 Z;AY1 OW0 AH0 Z
+iowan		AY1 AH0 W AH0 N;AY1 OW0 AH0 N
+iowans		AY1 AH0 W AH0 N Z;AY1 OW0 AH0 N Z
+ip		AY1 P IY1;IH1 P
+ipad		AY1 P AE2 D
+ipad's		AY1 P AE2 D Z
+ipads		AY1 P AE2 D Z
+ipalco		IY0 P AE1 L K OW0
+ipalco's		IY0 P AE1 L K OW0 Z
+ipco		IH1 P K OW0
+iphegenia		IH2 F AH0 JH AH0 N AY1 AH0
+iphiginia		IH2 F AH0 JH IY0 N IY1 AH0;IH2 F AH0 JH IY0 N AY1 AH0
+iphone		AY1 F OW2 N
+iphones		AY1 F OW2 N Z
+ipock		IH1 P AH0 K
+ipod		AY1 P AA2 D
+ipods		AY1 P AA2 D Z
+ippolito		IH2 P OW0 L IY1 T OW0
+ipsco		IH1 P S K OW0
+ipsen		IH1 P S AH0 N
+iptay		IH1 P T EY0
+iq		AY1 K Y UW1
+iq's		AY1 K Y UW1 Z
+iqbal	iq·bal	IH1 K B AH0 L
+ira	ira/i·ra	AY1 R AH0;AY2 AA2 R EY1
+ira's		AY1 R AH0 Z
+iran	iran/i·ran	IH2 R AA1 N;AY2 R AE1 N
+iran's		IH2 R AE1 N Z;AY2 R AE1 N Z
+iranamok		AY2 R AH0 N AA1 M AA0 K
+irangate		IH2 R AA1 N G EY2 T
+irani	i·ra·ni	IH2 R AA1 N IY0
+iranian	i·ra·ni·an	IH2 R AA1 N IY0 AH0 N;AY0 R EY1 N IY0 AH0 N
+iranians		AY0 R EY1 N IY0 AH0 N Z;IH2 R AA1 N IY0 AH0 N Z
+iranians'		AY0 R EY1 N IY0 AH0 N Z
+iranscam		AY0 R AE1 N S K AE0 M
+iraq	i·raq	IH2 R AA1 K;IY2 R AA1 K;AY2 R AA1 K
+iraq's		IH2 R AA1 K S;IY2 R AA1 K S;AY2 R AA1 K S
+iraqgate		IH2 R AA1 K G EY2 T;IY2 R AA1 K G EY2 T;AY2 R AA1 K G EY2 T
+iraqi	i·ra·qi	IH2 R AE1 K IY0;IY2 R AE1 K IY0;AY2 R AE1 K IY0
+iraqi's		IH2 R AE1 K IY0 Z;IY2 R AE1 K IY0 Z;AY2 R AE1 K IY0 Z
+iraqis		IH2 R AE1 K IY0 Z;IY2 R AE1 K IY0 Z;AY2 R AE1 K IY0 Z
+iras		AY1 R AH0 Z;AY1 AA1 R EY1 Z
+irascible	i·ras·ci·ble	IH2 R AE1 S IH0 B AH0 L
+irascibly	i·ras·ci·bly	IH2 R AE1 S IH0 B L IY0
+irate	i·rate	AY0 R EY1 T
+irbinna		ER0 B IH1 N AH0
+irby		ER1 B IY0
+ire	ire	AY1 R
+ireene		AY0 R IY1 N
+irelan		IH2 R EY0 L AA1 N
+ireland	ire·land	AY1 ER0 L AH0 N D;AY1 R L AH0 N D
+ireland's		AY1 R L AH0 N D Z
+irelands		AY1 R L AH0 N D Z
+irell		AY0 R EH1 L
+irena	i·re·na	IH2 R EY1 N AH0
+irene	i·re·ne	AY0 R IY1 N
+irene's		AY2 R IY1 N Z
+ireson		IH1 R IH0 S AH0 N;AY1 ER0 S AH0 N
+ireta		IH2 R EY1 T AH0
+ireton	ire·ton	IH1 R IH0 T AA0 N;AY1 ER0 T AH0 N
+iretta		IH2 R EH1 T AH0
+irette		IH2 R EH1 T
+irey		AY1 R IY0
+irian		AY1 R IY0 AH0 N
+irianese		AY0 R IY1 AH0 N IY2 S
+irick		IH1 R IH0 K
+iridescent	ir·i·des·cent	IH2 R AH0 D EH1 S AH0 N T
+iridium	i·rid·i·um	IH2 R IH1 D IY0 AH0 M
+irimajiri		AY0 R IY2 M AH0 JH IH1 R IY0
+irina	i·ri·na	IH2 R IY1 N AH0
+iris	i·ris	AY1 R AH0 S;AY1 R IH0 S
+irises	i·ris·es	AY1 R AH0 S IH0 Z
+irish	i·rish	AY1 R IH0 SH
+irishman	i·rish·man	AY1 R IH0 SH M AH0 N
+irishness		AY1 R IH0 SH N IH0 S
+irit		IH1 R IH0 T;AY1 AA1 R AY1 T IY1
+irizarry		IH1 R IH0 Z AE0 R IY0
+irk	irk	ER1 K
+irked		ER1 K T
+irks		ER1 K S
+irksome	irk·some	ER1 K S AH0 M
+irkutsk	ir·kutsk	ER0 K UH1 T S K;IH2 R K UH1 T S K
+irlbeck		ER1 L B EH0 K
+irma	ir·ma	ER1 M AH0
+irma's		ER1 M AH0 Z
+iron	i·ron	AY1 ER0 N
+ironclad	i·ron·clad	AY1 ER0 N K L AE2 D
+ironed		AY1 ER0 N D
+ironic	i·ron·ic	AY0 R AA1 N IH0 K
+ironical	i·ron·i·cal	AY0 R AA1 N IH0 K AH0 L
+ironically	i·ron·i·cal·ly	AY0 R AA1 N IH0 K L IY0
+ironies		AY1 R AH0 N IY0 Z
+ironing	i·ron·ing	AY1 ER0 N IH0 NG;AY1 R N IH0 NG
+ironize	i·ro·nize	AY1 ER0 N AY2 Z
+ironized		AY1 ER0 N AY2 Z D
+ironizer		AY1 ER0 N AY2 Z ER0
+ironizes		AY1 ER0 N AY2 Z IH0 Z
+ironizing		AY1 ER0 N AY2 Z IH0 NG
+irons	i·rons	AY1 ER0 N Z
+ironside	i·ron·side	AY1 ER0 N S AY2 D
+ironsides	i·ron·sides	AY1 ER0 N S AY2 D Z
+ironton	i·ron·ton	AY1 R N T AH0 N
+ironwood	i·ron·wood	AY1 ER0 N W UH2 D
+ironwood's		AY1 ER0 N W UH2 D Z
+irony	i·ron·y/i·ro·ny	AY1 R AH0 N IY0
+iroquois	ir·o·quois	IH1 R AH0 K W OY2
+irradiate	ir·ra·di·ate	IH2 R EY1 D IY0 EY2 T
+irradiated	ir·ra·di·at·ed	IH2 R EY1 D IY0 EY2 T IH0 D
+irradiation	ir·ra·di·a·tion	IH2 R EY2 D IY0 EY1 SH AH0 N
+irrational	ir·ra·tion·al	IH2 R AE1 SH AH0 N AH0 L
+irrationality	ir·ra·tion·al·i·ty	IH2 R AE2 SH AH0 N AE1 L AH0 T IY0
+irrationally	ir·ra·tion·al·ly	IH2 R AE1 SH AH0 N AH0 L IY0;IH2 R AE1 SH N AH0 L IY0
+irrawaddy	ir·ra·wad·dy	IH1 R AH0 W AA2 D IY0
+irreconcilable	ir·rec·on·cil·a·ble	IH2 R EH1 K AH0 N S AY2 L AH0 B AH0 L
+irredentism	ir·re·den·tism	IH2 R AH0 D EH1 N T IH0 Z AH0 M
+irrefutable	ir·ref·u·ta·ble	IH2 R AH0 F Y UW1 T AH0 B AH0 L
+irregardless	ir·re·gard·less	IH2 R AH0 G AA1 D L AH0 S
+irregular	ir·reg·u·lar	IH2 R EH1 G Y AH0 L ER0
+irregularities		IH2 R EH0 G Y AH0 L EH1 R AH0 T IY0 Z
+irregularity	ir·reg·u·lar·i·ty	IH2 R EH2 G Y AH0 L EH1 R AH0 T IY0
+irregularly	ir·reg·u·lar·ly	IH2 R EH1 G Y AH0 L ER0 L IY0
+irregulars		IH2 R EH1 G Y AH0 L ER0 Z
+irrelevance	ir·rel·e·vance	IH2 R EH1 L AH0 V AH0 N S
+irrelevancy	ir·rel·e·van·cy	IH2 R EH1 L AH0 V AH0 N S IY0
+irrelevant	ir·rel·e·vant	IH2 R EH1 L AH0 V AH0 N T
+irremediable	ir·re·me·di·a·ble	IH2 R IH0 M IY1 D IY0 AH0 B AH0 L
+irreparable	ir·rep·a·ra·ble	IH2 R EH1 P ER0 AH0 B AH0 L
+irreparably	ir·rep·a·ra·bly	IH2 R EH1 P ER0 AH0 B L IY0
+irreplaceable	ir·re·place·a·ble	IH2 R AH0 P L EY1 S AH0 B AH0 L
+irrepressible	ir·re·press·i·ble	IH2 R AH0 P R EH1 S AH0 B AH0 L
+irresistible	ir·re·sist·i·ble	IH2 R IH0 Z IH1 S T AH0 B AH0 L
+irresistibly	ir·re·sist·i·bly	IH2 R IH0 Z IH1 S T AH0 B L IY0
+irrespective	ir·re·spec·tive	IH2 R AH0 S P EH1 K T IH0 V
+irresponsibility	ir·re·spon·si·bil·i·ty	IH2 R AH0 S P AA2 N S AH0 B IH1 L AH0 T IY0
+irresponsible	ir·re·spon·si·ble	IH2 R AH0 S P AA1 N S AH0 B AH0 L
+irresponsibly	ir·re·spon·si·bly	IH2 R AH0 S P AA1 N S AH0 B L IY0
+irretrievably	ir·re·triev·a·bly	IH2 R AH0 T R IY1 V AH0 B L IY0
+irreverence	ir·rev·er·ence	IH2 R EH1 V ER0 AH0 N S
+irreverent	ir·rev·er·ent	IH2 R EH1 V ER0 AH0 N T
+irreversible	ir·re·vers·i·ble	IH2 R IH0 V ER1 S AH0 B AH0 L
+irreversibly	ir·re·vers·i·bly	IH2 R IH0 V ER1 S AH0 B L IY0
+irrevocable	ir·rev·o·ca·ble	IH2 R EH1 V AH0 K AH0 B AH0 L
+irrevocably	ir·rev·o·ca·bly	IH2 R EH1 V AH0 K AH0 B L IY0;IH2 R EH2 V OW1 K AH0 B L IY0
+irrigate	ir·ri·gate	IH1 R AH0 G EY2 T
+irrigated	ir·ri·gat·ed	IH1 R AH0 G EY2 T IH0 D
+irrigation	ir·ri·ga·tion	IH2 R AH0 G EY1 SH AH0 N
+irrigator	ir·ri·ga·tor	IH1 R AH0 G EY2 T ER0
+irrigators		IH1 R AH0 G EY2 T ER0 Z
+irritability	ir·ri·ta·bil·i·ty	IH2 R IH0 T AH0 B IH1 L AH0 T IY0
+irritable	ir·ri·ta·ble	IH1 R AH0 T AH0 B AH0 L
+irritant	ir·ri·tant	IH1 R AH0 T AH0 N T
+irritants		IH1 R AH0 T AH0 N T S
+irritate	ir·ri·tate	IH1 R IH0 T EY2 T
+irritated	ir·ri·tat·ed	IH1 R AH0 T EY2 T AH0 D
+irritates		IH1 R IH0 T EY2 T S
+irritating	ir·ri·tat·ing	IH1 R AH0 T EY2 T IH0 NG
+irritation	ir·ri·ta·tion	IH2 R IH0 T EY1 SH AH0 N
+irritations		IH2 R IH0 T EY1 SH AH0 N Z
+irs		AY1 AA2 R EH1 S
+irv		ER1 V
+irve		ER1 V;AY1 AA1 R V IY1 IY1
+irvette		ER0 V EH1 T
+irvin	ir·vin	ER1 V IH0 N
+irvine	ir·vine	ER1 V AY0 N
+irving	ir·ving	ER1 V IH0 NG
+irving's		ER1 V IH0 NG Z
+irwin	ir·win	ER1 W AH0 N;ER1 W IH0 N
+irwindale		ER1 W IH0 N D EY2 L
+is	i·s	IH1 Z;IH0 Z
+isa		IY1 S AH0
+isaac	i·saac/i·sa·ac	AY1 Z AH0 K;AY1 Z IH0 K
+isaacks		IH1 S AA0 K S
+isaacs	i·saacs	AY1 Z IH0 K S
+isaacson		AY1 Z IH0 K S AH0 N
+isaak		IH2 S AA1 K;AY1 Z AE0 K
+isabel	is·a·bel	IH1 Z AH0 B EH2 L
+isabell		IH2 S AA0 B EH1 L
+isabella	is·a·bel·la	IH2 Z AH0 B EH1 L AH0
+isabelle	is·a·belle	IH1 Z AH0 B EH2 L
+isackson		IH1 S AH0 K S AH0 N
+isadore	is·a·dore	IH2 S AA0 D AO1 R EY0;IH1 S AA0 D AO0 R
+isaiah	i·sai·ah/i·sa·iah	AY2 Z EY1 AH0
+isaksen		IH1 S AH0 K S AH0 N
+isakson		IH1 S AH0 K S AH0 N
+isaly		AY1 Z L IY0;AY1 S L IY0
+isautier		AY0 S AO1 T Y ER0
+isay		AY1 S EY2
+isbell		IH1 S B EH0 L
+isbill		IH2 S B IH1 L
+isbn	isbn	AY2 EH2 S B IY2 EH1 N
+iscariot	is·car·i·ot	IH2 S K EH1 R IY0 AH0 T
+isch		IH1 SH
+ischemia	is·che·mi·a	IH2 S K EH1 M IY2 AH0
+ischemic	is·che·mic	IH2 S K EH1 M IH0 K
+ischo		IY1 SH OW0
+ise		AY1 Z
+iselin		IH1 S IH0 L IH0 N
+iseman		AY1 S M AH0 N
+iseminger		IH1 S IY0 M IH0 NG ER0
+isenberg		AY1 Z AH0 N B ER0 G
+isenhart		AY1 Z AH0 N HH AA2 R T
+isenhour		IH1 S IH0 N AW0 R
+isenhower		IH1 S IH0 N HH OW0 ER0
+isensee		AY1 Z AH0 N S IY2
+isentrope	is·en·trope	AY1 Z AH0 N T R OW2 P
+isentropic	is·en·trop·ic	AY2 Z AH0 N T R AA1 P AH0 K
+iser		AY1 Z ER0
+isetan		IH1 S IH0 T AH0 N
+isgrigg		IH2 S G R IH1 G
+isgro		IY1 S G R OW0
+isgur		IH1 S G ER0
+ish		IH1 SH
+isham		IH1 SH AH0 M
+ishaq		IH1 SH AE0 K
+ishee		IH1 SH IY0
+isherwood	ish·er·wood	IH1 SH ER0 W UH2 D
+ishi		IH1 SH IY0
+ishi's		IH1 SH IY0 Z
+ishibashi		IH2 SH IY2 B AA1 SH IY2
+ishida		IH2 SH IY1 D AA2
+ishihara		IH2 SH IY2 HH AA1 R AA2
+ishii		IH2 SH IY1 IY2
+ishikawa		IH2 SH IY2 K AA1 W AA2
+ishikawajima		IY2 SH IH2 K AA2 W AH0 JH IY1 M AA2
+ishikura		IH2 SH IH0 K UH1 R AA2
+ishimura		IY2 SH IH0 M UW1 R AA2
+ishler		IH1 SH L ER0
+ishmael	ish·ma·el	IH1 SH M IY0 L;IH1 SH M EY0 L
+ishmail		IH1 SH M EY0 L
+ishman		IH1 SH M AH0 N
+ishtar	ish·tar	IH1 SH T AA0 R
+isidore	is·i·dore	IH1 Z IH0 D AO2 R
+isikoff		IH1 Z AH0 K AO0 F
+isis	i·sis	AY1 S AH0 S
+iskra		IH1 S K R AH0
+isla		IY1 L AH0
+islam	is·lam	IH2 S L AA1 M;IH1 Z L AH0 M;IH1 S L AA2 M
+islam's		IH2 S L AA1 M Z;IH1 S L AA2 M Z
+islamabad	is·lam·a·bad	IH2 S L AE1 M AH0 B AE0 D
+islamabad's		IH2 S L AE1 M AH0 B AE0 D Z
+islami		IH2 Z L AA1 M IY0
+islamic	is·lam·ic	IH2 Z L AA1 M IH0 K
+islamically		IH2 Z L AA1 M IH0 K L IY0
+islamist		IH1 S L AH0 M IH0 S T
+islamists		IH1 S L AH0 M IH0 S T S
+islamiya		IH2 S L AA1 M IY0 AH0
+islamization	is·lam·i·za·tion	IH2 Z L AA0 M AH0 Z EY1 SH AH0 N
+island	is·land	AY1 L AH0 N D
+island's		AY1 L AH0 N D Z
+islander	is·land·er	AY1 L AH0 N D ER0
+islanders		AY1 L AH0 N D ER0 Z
+islandia		AY2 L AE1 N D IY0 AH0
+islands		AY1 L AH0 N D Z
+islands'		AY1 S L AH0 N D Z
+islas		AY1 L AH0 Z
+isle	isle	AY1 L
+isleen		AY1 L IY0 N
+isler		AY1 L ER0
+isles		AY1 L Z
+islet	is·let	AY1 L IH0 T
+islets		AY1 L IH0 T S
+isley		AY1 Z L IY0
+islip		AY1 S L IH0 P
+ism	ism	IH1 Z AH0 M
+ismael	is·ma·el	IH1 S M EY0 L
+ismail		IH1 S M EY0 L
+isms		IH1 Z AH0 M Z
+isn't	isn't/is·n't	IH1 Z AH0 N T;IH0 Z AH0 N T;IH1 Z AH0 N
+isner		IH1 S N ER0
+isobel		AY1 S AO0 B EH2 L
+isocyanate	i·so·cy·a·nate	AY2 S AH0 S AY1 AH0 N EY2 T
+isoda		IY2 S OW1 D AH0
+isoelectronic	i·so·e·lec·tron·ic	AY2 S OW0 IH0 L EH0 K T R AA1 N IH0 K;AY2 S OW0 IY0 L EH0 K T R AA1 N IH0 K
+isoetec		AY1 S OW0 T EH2 K
+isogenic		AY2 S OW0 JH EH1 N AH0 K
+isola		AY0 S AA1 L AH0
+isolate	i·so·late	AY1 S AH0 L EY2 T
+isolated	i·so·lat·ed	AY1 S AH0 L EY2 T AH0 D;AY1 S AH0 L EY2 T IH0 D
+isolates		AY1 S AH0 L EY2 T S
+isolating	i·so·lat·ing	AY1 S AH0 L EY2 T IH0 NG
+isolation	i·so·la·tion	AY2 S AH0 L EY1 SH AH0 N
+isolationism	i·so·la·tion·ism	AY2 S AH0 L EY1 SH AH0 N IH2 Z AH0 M
+isolationist	i·so·la·tion·ist	AY2 S AH0 L EY1 SH AH0 N AH0 S T
+isolationists		AY2 S AH0 L EY1 SH AH0 N IH0 S T S;AY2 S AH0 L EY1 SH AH0 N IH0 S
+isolde	i·solde/i·sol·de	IH0 S OW1 L D AH0;IH1 S OW0 L D
+isom		AY1 S AH0 M
+isomedix		AY2 S OW0 M EH1 D IH0 K S
+isomedix's		AY2 S OW0 M EH1 D IH0 K S IH0 Z;AY2 S OW0 M EH1 D IH0 K S
+isomer	i·so·mer	AY1 S AH0 M ER0
+isomers		AY1 S AH0 M ER0 Z
+isomorphism	i·so·mor·phism	AY2 S AH0 M AO1 R F IH0 Z AH0 M
+ison		IH1 S AH0 N
+isoprinosine		IH2 S AH0 P R IH1 N AH0 S IY2 N
+isosceles	i·sos·ce·les	AY0 S AO1 S AH0 L IY2 Z
+isothermal	i·so·ther·mal	AY2 S AH0 TH ER1 M AH0 L
+isotoner		IH1 Z OW0 T AH2 N ER0;AY1 S OW0 T OW2 N ER0
+isotonic	i·so·ton·ic	AY2 S AH0 T AA1 N IH0 K
+isotope	i·so·tope	AY1 S AH0 T OW2 P
+isotopes		AY1 S AH0 T OW2 P S
+isotopic	i·so·top·ic	AY2 S AH0 T AA1 P IH0 K
+isoxicam		IH2 S AA1 K S IH0 K AH0 M
+ispra		IH1 S P R AH0
+israel	is·ra·el	IH1 Z R IY0 AH0 L;IH1 Z R EY0 L
+israel's		IH1 Z R EY0 L Z;IH1 Z R IY0 AH0 L Z
+israeli	is·rae·li	IH2 Z R EY1 L IY0
+israeli's		IH2 Z R EY1 L IY0 Z
+israelis		IH2 Z R EY1 L IY0 Z
+israelis'		IH2 Z R EY1 L IY0 Z
+israelite	is·ra·el·ite	IH1 Z R AH0 L AY2 T
+israelites		IH1 Z R AH0 L AY2 T S
+israeloff		IH2 S R EY1 L AO0 F
+israelson		IH1 S R EH0 L S AH0 N
+israhi		IH2 Z R AA1 HH IY0
+isringhouser		IH1 S R IH0 NG HH AW2 Z ER0
+issa		IH1 S AH0
+issac		IH1 S AH0 K;AY1 Z IH0 K
+issah		IH1 S AH0
+issam		IH1 S AH0 M
+issar		IY1 S AA2 R
+issie		IH1 S IY0
+issing		IH1 S IH0 NG
+issuable	is·su·a·ble	IH1 SH UW0 AH0 B AH0 L
+issuance	is·su·ance	IH1 SH UW0 AH0 N S
+issuances		IH1 SH UW0 AH0 N S IH0 Z
+issue	is·sue	IH1 SH UW0
+issue's		IH1 SH UW0 Z
+issued	is·sued	IH1 SH UW0 D
+issueless	is·sue·less	IH1 SH UW0 L AH0 S
+issuer	is·su·er	IH1 SH UW0 ER0
+issuer's		IH1 SH UW0 ER0 Z
+issuers		IH1 SH UW0 ER0 Z
+issuers'		IH1 S UW0 R Z
+issues		IH1 SH UW0 Z
+issues'		IH1 S UW0 Z
+issuing	is·su·ing	IH1 SH UW0 IH0 NG
+issy		IH1 S IY0
+istanbul	is·tan·bul	IH2 S T AA0 N B UW1 L
+istat		IH1 S T AE0 T
+istel		IH1 S T EH0 L
+istel's		IH1 S T EH0 L Z
+isthmus	isth·mus	IH1 S M AH0 S
+istituto		IH2 S T IH0 T UW1 T OW0
+istook		IH1 S T UH2 K
+istre		IH1 S T ER0
+isty		IH1 S T IY0;AY1 EH1 S T IY1 W AY1
+isu		IH1 S UW2;AY1 EH1 S Y UW1
+isuzu		IH2 S UW1 Z UW2
+it		IH1 T;IH0 T
+it'd		IH1 T AH0 D
+it'll	it'll	IH1 T AH0 L;IH1 T L
+it's	it's	IH1 T S;IH0 T S
+it-wit		IH1 T W IH1 T
+ita	ita/it·a	AY1 T AH0;AY1 T IY1 EY1
+italia	i·ta·lia	IY0 T AE1 L IY0 AH0;IH2 T AE1 L Y AH0
+italian	i·tal·ian	IH2 T AE1 L Y AH0 N
+italiana		IH2 T AE2 L IY0 AE1 N AH0
+italianate	i·tal·ian·ate	IH2 T AE1 L Y AH0 N EY2 T
+italiano		IH2 T AA0 L IY0 AA1 N OW0
+italians		IH2 T AE1 L Y AH0 N Z
+italic	i·tal·ic	AY0 T AE1 L IH0 K
+italics		AY0 T AE1 L IH0 K S
+italish		IH2 T AE1 L IH0 SH
+italtel		IH2 T AE1 L T EH2 L
+italy	it·a·ly	IH1 T AH0 L IY0
+italy's		IH1 T AH0 L IY0 Z
+itamar		IY1 T AH0 M AA2 R
+itami		IH2 T AA1 M IY2
+itar		IY1 T AA2 R
+itasca	i·tas·ca	AY0 T AE1 S K AA0
+itch	itch	IH1 CH
+itches		IH1 CH AH0 Z;IH1 CH IH0 Z
+itching	itch·ing	IH1 CH IH0 NG
+itchy	itch·y	IH1 CH IY0
+itek		AY1 T EH2 K
+itel		AY1 T EH2 L
+item	i·tem	AY1 T AH0 M
+itemize	i·tem·ize	AY1 T AH0 M AY2 Z
+itemized	i·tem·ized	AY1 T AH0 M AY2 Z D
+itemizer	i·tem·iz·er	AY1 T AH0 M AY2 Z ER0
+itemizers		AY1 T AH0 M AY2 Z ER0 Z
+itemizes		AY1 T AH0 M AY2 Z IH0 Z
+itemizing	i·tem·iz·ing	AY1 T AH0 M AY2 Z IH0 NG
+items		AY1 T AH0 M Z
+iten		AY1 T AH0 N
+iteration	it·er·a·tion	IH2 T ER0 EY1 SH AH0 N
+iterations		IH2 T AH0 R EY1 SH AH0 N Z
+iterative	it·er·a·tive	IH1 T ER0 EY2 T IH0 V
+ithaca	ith·a·ca	IH1 TH AH0 K AH0
+ithaca's		IH1 TH AH0 K AH0 Z
+itinerant	i·tin·er·ant	AY0 T IH1 N ER0 AH0 N T
+itineraries	i·tin·er·ar·ies	AY0 T IH1 N ER0 EH2 R IY0 Z
+itinerary	i·tin·er·ar·y	AY0 T IH1 N ER0 EH2 R IY0
+itkin		IH2 T K IH1 N
+ito	ito/i·to	IY1 T OW0;IY1 T OW2
+ito's		IY1 T OW0 Z;IY1 T OW2 Z
+itochu		IY2 T OW1 CH UW2
+itoh		IY1 T OW0
+its	its	IH1 T S;IH0 T S
+itself	it·self	IH2 T S EH1 L F
+itstee		IH1 T S T IY0
+itsy		IH1 T S IY0
+itsy-bitsy	it·sy-bit·sy	IH2 T S IY0 B IH1 T S IY0
+ittner		IH1 T N ER0
+itty		IH1 T IY0
+itty-bitty	it·ty-bit·ty	IH2 T IY0 B IH1 T IY0
+itunes		AY1 T UW2 N Z
+itzhak	itz·hak	IH1 T S AA0 K;IH1 T S AE0 K;IH1 T S HH AE0 K
+itzkowitz		IH1 T S K AH0 W IH0 T S
+iuliano		IY0 UW0 L IY0 AA1 N OW0;Y UW0 L IY0 AA1 N OW0
+iva		IY1 V AH0
+ivaco		AY1 V AH0 K OW2
+ivan	i·van	AY1 V AH0 N
+ivana		IH2 V AA1 N AH0
+ivancic		IH2 V AE1 NG K IH0 K
+ivane		IH1 V AH0 N
+ivanhoe	i·van·hoe	AY1 V AH0 N HH OW2
+ivanko		IY0 V AA1 N K OW0
+ivanna		IH2 V AA1 N AH0
+ivanoff		IH1 V AH0 N AO0 F
+ivanov	i·va·nov	IH1 V AH0 N AA0 V
+ivanyenko		AY2 V AH0 N Y EH1 N K OW0
+ivar	i·var	IH1 V ER0
+ivatans		AY1 V AH0 T AH0 N Z
+ivax		AY1 V AE0 K S
+iven		AY1 V AH0 N
+ivens		AY1 V AH0 N Z
+iver		AY1 V ER0
+ivern		AY1 V ER0 N
+ivers		AY1 V ER0 Z
+iversen		IH2 V ER1 S AH0 N
+iverson		AY1 V ER0 S AH0 N
+ivery		AY1 V ER0 IY0
+ives	ives	AY1 V Z
+ivester		AY2 V EH1 S T ER0
+ivey		AY1 V IY0
+ivie		AY1 V IY0
+ivins		IH1 V IH0 N Z
+ivo		AY1 V OW2
+ivor	i·vor	AY1 V ER0
+ivorian		AY0 V AO1 R IY0 AH0 N
+ivorians		AY0 V AO1 R IY0 AH0 N Z
+ivory	i·vo·ry	AY1 V ER0 IY0;AY1 V R IY0
+ivory-coast		AY1 V ER0 IY0 K OW1 S T;AY1 V R IY0 K OW1 S T
+ivy	i·vy	AY1 V IY0
+iwai		AY0 W AY1
+iwaki		AY0 W AA1 K IY0
+iwamoto		IH2 W AA2 M OW1 T OW2
+iwan		IY1 W AA0 N
+iwanicki		IH2 V AH0 N IH1 T S K IY2
+iwanski		IH2 V AE1 N S K IY2
+iwasaki		IY2 W AA2 S AA1 K IY2
+iwata		IH0 W AA1 T AA2
+iwate		AY0 W EY1 T
+iwen		IH1 W AH0 N
+iwerks		AY1 W ER2 K S
+iwinski		IH2 V IH1 N S K IY2
+iwo	i·wo	AY1 W OW0
+iwosaki		AY2 W AH0 S AA1 K IY0
+ixion	ix·i·on	IH0 K S AY1 AH0 N
+iyer		AY1 ER0
+izaguirre		IH0 Z AH0 G W IH1 R EY0;IH1 Z AH0 G W AY2 R
+izansky		IH0 Z AE1 N S K IY0
+izansky's		IH0 Z AE1 N S K IY0 Z
+izard	iz·ard	IH1 Z ER0 D
+izatt		IY1 Z AA0 T
+izetbegovic		IH2 Z EH0 T B EH1 G OW0 V IH2 CH
+izetbegovic's		IH2 Z EH0 T B EH1 G OW0 V IH2 CH IH0 Z
+izod		AY1 Z AA0 D
+izquierdo		IH0 Z K W IH1 R D OW0
+izumi		IH0 Z UW1 M IY0
+izvestia	iz·ves·ti·a	IH0 Z V EH1 S T IY0 AH0
+izzard	iz·zard	IH1 Z ER0 D
+izzi		IH1 Z IY0
+izzo		IH1 Z OW0
+izzy		IH1 Z IY0
+izzy's		IH1 Z IY0 Z
