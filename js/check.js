@@ -112,6 +112,11 @@
     if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) return Promise.reject(new Error('この画面ではマイクの機能が使えません'));
     return navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } }).then(function (s) { micStream = s; return s; });
   }
+  // 使い終わったらマイクを切る（iPad右上のオレンジの点を消す）
+  function releaseMic() {
+    if (micStream) { micStream.getTracks().forEach(function (t) { t.stop(); }); micStream = null; }
+  }
+  window.addEventListener('pagehide', releaseMic);
   $('btn-mic').onclick = function () {
     var c = ctx();
     note('マイク', '許可を待っています…');
@@ -128,11 +133,13 @@
         if (Date.now() - t0 < 5000) requestAnimationFrame(loop);
         else {
           $('meter').style.width = '0';
+          releaseMic();
           if (peak > 0.15) set('マイク', 'ok', 'マイクが使え、声も入りました（最大音量 ' + peak.toFixed(2) + '）');
           else set('マイク', 'mid', 'つながりましたが、声がほとんど入りませんでした（最大音量 ' + peak.toFixed(2) + '）');
         }
       })();
     }).catch(function (e) {
+      releaseMic();
       set('マイク', 'ng', errText(e) + (e && e.name === 'NotAllowedError' ? '（許可されませんでした）' : ''));
     });
   };
@@ -146,7 +153,7 @@
         var mr = new MediaRecorder(stream, type ? { mimeType: type } : undefined), chunks = [];
         mr.ondataavailable = function (e) { if (e.data && e.data.size) chunks.push(e.data); };
         mr.onerror = function (e) { rej(e.error || e); };
-        mr.onstop = function () { res(new Blob(chunks, { type: mr.mimeType || type })); };
+        mr.onstop = function () { releaseMic(); res(new Blob(chunks, { type: mr.mimeType || type })); };
         mr.start();
         setTimeout(function () { mr.stop(); }, ms);
       });
@@ -195,6 +202,7 @@
       note('お手本→録音', steps.join('／') + '（全体 ' + ((Date.now() - t0) / 1000).toFixed(1) + '秒）\nお手本と自分の声が聞こえたかを押してください');
       R['お手本→録音'] = '△ ' + steps.join('／') + '（聞こえたかは未回答）'; summary();
     }).catch(function (e) {
+      releaseMic();
       set('お手本→録音', 'ng', steps.join('／') + ' のあとで失敗：' + errText(e));
     }).then(function () { b.disabled = false; });
   };
@@ -280,7 +288,7 @@
     if (!('serviceWorker' in navigator)) { set('アプリ本体の保存', 'ng', 'この端末では使えません（Service Workerなし）'); return; }
     var was = !!navigator.serviceWorker.controller;
     navigator.serviceWorker.register('sw.js').then(function () { return navigator.serviceWorker.ready; }).then(function () {
-      return caches.open('check-shell-v1').then(function (c) { return c.keys(); });
+      return caches.open('check-shell-v2').then(function (c) { return c.keys(); });
     }).then(function (keys) {
       var txt = '保存したファイル：' + keys.length + '個\n' + (was ? '今回は保存したアプリ本体から開きました。' : '初回です。もう一度読み込むと、保存したアプリ本体から開きます。') + '\n開き方：' + mode;
       set('アプリ本体の保存', was ? 'ok' : 'mid', txt);

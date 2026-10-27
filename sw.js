@@ -1,6 +1,6 @@
 // アプリ本体を端末に保存して、2回目から速く（電波が弱くても）開けるようにする
 // 判定用AI（別の保存場所）はここでは消さない
-const SHELL = 'check-shell-v1';
+const SHELL = 'check-shell-v2';
 const FILES = [
   './', './index.html', './config.js', './css/check.css', './js/check.js', './workers/ai-worker.js',
   './vendor/ort/ort.wasm.min.js', './vendor/ort/ort-wasm-simd-threaded.mjs', './vendor/ort/ort-wasm-simd-threaded.wasm',
