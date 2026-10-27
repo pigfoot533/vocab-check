@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<base target="_top">
+<meta charset="utf-8">
+<style>
+  body { font-family: -apple-system, "Hiragino Sans", sans-serif; padding: 24px 16px; text-align: center; color: #1f2328; background: #f6f7f9; }
+  .card { background: #fff; border: 1px solid #d0d7de; border-radius: 12px; padding: 24px 16px; max-width: 480px; margin: 0 auto; }
+  a.btn { display: inline-block; margin-top: 16px; padding: 14px 28px; border-radius: 10px; background: #0969da; color: #fff; text-decoration: none; font-size: 18px; }
+  .muted { color: #57606a; font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="card">
+<? if (ok) { ?>
+  <p><strong><?= email ?></strong> でログインしました。</p>
+  <a class="btn" href="<?= backUrl ?>" target="_top">アプリに戻る</a>
+  <p class="muted">ボタンを押すと、アプリに戻ります。</p>
+<? } else { ?>
+  <p>ログインできませんでした。</p>
+  <p class="muted"><?= reason ?></p>
+<? } ?>
+</div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>動作確認（案A）</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-512.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="stylesheet" href="css/check.css">
+</head>
+<body>
+<h1>英単語アプリ 動作確認（案A）</h1>
+<div class="muted">上から順にボタンを押してください。最後の「結果を送る」で、先生のスプレッドシートに記録されます。</div>
+
+<div class="card">
+  <h2>0. 環境</h2>
+  <div class="out" id="env"></div>
+</div>
+
+<div class="card">
+  <h2>1. ログイン <span class="st" id="st-ログイン">未実施</span></h2>
+  <div class="muted">学校のGoogleアカウントでログインします。ログイン画面で「アプリに戻る」を押すと、この画面に戻ってきます。</div>
+  <button class="main" id="btn-login">ログインする</button>
+  <button id="btn-logout">ログアウト</button>
+  <div class="out" id="out-ログイン"></div>
+</div>
+
+<div class="card">
+  <h2>2. 記録の送信（GAS） <span class="st" id="st-記録の送信">未実施</span></h2>
+  <div class="muted">記録を1回送ったあと、続けて10回まとめて送ります（多くの生徒が同時に使ったときの確認）。</div>
+  <button class="main" id="btn-send">送信を試す</button>
+  <div class="out" id="out-記録の送信"></div>
+</div>
+
+<div class="card" id="card-form">
+  <h2>3. 記録の送信（Googleフォーム・任意） <span class="st" id="st-フォーム送信">未実施</span></h2>
+  <div class="muted">設定したときだけ試します。届いたかどうかは、この画面では分かりません。フォームの回答シートで確認してください。</div>
+  <button id="btn-form">フォームに送る</button>
+  <div class="out" id="out-フォーム送信"></div>
+</div>
+
+<div class="card">
+  <h2>4. マイク <span class="st" id="st-マイク">未実施</span></h2>
+  <div class="muted">押して「許可」を選び、何か声を出してください（緑のバーが動けば成功）。</div>
+  <button class="main" id="btn-mic">マイクを試す</button>
+  <div class="meter"><div id="meter"></div></div>
+  <div class="out" id="out-マイク"></div>
+</div>
+
+<div class="card">
+  <h2>5. 録音 <span class="st" id="st-録音">未実施</span></h2>
+  <div class="muted">3秒間録音して、そのまま再生します。「apple」と言ってください。</div>
+  <button class="main" id="btn-rec">3秒録音する</button>
+  <div class="out" id="out-録音"></div>
+</div>
+
+<div class="card">
+  <h2>6. お手本のあとに続けて録音 <span class="st" id="st-お手本→録音">未実施</span></h2>
+  <div class="muted">ボタン1回で、お手本（apple）が鳴り、終わると自動で録音が始まります。お手本が聞こえたら「apple」と言ってください。録音は最後に再生されます。</div>
+  <button class="main" id="btn-chain">聞いて言う</button>
+  <button id="btn-chain-yes">お手本も自分の声も聞こえた</button>
+  <button id="btn-chain-no">どちらかが聞こえない</button>
+  <div class="out" id="out-お手本→録音"></div>
+</div>
+
+<div class="card">
+  <h2>7. 計算の仕組み <span class="st" id="st-計算の仕組み">未実施</span></h2>
+  <div class="muted">発音判定に必要なブラウザの機能と、判定用プログラムの置き場所を確かめます（自動）。</div>
+  <div class="out" id="out-計算の仕組み"></div>
+</div>
+
+<div class="card">
+  <h2>8. 端末への保存 <span class="st" id="st-保存">未実施</span></h2>
+  <div class="muted">開くたびに記録を残します。<strong>翌日にもう一度開いて</strong>、前回の記録が残っているか確かめてください。</div>
+  <button id="btn-persist">保存を消されにくくする</button>
+  <div class="out" id="out-保存"></div>
+</div>
+
+<div class="card">
+  <h2>9. アプリ本体の保存・ホーム画面 <span class="st" id="st-アプリ本体の保存">未実施</span></h2>
+  <div class="muted">アプリ本体（判定用プログラム約11MBを含む）を端末に保存します。ホーム画面に追加して開いた場合も確かめてください。</div>
+  <div class="out" id="out-アプリ本体の保存"></div>
+</div>
+
+<div class="card">
+  <h2>10. 判定用AIのダウンロード（約116MB） <span class="st" id="st-AIのダウンロード">未実施</span></h2>
+  <div class="muted">必ずWi-Fiで。Hugging Faceから読み込み、端末に保存します。数分かかることがあります。</div>
+  <button class="main" id="btn-dl">ダウンロードする</button>
+  <button id="btn-dl-clear">保存したAIを消す</button>
+  <div class="bar"><div id="dlbar"></div></div>
+  <div class="out" id="out-AIのダウンロード"></div>
+</div>
+
+<div class="card">
+  <h2>11. 判定用AIを動かす <span class="st" id="st-AIの実行">未実施</span></h2>
+  <div class="muted">保存したAIを試しに動かします。翌日はダウンロードせずにこれだけ押してください。</div>
+  <button class="main" id="btn-run">AIを動かす</button>
+  <div class="out" id="out-AIの実行"></div>
+</div>
+
+<div class="card">
+  <h2>12. 手書き（マス目） <span class="st" id="st-手書き">未実施</span></h2>
+  <div class="muted">マスに1文字ずつ「a p p l e」と書いてください。ペンがある人はペンで。手のひらが触れても線が出ないかも見てください。</div>
+  <div class="boxes" id="boxes"></div>
+  <button id="btn-pad-clear">消す</button>
+  <button id="btn-pad-ok">きれいに書けた</button>
+  <button id="btn-pad-ng">うまく書けない</button>
+  <div class="out" id="out-手書き"></div>
+</div>
+
+<div class="card">
+  <h2>13. 画面の切り替えの検知 <span class="st" id="st-画面切替の検知">未実施</span></h2>
+  <div class="muted">ホーム画面に戻るか別のアプリを開き、5秒ほどしてから戻ってきてください。</div>
+  <div class="out" id="out-画面切替の検知"></div>
+</div>
+
+<div class="card">
+  <h2>14. 結果を送る <span class="st" id="st-結果の送信">未実施</span></h2>
+  <button class="main" id="btn-save">結果を送る</button>
+  <button id="btn-copy">結果をコピー</button>
+  <textarea id="summary" readonly></textarea>
+</div>
+
+<div class="muted">このアプリは ONNX Runtime Web（MIT License）と、HuBERT 音素認識モデル ron-jo/hubert-base-phoneme-en-onnx（Apache-2.0）を使っています。</div>
+
+<script src="config.js"></script>
+<script src="js/check.js"></script>
+</body>
+</html>
