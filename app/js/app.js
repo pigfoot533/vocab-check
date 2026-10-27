@@ -370,8 +370,9 @@ const App = (() => {
           const r = await Voice.judge(rec.blob, w, 'strict');
           tries++;
           $('#res').innerHTML = r.html;
-          if (r.pass) { passes++; $('#msg').innerHTML = `<span class="fb ok">⭕ 合格！</span>`; }
-          else $('#msg').innerHTML = r.silent ? '<span class="fb ng">声が聞こえなかったよ。マイクに近づいて、はっきり言おう。</span>' : '<span class="fb ng">おしい！ ×の部分に気をつけて、もう一度。</span>';
+          if (!r.pass && r.decision && r.decision.reasons) API.record({ type: 'pronTry', lesson: L.n, word: w, why: r.decision.reasons.map((x) => x.type === 'pair' ? x.ph + '→' + x.heard : x.type).join(',') });
+          if (r.pass) { passes++; $('#msg').innerHTML = `<span class="fb ok">⭕ 合格！ ちゃんと「${esc(w)}」に聞こえたよ</span>`; }
+          else $('#msg').innerHTML = `<span class="fb ng">おしい！</span><br><span class="small">${r.advice || 'もう一度言ってみよう。'}</span>`;
           dots();
           if (passes >= 2) {
             API.record({ type: 'pron', lesson: L.n, word: w, tries, pass: true });

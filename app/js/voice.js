@@ -58,20 +58,81 @@ const Voice = (() => {
     return jwCache[word];
   }
 
-  // 判定する。mode：'strict'（発音ステップ：×の音節がなければ合格）、'loose'（書く練習：半分以上が×でなければ合格）
+  // ===== 合格の基準（実際の生徒の声で調整するときは、ここだけ直す） =====
+  // gop：その音が「正しい音」にどれだけ当てはまるか（キットの値。正しい発音はおよそ -1 以上、別の音に聞こえると -7 前後）
+  const RULE = {
+    // 基本：単語として聞き取れるか。はっきり別の音・抜けた音（gop が bad より下）が、この割合までなら合格
+    badRatio: { strict: 1 / 3, loose: 1 / 2 },
+    bad: -5.5,
+    // 少し厳しく見る音の組：この音に聞こえて、かつ gop がこの値より下なら不合格
+    pairs: { R: 'L', L: 'R', B: 'V', V: 'B' },
+    pairLimit: -3.5,
+    // 余分な母音（book →「ブック」の「ク」の母音など）：キットが見つけたら不合格
+    insertFails: true,
+  };
+  const KANA = { UW: 'ウ', UH: 'ウ', AH: 'ア', OW: 'オ', IH: 'イ', IY: 'イ' };
+
+  // 判定結果 res から合否を決める（画面に依存しない計算だけの部分）
+  // mode：'strict'（発音ステップ）、'loose'（書く練習：単語として聞き取れれば合格。音の組・余分な母音は見ない）
+  function decide(res, mode) {
+    if (!res || res.silent || res.tooShort) return { pass: false, reason: 'silent' };
+    const ph = res.phones || [];
+    const n = ph.length;
+    const reasons = [];
+    // ① 単語として聞き取れるか
+    const badN = ph.filter((p) => p.gop < RULE.bad).length;
+    const allow = n <= 2 ? 0 : Math.max(1, Math.floor(n * RULE.badRatio[mode === 'loose' ? 'loose' : 'strict']));
+    if (badN > allow || res.lowSignal) reasons.push({ type: 'word' });
+    if (mode !== 'loose') {
+      // ② r と l、b と v
+      ph.forEach((p, i) => {
+        const other = RULE.pairs[p.ph];
+        if (other && p.heard === other && p.gop < RULE.pairLimit) reasons.push({ type: 'pair', i, ph: p.ph, heard: other });
+      });
+      // ③ 余分な母音
+      if (RULE.insertFails) (res.insertions || []).forEach((x) => reasons.push({ type: 'insert', after: x.after, vowel: x.vowel }));
+    }
+    return { pass: reasons.length === 0, reasons, badN, allow };
+  }
+
+  // 不合格の理由を、生徒向けの短い言葉にする
+  function advice(d, jw) {
+    if (d.pass) return '';
+    if (d.reason === 'silent') return '声が聞こえなかったよ。マイクに近づいて、はっきり言おう。';
+    const phs = (jw && jw.phon && jw.phon.phones) || [];
+    const msgs = [];
+    d.reasons.forEach((r) => {
+      if (r.type === 'word') msgs.push('単語として聞き取れなかったよ。お手本をよく聞いて、もう一度。');
+      if (r.type === 'pair') {
+        const tips = {
+          R: 'r が l に聞こえたよ。舌先をどこにも付けず、少し奥に引いて言おう。',
+          L: 'l が r に聞こえたよ。舌先を上の前歯の裏にしっかり付けて言おう。',
+          B: 'b が v に聞こえたよ。上下の唇をしっかり閉じてから、パッと開こう。',
+          V: 'v が b に聞こえたよ。上の前歯を下唇に軽く当てて、声を出そう。',
+        };
+        msgs.push(tips[r.ph]);
+      }
+      if (r.type === 'insert') {
+        const after = String(phs[r.after] || '').replace(/\d/g, '').toLowerCase();
+        msgs.push(`「${after}」のあとに、よけいな「${KANA[r.vowel] || 'ウ'}」が入ったよ。子音で止めよう。`);
+      }
+    });
+    return [...new Set(msgs)].join('<br>');
+  }
+
+  // 判定する
   async function judge(blob, word, mode, onProgress) {
     const jw = await wordInfo(word);
     if (!jw) return { pass: true, unknown: true, html: '<p class="small muted">この単語は発音を判定できませんでした（判定なしで進みます）。</p>' };
     const pcm = await Rec.toPCM16k(blob);
     const res = await PronJudge.judge(pcm, jw, onProgress);
-    if (res.silent || res.tooShort) return { pass: false, silent: true, res, html: PronJudge.render(res, jw) };
-    const sy = res.syllables || [];
-    const bad = sy.filter((s) => s.verdict === 'bad').length;
-    const pass = mode === 'loose' ? (sy.length ? bad <= Math.floor(sy.length / 2) && !(sy.length === 1 && bad === 1 && res.lowSignal) : true) : bad === 0;
-    return { pass, res, bad, total: sy.length, html: PronJudge.render(res, jw) };
+    const d = decide(res, mode);
+    const detail = (res.silent || res.tooShort) ? PronJudge.render(res, jw)
+      : `<details class="pj-detail"><summary>くわしい判定を見る（参考）</summary>${PronJudge.render(res, jw)}</details>`;
+    return { pass: d.pass, silent: d.reason === 'silent', res, decision: d, advice: advice(d, jw), html: detail };
   }
 
   async function modelReady() { try { return await PronJudge.isCached(); } catch { return false; } }
 
-  return { speak, listen, judge, wordInfo, modelReady };
+  return { speak, listen, judge, wordInfo, modelReady, decide, advice, RULE };
 })();

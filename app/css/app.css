@@ -111,3 +111,5 @@ div.center:not(.card) { margin-top: 30vh; }
 .login h1 { color: var(--accent); }
 .spinner { width: 44px; height: 44px; border: 5px solid var(--accent-soft); border-top-color: var(--accent); border-radius: 50%; margin: 0 auto 12px; animation: spin 1s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
+.pj-detail { text-align: left; margin-top: 10px; }
+.pj-detail summary { color: var(--muted); font-size: 14px; cursor: pointer; }
