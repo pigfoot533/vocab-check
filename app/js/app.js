@@ -18,7 +18,7 @@ const App = (() => {
     { name: '氷の山脈', ic: '🏔️', mon: 'アイススライム', color: '#8fd3f4', dark: '#2f6d8f' },
     { name: '天空の塔', ic: '🌩️', mon: 'サンダースライム', color: '#b58cff', dark: '#4b2a8a' },
   ];
-  const region = (n) => REGIONS[Math.min(REGIONS.length - 1, Math.floor((n - 1) / 6))];
+  const region = (n) => REGIONS[Math.max(0, Math.min(REGIONS.length - 1, Math.floor((n - 1) / 6)))];
   const STEP_NAMES = [['📜', '呪文の書'], ['🎙️', '詠唱'], ['✍️', '刻印'], ['⚔️', '試練']];
   const CHEER = {
     right: ['会心の いちげき！', 'ことばの 力が きいた！', 'みごとな 一撃！', 'その調子じゃ！'],
@@ -49,13 +49,22 @@ const App = (() => {
     try {
       const j = await API.call('init');
       if (!j.ok) { if (!API.loggedIn()) return showLogin(j.error); return showError(j.error); }
-      S.email = j.email; S.today = j.today; S.config = j.config; S.progress = j.progress;
+      S.email = j.email; S.name = j.name || j.email.split('@')[0]; S.today = j.today; S.config = j.config; S.progress = j.progress;
+      applyAppName(j.config.appName, j.config.subtitle);
       S.list = j.words; S.words = {}; j.words.forEach((w) => { S.words[w.word] = w; });
       API.flush();
       showHome();
     } catch (e) { showError(e.message); }
   }
   function onProgress(p) { if (p) S.progress = p; }
+  // アプリの名前（「設定」シートで変えられる。ログイン前にも出せるよう、端末にも覚えておく）
+  function appName() { try { return localStorage.getItem('app-name') || '単語の冒険'; } catch { return '単語の冒険'; } }
+  function appSub() { try { return localStorage.getItem('app-sub') || '〜 忘却の魔王から ことばの王国を救え 〜'; } catch { return ''; } }
+  function applyAppName(name, sub) {
+    try { if (name) localStorage.setItem('app-name', name); if (sub != null) localStorage.setItem('app-sub', sub); } catch { /* なし */ }
+    document.title = appName();
+  }
+  document.title = appName();
 
   // ---------- 共通の画面 ----------
   function showLoading(msg) { setScene('night'); main().innerHTML = `<div class="loading"><div class="spinner"></div>${esc(msg)}</div>`; }
@@ -81,8 +90,8 @@ const App = (() => {
         <path d="M0 240 Q200 210 410 232 T820 218 L820 300 L0 300Z" fill="#070618"/></svg>`);
     main().innerHTML = `<div class="login-wrap">
       <div class="crest">📖</div>
-      <div class="title">単語の冒険</div>
-      <div class="subtitle">〜 忘却の魔王から ことばの王国を救え 〜</div>
+      <div class="title">${esc(appName())}</div>
+      <div class="subtitle">${esc(appSub())}</div>
       <div class="rpg"><span class="who">フクロウ先生</span>ようこそ、見習い冒険者よ。<br>うばわれた ことばを 取りもどし、王国を 救うのじゃ。<br>まずは 学校のアカウントで 名を名乗るがよい。<span class="tri">▼</span></div>
       ${msg ? `<p class="notice">${esc(msg)}</p>` : ''}
       <button class="gbtn" id="login">⚔️ 冒険をはじめる<small>（学校のGoogleアカウントでログイン）</small></button>
@@ -140,7 +149,7 @@ const App = (() => {
   function showHome() {
     stopAll(); setScene('village');
     const m = summary(), P = m.P;
-    const name = S.email.split('@')[0];
+    const name = S.name;
     // 本日のクエスト：今日始めたレッスン ＋ 今日あとできるレッスン（1日の上限まで）
     const todays = Object.values(P.lessons).filter((L) => L.startedDay === S.today).map((L) => L.n).sort((a, b) => a - b);
     const slots = [];
@@ -160,6 +169,11 @@ const App = (() => {
       talk = lastDone && lastDone.summary && lastDone.summary.test ? `前回の 書きの試練は ${esc(lastDone.summary.test)} じゃったな。今日も その調子じゃ！` : '今日も 一歩ずつ 進むのじゃ！';
     }
     if (m.behind && m.cur) talk = `このままでは 締切に 間に合わんぞ！ 今日から 毎日 ${P.dailyLimit}つ 進めるのじゃ。`;
+    const pop = P.pop || {}, F = P.final || {};
+    const popWaiting = !!(pop.pending || pop.remedial);
+    if (popWaiting) talk = pop.remedial ? '修行の書が 待っておるぞ。修行を 終えて、ドラゴンを 撃退するのじゃ！' : 'ドラゴンが 村の外で 待ちかまえておる！ 撃退するまで 先へは 進めんぞ。';
+    if (F.passed) talk = 'きみは 王国を 救った 英雄じゃ！ 2周目で さらに 力を みがくのも よいぞ。';
+    const tryAny = S.config && S.config.tryAnytime;
     const qsHtml = slots.map((s) => `<div class="qs ${s.st}"><span class="ic">${s.st === 'done' ? '✅' : s.st === 'now' ? '⚔️' : '🔒'}</span>レッスン${s.n}<br><small>${s.st === 'done' ? 'クリア！' : s.st === 'now' ? (lessonStatus(s.n) === 'doing' ? 'つづきから' : 'これから') : ''}</small></div>`).join('');
     main().innerHTML = `
       <div class="hud">
@@ -174,7 +188,11 @@ const App = (() => {
           <h2>📜 本日のクエスト</h2>
           <div class="q">${slots.length ? `「${esc(reg.name)}」の レッスン${first}${lastN > first ? `〜${lastN}` : ''}を 攻略せよ！` : '全レッスン 攻略ずみ！'}</div>
           <div class="qsteps">${qsHtml}</div>
-          ${m.cur ? `<button class="gbtn" id="go" ${m.canStart ? '' : 'disabled'}>${m.canStart ? (m.curStatus === 'doing' ? '▶ つづきから 冒険する' : `▶ レッスン${m.cur}へ 出発！`) : (allDoneToday ? '今日のクエスト 達成！' : 'また明日 冒険しよう')}</button>` : ''}
+          ${popWaiting ? `<div class="notice alarmbox">⚠ ${pop.remedial ? '修行の書が 待っている！ 修行を 終えて 再戦せよ' : 'ワードモンスターが 待ちかまえている！'}<br><small>撃退するまで、次の レッスンには 進めない</small></div>
+            <button class="gbtn red" id="toPop">${pop.remedial ? '📖 修行の書を ひらく' : '🐉 たたかいに いく'}</button>` : ''}
+          ${!m.cur && !F.passed ? '<button class="gbtn" id="toFinal">🏰 魔王城へ（最終試験）</button>' : ''}
+          ${F.passed ? '<div class="notice">👑 最終試験 合格！ 王国を 救った！</div>' : ''}
+          ${m.cur && !popWaiting ? `<button class="gbtn" id="go" ${m.canStart ? '' : 'disabled'}>${m.canStart ? (m.curStatus === 'doing' ? '▶ つづきから 冒険する' : `▶ レッスン${m.cur}へ 出発！`) : (allDoneToday ? '今日のクエスト 達成！' : 'また明日 冒険しよう')}</button>` : ''}
         </section>
         <div>
           <div class="village"><span>🌳</span><span>🏠</span><span>⛪</span><span>🏡</span><span>🌲</span></div>
@@ -183,11 +201,17 @@ const App = (() => {
             <button class="tile" id="toSet"><span class="ic">⚙️</span><span class="t">設定</span></button>
           </div>
           ${owl(talk)}
+          ${tryAny ? `<section class="parch trybox"><b>🧪 試作品用</b>（本番では出ません）
+            <div class="row"><button class="btn" id="tryPop">🐉 抜き打ちテストを ためす</button>${F.passed ? '' : '<button class="btn" id="tryFinal">🏰 最終試験を ためす</button>'}</div></section>` : ''}
           ${API.pending() ? `<p class="pending">送信待ちの記録：${API.pending()}件（電波のよい場所で自動で送ります）</p>` : ''}
         </div>
       </div>`;
     $('#gear').onclick = showSettings; $('#toSet').onclick = showSettings; $('#toMap').onclick = showMap;
     const go = $('#go'); if (go) go.onclick = () => openLesson(m.cur);
+    const tp = $('#toPop'); if (tp) tp.onclick = () => (pop.remedial ? remedialIntro(pop.remedial.words) : showPop(false));
+    const tf = $('#toFinal'); if (tf) tf.onclick = showFinal;
+    const yp = $('#tryPop'); if (yp) yp.onclick = () => showPop(true);
+    const yf = $('#tryFinal'); if (yf) yf.onclick = showFinal;
   }
 
   // ---------- 冒険マップ・進み具合 ----------
@@ -207,11 +231,19 @@ const App = (() => {
             <div class="st"><div class="k">書きの試練 正答率</div><div class="v">${rate == null ? '―' : rate + '%'}</div></div>
             <div class="st"><div class="k">連続日数</div><div class="v">🔥 ${streak()}日</div></div>
             <div class="st"><div class="k">学習時間</div><div class="v">⏱ ${Math.round((m.P.studySec || 0) / 60)}分</div></div>
+            <div class="st"><div class="k">撃退した モンスター</div><div class="v">🐉 ${popWins()}回</div></div>
+            <div class="st"><div class="k">最終試験</div><div class="v">${m.P.final && m.P.final.passed ? '👑 合格' : `${(m.P.final && m.P.final.tries) || 0} / ${(m.P.final && m.P.final.max) || 5}回`}</div></div>
             <div class="st" style="grid-column:1/-1"><div class="k">締切まで</div><div class="v">⏳ あと ${m.daysLeft}日（残り ${m.left}レッスン）</div></div>
           </div>
         </section>
       </div>`;
     $('#toVillage').onclick = showHome;
+    const cs = $('#castle'); if (cs) cs.addEventListener('click', () => {
+      const F = m.P.final || {};
+      if (F.passed) U.toast('魔王は もう たおした！');
+      else if (!m.cur || (S.config && S.config.tryAnytime)) showFinal();
+      else U.toast('すべての レッスンを 攻略すると、魔王城に 入れる');
+    });
     main().querySelectorAll('[data-lesson]').forEach((g) => g.addEventListener('click', () => {
       const n = Number(g.dataset.lesson), s = lessonStatus(n);
       if (s === 'done') U.toast(`レッスン ${n} は 攻略ずみ！（2周目は準備中）`);
@@ -253,7 +285,7 @@ const App = (() => {
       else g += `<circle cx="${x}" cy="${y}" r="22" fill="#b8a58a" stroke="#fff8e6" stroke-width="3"/><text x="${x}" y="${y + 7}" text-anchor="middle" font-size="18" fill="#fff">${n}</text>`;
       g += '</g>';
     });
-    g += `<text x="${castle[0]}" y="${castle[1]}" text-anchor="middle" font-size="64">🏰</text><text x="${castle[0]}" y="${castle[1] + 30}" text-anchor="middle" font-size="15" fill="#3a0a4a" class="region">魔王城（最終試験・準備中）</text>`;
+    g += `<g id="castle" class="node" role="button"><text x="${castle[0]}" y="${castle[1]}" text-anchor="middle" font-size="64">🏰</text><text x="${castle[0]}" y="${castle[1] + 30}" text-anchor="middle" font-size="15" fill="#3a0a4a" class="region">魔王城（最終試験）</text></g>`;
     return `<svg viewBox="0 0 ${W} ${H}" class="mapsvg">${g}</svg>`;
   }
 
@@ -318,7 +350,7 @@ const App = (() => {
     showLoading('レッスンを 準備しています…');
     let j;
     try { j = await API.call('startLesson', { n }); } catch (e) { return showError(e.message); }
-    if (!j.ok) { U.toast(j.error); S.progress = j.progress || S.progress; return showHome(); }
+    if (!j.ok) { S.progress = j.progress || S.progress; if (j.code === 'pop') return showPop(false); U.toast(j.error); return showHome(); }
     S.progress = j.progress;
     const L = j.lesson;
     const words = L.words.concat(L.review || []).filter((w) => S.words[w]);
@@ -330,7 +362,7 @@ const App = (() => {
   async function runStep(L, words, st) {
     stopAll(); startClock(L.n);
     const steps = { 1: stepQuiz, 2: stepPron, 3: stepWrite, 4: stepTest };
-    if (st.step > 4) return finishLesson(L, words, st);
+    if (st.step > 4) return L.kind === 'remedial' ? remedialDone() : finishLesson(L, words, st);
     await steps[st.step](L, words, st, async () => {
       API.record({ type: 'step', lesson: L.n, step: st.step });
       API.flush();
@@ -342,7 +374,8 @@ const App = (() => {
   // レッスン中の上の帯（戻る・タイトル・4つのステップ・進み具合）
   function lessonHeader(L, step, i, n) {
     const reg = region(L.n);
-    return `<div class="lhead"><button class="back" id="back">← 村へ</button><span class="ttl">レッスン${L.n}　${esc(reg.name)}</span><span class="cnt">${n ? `${i} / ${n}` : ''}</span></div>
+    const ttl = L.kind === 'remedial' ? '📖 修行の書（抜き打ちの補習）' : `レッスン${L.n}　${esc(reg.name)}`;
+    return `<div class="lhead"><button class="back" id="back">← 村へ</button><span class="ttl">${ttl}</span><span class="cnt">${n ? `${i} / ${n}` : ''}</span></div>
       <div class="gems">${STEP_NAMES.map(([ic, nm], k) => `<div class="gem ${k + 1 < step ? 'done' : k + 1 === step ? 'now' : ''}"><span class="g">${ic}</span>${k + 1}. ${nm}</div>`).join('')}</div>
       ${n ? `<div class="bar lprog"><div style="width:${Math.round(i / n * 100)}%"></div></div>` : ''}`;
   }
@@ -629,25 +662,21 @@ const App = (() => {
     showWord(1);
   }
 
-  // ===== ステップ4：試練（書きのテスト） =====
-  function stepTest(L, words, st, next) {
-    setScene('night');
-    // st.test = { round, list, wrong, unlockAt }
-    if (!st.test) { st.test = { round: 1, list: shuffle(words) }; saveState(st); }
-    const T = st.test;
-    if (T.unlockAt) return waitRetest(L, words, st, next); // 待ち時間中・待ち終わり（再開したとき）は、まず待ち画面を出す
-    const maxLen = Math.max(...words.map((w) => w.length));
+  // ===== 書きのテストの共通部分（レッスンの試練・抜き打ちテスト・最終試験） =====
+  // opt：{ words, top(i, n, results)：上に出すHTML, lead(i, n)：説明, footer(results)：下の吹き出し,
+  //        reveal：'answer'（正解を見せる）/'mark'（○×だけ）, record(word, ok, read, timeout, left), onHit(ok), done(results) }
+  function writingTest(opt) {
+    const maxLen = Math.max(...opt.words.map((w) => w.length));
     const boxCount = Math.min(14, maxLen + 2); // 文字数が分からないよう、マスは多めに
     const results = [];
     let qi = 0;
     const ask = () => {
-      if (qi >= T.list.length) return grade();
-      const w = T.list[qi], limit = 15 + 3 * w.length;
+      if (qi >= opt.words.length) return opt.done(results);
+      const w = opt.words[qi], limit = 15 + 3 * w.length;
       let left = limit, done = false, wentAway = false;
-      const right = results.filter((r) => r.ok).length;
-      main().innerHTML = lessonHeader(L, 4, qi, T.list.length) + `
+      main().innerHTML = opt.top(qi, opt.words.length, results) + `
         <section class="parch" style="text-align:center">
-          <p class="small muted" style="font-weight:700">${T.round === 1 ? `試練 ${qi + 1} / ${T.list.length} ｜ 意味に合う ことばを 石版に きざめ（最初の文字は きざんである）` : `再試練（${T.round}回目）：全問 正解で 突破！`}</p>
+          <p class="small muted" style="font-weight:700">${opt.lead(qi, opt.words.length)}</p>
           <p class="meaning big">${esc(S.words[w].meaning)}</p>
           <div class="fuse">⏳<span class="line"><div id="tb"></div></span><span id="sec">のこり ${limit}秒</span></div>
           <div id="boxes"></div>
@@ -655,7 +684,7 @@ const App = (() => {
           <p class="small muted">使わない マスは 空けておこう。</p>
           <button class="gbtn" id="ans">⚔️ きざむ（答える）</button>
         </section>
-        <div class="rpg" id="res">▶ ここまで ${right} / ${results.length} 正解。合格は 8割以上じゃ。<br><span class="small">テスト中に 画面を はなれると 不正解に なるぞ。</span><span class="tri">▼</span></div>`;
+        <div class="rpg" id="res">${opt.footer(results)}<span class="tri">▼</span></div>`;
       bindHeader();
       const boxes = new HW.Boxes($('#boxes'), { count: boxCount, prefilled: w[0] });
       const away = () => { if (document.hidden && !done) wentAway = true; };
@@ -674,17 +703,40 @@ const App = (() => {
         boxes.opt.disabled = true;
         const read = boxes.read();
         const ok = !timeout && !wentAway && read.text === w;
-        results.push({ w, ok });
-        API.record({ type: 'test', lesson: L.n, word: w, correct: ok, read: read.text, timeout: !!timeout, left: wentAway, round: T.round });
+        results.push({ w, word: w, ok });
+        opt.record(w, ok, read.text, !!timeout, wentAway);
+        if (opt.onHit) opt.onHit(ok, results);
         $('#ans').disabled = true;
-        $('#res').innerHTML = ok ? `<span class="fb ok">⭕ 正解！</span> <b style="font-family:var(--en)">${esc(w)}</b>`
-          : `<span class="fb ng">❌ 正解は <b style="font-family:var(--en)">${esc(w)}</b></span>${timeout ? '（時間切れ）' : wentAway ? '（テスト中に 画面を はなれたため 不正解）' : `<br><span class="small">石版には「${esc(read.text)}」と 読めた</span>`}`;
-        await sleep(ok ? 1200 : 2600);
+        const why = timeout ? '（時間切れ）' : wentAway ? '（テスト中に 画面を はなれたため 不正解）' : '';
+        $('#res').innerHTML = opt.reveal === 'mark'
+          ? (ok ? '<span class="fb ok">⭕ 正解！</span>' : `<span class="fb ng">❌ 不正解</span>${why}`)
+          : (ok ? `<span class="fb ok">⭕ 正解！</span> <b style="font-family:var(--en)">${esc(w)}</b>`
+            : `<span class="fb ng">❌ 正解は <b style="font-family:var(--en)">${esc(w)}</b></span>${why || `<br><span class="small">石版には「${esc(read.text)}」と 読めた</span>`}`);
+        await sleep(ok ? 1200 : opt.reveal === 'mark' ? 1500 : 2600);
         qi++; ask();
       };
       $('#ans').onclick = () => finish(false);
     };
-    const grade = () => {
+    ask();
+  }
+
+  // ===== ステップ4：試練（書きのテスト） =====
+  function stepTest(L, words, st, next) {
+    setScene('night');
+    // st.test = { round, list, wrong, unlockAt }
+    if (!st.test) { st.test = { round: 1, list: shuffle(words) }; saveState(st); }
+    const T = st.test;
+    if (T.unlockAt) return waitRetest(L, words, st, next); // 待ち時間中・待ち終わり（再開したとき）は、まず待ち画面を出す
+    writingTest({
+      words: T.list,
+      top: (i, n) => lessonHeader(L, 4, i, n),
+      lead: (i, n) => (T.round === 1 ? `試練 ${i + 1} / ${n} ｜ 意味に合う ことばを 石版に きざめ（最初の文字は きざんである）` : `再試練（${T.round}回目）：全問 正解で 突破！`),
+      footer: (r) => `▶ ここまで ${r.filter((x) => x.ok).length} / ${r.length} 正解。合格は 8割以上じゃ。<br><span class="small">テスト中に 画面を はなれると 不正解に なるぞ。</span>`,
+      reveal: 'answer',
+      record: (w, ok, read, timeout, left) => API.record({ type: 'test', lesson: L.n, word: w, correct: ok, read, timeout, left, round: T.round }),
+      done: (results) => grade(results),
+    });
+    const grade = (results) => {
       const right = results.filter((r) => r.ok).length, n = results.length;
       const wrong = results.filter((r) => !r.ok).map((r) => r.w);
       const pass = T.round === 1 ? right / n >= 0.8 : wrong.length === 0;
@@ -695,7 +747,6 @@ const App = (() => {
       saveState(st);
       waitRetest(L, words, st, next);
     };
-    ask();
   }
   function waitRetest(L, words, st, next) {
     setScene('night');
@@ -724,6 +775,220 @@ const App = (() => {
     const t = setInterval(tick, 500); tick();
     cleanups.push(() => clearInterval(t));
     $('#rt').onclick = () => { delete T.unlockAt; saveState(st); stepTest(L, words, st, next); };
+  }
+
+
+  // =====================================================================
+  // 抜き打ちテスト（ワードモンスター）
+  // =====================================================================
+  async function showPop(force) {
+    stopAll(); showLoading('…なにかの けはいが する…');
+    let j;
+    try { j = await API.call('popStart', { force: !!force }); } catch (e) { return showError(e.message); }
+    if (!j.ok) { U.toast(j.error); return showHome(); }
+    S.progress = j.progress;
+    if (j.remedial) return remedialIntro(j.remedial.words);
+    popWarning(j.quiz, j.restarted);
+  }
+  function popWarning(quiz, restarted) {
+    stopAll(); setScene('alarm');
+    main().innerHTML = `<div class="alarm" id="alarm">
+      <div class="stripe s1"></div><div class="stripe s2"></div>
+      <div class="warn"><div class="w">⚠ WARNING ⚠</div><div class="s">ワードモンスターの けはい…！</div></div>
+      <div class="silh">🐉</div></div>`;
+    let gone = false;
+    const go = () => { if (gone) return; gone = true; popBoss(quiz, restarted, false); };
+    $('#alarm').onclick = go;
+    const t = setTimeout(go, 2600); cleanups.push(() => clearTimeout(t));
+  }
+  function bossIntro({ emoji, name, lines, startLabel, note, again }) {
+    return new Promise((res) => {
+      stopAll(); setScene('boss');
+      main().innerHTML = `<div class="boss-in">
+        <div class="aura"><span>${emoji}</span></div>
+        <div class="bossname">${esc(name)} が あらわれた！</div>
+        ${again ? `<p class="notice">${again}</p>` : ''}
+        <div class="rpg">${lines}<span class="tri">▼</span></div>
+        <div class="cmd"><button class="gbtn" id="fight">${startLabel}</button><div class="flee">🏃 にげる<small>にげられない！</small></div></div>
+        <p class="small center-t" style="color:#e8d0ff">${note}</p></div>`;
+      $('#fight').onclick = res;
+    });
+  }
+  async function popBoss(quiz, restarted, rematch) {
+    const n = quiz.words.length;
+    await bossIntro({
+      emoji: '🐉', name: rematch ? '忘却のドラゴン（再戦）' : '忘却のドラゴン',
+      lines: `これまでに 取りもどした ことばで たたかえ！<br>⚔️ 出題：${n}問 ／ 🛡️ 撃退ライン：${quiz.pass}問 正解`,
+      startLabel: '⚔️ たたかう',
+      note: 'たたかいを 始めたら、途中で やめても 次は 問題が 入れかわって 最初から やり直しじゃ。',
+      again: restarted ? '前回 途中で にげたので、問題が 入れかわった！' : '',
+    });
+    API.call('popBegin', { id: quiz.id }).catch(() => {});
+    battle({
+      quiz, emoji: '🐉', name: '忘却のドラゴン', reveal: 'answer', type: 'popAns',
+      done: (results) => submitPop(quiz, results),
+    });
+  }
+  // 戦闘画面（抜き打ち・最終試験で共通）
+  function battle({ quiz, emoji, name, reveal, type, done }) {
+    setScene('boss');
+    const n = quiz.words.length, need = quiz.pass;
+    writingTest({
+      words: quiz.words,
+      top: (i, _n, r) => {
+        const right = r.filter((x) => x.ok).length;
+        const hp = Math.max(0, (need - right) / need * 100);
+        return `<div class="bossmini" id="bossmini"><div class="nm">${esc(name)}</div><span class="be">${emoji}</span><div class="hit" id="hit">HIT!</div>
+            <div class="bar hp"><div style="width:${hp}%"></div></div></div>
+          <div class="score">${quiz.words.map((_, k) => `<span class="${k < r.length ? (r[k].ok ? 'o' : 'x') : k === i ? 'now' : 'e'}">${k + 1}</span>`).join('')}</div>`;
+      },
+      lead: (i, nn) => `第 ${i + 1} 問 / ${nn} ─ ${esc(name)}の 弱点を つけ！（最初の文字は きざんである）`,
+      footer: (r) => { const right = r.filter((x) => x.ok).length; return `▶ ${right} / ${r.length} 正解。撃退まで あと <b>${Math.max(0, need - right)}</b>問 正解じゃ！<br><span class="small">テスト中に 画面を はなれると 不正解に なるぞ。</span>`; },
+      reveal,
+      record: (w, ok, read, timeout, left) => API.record({ type, word: w, correct: ok, read, timeout, left }),
+      onHit: (ok) => { const b = $('#bossmini'); if (b && ok) b.classList.add('hitnow'); },
+      done,
+    });
+  }
+  async function submitResults(action, payload) {
+    for (;;) {
+      showLoading('けっかを 記録しています…');
+      try { await API.flush(); const j = await API.call(action, payload); return j; }
+      catch (e) {
+        await new Promise((res) => {
+          main().innerHTML = `<div class="loading"><div class="parch" style="max-width:560px;margin:0 auto;font-family:var(--body)"><p>${esc(e.message)}</p><p class="small">けっかは まだ 送れていません。電波のよい場所で、もう一度 送ってください。</p><button class="gbtn" id="resend">もう一度 送る</button></div></div>`;
+          $('#resend').onclick = res;
+        });
+      }
+    }
+  }
+  async function submitPop(quiz, results) {
+    const j = await submitResults('popSubmit', { id: quiz.id, results: results.map((r) => ({ word: r.word, ok: r.ok })) });
+    if (!j.ok) { U.toast(j.error); S.progress = j.progress || S.progress; return showHome(); }
+    S.progress = j.progress;
+    if (j.pass) return victory({ title: '撃退成功！', icon: '🎁', rows: [
+      ['🐉', `忘却のドラゴンを 撃退した（${j.right} / ${j.n} 正解）`],
+      ['🛡️', `これまでに 撃退した回数：${popWins()}回`],
+      ['🗡️', '取りもどした ことばは しっかり 身についている！'],
+    ], talk: 'ドラゴンは 逃げていった…。でも また 別の モンスターが 来るかもしれん。ゆだんするでないぞ！' });
+    stopAll(); setScene('boss');
+    main().innerHTML = `<div class="celebrate">
+      <h1 style="color:#d9d4ff;text-shadow:0 6px 0 #2a2060,0 0 24px #8a7aff">押し返された…</h1>
+      <p class="big" style="filter:drop-shadow(0 0 30px rgba(200,120,255,.8))">🐉</p>
+      <p style="font-family:var(--pop);font-size:22px">正解 ${j.right} / ${j.n}（撃退ライン ${quiz.pass}）</p>
+      <section class="parch"><h2 style="font-family:var(--title);text-align:center">📖 修行して 再戦せよ！</h2>
+        <div class="rw"><span class="ic">📝</span>まちがえた ${j.wrong.length}語で、レッスンの 4ステップを もう一度</div>
+        <div class="rw"><span class="ic">🔁</span>修行が 終わったら、ドラゴンと 再戦（問題は 一部 入れかわる）</div>
+        <div class="rw"><span class="ic">🔒</span>撃退するまで、次の レッスンには 進めない</div>
+        <div class="review" style="margin-top:10px">${j.wrong.map((w) => `<div class="rv"><b>${esc(w)}</b><span>${esc(S.words[w] ? S.words[w].meaning : '')}</span><span></span></div>`).join('')}</div></section>
+      ${owl('まちがえた ことばこそ、強くなる チャンスじゃ。さあ、修行の書を ひらくのじゃ！')}
+      <button class="gbtn" id="rem">📖 修行を はじめる</button></div>`;
+    $('#rem').onclick = () => openRemedial(j.wrong);
+  }
+  function popWins() { return ((S.progress.pop && S.progress.pop.history) || []).filter((h) => h.pass).length; }
+  function remedialIntro(words) {
+    const st = loadState();
+    if (st && st.n === 'R' && st.step > 1) return openRemedial(words); // 途中から再開
+    stopAll(); setScene('night');
+    main().innerHTML = `<div class="celebrate"><p class="big">📖</p><h1 style="font-size:44px">修行の書</h1>
+      <section class="parch"><p>抜き打ちテストで まちがえた <b>${words.length}語</b>で、レッスンの 4ステップを やり直すのじゃ。終わったら、ドラゴンと 再戦！</p>
+      <div class="review">${words.map((w) => `<div class="rv"><b>${esc(w)}</b><span>${esc(S.words[w] ? S.words[w].meaning : '')}</span><span></span></div>`).join('')}</div></section>
+      <button class="gbtn" id="rem">📖 修行を はじめる</button>
+      <button class="btn" id="later">村へ もどる</button></div>`;
+    $('#rem').onclick = () => openRemedial(words);
+    $('#later').onclick = showHome;
+  }
+  function openRemedial(words) {
+    const L = { n: 0, kind: 'remedial', words: words.filter((w) => S.words[w]), review: [] };
+    let st = loadState();
+    if (!st || st.n !== 'R') { st = { n: 'R', step: 1 }; saveState(st); }
+    startClock(0);
+    runStep(L, L.words, st);
+  }
+  async function remedialDone() {
+    clearState(); stopAll();
+    showLoading('ドラゴンが もどってきた…');
+    let j;
+    try { j = await API.call('popRemedialDone'); } catch (e) { return showError(e.message); }
+    if (!j.ok) { U.toast(j.error); return showHome(); }
+    S.progress = j.progress;
+    popBoss(j.quiz, false, true);
+  }
+
+  // =====================================================================
+  // 最終試験（忘却の魔王）
+  // =====================================================================
+  async function showFinal() {
+    stopAll(); showLoading('魔王城の 門が ひらく…');
+    let j;
+    try { j = await API.call('finalStart'); } catch (e) { return showError(e.message); }
+    if (j.progress) S.progress = j.progress;
+    if (!j.ok) {
+      if (j.code === 'final-wait' || j.code === 'final-max') return finalWait(j);
+      U.toast(j.error); return showHome();
+    }
+    const ex = j.exam, F = S.progress.final;
+    await bossIntro({
+      emoji: '👿', name: '忘却の魔王',
+      lines: `王国の すべての ことばで たたかえ！<br>⚔️ 出題：${ex.words.length}問（全部の単語から） ／ 🛡️ 合格：${ex.pass}問 正解<br>🔁 挑戦：${ex.attempt}回目（最大 ${F.max}回）`,
+      startLabel: '⚔️ 最終決戦に いどむ',
+      note: '試験を 始めたら、途中で やめると 不合格（1回分）に なるぞ。答えは 試験が 終わるまで 明かされない。',
+    });
+    API.call('finalBegin', { id: ex.id }).catch(() => {});
+    battle({ quiz: ex, emoji: '👿', name: '忘却の魔王', reveal: 'mark', type: 'finalAns', done: (r) => submitFinal(ex, r) });
+  }
+  async function submitFinal(ex, results) {
+    const j = await submitResults('finalSubmit', { id: ex.id, results: results.map((r) => ({ word: r.word, ok: r.ok })) });
+    if (!j.ok) { U.toast(j.error); S.progress = j.progress || S.progress; return showHome(); }
+    S.progress = j.progress;
+    if (j.pass) return victory({ title: '王国を 救った！', icon: '👑', rows: [
+      ['👿', `忘却の魔王を たおした（${j.right} / ${j.n} 正解）`],
+      ['🗡️', `取りもどした ことば：${S.list.length}語 すべて`],
+      ['🏅', '冬休みクエスト クリア！'],
+    ], talk: 'ホッホー！ ついに やりとげたな。きみこそ ことばの王国の 英雄じゃ！ 2周目で さらに みがきを かけるのも よいぞ。' });
+    finalWait({ code: j.left > 0 ? 'final-wait' : 'final-max', waitMs: S.progress.final.waitMs, justFailed: { right: j.right, n: j.n, pass: ex.pass, missed: results.filter((r) => !r.ok).map((r) => r.word) } });
+  }
+  function finalWait(info) {
+    stopAll(); setScene('boss');
+    const F = S.progress.final, left = Math.max(0, F.max - F.tries);
+    const until = F.lastFailAt + F.waitMs;
+    const jf = info.justFailed;
+    main().innerHTML = `<div class="celebrate">
+      <h1 style="color:#d9d4ff;text-shadow:0 6px 0 #2a2060,0 0 24px #8a7aff;font-size:clamp(40px,7vw,64px)">${info.code === 'final-max' ? '力つきた…' : '魔王に はね返された…'}</h1>
+      <p class="big" style="filter:drop-shadow(0 0 30px rgba(200,120,255,.8))">👿</p>
+      ${jf ? `<p style="font-family:var(--pop);font-size:22px">正解 ${jf.right} / ${jf.n}（合格 ${jf.pass}）</p>` : ''}
+      <section class="parch">
+        ${info.code === 'final-max'
+          ? `<h2 style="font-family:var(--title);text-align:center">挑戦できる回数（${F.max}回）を 使い切った</h2><p>冬休み明けに、<b>居残りで 再挑戦</b>じゃ。それまでに、まちがえた ことばを 復習しておこう。</p>`
+          : `<h2 style="font-family:var(--title);text-align:center">修行して 再挑戦せよ！</h2>
+             <p class="countdown" id="cd"></p>
+             <p class="center-t">のこりの 挑戦：<b>${left}回</b>（最大 ${F.max}回）。次は、まちがえた ことばは また出て、正解した ことばは 入れかわる。</p>`}
+        ${jf && jf.missed.length ? `<p class="small muted" style="font-weight:700;margin-top:10px">まちがえた ことばの 意味（答えは 自分で 単語帳を 調べよう）</p>
+          <div class="review">${jf.missed.map((w) => `<div class="rv"><span>${esc(S.words[w] ? S.words[w].meaning : '')}</span><b>${esc(w[0])}……</b><span></span></div>`).join('')}</div>` : ''}
+      </section>
+      ${info.code === 'final-max' ? '' : '<button class="gbtn" id="again" disabled>⚔️ 再挑戦する</button>'}
+      <button class="btn" id="later">村へ もどる</button></div>`;
+    $('#later').onclick = showHome;
+    if (info.code !== 'final-max') {
+      const tick = () => {
+        const ms = until - Date.now(), el = $('#cd');
+        if (ms <= 0) { clearInterval(t); if (el) el.textContent = '再挑戦 できるぞ！'; const a = $('#again'); if (a) a.disabled = false; return; }
+        if (el) el.textContent = `${Math.floor(ms / 60000)}:${String(Math.floor(ms / 1000) % 60).padStart(2, '0')}`;
+      };
+      const t = setInterval(tick, 500); tick(); cleanups.push(() => clearInterval(t));
+      $('#again').onclick = showFinal;
+    }
+  }
+  // 勝利の画面（抜き打ち撃退・最終試験合格）
+  function victory({ title, icon, rows, talk }) {
+    stopAll(); setScene('victory');
+    document.body.insertAdjacentHTML('beforeend', '<div class="rays"></div>');
+    main().innerHTML = `<div class="celebrate"><h1>${esc(title)}</h1><p class="big">${icon}</p>
+      <section class="parch"><h2 style="font-family:var(--title);text-align:center;margin-bottom:6px">✨ 戦利品 ✨</h2>
+      ${rows.map(([ic, t]) => `<div class="rw"><span class="ic">${ic}</span>${t}</div>`).join('')}</section>
+      ${owl(talk)}
+      <button class="gbtn" id="home">🏘️ 村へ もどる</button></div>`;
+    $('#home').onclick = showHome;
   }
 
   // ---------- レッスン完了 ----------
