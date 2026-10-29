@@ -126,7 +126,7 @@ function publicConfig_() {
     dailyLimit: cfg.dailyLimit, lessonCount: lessonCount_(cfg), reviewMin: cfg.reviewMin, reviewMax: cfg.reviewMax,
     appName: cfg.appName, subtitle: cfg.subtitle, tryAnytime: cfg.tryAnytime,
     popN: cfg.popN, popPass: cfg.popPass, finalN: cfg.finalN, finalPass: cfg.finalPass, finalWaitMin: cfg.finalWaitMin, finalMax: cfg.finalMax,
-    pronBad: cfg.pronBad, pronRatio: cfg.pronRatio, pronPairs: cfg.pronPairs, pronPairLimit: cfg.pronPairLimit, pronInsert: cfg.pronInsert
+    pronBad: cfg.pronBad, pronRatio: cfg.pronRatio, pronPairs: cfg.pronPairs, pronPairLimit: cfg.pronPairLimit, pronInsert: cfg.pronInsert, pronNeed: cfg.pronNeed
   };
 }
 
@@ -444,7 +444,8 @@ function config_() {
     pronRatio: num('発音：はっきり違う音の割合の上限（0〜1）', 0.5),
     pronPairs: bool('発音：rとl・bとvを見分ける', true),
     pronPairLimit: num('発音：rとl・bとvの厳しさ（小さいほど甘い）', -3.5),
-    pronInsert: bool('発音：余分な母音を不合格にする', false)
+    pronInsert: bool('発音：余分な母音を不合格にする', false),
+    pronNeed: num('発音：合格に必要な回数', 1)
   };
 }
 
@@ -552,7 +553,8 @@ function setup() {
     ['発音：はっきり違う音の割合の上限（0〜1）', 0.5, '0.5なら、単語の音の半分まで違っても合格'],
     ['発音：rとl・bとvを見分ける', 'はい', '「いいえ」にすると見分けない'],
     ['発音：rとl・bとvの厳しさ（小さいほど甘い）', -3.5, ''],
-    ['発音：余分な母音を不合格にする', 'いいえ', '「はい」にすると、「ク」のような余分な母音で不合格']
+    ['発音：余分な母音を不合格にする', 'いいえ', '「はい」にすると、「ク」のような余分な母音で不合格'],
+    ['発音：合格に必要な回数', 1, '1単語につき、この回数だけ合格したら次の単語へ']
   ];
   const have = sh.getLastRow() ? sh.getRange(1, 1, sh.getLastRow(), 1).getValues().map(function (r) { return String(r[0]).trim(); }) : [];
   rows.forEach(function (r) { if (have.indexOf(r[0]) < 0) sh.appendRow(r); }); // まだない項目だけ追加（今の値は変えない）

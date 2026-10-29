@@ -528,14 +528,15 @@ const App = (() => {
       st.sub = i; saveState(st);
       const w = list[i], info = await Voice.wordInfo(w);
       let passes = 0, tries = 0, busy = false;
+      const NEED = Math.max(1, Number((S.config && S.config.pronNeed) || 1)); // 合格に必要な回数（「設定」シートで変えられる）
       main().innerHTML = lessonHeader(L, 2, i, list.length) + `
         <div class="two">
           <section class="parch wordcard">
-            <p class="small muted" style="font-weight:700">お手本を 聞いたあと、続けて 唱えよ（2回 合格で 次へ）</p>
+            <p class="small muted" style="font-weight:700">お手本を 聞いたあと、続けて 唱えよ（${NEED}回 合格で 次へ）</p>
             <p class="word">${esc(w)}</p>
             <p class="meaning">${esc(S.words[w].meaning)}</p>
             ${info && info.ipa ? `<p class="ipa">${esc(/^\//.test(info.ipa) ? info.ipa : `/${info.ipa}/`)}</p>` : ''}
-            <div class="stars2" id="dots"><span>⭐</span><span>⭐</span></div>
+            <div class="stars2" id="dots">${'<span>⭐</span>'.repeat(NEED)}</div>
             <button class="gbtn" id="say">🔊 聞いて 唱える</button>
             <button class="btn small" id="listen">🔊 お手本だけ 聞く</button>
             <div class="meter"><div id="lv"></div></div>
@@ -547,7 +548,7 @@ const App = (() => {
           </div>
         </div>`;
       bindHeader();
-      const dots = () => { $('#dots').innerHTML = [0, 1].map((k) => `<span class="${k < passes ? 'on' : ''}">⭐</span>`).join(''); };
+      const dots = () => { $('#dots').innerHTML = Array.from({ length: NEED }, (_, k) => k).map((k) => `<span class="${k < passes ? 'on' : ''}">⭐</span>`).join(''); };
       $('#listen').onclick = () => { Rec.audioCtx(); Voice.speak(w); };
       $('#say').onclick = async () => {
         if (busy) return; busy = true; Rec.audioCtx();
@@ -566,7 +567,7 @@ const App = (() => {
           if (r.pass) { passes++; $('#msg').innerHTML = `<span class="ok">⭕ 合格！</span> ちゃんと「<b>${esc(w)}</b>」に 聞こえたぞ。<span class="tri">▼</span>`; }
           else $('#msg').innerHTML = `<span class="ng">おしい！</span><br>${r.advice || 'もう一度 言ってみよう。'}<span class="tri">▼</span>`;
           dots();
-          if (passes >= 2) {
+          if (passes >= NEED) {
             API.record({ type: 'pron', lesson: L.n, word: w, tries, pass: true });
             await sleep(1200); i++; return showWord();
           }
