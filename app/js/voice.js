@@ -30,6 +30,7 @@ const Voice = (() => {
   // onLevel(v)：音量（0〜1）
   async function listen({ maxMs = 3500, onLevel, minVoiceMs = 150, silenceMs = 700 } = {}) {
     let heard = 0, quietSince = 0, lastT = Date.now(), resolveAuto;
+    const levels = []; // 周りの音の大きさ（ざわざわしていても、声が終わったら止まるように）
     const auto = new Promise((r) => { resolveAuto = r; });
     const rec = await Rec.start({
       maxMs,
@@ -37,7 +38,10 @@ const Voice = (() => {
       onLevel: (v) => {
         const now = Date.now(), dt = now - lastT; lastT = now;
         if (onLevel) onLevel(v);
-        if (v > 0.18) { heard += dt; quietSince = 0; }
+        levels.push(v); if (levels.length > 300) levels.shift();
+        const floor = levels.length >= 10 ? levels.slice().sort((a, b) => a - b)[Math.floor(levels.length * 0.2)] : 0; // 小さい方から2割の音＝周りの音
+        const thr = Math.max(0.18, floor * 2 + 0.06);
+        if (v > thr) { heard += dt; quietSince = 0; }
         else if (heard > minVoiceMs) { if (!quietSince) quietSince = now; else if (now - quietSince > silenceMs) resolveAuto(null); }
       },
     });
@@ -45,6 +49,47 @@ const Voice = (() => {
     const result = r || await rec.stop();
     result.heardMs = heard;
     return result;
+  }
+
+  // ===== 録音の中から、いちばん大きな音（＝iPadの近くで話している生徒の声）だけを取り出す =====
+  // 周りの話し声やテレビの音は、iPadの目の前で話す声より小さいので、判定の前に取りのぞく。
+  // ただし、机をたたく音のような「短すぎる大きな音」は声ではないので、次に大きい音を選ぶ。
+  const FOCUS = { frame: 320, minVoice: 0.12, gap: 0.35, pad: 0.12, extend: 0.3 }; // 秒（16kHz で 320＝20ミリ秒）
+  function focusLoudest(pcm, sr = 16000) {
+    const F = FOCUS.frame, n = Math.floor(pcm.length / F);
+    if (n < 10) return { pcm, focused: false };
+    const raw = new Float32Array(n);
+    for (let i = 0; i < n; i++) { let e = 0; for (let k = i * F; k < (i + 1) * F; k++) e += pcm[k] * pcm[k]; raw[i] = Math.sqrt(e / F); }
+    // ペンが画面に当たる音のような「一瞬だけの音」をならす（前後5コマ＝100ミリ秒のまん中の値）。声は続くので残る
+    const rms = new Float32Array(n);
+    for (let i = 0; i < n; i++) { const w = []; for (let k = i - 2; k <= i + 2; k++) w.push(raw[Math.min(n - 1, Math.max(0, k))]); w.sort((a, b) => a - b); rms[i] = w[2]; }
+    const sorted = Array.from(rms).sort((a, b) => a - b);
+    const noise = sorted[Math.floor(n * 0.2)];   // 静かなところの音（小さい方から2割）
+    const middle = sorted[Math.floor(n * 0.5)];  // ずっと鳴っている音（テレビなど）があると、ここが大きくなる
+    const peak = sorted[n - 1];
+    if (peak < noise * 2 || peak < 0.003) return { pcm, focused: false }; // 声らしい大きな音がない
+    // 声の中心を探す基準：周りの音よりはっきり大きい音（ただし、いちばん大きな音の35%より厳しくはしない）
+    const core = Math.min(peak * 0.35, Math.max(peak * 0.12, noise * 3, middle * 2));
+    const low = Math.max(peak * 0.12, noise * 3); // 声の端（弱い子音など）を拾う基準
+    const gapF = Math.round(FOCUS.gap * sr / F), segs = [];
+    let cur = null, quiet = 0;
+    for (let i = 0; i < n; i++) {
+      if (rms[i] >= core) { if (!cur) cur = { a: i, b: i, peak: 0 }; cur.b = i; quiet = 0; cur.peak = Math.max(cur.peak, rms[i]); }
+      else if (cur && ++quiet > gapF) { segs.push(cur); cur = null; quiet = 0; }
+    }
+    if (cur) segs.push(cur);
+    const minF = Math.round(FOCUS.minVoice * sr / F);
+    const voiced = segs.filter((g) => g.b - g.a + 1 >= minF);   // 短すぎる大きな音（物音）は除く
+    const pick = (voiced.length ? voiced : segs).sort((x, y) => y.peak - x.peak)[0];
+    if (!pick) return { pcm, focused: false };
+    // 端を少し広げる（弱い子音など。広げすぎないよう上限あり）
+    const extF = Math.round(FOCUS.extend * sr / F);
+    let a = pick.a, b = pick.b;
+    for (let k = 0; k < extF && a > 0 && rms[a - 1] >= low; k++) a--;
+    for (let k = 0; k < extF && b < n - 1 && rms[b + 1] >= low; k++) b++;
+    const padF = Math.round(FOCUS.pad * sr / F);
+    const s0 = Math.max(0, a - padF) * F, s1 = Math.min(n, b + 1 + padF) * F;
+    return { pcm: pcm.slice(s0, s1), focused: true, from: s0 / sr, to: s1 / sr, segments: segs.length };
   }
 
   // 単語の「正しい音素の並び」（キットの使い方どおり）
@@ -136,7 +181,7 @@ const Voice = (() => {
   async function judge(blob, word, mode, onProgress) {
     const jw = await wordInfo(word);
     if (!jw) return { pass: true, unknown: true, html: '<p class="small muted">この単語は発音を判定できませんでした（判定なしで進みます）。</p>' };
-    const pcm = await Rec.toPCM16k(blob);
+    const pcm = focusLoudest(await Rec.toPCM16k(blob)).pcm; // いちばん大きな音（生徒の声）だけで判定
     const res = await PronJudge.judge(pcm, jw, onProgress);
     const d = decide(res, mode);
     const detail = (res.silent || res.tooShort) ? PronJudge.render(res, jw)
@@ -146,5 +191,5 @@ const Voice = (() => {
 
   async function modelReady() { try { return await PronJudge.isCached(); } catch { return false; } }
 
-  return { speak, listen, judge, wordInfo, modelReady, decide, advice, RULE, configure };
+  return { speak, listen, judge, wordInfo, modelReady, decide, advice, RULE, configure, focusLoudest };
 })();
