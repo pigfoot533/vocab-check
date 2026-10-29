@@ -107,11 +107,13 @@ const Voice = (() => {
   // gop：その音が「正しい音」にどれだけ当てはまるか（キットの値。正しい発音はおよそ -1 以上、別の音に聞こえると -7 前後）
   const RULE = {
     // 基本：単語として聞き取れるか。はっきり別の音・抜けた音（gop が bad より下）が、この割合までなら合格
-    // （2026年10月29日：生徒が合格しにくいとの報告で緩めた。bad -5.5→-8、割合 1/3→1/2）
-    badRatio: { strict: 1 / 2, loose: 2 / 3 },
-    bad: -8,
-    // 「AIがほとんど聞き取れなかった」だけでは不合格にしない（はっきり違う音もあるときだけ不合格）
-    lowSignalFails: false,
+    // （10月29日 1回目：厳しすぎ → -8・1/2 に緩めた。2回目：緩すぎ → その中間の -7・0.4 にした）
+    badRatio: { strict: 0.4, loose: 0.55 },
+    bad: -7,
+    // 「AIがほとんど聞き取れなかった」（ぼそぼそ・別のことば）は不合格
+    lowSignalFails: true,
+    // AIが自由に聞き取った音と、正しい音の並びが、この割合以上そろっていること（近い音はそろったとみなす）
+    matchMin: 0.5,
     // 少し厳しく見る音の組：この音に聞こえて、かつ gop がこの値より下なら不合格
     pairs: { R: 'L', L: 'R', B: 'V', V: 'B' },
     pairLimit: -3.5,
@@ -126,8 +128,23 @@ const Voice = (() => {
     if (isFinite(c.pronPairLimit)) RULE.pairLimit = Number(c.pronPairLimit);
     if (typeof c.pronPairs === 'boolean') RULE.pairs = c.pronPairs ? { R: 'L', L: 'R', B: 'V', V: 'B' } : {};
     if (typeof c.pronInsert === 'boolean') RULE.insertFails = c.pronInsert;
+    if (isFinite(c.pronMatch) && c.pronMatch !== null) RULE.matchMin = Number(c.pronMatch);
+    if (typeof c.pronLowSignal === 'boolean') RULE.lowSignalFails = c.pronLowSignal;
   }
   const KANA = { UW: 'ウ', UH: 'ウ', AH: 'ア', OW: 'オ', IH: 'イ', IY: 'イ' };
+
+  // 近い音（そろったとみなす組）。r と l、b と v は入れない（区別して見る）
+  const NEAR = [['S', 'Z', 'TH'], ['Z', 'DH'], ['T', 'D', 'DH'], ['K', 'G'], ['P', 'B'], ['F', 'HH'], ['SH', 'ZH', 'CH', 'JH'], ['M', 'N', 'NG'], ['W', 'UW'], ['Y', 'IY'],
+    ['IY', 'IH', 'EY'], ['EH', 'AE', 'AH', 'EY'], ['AA', 'AO', 'AH', 'OW'], ['UW', 'UH', 'OW'], ['ER', 'AH', 'R'], ['AY', 'AA', 'AE'], ['AW', 'AA', 'OW'], ['OY', 'AO']];
+  const near = (a, b) => a === b || NEAR.some((g) => g.includes(a) && g.includes(b));
+  // AIが聞き取った音の並び（heard）と、正しい音の並び（target）が、どれだけ同じ順番でそろっているか（0〜1）
+  function matchRate(target, heard) {
+    if (!target.length) return 1;
+    if (!heard || !heard.length) return 0;
+    const m = target.length, n = heard.length, dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+    for (let i = 1; i <= m; i++) for (let j = 1; j <= n; j++) dp[i][j] = near(target[i - 1], heard[j - 1]) ? dp[i - 1][j - 1] + 1 : Math.max(dp[i - 1][j], dp[i][j - 1]);
+    return dp[m][n] / m;
+  }
 
   // 判定結果 res から合否を決める（画面に依存しない計算だけの部分）
   // mode：'strict'（発音ステップ）、'loose'（書く練習：単語として聞き取れれば合格。音の組・余分な母音は見ない）
@@ -139,7 +156,8 @@ const Voice = (() => {
     // ① 単語として聞き取れるか
     const badN = ph.filter((p) => p.gop < RULE.bad).length;
     const allow = n <= 1 ? 0 : Math.max(1, Math.floor(n * RULE.badRatio[mode === 'loose' ? 'loose' : 'strict']));
-    if (badN > allow || (res.lowSignal && (RULE.lowSignalFails || badN > 0))) reasons.push({ type: 'word' });
+    const rate = res.heard ? matchRate(ph.map((p) => p.ph), res.heard) : 1;
+    if (badN > allow || (res.lowSignal && (RULE.lowSignalFails || badN > 0)) || rate < RULE.matchMin) reasons.push({ type: 'word' });
     if (mode !== 'loose') {
       // ② r と l、b と v
       ph.forEach((p, i) => {
@@ -149,7 +167,7 @@ const Voice = (() => {
       // ③ 余分な母音
       if (RULE.insertFails) (res.insertions || []).forEach((x) => reasons.push({ type: 'insert', after: x.after, vowel: x.vowel }));
     }
-    return { pass: reasons.length === 0, reasons, badN, allow };
+    return { pass: reasons.length === 0, reasons, badN, allow, rate: Math.round(rate * 100) / 100 };
   }
 
   // 不合格の理由を、生徒向けの短い言葉にする
@@ -191,5 +209,5 @@ const Voice = (() => {
 
   async function modelReady() { try { return await PronJudge.isCached(); } catch { return false; } }
 
-  return { speak, listen, judge, wordInfo, modelReady, decide, advice, RULE, configure, focusLoudest };
+  return { speak, listen, judge, wordInfo, modelReady, decide, advice, RULE, configure, focusLoudest, matchRate };
 })();
