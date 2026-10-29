@@ -62,14 +62,26 @@ const Voice = (() => {
   // gop：その音が「正しい音」にどれだけ当てはまるか（キットの値。正しい発音はおよそ -1 以上、別の音に聞こえると -7 前後）
   const RULE = {
     // 基本：単語として聞き取れるか。はっきり別の音・抜けた音（gop が bad より下）が、この割合までなら合格
-    badRatio: { strict: 1 / 3, loose: 1 / 2 },
-    bad: -5.5,
+    // （2026年10月29日：生徒が合格しにくいとの報告で緩めた。bad -5.5→-8、割合 1/3→1/2）
+    badRatio: { strict: 1 / 2, loose: 2 / 3 },
+    bad: -8,
+    // 「AIがほとんど聞き取れなかった」だけでは不合格にしない（はっきり違う音もあるときだけ不合格）
+    lowSignalFails: false,
     // 少し厳しく見る音の組：この音に聞こえて、かつ gop がこの値より下なら不合格
     pairs: { R: 'L', L: 'R', B: 'V', V: 'B' },
     pairLimit: -3.5,
     // 余分な母音（book →「ブック」の「ク」の母音など）：キットが見つけたら不合格
-    insertFails: true,
+    insertFails: false, // 2026年10月29日：判定しないことにした
   };
+  // 「設定」シートの値で上書きする（先生があとから調整できるように）
+  function configure(c) {
+    if (!c) return;
+    if (isFinite(c.pronBad)) RULE.bad = Number(c.pronBad);
+    if (isFinite(c.pronRatio) && c.pronRatio > 0) { RULE.badRatio.strict = Number(c.pronRatio); RULE.badRatio.loose = Math.min(1, Number(c.pronRatio) + 1 / 6); }
+    if (isFinite(c.pronPairLimit)) RULE.pairLimit = Number(c.pronPairLimit);
+    if (typeof c.pronPairs === 'boolean') RULE.pairs = c.pronPairs ? { R: 'L', L: 'R', B: 'V', V: 'B' } : {};
+    if (typeof c.pronInsert === 'boolean') RULE.insertFails = c.pronInsert;
+  }
   const KANA = { UW: 'ウ', UH: 'ウ', AH: 'ア', OW: 'オ', IH: 'イ', IY: 'イ' };
 
   // 判定結果 res から合否を決める（画面に依存しない計算だけの部分）
@@ -81,8 +93,8 @@ const Voice = (() => {
     const reasons = [];
     // ① 単語として聞き取れるか
     const badN = ph.filter((p) => p.gop < RULE.bad).length;
-    const allow = n <= 2 ? 0 : Math.max(1, Math.floor(n * RULE.badRatio[mode === 'loose' ? 'loose' : 'strict']));
-    if (badN > allow || res.lowSignal) reasons.push({ type: 'word' });
+    const allow = n <= 1 ? 0 : Math.max(1, Math.floor(n * RULE.badRatio[mode === 'loose' ? 'loose' : 'strict']));
+    if (badN > allow || (res.lowSignal && (RULE.lowSignalFails || badN > 0))) reasons.push({ type: 'word' });
     if (mode !== 'loose') {
       // ② r と l、b と v
       ph.forEach((p, i) => {
@@ -134,5 +146,5 @@ const Voice = (() => {
 
   async function modelReady() { try { return await PronJudge.isCached(); } catch { return false; } }
 
-  return { speak, listen, judge, wordInfo, modelReady, decide, advice, RULE };
+  return { speak, listen, judge, wordInfo, modelReady, decide, advice, RULE, configure };
 })();

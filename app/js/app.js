@@ -51,6 +51,7 @@ const App = (() => {
       if (!j.ok) { if (!API.loggedIn()) return showLogin(j.error); return showError(j.error); }
       S.email = j.email; S.name = j.name || j.email.split('@')[0]; S.today = j.today; S.config = j.config; S.progress = j.progress;
       applyAppName(j.config.appName, j.config.subtitle);
+      Voice.configure(j.config);
       S.list = j.words; S.words = {}; j.words.forEach((w) => { S.words[w.word] = w; });
       API.flush();
       showHome();
