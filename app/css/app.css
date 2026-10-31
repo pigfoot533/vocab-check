@@ -306,3 +306,14 @@ body[data-scene="boss"] { background: radial-gradient(circle at 50% 30%, #3a0d5c
   .celebrate > .btn { justify-self: center; }
   .celebrate.step-clear { display: block; }
 }
+
+/* 書く練習：① 言う → ② 書く ／「つぎへ」ボタン */
+.wstep { position: relative; border: 2px dashed rgba(107,82,50,.35); border-radius: 14px; padding: 10px 10px 6px; margin: 10px 0; }
+.wstep .wnum { position: absolute; left: 10px; top: 6px; font-family: var(--pop); font-size: 22px; color: var(--ink2); }
+.wstep .gbtn { margin-top: 4px; }
+.wstep.done { border-style: solid; border-color: var(--ok); background: rgba(63,174,90,.08); }
+.wstep.done .gbtn { filter: none; opacity: 1; background: linear-gradient(180deg, #b7f0c4, #3fae5a); outline-color: #1f6b33; color: #0f3d1d; }
+.wstep.locked { opacity: .4; pointer-events: none; filter: grayscale(.6); }
+.nextrow { text-align: center; margin-top: 8px; }
+.gbtn.small-g { display: inline-block; width: auto; min-width: 220px; font-size: 20px; padding: 10px 26px; margin: 6px auto 4px; }
+.rpg .nextrow .gbtn { font-family: var(--pop); }

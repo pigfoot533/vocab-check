@@ -462,7 +462,7 @@ const App = (() => {
           const hp = $('#enemy .hp div'); if (hp) hp.style.width = Math.round((total - doneN) / total * 100) + '%';
           $('#fb').innerHTML = `<span class="ok">⭕ ${esc(pick(CHEER.right))}</span>${combo >= 2 ? ` ${combo}コンボ！` : ''}<br><span style="font-family:var(--en)">${fullHtml(q.ex)}</span><br><span class="small">${ja}</span><span class="tri">▼</span>`;
           queue.shift();
-          await sleep(1500);
+          await nextButton($('#fb'));
         } else {
           combo = 0;
           b.classList.add('wrong');
@@ -570,7 +570,9 @@ const App = (() => {
           dots();
           if (passes >= NEED) {
             API.record({ type: 'pron', lesson: L.n, word: w, tries, pass: true });
-            await sleep(1200); i++; return showWord();
+            $('#say').disabled = true; busy = true;
+            await nextButton($('#skip'), i + 1 < list.length ? 'つぎの 単語へ ▶' : 'つぎへ ▶');
+            busy = false; i++; return showWord();
           }
           if (tries - passes >= 10 && !$('#skipBtn')) {
             $('#skip').innerHTML = '<button class="btn" id="skipBtn">この単語は 次へ進む（記録されます）</button>';
@@ -585,7 +587,20 @@ const App = (() => {
     showWord();
   }
 
-  // ===== ステップ3：刻印（書く練習：手書き＋発音 × 4回） =====
+  // 「つぎへ」ボタンを出して、押されるまで待つ（勝手に進まないように）
+  function nextButton(el, label = 'つぎへ ▶') {
+    return new Promise((res) => {
+      const b = document.createElement('div'); b.className = 'nextrow';
+      b.innerHTML = `<button class="gbtn small-g" id="nextBtn">${label}</button>`;
+      el.appendChild(b);
+      $('#nextBtn').onclick = () => { b.remove(); res(); };
+      b.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    });
+  }
+
+  // ===== ステップ3：刻印（書く練習：先に単語を言ってから書く × 4回） =====
+  // 流れ：「単語を言う」ボタン → 録音 → 合格したら石版が使えるようになる → 書く → 「きざめた！」
+  // 文字の判定：1・2回目はなし（お手本を見て書く）、3・4回目はあり（お手本なし）
   async function stepWrite(L, words, st, next) {
     await ensureModel(L, 3);
     setScene('night');
@@ -596,71 +611,91 @@ const App = (() => {
       if (i >= list.length) return next();
       st.sub = i; saveState(st);
       const w = list[i], hidden = rep > 2;
-      let recP = null, rec = null, busy = false;
+      let busy = false, spoke = false;
       main().innerHTML = lessonHeader(L, 3, i, list.length) + `
         <section class="parch" style="text-align:center">
-          <p class="small muted" style="font-weight:700">声に出して 唱えながら、石版に 1文字ずつ きざめ（${rep} / ${REPS}回目）</p>
+          <p class="small muted" style="font-weight:700">まず 単語を 声に出して 言い、そのあと 石版に 1文字ずつ きざめ（${rep} / ${REPS}回目）</p>
           <div class="reps">${Array.from({ length: REPS }, (_, k) => `<span class="${k < rep - 1 ? 'on' : k === rep - 1 ? 'cur' : ''}"></span>`).join('')}</div>
           <p class="meaning">${esc(S.words[w].meaning)}</p>
-          ${hidden ? '<p class="word hiddenw">？？？</p><p class="small muted">お手本は 隠れている。思い出して きざめ！</p>' : `<p class="word">${esc(w)}</p>`}
-          <div id="boxes"></div>
-          <div class="row">
-            <button class="btn small" id="undo">↩︎ 1画もどす</button>
-            <button class="btn small" id="clr">🧽 全部消す</button>
+          ${hidden ? '<p class="word hiddenw">？？？</p><p class="small muted">お手本は 隠れている。思い出して 言って、きざめ！</p>' : `<p class="word model">${esc(w)}</p>`}
+          <div class="wstep" id="sayStep">
+            <span class="wnum">①</span>
+            <button class="gbtn" id="say2">🎙️ 単語を 言う</button>
             <button class="btn small" id="hear">🔊 お手本</button>
+            <div class="meter"><div id="lv"></div></div>
           </div>
-          <p class="mic" id="mic">🎙️ 書き始めると、マイクが オンになります</p>
-          <button class="gbtn" id="done" disabled>✍️ きざめた！</button>
+          <div class="wstep locked" id="writeStep">
+            <span class="wnum">②</span>
+            <div id="boxes"></div>
+            <div class="row">
+              <button class="btn small" id="undo">↩︎ 1画もどす</button>
+              <button class="btn small" id="clr">🧽 全部消す</button>
+            </div>
+            <button class="gbtn" id="done" disabled>✍️ きざめた！</button>
+          </div>
           <div id="res"></div>
         </section>
-        <div class="rpg" id="msg">▶ 赤い線が 基準線じゃ。ていねいに 書かないと、石版が 読み取れないぞ。<span class="tri">▼</span></div>`;
+        <div class="rpg" id="msg">▶ まず「単語を 言う」を 押して、単語を 声に出すのじゃ。${hidden ? '' : 'お手本を 見ながらで よいぞ。'}<span class="tri">▼</span></div>
+        <div id="nextArea" class="center-t"></div>`;
       bindHeader();
-      if (!hidden) main().querySelector('.word').classList.add('model');
-      const boxes = new HW.Boxes($('#boxes'), {
-        count: w.length,
-        onStroke: () => {
-          if (!recP) {
-            recP = Rec.start({ maxMs: 20000 }).then((r) => { rec = r; $('#mic').innerHTML = '🔴 録音中… 単語を 唱えながら 書こう'; $('#mic').classList.add('on'); return r; })
-              .catch(async (e) => { await micBlocked(L, 3, e.message); showWord(rep); });
-          }
-          $('#done').disabled = false;
-        },
-      });
-      cleanups.push(() => { boxes.destroy(); if (rec) rec.stop(); });
+      const boxes = new HW.Boxes($('#boxes'), { count: w.length, disabled: true, onStroke: () => { $('#done').disabled = false; } });
+      cleanups.push(() => boxes.destroy());
       $('#undo').onclick = () => boxes.undo();
       $('#clr').onclick = () => boxes.clear();
-      $('#hear').onclick = () => { Rec.audioCtx(); if (rec) { U.toast('録音中は お手本を 鳴らせません。書き終わってから 聞こう'); return; } Voice.speak(w); };
-      $('#done').onclick = async () => {
-        if (busy || !recP) return; busy = true; $('#done').disabled = true;
+      $('#hear').onclick = () => { Rec.audioCtx(); Voice.speak(w); };
+      // ① 単語を言う
+      $('#say2').onclick = async () => {
+        if (busy || spoke) return; busy = true; Rec.audioCtx();
+        $('#say2').disabled = true;
         try {
-          await recP;
-          if (!rec) { busy = false; return; }
-          const r = await rec.stop(); rec = null;
-          $('#mic').classList.remove('on'); $('#mic').textContent = '…判定中…';
-          const read = boxes.check(w);          // 1文字ずつ「正解の字に見えるか」
-          const pr = await Voice.judge(r.blob, w, 'loose');
-          const letterOk = read.ok;
-          if (!letterOk) API.record({ type: 'hwMiss', lesson: L.n, word: w, rep, detail: { misses: boxes.misses(w) } }); // 手本の調整用
+          $('#msg').innerHTML = '🎙️ さあ、単語を 言うのじゃ！';
+          const rec = await Voice.listen({ maxMs: 3500, onLevel: (v) => { const el = $('#lv'); if (el) el.style.width = Math.round(v * 100) + '%'; } });
+          $('#lv').style.width = '0';
+          $('#msg').innerHTML = '…判定中…';
+          const pr = await Voice.judge(rec.blob, w, 'loose');
           if (!pr.pass) {
-            $('#msg').innerHTML = '<span class="ng">声が 聞こえなかったか、単語が 聞き取れなかったぞ。</span><br>唱えながら 書くのが ルールじゃ！ もう一度。';
-            API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: false, letterOk });
-            await sleep(1800); return showWord(rep);
+            $('#msg').innerHTML = `<span class="ng">${pr.silent ? '声が 聞こえなかったぞ。' : '単語が 聞き取れなかったぞ。'}</span><br>お手本を 聞いて、もう一度 言ってみよう。<span class="tri">▼</span>`;
+            API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: false });
+            $('#say2').disabled = false; busy = false;
+            return;
           }
-          const learned = (!hidden || letterOk) ? boxes.learnFrom(w) : 0; // 正解と分かっている字は、本人の手本として覚える
-          if (!hidden) {
-            $('#msg').innerHTML = `<span class="ok">⭕ OK！</span> ${letterOk ? 'きれいに きざめたぞ。' : `（石版には「${esc(read.text)}」と 読めた。ていねいに 書こう）`}`;
-            API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk, learned });
-          } else if (!letterOk) {
-            $('#msg').innerHTML = `<span class="ng">❌ 石版には「${esc(read.text || '（空）')}」と 読めた。</span><br>正しくは <b>${esc(w)}</b>。もう一度！`;
+          spoke = true;
+          $('#sayStep').classList.add('done'); $('#say2').textContent = '⭕ 言えた！';
+          $('#writeStep').classList.remove('locked'); boxes.opt.disabled = false;
+          $('#msg').innerHTML = `<span class="ok">⭕ 聞こえたぞ！</span> つぎは 石版に きざむのじゃ。${hidden ? '' : '（1・2回目は 文字の 判定なし）'}<span class="tri">▼</span>`;
+          $('#writeStep').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        } catch (e) {
+          if (/マイク/.test(e.message)) { await micBlocked(L, 3, e.message); return showWord(rep); }
+          $('#msg').textContent = e.message; $('#say2').disabled = false;
+        } finally { busy = false; }
+      };
+      // ② 書いて「きざめた！」
+      $('#done').onclick = async () => {
+        if (!spoke || !boxes.hasInk()) return;
+        $('#done').disabled = true; boxes.opt.disabled = true;
+        if (!hidden) {
+          // 1・2回目：文字の判定はしない（正解の字として、本人の手本に覚える）
+          const learned = boxes.learnFrom(w);
+          $('#msg').innerHTML = '<span class="ok">⭕ OK！</span> きざめたぞ。<span class="tri">▼</span>';
+          API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk: null, learned });
+        } else {
+          // 3・4回目：文字の判定あり
+          const read = boxes.check(w);
+          if (!read.ok) {
             API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk: false, read: read.text });
-            await sleep(2500); return showWord(rep);
-          } else {
-            $('#msg').innerHTML = '<span class="ok">⭕ 完ぺき！</span> 見ないで きざめたな！';
-            API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk: true });
+            API.record({ type: 'hwMiss', lesson: L.n, word: w, rep, detail: { misses: boxes.misses(w) } });
+            $('#msg').innerHTML = `<span class="ng">❌ 石版には「${esc(read.text || '（空）')}」と 読めた。</span><br>正しくは <b>${esc(w)}</b>。書き直そう！<span class="tri">▼</span>`;
+            await nextButton($('#nextArea'), '🧽 書き直す');
+            boxes.clear(); boxes.opt.disabled = false; $('#done').disabled = true;
+            $('#msg').innerHTML = '▶ もう一度 きざむのじゃ（声は もう 合格しているぞ）。<span class="tri">▼</span>';
+            return;
           }
-          await sleep(900);
-          if (rep < REPS) showWord(rep + 1); else { i++; showWord(1); }
-        } catch (e) { $('#msg').textContent = e.message; busy = false; $('#done').disabled = false; }
+          const learned = boxes.learnFrom(w);
+          $('#msg').innerHTML = '<span class="ok">⭕ 完ぺき！</span> 見ないで きざめたな！<span class="tri">▼</span>';
+          API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk: true, learned });
+        }
+        await nextButton($('#nextArea'), rep < REPS ? 'つぎへ ▶' : (i + 1 < list.length ? 'つぎの 単語へ ▶' : 'つぎへ ▶'));
+        if (rep < REPS) showWord(rep + 1); else { i++; showWord(1); }
       };
     };
     showWord(1);
@@ -717,7 +752,7 @@ const App = (() => {
           ? (ok ? '<span class="fb ok">⭕ 正解！</span>' : `<span class="fb ng">❌ 不正解</span>${why}`)
           : (ok ? `<span class="fb ok">⭕ 正解！</span> <b style="font-family:var(--en)">${esc(w)}</b>`
             : `<span class="fb ng">❌ 正解は <b style="font-family:var(--en)">${esc(w)}</b></span>${why || `<br><span class="small">石版には「${esc(read.text)}」と 読めた</span>`}`);
-        await sleep(ok ? 1200 : opt.reveal === 'mark' ? 1500 : 2600);
+        await nextButton($('#res'), qi + 1 < opt.words.length ? 'つぎの 問題へ ▶' : 'けっかを 見る ▶');
         qi++; ask();
       };
       $('#ans').onclick = () => finish(false);
