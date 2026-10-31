@@ -121,7 +121,23 @@ const HW = (() => {
   // 「正解の字に見えるか」を確かめる方式：正解の文字が近い順で rankMax 位以内、かつ点が「1位の点 × ratio ＋ margin」以内なら○
   const RULE = { rankMax: 3, ratio: 1.3, margin: 0.15, heightWeight: 0, minStroke: 0.035, personalBonus: 0.9,
     // 形がもともと近い組：1位がこの組の文字なら、もっと甘く見る
-    near: [['r', 'n'], ['n', 'h'], ['n', 'm']], nearRank: 4, nearRatio: 1.7, nearMargin: 0.35 };
+    near: [['r', 'n'], ['n', 'h'], ['n', 'm']], nearRank: 4, nearRatio: 1.7, nearMargin: 0.35,
+    // n と h の区別：左の縦線が右の山より上に突き出している割合（字の高さに対して）
+    hMin: 0.2,   // h だと認めるには、これ以上突き出していること（試験：n→h 約1%、h を○ 約100%）
+    nMax: 0.3 };  // n だと認めるには、これ以下であること（はっきり突き出していたら n にしない）
+  // 左の縦線が、右の部分よりどれだけ上に出ているか（0〜1）。n はほぼ0、h は大きい
+  function stemRise(strokes) {
+    const pts = strokes.flat();
+    if (pts.length < 4) return 0;
+    let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity, top = null;
+    pts.forEach((p) => { const [x, y] = p; x0 = Math.min(x0, x); x1 = Math.max(x1, x); y1 = Math.max(y1, y); if (y < y0) { y0 = y; top = p; } });
+    const w = x1 - x0 || 1e-6, h = y1 - y0 || 1e-6;
+    // いちばん上の点から横に離れた部分（傾けて書いても、h の山や右の縦線はここに入る）の、いちばん上
+    let restTop = Infinity;
+    pts.forEach(([x, y]) => { if (Math.abs(x - top[0]) > 0.35 * w) restTop = Math.min(restTop, y); });
+    if (!isFinite(restTop)) return 0;
+    return Math.max(0, (restTop - y0) / h);
+  }
 
   // ---------- $P の計算 ----------
   function pathLen(pts) { let d = 0; for (let i = 1; i < pts.length; i++) if (pts[i].s === pts[i - 1].s) d += dist(pts[i - 1], pts[i]); return d; }
@@ -372,7 +388,17 @@ const HW = (() => {
     check(word) {
       const r = this.read();
       const ls = r.letters;
-      const out = ls.map((l, k) => ({ ...l, exp: word[k], ok: l.fixed ? l.ch === word[k] : looksLike(l.cands, word[k]) }));
+      const out = ls.map((l, k) => {
+        const exp = word[k];
+        let ok = l.fixed ? l.ch === exp : looksLike(l.cands, exp);
+        // n と h は、左の縦線の突き出し具合でも確かめる（n を h と取りちがえないように）
+        if (ok && !l.fixed && (exp === 'h' || exp === 'n')) {
+          const rise = stemRise(cleanStrokes(l.strokes));
+          if (exp === 'h' && rise < RULE.hMin) ok = false;
+          if (exp === 'n' && rise > RULE.nMax) ok = false;
+        }
+        return { ...l, exp, ok };
+      });
       const ok = ls.length === word.length && out.every((l) => l.ok);
       // 正解の文字に見えた字は、その文字として表示する（読み取り結果の表示用）
       const text = out.map((l) => (l.ok ? l.exp : l.ch)).join('');
@@ -401,5 +427,5 @@ const HW = (() => {
     }
   }
 
-  return { recognize, looksLike, learn, forget, personalCount, Boxes, GUIDE, UNIT, ASPECT, RULE, boxToUnits, _BASE: BASE, _EXTRA: EXTRA, _UPPER: UPPER, _templates: templates };
+  return { recognize, looksLike, stemRise, cleanStrokes, learn, forget, personalCount, Boxes, GUIDE, UNIT, ASPECT, RULE, boxToUnits, _BASE: BASE, _EXTRA: EXTRA, _UPPER: UPPER, _templates: templates };
 })();
