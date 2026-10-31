@@ -69,7 +69,24 @@ const HW = (() => {
     t: [[line(0.45, 0.3, 0.45, 2), line(0.12, 1, 0.8, 1)]],                                       // はねない t
     u: [[line(0.15, 1, 0.15, 1.55).concat(arc(0.5, 1.55, 0.35, 0.45, 180, 0), line(0.85, 1.55, 0.85, 1), line(0.85, 1, 0.85, 2))], [line(0.15, 1, 0.15, 1.55).concat(arc(0.5, 1.55, 0.35, 0.45, 180, 0), line(0.85, 1.55, 0.85, 1))]],
     y: [[poly([0.1, 1], [0.5, 2]), poly([0.9, 1], [0.5, 2], [0.3, 3])]],
+    // r・n・h は形が近いので、生徒がよく書く形を多めに入れる（2026年11月：「判定が厳しい」との報告）
+    rr: [], // （下でまとめて追加）
   };
+  delete EXTRA.rr;
+  EXTRA.r = (EXTRA.r || []).concat([
+    [line(0.2, 1, 0.2, 2), arc(0.55, 1.4, 0.35, 0.4, 180, 330)],                                     // 腕が長い r
+    [line(0.25, 1, 0.25, 2), arc(0.6, 1.5, 0.35, 0.5, 190, 300)],                                     // 腕が下がる r
+    [line(0.2, 1, 0.2, 2).concat(line(0.2, 2, 0.2, 1.3), arc(0.5, 1.35, 0.3, 0.35, 180, 345))],      // ひと筆の r
+  ]);
+  EXTRA.n = (EXTRA.n || []).concat([
+    [line(0.15, 0.85, 0.15, 2), arc(0.5, 1.45, 0.35, 0.45, 180, 360).concat(line(0.85, 1.45, 0.85, 2))], // 最初の縦線が少し上に出る n
+    [line(0.15, 1, 0.15, 2), arc(0.5, 1.5, 0.35, 0.4, 190, 360).concat(line(0.85, 1.5, 0.85, 2))],       // 山が低い n
+    [line(0.15, 1, 0.15, 2), arc(0.52, 1.35, 0.37, 0.35, 180, 360).concat(line(0.89, 1.35, 0.89, 2))],  // 山が丸い n
+  ]);
+  EXTRA.h = (EXTRA.h || []).concat([
+    [line(0.15, 0.55, 0.15, 2), arc(0.5, 1.5, 0.35, 0.5, 180, 360).concat(line(0.85, 1.5, 0.85, 2))],  // 上の縦線が短い h
+    [line(0.15, 0.3, 0.15, 2).concat(line(0.15, 2, 0.15, 1.5), arc(0.5, 1.5, 0.35, 0.45, 180, 360), line(0.85, 1.5, 0.85, 2))],
+  ]);
   // 大文字（すべて正解として認める。高さは 0＝上の線 〜 2＝基準線）
   const UPPER = {
     a: [[poly([0.1, 2], [0.5, 0], [0.9, 2]), line(0.27, 1.25, 0.73, 1.25)]],
@@ -102,7 +119,9 @@ const HW = (() => {
 
   // ===== 判定の基準（実際の生徒の字で調整するときは、ここだけ直す） =====
   // 「正解の字に見えるか」を確かめる方式：正解の文字が近い順で rankMax 位以内、かつ点が「1位の点 × ratio ＋ margin」以内なら○
-  const RULE = { rankMax: 3, ratio: 1.3, margin: 0.15, heightWeight: 0, minStroke: 0.035, personalBonus: 0.9 };
+  const RULE = { rankMax: 3, ratio: 1.3, margin: 0.15, heightWeight: 0, minStroke: 0.035, personalBonus: 0.9,
+    // 形がもともと近い組：1位がこの組の文字なら、もっと甘く見る
+    near: [['r', 'n'], ['n', 'h'], ['n', 'm']], nearRank: 4, nearRatio: 1.7, nearMargin: 0.35 };
 
   // ---------- $P の計算 ----------
   function pathLen(pts) { let d = 0; for (let i = 1; i < pts.length; i++) if (pts[i].s === pts[i - 1].s) d += dist(pts[i - 1], pts[i]); return d; }
@@ -249,7 +268,9 @@ const HW = (() => {
     const k = cands.findIndex((c) => c.ch === exp);
     if (k < 0) return false;
     if (k === 0) return true;
-    return k < RULE.rankMax && cands[k].score <= cands[0].score * RULE.ratio + RULE.margin;
+    if (k < RULE.rankMax && cands[k].score <= cands[0].score * RULE.ratio + RULE.margin) return true;
+    const near = RULE.near.some((g) => g.includes(exp) && g.includes(cands[0].ch));
+    return near && k < RULE.nearRank && cands[k].score <= cands[0].score * RULE.nearRatio + RULE.nearMargin;
   }
 
   // ---------- 手書きのマス（画面の部品） ----------
