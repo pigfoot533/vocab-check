@@ -486,7 +486,8 @@ const App = (() => {
       setScene('night');
       main().innerHTML = lessonHeader(L, step) + `<section class="parch" style="text-align:center;max-width:640px;margin:20px auto">
         <p style="font-size:56px;margin:0">🎙️</p><h2 style="font-family:var(--title)">発音判定のAIを 準備します</h2>
-        <p>初回だけ、約116MBを ダウンロードします。<b>必ずWi-Fiで</b> 行ってください。</p>
+        <p>初回だけ、約116MBを ダウンロードします。<b>Wi-Fi（または データ使用量が 無制限の回線）</b>で 行ってください。</p>
+        <p class="small">途中で 電波が 切れたり、画面を 閉じたりすると、最初から やり直しに なります。終わるまで この画面の ままに しておいてください。</p>
         <button class="gbtn" id="dl">ダウンロードする</button>
         <div class="bar xp" id="dlp" hidden style="margin-top:12px"><div style="width:0"></div></div><p class="small" id="dlm"></p></section>`;
       bindHeader();
