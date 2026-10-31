@@ -48,6 +48,62 @@ const HW = (() => {
     z: [[poly([0.1, 1], [0.9, 1], [0.1, 2], [0.9, 2])]],
   };
 
+  // 書き方の違う形（人によって書き方が違う文字）
+  const EXTRA = {
+    a: [[circle(0.45, 1.5, 0.38, 0.5).concat(line(0.84, 1.5, 0.84, 2.0))]],                    // ひと筆で書く a
+    b: [[line(0.15, 0, 0.15, 2).concat(arc(0.5, 1.55, 0.35, 0.45, 180, -180))]],                 // ひと筆で書く b
+    d: [[circle(0.45, 1.5, 0.38, 0.5).concat(line(0.84, 1.5, 0.84, 0), line(0.84, 0, 0.84, 2))]],
+    e: [[line(0.12, 1.45, 0.88, 1.45).concat(arc(0.5, 1.5, 0.38, 0.48, 0, -300))]],
+    f: [[line(0.45, 0.05, 0.45, 2), line(0.15, 1, 0.8, 1)], [arc(0.62, 0.3, 0.2, 0.3, -10, -180).concat(line(0.42, 0.3, 0.42, 2)), line(0.15, 1, 0.75, 1)]],
+    g: [[circle(0.45, 1.5, 0.38, 0.5), line(0.84, 1, 0.84, 3)], [circle(0.45, 1.5, 0.38, 0.5), line(0.84, 1, 0.84, 2.6).concat(arc(0.55, 2.6, 0.29, 0.38, 0, 180))]],
+    h: [[line(0.15, 0, 0.15, 2).concat(line(0.15, 2, 0.15, 1.5), arc(0.5, 1.5, 0.35, 0.5, 180, 360), line(0.85, 1.5, 0.85, 2))]],
+    i: [[line(0.5, 1, 0.5, 2)]],                                                                  // 点を書かない i
+    j: [[line(0.6, 1, 0.6, 2.6).concat(arc(0.35, 2.6, 0.25, 0.35, 0, 160))]],                    // 点を書かない j
+    k: [[line(0.15, 0, 0.15, 2), poly([0.85, 0.9], [0.17, 1.5], [0.85, 2])]],
+    l: [[line(0.45, 0, 0.45, 1.75).concat(arc(0.65, 1.75, 0.2, 0.25, 180, 60))]],                // 下をはねる l
+    m: [[line(0.08, 1, 0.08, 2).concat(line(0.08, 2, 0.08, 1.45), arc(0.29, 1.45, 0.21, 0.45, 180, 360), line(0.5, 1.45, 0.5, 2), line(0.5, 2, 0.5, 1.45), arc(0.71, 1.45, 0.21, 0.45, 180, 360), line(0.92, 1.45, 0.92, 2))]],
+    n: [[line(0.15, 1, 0.15, 2).concat(line(0.15, 2, 0.15, 1.45), arc(0.5, 1.45, 0.35, 0.45, 180, 360), line(0.85, 1.45, 0.85, 2))]],
+    p: [[line(0.15, 1, 0.15, 3).concat(line(0.15, 3, 0.15, 1.2), arc(0.5, 1.5, 0.35, 0.45, -150, 160))]],
+    q: [[circle(0.45, 1.5, 0.38, 0.5), line(0.84, 1, 0.84, 3).concat(line(0.84, 3, 1.0, 2.8))]],
+    r: [[line(0.2, 1, 0.2, 2).concat(line(0.2, 2, 0.2, 1.35), arc(0.5, 1.35, 0.3, 0.3, 180, 300))]],
+    t: [[line(0.45, 0.3, 0.45, 2), line(0.12, 1, 0.8, 1)]],                                       // はねない t
+    u: [[line(0.15, 1, 0.15, 1.55).concat(arc(0.5, 1.55, 0.35, 0.45, 180, 0), line(0.85, 1.55, 0.85, 1), line(0.85, 1, 0.85, 2))], [line(0.15, 1, 0.15, 1.55).concat(arc(0.5, 1.55, 0.35, 0.45, 180, 0), line(0.85, 1.55, 0.85, 1))]],
+    y: [[poly([0.1, 1], [0.5, 2]), poly([0.9, 1], [0.5, 2], [0.3, 3])]],
+  };
+  // 大文字（すべて正解として認める。高さは 0＝上の線 〜 2＝基準線）
+  const UPPER = {
+    a: [[poly([0.1, 2], [0.5, 0], [0.9, 2]), line(0.27, 1.25, 0.73, 1.25)]],
+    b: [[line(0.15, 0, 0.15, 2), arc(0.15, 0.5, 0.6, 0.5, -90, 90), arc(0.15, 1.5, 0.7, 0.5, -90, 90)]],
+    c: [[arc(0.55, 1, 0.45, 1, -40, -320)]],
+    d: [[line(0.15, 0, 0.15, 2), arc(0.15, 1, 0.75, 1, -90, 90)]],
+    e: [[poly([0.85, 0], [0.15, 0], [0.15, 2], [0.85, 2]), line(0.15, 1, 0.7, 1)]],
+    f: [[poly([0.85, 0], [0.15, 0], [0.15, 2]), line(0.15, 1, 0.7, 1)]],
+    g: [[arc(0.55, 1, 0.45, 1, -40, -360).concat(line(1.0, 1, 0.6, 1))]],
+    h: [[line(0.15, 0, 0.15, 2), line(0.85, 0, 0.85, 2), line(0.15, 1, 0.85, 1)]],
+    i: [[line(0.5, 0, 0.5, 2)], [line(0.5, 0, 0.5, 2), line(0.25, 0, 0.75, 0), line(0.25, 2, 0.75, 2)]],
+    j: [[line(0.65, 0, 0.65, 1.6).concat(arc(0.4, 1.6, 0.25, 0.4, 0, 180))]],
+    k: [[line(0.15, 0, 0.15, 2), poly([0.85, 0], [0.17, 1.05], [0.85, 2])]],
+    l: [[poly([0.2, 0], [0.2, 2], [0.85, 2])]],
+    m: [[poly([0.05, 2], [0.05, 0], [0.5, 1.3], [0.95, 0], [0.95, 2])]],
+    n: [[poly([0.1, 2], [0.1, 0], [0.9, 2], [0.9, 0])]],
+    o: [[circle(0.5, 1, 0.42, 1)]],
+    p: [[line(0.15, 0, 0.15, 2), arc(0.15, 0.55, 0.65, 0.55, -90, 90)]],
+    q: [[circle(0.5, 1, 0.42, 1), line(0.6, 1.5, 0.95, 2.1)]],
+    r: [[line(0.15, 0, 0.15, 2), arc(0.15, 0.55, 0.6, 0.55, -90, 90).concat(line(0.15, 1.1, 0.85, 2))]],
+    s: [[arc(0.5, 0.5, 0.4, 0.5, -20, -270).concat(arc(0.5, 1.5, 0.4, 0.5, -90, 160))]],
+    t: [[line(0.1, 0, 0.9, 0), line(0.5, 0, 0.5, 2)]],
+    u: [[line(0.15, 0, 0.15, 1.4).concat(arc(0.5, 1.4, 0.35, 0.6, 180, 0), line(0.85, 1.4, 0.85, 0))]],
+    v: [[poly([0.05, 0], [0.5, 2], [0.95, 0])]],
+    w: [[poly([0.02, 0], [0.25, 2], [0.5, 0.4], [0.75, 2], [0.98, 0])]],
+    x: [[line(0.1, 0, 0.9, 2), line(0.9, 0, 0.1, 2)]],
+    y: [[poly([0.1, 0], [0.5, 1]), poly([0.9, 0], [0.5, 1], [0.5, 2])]],
+    z: [[poly([0.1, 0], [0.9, 0], [0.1, 2], [0.9, 2])]],
+  };
+
+  // ===== 判定の基準（実際の生徒の字で調整するときは、ここだけ直す） =====
+  // 「正解の字に見えるか」を確かめる方式：正解の文字が近い順で rankMax 位以内、かつ点が「1位の点 × ratio ＋ margin」以内なら○
+  const RULE = { rankMax: 3, ratio: 1.3, margin: 0.15, heightWeight: 0, minStroke: 0.035, personalBonus: 0.9 };
+
   // ---------- $P の計算 ----------
   function pathLen(pts) { let d = 0; for (let i = 1; i < pts.length; i++) if (pts[i].s === pts[i - 1].s) d += dist(pts[i - 1], pts[i]); return d; }
   function dist(a, b) { const dx = a.x - b.x, dy = a.y - b.y; return Math.sqrt(dx * dx + dy * dy); }
@@ -78,24 +134,29 @@ const HW = (() => {
     const cx = q.reduce((a, p) => a + p.x, 0) / q.length, cy = q.reduce((a, p) => a + p.y, 0) / q.length;
     return q.map((p) => ({ x: p.x - cx, y: p.y - cy }));
   }
-  function cloudDist(A, B, start) {
-    const n = A.length, matched = new Array(n).fill(false);
+  // 速く計算するため、点は x・y の数の並び（Float64Array）で持つ。途中で「もう負け」と分かったら打ち切る
+  const MATCHED = new Uint8Array(64);
+  function cloudDist(A, B, start, best) {
+    const n = A.x.length; MATCHED.fill(0, 0, n);
     let sum = 0, i = start;
     do {
       let min = Infinity, idx = -1;
-      for (let j = 0; j < n; j++) if (!matched[j]) { const d = dist(A[i], B[j]); if (d < min) { min = d; idx = j; } }
-      matched[idx] = true;
-      sum += (1 - ((i - start + n) % n) / n) * min;
+      const ax = A.x[i], ay = A.y[i];
+      for (let j = 0; j < n; j++) if (!MATCHED[j]) { const dx = ax - B.x[j], dy = ay - B.y[j], d = dx * dx + dy * dy; if (d < min) { min = d; idx = j; } }
+      MATCHED[idx] = 1;
+      sum += (1 - ((i - start + n) % n) / n) * Math.sqrt(min);
+      if (sum >= best) return sum;
       i = (i + 1) % n;
     } while (i !== start);
     return sum;
   }
-  function match(A, B) {
-    const n = A.length, step = Math.floor(Math.sqrt(n));
-    let min = Infinity;
-    for (let i = 0; i < n; i += step) min = Math.min(min, cloudDist(A, B, i), cloudDist(B, A, i));
+  function match(A, B, best = Infinity) {
+    const n = A.x.length, step = Math.floor(Math.sqrt(n));
+    let min = best;
+    for (let i = 0; i < n; i += step) { min = Math.min(min, cloudDist(A, B, i, min)); min = Math.min(min, cloudDist(B, A, i, min)); }
     return min;
   }
+  const toXY = (pts) => ({ x: Float64Array.from(pts, (p) => p.x), y: Float64Array.from(pts, (p) => p.y) });
   // 高さ（手本の単位：0=上の線〜3=下の線）
   function heights(strokes) {
     let top = Infinity, bot = -Infinity;
@@ -108,19 +169,19 @@ const HW = (() => {
   function addTemplate(ch, strokesUnits, personal) {
     const pts = toPts(strokesUnits);
     if (pts.length < 2) return;
-    templates.push({ ch, cloud: normalize(resample(pts, N)), h: heights(strokesUnits), personal: !!personal });
+    templates.push({ ch, cloud: toXY(normalize(resample(pts, N))), rough: toXY(normalize(resample(pts, 10))), h: heights(strokesUnits), personal: !!personal });
   }
-  Object.keys(BASE).forEach((ch) => BASE[ch].forEach((v) => {
+  [BASE, EXTRA, UPPER].forEach((set) => Object.keys(set).forEach((ch) => set[ch].forEach((v) => {
     addTemplate(ch, v);
     // 少し傾けた形も手本にする（右上がり・左上がり）
     [-0.18, 0.18].forEach((k) => addTemplate(ch, v.map((st) => st.map(([x, y]) => [x + k * (2 - y) * 0.5, y]))));
-  }));
+  })));
   const EXPECT = {}; // 文字ごとの高さの目安
   Object.keys(BASE).forEach((ch) => { const h = heights(BASE[ch][0]); EXPECT[ch] = h; });
 
   // ---------- 生徒専用の手本（端末の中に保存） ----------
   const KEY = 'hw-personal-v1';
-  const MAX_PER = 6;
+  const MAX_PER = 10;
   let personal = {};
   try { personal = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch { personal = {}; }
   Object.keys(personal).forEach((ch) => personal[ch].forEach((s) => addTemplate(ch, s, true)));
@@ -144,26 +205,51 @@ const HW = (() => {
   }
 
   // 1マス分を認識する。戻り値：[{ ch, score }]（score が小さいほど近い）
+  // とても短い線（書き損じの点・ペン先が触れた跡）を除く。ただし、ほかの線より上にある点（i・j の点）は残す
+  function cleanStrokes(strokesBox) {
+    const len = (st) => { let d = 0; for (let i = 1; i < st.length; i++) d += Math.hypot(st[i][0] - st[i - 1][0], st[i][1] - st[i - 1][1]); return d; };
+    const sts = strokesBox.filter((s) => s.length);
+    const big = sts.filter((st) => len(st) >= RULE.minStroke);
+    if (!big.length) return sts;
+    const top = Math.min(...big.map((st) => Math.min(...st.map((p) => p[1]))));
+    return sts.filter((st) => len(st) >= RULE.minStroke || Math.max(...st.map((p) => p[1])) < top + 0.02);
+  }
   function recognize(strokesBox) {
-    const units = boxToUnits(strokesBox.filter((s) => s.length));
+    const units = boxToUnits(cleanStrokes(strokesBox));
     const pts = toPts(units);
     if (pts.length < 2) return [];
-    const cloud = normalize(resample(pts, N));
+    const cloud = toXY(normalize(resample(pts, N))), rough = toXY(normalize(resample(pts, 10)));
     const h = heights(units);
+    // ① 大まかな形（10点）で全部の手本と比べ、近いものだけを残す（文字ごとに最低1つは残す）
+    const pre = templates.map((t) => ({ t, d: match(rough, t.rough) * (t.personal ? RULE.personalBonus : 1) })).sort((a, b) => a.d - b.d);
+    const keep = new Set(pre.slice(0, 48).map((x) => x.t));
+    const seen = {}; pre.forEach((x) => { if (!seen[x.t.ch]) { seen[x.t.ch] = 1; keep.add(x.t); } });
+    // ② 残った手本と、くわしい形（32点）で比べる
     const best = {};
-    templates.forEach((t) => {
-      let d = match(cloud, t.cloud);
-      if (t.personal) d *= 0.92; // 本人の字はやや優先
+    pre.forEach(({ t }) => {
+      if (!keep.has(t)) return;
+      const lim = best[t.ch] === undefined ? Infinity : best[t.ch] / (t.personal ? RULE.personalBonus : 1);
+      let d = match(cloud, t.cloud, lim);
+      if (t.personal) d *= RULE.personalBonus; // 本人の字はやや優先
       if (best[t.ch] === undefined || d < best[t.ch]) best[t.ch] = d;
     });
     // 高さが合わない文字は遠ざける（上に出る文字・下に出る文字）
-    const TOL = 0.45, W = 1.2;
-    Object.keys(best).forEach((ch) => {
+    const TOL = 0.45, W = RULE.heightWeight; // 高さ（4本線）は、いまは見ない（重み0）
+    if (W) Object.keys(best).forEach((ch) => {
       const e = EXPECT[ch];
       const pen = Math.max(0, Math.abs(h.top - e.top) - TOL) + Math.max(0, Math.abs(h.bot - e.bot) - TOL);
       best[ch] += W * pen;
     });
     return Object.keys(best).map((ch) => ({ ch, score: best[ch] })).sort((a, b) => a.score - b.score);
+  }
+
+  // 正解の文字 exp に見えるか（cands：近い順の一覧）
+  function looksLike(cands, exp) {
+    if (!cands || !cands.length) return false;
+    const k = cands.findIndex((c) => c.ch === exp);
+    if (k < 0) return false;
+    if (k === 0) return true;
+    return k < RULE.rankMax && cands[k].score <= cands[0].score * RULE.ratio + RULE.margin;
   }
 
   // ---------- 手書きのマス（画面の部品） ----------
@@ -218,7 +304,7 @@ const HW = (() => {
         return r;
       };
       // マスの縦横比：高さ＝幅×1.25
-      const pos = (e, r) => [Math.min(1.1, Math.max(-0.1, (e.clientX - r.left) / r.width)), Math.min(1.1, Math.max(-0.1, (e.clientY - r.top) / r.height))];
+      const pos = (e, r) => [Math.min(1.6, Math.max(-0.6, (e.clientX - r.left) / r.width)), Math.min(1.6, Math.max(-0.6, (e.clientY - r.top) / r.height))]; // マスからはみ出しても使う
       if (!fixed) {
         cv.addEventListener('pointerdown', (e) => {
           if (self.opt.disabled) return;
@@ -257,23 +343,42 @@ const HW = (() => {
         if (c.fixed) { letters.push({ ch: c.fixed, fixed: true, cands: [] }); return; }
         if (!c.strokes.length) return;
         const cands = recognize(c.strokes);
-        letters.push({ ch: cands.length ? cands[0].ch : '?', cands: cands.slice(0, 4), strokes: c.strokes });
+        letters.push({ ch: cands.length ? cands[0].ch : '?', cands, strokes: c.strokes });
       });
       return { text: letters.map((l) => l.ch).join(''), letters };
     }
-    // お手本を見て書いた字を、生徒専用の手本として覚える（正解の文字が候補の上位にあるときだけ）
+    // 単語として正解か（1文字ずつ「正解の字に見えるか」を確かめる）。戻り値：{ ok, text, letters:[{ exp, ch, ok, cands, strokes }] }
+    check(word) {
+      const r = this.read();
+      const ls = r.letters;
+      const out = ls.map((l, k) => ({ ...l, exp: word[k], ok: l.fixed ? l.ch === word[k] : looksLike(l.cands, word[k]) }));
+      const ok = ls.length === word.length && out.every((l) => l.ok);
+      // 正解の文字に見えた字は、その文字として表示する（読み取り結果の表示用）
+      const text = out.map((l) => (l.ok ? l.exp : l.ch)).join('');
+      return { ok, text, letters: out };
+    }
+    // 正解と分かっている字を、生徒専用の手本として覚える（正解の文字が候補の5位以内にあるときだけ）
     learnFrom(word) {
       const r = this.read();
       const ls = r.letters.filter((l) => !l.fixed);
-      if (ls.length !== word.length) return 0;
+      const exps = word.slice(r.letters.length - ls.length);
+      if (ls.length !== exps.length) return 0;
       let n = 0;
       ls.forEach((l, k) => {
-        const exp = word[k];
-        if (l.cands.slice(0, 3).some((c) => c.ch === exp)) { learn(exp, boxToUnits(l.strokes)); n++; }
+        const exp = exps[k];
+        if (l.cands.slice(0, 5).some((c) => c.ch === exp)) { learn(exp, boxToUnits(cleanStrokes(l.strokes))); n++; }
       });
       return n;
     }
+    // 読み違えた字の線の形（手本の調整用の記録）。座標は 0〜1 で、点は間引く
+    misses(word) {
+      const c = this.check(word);
+      return c.letters.filter((l) => !l.ok && !l.fixed && l.strokes).map((l) => ({
+        exp: l.exp, got: l.ch, top: (l.cands || []).slice(0, 3).map((x) => x.ch + Math.round(x.score * 100) / 100).join(' '),
+        s: l.strokes.map((st) => st.filter((_, i) => i % 3 === 0 || i === st.length - 1).map(([x, y]) => [Math.round(x * 100) / 100, Math.round(y * 100) / 100])),
+      }));
+    }
   }
 
-  return { recognize, learn, forget, personalCount, Boxes, GUIDE, UNIT, ASPECT, boxToUnits, _BASE: BASE, _templates: templates };
+  return { recognize, looksLike, learn, forget, personalCount, Boxes, GUIDE, UNIT, ASPECT, RULE, boxToUnits, _BASE: BASE, _EXTRA: EXTRA, _UPPER: UPPER, _templates: templates };
 })();

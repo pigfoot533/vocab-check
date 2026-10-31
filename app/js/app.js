@@ -637,16 +637,17 @@ const App = (() => {
           if (!rec) { busy = false; return; }
           const r = await rec.stop(); rec = null;
           $('#mic').classList.remove('on'); $('#mic').textContent = '…判定中…';
-          const read = boxes.read();
+          const read = boxes.check(w);          // 1文字ずつ「正解の字に見えるか」
           const pr = await Voice.judge(r.blob, w, 'loose');
-          const letterOk = read.text === w;
+          const letterOk = read.ok;
+          if (!letterOk) API.record({ type: 'hwMiss', lesson: L.n, word: w, rep, detail: { misses: boxes.misses(w) } }); // 手本の調整用
           if (!pr.pass) {
             $('#msg').innerHTML = '<span class="ng">声が 聞こえなかったか、単語が 聞き取れなかったぞ。</span><br>唱えながら 書くのが ルールじゃ！ もう一度。';
             API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: false, letterOk });
             await sleep(1800); return showWord(rep);
           }
+          const learned = (!hidden || letterOk) ? boxes.learnFrom(w) : 0; // 正解と分かっている字は、本人の手本として覚える
           if (!hidden) {
-            const learned = boxes.learnFrom(w);
             $('#msg').innerHTML = `<span class="ok">⭕ OK！</span> ${letterOk ? 'きれいに きざめたぞ。' : `（石版には「${esc(read.text)}」と 読めた。ていねいに 書こう）`}`;
             API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk, learned });
           } else if (!letterOk) {
@@ -704,8 +705,9 @@ const App = (() => {
       const finish = async (timeout) => {
         if (done) return; done = true; clearInterval(timer); document.removeEventListener('visibilitychange', away);
         boxes.opt.disabled = true;
-        const read = boxes.read();
-        const ok = !timeout && !wentAway && read.text === w;
+        const read = boxes.check(w);
+        const ok = !timeout && !wentAway && read.ok;
+        if (!read.ok && !timeout && !wentAway && read.letters.length) API.record({ type: 'hwMiss', word: w, detail: { test: true, misses: boxes.misses(w) } });
         results.push({ w, word: w, ok });
         opt.record(w, ok, read.text, !!timeout, wentAway);
         if (opt.onHit) opt.onHit(ok, results);
