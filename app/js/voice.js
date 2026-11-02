@@ -28,7 +28,7 @@ const Voice = (() => {
 
   // 録音する。声が出て、そのあと静かになったら自動で止める（最大 maxMs）
   // onLevel(v)：音量（0〜1）
-  async function listen({ maxMs = 3500, onLevel, minVoiceMs = 150, silenceMs = 700 } = {}) {
+  async function listen({ maxMs = 3500, onLevel, onStart, minVoiceMs = 150, silenceMs = 700 } = {}) {
     let heard = 0, quietSince = 0, lastT = Date.now(), resolveAuto;
     const levels = []; // 周りの音の大きさ（ざわざわしていても、声が終わったら止まるように）
     const auto = new Promise((r) => { resolveAuto = r; });
@@ -45,6 +45,7 @@ const Voice = (() => {
         else if (heard > minVoiceMs) { if (!quietSince) quietSince = now; else if (now - quietSince > silenceMs) resolveAuto(null); }
       },
     });
+    if (onStart) onStart(); // マイクの準備ができ、録音が始まった（ここで「どうぞ」を出す）
     const r = await auto;
     const result = r || await rec.stop();
     result.heardMs = heard;
@@ -54,7 +55,7 @@ const Voice = (() => {
   // ===== 録音の中から、いちばん大きな音（＝iPadの近くで話している生徒の声）だけを取り出す =====
   // 周りの話し声やテレビの音は、iPadの目の前で話す声より小さいので、判定の前に取りのぞく。
   // ただし、机をたたく音のような「短すぎる大きな音」は声ではないので、次に大きい音を選ぶ。
-  const FOCUS = { frame: 320, minVoice: 0.12, gap: 0.35, pad: 0.12, extend: 0.3 }; // 秒（16kHz で 320＝20ミリ秒）
+  const FOCUS = { frame: 320, minVoice: 0.12, gap: 0.35, pad: 0.2, extend: 0.5, quiet: 0.03 }; // 秒（16kHz で 320＝20ミリ秒）
   function focusLoudest(pcm, sr = 16000) {
     const F = FOCUS.frame, n = Math.floor(pcm.length / F);
     if (n < 10) return { pcm, focused: false };
@@ -68,9 +69,10 @@ const Voice = (() => {
     const middle = sorted[Math.floor(n * 0.5)];  // ずっと鳴っている音（テレビなど）があると、ここが大きくなる
     const peak = sorted[n - 1];
     if (peak < noise * 2 || peak < 0.003) return { pcm, focused: false }; // 声らしい大きな音がない
+    if (noise < peak * FOCUS.quiet && middle < peak * 0.1) return { pcm, focused: false, quiet: true }; // 静かな部屋：切り取らない（単語の端を欠けさせないため）
     // 声の中心を探す基準：周りの音よりはっきり大きい音（ただし、いちばん大きな音の35%より厳しくはしない）
     const core = Math.min(peak * 0.35, Math.max(peak * 0.12, noise * 3, middle * 2));
-    const low = Math.max(peak * 0.12, noise * 3); // 声の端（弱い子音など）を拾う基準
+    const low = Math.max(peak * 0.05, noise * 3); // 声の端（弱い子音・息の音など）を拾う基準
     const gapF = Math.round(FOCUS.gap * sr / F), segs = [];
     let cur = null, quiet = 0;
     for (let i = 0; i < n; i++) {
@@ -114,6 +116,8 @@ const Voice = (() => {
     lowSignalFails: true,
     // AIが自由に聞き取った音と、正しい音の並びが、この割合以上そろっていること（近い音はそろったとみなす）
     matchMin: 0.5,
+    // 子音（単語らしさを決める音）が、少なくともこの割合は聞き取れていること
+    consMin: 0.34,
     // 少し厳しく見る音の組：この音に聞こえて、かつ gop がこの値より下なら不合格
     pairs: { R: 'L', L: 'R', B: 'V', V: 'B' },
     pairLimit: -3.5,
@@ -136,13 +140,15 @@ const Voice = (() => {
   // 近い音（そろったとみなす組）。r と l、b と v は入れない（区別して見る）
   const NEAR = [['S', 'Z', 'TH'], ['Z', 'DH'], ['T', 'D', 'DH'], ['CH', 'T'], ['JH', 'D'], ['K', 'G'], ['P', 'B'], ['F', 'HH'], ['SH', 'ZH', 'CH', 'JH'], ['M', 'N', 'NG'], ['W', 'UW'], ['Y', 'IY'],
     ['IY', 'IH', 'EY'], ['EH', 'AE', 'AH', 'EY'], ['AA', 'AO', 'AH', 'OW'], ['UW', 'UH', 'OW'], ['ER', 'AH', 'R'], ['AY', 'AA', 'AE'], ['AW', 'AA', 'OW'], ['OY', 'AO']];
-  const near = (a, b) => a === b || NEAR.some((g) => g.includes(a) && g.includes(b));
+  const VOWEL = new Set(['AA', 'AE', 'AH', 'AO', 'AW', 'AY', 'EH', 'ER', 'EY', 'IH', 'IY', 'OW', 'OY', 'UH', 'UW']);
+  // そろい方の点：同じ音・近い音は1点。近くない母音どうしは0.5点（日本語なまりの母音の違いで落としすぎないため）
+  const nearScore = (a, b) => (a === b || NEAR.some((g) => g.includes(a) && g.includes(b)) ? 1 : (VOWEL.has(a) && VOWEL.has(b) ? 0.5 : 0));
   // AIが聞き取った音の並び（heard）と、正しい音の並び（target）が、どれだけ同じ順番でそろっているか（0〜1）
   function matchRate(target, heard) {
     if (!target.length) return 1;
     if (!heard || !heard.length) return 0;
     const m = target.length, n = heard.length, dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
-    for (let i = 1; i <= m; i++) for (let j = 1; j <= n; j++) dp[i][j] = near(target[i - 1], heard[j - 1]) ? dp[i - 1][j - 1] + 1 : Math.max(dp[i - 1][j], dp[i][j - 1]);
+    for (let i = 1; i <= m; i++) for (let j = 1; j <= n; j++) { const sc = nearScore(target[i - 1], heard[j - 1]); dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1], sc ? dp[i - 1][j - 1] + sc : 0); }
     return dp[m][n] / m;
   }
 
@@ -157,7 +163,10 @@ const Voice = (() => {
     const badN = ph.filter((p) => p.gop < RULE.bad).length;
     const allow = n <= 1 ? 0 : Math.max(1, Math.floor(n * RULE.badRatio[mode === 'loose' ? 'loose' : 'strict']));
     const rate = res.heard ? matchRate(ph.map((p) => p.ph), res.heard) : 1;
-    if (badN > allow || (res.lowSignal && (RULE.lowSignalFails || badN > 0)) || rate < RULE.matchMin) reasons.push({ type: 'word' });
+    const tc = ph.map((p) => p.ph).filter((x) => !VOWEL.has(x)), hc = (res.heard || []).filter((x) => !VOWEL.has(x));
+    const cons = res.heard && tc.length ? matchRate(tc, hc) : 1;
+    const low = !!res.lowSignal && (RULE.lowSignalFails || badN > 0) && rate < Math.min(1, RULE.matchMin + 0.2); // 聞き取れた音が少なく、そろってもいないとき
+    if (badN > allow || low || rate < RULE.matchMin || cons < RULE.consMin) reasons.push({ type: 'word' });
     if (mode !== 'loose') {
       // ② r と l、b と v
       ph.forEach((p, i) => {
@@ -167,7 +176,7 @@ const Voice = (() => {
       // ③ 余分な母音
       if (RULE.insertFails) (res.insertions || []).forEach((x) => reasons.push({ type: 'insert', after: x.after, vowel: x.vowel }));
     }
-    return { pass: reasons.length === 0, reasons, badN, allow, rate: Math.round(rate * 100) / 100 };
+    return { pass: reasons.length === 0, reasons, badN, allow, rate: Math.round(rate * 100) / 100, cons: Math.round(cons * 100) / 100, low, heard: (res.heard || []).join(' ') };
   }
 
   // 不合格の理由を、生徒向けの短い言葉にする

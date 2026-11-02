@@ -479,6 +479,13 @@ const App = (() => {
     show();
   }
 
+  // 発音の判定結果を、原因を調べるための短い記録にする（学習ログの「内容」に入る）
+  function diag(r) {
+    const d = r.decision || {};
+    return { why: (d.reasons || []).map((x) => (x.type === 'pair' ? x.ph + '→' + x.heard : x.type)).join(',') || (r.silent ? 'silent' : ''),
+      rate: d.rate, cons: d.cons, bad: d.badN, allow: d.allow, low: d.low, heard: d.heard, sec: r.res && r.res.seconds };
+  }
+
   // ===== 判定用AIの準備（初回だけ） =====
   async function ensureModel(L, step) {
     if (await Voice.modelReady()) return true;
@@ -557,14 +564,14 @@ const App = (() => {
         try {
           $('#msg').innerHTML = '🔊 お手本を 聞くのじゃ…';
           await Voice.speak(w);
-          $('#msg').innerHTML = '🎙️ さあ、唱えよ！';
-          const rec = await Voice.listen({ maxMs: 3500, onLevel: (v) => { const el = $('#lv'); if (el) el.style.width = Math.round(v * 100) + '%'; } });
+          $('#msg').innerHTML = '…マイクを 準備中…（まだ 言わないで）';
+          const rec = await Voice.listen({ maxMs: 3500, onStart: () => { $('#msg').innerHTML = '<span class="go">🔴 どうぞ！ 今 唱えよ！</span>'; }, onLevel: (v) => { const el = $('#lv'); if (el) el.style.width = Math.round(v * 100) + '%'; } });
           $('#lv').style.width = '0';
           $('#msg').innerHTML = '…判定中…';
           const r = await Voice.judge(rec.blob, w, 'strict');
           tries++;
           $('#res').innerHTML = r.html; $('#resWrap').hidden = false;
-          if (!r.pass && r.decision && r.decision.reasons) API.record({ type: 'pronTry', lesson: L.n, word: w, why: r.decision.reasons.map((x) => x.type === 'pair' ? x.ph + '→' + x.heard : x.type).join(',') });
+          if (!r.pass && r.decision && r.decision.reasons) API.record({ type: 'pronTry', lesson: L.n, word: w, detail: diag(r) });
           if (r.pass) { passes++; $('#msg').innerHTML = `<span class="ok">⭕ 合格！</span> ちゃんと「<b>${esc(w)}</b>」に 聞こえたぞ。<span class="tri">▼</span>`; }
           else $('#msg').innerHTML = `<span class="ng">おしい！</span><br>${r.advice || 'もう一度 言ってみよう。'}<span class="tri">▼</span>`;
           dots();
@@ -648,12 +655,13 @@ const App = (() => {
         if (busy || spoke) return; busy = true; Rec.audioCtx();
         $('#say2').disabled = true;
         try {
-          $('#msg').innerHTML = '🎙️ さあ、単語を 言うのじゃ！';
-          const rec = await Voice.listen({ maxMs: 3500, onLevel: (v) => { const el = $('#lv'); if (el) el.style.width = Math.round(v * 100) + '%'; } });
+          $('#msg').innerHTML = '…マイクを 準備中…（まだ 言わないで）';
+          const rec = await Voice.listen({ maxMs: 3500, onStart: () => { $('#msg').innerHTML = '<span class="go">🔴 どうぞ！ 今 言おう！</span>'; }, onLevel: (v) => { const el = $('#lv'); if (el) el.style.width = Math.round(v * 100) + '%'; } });
           $('#lv').style.width = '0';
           $('#msg').innerHTML = '…判定中…';
           const pr = await Voice.judge(rec.blob, w, 'loose');
           if (!pr.pass) {
+            API.record({ type: 'pronTry', lesson: L.n, word: w, detail: Object.assign(diag(pr), { step: 'write' }) });
             $('#msg').innerHTML = `<span class="ng">${pr.silent ? '声が 聞こえなかったぞ。' : '単語が 聞き取れなかったぞ。'}</span><br>お手本を 聞いて、もう一度 言ってみよう。<span class="tri">▼</span>`;
             API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: false });
             $('#say2').disabled = false; busy = false;

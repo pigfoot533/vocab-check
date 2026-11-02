@@ -318,3 +318,4 @@ body[data-scene="boss"] { background: radial-gradient(circle at 50% 30%, #3a0d5c
 .nextrow { text-align: center; margin-top: 8px; }
 .gbtn.small-g { display: inline-block; width: auto; min-width: 220px; font-size: 20px; padding: 10px 26px; margin: 6px auto 4px; }
 .rpg .nextrow .gbtn { font-family: var(--pop); }
+.rpg .go { color: #ff8a8a; font-size: 26px; animation: blink .6s steps(2) infinite; }
