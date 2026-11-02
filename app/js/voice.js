@@ -139,7 +139,7 @@ const Voice = (() => {
 
   // 近い音（そろったとみなす組）。r と l、b と v は入れない（区別して見る）
   const NEAR = [['S', 'Z', 'TH'], ['Z', 'DH'], ['T', 'D', 'DH'], ['CH', 'T'], ['JH', 'D'], ['K', 'G'], ['P', 'B'], ['F', 'HH'], ['SH', 'ZH', 'CH', 'JH'], ['M', 'N', 'NG'], ['W', 'UW'], ['Y', 'IY'],
-    ['IY', 'IH', 'EY'], ['EH', 'AE', 'AH', 'EY'], ['AA', 'AO', 'AH', 'OW'], ['UW', 'UH', 'OW'], ['ER', 'AH', 'R'], ['AY', 'AA', 'AE'], ['AW', 'AA', 'OW'], ['OY', 'AO']];
+    ['IY', 'IH', 'EY'], ['EH', 'AE', 'AH', 'EY'], ['AA', 'AO', 'AH', 'OW'], ['UW', 'UH', 'OW'], ['ER', 'AH', 'R', 'AA'], ['AA', 'OW', 'AO'], ['AY', 'AA', 'AE'], ['AW', 'AA', 'OW'], ['OY', 'AO']];
   const VOWEL = new Set(['AA', 'AE', 'AH', 'AO', 'AW', 'AY', 'EH', 'ER', 'EY', 'IH', 'IY', 'OW', 'OY', 'UH', 'UW']);
   // そろい方の点：同じ音・近い音は1点。近くない母音どうしは0.5点（日本語なまりの母音の違いで落としすぎないため）
   const nearScore = (a, b) => (a === b || NEAR.some((g) => g.includes(a) && g.includes(b)) ? 1 : (VOWEL.has(a) && VOWEL.has(b) ? 0.5 : 0));

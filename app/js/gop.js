@@ -24,9 +24,12 @@ const GOP = (() => {
       S: ['Z'], Z: ['S'], T: ['D', 'CH'], D: ['T', 'JH'],
       // AIは ch（/tʃ/）を t、j（/dʒ/）を d と聞き取りやすいので、ゆれとして認める（2026年11月：「チュ」が /t/ と判定される報告）
       CH: ['T', 'SH'], JH: ['D', 'ZH'],
-      AA: ['AO', 'AE'], AO: ['AA'], AE: ['AA', 'EH'],
-      OW: ['AW', 'AH', 'AO'], EY: ['AY', 'EH'], AY: ['OY', 'AA'], IY: ['IH', 'EY'],
-      ER: ['AH', 'EH', 'AO'], AW: ['AE'],
+      AA: ['AO', 'AE', 'OW', 'AH'], AO: ['AA', 'OW'], AE: ['AA', 'EH'],
+      OW: ['AW', 'AH', 'AO', 'AA'], EY: ['AY', 'EH'], AY: ['OY', 'AA'], IY: ['IH', 'EY'],
+      ER: ['AH', 'EH', 'AO', 'AA'], AW: ['AE'],
+      // 日本語なまりでよく起きる置きかわり（2026年11月：学習ログで project・quality・contact・search・fail が多く不合格）
+      //   /ɑ/→「オ」（project, contact）、/ɝ/→「アー」（search）、f→「フ」（fail）、w→「ウ」（quality）
+      F: ['HH'], W: ['UW'],
     },
     // イギリス英語などで、母音のあとの r（car, teacher, world）は発音しなくても減点しない
     nonRhotic: true,
