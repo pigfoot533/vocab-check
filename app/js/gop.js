@@ -30,9 +30,13 @@ const GOP = (() => {
       // 日本語なまりでよく起きる置きかわり（2026年11月：学習ログで project・quality・contact・search・fail が多く不合格）
       //   /ɑ/→「オ」（project, contact）、/ɝ/→「アー」（search）、f→「フ」（fail）、w→「ウ」（quality）
       F: ['HH'], W: ['UW'],
+      // 専門家の評価方針（2026年11月）で「許容する揺れ」とされたもの：th の代用（think→sink/tink、this→zis/dis）
+      TH: ['S', 'T'], DH: ['Z', 'D'],
     },
     // イギリス英語などで、母音のあとの r（car, teacher, world）は発音しなくても減点しない
     nonRhotic: true,
+    // 暗い L（語末・子音の前の l）は、「ウ」のようになったり、なくなったりしても減点しない
+    darkL: true,
     // 弱く読む母音（強勢0）は、あいまいな母音どうしの違いを減点しない
     reduced: ['AH', 'IH', 'EH', 'UH', 'IY', 'ER'],
     // 母音を入れた並びとの差。正しい発音では -2 以下、母音を入れた発音（thinku, sutoro…）では -0.5〜+1.6 だった
@@ -118,6 +122,7 @@ const GOP = (() => {
       const s = new Set(TH.equiv[p] || []);
       alts0.forEach((a) => s.add(a[i]));
       if (/0$/.test(phon.phones[i]) && TH.reduced.includes(p)) TH.reduced.forEach((x) => s.add(x));
+      if (TH.darkL && p === 'L' && i > 0 && VOWELS.has(phones[i - 1]) && !(i + 1 < phones.length && VOWELS.has(phones[i + 1]))) ['UW', 'UH', 'OW'].forEach((x) => s.add(x));
       s.delete(p);
       return s;
     };
@@ -135,7 +140,8 @@ const GOP = (() => {
     // 正解として認める音：辞書の別の発音（translate の /s/ と /z/ など）、言い方のゆれ、弱く読む母音どうし
     const allowed = phones.map((p, i) => { const s = allowedOf(p, i); s.add(p); s.delete(VOCAB[labels[i]]); return s; });
     // 母音のあとで、次に母音が続かない r（car, teacher）は、なくてもよい音として扱う
-    const optionalR = phones.map((p, i) => TH.nonRhotic && p === 'R' && i > 0 && VOWELS.has(phones[i - 1]) && !(i + 1 < phones.length && VOWELS.has(phones[i + 1])));
+    // なくてもよい音：母音のあとの r（イギリス式）、母音のあとで次に母音が続かない l（暗い L：milk→「ミウク」、fail の最後）
+    const optionalR = phones.map((p, i) => i > 0 && VOWELS.has(phones[i - 1]) && !(i + 1 < phones.length && VOWELS.has(phones[i + 1])) && ((TH.nonRhotic && p === 'R') || (TH.darkL && p === 'L')));
     const res = phones.map((p, i) => {
       let bestAlt = -Infinity, heard = null;
       if (labels.length > 1 && !optionalR[i]) { const del = ctcLL(lp, T, C, labels.filter((_, k) => k !== i)); if (del > bestAlt) { bestAlt = del; heard = '-'; } }

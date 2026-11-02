@@ -483,7 +483,8 @@ const App = (() => {
   function diag(r) {
     const d = r.decision || {};
     return { why: (d.reasons || []).map((x) => (x.type === 'pair' ? x.ph + '→' + x.heard : x.type)).join(',') || (r.silent ? 'silent' : ''),
-      rate: d.rate, cons: d.cons, bad: d.badN, allow: d.allow, low: d.low, heard: d.heard, sec: r.res && r.res.seconds };
+      rate: d.rate, cons: d.cons, bad: d.badN, allow: d.allow, low: d.low, heard: d.heard, sec: r.res && r.res.seconds,
+      score: r.assessment && r.assessment.score, codes: r.assessment && r.assessment.findings.map((f) => f.code).join(',') };
   }
 
   // ===== 判定用AIの準備（初回だけ） =====
@@ -573,7 +574,7 @@ const App = (() => {
           $('#res').innerHTML = r.html; $('#resWrap').hidden = false;
           if (!r.pass && r.decision && r.decision.reasons) API.record({ type: 'pronTry', lesson: L.n, word: w, detail: diag(r) });
           if (r.pass) { passes++; $('#msg').innerHTML = `<span class="ok">⭕ 合格！</span> ちゃんと「<b>${esc(w)}</b>」に 聞こえたぞ。<span class="tri">▼</span>`; }
-          else $('#msg').innerHTML = `<span class="ng">おしい！</span><br>${r.advice || 'もう一度 言ってみよう。'}<span class="tri">▼</span>`;
+          else { const b = r.assessment && r.assessment.findings.find((f) => f.level === 'block'); $('#msg').innerHTML = `<span class="ng">おしい！</span><br>${(b && b.msg) || r.advice || 'もう一度 言ってみよう。'}<span class="tri">▼</span>`; }
           dots();
           if (passes >= NEED) {
             API.record({ type: 'pron', lesson: L.n, word: w, tries, pass: true });

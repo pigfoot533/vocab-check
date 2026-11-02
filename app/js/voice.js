@@ -204,6 +204,104 @@ const Voice = (() => {
     return [...new Set(msgs)].join('<br>');
   }
 
+  // =====================================================================
+  // 評価の分類とフィードバック（専門家の評価方針をもとに、このアプリ向けに調整）
+  //  ・意味が変わる取りちがえ（r と l、b と v）と「単語として聞き取れない」→ 不合格（block）
+  //  ・余分な母音、強く読む位置、s と sh・f と h・長い／短い母音、語末の子音の脱落 → 助言だけ（advise）
+  //  ・日本語なまりの許容できる揺れ（th の代用、暗い L、母音の質の違い など）→ 気にしなくてよい（info）
+  //
+  // 型（JSDoc）：
+  //  @typedef {'block'|'advise'|'info'} Level
+  //  @typedef {'phonemic'|'prosodic'|'variation'|'intelligibility'} Kind
+  //  @typedef {{ code:string, level:Level, kind:Kind, at?:number, ph?:string, heard?:string, msg:string }} Finding
+  //  @typedef {{ pass:boolean, score:number, findings:Finding[] }} Assessment
+  // =====================================================================
+  const IPA2 = { AA: 'ɑ', AE: 'æ', AH: 'ʌ', AO: 'ɔ', AW: 'aʊ', AY: 'aɪ', B: 'b', CH: 'tʃ', D: 'd', DH: 'ð', EH: 'ɛ', ER: 'ɝ', EY: 'eɪ', F: 'f', G: 'ɡ', HH: 'h', IH: 'ɪ', IY: 'i', JH: 'dʒ', K: 'k', L: 'l', M: 'm', N: 'n', NG: 'ŋ', OW: 'oʊ', OY: 'ɔɪ', P: 'p', R: 'r', S: 's', SH: 'ʃ', T: 't', TH: 'θ', UH: 'ʊ', UW: 'u', V: 'v', W: 'w', Y: 'j', Z: 'z', ZH: 'ʒ' };
+  const ipa = (p) => '/' + (IPA2[p] || String(p).toLowerCase()) + '/';
+  // 助言する取りちがえ（意味の区別に関わるが、このアプリでは合否に使わない）
+  const CONTRAST = { 'S>SH': 'S_SH', 'SH>S': 'S_SH', 'F>HH': 'F_H', 'HH>F': 'F_H', 'IY>IH': 'TENSE', 'IH>IY': 'TENSE', 'UW>UH': 'TENSE', 'UH>UW': 'TENSE' };
+  // 気にしなくてよい揺れ
+  const VARIATION = { 'TH>S': 'TH', 'TH>T': 'TH', 'TH>F': 'TH', 'DH>Z': 'TH', 'DH>D': 'TH', 'CH>T': 'CH', 'JH>D': 'CH', 'W>UW': 'W', 'T>D': 'FLAP', 'AA>OW': 'VOWEL', 'AA>AO': 'VOWEL', 'ER>AA': 'VOWEL', 'ER>AH': 'VOWEL', 'L>UW': 'DARKL', 'L>UH': 'DARKL', 'L>OW': 'DARKL' };
+  const ADVICE = {
+    S_SH: 's と sh を 区別しよう（s は 歯のすき間から「スー」、sh は 唇を 丸めて「シュー」）。',
+    F_H: 'f は、上の前歯を 下唇に 軽く 当てて 息を 出そう（「フ」に ならないように）。',
+    TENSE: '長い母音（ee・oo）と 短い母音（i・u）の 長さの ちがいを 意識しよう。',
+    FINAL: '最後の 音まで はっきり 言おう。',
+    EPENTHESIS: '子音の あとに よけいな 母音が 入ったかも。子音で ピタッと 止めよう。',
+    STRESS: 'を いちばん 強く 読もう。',
+  };
+  const INFO = {
+    TH: 'th が s や t に なっても、ちゃんと 通じるよ（できれば 舌先を 歯に 当ててみよう）。',
+    CH: 'ch・j の 音は そのままで 大丈夫。',
+    W: 'w が「ウ」に 近く なっても 大丈夫。',
+    FLAP: 't が やわらかく なるのは、アメリカ英語の 自然な 発音だよ。',
+    VOWEL: '母音の 細かい ちがいは、気にしなくて 大丈夫。',
+    DARKL: '最後の l が「ウ」っぽく なるのは、自然な 発音だよ。',
+  };
+  // 正しい音の並びと、AIが聞き取った音の並びを、そろえて比べる（置きかわり・抜け・増えた音を見つける）
+  function align(target, heard) {
+    const m = target.length, n = heard.length, G = -0.6;
+    const sc = (a, b) => (nearScore(a, b) === 1 ? 1 : nearScore(a, b) === 0.5 ? 0.2 : -0.5);
+    const dp = Array.from({ length: m + 1 }, (_, i) => Array.from({ length: n + 1 }, (_, j) => (i === 0 ? j * G : j === 0 ? i * G : 0)));
+    for (let i = 1; i <= m; i++) for (let j = 1; j <= n; j++) dp[i][j] = Math.max(dp[i - 1][j - 1] + sc(target[i - 1], heard[j - 1]), dp[i - 1][j] + G, dp[i][j - 1] + G);
+    const ops = [];
+    let i = m, j = n;
+    while (i > 0 || j > 0) {
+      if (i > 0 && j > 0 && dp[i][j] === dp[i - 1][j - 1] + sc(target[i - 1], heard[j - 1])) { ops.push({ t: target[i - 1], h: heard[j - 1], i: i - 1 }); i--; j--; }
+      else if (i > 0 && dp[i][j] === dp[i - 1][j] + G) { ops.push({ t: target[i - 1], h: null, i: i - 1 }); i--; }
+      else { ops.push({ t: null, h: heard[j - 1] }); j--; }
+    }
+    return ops.reverse();
+  }
+  /** @returns {Assessment} */
+  function assess(res, jw, d) {
+    const F = [];
+    if (!res || res.silent || res.tooShort) return { pass: false, score: 0, findings: [{ code: 'SILENT', level: 'block', kind: 'intelligibility', msg: '声が 聞こえなかったよ。マイクに 近づいて、はっきり 言おう。' }] };
+    const ph = (res.phones || []).map((p) => p.ph);
+    // 不合格になる理由（判定の本体 decide の結果）
+    (d.reasons || []).forEach((r) => {
+      if (r.type === 'word') F.push({ code: 'WORD', level: 'block', kind: 'intelligibility', msg: '単語として 聞き取れなかったよ。お手本を よく聞いて、もう一度。' });
+      if (r.type === 'pair') F.push({ code: r.ph === 'R' || r.ph === 'L' ? 'RL' : 'BV', level: 'block', kind: 'phonemic', at: r.i, ph: r.ph, heard: r.heard, msg: advice({ pass: false, reasons: [r] }, jw) });
+    });
+    // 余分な母音（助言だけ）
+    (res.insertions || []).forEach((x) => F.push({ code: 'EPENTHESIS', level: 'advise', kind: 'prosodic', at: x.after, ph: ph[x.after],
+      msg: `「${ipa(ph[x.after])}」の あとに よけいな「${KANA[x.vowel] || 'ウ'}」が 入ったかも。子音で ピタッと 止めよう。` }));
+    // 強く読む位置（助言だけ。AIの判定は約8割の正しさ）
+    if (res.stress && res.stress.ok === false && jw && jw.syllables && jw.syllables.length > 1) {
+      F.push({ code: 'STRESS', level: 'advise', kind: 'prosodic', msg: `「${jw.syllables[res.stress.expected] || ''}」${ADVICE.STRESS}` });
+    }
+    // 置きかわり・抜け（AIが自由に聞き取った音と比べる）
+    if (res.heard && res.heard.length) {
+      const seen = {};
+      align(ph, res.heard).forEach((o, k, all) => {
+        if (o.t && o.h && o.t !== o.h) {
+          const key = o.t + '>' + o.h;
+          if (CONTRAST[key] && !seen[CONTRAST[key]]) { seen[CONTRAST[key]] = 1; F.push({ code: CONTRAST[key], level: 'advise', kind: 'phonemic', at: o.i, ph: o.t, heard: o.h, msg: `${ipa(o.t)} が ${ipa(o.h)} に 聞こえたかも。` + ADVICE[CONTRAST[key]] }); }
+          else if (VARIATION[key] && !seen[VARIATION[key]]) { seen[VARIATION[key]] = 1; F.push({ code: VARIATION[key], level: 'info', kind: 'variation', at: o.i, ph: o.t, heard: o.h, msg: INFO[VARIATION[key]] }); }
+        }
+        if (o.t && !o.h && o.i === ph.length - 1 && !VOWEL.has(o.t)) {
+          if (o.t === 'L' || o.t === 'R') { if (!seen.DARKL && o.t === 'L') { seen.DARKL = 1; F.push({ code: 'DARKL', level: 'info', kind: 'variation', msg: INFO.DARKL }); } }
+          else if (!seen.FINAL) { seen.FINAL = 1; F.push({ code: 'FINAL', level: 'advise', kind: 'phonemic', at: o.i, ph: o.t, msg: `最後の「${ipa(o.t)}」が 聞こえにくかったかも。` + ADVICE.FINAL }); }
+        }
+      });
+    }
+    // 先生向けの点数（記録用。合否には使わない）：不合格の理由 -30、助言 -10（余分な母音は -12）
+    const score = Math.max(0, 100 - F.reduce((a, f) => a + (f.level === 'block' ? 30 : f.level === 'advise' ? (f.code === 'EPENTHESIS' ? 12 : 10) : 0), 0));
+    return { pass: d.pass, score, findings: F };
+  }
+  // 生徒向けの表示：直すことは多くても2つ、コツも2つまで。許容できる癖は「気にしなくてOK」で安心させる
+  function feedbackHtml(a, word) {
+    const pick = (lv, max) => a.findings.filter((f) => f.level === lv).slice(0, max);
+    const block = pick('block', 2), adv = pick('advise', a.pass ? 2 : 1), info = pick('info', 2);
+    const li = (fs) => `<ul>${fs.map((f) => `<li>${f.msg}</li>`).join('')}</ul>`;
+    return `<div class="fbk">
+      ${block.length ? `<div class="fbk-b"><b>🔴 ここを 直そう</b>${li(block)}</div>` : ''}
+      ${adv.length ? `<div class="fbk-a"><b>💡 もっと 良くなる コツ</b>${li(adv)}</div>` : ''}
+      ${info.length ? `<div class="fbk-i"><b>👍 気にしなくて OK</b>${li(info)}</div>` : ''}
+      ${!block.length && !adv.length && !info.length && a.pass ? '<div class="fbk-i"><b>👍 とても いい 発音！</b></div>' : ''}
+    </div>`;
+  }
+
   // 判定する
   async function judge(blob, word, mode, onProgress) {
     const jw = await wordInfo(word);
@@ -211,12 +309,12 @@ const Voice = (() => {
     const pcm = focusLoudest(await Rec.toPCM16k(blob)).pcm; // いちばん大きな音（生徒の声）だけで判定
     const res = await PronJudge.judge(pcm, jw, onProgress);
     const d = decide(res, mode);
-    const detail = (res.silent || res.tooShort) ? PronJudge.render(res, jw)
-      : `<details class="pj-detail"><summary>くわしい判定を見る（参考）</summary>${PronJudge.render(res, jw)}</details>`;
-    return { pass: d.pass, silent: d.reason === 'silent', res, decision: d, advice: advice(d, jw), html: detail };
+    const a = assess(res, jw, d);
+    const detail = (res.silent || res.tooShort) ? '' : `<details class="pj-detail"><summary>くわしい判定を見る（参考）</summary>${PronJudge.render(res, jw)}</details>`;
+    return { pass: d.pass, silent: d.reason === 'silent', res, decision: d, assessment: a, advice: advice(d, jw), html: feedbackHtml(a, word) + detail };
   }
 
   async function modelReady() { try { return await PronJudge.isCached(); } catch { return false; } }
 
-  return { speak, listen, judge, wordInfo, modelReady, decide, advice, RULE, configure, focusLoudest, matchRate };
+  return { speak, listen, judge, wordInfo, modelReady, decide, advice, assess, feedbackHtml, align, RULE, configure, focusLoudest, matchRate };
 })();
