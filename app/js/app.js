@@ -427,16 +427,21 @@ const App = (() => {
   }
 
   // ===== ステップ1：呪文の書（穴うめ） =====
+  // 例文の中に空らんの語が見つからないときは、例文のあとに空らんを出す（単語シートの入力ミスで止まらないように）
+  const blankRe = (ex) => new RegExp(`\\b${String(ex.blank).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
   function blankHtml(ex) {
-    const re = new RegExp(`\\b${ex.blank}\\b`);
+    if (ex.noEx) return `「${esc(ex.ja)}」に あたる ことばは？　<span class="blank">　　　　</span>`;
+    if (!blankRe(ex).test(ex.en)) return esc(ex.en) + ' <span class="blank">　　　　</span>';
+    const re = blankRe(ex);
     return esc(ex.en).replace(re, '<span class="blank">　　　　</span>');
   }
   function fullHtml(ex) {
-    const re = new RegExp(`\\b${ex.blank}\\b`);
-    return esc(ex.en).replace(re, `<b class="hl">${esc(ex.blank)}</b>`);
+    if (ex.noEx || !blankRe(ex).test(ex.en)) return `${ex.noEx ? '' : esc(ex.en) + ' → '}<b class="hl">${esc(ex.blank)}</b>`;
+    return esc(ex.en).replace(blankRe(ex), `<b class="hl">${esc(ex.blank)}</b>`);
   }
   function chooseEx(w) {
-    const exs = S.words[w].ex.filter((e) => e.blank);
+    const exs = S.words[w].ex.filter((e) => e.blank && e.en);
+    if (!exs.length) return { noEx: true, en: '', blank: w, ja: S.words[w].meaning }; // 例文がない単語は、意味から選ぶ問題にする
     const seen = (S.progress.stats[w] && S.progress.stats[w].seen) || 0;
     return exs[seen % exs.length];
   }

@@ -217,9 +217,10 @@ const HW = (() => {
   Object.keys(BASE).forEach((ch) => { const h = heights(BASE[ch][0]); EXPECT[ch] = h; });
 
   // ---------- 生徒専用の手本（端末の中に保存） ----------
-  const KEY = 'hw-personal-v1';
+  const KEY = 'hw-personal-v2'; // v1 は覚え違いが混じることがあったので使わない
   const MAX_PER = 10;
   let personal = {};
+  try { localStorage.removeItem('hw-personal-v1'); } catch { /* なし */ }
   try { personal = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch { personal = {}; }
   Object.keys(personal).forEach((ch) => personal[ch].forEach((s) => addTemplate(ch, s, true)));
   function learn(ch, strokesUnits) {
@@ -251,14 +252,14 @@ const HW = (() => {
     const top = Math.min(...big.map((st) => Math.min(...st.map((p) => p[1]))));
     return sts.filter((st) => len(st) >= RULE.minStroke || Math.max(...st.map((p) => p[1])) < top + 0.02);
   }
-  function recognize(strokesBox) {
+  function recognize(strokesBox, opt = {}) {
     const units = boxToUnits(cleanStrokes(strokesBox));
     const pts = toPts(units);
     if (pts.length < 2) return [];
     const cloud = toXY(normalize(resample(pts, N))), rough = toXY(normalize(resample(pts, 10)));
     const h = heights(units);
     // ① 大まかな形（10点）で全部の手本と比べ、近いものだけを残す（文字ごとに最低1つは残す）
-    const pre = templates.map((t) => ({ t, d: match(rough, t.rough) * (t.personal ? RULE.personalBonus : 1) })).sort((a, b) => a.d - b.d);
+    const pre = (opt.baseOnly ? templates.filter((t) => !t.personal) : templates).map((t) => ({ t, d: match(rough, t.rough) * (t.personal ? RULE.personalBonus : 1) })).sort((a, b) => a.d - b.d);
     const keep = new Set(pre.slice(0, 48).map((x) => x.t));
     const seen = {}; pre.forEach((x) => { if (!seen[x.t.ch]) { seen[x.t.ch] = 1; keep.add(x.t); } });
     // ② 残った手本と、くわしい形（32点）で比べる
@@ -464,16 +465,18 @@ const HW = (() => {
       const text = out.map((l) => (l.ok ? l.exp : l.ch)).join('');
       return { ok, text, letters: out };
     }
-    // 正解と分かっている字を、生徒専用の手本として覚える（正解の文字が候補の5位以内にあるときだけ）
+    // 正解と分かっている字を、生徒専用の手本として覚える
+    // 覚え違い（ほかの字を、その字として覚える）を防ぐため、次のときだけ覚える：
+    //  ・マスの位置と単語の文字の位置が同じ（空けたマスがあっても、ずらさない）
+    //  ・最初から入っている手本だけで読んでも、正解の文字が1位、または2位で1位とほぼ同じ点
     learnFrom(word) {
-      const r = this.read();
-      const ls = r.letters.filter((l) => !l.fixed);
-      const exps = word.slice(r.letters.length - ls.length);
-      if (ls.length !== exps.length) return 0;
       let n = 0;
-      ls.forEach((l, k) => {
-        const exp = exps[k];
-        if (l.cands.slice(0, 3).some((c) => c.ch === exp)) { learn(exp, boxToUnits(cleanStrokes(l.strokes))); n++; }
+      this.cells.forEach((c, k) => {
+        const exp = word[k];
+        if (c.fixed || !exp || !c.strokes.length) return;
+        const cands = recognize(c.strokes, { baseOnly: true });
+        const r = cands.findIndex((x) => x.ch === exp);
+        if (r === 0 || (r === 1 && cands[1].score <= cands[0].score * 1.1)) { learn(exp, boxToUnits(cleanStrokes(c.strokes))); n++; }
       });
       return n;
     }
