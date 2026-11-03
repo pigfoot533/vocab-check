@@ -360,8 +360,10 @@ const App = (() => {
     startClock(n);
     runStep(L, words, st);
   }
+  let CUR = null; // いまのレッスン（スキップ用）
   async function runStep(L, words, st) {
     stopAll(); startClock(L.n);
+    CUR = { L, words, st };
     const steps = { 1: stepQuiz, 2: stepPron, 3: stepWrite, 4: stepTest };
     if (st.step > 4) return L.kind === 'remedial' ? remedialDone() : finishLesson(L, words, st);
     await steps[st.step](L, words, st, async () => {
@@ -376,12 +378,39 @@ const App = (() => {
   function lessonHeader(L, step, i, n) {
     const reg = region(L.n);
     const ttl = L.kind === 'remedial' ? '📖 修行の書（抜き打ちの補習）' : `レッスン${L.n}　${esc(reg.name)}`;
-    return `<div class="lhead"><button class="back" id="back">← 村へ</button><span class="ttl">${ttl}</span><span class="cnt">${n ? `${i} / ${n}` : ''}</span></div>
+    const skip = S.config && S.config.allowSkip ? '<button class="back skipb" id="skipLesson">⏭ スキップ</button>' : '';
+    return `<div class="lhead"><button class="back" id="back">← 村へ</button><span class="ttl">${ttl}</span>${skip}<span class="cnt">${n ? `${i} / ${n}` : ''}</span></div>
       <div class="gems">${STEP_NAMES.map(([ic, nm], k) => `<div class="gem ${k + 1 < step ? 'done' : k + 1 === step ? 'now' : ''}"><span class="g">${ic}</span>${k + 1}. ${nm}</div>`).join('')}</div>
       ${n ? `<div class="bar lprog"><div style="width:${Math.round(i / n * 100)}%"></div></div>` : ''}`;
   }
   function bindHeader() {
     const b = $('#back'); if (b) b.onclick = () => { if (confirm('村に戻りますか？（このステップは最初からになります）')) { stopAll(); showHome(); } };
+    const k = $('#skipLesson'); if (k) k.onclick = openSkip;
+  }
+  // 試作品用：ステップやレッスンを飛ばす（「設定」シートで「いいえ」にすると出ない）
+  function openSkip() {
+    if (!CUR || $('.skipdlg')) return;
+    const { L, words, st } = CUR;
+    const [ic, nm] = STEP_NAMES[st.step - 1];
+    document.body.insertAdjacentHTML('beforeend', `<div class="skipdlg"><div class="parch">
+      <h2>⏭ スキップ（試作品用）</h2>
+      <button class="gbtn" id="skStep">${ic} このステップ「${nm}」だけ 飛ばす</button>
+      <button class="gbtn" id="skLesson">🏁 レッスン${L.kind === 'remedial' ? '（修行の書）' : L.n}を まるごと 飛ばす</button>
+      <button class="gbtn small-g" id="skNo">やめる</button></div></div>`);
+    const close = () => { const d = $('.skipdlg'); if (d) d.remove(); };
+    $('#skNo').onclick = close;
+    $('#skStep').onclick = () => {
+      close(); stopAll();
+      API.record({ type: 'skip', lesson: L.n, step: st.step });
+      st.step++; delete st.sub; saveState(st);
+      runStep(L, words, st);
+    };
+    $('#skLesson').onclick = () => {
+      close(); stopAll();
+      API.record({ type: 'skip', lesson: L.n, step: 'all' });
+      st.step = 5; st.skipped = true; delete st.sub; saveState(st);
+      runStep(L, words, st);
+    };
   }
   function stepBreak(done) {
     return new Promise((res) => {
@@ -1046,7 +1075,7 @@ const App = (() => {
     tickClock();
     await API.flush();
     let j;
-    try { j = await API.call('finishLesson', { n: L.n, summary: { test: st.testScore || '', rounds: st.testRounds || 1, words: words.length } }); }
+    try { j = await API.call('finishLesson', { n: L.n, summary: { test: st.testScore || '', rounds: st.testRounds || 1, words: words.length, skipped: !!st.skipped } }); }
     catch (e) { return showError(e.message); }
     if (j.ok) S.progress = j.progress;
     clearState(); stopAll();
@@ -1058,7 +1087,7 @@ const App = (() => {
       <section class="parch">
         <h2 style="font-family:var(--title);text-align:center;margin-bottom:6px">✨ 戦利品 ✨</h2>
         <div class="rw"><span class="ic">🗡️</span>${words.length}の ことばを 取りもどした（合計 ${learnedWords()}語）</div>
-        <div class="rw"><span class="ic">⚔️</span>書きの試練：${esc(st.testScore || '')}${st.testRounds > 1 ? `（再試練 ${st.testRounds - 1}回で 突破）` : ''}</div>
+        <div class="rw"><span class="ic">⚔️</span>書きの試練：${st.skipped && !st.testScore ? 'スキップ' : esc(st.testScore || '')}${st.testRounds > 1 ? `（再試練 ${st.testRounds - 1}回で 突破）` : ''}</div>
         <div class="rw"><span class="ic">🔥</span>連続 ${streak()}日 冒険中</div>
       </section>
       <button class="gbtn" id="home">🏘️ 村へ もどる</button></div>`;

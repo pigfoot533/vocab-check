@@ -124,7 +124,7 @@ function publicConfig_() {
   const cfg = config_();
   return {
     dailyLimit: cfg.dailyLimit, lessonCount: lessonCount_(cfg), reviewMin: cfg.reviewMin, reviewMax: cfg.reviewMax,
-    appName: cfg.appName, subtitle: cfg.subtitle, tryAnytime: cfg.tryAnytime,
+    appName: cfg.appName, subtitle: cfg.subtitle, tryAnytime: cfg.tryAnytime, allowSkip: cfg.allowSkip,
     popN: cfg.popN, popPass: cfg.popPass, finalN: cfg.finalN, finalPass: cfg.finalPass, finalWaitMin: cfg.finalWaitMin, finalMax: cfg.finalMax,
     pronBad: cfg.pronBad, pronRatio: cfg.pronRatio, pronPairs: cfg.pronPairs, pronPairLimit: cfg.pronPairLimit, pronInsert: cfg.pronInsert, pronNeed: cfg.pronNeed, pronMatch: cfg.pronMatch, pronLowSignal: cfg.pronLowSignal
   };
@@ -216,6 +216,12 @@ function applyEvents_(p, who, events) {
 function finishLesson_(p, who, n, summary) {
   const L = p.lessons[n];
   if (!L) return { ok: false, error: 'そのレッスンは始まっていません' };
+  if (summary && summary.skipped) {
+    if (!config_().allowSkip) return { ok: false, error: 'いまは レッスンを スキップできません' };
+    // 試作品用：スキップしたレッスンは、今日の上限に数えない
+    if (!L.done && L.startedDay === today_() && p.days[L.startedDay] > 0) p.days[L.startedDay]--;
+    L.skipped = true;
+  }
   if (!L.done) { L.done = true; L.doneAt = Date.now(); L.doneDay = today_(); }
   L.summary = summary;
   logRows_(who, [{ type: 'finishLesson', lesson: n, detail: summary }]);
@@ -434,6 +440,7 @@ function config_() {
     appName: String(m['アプリの名前'] || '単語の冒険').trim(),
     subtitle: String(m['サブタイトル'] || '〜 忘却の魔王から ことばの王国を救え 〜').trim(),
     tryAnytime: bool('抜き打ち・最終試験をいつでも受けられる（試作品用）', true),
+    allowSkip: bool('レッスンをスキップできる（試作品用）', true),
     popN: num('抜き打ちテストの問題数', 15),
     popPass: num('抜き打ちテストの合格点', 11),
     finalN: num('最終試験の問題数', 30),
@@ -545,6 +552,7 @@ function setup() {
     ['アプリの名前', '単語の冒険', 'ログイン画面などに表示する名前'],
     ['サブタイトル', '〜 忘却の魔王から ことばの王国を救え 〜', 'ログイン画面の名前の下に表示'],
     ['抜き打ち・最終試験をいつでも受けられる（試作品用）', 'はい', '本番では必ず「いいえ」にする'],
+    ['レッスンをスキップできる（試作品用）', 'はい', '本番では必ず「いいえ」にする。スキップしたレッスンは1日の上限に数えない'],
     ['抜き打ちテストの問題数', 15, ''],
     ['抜き打ちテストの合格点', 11, ''],
     ['最終試験の問題数', 30, ''],

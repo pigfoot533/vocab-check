@@ -326,3 +326,8 @@ body[data-scene="boss"] { background: radial-gradient(circle at 50% 30%, #3a0d5c
 .fbk-b { background: #ffe1e1; border-left: 5px solid var(--ng); color: #5a0d12; }
 .fbk-a { background: #fff3c4; border-left: 5px solid var(--gold2); color: #5a3a06; }
 .fbk-i { background: #dff5e3; border-left: 5px solid var(--ok); color: #144a22; }
+/* 試作品用：スキップ */
+.lhead .skipb { color: #ffd76a; border: 1px solid rgba(255,215,106,.5); border-radius: 10px; padding: 4px 10px; }
+.skipdlg { position: fixed; inset: 0; z-index: 50; background: rgba(0,0,0,.55); display: flex; align-items: center; justify-content: center; padding: 16px; }
+.skipdlg .parch { max-width: 460px; width: 100%; display: flex; flex-direction: column; gap: 10px; text-align: center; }
+.skipdlg h2 { font-family: var(--title); margin: 0 0 4px; }
