@@ -94,7 +94,11 @@ const Rec = (() => {
       } catch (e) { Dbg.log(`音量表示エラー: ${e.message}`); }
     }
     const t0 = Date.now();
+    // 録音が本当に始まるまで待つ（iPad では start してから音が入り始めるまで少しかかり、言い始めが欠けることがあった）
+    const begun = new Promise((res) => { recorder.onstart = res; setTimeout(res, 1000); });
     recorder.start(250); // 少しずつデータを受け取る（iOS で最後のデータが欠けにくい）
+    await begun;
+    await new Promise((res) => setTimeout(res, 150)); // 念のため少し余裕をもってから「どうぞ」を出す
     let stopped = null;
     const stop = () => {
       if (stopped) return stopped;

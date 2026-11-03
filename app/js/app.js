@@ -642,7 +642,7 @@ const App = (() => {
 
   // ===== ステップ3：刻印（書く練習：先に単語を言ってから書く × 4回） =====
   // 流れ：「単語を言う」ボタン → 録音 → 合格したら石版が使えるようになる → 書く → 「きざめた！」
-  // 文字の判定：1・2回目はなし（お手本を見て書く）、3・4回目はあり（お手本なし）
+  // 3回：1・2回目はお手本を見て書く、3回目はお手本なし（どれもAIで文字の判定はしない）
   // 石版の道具（1画もどす・消しゴム・全部消す）
   const TOOLS = '<div class="row hw-tools"><button class="btn small" id="undo">↩︎ 1画もどす</button><button class="btn small" id="eraser">🩹 消しゴム</button><button class="btn small" id="clr">🧽 全部消す</button></div>';
   function bindTools(boxes) {
@@ -658,7 +658,7 @@ const App = (() => {
     setScene('night');
     const list = words.slice();
     let i = st.sub || 0;
-    const REPS = 4;
+    const REPS = 3;
     const showWord = (rep) => {
       if (i >= list.length) return next();
       st.sub = i; saveState(st);
@@ -729,7 +729,7 @@ const App = (() => {
           $('#msg').innerHTML = '<span class="ok">⭕ OK！</span> きざめたぞ。<span class="tri">▼</span>';
           API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk: null, learned });
         } else {
-          // 3・4回目：AIでは判定せず、正解を見せて、自分で確かめる
+          // 3回目：AIでは判定せず、正解を見せて、自分で確かめる
           $('#msg').innerHTML = `正しく 書けたかな？ 正解は <b class="enw">${esc(w)}</b> じゃ。自分の 石版と くらべてみよう。<span class="tri">▼</span>`;
           const again = await new Promise((res) => {
             $('#nextArea').innerHTML = '<div class="nextrow"><button class="btn" id="redo">🧽 書き直す</button><button class="gbtn" id="okw">⭕ 正しく 書けた！</button></div>';
@@ -822,7 +822,7 @@ const App = (() => {
         $('#pick').querySelectorAll('.pickw').forEach((b) => { b.onclick = () => finish(false, cands[+b.dataset.k].text, cands); });
         $('#rewrite').onclick = () => {
           picking = false; boxes.opt.disabled = false; $('#ans').style.display = ''; $('#pick').innerHTML = '';
-          API.record({ type: 'hwRewrite', word: w, detail: { cands: cands.map((c) => c.text).join(',') } });
+          API.record({ type: 'hwRewrite', word: w, detail: { cands: cands.map((c) => c.text).join(','), misses: boxes.misses(w) } });
         };
         $('#pick').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
       };
