@@ -124,7 +124,9 @@ const HW = (() => {
     near: [['r', 'n'], ['n', 'h'], ['n', 'm']], nearRank: 4, nearRatio: 1.7, nearMargin: 0.35,
     // n と h の区別：左の縦線が右の山より上に突き出している割合（字の高さに対して）
     hMin: 0.2,   // h だと認めるには、これ以上突き出していること（試験：n→h 約1%、h を○ 約100%）
-    nMax: 0.3 };  // n だと認めるには、これ以下であること（はっきり突き出していたら n にしない）
+    nMax: 0.3,   // n だと認めるには、これ以下であること（はっきり突き出していたら n にしない）
+    // テストの選択肢に正解を入れる目安：どの文字も、正解の文字が候補の pickRank 位以内で、1位との点の差が pickGap 以下
+    pickRank: 6, pickGap: 0.35 };
   // 左の縦線が、右の部分よりどれだけ上に出ているか（0〜1）。n はほぼ0、h は大きい
   function stemRise(strokes) {
     const pts = strokes.flat();
@@ -330,6 +332,29 @@ const HW = (() => {
         g.lineWidth = Math.max(3, c.H * 0.035); g.lineCap = 'round'; g.lineJoin = 'round'; g.strokeStyle = '#1f2328';
         c.strokes.forEach((st) => { if (st.length === 1) seg(st[0], st[0]); for (let k = 1; k < st.length; k++) seg(st[k - 1], st[k]); });
       };
+      // 消しゴム：p のまわりの線を消す（線の途中を消したら、2本に分かれる）
+      c.erase = (p) => {
+        const R = Boxes.ERASER, W = c.W || 1, H = c.H || 1;
+        const far = (q) => Math.hypot((q[0] - p[0]) * W, (q[1] - p[1]) * H) > R * H;
+        const out = [];
+        let changed = false;
+        c.strokes.forEach((st) => {
+          // 点と点の間が広いところは点を足す（速く書いた線も、途中で消せるように）
+          const dense = [st[0]];
+          for (let k = 1; k < st.length; k++) {
+            const a = st[k - 1], b = st[k], n = Math.ceil(Math.hypot((b[0] - a[0]) * W, (b[1] - a[1]) * H) / (R * H * 0.4));
+            for (let j = 1; j < n; j++) dense.push([a[0] + (b[0] - a[0]) * j / n, a[1] + (b[1] - a[1]) * j / n]);
+            dense.push(b);
+          }
+          if (dense.every(far)) { out.push(st); return; }
+          changed = true;
+          let cur = [];
+          dense.forEach((q) => { if (far(q)) cur.push(q); else { if (cur.length > 1) out.push(cur); cur = []; } });
+          if (cur.length > 1) out.push(cur);
+        });
+        if (changed) { c.strokes = out; c.redraw(); }
+        g.save(); g.strokeStyle = 'rgba(229,83,75,.6)'; g.lineWidth = 1.5; g.beginPath(); g.arc(p[0] * W, p[1] * H, R * H, 0, Math.PI * 2); g.stroke(); g.restore();
+      };
       c.fit = () => {
         const r = cv.getBoundingClientRect(), dpr = window.devicePixelRatio || 1;
         if (!r.width || !r.height) return r;
@@ -348,6 +373,7 @@ const HW = (() => {
           if (e.pointerType === 'pen') Boxes.lastPen = Date.now();
           if (e.pointerType === 'touch' && Date.now() - (Boxes.lastPen || 0) < 3000) return; // ペンの人の手のひら
           try { cv.setPointerCapture(e.pointerId); } catch { /* なし */ }
+          if (self.erasing) { const r = c.fit(); c.live[e.pointerId] = 'erase'; c.erase(pos(e, r)); e.preventDefault(); return; }
           const r = c.fit(), p = pos(e, r), st = [p];
           c.strokes.push(st); c.live[e.pointerId] = st; seg(p, p);
           e.preventDefault();
@@ -356,11 +382,12 @@ const HW = (() => {
         cv.addEventListener('pointermove', (e) => {
           const st = c.live[e.pointerId]; if (!st) return;
           if (e.pointerType === 'pen') Boxes.lastPen = Date.now();
+          if (st === 'erase') { const r = c.fit(), evs = e.getCoalescedEvents ? e.getCoalescedEvents() : []; (evs.length ? evs : [e]).forEach((ev) => c.erase(pos(ev, r))); e.preventDefault(); return; }
           const r = c.fit(), evs = e.getCoalescedEvents ? e.getCoalescedEvents() : [];
           (evs.length ? evs : [e]).forEach((ev) => { const p = pos(ev, r); seg(st[st.length - 1], p); st.push(p); });
           e.preventDefault();
         });
-        const up = (e) => { if (c.live[e.pointerId]) { delete c.live[e.pointerId]; if (self.opt.onChange) self.opt.onChange(); } };
+        const up = (e) => { const st = c.live[e.pointerId]; if (st) { delete c.live[e.pointerId]; if (st === 'erase') c.redraw(); if (self.opt.onChange) self.opt.onChange(); } };
         cv.addEventListener('pointerup', up); cv.addEventListener('pointercancel', up);
       }
       c.fit();
@@ -373,6 +400,39 @@ const HW = (() => {
       if (this.opt.onChange) this.opt.onChange();
     }
     hasInk() { return this.cells.some((c) => c.strokes.length); }
+    setEraser(on) { this.erasing = !!on; this.el.classList.toggle('erasing', this.erasing); }
+    // 読み取った単語の候補（点の近い順に k 個）。正解 word を渡すと、正解に十分見えるときは候補に必ず入れる
+    // 戻り値：[{ text, cost }]
+    candidates(word, k = 4) {
+      const ls = this.read().letters;
+      if (!ls.length) return [];
+      // 1文字ごとの候補：1位との差（小さいほど近い）
+      const opts = ls.map((l) => {
+        if (l.fixed) return [{ ch: l.ch, d: 0 }];
+        if (!l.cands.length) return [{ ch: '?', d: 0 }];
+        const rise = stemRise(cleanStrokes(l.strokes));
+        const cs = l.cands.slice(0, 8).map((c) => ({ ch: c.ch, d: c.score - l.cands[0].score + (c.ch === 'h' && rise < RULE.hMin ? 0.3 : 0) + (c.ch === 'n' && rise > RULE.nMax ? 0.3 : 0) }));
+        return cs.sort((a, b) => a.d - b.d);
+      });
+      // 組み合わせを、合計の差が小さい順に（ビーム探索）
+      let beam = [{ text: '', cost: 0 }];
+      opts.forEach((os) => {
+        const nx = [];
+        beam.forEach((b) => os.slice(0, 5).forEach((o) => nx.push({ text: b.text + o.ch, cost: b.cost + o.d })));
+        beam = nx.sort((a, b) => a.cost - b.cost).slice(0, 40);
+      });
+      const out = beam.slice(0, k);
+      if (word && !out.some((x) => x.text === word) && ls.length === word.length) {
+        // 正解に十分見えるか：どの文字も、候補の4位以内で、1位との差が小さい
+        let cost = 0, ok = true;
+        ls.forEach((l, i) => {
+          const o = opts[i].findIndex((x) => x.ch === word[i]);
+          if (o < 0 || o >= RULE.pickRank || opts[i][o].d > RULE.pickGap) ok = false; else cost += opts[i][o].d;
+        });
+        if (ok) { out[Math.min(out.length, k - 1)] = { text: word, cost }; out.sort((a, b) => a.cost - b.cost); }
+      }
+      return out;
+    }
     // 書いた文字を読む。戻り値：{ text, letters:[{ ch, cands, strokes }] }（空のマスは飛ばす）
     read() {
       const letters = [];
@@ -413,7 +473,7 @@ const HW = (() => {
       let n = 0;
       ls.forEach((l, k) => {
         const exp = exps[k];
-        if (l.cands.slice(0, 5).some((c) => c.ch === exp)) { learn(exp, boxToUnits(cleanStrokes(l.strokes))); n++; }
+        if (l.cands.slice(0, 3).some((c) => c.ch === exp)) { learn(exp, boxToUnits(cleanStrokes(l.strokes))); n++; }
       });
       return n;
     }
@@ -427,5 +487,6 @@ const HW = (() => {
     }
   }
 
+  Boxes.ERASER = 0.07; // 消しゴムの大きさ（マスの高さに対する半径）
   return { recognize, looksLike, stemRise, cleanStrokes, learn, forget, personalCount, Boxes, GUIDE, UNIT, ASPECT, RULE, boxToUnits, _BASE: BASE, _EXTRA: EXTRA, _UPPER: UPPER, _templates: templates };
 })();

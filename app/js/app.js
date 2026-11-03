@@ -638,6 +638,16 @@ const App = (() => {
   // ===== ステップ3：刻印（書く練習：先に単語を言ってから書く × 4回） =====
   // 流れ：「単語を言う」ボタン → 録音 → 合格したら石版が使えるようになる → 書く → 「きざめた！」
   // 文字の判定：1・2回目はなし（お手本を見て書く）、3・4回目はあり（お手本なし）
+  // 石版の道具（1画もどす・消しゴム・全部消す）
+  const TOOLS = '<div class="row hw-tools"><button class="btn small" id="undo">↩︎ 1画もどす</button><button class="btn small" id="eraser">🩹 消しゴム</button><button class="btn small" id="clr">🧽 全部消す</button></div>';
+  function bindTools(boxes) {
+    const er = $('#eraser');
+    const setEr = (on) => { boxes.setEraser(on); er.classList.toggle('on', on); er.textContent = on ? '✏️ ペンにもどす' : '🩹 消しゴム'; };
+    $('#undo').onclick = () => boxes.undo();
+    $('#clr').onclick = () => { boxes.clear(); setEr(false); };
+    er.onclick = () => setEr(!boxes.erasing);
+    return setEr;
+  }
   async function stepWrite(L, words, st, next) {
     await ensureModel(L, 3);
     setScene('night');
@@ -664,10 +674,7 @@ const App = (() => {
           <div class="wstep locked" id="writeStep">
             <span class="wnum">②</span>
             <div id="boxes"></div>
-            <div class="row">
-              <button class="btn small" id="undo">↩︎ 1画もどす</button>
-              <button class="btn small" id="clr">🧽 全部消す</button>
-            </div>
+            ${TOOLS}
             <button class="gbtn" id="done" disabled>✍️ きざめた！</button>
           </div>
           <div id="res"></div>
@@ -677,8 +684,7 @@ const App = (() => {
       bindHeader();
       const boxes = new HW.Boxes($('#boxes'), { count: w.length, disabled: true, onStroke: () => { $('#done').disabled = false; } });
       cleanups.push(() => boxes.destroy());
-      $('#undo').onclick = () => boxes.undo();
-      $('#clr').onclick = () => boxes.clear();
+      const setEr = bindTools(boxes);
       $('#hear').onclick = () => { Rec.audioCtx(); Voice.speak(w); };
       // ① 単語を言う
       $('#say2').onclick = async () => {
@@ -700,7 +706,7 @@ const App = (() => {
           spoke = true;
           $('#sayStep').classList.add('done'); $('#say2').textContent = '⭕ 言えた！';
           $('#writeStep').classList.remove('locked'); boxes.opt.disabled = false;
-          $('#msg').innerHTML = `<span class="ok">⭕ 聞こえたぞ！</span> つぎは 石版に きざむのじゃ。${hidden ? '' : '（1・2回目は 文字の 判定なし）'}<span class="tri">▼</span>`;
+          $('#msg').innerHTML = `<span class="ok">⭕ 聞こえたぞ！</span> つぎは 石版に きざむのじゃ。<span class="tri">▼</span>`;
           $('#writeStep').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
         } catch (e) {
           if (/マイク/.test(e.message)) { await micBlocked(L, 3, e.message); return showWord(rep); }
@@ -711,26 +717,28 @@ const App = (() => {
       $('#done').onclick = async () => {
         if (!spoke || !boxes.hasInk()) return;
         $('#done').disabled = true; boxes.opt.disabled = true;
+        setEr(false);
         if (!hidden) {
-          // 1・2回目：文字の判定はしない（正解の字として、本人の手本に覚える）
+          // 1・2回目：文字の判定はしない（お手本を見て書いた字なので、本人の手本として覚える）
           const learned = boxes.learnFrom(w);
           $('#msg').innerHTML = '<span class="ok">⭕ OK！</span> きざめたぞ。<span class="tri">▼</span>';
           API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk: null, learned });
         } else {
-          // 3・4回目：文字の判定あり
-          const read = boxes.check(w);
-          if (!read.ok) {
-            API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk: false, read: read.text });
-            API.record({ type: 'hwMiss', lesson: L.n, word: w, rep, detail: { misses: boxes.misses(w) } });
-            $('#msg').innerHTML = `<span class="ng">❌ 石版には「${esc(read.text || '（空）')}」と 読めた。</span><br>正しくは <b>${esc(w)}</b>。書き直そう！<span class="tri">▼</span>`;
-            await nextButton($('#nextArea'), '🧽 書き直す');
+          // 3・4回目：AIでは判定せず、正解を見せて、自分で確かめる
+          $('#msg').innerHTML = `正しく 書けたかな？ 正解は <b class="enw">${esc(w)}</b> じゃ。自分の 石版と くらべてみよう。<span class="tri">▼</span>`;
+          const again = await new Promise((res) => {
+            $('#nextArea').innerHTML = '<div class="nextrow"><button class="btn" id="redo">🧽 書き直す</button><button class="gbtn" id="okw">⭕ 正しく 書けた！</button></div>';
+            $('#redo').onclick = () => res(true); $('#okw').onclick = () => res(false);
+            $('#okw').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+          });
+          $('#nextArea').innerHTML = '';
+          API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk: null, self: again ? 'redo' : 'ok' });
+          if (again) {
             boxes.clear(); boxes.opt.disabled = false; $('#done').disabled = true;
             $('#msg').innerHTML = '▶ もう一度 きざむのじゃ（声は もう 合格しているぞ）。<span class="tri">▼</span>';
             return;
           }
-          const learned = boxes.learnFrom(w);
-          $('#msg').innerHTML = '<span class="ok">⭕ 完ぺき！</span> 見ないで きざめたな！<span class="tri">▼</span>';
-          API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk: true, learned });
+          $('#msg').innerHTML = '<span class="ok">⭕ よし！</span> 見ないで きざめたな！<span class="tri">▼</span>';
         }
         await nextButton($('#nextArea'), rep < REPS ? 'つぎへ ▶' : (i + 1 < list.length ? 'つぎの 単語へ ▶' : 'つぎへ ▶'));
         if (rep < REPS) showWord(rep + 1); else { i++; showWord(1); }
@@ -750,16 +758,17 @@ const App = (() => {
     const ask = () => {
       if (qi >= opt.words.length) return opt.done(results);
       const w = opt.words[qi], limit = 15 + 3 * w.length;
-      let left = limit, done = false, wentAway = false;
+      let left = limit, done = false, wentAway = false, picking = false;
       main().innerHTML = opt.top(qi, opt.words.length, results) + `
         <section class="parch" style="text-align:center">
           <p class="small muted" style="font-weight:700">${opt.lead(qi, opt.words.length)}</p>
           <p class="meaning big">${esc(S.words[w].meaning)}</p>
           <div class="fuse">⏳<span class="line"><div id="tb"></div></span><span id="sec">のこり ${limit}秒</span></div>
           <div id="boxes"></div>
-          <div class="row"><button class="btn small" id="undo">↩︎ 1画もどす</button><button class="btn small" id="clr">🧽 全部消す</button></div>
+          ${TOOLS}
           <p class="small muted">使わない マスは 空けておこう。</p>
           <button class="gbtn" id="ans">⚔️ きざむ（答える）</button>
+          <div id="pick"></div>
         </section>
         <div class="rpg" id="res">${opt.footer(results)}<span class="tri">▼</span></div>`;
       bindHeader();
@@ -767,33 +776,51 @@ const App = (() => {
       const away = () => { if (document.hidden && !done) wentAway = true; };
       document.addEventListener('visibilitychange', away);
       const timer = setInterval(() => {
+        if (picking) return; // 選んでいる間は、時間を止める
         left -= 0.25;
         const tb = $('#tb'); if (tb) { tb.style.width = Math.max(0, left / limit * 100) + '%'; tb.className = left < 5 ? 'low' : ''; }
         const sc = $('#sec'); if (sc) sc.textContent = `のこり ${Math.max(0, Math.ceil(left))}秒`;
         if (left <= 0) finish(true);
       }, 250);
       cleanups.push(() => { clearInterval(timer); boxes.destroy(); document.removeEventListener('visibilitychange', away); });
-      $('#undo').onclick = () => boxes.undo();
-      $('#clr').onclick = () => boxes.clear();
-      const finish = async (timeout) => {
+      const setEr = bindTools(boxes);
+      // chosen：生徒が選んだ読み取り結果（時間切れ・書いていないときは null）
+      const finish = async (timeout, chosen = null, cands = []) => {
         if (done) return; done = true; clearInterval(timer); document.removeEventListener('visibilitychange', away);
-        boxes.opt.disabled = true;
-        const read = boxes.check(w);
-        const ok = !timeout && !wentAway && read.ok;
-        if (!read.ok && !timeout && !wentAway && read.letters.length) API.record({ type: 'hwMiss', word: w, detail: { test: true, misses: boxes.misses(w) } });
+        boxes.opt.disabled = true; $('#pick').innerHTML = '';
+        const text = chosen == null ? boxes.read().text : chosen;
+        const ok = !timeout && !wentAway && chosen === w;
+        // 正しく書いたつもりなのに、正解が選択肢に出なかったとき（手本の調整用の記録）
+        if (!timeout && !wentAway && boxes.hasInk() && !cands.some((c) => c.text === w)) API.record({ type: 'hwMiss', word: w, detail: { test: true, cands: cands.map((c) => c.text).join(','), misses: boxes.misses(w) } });
         results.push({ w, word: w, ok });
-        opt.record(w, ok, read.text, !!timeout, wentAway);
+        opt.record(w, ok, text, !!timeout, wentAway);
         if (opt.onHit) opt.onHit(ok, results);
         $('#ans').disabled = true;
         const why = timeout ? '（時間切れ）' : wentAway ? '（テスト中に 画面を はなれたため 不正解）' : '';
         $('#res').innerHTML = opt.reveal === 'mark'
           ? (ok ? '<span class="fb ok">⭕ 正解！</span>' : `<span class="fb ng">❌ 不正解</span>${why}`)
           : (ok ? `<span class="fb ok">⭕ 正解！</span> <b style="font-family:var(--en)">${esc(w)}</b>`
-            : `<span class="fb ng">❌ 正解は <b style="font-family:var(--en)">${esc(w)}</b></span>${why || `<br><span class="small">石版には「${esc(read.text)}」と 読めた</span>`}`);
+            : `<span class="fb ng">❌ 正解は <b style="font-family:var(--en)">${esc(w)}</b></span>${why || `<br><span class="small">あなたの 答え：「${esc(text || '（空）')}」</span>`}`);
         await nextButton($('#res'), qi + 1 < opt.words.length ? 'つぎの 問題へ ▶' : 'けっかを 見る ▶');
         qi++; ask();
       };
-      $('#ans').onclick = () => finish(false);
+      // 「きざむ」：読み取った候補を4つ出して、自分が書いた単語を選ぶ
+      $('#ans').onclick = () => {
+        if (done || picking) return;
+        if (!boxes.hasInk()) return finish(false, '', []);
+        setEr(false);
+        const cands = boxes.candidates(w, 4);
+        picking = true; boxes.opt.disabled = true; $('#ans').style.display = 'none';
+        $('#pick').innerHTML = `<p class="pickq">✍️ あなたが 書いた 単語は どれ？</p>
+          <div class="picks">${cands.map((c, k) => `<button class="gbtn pickw" data-k="${k}">${esc(c.text)}</button>`).join('')}</div>
+          <button class="btn small" id="rewrite">🧽 どれでもない（書き直す）</button>`;
+        $('#pick').querySelectorAll('.pickw').forEach((b) => { b.onclick = () => finish(false, cands[+b.dataset.k].text, cands); });
+        $('#rewrite').onclick = () => {
+          picking = false; boxes.opt.disabled = false; $('#ans').style.display = ''; $('#pick').innerHTML = '';
+          API.record({ type: 'hwRewrite', word: w, detail: { cands: cands.map((c) => c.text).join(',') } });
+        };
+        $('#pick').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      };
     };
     ask();
   }

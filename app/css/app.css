@@ -331,3 +331,12 @@ body[data-scene="boss"] { background: radial-gradient(circle at 50% 30%, #3a0d5c
 .skipdlg { position: fixed; inset: 0; z-index: 50; background: rgba(0,0,0,.55); display: flex; align-items: center; justify-content: center; padding: 16px; }
 .skipdlg .parch { max-width: 460px; width: 100%; display: flex; flex-direction: column; gap: 10px; text-align: center; }
 .skipdlg h2 { font-family: var(--title); margin: 0 0 4px; }
+/* 石版の道具：消しゴム */
+.hw-tools #eraser.on { background: #ffe1e1; border-color: var(--ng); color: #7a1219; font-weight: 700; }
+.hw-boxes.erasing .hw-cell { border-color: #e5534b; }
+.hw-boxes.erasing .hw-cell canvas { cursor: cell; }
+/* テスト：読み取った単語から選ぶ */
+.pickq { font-family: var(--pop); font-size: 18px; margin: 10px 0 6px; }
+.picks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; max-width: 520px; margin: 0 auto 8px; }
+.picks .pickw { font-family: var(--en); font-size: 26px; letter-spacing: .04em; text-transform: none; overflow-wrap: anywhere; padding: 10px 8px; }
+.enw { font-family: var(--en); font-size: 1.25em; }
