@@ -453,8 +453,11 @@ const App = (() => {
     const show = () => {
       if (!queue.length) return next();
       const q = queue[0];
-      const others = shuffle(words.filter((x) => x !== q.w)).slice(0, 3);
-      const choices = shuffle([q.w].concat(others));
+      // 選択肢：同じ品詞の単語を優先し、例文の形（過去形・複数形など）にそろえる
+      const info = (w) => S.words[w] || { meaning: '', ex: [] };
+      const choices = shuffle(Inflect.choices(q, Inflect.pickOthers(q, words, info, 3), info));
+      const rightText = choices.find((c) => c.w === q.w).text;
+      const shown = rightText.toLowerCase() === q.w.toLowerCase() ? esc(q.w) : `${esc(rightText)}（${esc(q.w)}）`;
       const t0 = Date.now(); let hintUsed = false, answered = false;
       main().innerHTML = lessonHeader(L, 1, doneN, total) + `
         <div class="quiz">
@@ -470,7 +473,7 @@ const App = (() => {
               <p class="sentence">${blankHtml(q.ex)}</p>
               <div id="hint"><button class="hintbtn" id="hintBtn" disabled><span class="hring" id="hr"></span>💡 ヒントの巻物まで あと <span id="hs">15</span> 秒</button></div>
             </section>
-            <div class="runes">${choices.map((c) => `<button class="choice" data-c="${esc(c)}">${esc(c)}</button>`).join('')}</div>
+            <div class="runes">${choices.map((c) => `<button class="choice" data-c="${esc(c.w)}">${esc(c.text)}</button>`).join('')}</div>
           </div>
         </div>
         <div class="rpg" id="fb">▶ 正しい ことばを えらんで、${esc(reg.mon)}に こうげきだ！<span class="tri">▼</span></div>`;
@@ -500,7 +503,7 @@ const App = (() => {
         } else {
           combo = 0;
           b.classList.add('wrong');
-          $('#fb').innerHTML = `<span class="ng">❌ ${esc(pick(CHEER.wrong))}</span> 正解は <b>${esc(q.w)}</b>（${esc(S.words[q.w].meaning)}）<br><span style="font-family:var(--en)">${fullHtml(q.ex)}</span><br><span class="small">${ja}</span><br><span class="small">この問題は、あとで もう一度 出るぞ。</span><div style="text-align:right"><button class="btn" id="ok" disabled>3</button></div>`;
+          $('#fb').innerHTML = `<span class="ng">❌ ${esc(pick(CHEER.wrong))}</span> 正解は <b>${shown}</b>（${esc(S.words[q.w].meaning)}）<br><span style="font-family:var(--en)">${fullHtml(q.ex)}</span><br><span class="small">${ja}</span><br><span class="small">この問題は、あとで もう一度 出るぞ。</span><div style="text-align:right"><button class="btn" id="ok" disabled>3</button></div>`;
           q.tries++; queue.push(queue.shift());
           const okb = $('#ok');
           for (let s = 3; s > 0; s--) { okb.textContent = String(s); await sleep(1000); }
