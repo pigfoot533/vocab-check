@@ -458,9 +458,24 @@ function config_() {
   };
 }
 
+// 使えるか：「設定」シートの「使える人」に、次のどれかを書く（カンマ区切りで組み合わせてよい）
+//  ・メールアドレス（その人だけ）　例：taro@aikogakuen.net
+//  ・@ で始まるドメイン（そのドメインの全員）　例：@aikogakuen.net
+//  ・名簿（「名簿」シートのA列にメールがある人全員）
 function isAllowed_(email) {
-  const users = config_().users;
-  return users.indexOf(String(email).toLowerCase()) >= 0;
+  const e = String(email || '').trim().toLowerCase();
+  if (!e) return false;
+  return config_().users.some(function (u) {
+    if (u === e) return true;
+    if (u.charAt(0) === '@') return e.slice(-u.length) === u;
+    if (u === '名簿') return inRoster_(e);
+    return false;
+  });
+}
+function inRoster_(email) {
+  const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('名簿');
+  if (!sh || sh.getLastRow() < 2) return false;
+  return sh.getRange(2, 1, sh.getLastRow() - 1, 1).getValues().some(function (r) { return String(r[0]).trim().toLowerCase() === email; });
 }
 
 function sheet_(name, header) {
@@ -543,7 +558,7 @@ function setup() {
   const sh = ss.getSheetByName('設定') || ss.insertSheet('設定');
   const me = Session.getEffectiveUser().getEmail();
   const rows = [
-    ['使える人', me, '試作中は自分だけ。複数の人はカンマ（,）で区切る'],
+    ['使える人', me, 'メールアドレス／@ドメイン（例：@aikogakuen.net でそのドメインの全員）／名簿（名簿シートの人全員）。カンマ（,）で区切って組み合わせてよい'],
     ['1日のレッスン上限', 3, '試すときは一時的に増やしてよい'],
     ['レッスン数（0なら自動）', 0, '0なら「単語の数 ÷ 1レッスンの新しい単語の数」'],
     ['1レッスンの新しい単語の数', 17, ''],
