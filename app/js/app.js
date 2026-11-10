@@ -690,7 +690,8 @@ const App = (() => {
         <div class="rpg" id="msg">▶ まず「単語を 言う」を 押して、単語を 声に出すのじゃ。${hidden ? '' : 'お手本を 見ながらで よいぞ。'}<span class="tri">▼</span></div>
         <div id="nextArea" class="center-t"></div>`;
       bindHeader();
-      const boxes = new HW.Boxes($('#boxes'), { count: w.length, disabled: true, onStroke: () => { $('#done').disabled = false; } });
+      const fixed = {}; w.split('').forEach((ch, k) => { if (!/[a-z]/i.test(ch)) fixed[k] = ch; }); // 2語以上の表現：語と語の間・ハイフンなどは書かなくてよいマス
+      const boxes = new HW.Boxes($('#boxes'), { count: w.length, fixed, disabled: true, onStroke: () => { $('#done').disabled = false; } });
       cleanups.push(() => boxes.destroy());
       const setEr = bindTools(boxes);
       $('#hear').onclick = () => { Rec.audioCtx(); Voice.speak(w); };
@@ -760,7 +761,7 @@ const App = (() => {
   //        reveal：'answer'（正解を見せる）/'mark'（○×だけ）, record(word, ok, read, timeout, left), onHit(ok), done(results) }
   function writingTest(opt) {
     const maxLen = Math.max(...opt.words.map((w) => w.length));
-    const boxCount = Math.min(14, maxLen + 2); // 文字数が分からないよう、マスは多めに
+    const boxCount = Math.min(22, maxLen + 2); // 文字数が分からないよう、マスは多めに（2語以上の表現は、語と語の間を1マス空けて書く）
     const results = [];
     let qi = 0;
     const ask = () => {
@@ -774,7 +775,7 @@ const App = (() => {
           <div class="fuse">⏳<span class="line"><div id="tb"></div></span><span id="sec">のこり ${limit}秒</span></div>
           <div id="boxes"></div>
           ${TOOLS}
-          <p class="small muted">使わない マスは 空けておこう。</p>
+          <p class="small muted">使わない マスは 空けておこう。${/[^a-z]/i.test(w) ? '2語以上の ことばは、語と語の 間を 1マス 空けよう。' : ''}</p>
           <button class="gbtn" id="ans">⚔️ きざむ（答える）</button>
           <div id="pick"></div>
         </section>
@@ -797,9 +798,9 @@ const App = (() => {
         if (done) return; done = true; clearInterval(timer); document.removeEventListener('visibilitychange', away);
         boxes.opt.disabled = true; $('#pick').innerHTML = '';
         const text = chosen == null ? boxes.read().text : chosen;
-        const ok = !timeout && !wentAway && chosen === w;
+        const ok = !timeout && !wentAway && chosen != null && HW.letters(chosen) === HW.letters(w); // 空白・記号のちがいは見ない
         // 正しく書いたつもりなのに、正解が選択肢に出なかったとき（手本の調整用の記録）
-        if (!timeout && !wentAway && boxes.hasInk() && !cands.some((c) => c.text === w)) API.record({ type: 'hwMiss', word: w, detail: { test: true, cands: cands.map((c) => c.text).join(','), misses: boxes.misses(w) } });
+        if (!timeout && !wentAway && boxes.hasInk() && !cands.some((c) => HW.letters(c.text) === HW.letters(w))) API.record({ type: 'hwMiss', word: w, detail: { test: true, cands: cands.map((c) => c.text).join(','), misses: boxes.misses(w) } });
         results.push({ w, word: w, ok });
         opt.record(w, ok, text, !!timeout, wentAway);
         if (opt.onHit) opt.onHit(ok, results);

@@ -340,3 +340,7 @@ body[data-scene="boss"] { background: radial-gradient(circle at 50% 30%, #3a0d5c
 .picks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; max-width: 520px; margin: 0 auto 8px; }
 .picks .pickw { font-family: var(--en); font-size: 26px; letter-spacing: .04em; text-transform: none; overflow-wrap: anywhere; padding: 10px 8px; }
 .enw { font-family: var(--en); font-size: 1.25em; }
+/* 2語以上の表現：語と語の間のマス（書かない）。マスが多いときは2段にする */
+.hw-boxes { flex-wrap: wrap; }
+.hw-cell { min-width: 40px; }
+.hw-cell.gap { flex: 0 0 22px; min-width: 22px; background: transparent; border-color: transparent; box-shadow: none; }

@@ -95,6 +95,15 @@ const Inflect = (() => {
   }
   // 例文の空欄の語（form）が、単語（base）のどの形か
   function formOf(base, blank) {
+    // 2語以上の表現：変化する語だけで比べる（動詞は最初の語 look → looked forward to、名詞は最後の語 nuclear arm → nuclear arms）
+    const ws = String(base).toLowerCase().split(/\s+/), bs = String(blank || '').toLowerCase().split(/\s+/);
+    if (ws.length > 1) {
+      if (bs.length !== ws.length) return bs.join(' ') === ws.join(' ') ? 'base' : 'other';
+      const diff = ws.map((x, i) => x !== bs[i]);
+      if (!diff.some(Boolean)) return 'base';
+      if (diff.filter(Boolean).length > 1) return 'other';
+      return formOf(ws[diff.indexOf(true)], bs[diff.indexOf(true)]);
+    }
     const w = base.toLowerCase(), b = String(blank || '').toLowerCase();
     if (!b || b === w) return 'base';
     if (IRR[w]) { if (b === IRR[w][0] && b !== IRR[w][1]) return 'past'; if (b === IRR[w][1] && b !== IRR[w][0]) return 'pp'; if (b === IRR[w][0]) return 'ed'; }
@@ -109,7 +118,13 @@ const Inflect = (() => {
   // 単語を、指定の形にする（品詞に合わない形・分からない形は原形のまま）
   function apply(base, p, form) {
     const w = base.toLowerCase();
-    if (/\s|-/.test(w)) return base;
+    if (/\s/.test(w)) { // 2語以上の表現
+      const ws = w.split(/\s+/);
+      if (p === 'verb') return [apply(ws[0], p, form)].concat(ws.slice(1)).join(' ');
+      if (p === 'noun') return ws.slice(0, -1).concat(apply(ws[ws.length - 1], p, form)).join(' ');
+      return base;
+    }
+    if (/-/.test(w)) return base;
     if (p === 'verb') {
       if (form === 's') return sForm(w);
       if (form === 'ed') return past(w); // 規則動詞（過去形と過去分詞が同じ）
@@ -124,7 +139,8 @@ const Inflect = (() => {
   function countable(base, exs) {
     const w = base.toLowerCase();
     if (NOPLURAL.has(w)) return false;
-    return (exs || []).some((e) => { const f = formOf(w, e.blank); return f === 's' || new RegExp(`\\b(a|an|one|another|each|every)\\s+(\\w+\\s+)?${w}\\b`, 'i').test(e.en || ''); });
+    const we = w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return (exs || []).some((e) => { const f = formOf(w, e.blank); return f === 's' || new RegExp(`\\b(a|an|one|another|each|every)\\s+(\\w+\\s+)?${we}\\b`, 'i').test(e.en || ''); });
   }
   // 穴うめの選択肢を作る
   // q：{ w：正解の単語, ex：{ blank } }、others：ほかの選択肢の単語、info(w)：{ meaning, ex }

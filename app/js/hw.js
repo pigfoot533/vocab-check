@@ -317,7 +317,7 @@ const HW = (() => {
       this.el = el; this.opt = opt; this.cells = [];
       el.innerHTML = ''; el.classList.add('hw-boxes');
       this.count = opt.count || 5;
-      for (let i = 0; i < this.count; i++) this.cells.push(this._cell(i, i === 0 ? opt.prefilled : null));
+      for (let i = 0; i < this.count; i++) this.cells.push(this._cell(i, i === 0 && opt.prefilled ? opt.prefilled : (opt.fixed || {})[i] || null));
       this._ro = window.ResizeObserver ? new ResizeObserver(() => this.cells.forEach((c) => c.fit())) : null;
       if (this._ro) this.cells.forEach((c) => this._ro.observe(c.cv));
       this._onResize = () => this.cells.forEach((c) => c.fit());
@@ -325,7 +325,7 @@ const HW = (() => {
     }
     destroy() { if (this._ro) this._ro.disconnect(); window.removeEventListener('resize', this._onResize); }
     _cell(i, fixed) {
-      const wrap = document.createElement('div'); wrap.className = 'hw-cell' + (fixed ? ' fixed' : '');
+      const wrap = document.createElement('div'); wrap.className = 'hw-cell' + (fixed ? ' fixed' : '') + (fixed === ' ' ? ' gap' : '');
       const cv = document.createElement('canvas'); wrap.appendChild(cv);
       this.el.appendChild(wrap);
       const g = cv.getContext('2d');
@@ -423,8 +423,10 @@ const HW = (() => {
     // 読み取った単語の候補（点の近い順に k 個）。正解 word を渡すと、正解に十分見えるときは候補に必ず入れる
     // 戻り値：[{ text, cost }]
     candidates(word, k = 4) {
-      const ls = this.read().letters;
+      const rd = this.read(), ls = rd.letters, full = word, wl = word ? onlyLetters(word) : '';
       if (!ls.length) return [];
+      // 表示用：読み取った文字の並びに、空けたマスの位置で空白を入れる
+      const withGaps = (t) => t.split('').map((ch, i) => (rd.gapBefore[i] ? ' ' : '') + ch).join('');
       // 1文字ごとの候補：1位との差（小さいほど近い）
       const opts = ls.map((l) => {
         if (l.fixed) return [{ ch: l.ch, d: 0 }];
@@ -441,6 +443,7 @@ const HW = (() => {
         beam = nx.sort((a, b) => a.cost - b.cost).slice(0, 40);
       });
       const out = beam.slice(0, k);
+      word = wl;
       if (word && !out.some((x) => x.text === word) && ls.length === word.length) {
         // 正解に十分見えるか：どの文字も、候補の4位以内で、1位との差が小さい
         let cost = 0, ok = true;
@@ -448,23 +451,28 @@ const HW = (() => {
           const o = opts[i].findIndex((x) => x.ch === word[i]);
           if (o < 0 || o >= RULE.pickRank || opts[i][o].d > RULE.pickGap) ok = false; else cost += opts[i][o].d;
         });
-        if (ok) { out[Math.min(out.length, k - 1)] = { text: word, cost }; out.sort((a, b) => a.cost - b.cost); }
+        if (ok) { out[Math.min(out.length, k - 1)] = { text: word, cost, right: true }; out.sort((a, b) => a.cost - b.cost); }
       }
-      return out;
+      // 正解（に十分見えるもの）は正しい書き方（空白・記号つき）で、ほかは空けたマスの位置で区切って見せる
+      return out.map((x) => ({ text: x.right || onlyLetters(x.text) === wl ? full : withGaps(x.text), cost: x.cost }));
     }
     // 書いた文字を読む。戻り値：{ text, letters:[{ ch, cands, strokes }] }（空のマスは飛ばす）
     read() {
       const letters = [];
-      this.cells.forEach((c) => {
-        if (c.fixed) { letters.push({ ch: c.fixed, fixed: true, cands: [] }); return; }
+      this.cells.forEach((c, at) => {
+        if (c.fixed === ' ') return; // 語と語の間（2語以上の表現）
+        if (c.fixed) { letters.push({ ch: c.fixed, fixed: true, cands: [], at }); return; }
         if (!c.strokes.length) return;
         const cands = recognize(c.strokes);
-        letters.push({ ch: cands.length ? cands[0].ch : '?', cands, strokes: c.strokes });
+        letters.push({ ch: cands.length ? cands[0].ch : '?', cands, strokes: c.strokes, at });
       });
-      return { text: letters.map((l) => l.ch).join(''), letters };
+      // 文字と文字の間に空いたマスがあれば、語の区切りとして空白を入れる
+      const gapBefore = letters.map((l, k) => k > 0 && l.at - letters[k - 1].at > 1);
+      return { text: letters.map((l, k) => (gapBefore[k] ? ' ' : '') + l.ch).join(''), letters, gapBefore };
     }
     // 単語として正解か（1文字ずつ「正解の字に見えるか」を確かめる）。戻り値：{ ok, text, letters:[{ exp, ch, ok, cands, strokes }] }
     check(word) {
+      word = onlyLetters(word);
       const r = this.read();
       const ls = r.letters;
       const out = ls.map((l, k) => {
@@ -509,5 +517,7 @@ const HW = (() => {
   }
 
   Boxes.ERASER = 0.07; // 消しゴムの大きさ（マスの高さに対する半径）
-  return { recognize, looksLike, stemRise, cleanStrokes, learn, forget, personalCount, Boxes, GUIDE, UNIT, ASPECT, RULE, boxToUnits, _BASE: BASE, _EXTRA: EXTRA, _UPPER: UPPER, _REAL: REAL, _templates: templates };
+  // 比べるための文字だけの形（空白・ハイフン・アポストロフィなどを除く。nuclear arms → nucleararms）
+  const onlyLetters = (w) => String(w || '').toLowerCase().replace(/[^a-z]/g, '');
+  return { letters: onlyLetters, recognize, looksLike, stemRise, cleanStrokes, learn, forget, personalCount, Boxes, GUIDE, UNIT, ASPECT, RULE, boxToUnits, _BASE: BASE, _EXTRA: EXTRA, _UPPER: UPPER, _REAL: REAL, _templates: templates };
 })();
