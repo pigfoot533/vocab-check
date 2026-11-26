@@ -26,10 +26,12 @@ function doGet(e) {
   const ret = (e && e.parameter && e.parameter.return) || '';
   const t = HtmlService.createTemplateFromFile('login');
   const allowed = !!email && isAllowed_(email);
+  const period = allowed ? periodOpen_(email) : { open: true };
   t.email = email;
-  t.ok = allowed && ret.indexOf(ALLOWED_RETURN) === 0;
+  t.ok = allowed && period.open && ret.indexOf(ALLOWED_RETURN) === 0;
   t.reason = !email ? '学校のGoogleアカウントでログインしてから開いてください。'
-    : !allowed ? 'このアカウントは、まだこのアプリを使えません（試作中）。'
+    : !allowed ? 'このアカウントは、まだこのアプリを使えません。'
+    : !period.open ? period.message
     : ret.indexOf(ALLOWED_RETURN) !== 0 ? 'アプリからこのページを開いてください（戻り先が登録されていません）。' : '';
   t.backUrl = t.ok ? ret.split('#')[0] + '#token=' + encodeURIComponent(makeToken_(email)) : '';
   return t.evaluate()
@@ -44,7 +46,9 @@ function doPost(e) {
   try { body = JSON.parse(e.postData.contents); } catch (err) { return json_({ ok: false, error: '形式が正しくありません' }); }
   const who = verifyToken_(body.token);
   if (!who) return json_({ ok: false, error: '通行証が無効です。もう一度ログインしてください', code: 'auth' });
-  if (!isAllowed_(who)) return json_({ ok: false, error: 'このアカウントは、まだこのアプリを使えません（試作中）', code: 'auth' });
+  if (!isAllowed_(who)) return json_({ ok: false, error: 'このアカウントは、まだこのアプリを使えません', code: 'auth' });
+  const period = periodOpen_(who);
+  if (!period.open) return json_({ ok: false, error: period.message, code: 'closed' });
   const now = new Date();
   const serverTime = Utilities.formatDate(now, TZ, 'yyyy-MM-dd HH:mm:ss');
   const d = body.data || {};
@@ -90,6 +94,7 @@ function doPost(e) {
       case 'finalSubmit':
         return json_(withProgress_(who, function (p) { return finalSubmit_(p, who, d.id, d.results || []); }, true));
       case 'reset':
+        if (!config_().allowSkip && !config_().tryAnytime) return json_({ ok: false, error: 'いまは リセットできません' });
         return json_(withProgress_(who, function (p) {
           Object.keys(p).forEach(function (k) { delete p[k]; });
           Object.assign(p, newProgress_());
@@ -155,15 +160,22 @@ function startLesson_(p, who, n) {
     return { ok: false, code: 'limit', error: '今日はもう' + cfg.dailyLimit + 'レッスン始めました。続きは明日！' };
   }
   const words = loadWords_().map(function (w) { return w.word; });
-  const order = seededShuffle_(words, hash_(who + '|order'));
-  const per = Math.ceil(order.length / total);
-  const fresh = order.slice((n - 1) * per, n * per);
+  // 単語の順番：「リスト順」なら全員が単語シートの順番どおり、「ランダム」なら生徒ごとにばらばら
+  const order = cfg.order === 'ランダム' ? seededShuffle_(words, hash_(who + '|order')) : words;
+  const fresh = lessonSlice_(order, total, n);
   const review = pickReview_(p, n, fresh, cfg);
   const lesson = { n: n, words: fresh, review: review, startedAt: Date.now(), startedDay: day, done: false, steps: {} };
   p.lessons[n] = lesson;
   p.days[day] = used + 1;
   logRows_(who, [{ type: 'startLesson', lesson: n, detail: { words: fresh.length, review: review } }]);
   return { ok: true, lesson: lesson, progress: publicProgress_(p) };
+}
+
+// 単語をレッスン数で均等に分ける（752語・30レッスンなら、25語のレッスン28個と、26語のレッスン2個。多い分は後ろのレッスンに）
+function lessonSlice_(order, total, n) {
+  const base = Math.floor(order.length / total), extra = order.length % total;
+  const startOf = function (k) { return (k - 1) * base + Math.max(0, k - 1 - (total - extra)); };
+  return order.slice(startOf(n), startOf(n + 1));
 }
 
 // 前のレッスンの単語から、苦手なものほど選ばれやすくして復習の単語を選ぶ
@@ -441,6 +453,9 @@ function config_() {
     subtitle: String(m['サブタイトル'] || '〜 忘却の魔王から ことばの王国を救え 〜').trim(),
     tryAnytime: bool('抜き打ち・最終試験をいつでも受けられる（試作品用）', true),
     allowSkip: bool('レッスンをスキップできる（試作品用）', true),
+    order: String(m['単語の順番'] || 'リスト順').trim(),
+    period: String(m['使える期間'] || '').trim(),
+    always: String(m['いつでも使える人'] || '').split(/[,\s、]+/).map(function (s) { return s.trim().toLowerCase(); }).filter(String),
     popN: num('抜き打ちテストの問題数', 15),
     popPass: num('抜き打ちテストの合格点', 11),
     finalN: num('最終試験の問題数', 30),
@@ -472,6 +487,27 @@ function isAllowed_(email) {
     return false;
   });
 }
+// 使える期間：「設定」シートの「使える期間」に、日付（2026-12-16）や期間（2026-12-21〜2027-01-13）をカンマで区切って書く
+// 空なら、いつでも使える。「いつでも使える人」（先生など）は、期間に関係なく使える
+function periodOpen_(email) {
+  const cfg = config_();
+  if (!cfg.period) return { open: true };
+  const e = String(email || '').toLowerCase();
+  if (cfg.always.some(function (u) { return u === e || (u.charAt(0) === '@' && e.slice(-u.length) === u); })) return { open: true };
+  const today = today_(), ranges = [];
+  cfg.period.split(/[,、\n]+/).forEach(function (part) {
+    const d = part.match(/\d{4}[-\/]\d{1,2}[-\/]\d{1,2}/g);
+    if (!d) return;
+    const norm = function (x) { const a = x.split(/[-\/]/); return a[0] + '-' + ('0' + a[1]).slice(-2) + '-' + ('0' + a[2]).slice(-2); };
+    ranges.push([norm(d[0]), norm(d[d.length - 1])]);
+  });
+  if (!ranges.length) return { open: true };
+  if (ranges.some(function (r) { return today >= r[0] && today <= r[1]; })) return { open: true };
+  const next = ranges.map(function (r) { return r[0]; }).filter(function (d) { return d > today; }).sort()[0];
+  const md = function (d) { return Number(d.slice(5, 7)) + '月' + Number(d.slice(8, 10)) + '日'; };
+  return { open: false, message: next ? 'このアプリは ' + md(next) + ' から 使えます。それまで 待っていてね。' : 'このアプリを 使える期間は 終わりました。' };
+}
+
 function inRoster_(email) {
   const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('名簿');
   if (!sh || sh.getLastRow() < 2) return false;
@@ -551,6 +587,37 @@ function verifyToken_(token) {
   return p[0];
 }
 
+// ===== 本番用 =====
+// 本番の設定にする（スプレッドシートのエディタで1回だけ実行）。発音の甘さなど、試作品で調整した値はそのまま残す
+function setupProduction() {
+  setup();
+  const set = {
+    '使える人': '名簿, ' + Session.getEffectiveUser().getEmail(),
+    '1日のレッスン上限': 5,
+    'レッスン数（0なら自動）': 30,
+    '復習の単語の数（最小）': 0,
+    '復習の単語の数（最大）': 0,
+    '抜き打ち・最終試験をいつでも受けられる（試作品用）': 'いいえ',
+    'レッスンをスキップできる（試作品用）': 'いいえ',
+    '単語の順番': 'リスト順',
+    '使える期間': '2026-12-16, 2026-12-21〜2027-01-13',
+  };
+  const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('設定');
+  const vals = sh.getRange(1, 1, sh.getLastRow(), 1).getValues();
+  vals.forEach(function (r, i) { const k = String(r[0]).trim(); if (Object.prototype.hasOwnProperty.call(set, k)) sh.getRange(i + 1, 2).setValue(set[k]); });
+  Logger.log('本番の設定にしました。「設定」シートを確認してください');
+}
+// 生徒の記録（進み具合・学習ログ）を全部消す。12/16のテストのあと、本番の前に1回だけ実行する
+// 名簿・単語・設定は消さない
+function clearAllRecords() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  ['進捗', '学習ログ', 'ログ', '結果'].forEach(function (n) {
+    const sh = ss.getSheetByName(n);
+    if (sh && sh.getLastRow() > 1) sh.deleteRows(2, sh.getLastRow() - 1);
+  });
+  Logger.log('生徒の記録を消しました（名簿・単語・設定はそのまま）');
+}
+
 // 最初に一度だけ手動で実行すると、権限の確認・秘密の鍵・「設定」シートの作成が済む
 function setup() {
   secret_();
@@ -568,6 +635,9 @@ function setup() {
     ['サブタイトル', '〜 忘却の魔王から ことばの王国を救え 〜', 'ログイン画面の名前の下に表示'],
     ['抜き打ち・最終試験をいつでも受けられる（試作品用）', 'はい', '本番では必ず「いいえ」にする'],
     ['レッスンをスキップできる（試作品用）', 'はい', '本番では必ず「いいえ」にする。スキップしたレッスンは1日の上限に数えない'],
+    ['単語の順番', 'リスト順', '「リスト順」：全員が単語シートの順番どおり。「ランダム」：生徒ごとにばらばら'],
+    ['使える期間', '', '空ならいつでも。例：2026-12-16, 2026-12-21〜2027-01-13（日付や期間をカンマで区切る）'],
+    ['いつでも使える人', me, '期間外でも使える人（先生など）。メールアドレスか @ドメイン をカンマで区切る'],
     ['抜き打ちテストの問題数', 15, ''],
     ['抜き打ちテストの合格点', 11, ''],
     ['最終試験の問題数', 30, ''],

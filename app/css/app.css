@@ -344,3 +344,6 @@ body[data-scene="boss"] { background: radial-gradient(circle at 50% 30%, #3a0d5c
 .hw-boxes { flex-wrap: wrap; }
 .hw-cell { min-width: 40px; }
 .hw-cell.gap { flex: 0 0 22px; min-width: 22px; background: transparent; border-color: transparent; box-shadow: none; }
+/* 発音AIの準備（村・設定・開始前の画面） */
+.aiprep { text-align: center; margin: 10px 0; }
+.aiprep h2 { font-family: var(--title); margin: 0 0 6px; }

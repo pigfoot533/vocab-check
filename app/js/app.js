@@ -48,7 +48,7 @@ const App = (() => {
     showLoading('冒険の記録を 読みこんでいます…');
     try {
       const j = await API.call('init');
-      if (!j.ok) { if (!API.loggedIn()) return showLogin(j.error); return showError(j.error); }
+      if (!j.ok) { if (j.code === 'closed') return showClosed(j.error); if (!API.loggedIn()) return showLogin(j.error); return showError(j.error); }
       S.email = j.email; S.name = j.name || j.email.split('@')[0]; S.today = j.today; S.config = j.config; S.progress = j.progress;
       applyAppName(j.config.appName, j.config.subtitle);
       Voice.configure(j.config);
@@ -96,7 +96,7 @@ const App = (() => {
       <div class="rpg"><span class="who">フクロウ先生</span>ようこそ、見習い冒険者よ。<br>うばわれた ことばを 取りもどし、王国を 救うのじゃ。<br>まずは 学校のアカウントで 名を名乗るがよい。<span class="tri">▼</span></div>
       ${msg ? `<p class="notice">${esc(msg)}</p>` : ''}
       <button class="gbtn" id="login">⚔️ 冒険をはじめる<small>（学校のGoogleアカウントでログイン）</small></button>
-      <div class="foot">冬休みクエスト ｜ 締切：${esc(fmtJa(CFG.DEADLINE || '2027-01-12'))}<br>試作品：先生のアカウントだけが使えます</div>
+      <div class="foot">冬休みクエスト ｜ 締切：${esc(fmtJa(CFG.DEADLINE || '2027-01-13'))}</div>
     </div>`;
     $('#login').onclick = API.login;
   }
@@ -134,7 +134,7 @@ const App = (() => {
     const done = Object.keys(P.lessons).filter((k) => P.lessons[k].done).length;
     let cur = 0; for (let n = 1; n <= total; n++) { const s = lessonStatus(n); if (s === 'next' || s === 'doing') { cur = n; break; } }
     const left = total - done;
-    const deadline = new Date((CFG.DEADLINE || '2027-01-12') + 'T23:59:59+09:00');
+    const deadline = new Date((CFG.DEADLINE || '2027-01-13') + 'T23:59:59+09:00');
     const daysLeft = Math.max(0, Math.ceil((deadline - new Date(S.today + 'T00:00:00+09:00')) / 86400000));
     const needPerDay = daysLeft ? left / daysLeft : left;
     const todayLeft = Math.max(0, P.dailyLimit - P.todayCount);
@@ -201,6 +201,7 @@ const App = (() => {
             <button class="tile" id="toMap"><span class="ic">🗺️</span><span class="t">冒険マップ</span></button>
             <button class="tile" id="toSet"><span class="ic">⚙️</span><span class="t">設定</span></button>
           </div>
+          <div id="aiPrep"></div>
           ${owl(talk)}
           ${tryAny ? `<section class="parch trybox"><b>🧪 試作品用</b>（本番では出ません）
             <div class="row"><button class="btn" id="tryPop">🐉 抜き打ちテストを ためす</button>${F.passed ? '' : '<button class="btn" id="tryFinal">🏰 最終試験を ためす</button>'}</div></section>` : ''}
@@ -213,6 +214,7 @@ const App = (() => {
     const tf = $('#toFinal'); if (tf) tf.onclick = showFinal;
     const yp = $('#tryPop'); if (yp) yp.onclick = () => showPop(true);
     const yf = $('#tryFinal'); if (yf) yf.onclick = showFinal;
+    fillAiPrep($('#aiPrep'));
   }
 
   // ---------- 冒険マップ・進み具合 ----------
@@ -299,9 +301,9 @@ const App = (() => {
       <div class="two">
         <div>
           <section class="parch setting"><h2>アカウント</h2><p>${esc(S.email)}</p><button class="btn" id="logout">ログアウト</button></section>
-          <section class="parch setting"><h2>発音判定のAI</h2><p>${cached ? '✅ この端末に保存ずみ' : '未保存（詠唱のステップの前にダウンロードします）'}</p></section>
+          ${cached ? '<section class="parch setting"><h2>発音判定のAI</h2><p>✅ この端末に保存ずみ</p></section>' : '<div id="aiPrep"></div>'}
           <section class="parch setting"><h2>手書きの学習データ</h2><p>この端末で覚えた、あなたの字の手本：${HW.personalCount()}文字分</p><button class="btn" id="forget">手書きの学習データを消す</button></section>
-          <section class="parch setting"><h2>試作品用</h2><p class="small">進み具合をすべて消して、レッスン1からやり直します。</p><button class="btn danger" id="reset">進み具合をリセット</button></section>
+          ${S.config && (S.config.allowSkip || S.config.tryAnytime) ? '<section class="parch setting"><h2>試作品用</h2><p class="small">進み具合をすべて消して、レッスン1からやり直します。</p><button class="btn danger" id="reset">進み具合をリセット</button></section>' : ''}
         </div>
         <section class="parch setting small"><h2>このアプリについて</h2>
           <p>発音判定：HuBERT 音素認識モデル（ron-jo/hubert-base-phoneme-en-onnx・Apache-2.0）、ONNX Runtime Web（MIT）、CMU Pronouncing Dictionary（BSD）、Moby Hyphenator II（パブリックドメイン）。</p>
@@ -312,7 +314,8 @@ const App = (() => {
     $('#home').onclick = showHome;
     $('#logout').onclick = () => { API.logout(); showLogin(); };
     $('#forget').onclick = () => { if (confirm('手書きの学習データを消しますか？')) { HW.forget(); showSettings(); } };
-    $('#reset').onclick = async () => {
+    fillAiPrep($('#aiPrep'), showSettings);
+    if ($('#reset')) $('#reset').onclick = async () => {
       if (!confirm('本当に進み具合をリセットしますか？（試作品用）')) return;
       showLoading('リセットしています…');
       try { const j = await API.call('reset'); if (j.ok) { S.progress = j.progress; clearState(); } showHome(); } catch (e) { showError(e.message); }
@@ -525,28 +528,47 @@ const App = (() => {
   }
 
   // ===== 判定用AIの準備（初回だけ） =====
+  // ダウンロードの部品（レッスンの前・村・設定・開始前の画面で使う）。done：終わったら呼ぶ
+  const DL_HTML = `<p>初回だけ、約116MBを ダウンロードします。<b>Wi-Fi（または データ使用量が 無制限の回線）</b>で 行ってください。</p>
+    <p class="small">途中で 電波が 切れたり、画面を 閉じたりすると、最初から やり直しに なります。終わるまで この画面の ままに しておいてください。</p>
+    <button class="gbtn" id="dl">ダウンロードする</button>
+    <div class="bar xp" id="dlp" hidden style="margin-top:12px"><div style="width:0"></div></div><p class="small" id="dlm"></p>`;
+  function bindDownload(done) {
+    $('#dl').onclick = async () => {
+      $('#dl').disabled = true; $('#dlp').hidden = false;
+      try {
+        const jw = await Voice.wordInfo('apple');
+        await PronJudge.judge(new Float32Array(16000), jw, (p) => {
+          if (p.phase === 'download') { $('#dlp div').style.width = Math.round(p.got / p.total * 100) + '%'; $('#dlm').textContent = `${Math.round(p.got / 1048576)} / ${Math.round(p.total / 1048576)}MB`; }
+          else if (p.phase === 'prepare') $('#dlm').textContent = '準備中…';
+        });
+        done();
+      } catch (e) { $('#dlm').textContent = e.message; $('#dl').disabled = false; }
+    };
+  }
+  // 村・設定・開始前の画面に出す「発音AIの準備」（まだ端末にないときだけ）
+  async function fillAiPrep(el, after) {
+    if (!el || await Voice.modelReady()) return;
+    el.innerHTML = `<section class="parch aiprep"><h2>🎙️ 発音判定のAIを 準備しよう</h2>${DL_HTML}</section>`;
+    bindDownload(() => { el.innerHTML = '<section class="parch aiprep"><h2>✅ 発音判定のAIを 準備できた！</h2><p>この端末に 保存したので、次からは すぐ 使えます。</p></section>'; if (after) after(); });
+  }
+  // 使える期間の前・あと（例：12/16の準備のあと、12/21まで）
+  function showClosed(msg) {
+    setScene('night');
+    main().innerHTML = `<div class="loading"><div class="parch" style="max-width:600px;margin:0 auto;font-family:var(--body)"><p style="font-size:44px;margin:0">🏰</p><p>${esc(msg)}</p>
+      <button class="btn" id="retry">もう一度 ためす</button></div><div id="aiPrep" style="max-width:600px;margin:16px auto 0"></div></div>`;
+    $('#retry').onclick = start;
+    fillAiPrep($('#aiPrep'));
+  }
   async function ensureModel(L, step) {
     if (await Voice.modelReady()) return true;
     return new Promise((resolve) => {
       setScene('night');
       main().innerHTML = lessonHeader(L, step) + `<section class="parch" style="text-align:center;max-width:640px;margin:20px auto">
         <p style="font-size:56px;margin:0">🎙️</p><h2 style="font-family:var(--title)">発音判定のAIを 準備します</h2>
-        <p>初回だけ、約116MBを ダウンロードします。<b>Wi-Fi（または データ使用量が 無制限の回線）</b>で 行ってください。</p>
-        <p class="small">途中で 電波が 切れたり、画面を 閉じたりすると、最初から やり直しに なります。終わるまで この画面の ままに しておいてください。</p>
-        <button class="gbtn" id="dl">ダウンロードする</button>
-        <div class="bar xp" id="dlp" hidden style="margin-top:12px"><div style="width:0"></div></div><p class="small" id="dlm"></p></section>`;
+        ${DL_HTML}</section>`;
       bindHeader();
-      $('#dl').onclick = async () => {
-        $('#dl').disabled = true; $('#dlp').hidden = false;
-        try {
-          const jw = await Voice.wordInfo('apple');
-          await PronJudge.judge(new Float32Array(16000), jw, (p) => {
-            if (p.phase === 'download') { $('#dlp div').style.width = Math.round(p.got / p.total * 100) + '%'; $('#dlm').textContent = `${Math.round(p.got / 1048576)} / ${Math.round(p.total / 1048576)}MB`; }
-            else if (p.phase === 'prepare') $('#dlm').textContent = '準備中…';
-          });
-          resolve(true);
-        } catch (e) { $('#dlm').textContent = e.message; $('#dl').disabled = false; }
-      };
+      bindDownload(() => resolve(true));
     });
   }
 
@@ -645,7 +667,7 @@ const App = (() => {
 
   // ===== ステップ3：刻印（書く練習：先に単語を言ってから書く × 4回） =====
   // 流れ：「単語を言う」ボタン → 録音 → 合格したら石版が使えるようになる → 書く → 「きざめた！」
-  // 3回：1・2回目はお手本を見て書く、3回目はお手本なし（どれもAIで文字の判定はしない）
+  // 2回：1回目はお手本を見て書く、2回目はお手本なし（どちらもAIで文字の判定はしない）
   // 石版の道具（1画もどす・消しゴム・全部消す）
   const TOOLS = '<div class="row hw-tools"><button class="btn small" id="undo">↩︎ 1画もどす</button><button class="btn small" id="eraser">🩹 消しゴム</button><button class="btn small" id="clr">🧽 全部消す</button></div>';
   function bindTools(boxes) {
@@ -661,11 +683,11 @@ const App = (() => {
     setScene('night');
     const list = words.slice();
     let i = st.sub || 0;
-    const REPS = 3;
+    const REPS = 2;
     const showWord = (rep) => {
       if (i >= list.length) return next();
       st.sub = i; saveState(st);
-      const w = list[i], hidden = rep > 2;
+      const w = list[i], hidden = rep > 1;
       let busy = false, spoke = false;
       main().innerHTML = lessonHeader(L, 3, i, list.length) + `
         <section class="parch" style="text-align:center">
@@ -728,12 +750,12 @@ const App = (() => {
         $('#done').disabled = true; boxes.opt.disabled = true;
         setEr(false);
         if (!hidden) {
-          // 1・2回目：文字の判定はしない（お手本を見て書いた字なので、本人の手本として覚える）
+          // 1回目：文字の判定はしない（お手本を見て書いた字なので、本人の手本として覚える）
           const learned = boxes.learnFrom(w);
           $('#msg').innerHTML = '<span class="ok">⭕ OK！</span> きざめたぞ。<span class="tri">▼</span>';
           API.record({ type: 'write', lesson: L.n, word: w, rep, pronOk: true, letterOk: null, learned });
         } else {
-          // 3回目：AIでは判定せず、正解を見せて、自分で確かめる
+          // 2回目：AIでは判定せず、正解を見せて、自分で確かめる
           $('#msg').innerHTML = `正しく 書けたかな？ 正解は <b class="enw">${esc(w)}</b> じゃ。自分の 石版と くらべてみよう。<span class="tri">▼</span>`;
           const again = await new Promise((res) => {
             $('#nextArea').innerHTML = '<div class="nextrow"><button class="btn" id="redo">🧽 書き直す</button><button class="gbtn" id="okw">⭕ 正しく 書けた！</button></div>';
