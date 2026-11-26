@@ -255,6 +255,55 @@ const App = (() => {
       else U.toast('今日の クエストは ここまで。また明日！');
     }));
   }
+  // 冒険マップの背景：地方ごとの景色（1段＝1つの地方。y：段の上、h：段の高さ、W：幅）
+  const MAP_DEFS = `<defs>
+    <linearGradient id="gVillage" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe8ff"/><stop offset=".45" stop-color="#d9f3c4"/><stop offset="1" stop-color="#8fd16a"/></linearGradient>
+    <linearGradient id="gForest" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5c8f6e"/><stop offset="1" stop-color="#1f5a35"/></linearGradient>
+    <linearGradient id="gDesert" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd27a"/><stop offset=".5" stop-color="#f6c76b"/><stop offset="1" stop-color="#e0a24a"/></linearGradient>
+    <linearGradient id="gIce" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe9ff"/><stop offset="1" stop-color="#9cc8e8"/></linearGradient>
+    <linearGradient id="gSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6b4bb8"/><stop offset="1" stop-color="#b59cf0"/></linearGradient>
+    <linearGradient id="gDark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a0a2e"/><stop offset="1" stop-color="#4a2266"/></linearGradient>
+  </defs>`;
+  function sceneSvg(k, y, h, W) {
+    const b = y + h; // 段の下
+    const tree = (x, yy, s, c1, c2) => `<g transform="translate(${x},${yy}) scale(${s})"><rect x="-4" y="-6" width="8" height="16" fill="#6b4a2a"/><polygon points="0,-58 -22,-18 22,-18" fill="${c1}"/><polygon points="0,-42 -26,-2 26,-2" fill="${c2}"/></g>`;
+    const house = (x, yy, s, roof) => `<g transform="translate(${x},${yy}) scale(${s})"><rect x="-22" y="-26" width="44" height="26" fill="#fff3dc" stroke="#8a6234" stroke-width="2"/><polygon points="-28,-26 0,-48 28,-26" fill="${roof}" stroke="#7a3b1a" stroke-width="2"/><rect x="-6" y="-16" width="12" height="16" fill="#8a6234"/><rect x="10" y="-20" width="8" height="7" fill="#8fd3f4"/></g>`;
+    const cloud = (x, yy, s, c) => `<g transform="translate(${x},${yy}) scale(${s})" fill="${c}"><ellipse cx="0" cy="0" rx="30" ry="12"/><ellipse cx="-16" cy="-6" rx="16" ry="12"/><ellipse cx="12" cy="-10" rx="18" ry="14"/></g>`;
+    let g = '';
+    if (k === 0) { // はじまりの村：草原・家・木・太陽
+      g += `<rect x="0" y="${y}" width="${W}" height="${h}" fill="url(#gVillage)"/>`;
+      g += `<circle cx="${W * 0.62}" cy="${y + 30}" r="18" fill="#ffd84d" opacity=".9"/>` + cloud(150, y + 30, 0.8, '#fff') + cloud(W * 0.42, y + 36, 0.6, '#fff');
+      g += `<path d="M0,${b - 30} Q${W * 0.25},${b - 55} ${W * 0.5},${b - 32} T${W},${b - 36} L${W},${b} L0,${b} Z" fill="#7cc35a"/>`;
+      g += house(40, b - 22, 0.9, '#d9534f') + house(735, b - 26, 0.8, '#3d7dd8') + house(390, b - 8, 0.6, '#e08a2c');
+      g += tree(120, b - 14, 0.55, '#3e9a3e', '#4fb24f') + tree(660, b - 16, 0.5, '#3e9a3e', '#4fb24f');
+      g += `<g stroke="#a0784a" stroke-width="3">${[0, 1, 2, 3].map((i) => `<line x1="${200 + i * 14}" y1="${b - 16}" x2="${200 + i * 14}" y2="${b - 2}"/>`).join('')}<line x1="196" y1="${b - 11}" x2="246" y2="${b - 11}"/></g>`;
+    } else if (k === 1) { // 迷いの森：濃い森・きのこ・霧
+      g += `<rect x="0" y="${y}" width="${W}" height="${h}" fill="url(#gForest)"/>`;
+      for (let i = 0; i < 14; i++) { const x = 10 + i * 57, s = 0.55 + ((i * 37) % 5) * 0.08; g += tree(x, b - 4 - ((i * 13) % 3) * 6, s, '#174a2a', '#22653a'); }
+      g += `<g><rect x="56" y="${b - 18}" width="6" height="12" fill="#f3e3c3"/><ellipse cx="59" cy="${b - 19}" rx="12" ry="7" fill="#e04848"/><circle cx="55" cy="${b - 21}" r="2" fill="#fff"/><circle cx="63" cy="${b - 20}" r="2" fill="#fff"/></g>`;
+      g += `<g><rect x="702" y="${b - 16}" width="5" height="10" fill="#f3e3c3"/><ellipse cx="704" cy="${b - 17}" rx="10" ry="6" fill="#b37ad6"/></g>`;
+      g += `<rect x="0" y="${y + h * 0.35}" width="${W}" height="22" fill="#e8f5ec" opacity=".18"/><rect x="0" y="${y + h * 0.6}" width="${W}" height="14" fill="#e8f5ec" opacity=".12"/>`;
+    } else if (k === 2) { // 灼熱の砂漠：砂丘・サボテン・ピラミッド・太陽
+      g += `<rect x="0" y="${y}" width="${W}" height="${h}" fill="url(#gDesert)"/>`;
+      g += `<circle cx="80" cy="${y + 36}" r="24" fill="#ff8a3d" opacity=".85"/><circle cx="80" cy="${y + 36}" r="34" fill="#ff8a3d" opacity=".2"/>`;
+      g += `<polygon points="${W - 150},${b - 18} ${W - 90},${b - 80} ${W - 30},${b - 18}" fill="#d49a45" stroke="#a8722b" stroke-width="2"/><polygon points="${W - 90},${b - 80} ${W - 30},${b - 18} ${W - 70},${b - 18}" fill="#b98036"/>`;
+      g += `<path d="M0,${b - 20} Q${W * 0.2},${b - 48} ${W * 0.42},${b - 22} Q${W * 0.62},${b - 4} ${W * 0.8},${b - 30} Q${W * 0.92},${b - 44} ${W},${b - 26} L${W},${b} L0,${b} Z" fill="#e8b25d"/>`;
+      const cactus = (x, yy, s) => `<g transform="translate(${x},${yy}) scale(${s})" fill="#4f9a4a" stroke="#2f6b2a" stroke-width="2"><rect x="-6" y="-46" width="12" height="46" rx="6"/><path d="M-6,-24 h-10 v-14 a5,5 0 0 1 10,0 z"/><path d="M6,-30 h10 v-12 a5,5 0 0 0 -10,0 z"/></g>`;
+      g += cactus(180, b - 8, 0.8) + cactus(520, b - 4, 0.65);
+    } else if (k === 3) { // 氷の山脈：雪山・雪の結晶
+      g += `<rect x="0" y="${y}" width="${W}" height="${h}" fill="url(#gIce)"/>`;
+      const mt = (x, w, hh, c) => `<polygon points="${x - w},${b} ${x},${b - hh} ${x + w},${b}" fill="${c}"/><polygon points="${x - w * 0.3},${b - hh * 0.7} ${x},${b - hh} ${x + w * 0.3},${b - hh * 0.7} ${x + w * 0.12},${b - hh * 0.62} ${x - w * 0.1},${b - hh * 0.66}" fill="#fff"/>`;
+      g += mt(90, 120, 110, '#7aa6c9') + mt(300, 140, 130, '#6b97bd') + mt(520, 130, 120, '#7aa6c9') + mt(720, 110, 105, '#6b97bd');
+      const flake = (x, yy) => `<g stroke="#fff" stroke-width="2" opacity=".85"><line x1="${x - 6}" y1="${yy}" x2="${x + 6}" y2="${yy}"/><line x1="${x - 3}" y1="${yy - 5}" x2="${x + 3}" y2="${yy + 5}"/><line x1="${x - 3}" y1="${yy + 5}" x2="${x + 3}" y2="${yy - 5}"/></g>`;
+      [[60, 22], [210, 40], [420, 18], [610, 36], [740, 20], [330, 60]].forEach(([x, dy]) => { g += flake(x, y + dy); });
+    } else { // 天空の塔：雲の上・塔・稲妻
+      g += `<rect x="0" y="${y}" width="${W}" height="${h}" fill="url(#gSky)"/>`;
+      g += cloud(90, b - 16, 1.4, '#efe6ff') + cloud(300, b - 10, 1.2, '#e4d8ff') + cloud(520, b - 14, 1.3, '#efe6ff') + cloud(720, b - 8, 1.2, '#e4d8ff');
+      g += `<g transform="translate(${W - 70},${b - 30})" opacity=".55"><rect x="-14" y="-90" width="28" height="90" fill="#cbb8f0" stroke="#5a3d9a" stroke-width="2"/><polygon points="-20,-90 0,-118 20,-90" fill="#7a54d1" stroke="#4b2a8a" stroke-width="2"/><rect x="-5" y="-70" width="10" height="12" fill="#ffe36b"/><rect x="-5" y="-40" width="10" height="12" fill="#ffe36b"/></g>`;
+      g += `<polygon points="70,${y + 10} 54,${y + 46} 66,${y + 46} 52,${y + 80} 84,${y + 36} 70,${y + 36} 82,${y + 10}" fill="#ffe36b" opacity=".9"/>`;
+    }
+    return g;
+  }
   function mapSvg(total, cur) {
     const per = Math.min(6, total), rows = Math.ceil(total / per);
     const W = 772, top = 150, gapY = 150, H = top + (rows - 1) * gapY + 110, left = 90, right = 690;
@@ -273,7 +322,12 @@ const App = (() => {
       else d += ` Q${(x0 + x1) / 2},${(y0 + y1) / 2 + 16} ${x1},${y1}`;
     }
     d += ` Q${last[0]},${(last[1] + castle[1]) / 2} ${castle[0]},${castle[1] + 20}`;
-    let g = `<path d="${d}" fill="none" stroke="#8a6234" stroke-width="12" stroke-dasharray="2 18" stroke-linecap="round" opacity=".8"/>`;
+    // 背景：いちばん上は魔王城の暗い空、その下に地方ごとの景色（下から順に）
+    const bandTop = (r) => H - 70 - r * gapY - 75;
+    let g = MAP_DEFS + `<rect x="0" y="0" width="${W}" height="${bandTop(rows - 1)}" fill="url(#gDark)"/>`;
+    g += [[60, 20], [200, 50], [420, 24], [600, 46], [720, 16], [330, 70]].filter(([, yy]) => yy < bandTop(rows - 1) - 6).map(([x, yy]) => `<circle cx="${x}" cy="${yy}" r="1.8" fill="#fff" opacity=".8"/>`).join('');
+    for (let r = 0; r < rows; r++) g += sceneSvg(REGIONS.indexOf(region(r * per + 1)), bandTop(r), gapY, W);
+    g += `<path d="${d}" fill="none" stroke="#fff8e6" stroke-width="16" stroke-dasharray="2 18" stroke-linecap="round" opacity=".55"/><path d="${d}" fill="none" stroke="#8a6234" stroke-width="12" stroke-dasharray="2 18" stroke-linecap="round" opacity=".85"/>`;
     for (let r = 0; r < rows; r++) {
       const reg = region(r * per + 1), y = H - 70 - r * gapY - 66;
       const lo = r * per + 1, hi = Math.min(total, (r + 1) * per);
@@ -288,7 +342,7 @@ const App = (() => {
       else g += `<circle cx="${x}" cy="${y}" r="22" fill="#b8a58a" stroke="#fff8e6" stroke-width="3"/><text x="${x}" y="${y + 7}" text-anchor="middle" font-size="18" fill="#fff">${n}</text>`;
       g += '</g>';
     });
-    g += `<g id="castle" class="node" role="button"><text x="${castle[0]}" y="${castle[1]}" text-anchor="middle" font-size="64">🏰</text><text x="${castle[0]}" y="${castle[1] + 30}" text-anchor="middle" font-size="15" fill="#3a0a4a" class="region">魔王城（最終試験）</text></g>`;
+    g += `<g id="castle" class="node" role="button"><text x="${castle[0]}" y="${castle[1]}" text-anchor="middle" font-size="64">🏰</text><text x="${castle[0]}" y="${castle[1] + 30}" text-anchor="middle" font-size="15" fill="#ffe9a8" class="region">魔王城（最終試験）</text></g>`;
     return `<svg viewBox="0 0 ${W} ${H}" class="mapsvg">${g}</svg>`;
   }
 
