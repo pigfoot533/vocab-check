@@ -349,3 +349,37 @@ body[data-scene="boss"] { background: radial-gradient(circle at 50% 30%, #3a0d5c
 .aiprep h2 { font-family: var(--title); margin: 0 0 6px; }
 /* コース（発展など）の印 */
 .hud .course { display: inline-block; font-size: 12px; padding: 1px 8px; margin-left: 6px; border-radius: 999px; background: #ffd76a; color: #4a2a00; vertical-align: middle; }
+
+/* ===== Another（発展コース）：赤い月と闇の王国 ===== */
+body.another { --gold: #ff6b6b; --gold2: #c21f3a; --gold-dark: #4d0613; }
+body.another[data-scene="night"] { background: radial-gradient(circle at 50% 0%, #4a0d24 0%, #1c0614 55%, #070208 100%) fixed; }
+body.another[data-scene="village"] { background: linear-gradient(180deg, #12040d 0%, #4a0a1f 26%, #7a1a2a 30%, #2a1a1a 30.2%, #140c0c 100%) fixed; }
+body.another[data-scene="map"] { background: #1e0d10; }
+body.another .stars i { background: #ffb3b3; }
+/* 赤い月と、こうもり */
+body.another[data-scene="village"]::before, body.another[data-scene="night"]::before { content: ''; position: fixed; bottom: 7%; left: 6%; width: 110px; height: 110px; border-radius: 50%; z-index: -1;
+  background: radial-gradient(circle at 38% 36%, #ff9a8a 0%, #e0253a 45%, #7a0614 100%); box-shadow: 0 0 50px 10px rgba(255, 40, 60, .45); }
+body.another[data-scene="village"]::after { content: '🦇　　🦇　 🦇'; position: fixed; bottom: calc(7% + 96px); left: 4%; font-size: 26px; letter-spacing: .4em; z-index: -1; opacity: .75; animation: bats 6s ease-in-out infinite; }
+@keyframes bats { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(40px, -10px); } }
+body.another .moon { background: radial-gradient(circle at 38% 36%, #ff9a8a 0%, #e0253a 45%, #7a0614 100%); box-shadow: 0 0 60px 14px rgba(255, 40, 60, .5); }
+body.another .castle-land rect[fill="#ffd56b"] { fill: #ff3048; }
+/* タイトル */
+body.another .title { color: #ffd0d0; text-shadow: 0 4px 0 #4d0613, 0 0 34px rgba(255, 40, 60, .75), 0 10px 30px rgba(0,0,0,.8); }
+.another-tag { display: block; font-family: var(--title); font-size: .5em; letter-spacing: .3em; color: #ff3b4f; text-shadow: 0 0 18px rgba(255, 30, 50, .9), 0 3px 0 #2a0008; margin-top: -.1em; }
+body.another .subtitle { color: #ffb3b3; }
+/* 金色のボタンを、血の色に */
+body.another .gbtn { background: linear-gradient(180deg, #ff6b6b, #c21f3a 50%, #7a0c1f); color: #fff4f4; border-color: #ffc2c2; text-shadow: 0 1px 2px rgba(0,0,0,.6); box-shadow: 0 7px 0 #3a0410, 0 14px 26px rgba(0,0,0,.5), 0 0 30px rgba(255, 40, 60, .4); }
+body.another .gbtn small { color: #ffe0e0; }
+body.another .hud, body.another .panel { background: rgba(26, 6, 14, .92); }
+body.another .avatar { background: radial-gradient(circle, #7a1a2a, #2a0610); }
+body.another .parch { background: linear-gradient(180deg, #e9d8c8, #cdb49c); }
+body.another .rpg { background: rgba(20, 4, 10, .92); border-color: #c21f3a; }
+body.another .village { filter: drop-shadow(0 0 8px rgba(255, 40, 60, .5)); }
+body.another .mapsvg { filter: saturate(.75) brightness(.8) hue-rotate(-12deg); }
+body.another .tile { background: linear-gradient(180deg, #5a2230, #34101a); }
+body.another[data-scene="night"]:has(.moon)::before { display: none; } /* ログイン画面は、大きな月だけにする */
+body.another .castle-land path { fill: #2a0a16; }
+body.another .castle-land path:last-child { fill: #0e0306; }
+body.another .castle-land g { fill: #12030a; }
+/* 村の地面：枯れ草と赤いもや */
+body.another[data-scene="village"] { background: radial-gradient(ellipse at 20% 100%, rgba(160, 20, 40, .35), transparent 55%), linear-gradient(180deg, #12040d 0%, #4a0a1f 26%, #7a1a2a 30%, #2a1a1a 30.2%, #140c0c 100%) fixed; }

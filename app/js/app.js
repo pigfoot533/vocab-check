@@ -49,7 +49,9 @@ const App = (() => {
     try {
       const j = await API.call('init');
       if (!j.ok) { if (j.code === 'closed') return showClosed(j.error); if (!API.loggedIn()) return showLogin(j.error); return showError(j.error); }
-      S.email = j.email; S.name = j.name || j.email.split('@')[0]; S.course = j.course || ''; S.today = j.today; S.config = j.config; S.progress = j.progress;
+      S.email = j.email; S.name = j.name || j.email.split('@')[0]; S.course = j.course || '';
+      try { if (S.course) localStorage.setItem('app-course', S.course); else localStorage.removeItem('app-course'); } catch { /* なし */ }
+      applyTheme(); S.today = j.today; S.config = j.config; S.progress = j.progress;
       applyAppName(j.config.appName, j.config.subtitle);
       Voice.configure(j.config);
       S.list = j.words; S.words = {}; j.words.forEach((w) => { S.words[w.word] = w; });
@@ -59,13 +61,22 @@ const App = (() => {
   }
   function onProgress(p) { if (p) S.progress = p; }
   // アプリの名前（「設定」シートで変えられる。ログイン前にも出せるよう、端末にも覚えておく）
-  function appName() { try { return localStorage.getItem('app-name') || '単語の冒険'; } catch { return '単語の冒険'; } }
-  function appSub() { try { return localStorage.getItem('app-sub') || '〜 忘却の魔王から ことばの王国を救え 〜'; } catch { return ''; } }
+  // 発展コース（Another）：コースのある生徒は、ログイン画面もホームも「Another」の見た目にする
+  // ログイン前は、この端末で前にログインしたときのコース、または URL の「?another」で判断する
+  try { if (/[?&]another\b/.test(location.search)) localStorage.setItem('app-course', localStorage.getItem('app-course') || 'another'); } catch { /* なし */ }
+  function isAnother() { try { return !!localStorage.getItem('app-course'); } catch { return false; } }
+  function applyTheme() { document.body.classList.toggle('another', isAnother()); document.title = appName(); }
+  function baseName() { try { return localStorage.getItem('app-name') || '単語の冒険'; } catch { return '単語の冒険'; } }
+  function appName() { return baseName() + (isAnother() ? ' Another' : ''); }
+  function appSub() {
+    if (isAnother()) return '〜 封印されし 禁断のことばを 解き放て 〜';
+    try { return localStorage.getItem('app-sub') || '〜 忘却の魔王から ことばの王国を救え 〜'; } catch { return ''; }
+  }
   function applyAppName(name, sub) {
     try { if (name) localStorage.setItem('app-name', name); if (sub != null) localStorage.setItem('app-sub', sub); } catch { /* なし */ }
     document.title = appName();
   }
-  document.title = appName();
+  applyTheme();
 
   // ---------- 共通の画面 ----------
   function showLoading(msg) { setScene('night'); main().innerHTML = `<div class="loading"><div class="spinner"></div>${esc(msg)}</div>`; }
@@ -75,7 +86,7 @@ const App = (() => {
       <button class="gbtn" id="retry">もう一度ためす</button></div></div>`;
     $('#retry').onclick = start;
   }
-  function owl(text, who = 'フクロウ先生') {
+  function owl(text, who = isAnother() ? '影のフクロウ' : 'フクロウ先生') {
     return `<div class="rpg owl"><span class="who">${esc(who)}</span><span class="face">🦉</span>${text}<span class="tri">▼</span></div>`;
   }
 
@@ -90,10 +101,12 @@ const App = (() => {
         <rect x="316" y="124" width="9" height="14" fill="#ffd56b"/><rect x="494" y="124" width="9" height="14" fill="#ffd56b"/><rect x="404" y="92" width="11" height="18" fill="#ffd56b"/></g>
         <path d="M0 240 Q200 210 410 232 T820 218 L820 300 L0 300Z" fill="#070618"/></svg>`);
     main().innerHTML = `<div class="login-wrap">
-      <div class="crest">📖</div>
-      <div class="title">${esc(appName())}</div>
+      <div class="crest">${isAnother() ? '🩸' : '📖'}</div>
+      <div class="title">${esc(baseName())}${isAnother() ? '<span class="another-tag">Another</span>' : ''}</div>
       <div class="subtitle">${esc(appSub())}</div>
-      <div class="rpg"><span class="who">フクロウ先生</span>ようこそ、見習い冒険者よ。<br>うばわれた ことばを 取りもどし、王国を 救うのじゃ。<br>まずは 学校のアカウントで 名を名乗るがよい。<span class="tri">▼</span></div>
+      <div class="rpg">${isAnother()
+        ? '<span class="who">影のフクロウ</span>……よくぞ 来た、選ばれし者よ。<br>この先に 待つのは、王国の 奥深くに 封印された 禁断の ことば。<br>覚悟が あるなら、名を 名乗るがよい。'
+        : '<span class="who">フクロウ先生</span>ようこそ、見習い冒険者よ。<br>うばわれた ことばを 取りもどし、王国を 救うのじゃ。<br>まずは 学校のアカウントで 名を名乗るがよい。'}<span class="tri">▼</span></div>
       ${msg ? `<p class="notice">${esc(msg)}</p>` : ''}
       <button class="gbtn" id="login">⚔️ 冒険をはじめる<small>（学校のGoogleアカウントでログイン）</small></button>
       <div class="foot">冬休みクエスト ｜ 締切：${esc(fmtJa(CFG.DEADLINE || '2027-01-13'))}</div>
@@ -196,7 +209,7 @@ const App = (() => {
           ${m.cur && !popWaiting ? `<button class="gbtn" id="go" ${m.canStart ? '' : 'disabled'}>${m.canStart ? (m.curStatus === 'doing' ? '▶ つづきから 冒険する' : `▶ レッスン${m.cur}へ 出発！`) : (allDoneToday ? '今日のクエスト 達成！' : 'また明日 冒険しよう')}</button>` : ''}
         </section>
         <div>
-          <div class="village"><span>🌳</span><span>🏠</span><span>⛪</span><span>🏡</span><span>🌲</span></div>
+          <div class="village">${isAnother() ? '<span>🥀</span><span>🏚️</span><span>🪦</span><span>🏚️</span><span>🦇</span>' : '<span>🌳</span><span>🏠</span><span>⛪</span><span>🏡</span><span>🌲</span>'}</div>
           <div class="tiles">
             <button class="tile" id="toMap"><span class="ic">🗺️</span><span class="t">冒険マップ</span></button>
             <button class="tile" id="toSet"><span class="ic">⚙️</span><span class="t">設定</span></button>
