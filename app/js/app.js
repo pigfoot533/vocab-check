@@ -49,7 +49,7 @@ const App = (() => {
     try {
       const j = await API.call('init');
       if (!j.ok) { if (j.code === 'closed') return showClosed(j.error); if (!API.loggedIn()) return showLogin(j.error); return showError(j.error); }
-      S.email = j.email; S.name = j.name || j.email.split('@')[0]; S.today = j.today; S.config = j.config; S.progress = j.progress;
+      S.email = j.email; S.name = j.name || j.email.split('@')[0]; S.course = j.course || ''; S.today = j.today; S.config = j.config; S.progress = j.progress;
       applyAppName(j.config.appName, j.config.subtitle);
       Voice.configure(j.config);
       S.list = j.words; S.words = {}; j.words.forEach((w) => { S.words[w.word] = w; });
@@ -179,7 +179,7 @@ const App = (() => {
     main().innerHTML = `
       <div class="hud">
         <div class="avatar">🧝</div>
-        <div class="who2"><div class="name">冒険者 ${esc(name)}</div><div class="sub2">${esc(reg.ic + ' ' + reg.name)}を 冒険中</div></div>
+        <div class="who2"><div class="name">冒険者 ${esc(name)}${S.course ? ` <span class="course">⭐ ${esc(S.course)}コース</span>` : ''}</div><div class="sub2">${esc(reg.ic + ' ' + reg.name)}を 冒険中</div></div>
         <div class="res"><span class="pill">🔥 ${streak()}日</span><span class="pill">🗡️ ${learnedWords()}語</span><span class="pill">⏱ ${Math.round((P.studySec || 0) / 60)}分</span></div>
         <button class="gear" id="gear" aria-label="設定">⚙️</button>
       </div>

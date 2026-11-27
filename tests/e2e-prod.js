@@ -21,7 +21,7 @@ const log = (...a) => console.log(...a); const issues = [];
   await fetch(API + '/set?k=' + encodeURIComponent('使える期間') + '&v=' + encodeURIComponent('2099-12-21〜2099-12-31'));
   await p.goto(APP); await p.waitForSelector('#go', { timeout: 8000 }); log('期間外でも「いつでも使える人」（先生）は使える: はい');
   await fetch(API + '/set?k=' + encodeURIComponent('いつでも使える人') + '&v=');
-  await p.goto(APP); await p.waitForSelector('#retry', { timeout: 8000 });
+  await p.goto(APP); await p.waitForSelector('#retry', { timeout: 8000 }); await p.waitForSelector('.aiprep #dl', { timeout: 5000 }).catch(() => {});
   log('期間外の画面:', (await p.textContent('.loading .parch p:nth-child(2)')).trim(), '／発音AIの準備:', (await p.$('.aiprep #dl')) ? 'ある' : 'ない');
   await p.screenshot({ path: OUT + '/期間外.png' });
   await fetch(API + '/set?k=' + encodeURIComponent('使える期間') + '&v=');

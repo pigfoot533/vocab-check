@@ -27,6 +27,13 @@ if (process.env.PROD) ctx.setupProduction(); else ctx.setup();
 const W = JSON.parse(fs.readFileSync(process.env.WORDS || path.join(__dirname, 'words-sample.json')));
 const sh = ss.insertSheet('単語'); sh.appendRow(['英単語', '意味', '例文1', '空欄1', '和訳1', '例文2', '空欄2', '和訳2', '例文3', '空欄3', '和訳3']);
 W.forEach((w) => { const r = [w.word, w.meaning]; for (let i = 0; i < 3; i++) { const e = w.ex[i]; r.push(e ? e.en : '', e ? e.blank : '', e ? e.ja : ''); } sh.appendRow(r); });
+// コースの単語（例：COURSE=発展 COURSE_WORDS=xxx.json → 「単語_発展」シート）
+if (process.env.COURSE && process.env.COURSE_WORDS) {
+  const CW = JSON.parse(fs.readFileSync(process.env.COURSE_WORDS)); const cs = ss.insertSheet('単語_' + process.env.COURSE);
+  cs.appendRow(['英単語', '意味', '例文1', '空欄1', '和訳1', '例文2', '空欄2', '和訳2', '例文3', '空欄3', '和訳3']);
+  CW.forEach((w) => { const r = [w.word, w.meaning]; for (let i = 0; i < 3; i++) { const e = w.ex[i]; r.push(e ? e.en : '', e ? e.blank : '', e ? e.ja : ''); } cs.appendRow(r); });
+}
+Sheet.prototype.getLastColumn = function () { return Math.max(0, ...this.d.map((r) => r.length)); };
 const setCfg = (k, v) => { const row = sheets['設定'].d.find((r) => r[0] === k); if (row) row[1] = v; else sheets['設定'].d.push([k, v]); };
 if (process.env.PERIOD !== undefined) setCfg('使える期間', process.env.PERIOD);
 if (process.env.ALWAYS !== undefined) setCfg('いつでも使える人', process.env.ALWAYS);
@@ -40,6 +47,8 @@ http.createServer((req, res) => {
     res.writeHead(302, { Location: u.searchParams.get('return') + '#token=' + encodeURIComponent(ctx.makeToken_(ME)) }); return res.end();
   }
   if (req.method === 'GET' && u.pathname === '/set') { setCfg(u.searchParams.get('k'), u.searchParams.get('v')); res.writeHead(200, { 'Access-Control-Allow-Origin': '*' }); return res.end('ok'); }
+  if (req.method === 'GET' && u.pathname === '/course') { // 名簿の自分の行のコースを変える
+    const R = sheets['名簿'].d; if (!R[0][4]) R[0][4] = 'コース'; R[1][4] = u.searchParams.get('v') || ''; res.writeHead(200, { 'Access-Control-Allow-Origin': '*' }); return res.end('ok'); }
   if (req.method === 'GET' && u.pathname === '/dump') { res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }); return res.end(JSON.stringify(Object.fromEntries(Object.entries(sheets).map(([k, v]) => [k, v.d])))); }
   let b = ''; req.on('data', (d) => (b += d)); req.on('end', () => { const out = ctx.doPost({ postData: { contents: b } }); res.writeHead(200, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }); res.end(out.s); });
 }).listen(Number(process.env.PORT || 8791), () => console.log('gas mock ready'));

@@ -347,3 +347,5 @@ body[data-scene="boss"] { background: radial-gradient(circle at 50% 30%, #3a0d5c
 /* 発音AIの準備（村・設定・開始前の画面） */
 .aiprep { text-align: center; margin: 10px 0; }
 .aiprep h2 { font-family: var(--title); margin: 0 0 6px; }
+/* コース（発展など）の印 */
+.hud .course { display: inline-block; font-size: 12px; padding: 1px 8px; margin-left: 6px; border-radius: 999px; background: #ffd76a; color: #4a2a00; vertical-align: middle; }

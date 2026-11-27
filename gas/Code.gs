@@ -71,7 +71,7 @@ function doPost(e) {
       // --- 英単語アプリ（試作品）用 ---
       case 'init':
         return json_(withProgress_(who, function (p) {
-          return { ok: true, email: who, name: displayName_(who), serverTime: serverTime, today: today_(), words: loadWords_(), progress: publicProgress_(p), config: publicConfig_() };
+          return { ok: true, email: who, name: displayName_(who), course: p.course || '', serverTime: serverTime, today: today_(), words: loadWords_(), progress: publicProgress_(p), config: publicConfig_() };
         }, false));
       case 'startLesson':
         return json_(withProgress_(who, function (p) { return startLesson_(p, who, Number(d.n)); }, true));
@@ -394,12 +394,27 @@ function withProgress_(who, fn, write) {
     let row = emails.indexOf(who) + 2;
     let p = newProgress_();
     if (row >= 2) { try { p = JSON.parse(sh.getRange(row, 2).getValue()) || p; } catch (e) { /* 壊れていたら新しく */ } }
+    // コース：名簿のコースが変わっていたら、新しいコースのレッスン1から（前のコースの記録は prev に残す）
+    const course = courseOf_(who);
+    CUR_COURSE = course;
+    if ((p.course || '') !== course) {
+      const started = Object.keys(p.lessons || {}).length || (p.pop && (p.pop.history || []).length) || (p.final && p.final.tries);
+      if (started) {
+        const old = JSON.parse(JSON.stringify(p)); delete old.prev;
+        const prev = (p.prev || []).concat([{ course: p.course || '', savedAt: Date.now(), data: old }]);
+        p = newProgress_(); p.prev = prev;
+        logRows_(who, [{ type: 'courseChange', detail: { from: old.course || '標準', to: course || '標準' } }]);
+      }
+      p.course = course;
+      write = true;
+    }
     const res = fn(p);
     if (write) {
       const done = Object.keys(p.lessons || {}).filter(function (k) { return p.lessons[k].done; }).length;
-      const vals = [[who, JSON.stringify(p), new Date(), done, Math.round((p.studySec || 0) / 60)]];
+      const vals = [[who, JSON.stringify(p), new Date(), done, Math.round((p.studySec || 0) / 60), course || '標準']];
       if (row < 2) row = sh.getLastRow() + 1;
-      sh.getRange(row, 1, 1, 5).setValues(vals);
+      sh.getRange(row, 1, 1, 6).setValues(vals);
+      if (!String(sh.getRange(1, 6).getValue())) sh.getRange(1, 6).setValue('コース');
     }
     return res;
   } finally {
@@ -418,13 +433,33 @@ function logRows_(who, events) {
   sh.getRange(sh.getLastRow() + 1, 1, rows.length, rows[0].length).setValues(rows);
 }
 
-let WORDS_CACHE = null;
-function loadWords_() {
-  if (WORDS_CACHE) return WORDS_CACHE;
-  const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('単語');
-  if (!sh || sh.getLastRow() < 2) throw new Error('「単語」シートがありません');
+// ---------- コース（生徒ごとの単語リスト） ----------
+// 「名簿」シートの「コース」列（1行目に「コース」と書いた列）に名前を書くと、その生徒は「単語_コース名」シートの単語を使う
+// 例：コース列に「発展」→「単語_発展」シート。空欄の生徒は「単語」シート（標準）
+let CUR_COURSE = ''; // いま処理している生徒のコース（1回の通信で1人なので、ここに覚えておく）
+function courseOf_(email) {
+  const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('名簿');
+  if (!sh || sh.getLastRow() < 2) return '';
+  const lastCol = sh.getLastColumn ? Math.max(1, sh.getLastColumn()) : 8;
+  const head = sh.getRange(1, 1, 1, lastCol).getValues()[0].map(function (h) { return String(h).trim(); });
+  const col = head.indexOf('コース');
+  if (col < 0) return '';
+  const rows = sh.getRange(2, 1, sh.getLastRow() - 1, col + 1).getValues();
+  const e = String(email).toLowerCase();
+  for (let i = 0; i < rows.length; i++) if (String(rows[i][0]).trim().toLowerCase() === e) return String(rows[i][col]).trim();
+  return '';
+}
+function courseSheetName_(course) { return course ? '単語_' + course : '単語'; }
+
+const WORDS_CACHE = {};
+function loadWords_(course) {
+  const c = course === undefined ? CUR_COURSE : course;
+  if (WORDS_CACHE[c]) return WORDS_CACHE[c];
+  const name = courseSheetName_(c);
+  const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(name);
+  if (!sh || sh.getLastRow() < 2) throw new Error('「' + name + '」シートがありません（名簿のコース：' + (c || '標準') + '）');
   const vals = sh.getRange(2, 1, sh.getLastRow() - 1, 11).getValues();
-  WORDS_CACHE = vals.filter(function (r) { return String(r[0]).trim(); }).map(function (r) {
+  WORDS_CACHE[c] = vals.filter(function (r) { return String(r[0]).trim(); }).map(function (r) {
     const ex = [];
     for (let i = 0; i < 3; i++) {
       const en = String(r[2 + i * 3] || '').trim();
@@ -432,7 +467,7 @@ function loadWords_() {
     }
     return { word: String(r[0]).trim(), meaning: String(r[1]).trim(), ex: ex };
   });
-  return WORDS_CACHE;
+  return WORDS_CACHE[c];
 }
 
 // 「設定」シート（A列：項目、B列：値）
@@ -605,6 +640,8 @@ function setupProduction() {
   const sh = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('設定');
   const vals = sh.getRange(1, 1, sh.getLastRow(), 1).getValues();
   vals.forEach(function (r, i) { const k = String(r[0]).trim(); if (Object.prototype.hasOwnProperty.call(set, k)) sh.getRange(i + 1, 2).setValue(set[k]); });
+  const roster = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('名簿');
+  if (roster && String(roster.getRange(1, 5).getValue()).trim() === '') roster.getRange(1, 5).setValue('コース'); // 空欄＝標準、「発展」＝「単語_発展」シート
   Logger.log('本番の設定にしました。「設定」シートを確認してください');
 }
 // 生徒の記録（進み具合・学習ログ）を全部消す。12/16のテストのあと、本番の前に1回だけ実行する
@@ -658,7 +695,7 @@ function setup() {
   sh.setColumnWidth(1, 300); sh.setColumnWidth(2, 300); sh.setColumnWidth(3, 380);
   if (!ss.getSheetByName('名簿')) {
     const r = ss.insertSheet('名簿');
-    r.getRange(1, 1, 2, 4).setValues([['メール', '名字（アプリに表示）', 'クラス', '番号'], [me, '', '', '']]);
+    r.getRange(1, 1, 2, 5).setValues([['メール', '名字（アプリに表示）', 'クラス', '番号', 'コース'], [me, '', '', '', '']]);
     r.setFrozenRows(1); r.setColumnWidth(1, 300); r.setColumnWidth(2, 180);
   }
   Logger.log('準備ができました');
